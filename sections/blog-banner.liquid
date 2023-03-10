@@ -1,0 +1,82 @@
+{{ 'blog-banner.css' | asset_url | stylesheet_tag }}
+
+{% style %}
+    .blog-banner--{{ section.id }} {
+        padding-top: {{ section.settings.padding_top | times: 0.8 | round: 0 }}px;
+        padding-bottom: {{ section.settings.padding_bottom | times: 0.8 | round: 0 }}px;
+    }
+
+    #article--{{ section.settings.article.id }} {
+        display: none;
+    }
+
+    @media only screen and (min-width: 769px) {
+        .blog-banner--{{ section.id }} {
+            padding-top: {{ section.settings.padding_top }}px;
+            padding-bottom: {{ section.settings.padding_bottom }}px;
+        }
+    }
+{% endstyle %}
+
+<div class="blog-banner blog-banner--{{ section.id }}">
+    <div class="blog-banner__container">
+        <a href="{{ section.settings.article.url }}" class="blog-banner__link"></a>
+        <div class="blog-banner__image image-wrapper">
+            {% if section.settings.article.image != blank%}
+                {{ section.settings.article.image | image_url: width: 610 | image_tag: widths: '375, 480, 550, 610, 720, 930, 1100', alt: section.settings.article.image.alt, loading: 'lazy' }}
+            {% else %}
+                {{ 'image' | placeholder_svg_tag }}
+            {% endif %}
+        </div>
+        <div class="blog-banner__content">
+            <h5 class="blog-banner__title">{{ section.settings.article.title | escape }}</h5>
+            <p class="blog-banner__date">{{ section.settings.article.published_at | date: '%B %d, %Y'  }}</p>
+            <p class="blog-banner__description">{{ section.settings.article.excerpt_or_content | strip | strip_html | truncatewords: 45  }}</p>
+            <a href="{{ section.settings.article.url }}" class="blog-banner__button primary-btn">{{ section.settings.button_text | escape }}</a>
+        </div>
+    </div>
+</div>
+
+{% schema %}
+{
+    "name": "Blog banner",
+    "settings": [
+        {
+            "type": "range",
+            "id": "padding_top",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "unit": "px",
+            "label": "Free spave above",
+            "default": 50
+        },
+        {
+            "type": "range",
+            "id": "padding_bottom",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "unit": "px",
+            "label": "Free spave below",
+            "default": 50
+        },
+        {
+            "type": "article",
+            "id": "article",
+            "label": "Banner article"
+        },
+        {
+            "type": "text",
+            "id": "button_text",
+            "label": "Button text",
+            "default": "Read more"
+        }
+    ],
+    "presets": [
+        {
+            "name": "Blog banner"
+        }
+    ]
+}
+{% endschema %}
