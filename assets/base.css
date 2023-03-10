@@ -2993,3 +2993,27 @@ details-disclosure > details {
     outline: transparent solid 1px;
   }
 }
+
+.image-wrapper {
+  position: relative;
+  width: 100%;
+  display: block;
+}
+
+.image-wrapper:before {
+  content: '';
+  display: block;
+  padding-top: 100%;
+}
+
+.image-wrapper img,
+.image-wrapper video,
+.image-wrapper iframe,
+.image-wrapper svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
