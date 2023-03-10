@@ -1,0 +1,33 @@
+{{ 'article.css' | asset_url | stylesheet_tag }}
+
+<div class="article-banner">
+    <div class="article-banner__container">
+        {% if article.image != blank%}
+            {{ article.image | image_url: width: 610 | image_tag: widths: '375, 480, 550, 610, 720, 930, 1100 1200 1300 1400 1500 1600 1800 2200', alt: article.image.alt, loading: 'lazy', class: 'article-banner__image' }}
+        {% else %}
+            {{ 'image' | placeholder_svg_tag: 'article-banner__image' }}
+        {% endif %}
+        <div class="article-banner__overlay"></div>
+        <h2 class="article-banner__title">{{ article.title | escape }}</h2>
+    </div>
+</div>
+
+<div class="article-content">
+    <button class="article-content__back-button" onclick="history.back()">
+        <svg width="26" height="8" viewBox="0 0 26 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0.646446 3.64645C0.451185 3.84171 0.451185 4.15829 0.646446 4.35355L3.82843 7.53553C4.02369 7.7308 4.34027 7.7308 4.53553 7.53553C4.7308 7.34027 4.7308 7.02369 4.53553 6.82843L1.70711 4L4.53553 1.17157C4.7308 0.976311 4.7308 0.659728 4.53553 0.464466C4.34027 0.269204 4.02369 0.269204 3.82843 0.464466L0.646446 3.64645ZM26 3.5L1 3.5V4.5L26 4.5V3.5Z" fill="#0F4880"/>
+        </svg>
+        <span>Back</span>
+    </button>
+
+    <div class="article-content__container">
+        {{ article.content }}
+    </div>
+
+    <button class="article-content__back-button" onclick="history.back()">
+        <svg width="26" height="8" viewBox="0 0 26 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0.646446 3.64645C0.451185 3.84171 0.451185 4.15829 0.646446 4.35355L3.82843 7.53553C4.02369 7.7308 4.34027 7.7308 4.53553 7.53553C4.7308 7.34027 4.7308 7.02369 4.53553 6.82843L1.70711 4L4.53553 1.17157C4.7308 0.976311 4.7308 0.659728 4.53553 0.464466C4.34027 0.269204 4.02369 0.269204 3.82843 0.464466L0.646446 3.64645ZM26 3.5L1 3.5V4.5L26 4.5V3.5Z" fill="#0F4880"/>
+        </svg>
+        <span>Back</span>
+    </button>
+</div>
