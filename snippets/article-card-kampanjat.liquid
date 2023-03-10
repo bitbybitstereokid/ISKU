@@ -1,0 +1,14 @@
+<a href="{{ article.url }}" class="article-card-kampanjat">
+    <div class="article-card-kampanjat__image-wrapper image-wrapper">
+        {% if article.image != blank%}
+            {{ article.image | image_url: width: 610 | image_tag: widths: '375, 480, 550, 610, 720, 930, 1100', alt: article.image.alt, loading: 'lazy' }}
+        {% else %}
+            {{ 'image' | placeholder_svg_tag }}
+        {% endif %}
+    </div>
+    <div class="article-card-kampanjat__content">
+        <h4 class="article-card-kampanjat__title">{{ article.title }}</h4>
+        <p class="article-card-kampanjat__text">{{ article.excerpt_or_content | strip | strip_html | truncatewords: 35, '' }}</p>
+        <button class="article-card-kampanjat__button primary-btn">{{ section.settings.article_btn_text }}</button>
+    </div>
+</a>
