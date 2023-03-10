@@ -1,0 +1,118 @@
+.hero-banner-half {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-banner-half.in-container {
+    padding: 0;
+}
+
+.hero-banner-half__image::before {
+    padding-top: 106.65%;
+}
+
+.hero-banner-half.in-container .hero-banner-half__image::before {
+    padding-top: 100%;
+}
+
+.hero-banner-half__content {
+    padding: 88px 15px;
+    text-align: center;
+}
+
+.hero-banner-half.in-container .hero-banner-half__content {
+    padding: 32px 15px;
+}
+
+.hero-banner-half__title {
+    font-family: var(--font-body-family);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 150%;
+    text-align: center;
+    color: inherit;
+    margin: 0 0 20px;
+}
+
+.hero-banner-half__text {
+    font-family: var(--font-body-family);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    color: inherit;
+    margin:  0 auto 30px;
+    max-width: 421px;
+}
+
+.hero-banner-half__button {
+    padding: 15px 32px;
+    width: fit-content;
+    min-width: 180px;
+    text-align: center;
+}
+
+@media screen and (min-width:769px) {
+    .hero-banner-half {
+        flex-direction: row;
+    }
+
+    .hero-banner-half.in-container {
+        padding: 0 50px;
+    }
+
+    .hero-banner-half__image {
+        flex: 1 1 800px;
+    }
+
+    .hero-banner-half__image::before {
+        padding-top: 81.25%;
+    }
+
+    .hero-banner-half.in-container .hero-banner-half__image::before {
+        padding-top: 98.4%;
+    }
+
+    .hero-banner-half__content {
+        flex: 1 1 640px;
+        padding: 45px 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero-banner-half.in-container .hero-banner-half__content {
+        padding: 45px 20px;
+    }
+
+    .hero-banner-half__title {
+        font-size: 45px;
+        line-height: 60px;
+    }
+
+    .hero-banner-half__text {
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .hero-banner-half.in-container {
+        padding: 0 100px;
+    }    
+
+    .hero-banner-half__title {
+        font-size: 60px;
+        line-height: 72px;
+    }
+
+    .hero-banner-half__content {
+        padding: 45px;
+    }
+
+    .hero-banner-half.in-container .hero-banner-half__content {
+        padding: 45px 50px;
+    }
+}

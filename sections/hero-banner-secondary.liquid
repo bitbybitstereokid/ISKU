@@ -1,0 +1,156 @@
+{{ 'hero-banner-secondary.css' | asset_url | stylesheet_tag }}
+
+{% style %}
+    .hero-banner-secondary.hero-banner-secondary--{{ section.id }} {
+        padding-top: {{ section.settings.padding_top | times: 0.8 | round: 0 }}px;
+        padding-bottom: {{ section.settings.padding_bottom | times: 0.8 | round: 0 }}px;
+    }
+
+    @media only screen and (min-width: 769px) {
+        .hero-banner-secondary.hero-banner-secondary--{{ section.id }} {
+            padding-top: {{ section.settings.padding_top }}px;
+            padding-bottom: {{ section.settings.padding_bottom }}px;
+        }
+    }
+{% endstyle %}
+
+<div class="hero-banner-secondary hero-banner-secondary--{{ section.id }}">
+    <div class="hero-banner-secondary__container">
+        {% if section.settings.overlay %}
+            <div class="hero-banner-secondary__overlay"></div>
+        {% endif %}
+        <div class="hero-banner-secondary__image image-wrapper">
+            {% if section.settings.image != blank%}
+                {{ section.settings.image | image_url: width: 1440 | image_tag: widths: '550, 760, 1400, 2200', alt: section.settings.image.alt, loading: 'lazy' }}
+            {% else %}
+                {{ 'lifestyle-2' | placeholder_svg_tag }}
+            {% endif %}
+        </div>
+        <div class="hero-banner-secondary__content {{ section.settings.content_position }}">
+            <h2 class="hero-banner-secondary__title">{{ section.settings.title }}</h2>
+            <a href="{{ section.settings.btn_url }}" class="hero-banner-secondary__button primary-btn">{{ section.settings.btn_text }}</a>
+        </div>
+    </div>
+</div>
+
+{% schema %}
+{
+    "name": "Hero banner secondary",
+    "settings": [
+        {
+            "type": "header",
+            "content": "Content"
+        },
+        {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+        },
+        {
+            "type": "text",
+            "id": "title",
+            "label": "Title",
+            "default": "ISKUn brändiviikko!"
+        },
+        {
+            "type": "text",
+            "id": "btn_text",
+            "label": "Button text",
+            "default": "ETUIHIN TÄSTÄ"
+        },
+        {
+            "type": "url",
+            "id": "btn_url",
+            "label": "Button URL"
+        },
+        {
+            "type": "header",
+            "content": "Layout"
+        },
+        {
+            "type": "range",
+            "id": "padding_top",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "unit": "px",
+            "label": "Free spave above",
+            "default": 50
+        },
+        {
+            "type": "range",
+            "id": "padding_bottom",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "unit": "px",
+            "label": "Free spave below",
+            "default": 50
+        },
+        {
+            "type": "select",
+            "id": "content_position",
+            "label": "Content Position",
+            "options": [
+                {
+                    "group": "position",
+                    "value": "top-left",
+                    "label": "Top left"
+                },
+                {
+                    "group": "position",
+                    "value": "center-left",
+                    "label": "Center left"
+                },
+                {
+                    "group": "position",
+                    "value": "bottom-left",
+                    "label": "Bottom left"
+                },
+                {
+                    "group": "position",
+                    "value": "top-center",
+                    "label": "Top center"
+                },
+                {
+                    "group": "position",
+                    "value": "center",
+                    "label": "Center"
+                },
+                {
+                    "group": "position",
+                    "value": "bottom-center",
+                    "label": "Bottom center"
+                },
+                {
+                    "group": "position",
+                    "value": "top-right",
+                    "label": "Top right"
+                },
+                {
+                    "group": "position",
+                    "value": "center-right",
+                    "label": "Center right"
+                },
+                {
+                    "group": "position",
+                    "value": "bottom-right",
+                    "label": "Bottom right"
+                }
+            ],
+            "default": "top-left"
+        },
+        {
+            "type": "checkbox",
+            "id": "overlay",
+            "label": "Add overlay",
+            "default": false
+        }
+    ],
+    "presets": [
+    {
+        "name": "Hero banner secondary"
+    }
+  ]
+}
+{% endschema %}

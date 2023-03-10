@@ -1,0 +1,125 @@
+{{ 'home-page-subscribe.css' | asset_url | stylesheet_tag }}
+
+{% style %}
+    .home-page-subscribe.home-page-subscribe--{{ section.id }} {
+        padding-top: {{ section.settings.padding_top | times: 0.8 | round: 0 }}px;
+        padding-bottom: {{ section.settings.padding_bottom | times: 0.8 | round: 0 }}px;
+    }
+
+    @media only screen and (min-width: 769px) {
+        .home-page-subscribe.home-page-subscribe--{{ section.id }} {
+            padding-top: {{ section.settings.padding_top }}px;
+            padding-bottom: {{ section.settings.padding_bottom }}px;
+        }
+    }
+{% endstyle %}
+
+<div class="home-page-subscribe home-page-subscribe--{{ section.id }}">
+    <div class="home-page-subscribe__container">
+        <div class="home-page-subscribe__content">
+            <h4 class="home-page-subscribe__title">{{ section.settings.title }}</h4>
+            <p class="home-page-subscribe__text">{{ section.settings.text }}</p>
+        </div>
+        {%- form 'customer', class: 'home-page-subscribe__form' -%}
+            <input type="hidden" name="contact[tags]" value="newsletter">
+            <input
+                id="NewsletterForm--{{ section.id }}"
+                type="email"
+                name="contact[email]"
+                class="home-page-subscribe__input"
+                value="{% if form.email %}{{ form.email }}{% elsif customer %}{{ customer.email }}{% endif %}"
+                aria-required="true"
+                autocorrect="off"
+                autocapitalize="off"
+                autocomplete="email"
+                {% if form.errors %}
+                autofocus
+                aria-invalid="true"
+                aria-describedby="ContactFooter-error"
+                {% elsif form.posted_successfully? %}
+                aria-describedby="ContactFooter-success"
+                {% endif %}
+                placeholder="Enter email"
+                required
+            >        
+            <button
+                type="submit"
+                class="home-page-subscribe__button primary-btn"
+                name="commit"
+                aria-label="Subscribe button"
+            >
+                {{ section.settings.btn_text }}
+            </button>
+            {%- if form.errors -%}
+            <small class="newsletter-form__message form__message" id="ContactFooter-error">
+                {%- render 'icon-error' -%}
+                {{- form.errors.translated_fields.email | capitalize }}
+                {{ form.errors.messages.email -}}
+            </small>
+            {%- endif -%}
+            {%- if form.posted_successfully? -%}
+            <h3
+            class="newsletter-form__message newsletter-form__message--success form__message"
+            id="ContactFooter-success"
+            tabindex="-1"
+            autofocus
+            >
+            {% render 'icon-success' -%}
+            {{- 'newsletter.success' | t }}
+            </h3>
+            {%- endif -%}
+        {%- endform -%}
+    </div>
+</div>
+
+{% schema %}
+{
+    "name": "Home page subscribe",
+    "settings": [
+        {
+            "type": "range",
+            "id": "padding_top",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "unit": "px",
+            "label": "Free spave above",
+            "default": 50
+        },
+        {
+            "type": "range",
+            "id": "padding_bottom",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "unit": "px",
+            "label": "Free spave below",
+            "default": 0
+        },
+        {
+            "type": "richtext",
+            "id": "title",
+            "label": "Title",
+            "default": "<p>Sign up to <b>save 10%</b> on your first order!</p>",
+            "info": "Use bold text for accent the text"
+        },
+        {
+            "type": "textarea",
+            "id": "text",
+            "label": "Text",
+            "default": "To learn more about how we use your information, read our Privacy Policy"
+        },
+        {
+            "type": "text",
+            "id": "btn_text",
+            "label": "Button text",
+            "default": "Subscribe"
+        }
+    ],
+    "presets": [
+    {
+        "name": "Home page subscribe"
+    }
+  ]
+}
+{% endschema %}
