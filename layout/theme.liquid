@@ -34,6 +34,9 @@
     <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js" defer="defer"></script>
     <script src="{{ 'about-product-slider.js' | asset_url }}" defer="defer"></script>
+    {% if template.name == 'blog' %}
+      <script src="{{ 'article-list.js' | asset_url }}" defer="defer"></script>
+    {% endif %}
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
     {{ content_for_header }}
 
