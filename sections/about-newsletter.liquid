@@ -1,0 +1,123 @@
+{{ 'about-newsletter.css' | asset_url | stylesheet_tag }}
+
+{% style %}
+    .about-newsletter.about-newsletter--{{ section.id }} {
+        padding-top: {{ section.settings.padding_top | times: 0.8 | round: 0 }}px;
+        padding-bottom: {{ section.settings.padding_bottom | times: 0.8 | round: 0 }}px;
+    }
+
+    @media only screen and (min-width: 769px) {
+        .about-newsletter.about-newsletter--{{ section.id }} {
+            padding-top: {{ section.settings.padding_top }}px;
+            padding-bottom: {{ section.settings.padding_bottom }}px;
+        }
+    }
+{% endstyle %}
+
+<div class="about-newsletter about-newsletter--{{ section.id }}">
+<h2 class="about-newsletter__title">{{ section.settings.title }}</h2>
+    {% form 'customer', class: 'about-newsletter-form' %}
+        <input type="hidden" name="contact[tags]" value="newsletter">
+        <div class="about-newsletter-form__field-wrapper">
+            <div class="about-newsletter-form__field">
+                <input
+                    id="about-newsletter-form--{{ section.id }}"
+                    type="email"
+                    name="contact[email]"
+                    class="about-newsletter-form__input"
+                    value="{{ form.email }}"
+                    aria-required="true"
+                    autocorrect="off"
+                    autocapitalize="off"
+                    autocomplete="email"
+                    {% if form.errors %}
+                        autofocus
+                        aria-invalid="true"
+                        aria-describedby="Newsletter-error--{{ section.id }}"
+                    {% elsif form.posted_successfully? %}
+                        aria-describedby="Newsletter-success--{{ section.id }}"
+                    {% endif %}
+                    placeholder="{{ section.settings.input_placeholder }}"
+                    required
+                >
+                <button
+                    type="submit"
+                    class="about-newsletter-form__button"
+                    name="commit"
+                    id="Subscribe"
+                    aria-label="{{ 'newsletter.button_label' | t }}"
+                >
+                    {{ section.settings.btn_text }}
+                </button>
+            </div>
+            {%- if form.errors -%}
+                <small class="about-newsletter-form__message">
+                {%- render 'icon-error' -%}
+                {{- form.errors.translated_fields.email | capitalize }}
+                {{ form.errors.messages.email -}}
+                </small>
+            {%- endif -%}
+        </div>
+        {%- if form.posted_successfully? -%}
+            <h3
+                class="about-newsletter-form__message about-newsletter-form__message--success"
+                tabindex="-1"
+                autofocus
+            >
+                {% render 'icon-success' -%}
+                {{- 'newsletter.success' | t }}
+            </h3>
+        {%- endif -%}
+        {% endform %}
+    </div>
+
+{% schema %}
+    {
+        "name": "Newsletter",
+        "settings": [
+            {
+                "type": "range",
+                "id": "padding_top",
+                "min": 0,
+                "max": 100,
+                "step": 1,
+                "unit": "px",
+                "label": "Free spave above",
+                "default": 50
+            },
+            {
+                "type": "range",
+                "id": "padding_bottom",
+                "min": 0,
+                "max": 100,
+                "step": 1,
+                "unit": "px",
+                "label": "Free spave below",
+                "default": 50
+            },
+            {
+                "type": "text",
+                "id": "title",
+                "label": "Title",
+                "default": "Subscribe to our mailing list for newsletter exclusives"
+            },
+            {
+                "type": "text",
+                "id": "input_placeholder",
+                "label": "Input placeholder",
+                "default": "Enter your email"
+            },
+            {
+                "type": "text",
+                "id": "btn_text",
+                "label": "Button text",
+                "default": "Subscribe"
+            }
+        ],
+        "presets": [
+            {
+                "name": "Newsletter"
+            }
+        ]
+    }
+{% endschema %}

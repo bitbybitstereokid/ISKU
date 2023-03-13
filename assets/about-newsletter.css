@@ -1,0 +1,100 @@
+.about-newsletter {
+    padding: 0 15px;
+    max-width: 640px;
+    margin: 0 auto;
+}
+
+.about-newsletter__title {
+    font-family: var(--font-body-family);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    text-transform: capitalize;
+    color: #1A1919;
+    margin: 0 0 20px;
+}
+
+.about-newsletter-form__field {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    max-width: 610px;
+    margin: 0 auto;
+}
+
+.about-newsletter-form__field .about-newsletter-form__input {
+    border: 1px solid #1A1919;
+    background-color: transparent;
+    outline: transparent;
+    padding: 13px 14px;
+
+    font-family: var(--font-body-family);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 150%;
+    color: #1A1919;
+}
+
+.about-newsletter-form__field .about-newsletter-form__input::placeholder {
+    font-family: var(--font-body-family);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 150%;
+    color: #1A1919;
+}
+
+.about-newsletter-form__field .about-newsletter-form__button {
+    background: #CE386A;
+    outline: transparent;
+    cursor: pointer;
+    border: none;
+    padding: 15px 60px;
+
+    font-family: var(--font-body-family);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    transition: .2s ease-in-out;
+}
+
+.about-newsletter-form__field .about-newsletter-form__button:hover {
+    background-color: #373737;
+}
+
+
+.about-newsletter-form__field {
+    display: flex;
+}
+
+.about-newsletter-form__message--success {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+
+.about-newsletter-form__message--success svg {
+    max-width: 20px;
+}
+
+@media only screen and (min-width:769px) {
+    .about-newsletter-form__field {
+        flex-direction: row;
+    }
+
+    .about-newsletter-form__field-wrapper .about-newsletter-form__button {
+        flex: 1 1 190px;
+    }
+
+    .about-newsletter-form__field-wrapper .about-newsletter-form__input {
+        flex: 1 1 400px;
+    }
+}
