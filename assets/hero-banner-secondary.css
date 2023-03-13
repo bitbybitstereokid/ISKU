@@ -89,7 +89,7 @@
     line-height: 150%;
     align-items: center;
     text-transform: capitalize;
-    color: #1A1919;
+    color: var(--color-text-primary);
     margin: 0 0 30px;
 }
 

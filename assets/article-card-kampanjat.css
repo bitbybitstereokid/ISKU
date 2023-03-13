@@ -1,7 +1,7 @@
 .article-card-kampanjat {
     text-decoration: none;
     color: inherit;
-    background-color: #F7F7F7;
+    background-color: var(--color-background-3);
     display: flex;
     flex-direction: column;
 }
@@ -36,7 +36,7 @@
     line-height: 150%;
     text-align: center;
     text-transform: capitalize;
-    color: #1A1919;
+    color: var(--color-text-primary);
     margin: 0 0 15px;
 }
 
@@ -47,7 +47,7 @@
     font-size: 14px;
     line-height: 150%;
     text-align: center;
-    color: #1A1919;
+    color: var(--color-text-primary);
     margin: 0 0 15px;
 }
 
@@ -58,7 +58,7 @@
     font-size: 14px;
     line-height: 150%;
     text-align: center;
-    color: #1A1919;
+    color: var(--color-text-primary);
     margin: 0 0 30px;
     flex: 1;
 }
@@ -70,7 +70,7 @@
     font-size: 14px;
     line-height: 150%;
     text-align: center;
-    color: #1A1919;
+    color: var(--color-text-primary);
     margin: 0 0 20px;
 }
 

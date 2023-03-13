@@ -17,7 +17,7 @@
     font-size: 30px;
     line-height: 150%;
     text-align: center;
-    color: #1A1919;
+    color: var(--color-text-primary);
     margin: 0 auto 40px;
     width: 75%;
 }
@@ -33,7 +33,7 @@
     justify-content: center;
     align-items: center;
     background-color: #fff;
-    background: #C8C8C8;
+    background: var(--color-background-1);
     border-radius: 50%;
     cursor: pointer;
     display: none;

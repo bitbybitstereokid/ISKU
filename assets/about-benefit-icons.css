@@ -31,7 +31,7 @@
     line-height: 150%;
     text-align: center;
     text-transform: capitalize;
-    color: #1A1919;
+    color: var(--color-text-primary);
     margin: 0;
 }
 

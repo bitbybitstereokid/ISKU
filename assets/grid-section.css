@@ -8,7 +8,7 @@
     font-weight: 500;
     font-size: 30px;
     line-height: 150%;
-    color: #1A1919;
+    color: var(--color-text-primary);
     margin: 0 0 40px;
     text-align: center;
 }
@@ -36,7 +36,7 @@
     font-size: 18px;
     line-height: 150%;
     text-align: center;
-    color: #1A1919;
+    color: var(--color-text-primary);
     margin: 0;
 }
 
