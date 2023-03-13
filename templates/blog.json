@@ -1,19 +1,33 @@
 {
   "sections": {
     "main": {
-      "type": "main-blog",
+      "type": "about-breadcrumbs",
       "settings": {
-        "layout": "collage",
-        "show_image": true,
-        "image_height": "medium",
-        "show_date": true,
-        "show_author": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+      }
+    },
+    "cf0a5432-e8cd-45ac-89ec-abec653b6c38": {
+      "type": "blog-banner",
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 50,
+        "article": "blog\/autumn-vibes",
+        "button_text": "Read more"
+      }
+    },
+    "af06168b-9369-4b93-b015-5aa67260bfdc": {
+      "type": "article-list",
+      "settings": {
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "title": "Our Blog",
+        "btn_text": "Load More articles",
+        "article_btn_text": "Lue lisää"
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "cf0a5432-e8cd-45ac-89ec-abec653b6c38",
+    "af06168b-9369-4b93-b015-5aa67260bfdc"
   ]
 }
