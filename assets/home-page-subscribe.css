@@ -4,7 +4,7 @@
 
 .home-page-subscribe__container {
     padding: 40px 15px;
-    background-color: #EFEFEF;
+    background-color: var(--color-background-2);
 }
 
 .home-page-subscribe__title {
@@ -15,7 +15,7 @@
     line-height: 150%;
     text-align: center;
     text-transform: capitalize;
-    color: #1A1919;
+    color: var(--color-text-primary);
     margin: 0 0 15px;
 }
 
@@ -38,7 +38,7 @@
     text-align: inherit;
     text-transform: inherit;
     text-transform: uppercase;
-    color: #0F4880;
+    color: var(--color-accent-2);
 }
 
 .home-page-subscribe__text {
@@ -48,7 +48,7 @@
     font-size: 14px;
     line-height: 150%;
     text-align: center;
-    color: #1A1919;
+    color: var(--color-text-primary);
     margin: 0 0 40px;
 }
 
@@ -57,7 +57,7 @@
     display: block;
     background-color: transparent;
     outline: transparent;
-    border: 1px solid #C8C8C8;
+    border: 1px solid var(--color-background-1);
     padding: 19px 15px;
     width: 100%;
     box-shadow: none;
@@ -67,7 +67,7 @@
     font-weight: 300;
     font-size: 14px;
     line-height: 150%;
-    color: #1A1919;
+    color: var(--color-text-primary);
     margin: 0 0 20px;
 }
 

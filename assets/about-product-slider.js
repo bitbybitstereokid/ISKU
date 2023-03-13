@@ -21,6 +21,7 @@ function initProductSlider(sectionID) {
     slidesPerView: 'auto',
     spaceBetween: 15,
     grabCursor: true,
+    enabled: true,
   
     navigation: {
       nextEl: `.product-slider__button-next--${sectionID}`,
@@ -33,4 +34,6 @@ function initProductSlider(sectionID) {
       }
     }
   });
+
+  return productSlider;
 }

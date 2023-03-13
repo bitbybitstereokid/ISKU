@@ -55,9 +55,9 @@
 </div>
 
 <script>
-    document.addEventListener('DOMContentLoaded', () => {
-        setTimeout(() => {
-            initProductSlider('{{ section.id }}');
+    document.addEventListener('DOMContentLoaded', async () => {
+        const productSlider = await setTimeout(() => {
+            return initProductSlider('{{ section.id }}');
         }, 100)
         const productSliderWrapper = document.querySelector('.product-slider--{{ section.id }} .swiper-wrapper')
         const productSlides = Array.from(document.querySelectorAll('.product-slider--{{ section.id }} .swiper-slide'));
@@ -65,19 +65,21 @@
             acc += slide.offsetWidth + 20
             return acc
         }, 0);
-        console.log(productSlidesWidth, 'prodictSlidesWidth');
+
         if (productSlidesWidth <= window.innerWidth) {
             productSliderWrapper.classList.add('centered');
+            productSlider.enabled = false;
         } else {
             productSliderWrapper.classList.remove('centered')
+            productSlider.enabled = true;
         }
         window.addEventListener("resize", (event) => {
             if (productSlidesWidth <= window.innerWidth) {
-                productSliderWrapper.classList.add('centered');
-                console.log('1')
+               productSliderWrapper.classList.add('centered');
+                productSlider.enabled = false;
             } else {
                 productSliderWrapper.classList.remove('centered')
-                console.log('2')
+                productSlider.enabled = true;
             }
         });
     })

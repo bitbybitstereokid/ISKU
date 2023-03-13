@@ -10,7 +10,7 @@
     font-size: 30px;
     line-height: 150%;
     text-transform: capitalize;
-    color: #1A1919;
+    color: var(--color-text-primary);
     margin: 0 0 40px;
     text-align: left;
 }
@@ -45,7 +45,7 @@
 }
 
 .article-list__load-more .article-list__load-more--loading svg {
-    fill: #0F4880;
+    fill: var(--color-accent-2);
 }
 
 .article-list__load-more.loading .article-list__load-more--loading {

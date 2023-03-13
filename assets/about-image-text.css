@@ -41,7 +41,7 @@
     font-size: 30px;
     line-height: 150%;
     text-transform: capitalize;
-    color: #1A1919;
+    color: var(--color-text-primary);
     margin: 0 0 20px;
 }
 
@@ -51,7 +51,7 @@
     font-weight: 300;
     font-size: 14px;
     line-height: 150%;
-    color: #1A1919;
+    color: var(--color-text-primary);
 }
 
 .about-image-text__text p {
@@ -68,7 +68,7 @@
     border: none;
     cursor: pointer;
     padding: 15px 60px;
-    background: #CE386A;
+    background: var(--color-accent-1);
     text-decoration: none;
 
     font-family: var(--font-body-family);
@@ -78,14 +78,14 @@
     line-height: 17px;
     text-align: center;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: var(--color-text-accent);
     transition: .2s ease-in-out;
     margin: 30px 0 0;
 }
 
 .about-image-text__button:hover,
 .about-image-text__button:active {
-    background: #373737;
+    background: var(--color-text-secondary);
 }
 
 

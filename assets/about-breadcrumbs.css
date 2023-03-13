@@ -23,7 +23,7 @@
     transform: translate(-50%, -50%);
     width: 6px;
     height: 6px;
-    background: #1A1919;
+    background: var(--color-text-primary);
     border-radius: 50%;
 }
 
@@ -36,7 +36,7 @@
     font-weight: 300;
     font-size: 14px;
     line-height: 150%;
-    color: #1A1919;
+    color: var(--color-text-primary);
 }
 
 @media only screen and (min-width: 769px) {
