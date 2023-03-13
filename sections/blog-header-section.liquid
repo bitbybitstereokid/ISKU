@@ -1,0 +1,71 @@
+<style>
+    .blog-header {
+        max-width: 500px;
+        padding: 0 46px 25px;
+        margin: 0 auto;
+    }
+
+    .blog-header__title {
+        font-family: var(--font-body-family);
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 150%;
+        text-align: center;
+        text-transform: capitalize;
+        color: #1A1919;
+        margin: 0 0 15px;
+    }
+
+    .blog-header__text {
+        font-family: var(--font-body-family);
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 150%;
+        text-align: center;
+        color: #1A1919;
+        margin: 0;
+    }
+
+    @media only screen and (min-width:769px) {
+        .blog-header {
+            padding: 0 46px;
+        }
+
+        .blog-header__title {
+            font-size: 40px;
+            line-height: 48px;
+        }
+    }
+</style>
+
+<div class="blog-header blog-header--{{ section.id }}">
+    <h2 class="blog-header__title">{{ section.settings.title }}</h2>
+    <p class="blog-header__text">{{ section.settings.text }}</p>
+</div>
+
+{% schema %}
+{
+    "name": "Blog header",
+    "settings": [
+        {
+            "type": "text",
+            "id": "title",
+            "label": "Title",
+            "default": "Kampanjat"
+        },
+        {
+            "type": "textarea",
+            "id": "text",
+            "label": "Text",
+            "default": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint."
+        }
+    ],
+    "presets": [
+    {
+        "name": "Blog header"
+    }
+  ]
+}
+{% endschema %}
