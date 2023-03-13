@@ -1,0 +1,153 @@
+{%- assign maskClass = "" -%}
+{% if section.settings.mask_banner == true %}
+{%- assign maskClass =  maskClass | append: "_maskBanner" -%}
+{% endif %}
+<div class="bannerText bannerText-{{section.id}}">
+    <div class="bannerText__conteiner page-width ">
+        {% if section.settings.h_tag == "h1" %}<h1 class="bannerText__title">{%- else -%}<h2 class="bannerText__title">{% endif %}
+            {{section.settings.title_text}}
+        {% if section.settings.h_tag == "h1" %}</h1>{%- else -%}</h2>{% endif %}
+        <div class="bannerText__img {{maskClass}}">
+            <img class="banner__img-desktop" src="{{section.settings.banner_photo | img_url: 'master'}}" alt="{{section.settings.banner_photo.alt}}" loading="lazy">
+            {% if section.settings.banner_photo_mobile != blank %}
+            <img class="banner__img-mobile" src="{{section.settings.banner_photo_mobile | img_url: 'master'}}" alt="{{section.settings.banner_photo_mobile.alt}}" loading="lazy">  
+            {%- else -%}
+            <img class="banner__img-mobile" src="{{section.settings.banner_photo | img_url: 'master'}}" alt="{{section.settings.banner_photo.alt}}" loading="lazy">  
+            {% endif %}
+        </div>
+    </div>
+</div>
+{{ "component-banner-section.css" | asset_url | stylesheet_tag }}
+{%- style -%}
+.bannerText-{{section.id}}{
+    padding-top: {{section.settings.st}}px;
+    padding-bottom: {{section.settings.sb}}px;
+}
+.bannerText-{{section.id}} ._maskBanner:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(100, 100, 100, 0.{{section.settings.opacity_mask}});
+    z-index: 2;
+}
+@media(max-width: 768px) {
+    .bannerText-{{section.id}} {
+        padding-top: {{section.settings.stm}}px;
+        padding-bottom: {{section.settings.sbm}}px;
+    }
+}
+{%- endstyle-%}
+
+{% schema %}
+{
+    "name": "Banner text",
+    "settings": [
+        {
+            "type": "checkbox",
+            "id": "mask_banner",
+            "label": "Mask for banner",
+            "default": true
+        },
+        {
+            "type": "range",
+            "id": "opacity_mask",
+            "label": "Opacity",
+            "unit": "%",
+            "min": 1,
+            "max": 99,
+            "step": 1,
+            "default": 45
+        },
+        {
+            "type": "header",
+            "content": "Desktop space"
+        },
+        {
+            "type": "range",
+            "id": "st",
+            "label": "Space top",
+            "unit": "px",
+            "min": 0,
+            "max": 200,
+            "step": 2,
+            "default": 40
+        },
+        {
+            "type": "range",
+            "id": "sb",
+            "label": "Space bottom",
+            "unit": "px",
+            "min": 0,
+            "max": 200,
+            "step": 2,
+            "default": 100
+        },
+        {
+            "type": "header",
+            "content": "Mobile space"
+        },
+        {
+            "type": "range",
+            "id": "stm",
+            "label": "Space top ",
+            "unit": "px",
+            "min": 0,
+            "max": 200,
+            "step": 2,
+            "default": 40
+        },
+        {
+            "type": "range",
+            "id": "sbm",
+            "label": "Space bottom",
+            "unit": "px",
+            "min": 0,
+            "max": 200,
+            "step": 2,
+            "default": 80
+        },
+        {
+            "type": "select",
+            "id": "h_tag",
+            "label": "Type of H tag",
+            "default": "h1",
+            "options": [
+                {
+                    "value": "h1",
+                    "label": "H1"
+                },
+                {
+                    "value": "h2",
+                    "label": "H2"
+                }
+            ]
+        },
+        {
+            "type": "image_picker",
+            "id": "banner_photo",
+            "label": "Banner desktop",
+            "info": "Recommend size for img 1240 * 301"
+        },
+        {
+            "type": "image_picker",
+            "id": "banner_photo_mobile",
+            "label": "Banner mobile",
+            "info": "Recommend size for img 345 * 301"
+        },
+        {
+            "type": "text",
+            "id": "title_text",
+            "label": "Title text",
+            "default": "Ota meihin yhteyttä"
+        }
+    ],
+    "presets": [
+        {
+            "name": "Banner text"
+        }
+    ]
+}
+{% endschema %}
