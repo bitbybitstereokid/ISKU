@@ -168,6 +168,7 @@
     "3d45458a-fc10-48c0-80b4-70414810b48e": {
       "type": "about-image-text",
       "settings": {
+        "image": "shopify:\/\/shop_images\/Rectangle_42.jpg",
         "padding_top": 50,
         "padding_bottom": 50,
         "reverse": false,
@@ -181,8 +182,9 @@
     "273fe876-ab7b-4aad-8dec-4cf8c8f92d7c": {
       "type": "about-image-text",
       "settings": {
+        "image": "shopify:\/\/shop_images\/Rectangle_42_84085027-b1f5-478b-b8a0-5497189359e4.jpg",
         "padding_top": 50,
-        "padding_bottom": 100,
+        "padding_bottom": 50,
         "reverse": true,
         "text_centered": true,
         "title": "Title",
