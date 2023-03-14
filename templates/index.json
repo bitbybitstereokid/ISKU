@@ -3,8 +3,8 @@
     "5ffa3993-f36e-4b26-a08a-60dd72c4d9be": {
       "type": "hero-banner-half",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Rectangle_64.jpg",
-        "title": "ISKUn brändiviikko!",
+        "image": "shopify:\/\/shop_images\/minimal-picture-frame-with-scandinavian-design_1.jpg",
+        "title": "ISKUn Brändiviikko!",
         "text": "Saat 5.3. saakka ISKUn Lahden omalla tehtaalla valmistetuista tuotteista suosikkisi -30% koodilla ISKU-30!",
         "btn_text": "ISKUN TUOTTEISIIN TÄSTÄ",
         "btn_url": "",
@@ -18,7 +18,6 @@
     "a62c2669-6545-452b-8c54-de617831aae4": {
       "type": "hero-banner-secondary",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Rectangle_65.jpg",
         "title": "ISKUssa On Nyt Univiikot!",
         "btn_text": "ETUIHIN TÄSTÄ",
         "btn_url": "",
@@ -97,7 +96,6 @@
         "template--18265806242090__71faa244-acd3-4776-9fcf-94afd49f27c6-1678440586048b43de-0": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/minimal-picture-frame-with-scandinavian-design_1_7ae7aa18-fb14-4413-9ef8-ef6e9b154136.jpg",
             "title": "Sohvat Ja Nojatuolit",
             "url": ""
           }
@@ -105,7 +103,6 @@
         "template--18265806242090__71faa244-acd3-4776-9fcf-94afd49f27c6-1678440586048b43de-1": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/vintage-ceiling-light-lamp_1_5800328d-f749-400c-8784-e1262119dca7.jpg",
             "title": "Tasot, Hyllyt Ja Säilytys",
             "url": ""
           }
@@ -113,7 +110,6 @@
         "template--18265806242090__71faa244-acd3-4776-9fcf-94afd49f27c6-1678440586048b43de-2": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/minimalistic-still-life-with-candles-interior-room_1_d4980502-f47a-4b47-86ea-f648de603d90.jpg",
             "title": "Puutarhakalusteet",
             "url": ""
           }
@@ -121,7 +117,6 @@
         "template--18265806242090__71faa244-acd3-4776-9fcf-94afd49f27c6-1678440586048b43de-3": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/interior-design-with-photoframes-shelves_1_fcbbdd87-f12c-4fa7-9407-f3bc20ba0c27.jpg",
             "title": "Valaisimet",
             "url": ""
           }
@@ -155,7 +150,6 @@
     "b9432f4d-03b8-46a9-af6c-e2e8cbe547e1": {
       "type": "hero-banner-secondary",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Rectangle_68.jpg",
         "title": "Trendikäs Uutuus Tuoli 53 On Täällä!",
         "btn_text": "TUTUSTU TÄSTÄ",
         "btn_url": "",
@@ -168,7 +162,6 @@
     "3d45458a-fc10-48c0-80b4-70414810b48e": {
       "type": "about-image-text",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Rectangle_42_3f5ead81-c23d-495e-8fdc-26e0892b9496.jpg",
         "padding_top": 50,
         "padding_bottom": 50,
         "reverse": false,
@@ -182,7 +175,6 @@
     "273fe876-ab7b-4aad-8dec-4cf8c8f92d7c": {
       "type": "about-image-text",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Rectangle_42_e2a99005-2f43-4a42-ace4-809673340579.jpg",
         "padding_top": 50,
         "padding_bottom": 100,
         "reverse": true,
