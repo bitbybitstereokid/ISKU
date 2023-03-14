@@ -37,7 +37,7 @@
       "type": "about-product-slider",
       "settings": {
         "title": "",
-        "collection": "automated-collection",
+        "collection": "chairs",
         "padding_top": 50,
         "padding_bottom": 50
       }
