@@ -1,3 +1,6 @@
+.page_width_container {
+    padding: 0 100px;
+}
 .contactWithText_container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -451,5 +454,10 @@
 
     .submit input {
         max-width: 100%;
+    }
+}
+@media(max-width: 768px) {
+    .page_width_container {
+        padding: 0 15px;
     }
 }
