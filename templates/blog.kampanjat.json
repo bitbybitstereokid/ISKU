@@ -45,7 +45,7 @@
       "settings": {
         "padding_top": 50,
         "padding_bottom": 50,
-        "title": "Our Blog",
+        "title": "",
         "btn_text": "Load More articles",
         "article_btn_text": "Lue lisää"
       }
