@@ -1,6 +1,9 @@
 .textWithImage {
     
 }
+.page_width_container {
+    padding: 0 100px;
+}
 
 
 .textWithImage_container {
@@ -141,6 +144,9 @@
 }
 
 @media(max-width: 768px) {
+    .page_width_container {
+        padding: 0 15px;
+    }
     .textWithImage_img {
         padding-bottom: 100%;
     }
