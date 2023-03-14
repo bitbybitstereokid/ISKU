@@ -1,7 +1,6 @@
-.page-width {
+.page_width_container {
     padding: 0 100px;
 }
-
 .bannerText {}
 
 .bannerText__conteiner {
@@ -55,6 +54,9 @@
 
 @media(max-width: 768px) {
     .page-width {
+        padding: 0 15px;
+    }
+    .page_width_container {
         padding: 0 15px;
     }
 
