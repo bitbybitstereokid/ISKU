@@ -3,10 +3,142 @@
     "main": {
       "type": "banner-section",
       "settings": {
+        "mask_banner": true,
+        "opacity_mask": 45,
+        "st": 40,
+        "sb": 100,
+        "stm": 40,
+        "sbm": 80,
+        "h_tag": "h1",
+        "banner_photo": "shopify:\/\/shop_images\/Rectangle_37_2.png",
+        "banner_photo_mobile": "shopify:\/\/shop_images\/Rectangle_37_3.png",
+        "title_text": "Projektimyynti"
+      }
+    },
+    "acf58b64-fe01-4806-aacf-938e9a4181f2": {
+      "type": "isku-text-with-image",
+      "blocks": {
+        "c9a5e4c7-476d-4b90-a229-8ca75dd92bb5": {
+          "type": "img",
+          "settings": {
+            "img_desk": "shopify:\/\/shop_images\/Rectangle_55.png",
+            "img_mobile": "shopify:\/\/shop_images\/image_34.png"
+          }
+        },
+        "01cb4396-1e1e-4479-a3f7-3affd504f887": {
+          "type": "text",
+          "settings": {
+            "description": "<p>Exercitation veniam consequat sunt nostrud amet. Exercitatio n veniam consequat sunt nostrud amet.Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.<\/p>",
+            "svg_code_1": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"17\" height=\"14\" viewbox=\"0 0 17 14\" fill=\"none\">\n<path d=\"M10.5 0.333313H16.3334V1.99998H10.5V0.333313ZM11.3334 3.66665H16.3334V5.33331H11.3334V3.66665ZM13 6.99998H16.3334V8.66665H13V6.99998ZM5.75586 0.333313L0.755859 13.6666H2.53669L4.09919 9.49998H9.40169L10.9642 13.6666H12.745L7.74503 0.333313H5.75586ZM4.72336 7.83331L6.75003 2.42915L8.77669 7.83331H4.72336Z\" fill=\"#1A1919\"><\/path>\n<\/svg>",
+            "text_line_1": "<p>Yhteydenottolomake.<\/p>",
+            "svg_code_2": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"20\" height=\"20\" viewbox=\"0 0 20 20\" fill=\"none\">\n<path d=\"M8.79454 5.2L5.97538 1.94584C5.65038 1.57084 5.05454 1.5725 4.67704 1.95084L2.35871 4.27334C1.66871 4.96417 1.47121 5.99001 1.87038 6.81251C4.25506 11.75 8.23708 15.7376 13.1712 18.1292C13.9929 18.5283 15.0179 18.3308 15.7079 17.64L18.0479 15.2958C18.427 14.9167 18.4279 14.3175 18.0495 13.9925L14.7829 11.1883C14.4412 10.895 13.9104 10.9333 13.5679 11.2767L12.4312 12.415C12.373 12.476 12.2964 12.5162 12.2132 12.5294C12.1299 12.5427 12.0446 12.5283 11.9704 12.4883C10.1124 11.4184 8.5712 9.8752 7.50371 8.01584C7.46373 7.94146 7.44926 7.85603 7.4625 7.77264C7.47575 7.68924 7.51599 7.6125 7.57704 7.55417L8.71038 6.42C9.05371 6.075 9.09121 5.54167 8.79454 5.19917V5.2Z\" stroke=\"#CE386A\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<\/svg>",
+            "text_line_2": "<p>Puh. +358 29 309 3000 <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "c9a5e4c7-476d-4b90-a229-8ca75dd92bb5",
+        "01cb4396-1e1e-4479-a3f7-3affd504f887"
+      ],
+      "settings": {
+        "st": 40,
+        "sb": 100,
+        "stm": 40,
+        "sbm": 80
+      }
+    },
+    "85c9f031-9806-4c09-b055-44a1b621132c": {
+      "type": "about-product-slider",
+      "settings": {
+        "title": "",
+        "collection": "chairs",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "b3ba44ac-f8bf-4e95-a14d-63409b45d44c": {
+      "type": "isku-gallery-image",
+      "blocks": {
+        "d0f50ef0-47b2-4eee-9a85-2dcdf8227266": {
+          "type": "image",
+          "settings": {
+            "gallery_image": "shopify:\/\/shop_images\/image_41.png",
+            "gallery_image_mobile": "shopify:\/\/shop_images\/image_36.png"
+          }
+        },
+        "eedcf8ef-90d5-4f47-81e8-6857f34a7b91": {
+          "type": "image",
+          "settings": {
+            "gallery_image": "shopify:\/\/shop_images\/image_44.png",
+            "gallery_image_mobile": "shopify:\/\/shop_images\/image_37.png"
+          }
+        },
+        "d4073a7a-26f3-479f-b97e-5af210b872ac": {
+          "type": "image",
+          "settings": {
+            "gallery_image": "shopify:\/\/shop_images\/image_42.png",
+            "gallery_image_mobile": "shopify:\/\/shop_images\/image_38.png"
+          }
+        },
+        "ad9acbdf-34a1-48e2-ba7f-b589aff3c27b": {
+          "type": "image",
+          "settings": {
+            "gallery_image": "shopify:\/\/shop_images\/image_45.png",
+            "gallery_image_mobile": "shopify:\/\/shop_images\/image_39.png"
+          }
+        },
+        "7f78dcf9-c26d-4551-aa76-eb837e41826f": {
+          "type": "image",
+          "settings": {
+            "gallery_image": "shopify:\/\/shop_images\/image_46.png",
+            "gallery_image_mobile": "shopify:\/\/shop_images\/image_40.png"
+          }
+        },
+        "a39fbdc1-7579-4bb1-8f6c-81de15bb30d7": {
+          "type": "image",
+          "settings": {
+            "gallery_image": "shopify:\/\/shop_images\/image_47.png",
+            "gallery_image_mobile": "shopify:\/\/shop_images\/image_42_1.png"
+          }
+        },
+        "3ea51dd1-0fc4-4852-9a26-419d1c1c1eb7": {
+          "type": "image",
+          "settings": {
+            "gallery_image": "shopify:\/\/shop_images\/image_48.png",
+            "gallery_image_mobile": "shopify:\/\/shop_images\/image_41_1.png"
+          }
+        },
+        "cd21a8be-809b-4384-877b-f3ed073c98a1": {
+          "type": "image",
+          "settings": {
+            "gallery_image": "shopify:\/\/shop_images\/image_49.png",
+            "gallery_image_mobile": "shopify:\/\/shop_images\/image_43.png"
+          }
+        }
+      },
+      "block_order": [
+        "d0f50ef0-47b2-4eee-9a85-2dcdf8227266",
+        "eedcf8ef-90d5-4f47-81e8-6857f34a7b91",
+        "d4073a7a-26f3-479f-b97e-5af210b872ac",
+        "ad9acbdf-34a1-48e2-ba7f-b589aff3c27b",
+        "7f78dcf9-c26d-4551-aa76-eb837e41826f",
+        "a39fbdc1-7579-4bb1-8f6c-81de15bb30d7",
+        "3ea51dd1-0fc4-4852-9a26-419d1c1c1eb7",
+        "cd21a8be-809b-4384-877b-f3ed073c98a1"
+      ],
+      "settings": {
+        "st": 100,
+        "sb": 100,
+        "stm": 40,
+        "sbm": 80,
+        "title_section": "Referenssit"
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "acf58b64-fe01-4806-aacf-938e9a4181f2",
+    "85c9f031-9806-4c09-b055-44a1b621132c",
+    "b3ba44ac-f8bf-4e95-a14d-63409b45d44c"
   ]
 }
