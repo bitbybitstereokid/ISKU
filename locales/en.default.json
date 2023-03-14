@@ -1,5 +1,15 @@
 {
   "general": {
+        "contact_form":{
+      "first_name": "Name*",
+      "company_email": "Email*",
+      "phone": "Order number",
+      "tell":"Message*",
+      "submit":"Submit",
+      "how":"Topic*",
+      "chose":"Topic*",
+      "success":"Email sent successfully"
+    },
     "password_page": {
       "login_form_heading": "Enter store using password:",
       "login_password_button": "Enter using password",
