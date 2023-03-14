@@ -1,5 +1,9 @@
 .galleryImage {}
 
+.page_width_container {
+    padding: 0 100px;
+}
+
 .galleryImage_title {
     font-family: var(--font-body-family);
     font-size: 40px;
@@ -58,9 +62,14 @@
 
 .galleryImage_swiper-slide {
     height: unset;
+    position: relative;
+    padding-bottom: 50%;
 }
 
-.galleryImage_swiper-slide img {
+.galleryImage_swiper-slide .galleryImage_swiper-slide-img {
+    position: absolute;
+    top: 0;
+    left: 0;
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -210,6 +219,9 @@ html._show .galleryImage_pop-up {
 }
 
 @media(max-width: 768px) {
+    .page_width_container {
+        padding: 0 15px;
+    }
     .galleryImage_item-desktop {
         display: none;
     }
