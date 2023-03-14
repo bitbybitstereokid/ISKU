@@ -2,24 +2,67 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 36,
         "padding_bottom": 36
       }
     },
-    "form": {
-      "type": "contact-form",
+    "1e245789-bafb-4460-bd23-5dfcde05ec7e": {
+      "type": "banner-section",
       "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "mask_banner": true,
+        "opacity_mask": 45,
+        "st": 40,
+        "sb": 100,
+        "stm": 40,
+        "sbm": 80,
+        "h_tag": "h1",
+        "banner_photo": "shopify:\/\/shop_images\/Rectangle_37.png",
+        "banner_photo_mobile": "shopify:\/\/shop_images\/Rectangle_37_1.png",
+        "title_text": "Ota meihin yhteyttä"
+      }
+    },
+    "475abe9f-5d8e-43df-a39c-c481de1251db": {
+      "type": "contact_us-custom",
+      "blocks": {
+        "88af4ccb-7bec-49e5-b0be-515fbe3a7769": {
+          "type": "dropdown",
+          "settings": {
+            "dropdown": "Topic 1"
+          }
+        },
+        "5cf2984c-7e26-47c8-afd9-65a2967c2790": {
+          "type": "dropdown",
+          "settings": {
+            "dropdown": "Topic 2"
+          }
+        },
+        "cf03ca8b-7e32-4487-8376-5a1169e42c44": {
+          "type": "dropdown",
+          "settings": {
+            "dropdown": "Topic 3"
+          }
+        }
+      },
+      "block_order": [
+        "88af4ccb-7bec-49e5-b0be-515fbe3a7769",
+        "5cf2984c-7e26-47c8-afd9-65a2967c2790",
+        "cf03ca8b-7e32-4487-8376-5a1169e42c44"
+      ],
+      "settings": {
+        "st": 0,
+        "sb": 100,
+        "stm": 0,
+        "sbm": 80,
+        "title": "Get in touch with us!",
+        "description": "<p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.  Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Velit officia consequat duis enim velit mollit. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.<br\/><br\/>Exercitation veniam consequat sunt nostrud amet. Exercitatio n veniam consequat sunt nostrud amet.Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.<\/p>"
       }
     }
   },
   "order": [
     "main",
-    "form"
+    "1e245789-bafb-4460-bd23-5dfcde05ec7e",
+    "475abe9f-5d8e-43df-a39c-c481de1251db"
   ]
 }
