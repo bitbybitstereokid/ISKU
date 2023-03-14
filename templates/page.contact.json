@@ -8,12 +8,17 @@
         "padding_bottom": 36
       }
     },
+    "e1ecd320-9c8f-475f-afb6-df2be51fb8aa": {
+      "type": "about-breadcrumbs",
+      "settings": {
+      }
+    },
     "1e245789-bafb-4460-bd23-5dfcde05ec7e": {
       "type": "banner-section",
       "settings": {
         "mask_banner": true,
         "opacity_mask": 45,
-        "st": 40,
+        "st": 0,
         "sb": 100,
         "stm": 40,
         "sbm": 80,
@@ -62,6 +67,7 @@
   },
   "order": [
     "main",
+    "e1ecd320-9c8f-475f-afb6-df2be51fb8aa",
     "1e245789-bafb-4460-bd23-5dfcde05ec7e",
     "475abe9f-5d8e-43df-a39c-c481de1251db"
   ]
