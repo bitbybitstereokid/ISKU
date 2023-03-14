@@ -1,22 +1,3 @@
-{%- assign maskClass = "" -%}
-{% if section.settings.mask_banner == true %}
-{%- assign maskClass =  maskClass | append: "_maskBanner" -%}
-{% endif %}
-<div class="bannerText bannerText-{{section.id}}">
-    <div class="bannerText__conteiner page-width ">
-        {% if section.settings.h_tag == "h1" %}<h1 class="bannerText__title">{%- else -%}<h2 class="bannerText__title">{% endif %}
-            {{section.settings.title_text}}
-        {% if section.settings.h_tag == "h1" %}</h1>{%- else -%}</h2>{% endif %}
-        <div class="bannerText__img {{maskClass}}">
-            <img class="banner__img-desktop" src="{{section.settings.banner_photo | img_url: 'master'}}" alt="{{section.settings.banner_photo.alt}}" loading="lazy">
-            {% if section.settings.banner_photo_mobile != blank %}
-            <img class="banner__img-mobile" src="{{section.settings.banner_photo_mobile | img_url: 'master'}}" alt="{{section.settings.banner_photo_mobile.alt}}" loading="lazy">  
-            {%- else -%}
-            <img class="banner__img-mobile" src="{{section.settings.banner_photo | img_url: 'master'}}" alt="{{section.settings.banner_photo.alt}}" loading="lazy">  
-            {% endif %}
-        </div>
-    </div>
-</div>
 {{ "component-banner-section.css" | asset_url | stylesheet_tag }}
 {%- style -%}
 .bannerText-{{section.id}}{
@@ -41,6 +22,25 @@
 }
 {%- endstyle-%}
 
+{%- assign maskClass = "" -%}
+{% if section.settings.mask_banner == true %}
+{%- assign maskClass =  maskClass | append: "_maskBanner" -%}
+{% endif %}
+<div class="bannerText bannerText-{{section.id}}">
+    <div class="bannerText__conteiner page_width_container">
+        {% if section.settings.h_tag == "h1" %}<h1 class="bannerText__title">{%- else -%}<h2 class="bannerText__title">{% endif %}
+            {{section.settings.title_text}}
+        {% if section.settings.h_tag == "h1" %}</h1>{%- else -%}</h2>{% endif %}
+        <div class="bannerText__img {{maskClass}}">
+            <img class="banner__img-desktop" src="{{section.settings.banner_photo | img_url: 'master'}}" alt="{{section.settings.banner_photo.alt}}" loading="lazy">
+            {% if section.settings.banner_photo_mobile != blank %}
+            <img class="banner__img-mobile" src="{{section.settings.banner_photo_mobile | img_url: 'master'}}" alt="{{section.settings.banner_photo_mobile.alt}}" loading="lazy">  
+            {%- else -%}
+            <img class="banner__img-mobile" src="{{section.settings.banner_photo | img_url: 'master'}}" alt="{{section.settings.banner_photo.alt}}" loading="lazy">  
+            {% endif %}
+        </div>
+    </div>
+</div>
 {% schema %}
 {
     "name": "Banner text",
