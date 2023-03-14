@@ -1,28 +1,60 @@
 {
   "sections": {
-    "67af8a46-b902-47ec-85a1-9b3ea56d1448": {
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "featured_image": {
+          "type": "featured_image",
+          "settings": {
+            "image_height": "adapt"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "blog_show_date": true,
+            "blog_show_author": false
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "content": {
+          "type": "content",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "featured_image",
+        "title",
+        "share",
+        "content"
+      ],
+      "settings": {
+      }
+    },
+    "cf5dc5ab-baf7-46c3-a057-f50642c8bac8": {
       "type": "about-breadcrumbs",
       "settings": {
       }
     },
-    "main": {
-      "type": "article",
-      "settings": {
-      }
-    },
-    "61777d5d-7919-4f6e-b038-fec3643a2bd3": {
+    "386dee0a-4d84-431f-bc52-151cd1467bd7": {
       "type": "about-product-slider",
       "settings": {
         "title": "Blogipostaukseen liittyvät tuotteet",
-        "collection": "automated-collection",
+        "collection": "chairs",
         "padding_top": 50,
         "padding_bottom": 100
       }
     }
   },
   "order": [
-    "67af8a46-b902-47ec-85a1-9b3ea56d1448",
     "main",
-    "61777d5d-7919-4f6e-b038-fec3643a2bd3"
+    "cf5dc5ab-baf7-46c3-a057-f50642c8bac8",
+    "386dee0a-4d84-431f-bc52-151cd1467bd7"
   ]
 }
