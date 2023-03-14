@@ -14,15 +14,30 @@
 
 <div class="galleryImage galleryImage-{{section.id}}">
     <h2 class="galleryImage_title">{{section.settings.title_section}}</h2>
-    <div class="galleryImage_container page-width">
+    <div class="galleryImage_container page_width_container">
         {% for block in section.blocks %}
             <div class="galleryImage_item">
                 <svg class="galleryImage_item-zoom" width="48" height="48" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><g id="zoom"><path fill="#fff" d="M93.26,93.59l-23.94-24a38,38,0,1,0-3.16,2.5L90.44,96.41a2,2,0,0,0,2.82-2.82ZM10.15,41.06A34.07,34.07,0,1,1,44.21,75.13,34.1,34.1,0,0,1,10.15,41.06Z"></path><path d="M66.35,39.06H46.21V18.93a2,2,0,0,0-4,0V39.06H22.08a2,2,0,0,0,0,4H42.21V63.2a2,2,0,0,0,4,0V43.06H66.35a2,2,0,0,0,0-4Z"></path></g></svg>
-                <img class="galleryImage_item-desktop" src="{{block.settings.gallery_image | img_url: 'master'}}" alt="{{block.settings.gallery_image.alt}}" loading="lazy">
+                {{ 
+                    block.settings.gallery_image  | image_url: width: master | image_tag: widths: '375, 480, 550, 610, 720, 930, 1100 1200 1300 1400 1500 1600 1800 2200', 
+                    alt: block.settings.gallery_image.alt, 
+                    loading: 'lazy', 
+                    class: 'galleryImage_item-desktop' 
+                }}
                 {% if block.settings.gallery_image_mobile != blank %}
-                <img class="galleryImage_item-mobile" src="{{block.settings.gallery_image_mobile | img_url: 'master'}}" alt="{{block.settings.gallery_image_mobile.alt}}" loading="lazy">
+                {{ 
+                    block.settings.gallery_image_mobile  | image_url: width: master | image_tag: widths: '375, 480, 550, 610, 720, 930, 1100 1200 1300 1400 1500 1600 1800 2200', 
+                    alt: block.settings.gallery_image_mobile.alt, 
+                    loading: 'lazy', 
+                    class: 'galleryImage_item-mobile' 
+                }}
                 {%- else -%}
-                <img class="galleryImage_item-mobile" src="{{block.settings.gallery_image | img_url: 'master'}}" alt="{{block.settings.gallery_image.alt}}" loading="lazy">    
+                {{ 
+                    block.settings.gallery_image  | image_url: width: master | image_tag: widths: '375, 480, 550, 610, 720, 930, 1100 1200 1300 1400 1500 1600 1800 2200', 
+                    alt: block.settings.gallery_image.alt, 
+                    loading: 'lazy', 
+                    class: 'galleryImage_item-mobile' 
+                }}
                 {% endif %}
             </div>
         {% endfor %}
@@ -42,7 +57,12 @@
             <div class="galleryImage_swiper-wrapper swiper-wrapper">
                 {% for block in section.blocks %}
                     <div class="galleryImage_swiper-slide swiper-slide">
-                        <img src="{{block.settings.gallery_image | img_url: 'master'}}" alt="{{block.settings.gallery_image.alt}}" loading="lazy">
+                        {{ 
+                            block.settings.gallery_image  | image_url: width: master | image_tag: widths: '375, 480, 550, 610, 720, 930, 1100 1200 1300 1400 1500 1600 1800 2200', 
+                            alt: block.settings.gallery_image.alt, 
+                            loading: 'lazy', 
+                            class: 'galleryImage_swiper-slide-img' 
+                        }}
                     </div>
                 {% endfor %}
             </div>
