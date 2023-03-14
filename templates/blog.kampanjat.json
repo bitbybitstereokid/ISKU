@@ -1,58 +1,61 @@
 {
-    "sections": {
-      "e0671d17-dd7f-47b9-870d-6e8b349acfb5": {
-        "type": "about-breadcrumbs",
-        "settings": {
-        }
-      },
-      "main": {
-        "type": "blog-header-section",
-        "settings": {
-          "title": "Kampanjat",
-          "text": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint."
-        }
-      },
-      "6d989657-185c-45e3-9e3f-041750151e06": {
-        "type": "about-image-text",
-        "settings": {
-          "image": "shopify:\/\/shop_images\/Rectangle_42.jpg",
-          "padding_top": 50,
-          "padding_bottom": 50,
-          "reverse": true,
-          "title": "ISKUn brändiviikko!",
-          "text": "<p>Saat 5.3. saakka ISKUn Lahden omalla tehtaalla valmistetuista tuotteista suosikkisi -30% koodilla ISKU-30! ISKUn brändiviikolla haluamme tarjota sinulle kotimaisia, laadukkaita ja vastuullisesti tuotettuja huonekaluja mitä parhaimpaan hintaan. Löydät ISKUn omasta mallistosta laajan valikoiman kotimaista designia sohvien ja tuolien muodossa. Lämpimästi tervetuloa myymälöihin ympäri Suomen sekä verkkokauppaan!<\/p>",
-          "btn_text": "ISKUN TUOTTEISIIN TÄSTÄ",
-          "btn_url": "shopify:\/\/collections\/automated-collection"
-        }
-      },
-      "d45febac-94d0-4c20-bca3-0e19a278671a": {
-        "type": "about-image-text",
-        "settings": {
-          "image": "shopify:\/\/shop_images\/Rectangle_43.jpg",
-          "padding_top": 50,
-          "padding_bottom": 50,
-          "reverse": false,
-          "title": "ISKUssa on nyt univiikot!",
-          "text": "<p>Haluamme tuoda mahdollisimman monelle suomalaiselle paremmat unet, sillä useat meistä ovat väsyneet syystä, jonka voisi korjata helposti. Jos heräät öisin vaihtamaan asentoa, nukkuessasi on liian kuuma tai kylmä tai olet jumissa unien jälkeen, on aika varata maksuton aika nukkumisergonomian asiantuntijallemme. He auttavat sinua ratkaisemaan nämä ongelmat ja elämänlaatusi paranee parempien unien kautta. Univiikoilla nukkumisergonomian asiantuntijan avun lisäksi löydät laajan sänkyvalikoiman, laadukkaat patjat, tyynyt sekä peitot loistavin eduin varustettuna unohtamatta muiden tuoteryhmien huippuetuja! Univiikkojen tarjoukset ovat voimassa 28.2.2023 saakka kaikissa myymälöissä ja verkkokaupassa. Lämpimästi tervetuloa univiikoille!<\/p>",
-          "btn_text": "ETUIHIN TÄSTÄ",
-          "btn_url": "shopify:\/\/collections"
-        }
-      },
-      "0a0aecfd-7b89-4e34-82ad-015cf7c6ff2b": {
-        "type": "article-list",
-        "settings": {
-          "padding_top": 50,
-          "padding_bottom": 50,
-          "btn_text": "Load More articles",
-          "article_btn_text": "Lue lisää"
-        }
+  "sections": {
+    "e0671d17-dd7f-47b9-870d-6e8b349acfb5": {
+      "type": "about-breadcrumbs",
+      "settings": {
       }
     },
-    "order": [
-      "e0671d17-dd7f-47b9-870d-6e8b349acfb5",
-      "main",
-      "6d989657-185c-45e3-9e3f-041750151e06",
-      "d45febac-94d0-4c20-bca3-0e19a278671a",
-      "0a0aecfd-7b89-4e34-82ad-015cf7c6ff2b"
-    ]
-  }
+    "main": {
+      "type": "blog-header-section",
+      "settings": {
+        "title": "Kampanjat",
+        "text": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint."
+      }
+    },
+    "6d989657-185c-45e3-9e3f-041750151e06": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Rectangle_42_e4a1380f-ff6a-483b-a0df-1dabe2def101.jpg",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": true,
+        "text_centered": false,
+        "title": "ISKUn brändiviikko!",
+        "text": "<p>Saat 5.3. saakka ISKUn Lahden omalla tehtaalla valmistetuista tuotteista suosikkisi -30% koodilla ISKU-30! ISKUn brändiviikolla haluamme tarjota sinulle kotimaisia, laadukkaita ja vastuullisesti tuotettuja huonekaluja mitä parhaimpaan hintaan. Löydät ISKUn omasta mallistosta laajan valikoiman kotimaista designia sohvien ja tuolien muodossa. Lämpimästi tervetuloa myymälöihin ympäri Suomen sekä verkkokauppaan!<\/p>",
+        "btn_text": "ISKUN TUOTTEISIIN TÄSTÄ",
+        "btn_url": "shopify:\/\/collections\/automated-collection"
+      }
+    },
+    "d45febac-94d0-4c20-bca3-0e19a278671a": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Rectangle_43.jpg",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": false,
+        "text_centered": false,
+        "title": "ISKUssa on nyt univiikot!",
+        "text": "<p>Haluamme tuoda mahdollisimman monelle suomalaiselle paremmat unet, sillä useat meistä ovat väsyneet syystä, jonka voisi korjata helposti. Jos heräät öisin vaihtamaan asentoa, nukkuessasi on liian kuuma tai kylmä tai olet jumissa unien jälkeen, on aika varata maksuton aika nukkumisergonomian asiantuntijallemme. He auttavat sinua ratkaisemaan nämä ongelmat ja elämänlaatusi paranee parempien unien kautta. Univiikoilla nukkumisergonomian asiantuntijan avun lisäksi löydät laajan sänkyvalikoiman, laadukkaat patjat, tyynyt sekä peitot loistavin eduin varustettuna unohtamatta muiden tuoteryhmien huippuetuja! Univiikkojen tarjoukset ovat voimassa 28.2.2023 saakka kaikissa myymälöissä ja verkkokaupassa. Lämpimästi tervetuloa univiikoille!<\/p>",
+        "btn_text": "ETUIHIN TÄSTÄ",
+        "btn_url": "shopify:\/\/collections"
+      }
+    },
+    "0a0aecfd-7b89-4e34-82ad-015cf7c6ff2b": {
+      "type": "article-list",
+      "settings": {
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "title": "Our Blog",
+        "btn_text": "Load More articles",
+        "article_btn_text": "Lue lisää"
+      }
+    }
+  },
+  "order": [
+    "e0671d17-dd7f-47b9-870d-6e8b349acfb5",
+    "main",
+    "6d989657-185c-45e3-9e3f-041750151e06",
+    "d45febac-94d0-4c20-bca3-0e19a278671a",
+    "0a0aecfd-7b89-4e34-82ad-015cf7c6ff2b"
+  ]
+}
