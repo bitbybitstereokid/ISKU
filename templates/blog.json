@@ -1,20 +1,33 @@
 {
   "sections": {
-    "main": {
+    "e509e24b-b51f-498b-b02f-8a9025554967": {
       "type": "about-breadcrumbs",
       "settings": {
       }
     },
-    "cf0a5432-e8cd-45ac-89ec-abec653b6c38": {
+    "main": {
+      "type": "main-blog",
+      "disabled": true,
+      "settings": {
+        "layout": "collage",
+        "show_image": true,
+        "image_height": "medium",
+        "show_date": true,
+        "show_author": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "4b9ab521-8baf-4617-a314-9a02e61e0841": {
       "type": "blog-banner",
       "settings": {
-        "padding_top": 0,
+        "padding_top": 50,
         "padding_bottom": 50,
-        "article": "blog\/autumn-vibes",
+        "article": "",
         "button_text": "Read more"
       }
     },
-    "af06168b-9369-4b93-b015-5aa67260bfdc": {
+    "fb7a334c-3551-411b-9915-03aec3c966f7": {
       "type": "article-list",
       "settings": {
         "padding_top": 50,
@@ -26,8 +39,9 @@
     }
   },
   "order": [
+    "e509e24b-b51f-498b-b02f-8a9025554967",
     "main",
-    "cf0a5432-e8cd-45ac-89ec-abec653b6c38",
-    "af06168b-9369-4b93-b015-5aa67260bfdc"
+    "4b9ab521-8baf-4617-a314-9a02e61e0841",
+    "fb7a334c-3551-411b-9915-03aec3c966f7"
   ]
 }
