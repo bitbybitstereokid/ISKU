@@ -1,0 +1,45 @@
+{%- assign items = blocks -%}
+{% form 'contact' %}
+{{ form.errors | default_errors }}
+{%- if form.posted_successfully? -%}
+<p class="form_custom_success">{{ 'general.contact_form.success' | t }}</p>
+{%- endif -%}
+<div class="form_custom">
+    <div class="first-name">
+        <input placeholder="{{ 'general.contact_form.first_name' | t }}" type="text" name="contact[first_name]"
+            id="first-name"  required />
+    </div>
+    <div class="company-email">
+        <input placeholder="{{ 'general.contact_form.company_email' | t }}" type="email" name="contact[email]"
+            id="email" required />
+    </div>
+    <div class="phone">
+        <input type="tel" placeholder="{{ 'general.contact_form.phone' | t }}" name="contact[phone]" id="phone"
+             />
+    </div>
+    {% if items.size >= 1 %}
+    <div class="option_form">
+        <input hidden type="text" name="contact[Select_variant]" id="Chose" value="" />
+        <div class="option-form_title">{{ 'general.contact_form.chose' | t }}</div>
+        <svg width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M11 1L6 5L1 1" stroke="#1C1A1D" stroke-width="2" />
+        </svg>
+        <div class="option-form_dropdown-menu">
+            <ul>
+                {% for item in items %}
+                <li>{{item.settings.dropdown}}</li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+    {% endif %}
+
+    <div class="message">
+        <textarea placeholder="{{ 'general.contact_form.tell' | t }}" name="contact[body]" id="message" required ></textarea>
+    </div>
+
+    <div class="submit">
+        <input type="submit" value="{{ 'general.contact_form.submit' | t }}" />
+    </div>
+</div>
+{% endform %}

@@ -1,0 +1,155 @@
+.textWithImage {
+    
+}
+
+
+.textWithImage_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.textWithImage_container>*:not(:last-child) {
+    margin-right: 20px;
+}
+
+.textWithImage_item {
+    flex: 1 1 calc(50% - 10px);
+}
+
+.textWithImage_text {}
+
+.textWithImage_text p {
+    margin: 0;
+    padding: 0;
+}
+
+.textWithImage_text-description {
+    margin-bottom: 99px;
+}
+
+.textWithImage_text-description p:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.textWithImage_text-description p {
+    font-family: var(--font-body-family);
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--color-text-primary);
+
+}
+
+.textWithImage_text-firstLine {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.textWithImage_text-firstLine span,
+.textWithImage_text-secondLine span {
+    width: 20px;
+    height: 20px;
+}
+
+.textWithImage_text-firstLine p {
+    font-family: var(--font-body-family);
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--color-text-primary);
+}
+
+.textWithImage_text-secondLine {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.textWithImage_text-secondLine p,
+.textWithImage_text-secondLine a {
+    font-family: "Spartan", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: var(--color-accent-1);
+}
+
+.textWithImage_text-secondLine a {
+    text-decoration: underline;
+}
+
+.textWithImage_text-firstLine>*:not(:last-child),
+.textWithImage_text-secondLine>*:not(:last-child) {
+    margin-right: 12px;
+}
+
+.textWithImage_img {
+    padding-bottom: 26.3%;
+    position: relative;
+}
+
+.textWithImage_img-desktop {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: contain;
+    display: block;
+}
+
+.textWithImage_img-mobile {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: contain;
+    display: none;
+}
+
+@media(max-width: 996px) {
+    .textWithImage_container {
+        flex-wrap: wrap-reverse;
+    }
+
+    .textWithImage_img {
+        padding-bottom: 53%;
+    }
+
+    .textWithImage_container>*:not(:last-child) {
+        margin-right: 0px;
+        margin-top: 20px;
+    }
+
+    .textWithImage_item {
+        flex: 1 1 100%;
+    }
+
+    .textWithImage_text-description {
+        margin-bottom: 15px;
+    }
+}
+
+@media(max-width: 768px) {
+    .textWithImage_img {
+        padding-bottom: 100%;
+    }
+
+    .textWithImage_img-desktop {
+        display: none;
+    }
+
+    .textWithImage_img-mobile {
+        display: block;
+    }
+}

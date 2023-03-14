@@ -1,0 +1,159 @@
+{{ "component-gallery-image.css" | asset_url | stylesheet_tag }}
+{%- style -%}
+.galleryImage-{{section.id}}{
+    padding-top: {{section.settings.st}}px;
+    padding-bottom: {{section.settings.sb}}px;
+}
+@media(max-width: 768px) {
+    .galleryImage-{{section.id}} {
+        padding-top: {{section.settings.stm}}px;
+        padding-bottom: {{section.settings.sbm}}px;
+    }
+}
+{%- endstyle-%}
+
+<div class="galleryImage galleryImage-{{section.id}}">
+    <h2 class="galleryImage_title">{{section.settings.title_section}}</h2>
+    <div class="galleryImage_container page_width_container">
+        {% for block in section.blocks %}
+            <div class="galleryImage_item">
+                <svg class="galleryImage_item-zoom" width="48" height="48" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><g id="zoom"><path fill="#fff" d="M93.26,93.59l-23.94-24a38,38,0,1,0-3.16,2.5L90.44,96.41a2,2,0,0,0,2.82-2.82ZM10.15,41.06A34.07,34.07,0,1,1,44.21,75.13,34.1,34.1,0,0,1,10.15,41.06Z"></path><path d="M66.35,39.06H46.21V18.93a2,2,0,0,0-4,0V39.06H22.08a2,2,0,0,0,0,4H42.21V63.2a2,2,0,0,0,4,0V43.06H66.35a2,2,0,0,0,0-4Z"></path></g></svg>
+                {{ 
+                    block.settings.gallery_image  | image_url: width: master | image_tag: widths: '375, 480, 550, 610, 720, 930, 1100 1200 1300 1400 1500 1600 1800 2200', 
+                    alt: block.settings.gallery_image.alt, 
+                    loading: 'lazy', 
+                    class: 'galleryImage_item-desktop' 
+                }}
+                {% if block.settings.gallery_image_mobile != blank %}
+                {{ 
+                    block.settings.gallery_image_mobile  | image_url: width: master | image_tag: widths: '375, 480, 550, 610, 720, 930, 1100 1200 1300 1400 1500 1600 1800 2200', 
+                    alt: block.settings.gallery_image_mobile.alt, 
+                    loading: 'lazy', 
+                    class: 'galleryImage_item-mobile' 
+                }}
+                {%- else -%}
+                {{ 
+                    block.settings.gallery_image  | image_url: width: master | image_tag: widths: '375, 480, 550, 610, 720, 930, 1100 1200 1300 1400 1500 1600 1800 2200', 
+                    alt: block.settings.gallery_image.alt, 
+                    loading: 'lazy', 
+                    class: 'galleryImage_item-mobile' 
+                }}
+                {% endif %}
+            </div>
+        {% endfor %}
+    </div>
+    <div class="galleryImage_pop-up">
+        {%- comment -%}Pop up navigation{%- endcomment -%}
+        <span class="galleryImage_close"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 10.6L6.6 5.2 5.2 6.6l5.4 5.4-5.4 5.4 1.4 1.4 5.4-5.4 5.4 5.4 1.4-1.4-5.4-5.4 5.4-5.4-1.4-1.4-5.4 5.4z"></path></svg></span>
+        <div class="galleryImage_pagination"> </div>
+        <div class="galleryImage_button-prev">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11.28 15.7l-1.34 1.37L5 12l4.94-5.07 1.34 1.38-2.68 2.72H19v1.94H8.6z"></path></svg>
+        </div>
+        <div class="galleryImage_button-next">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15.4 12.97l-2.68 2.72 1.34 1.38L19 12l-4.94-5.07-1.34 1.38 2.68 2.72H5v1.94z"></path></svg>
+        </div>
+        {%- comment -%}Pop up navigation{%- endcomment -%}
+        <div class="galleryImage_swiper swiper">
+            <div class="galleryImage_swiper-wrapper swiper-wrapper">
+                {% for block in section.blocks %}
+                    <div class="galleryImage_swiper-slide swiper-slide">
+                        {{ 
+                            block.settings.gallery_image  | image_url: width: master | image_tag: widths: '375, 480, 550, 610, 720, 930, 1100 1200 1300 1400 1500 1600 1800 2200', 
+                            alt: block.settings.gallery_image.alt, 
+                            loading: 'lazy', 
+                            class: 'galleryImage_swiper-slide-img' 
+                        }}
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
+
+{{ "component-gallery-image.js" | asset_url | script_tag }}
+
+
+{% schema %}
+{
+    "name": "Isku Gallery Image",
+    "blocks": [
+        {
+            "type": "image",
+            "name": "Image",
+            "settings": [
+                {
+                    "type": "image_picker",
+                    "id": "gallery_image",
+                    "label": "Image"
+                },
+                {
+                    "type": "image_picker",
+                    "id": "gallery_image_mobile",
+                    "label": "Image mobile"
+                }
+            ]
+        }
+    ],
+    "settings": [
+        {
+            "type": "header",
+            "content": "Desktop space"
+        },
+        {
+            "type": "range",
+            "id": "st",
+            "label": "Space top",
+            "unit": "px",
+            "min": 0,
+            "max": 200,
+            "step": 2,
+            "default": 40
+        },
+        {
+            "type": "range",
+            "id": "sb",
+            "label": "Space bottom",
+            "unit": "px",
+            "min": 0,
+            "max": 200,
+            "step": 2,
+            "default": 100
+        },
+        {
+            "type": "header",
+            "content": "Mobile space"
+        },
+        {
+            "type": "range",
+            "id": "stm",
+            "label": "Space top ",
+            "unit": "px",
+            "min": 0,
+            "max": 200,
+            "step": 2,
+            "default": 40
+        },
+        {
+            "type": "range",
+            "id": "sbm",
+            "label": "Space bottom",
+            "unit": "px",
+            "min": 0,
+            "max": 200,
+            "step": 2,
+            "default": 80
+        }, 
+        {
+            "type": "text",
+            "id": "title_section",
+            "label": "Title section",
+            "default": "Referenssit"
+        }
+    ],
+    "presets": [
+        {
+            "name": "Isku Gallery Image"
+        }
+    ]
+}
+{% endschema %}

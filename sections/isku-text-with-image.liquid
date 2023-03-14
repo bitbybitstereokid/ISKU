@@ -1,0 +1,161 @@
+<div class="textWithImage textWithImage-{{section.id}}">
+    
+    <div class="textWithImage_container page-width">
+        {% for block in section.blocks %}
+            {%- case block.type -%}
+            {%- when "text" -%}
+            <div class="textWithImage_item textWithImage_text">
+                <div class="textWithImage_text-description">
+                    {{block.settings.description}}
+                </div>
+                <div class="textWithImage_text-firstLine">
+                    <span>{{block.settings.svg_code_1}}</span>
+                    <div>{{block.settings.text_line_1}}</div>
+                </div>
+                <div class="textWithImage_text-secondLine">
+                    <span>{{block.settings.svg_code_2}}</span>
+                    <div>{{block.settings.text_line_2}}</div>
+                </div>
+            </div>
+            {%- when "img" -%}
+            <div class="textWithImage_item textWithImage_img">
+                <img class="textWithImage_img-desktop" src="{{block.settings.img_desk | img_url: 'master'}}" alt="{{block.settings.img_desk.alt}}" loading="lazy">
+                {% if block.settings.img_mobile != blank %}
+                    <img class="textWithImage_img-mobile" src="{{block.settings.img_mobile | img_url: 'master'}}" alt="{{block.settings.img_mobile.alt}}" loading="lazy">
+                {%- else -%}
+                    <img class="textWithImage_img-mobile" src="{{block.settings.img_desk | img_url: 'master'}}" alt="{{block.settings.img_desk.alt}}" loading="lazy">
+                {% endif %}
+            </div>               
+            {%- endcase -%}
+            
+        {% endfor %}
+    </div>
+</div>
+{{ "component-textWithImage-section.css" | asset_url | stylesheet_tag }}
+{%- style -%}
+.textWithImage-{{section.id}}{
+    padding-top: {{section.settings.st}}px;
+    padding-bottom: {{section.settings.sb}}px;
+}
+@media(max-width: 768px) {
+    .textWithImage-{{section.id}} {
+        padding-top: {{section.settings.stm}}px;
+        padding-bottom: {{section.settings.sbm}}px;
+    }
+}
+{%- endstyle-%}
+
+
+{% schema %}
+{
+    "name":"Isku text with image",
+    "max_blocks": 2,
+    "blocks": [
+        {
+            "type": "text",
+            "name": "Text",
+            "settings": [
+                {
+                    "type": "richtext",
+                    "id": "description",
+                    "label": "Description",
+                    "default": "<p>Exercitation veniam consequat sunt nostrud amet. Exercitatio n veniam consequat sunt nostrud amet.Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>"
+                },
+                {
+                    "type": "html",
+                    "id": "svg_code_1",
+                    "label": "Svg code line 1"
+                },
+                {
+                    "type": "richtext",
+                    "id": "text_line_1",
+                    "label": "Text line 1",
+                    "default": "<p>Yhteydenottolomake.</p>"
+                },
+                {
+                    "type": "html",
+                    "id": "svg_code_2",
+                    "label": "Svg code line 2"
+                },
+                {
+                    "type": "richtext",
+                    "id": "text_line_2",
+                    "label": "Text line 2",
+                    "default": "<p>Puh. +358 29 309 3000 </p>"
+                }
+            ]
+        },
+        {
+            "type": "img",
+            "name": "Image",
+            "settings": [
+                {
+                    "type": "image_picker",
+                    "id": "img_desk",
+                    "label": "Image desktop"
+                },
+                {
+                    "type": "image_picker",
+                    "id": "img_mobile",
+                    "label": "Image mobile"
+                }
+            ]
+        }
+    ],
+    "settings": [
+        {
+            "type": "header",
+            "content": "Desktop space"
+        },
+        {
+            "type": "range",
+            "id": "st",
+            "label": "Space top",
+            "unit": "px",
+            "min": 0,
+            "max": 200,
+            "step": 2,
+            "default": 40
+        },
+        {
+            "type": "range",
+            "id": "sb",
+            "label": "Space bottom",
+            "unit": "px",
+            "min": 0,
+            "max": 200,
+            "step": 2,
+            "default": 100
+        },
+        {
+            "type": "header",
+            "content": "Mobile space"
+        },
+        {
+            "type": "range",
+            "id": "stm",
+            "label": "Space top ",
+            "unit": "px",
+            "min": 0,
+            "max": 200,
+            "step": 2,
+            "default": 40
+        },
+        {
+            "type": "range",
+            "id": "sbm",
+            "label": "Space bottom",
+            "unit": "px",
+            "min": 0,
+            "max": 200,
+            "step": 2,
+            "default": 80
+        }  
+    ],
+    "presets": [
+        {
+            "name":"Isku text with image"
+        }
+    ]
+}
+{% endschema %}
