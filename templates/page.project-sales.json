@@ -1,11 +1,16 @@
 {
   "sections": {
+    "f71eefa0-64a0-42dc-8871-05443139de07": {
+      "type": "about-breadcrumbs",
+      "settings": {
+      }
+    },
     "main": {
       "type": "banner-section",
       "settings": {
         "mask_banner": true,
         "opacity_mask": 45,
-        "st": 40,
+        "st": 0,
         "sb": 100,
         "stm": 40,
         "sbm": 80,
@@ -136,6 +141,7 @@
     }
   },
   "order": [
+    "f71eefa0-64a0-42dc-8871-05443139de07",
     "main",
     "acf58b64-fe01-4806-aacf-938e9a4181f2",
     "85c9f031-9806-4c09-b055-44a1b621132c",
