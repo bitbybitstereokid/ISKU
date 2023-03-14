@@ -1,5 +1,10 @@
 {
   "sections": {
+    "cf5dc5ab-baf7-46c3-a057-f50642c8bac8": {
+      "type": "about-breadcrumbs",
+      "settings": {
+      }
+    },
     "main": {
       "type": "main-article",
       "blocks": {
@@ -37,11 +42,6 @@
       "settings": {
       }
     },
-    "cf5dc5ab-baf7-46c3-a057-f50642c8bac8": {
-      "type": "about-breadcrumbs",
-      "settings": {
-      }
-    },
     "386dee0a-4d84-431f-bc52-151cd1467bd7": {
       "type": "about-product-slider",
       "settings": {
@@ -53,8 +53,8 @@
     }
   },
   "order": [
-    "main",
     "cf5dc5ab-baf7-46c3-a057-f50642c8bac8",
+    "main",
     "386dee0a-4d84-431f-bc52-151cd1467bd7"
   ]
 }
