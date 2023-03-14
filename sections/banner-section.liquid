@@ -32,11 +32,26 @@
             {{section.settings.title_text}}
         {% if section.settings.h_tag == "h1" %}</h1>{%- else -%}</h2>{% endif %}
         <div class="bannerText__img {{maskClass}}">
-            <img class="banner__img-desktop" src="{{section.settings.banner_photo | img_url: 'master'}}" alt="{{section.settings.banner_photo.alt}}" loading="lazy">
+            {{ 
+                section.settings.banner_photo | image_url: width: master | image_tag: widths: '375, 480, 550, 610, 720, 930, 1100 1200 1300 1400 1500 1600 1800 2200', 
+                alt: section.settings.banner_photo.alt, 
+                loading: 'lazy', 
+                class: 'banner__img-desktop' 
+            }}
             {% if section.settings.banner_photo_mobile != blank %}
-            <img class="banner__img-mobile" src="{{section.settings.banner_photo_mobile | img_url: 'master'}}" alt="{{section.settings.banner_photo_mobile.alt}}" loading="lazy">  
+            {{ 
+                section.settings.banner_photo_mobile | image_url: width: master | image_tag: widths: '375, 480, 550, 610, 720, 930, 1100 1200 1300 1400 1500 1600 1800 2200', 
+                alt: section.settings.banner_photo_mobile.alt, 
+                loading: 'lazy', 
+                class: 'banner__img-mobile' 
+            }}
             {%- else -%}
-            <img class="banner__img-mobile" src="{{section.settings.banner_photo | img_url: 'master'}}" alt="{{section.settings.banner_photo.alt}}" loading="lazy">  
+            {{ 
+                section.settings.banner_photo | image_url: width: master | image_tag: widths: '375, 480, 550, 610, 720, 930, 1100 1200 1300 1400 1500 1600 1800 2200', 
+                alt: section.settings.banner_photo.alt, 
+                loading: 'lazy', 
+                class: 'banner__img-mobile' 
+            }}
             {% endif %}
         </div>
     </div>
