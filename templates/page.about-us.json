@@ -45,6 +45,7 @@
     "3307a6af-c522-423b-8c9e-4a877abcc3de": {
       "type": "about-image-text",
       "settings": {
+        "image": "shopify:\/\/shop_images\/Rectangle_44.jpg",
         "padding_top": 100,
         "padding_bottom": 50,
         "reverse": false,
