@@ -67,6 +67,10 @@
         flex: 1 1 800px;
     }
 
+    .hero-banner-half.in-container .hero-banner-half__image {
+        flex: 1 1 50%;
+    }
+
     .hero-banner-half__image::before {
         padding-top: 81.25%;
     }
@@ -85,6 +89,7 @@
     }
 
     .hero-banner-half.in-container .hero-banner-half__content {
+        flex: 1 1 50%;
         padding: 45px 20px;
     }
 

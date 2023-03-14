@@ -3068,3 +3068,7 @@ details-disclosure > details {
   background: var(--color-accent-2);
   color: var(--color-text-accent);
 }
+
+#preview-bar-iframe {
+  display: none !important;
+}
