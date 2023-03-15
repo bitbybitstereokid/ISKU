@@ -7,3 +7,4 @@ development:
     - /\.(txt|gif|bat)$/
     - '*.liquid___jb_tmp___'
     - '*.liquid___jb_old___'
+    - 'templates/*'
