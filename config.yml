@@ -1,0 +1,9 @@
+development:
+  password: shptka_d0a88c87b89a0d5c3a5fc51920a02083
+  theme_id: '128787906660'
+  store: isku-stage.myshopify.com
+  ignore_files:
+    - config/settings_data.json
+    - /\.(txt|gif|bat)$/
+    - '*.liquid___jb_tmp___'
+    - '*.liquid___jb_old___'
