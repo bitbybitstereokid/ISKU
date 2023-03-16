@@ -923,6 +923,8 @@ class VariantSelects extends HTMLElement {
         const skuDestination = document.getElementById(`Sku-${this.dataset.section}`);
         const inventorySource = html.getElementById(`Inventory-${this.dataset.originalSection ? this.dataset.originalSection : this.dataset.section}`);
         const inventoryDestination = document.getElementById(`Inventory-${this.dataset.section}`);
+        const lowestPriceSource = html.getElementById(`lowest-price-${this.dataset.originalSection ? this.dataset.originalSection : this.dataset.section}`);
+        const lowestPriceDestination = document.getElementById(`lowest-price-${this.dataset.section}`);
 
         if (source && destination) destination.innerHTML = source.innerHTML;
         if (quantityPriceSource)  {
@@ -933,6 +935,15 @@ class VariantSelects extends HTMLElement {
         if (skuSource && skuDestination) {
           skuDestination.innerHTML = skuSource.innerHTML;
           skuDestination.classList.toggle('visibility-hidden', skuSource.classList.contains('visibility-hidden'));
+        }
+
+        if (lowestPriceSource && lowestPriceDestination) {
+          if (this.currentVariant.compare_at_price) {
+            lowestPriceDestination.parentElement.style.display = 'flex';
+          } else {
+            lowestPriceDestination.parentElement.style.display = 'none';
+          }
+          lowestPriceDestination.innerHTML = lowestPriceSource.innerHTML
         }
 
         const price = document.getElementById(`price-${this.dataset.section}`);

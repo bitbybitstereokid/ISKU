@@ -103,6 +103,16 @@
         padding: 0;
         gap: 20px;
     }
+
+    .custom-product .product--medium:not(.product--no-media) .product__media-wrapper {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .custom-product .product--medium:not(.product--no-media) .product__info-wrapper {
+        width: 100%;
+        max-width: 100%;
+    }
 }
 
 @media screen and (min-width:990px) {

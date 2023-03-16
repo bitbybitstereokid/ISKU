@@ -153,6 +153,86 @@
     padding: 15px 30px;
 }
 
+.custom-product .wishlist-chat__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    padding: 0 0 20px;
+    border-bottom: 1px solid var(--color-background-1);
+}
+
+.custom-product .wishlist-chat__wishlist,
+.custom-product .wishlist-chat__chat {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    font-family: var(--font-body-family);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    text-transform: capitalize;
+    color: var(--color-text-primary);
+}
+
+.custom-product .custom-icon-text {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--color-background-1);
+}
+
+.custom-product .custom-icon-text__item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+} 
+
+.custom-product .custom-icon-text__item * {
+    margin: 0;
+}
+
+.custom-product .custom-icon-text__text {
+    font-family: var(--font-body-family);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 150%;
+    color: var(--color-text-primary);
+}
+
+.lowest-price__wrapper {
+    display: none;
+    align-items: center;
+    gap: 10px;
+}
+
+.lowest-price__text {
+    font-family: var(--font-body-family);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 150%;
+    color: var(--color-text-primary);
+}
+
+.lowest-price__price {
+    font-family: var(--font-body-family);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--color-text-primary);
+}
+
+.lowest-price__wrapper--show {
+    display: flex;
+}
+
 @media  screen and (min-width:750px) {
     .custom-product .custom-quantity-wrapper {
         flex-direction: row;
@@ -175,6 +255,13 @@
 
     .custom-product .custom-quantity-wrapper .custom-quantity-container .buy-buttons__wrapper {
         flex: 1 1 250px;
+    }
+
+    .custom-product .custom-icon-text {
+        flex-direction: row;
+        flex-wrap: wrap;
+        row-gap: 15px;
+        column-gap: 45px;
     }
 }
 
@@ -210,6 +297,16 @@
     .custom-product .custom-quantity-wrapper {
         flex-wrap: wrap;
         gap: 20px;
+    }
+
+    .custom-product .wishlist-chat__wrapper {
+        padding-bottom: 30px;
+        gap: 40px;
+    }
+
+    .custom-product .custom-icon-text {
+        row-gap: 15px;
+        column-gap: 86px;
     }
 }
 
