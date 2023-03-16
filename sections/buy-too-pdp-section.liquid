@@ -1,0 +1,13 @@
+{% if product.metafields.custom.buy_too != blank %}
+{{ 'buy-too-pdp-section' | asset_url | stylesheet_tag }}
+
+<div class="buy-too">
+    {% if section.settings.title != blank %}
+        <h2 class="buy-too__title">{{ section.settings.title }}</h2>
+    {% endif %}
+    {% for variant in product.metafields.custom.buy_too.values %}
+        {% render 'buy-too-variant-card', variant: variant %}
+    {% endfor %}
+</div>
+
+{% endif %}
