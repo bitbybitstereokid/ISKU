@@ -1,7 +1,7 @@
 <div class="buy-too-card">
     <div class="buy-too-card__image image-wrapper">
         {{
-            block.settings.image
+            variant.featured_image
             | image_url: width: 1100
             | image_tag: loading: 'lazy', widths: '550, 720, 990, 1100'
         }}
@@ -10,7 +10,6 @@
         <h4 class="buy-too-card__title">{{ variant.title }}</h4>
         <p class="buy-too-card__price">{{ variant.price | money }}</p>
         <p class="buy-too-card__available">
-            <span class="buy-too-card__available--circle"></span>
             Varastossa
         </p>
         <button class="buy-too-card__button primary-btn">{{ section.settings.btn_text }}</button>

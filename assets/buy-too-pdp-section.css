@@ -1,0 +1,86 @@
+.buy-too {
+    padding: 40px 15px;
+    background-color: #F4F4F2;
+}
+
+.buy-too__title {
+    font-family: var(--font-body-family);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: var(--color-text-primary);
+    margin: 0 0 40px;
+}
+
+.buy-too__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 15px;
+    row-gap: 20px;
+}
+
+.buy-too-card {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+}
+
+.buy-too-card__content {
+    flex: 1;
+    padding: 10px 15px 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.buy-too-card__content > *:nth-last-child(2) {
+    flex: 1;
+}
+
+.buy-too-card__title {
+    font-family: var(--font-body-family);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    color: var(--color-text-primary);
+    margin: 0 0 10px;
+}
+
+.buy-too-card__price {
+    font-family: var(--font-body-family);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 150%;
+    text-align: center;
+    color: var(--color-text-primary);
+    margin: 0 0 10px;
+}
+
+.buy-too-card__available {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin: 0 0 15px;
+}
+
+.buy-too-card__available::before {
+    content: '';
+    display: block;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #1EC124;
+}
+
+.buy-too-card__button {
+    padding: 10px 43px;
+    margin: 0 auto;
+    font-size: 10px;
+    line-height: 10px;
+    text-transform: uppercase;
+}

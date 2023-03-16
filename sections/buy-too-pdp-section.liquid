@@ -1,13 +1,42 @@
 {% if product.metafields.custom.buy_too != blank %}
-{{ 'buy-too-pdp-section' | asset_url | stylesheet_tag }}
+{{ 'buy-too-pdp-section.css' | asset_url | stylesheet_tag }}
 
 <div class="buy-too">
     {% if section.settings.title != blank %}
         <h2 class="buy-too__title">{{ section.settings.title }}</h2>
     {% endif %}
-    {% for variant in product.metafields.custom.buy_too.values %}
+    <div class="buy-too__grid">
+    {% for variant in product.metafields.custom.buy_too.value %}
         {% render 'buy-too-variant-card', variant: variant %}
     {% endfor %}
+    </div>
 </div>
 
 {% endif %}
+
+{% schema %}
+{
+    "name": {
+        "en": "Buy too"
+    },
+    "settings": [
+        {
+            "type": "text",
+            "id": "title",
+            "label": "Title",
+            "default": "Osta myös"
+        },
+        {
+            "type": "text",
+            "id": "btn_text",
+            "label": "Button text",
+            "default": "Osta"
+        }
+    ],
+    "presets": [
+    {
+        "name": "Buy too"
+    }
+  ]
+}
+{% endschema %}
