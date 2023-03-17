@@ -925,6 +925,8 @@ class VariantSelects extends HTMLElement {
         const inventoryDestination = document.getElementById(`Inventory-${this.dataset.section}`);
         const lowestPriceSource = html.getElementById(`lowest-price-${this.dataset.originalSection ? this.dataset.originalSection : this.dataset.section}`);
         const lowestPriceDestination = document.getElementById(`lowest-price-${this.dataset.section}`);
+        const deliveryInfoSource = html.getElementById(`delivery-info-${this.dataset.originalSection ? this.dataset.originalSection : this.dataset.section}`);
+        const deliveryInfoDestination = document.getElementById(`delivery-info-${this.dataset.section}`);
 
         if (source && destination) destination.innerHTML = source.innerHTML;
         if (quantityPriceSource)  {
@@ -945,6 +947,8 @@ class VariantSelects extends HTMLElement {
           }
           lowestPriceDestination.innerHTML = lowestPriceSource.innerHTML
         }
+
+        if (deliveryInfoSource && deliveryInfoDestination) deliveryInfoDestination.innerHTML = deliveryInfoSource.innerHTML;
 
         const price = document.getElementById(`price-${this.dataset.section}`);
 

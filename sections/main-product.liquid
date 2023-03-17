@@ -1,10 +1,14 @@
 {{ 'custom-product-gallery.css' | asset_url | stylesheet_tag }}
 {{ 'custom-product-content.css' | asset_url | stylesheet_tag }}
+{{ 'delivery-info-block.css' | asset_url | stylesheet_tag }}
 <script src="{{ 'custom-product-quantity.js' | asset_url }}" defer="defer"></script>
 
 
 {% assign quantitySelector = false %}
 
+<script>
+  console.log({{ product.options_with_values | json }});
+</script>
 <section
   id="MainProduct-{{ section.id }}"
   class="page-width section-{{ section.id }}-padding custom-product"
@@ -300,9 +304,7 @@
                 </div>
               </div>
             {%- when 'delivery-info' -%}
-              <div class="delivery-info">
-                This place for delivery info
-              </div>
+              {% render 'delivery-info-block', block: block, product: product %}
             {%- when 'lowest_price' -%}
               {% render 'lowest-price', block: block, product: product %}
             {%- when 'popup' -%}
@@ -749,7 +751,57 @@
     {
       "type": "delivery-info",
       "name": "Delivery info",
-      "limit": 1
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "delivery_time_lable",
+          "label": "Delivery time lable",
+          "default": "Toimitusaika:"
+        },
+        {
+          "type": "text",
+          "id": "delivery_time_text1",
+          "label": "Delivery time in stock text",
+          "default": "2 päivää"
+        },
+        {
+          "type": "text",
+          "id": "delivery_time_text2",
+          "label": "Delivery time out of stock text",
+          "default": "4-5 viikkoa"
+        },
+        {
+          "type": "text",
+          "id": "delivery_price_lable",
+          "label": "Delivery price lable",
+          "default": "Toimituskulut:"
+        },
+        {
+          "type": "text",
+          "id": "delivery_price_text",
+          "label": "Delivery price text",
+          "default": "5,99€"
+        },
+        {
+          "type": "text",
+          "id": "delivery_status_lable",
+          "label": "Delivery status lable",
+          "default": "Saatavuus:"
+        },
+        {
+          "type": "text",
+          "id": "delivery_status_text1",
+          "label": "Delivery status in stock text",
+          "default": "Varastossa"
+        },
+        {
+          "type": "text",
+          "id": "delivery_status_text2",
+          "label": "Delivery status out of stock text",
+          "default": "Loppu varastosta"
+        }
+      ]
     },
     {
       "type": "lowest_price",
