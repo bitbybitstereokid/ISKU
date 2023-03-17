@@ -1,5 +1,6 @@
 {% if product.metafields.custom.buy_too != blank %}
 {{ 'buy-too-pdp-section.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'buy-too-pdp-section.js' | asset_url }}" defer="defer"></script>
 
 <div class="buy-too">
     {% if section.settings.title != blank %}
@@ -28,9 +29,27 @@
         },
         {
             "type": "text",
+            "id": "in_stock_text",
+            "label": "In stock text",
+            "default": "Varastossa"
+        },
+        {
+            "type": "text",
+            "id": "out_stock_text",
+            "label": "Out stock text",
+            "default": "loppu varastosta"
+        },
+        {
+            "type": "text",
             "id": "btn_text",
             "label": "Button text",
             "default": "Osta"
+        },
+        {
+            "type": "text",
+            "id": "btn_out_stock_text",
+            "label": "Button text",
+            "default": "Loppuunmyyty"
         }
     ],
     "presets": [
