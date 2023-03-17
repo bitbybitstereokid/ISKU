@@ -927,6 +927,8 @@ class VariantSelects extends HTMLElement {
         const lowestPriceDestination = document.getElementById(`lowest-price-${this.dataset.section}`);
         const deliveryInfoSource = html.getElementById(`delivery-info-${this.dataset.originalSection ? this.dataset.originalSection : this.dataset.section}`);
         const deliveryInfoDestination = document.getElementById(`delivery-info-${this.dataset.section}`);
+        const colorSwatcherSource = html.getElementById(`custom-color-swatches`);
+        const colorSwatcherDestination = document.getElementById(`custom-color-swatches`);
 
         if (source && destination) destination.innerHTML = source.innerHTML;
         if (quantityPriceSource)  {
@@ -955,6 +957,8 @@ class VariantSelects extends HTMLElement {
         if (price) price.classList.remove('visibility-hidden');
 
         if (inventoryDestination) inventoryDestination.classList.toggle('visibility-hidden', inventorySource.innerText === '');
+
+        if (colorSwatcherSource && colorSwatcherDestination) colorSwatcherDestination.innerHTML = colorSwatcherSource.innerHTML;
 
         const addButtonUpdated = html.getElementById(`ProductSubmitButton-${sectionId}`);
         this.toggleAddButton(addButtonUpdated ? addButtonUpdated.hasAttribute('disabled') : true, window.variantStrings.soldOut);

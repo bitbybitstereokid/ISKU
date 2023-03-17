@@ -2,7 +2,7 @@
 {{ 'custom-product-content.css' | asset_url | stylesheet_tag }}
 {{ 'delivery-info-block.css' | asset_url | stylesheet_tag }}
 <script src="{{ 'custom-product-quantity.js' | asset_url }}" defer="defer"></script>
-
+<script src="{{ 'custom-color-swatcher.js' | asset_url }}" defer="defer"></script>
 
 {% assign quantitySelector = false %}
 
@@ -756,7 +756,7 @@
         {
           "type": "text",
           "id": "delivery_time_lable",
-          "label": "Delivery time lable",
+          "label": "Delivery time label",
           "default": "Toimitusaika:"
         },
         {
@@ -774,7 +774,7 @@
         {
           "type": "text",
           "id": "delivery_price_lable",
-          "label": "Delivery price lable",
+          "label": "Delivery price label",
           "default": "Toimituskulut:"
         },
         {
@@ -786,7 +786,7 @@
         {
           "type": "text",
           "id": "delivery_status_lable",
-          "label": "Delivery status lable",
+          "label": "Delivery status label",
           "default": "Saatavuus:"
         },
         {
@@ -836,6 +836,20 @@
           ],
           "default": "button",
           "label": "t:sections.main-product.blocks.variant_picker.settings.picker_type.label"
+        },
+        {
+          "type": "textarea",
+          "id": "colors_swatcher_title",
+          "label": "Option names for color swatches",
+          "default": "color, colour, verhoilu",
+          "info": "Use ','(comma) separetor for different names. Example: color, colour, verhoilu"
+        },
+        {
+          "type": "textarea",
+          "id": "colors_swatcher_colors",
+          "label": "Colors for color swatches",
+          "default": "black: #1F1F21; white: #FFFFFF; dark-grey: #424348;",
+          "info": "Use ':' separetor between the color name and color hex code and ';' separetor between the different items. Example: black: #1F1F21; white: #FFFFFF; dark-grey: #424348;"
         }
       ]
     },
