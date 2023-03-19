@@ -251,6 +251,10 @@
     flex-wrap: wrap;
 }
 
+#custom-color-swatches input[type=radio]+label {
+    padding: 10px;
+}
+
 #custom-color-swatches input[type=radio]:checked+label {
     border: 3px solid var(--color-accent-1);
 }

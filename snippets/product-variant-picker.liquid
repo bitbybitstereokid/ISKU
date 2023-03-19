@@ -12,6 +12,7 @@
 {%- unless product.has_only_default_variant -%}
 
 {% assign namesForColorSwotcher = block.settings.colors_swatcher_title | escape | strip | downcase %}
+{% assign colorsNamesAndHex = block.settings.colors_swatcher_colors | strip | downcase | split: ';' %}
 
   {%- if block.settings.picker_type == 'button' -%}
     <variant-radios
@@ -121,7 +122,18 @@
                 class="disabled"
               {% endif %}
             >
-            <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}">
+            {% assign colorHex = '#000000' %}
+            {% for color in colorsNamesAndHex %}
+              {% assign colorHexFromSettings = color | split: ':' | last | strip %}
+              {% assign colorNameFromSettings = color | split: ':' | first | strip | downcase %}
+              {% assign formatedColorNameFromOption = value | strip | downcase %}
+              
+              {% if colorNameFromSettings == formatedColorNameFromOption  %}
+                {% assign colorHex = colorHexFromSettings %}
+              {% endif %}
+            {% endfor %}
+
+            <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}" style="background-color: {{ colorHex }};">
               <span class="visually-hidden">{{ 'products.product.variant_sold_out_or_unavailable' | t }}</span>
             </label>
         {%- endfor -%}
