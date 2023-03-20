@@ -133,6 +133,10 @@
 }
 
 @media screen and (min-width:750px) {
+    .buy-too {
+        padding: 40px 50px;
+    }
+
     .buy-too__grid {
         grid-template-columns: repeat(4 ,1fr);
     }

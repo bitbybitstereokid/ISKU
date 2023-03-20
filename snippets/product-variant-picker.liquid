@@ -47,7 +47,9 @@
       {{ block.shopify_attributes }}
     >
       {%- for option in product.options_with_values -%}
-        <div class="product-form__input product-form__input--dropdown {% if option.name == 'Verhoilu' %}product-form__input--color-swatcher{% endif %}">
+      {% assign formatedOptionName = option.name | strip | downcase %}
+
+        <div class="product-form__input product-form__input--dropdown {% if namesForColorSwotcher contains formatedOptionName %}product-form__input--color-swatcher{% endif %}">
           <label class="form__label" for="Option-{{ section.id }}-{{ forloop.index0 }}">
             {{ option.name }}
           </label>
