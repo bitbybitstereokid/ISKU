@@ -15,8 +15,8 @@
     }
 {% endstyle %}
 
-<div class="product-slider" id="product-recomendations-{{ section.id }}" data-url="{{ routes.product_recommendations_url }}?section_id={{ section.id }}&product_id={{ product.id }}&limit={{ section.settings.product_list_limit }}&intent={{- section.settings.intent -}}">
-{%- if recommendations.performed and recommendations.products_count > 0 -%}
+<div class="product-slider product-slider--{{ section.id }}" id="product-recomendations-{{ section.id }}" data-url="{{ routes.product_recommendations_url }}?section_id={{ section.id }}&product_id={{ product.id }}&limit={{ section.settings.product_list_limit }}&intent={{- section.settings.intent -}}">
+{%- if recommendations.performed? and recommendations.products_count > 0 -%}
     {% if section.settings.title != blank %}
         <h2 class="product-slider__title">{{ section.settings.title }}</h2>
     {% endif %}
@@ -99,11 +99,6 @@
                 "label": "Title"
             },
             {
-                "type": "collection",
-                "id": "collection",
-                "label": "Collection of products"
-            },
-            {
                 "type": "range",
                 "id": "padding_top",
                 "min": 0,
@@ -148,7 +143,7 @@
                     "label": "Complementary"
                     }
                 ],
-                "default": "complementary"
+                "default": "related"
             }
         ],
         "presets": [
