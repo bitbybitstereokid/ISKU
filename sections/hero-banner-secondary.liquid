@@ -21,7 +21,7 @@
         {% endif %}
         <div class="hero-banner-secondary__image image-wrapper">
             {% if section.settings.image != blank%}
-                {{ section.settings.image | image_url: width: 1440 | image_tag: widths: '550, 760, 1400, 2200', alt: section.settings.image.alt, loading: 'lazy' }}
+                {{ section.settings.image | image_url: width: 3000 | image_tag: widths: '550, 760, 1240, 1400, 2200 3000', alt: section.settings.image.alt, loading: 'lazy' }}
             {% else %}
                 {{ 'lifestyle-2' | placeholder_svg_tag }}
             {% endif %}
