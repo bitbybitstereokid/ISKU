@@ -2,20 +2,20 @@
 {{ 'about-product-card.css' | asset_url | stylesheet_tag }}
 
 {% style %}
-    .product-slider.product-slider--{{ section.id }} {
+    .product-slider.product-slider-wrapper--{{ section.id }} {
         padding-top: {{ section.settings.padding_top | times: 0.8 | round: 0 }}px;
         padding-bottom: {{ section.settings.padding_bottom | times: 0.8 | round: 0 }}px;
     }
 
     @media only screen and (min-width: 769px) {
-        .product-slider.product-slider--{{ section.id }} {
+        .product-slider.product-slider-wrapper--{{ section.id }} {
             padding-top: {{ section.settings.padding_top }}px;
             padding-bottom: {{ section.settings.padding_bottom }}px;
         }
     }
 {% endstyle %}
 
-<div class="product-slider product-slider--{{ section.id }}" id="product-recomendations-{{ section.id }}" data-url="{{ routes.product_recommendations_url }}?section_id={{ section.id }}&product_id={{ product.id }}&limit={{ section.settings.product_list_limit }}&intent={{- section.settings.intent -}}">
+<div class="product-slider product-slider-wrapper--{{ section.id }}" id="product-recomendations-{{ section.id }}" data-url="{{ routes.product_recommendations_url }}?section_id={{ section.id }}&product_id={{ product.id }}&limit={{ section.settings.product_list_limit }}&intent={{- section.settings.intent -}}">
 {%- if recommendations.performed? and recommendations.products_count > 0 -%}
     {% if section.settings.title != blank %}
         <h2 class="product-slider__title">{{ section.settings.title }}</h2>
@@ -52,7 +52,6 @@
                 const html = document.createElement('div');
                 html.innerHTML = text;
                 const recommendations = html.querySelector('#product-recomendations-{{ section.id }}');
-                console.log('recommendations', recommendations);
 
                 if (recommendations && recommendations.innerHTML.trim().length) {
                     productRecommendationsSection.innerHTML = recommendations.innerHTML;
@@ -85,7 +84,7 @@
                         productSlider.enabled = true;
                     }
                 });
-            });
+            })
     })
 </script>
 
