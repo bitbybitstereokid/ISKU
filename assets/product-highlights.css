@@ -1,0 +1,203 @@
+.product-highlights {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 25px;
+    padding: 0 15px;
+}
+
+.product-highlights__tabs {
+    flex: 1 1 50%;
+}
+
+.product-highlights__tab {
+    border-bottom: 1px solid var(--color-background-1);
+}
+
+.product-highlights__tab.active .product-highlights__tab-content {
+    max-height: 700px;
+    transition: max-height .5s .5s linear;
+}
+
+.product-highlights__tab.active .product-highlights__tab-label--icon::after {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.product-highlights__tab:not(:last-child) {
+    margin: 0 0 15px;
+}
+
+.product-highlights__tab-label {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+
+    font-family: var(--font-body-family);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    text-transform: capitalize;
+    color: var(--color-text-primary);
+    padding: 0 0 15px;
+    margin: 0;
+}
+
+.product-highlights__tab-label:hover .product-highlights__tab-label--icon {
+    animation: labelHover .3s ease-in-out;
+    transform: rotate(0deg);
+}
+
+.product-highlights__tab.active .product-highlights__tab-label--icon {
+    transform: rotate(180deg);
+}
+
+.product-highlights__tab-label--icon {
+    display: block;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    padding: 3px;
+    transition: .2s linear;
+}
+.product-highlights__tab-label--icon::before,
+.product-highlights__tab-label--icon::after {
+    content: '';
+    display: block;
+    width: 14px;
+    height: 1px;
+    background-color: var(--color-text-primary);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transition: .2s ease;
+    transform-origin: center;
+    transform: translate(-50%, -50%);
+}
+
+.product-highlights__tab-label--icon::after {
+    transform: translate(-50%, -50%) rotate(90deg);
+}
+
+.product-highlights__tab-content {
+    max-height: 0;
+    overflow: hidden;
+    font-family: var(--font-body-family);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 150%;
+    color: var(--color-text-primary);
+    transition: max-height .5s linear;
+}
+
+.product-highlights__tab-content > *:last-child {
+    margin: 0 0 15px;
+}
+
+.product-highlights__tab-content strong {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.product-highlights__tab-content * {
+    margin: 0;
+}
+
+.product-highlights__tab-content h3,
+.product-highlights__tab-content h4,
+.product-highlights__tab-content h5,
+.product-highlights__tab-content h6 {
+    font-family: var(--font-body-family);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--color-text-primary);
+    margin: 0 0 15px;
+}
+
+.product-highlights__tab-content ul,
+.product-highlights__tab-content ol {
+    appearance: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    max-width: 185px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.product-highlights__tab-content ul li {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-highlights__main {
+    flex: 1 1 50%;
+}
+
+.product-highlights__main-image {
+    margin: 0 0 25px;
+}
+
+.product-highlights__main-image::before {
+    padding-top: 55.07%;
+    margin: 0 0 25px;
+}
+
+.product-highlights__main-text {
+    font-family: var(--font-body-family);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 150%;
+    color: var(--color-text-primary);
+}
+
+.product-highlights__main-text * {
+    margin: 0;
+}
+
+@media screen and (min-width:750px) {
+    .product-highlights {
+        flex-direction: row;
+        gap: 20px;
+        padding: 0 50px;
+    }
+}
+
+@media screen and (min-width:990px) {
+    .product-highlights {
+        padding: 0 100px;
+    }
+
+    .product-highlights__main-image {
+        margin: 0 0 30px;
+    }
+}
+
+@keyframes labelHover {
+    0% {
+        transform: rotate(0);
+    }
+
+    25% {
+        transform: rotate(-30deg);
+    }
+
+    75% {
+        transform: rotate(30deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
