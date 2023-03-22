@@ -326,10 +326,22 @@ class MenuDrawer extends HTMLElement {
     super();
 
     this.mainDetailsToggle = this.querySelector('details');
-
+    this.closeMenuDrawerBtn = this.querySelector('.menu-drawer__close-navigation');
+    this.toggleDrawerBtn = this.querySelector('summary.header__icon--menu.header__icon--summary')
+    this.closeMenuDrawerBtn.addEventListener('click', () => {
+      this.closeMenuDrawerByBtn();
+    });
     this.addEventListener('keyup', this.onKeyUp.bind(this));
     this.addEventListener('focusout', this.onFocusOut.bind(this));
     this.bindEvents();
+  }
+
+  closeMenuDrawerByBtn() {
+    const attrAriaExtended = this.toggleDrawerBtn.getAttribute('aria-expanded');
+
+    if (attrAriaExtended) {
+      this.toggleDrawerBtn.click();
+    }
   }
 
   bindEvents() {
@@ -385,8 +397,6 @@ class MenuDrawer extends HTMLElement {
   }
 
   closeMenuDrawer(event, elementToFocus = false) {
-    if (event === undefined) return;
-
     this.mainDetailsToggle.classList.remove('menu-opening');
     this.mainDetailsToggle.querySelectorAll('details').forEach(details => {
       details.removeAttribute('open');
