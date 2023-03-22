@@ -30,7 +30,7 @@
     color: var(--color-text-primary);
 }
 
-.custom-product .price--on-sale .price-item--regular {
+.custom-product .product__info-container .price--on-sale .price-item--regular {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -304,7 +304,7 @@
         font-size: 22px;
     }
 
-    .custom-product .price--on-sale .price-item--regular {
+    .custom-product .product__info-container .price--on-sale .price-item--regular {
         font-size: 18px;
     }
 

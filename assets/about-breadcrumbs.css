@@ -1,5 +1,5 @@
 .breadcrumbs {
-    padding: 30px;
+    padding: 20px;
 }
 
 .breadcrumbs__list {
@@ -40,9 +40,9 @@
     color: var(--color-text-primary);
 }
 
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 750px) {
     .breadcrumbs {
-        padding: 20px 50px 30px;
+        padding: 20px 50px;
     }
 
     .breadcrumbs__list {
@@ -50,8 +50,8 @@
     }
 }
 
-@media only screen and (min-width: 1025px) {
+@media only screen and (min-width: 990px) {
     .breadcrumbs {
-        padding: 20px 100px 30px;
+        padding: 30px 100px;
     }
 }
