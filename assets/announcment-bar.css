@@ -1,15 +1,17 @@
 .announcment-bar__slider {
-    width: calc(100% + 6px);
+    width: 100%;
     font-size: 0;
+    overflow: hidden;
 }
 
 .announcment-bar__slider .announcement-bar {
     height: auto;
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin: 0 -1px;
+    align-items: stretch;
+    margin: 0;
     background-color: var(--color-accent-2);
+    font-size: 0;
 }
 
 .announcment-bar__slider .announcement-bar p {
