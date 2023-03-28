@@ -19,7 +19,8 @@
         <div class="benefit-icons__item">
             <div class="benefit-icons__icon image-wrapper">
                 {% if block.settings.icon != blank%}
-                    {{ block.settings.icon | image_url: width: 60 | image_tag: alt: block.settings.icon.alt, loading: 'lazy' }}
+                    {% comment %} {{ block.settings.icon | image_url: width: 60 | image_tag: alt: block.settings.icon.alt, loading: 'lazy' }} {% endcomment %}
+                    {{ block.settings.icon }}
                 {% else %}
                     {{ 'image' | placeholder_svg_tag: "placeholder" }}
                 {% endif %}
@@ -61,7 +62,7 @@
             "name": "Benefit icon",
             "settings": [
                 {
-                    "type": "image_picker",
+                    "type": "html",
                     "id": "icon",
                     "label": "Icon"
                 },

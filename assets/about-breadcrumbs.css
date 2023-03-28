@@ -9,6 +9,21 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    white-space: nowrap;
+}
+
+.breadcrumbs__list--overflow {
+    position: relative;
+    overflow: hidden;
+    padding: 20px 30px 20px 20px;
+}
+
+.breadcrumbs__list--overflow::after {
+    content: '...';
+    display: inline;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
 }
 
 .breadcrumbs__item {

@@ -83,7 +83,7 @@
         display: flex;
     }
 
-    .product-slider__title {
+    .product-slider__title--article {
         font-size: 40px;
         line-height: 48px;
         margin-bottom: 50px;

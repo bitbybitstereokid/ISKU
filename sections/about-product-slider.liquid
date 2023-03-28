@@ -17,7 +17,7 @@
 
 <div class="product-slider product-slider-wrapper--{{ section.id }}">
     {% if section.settings.title != blank %}
-        <h2 class="product-slider__title">{{ section.settings.title }}</h2>
+        <h2 class="product-slider__title {% if template.name == 'article' %}product-slider__title--article{% endif %}">{{ section.settings.title }}</h2>
     {% endif %}
     <div class="swiper product-slider--{{ section.id }}">
     <div class="swiper-wrapper">
