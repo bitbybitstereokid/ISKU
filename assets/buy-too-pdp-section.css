@@ -65,7 +65,13 @@
     justify-content: center;
     gap: 5px;
     margin: 0 0 15px;
+    overflow: hidden;
 }
+
+.buy-too-card__available--out-stock {
+    letter-spacing: 0px;
+}
+
 
 .buy-too-card__available--false .buy-too-card__available--in-stock {
     display: none;

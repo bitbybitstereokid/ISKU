@@ -16,8 +16,8 @@
         <h4 class="buy-too-card__title">{{ variant.product.title }}</h4>
         <p class="buy-too-card__price">{{ variant.price | money }}</p>
         <p class="buy-too-card__available buy-too-card__available--{{ is_in_stock }}">
-            <span class="buy-too-card__available--in-stock">{{ section.settings.in_stock_text }}</span>
-            <span class="buy-too-card__available--out-stock">{{ section.settings.out_stock_text }}</span>
+            <span class="buy-too-card__available--in-stock">{{ section.settings.in_stock_text | escape }}</span>
+            <span class="buy-too-card__available--out-stock">{{ section.settings.out_stock_text | escape  }}</span>
         </p>
         <button onclick='addToCart(this)' class="buy-too-card__button primary-btn {% unless variant.available and variant.inventory_management %}out-of-stock{% endunless %}"
                 data-variant-id="{{ variant.id }}"
