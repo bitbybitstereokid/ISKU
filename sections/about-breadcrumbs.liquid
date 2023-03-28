@@ -53,15 +53,19 @@
 {% endunless %}
 
 <script>
+    const breadcrumbsContainer = document.querySelector('.breadcrumbs');
     const breadcrumbsList = document.querySelector('.breadcrumbs__list');
 
-    window.addEventListener('resize', () => {
+    function checkBreadcrumbsOverflow() {
         if (breadcrumbsList.offsetWidth < breadcrumbsList.scrollWidth) {
-            breadcrumbsList.classList.add('breadcrumbs__list--overflow');
+            breadcrumbsContainer.classList.add('breadcrumbs--overflow');
         } else {
-            breadcrumbsList.classList.remove('breadcrumbs__list--overflow');
+            breadcrumbsContainer.classList.remove('breadcrumbs--overflow');
         }
-    })
+    }
+
+    window.addEventListener('resize', checkBreadcrumbsOverflow);
+    document.addEventListener('DOMContentLoaded', checkBreadcrumbsOverflow);
 </script>
 
 {% schema %}
