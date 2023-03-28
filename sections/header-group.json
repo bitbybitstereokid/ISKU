@@ -42,6 +42,19 @@
     },
     "header": {
       "type": "header",
+      "blocks": {
+        "1ab7b21b-6891-4337-a6a2-2045b5ef047b": {
+          "type": "slot",
+          "settings": {
+            "link_title": "Tuotteet kotiin",
+            "image": "shopify:\/\/shop_images\/mega-menu-slot-img.jpg",
+            "title": "Title"
+          }
+        }
+      },
+      "block_order": [
+        "1ab7b21b-6891-4337-a6a2-2045b5ef047b"
+      ],
       "settings": {
         "color_scheme": "background-1",
         "logo_position": "top-center",
