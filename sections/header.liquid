@@ -409,12 +409,12 @@
                         {% for block in section.blocks %}
                           {% assign formatedBlockTitle = block.settings.link_title | strip | downcase %}
                               {% if formatedLinkTitle == formatedBlockTitle %}
-                                <div class="mega-menu__content-slot">
+                                <a href="{{ block.settings.url }}" class="mega-menu__content-slot">
                                   <div class="content-slot__image image-wrapper">
                                     <img src="{{ block.settings.image | img_url: 'master' }}" alt="{{ block.settings.image.alt }}">
                                   </div>
                                   <h5 class="content-slot__title">{{ block.settings.title  }}</h5>
-                                </div>
+                                </a>
                               {% endif %}
                         {% endfor %}
                       </div>
@@ -855,6 +855,11 @@
           "id": "title",
           "label": "Title",
           "default": "Title"
+        },
+        {
+          "type": "url",
+          "id": "url",
+          "label": "Url"
         }
       ]
     }
