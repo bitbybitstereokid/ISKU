@@ -66,6 +66,7 @@
     gap: 5px;
     margin: 0 0 15px;
     overflow: hidden;
+    font-size: 10px;
 }
 
 .buy-too-card__available--out-stock {
@@ -95,9 +96,12 @@
 }
 
 .buy-too-card__button {
-    padding: 10px 43px;
+    padding: 10px;
+    min-width: 114px;
+    width: fit-content;
     margin: 0 auto;
     font-size: 10px;
+    font-weight: 700;
     line-height: 10px;
     text-transform: uppercase;
 }
@@ -159,6 +163,10 @@
         width: 8px;
         height: 8px;
     }
+
+    .buy-too-card__available {
+        font-size: 12px;
+    }
 }
 
 @media screen and (min-width:990px) {
@@ -176,18 +184,19 @@
     }
 
     .buy-too-card__content {
-        padding: 15px 15px 30px;
+        padding: 10px 15px 30px;
     }
 
     .buy-too-card__button {
-        padding: 20px 49px;
+        padding: 15px;
         max-width: 210px;
         font-size: 14px;
         line-height: 16px;
+        min-width: 140px;
     }
 
     .buy-too-card__button.out-of-stock {
-        padding: 20px;
+        padding: 15px;
         width: fit-content;
     }
 

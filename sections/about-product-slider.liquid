@@ -14,43 +14,42 @@
         }
     }
 {% endstyle %}
-
 <div class="product-slider product-slider-wrapper--{{ section.id }}">
     {% if section.settings.title != blank %}
         <h2 class="product-slider__title {% if template.name == 'article' %}product-slider__title--article{% endif %}">{{ section.settings.title }}</h2>
     {% endif %}
     <div class="swiper product-slider--{{ section.id }}">
-    <div class="swiper-wrapper">
-        {% if section.settings.collection != blank %}    
-            {% for product in section.settings.collection.products %}
-                <div class="swiper-slide">
-                    {% render 'about-product-card', product: product %}
-                </div>
-            {% endfor %}
-        {% else %}
-            {% for i in (1..12) %}
-                <div class="swiper-slide">
-                    <div class="product-card">
-                        <div class="product-card__image image-wrapper placeholder">
-                            {{ 'image' | placeholder_svg_tag }}
-                        </div>
-                        <h4 class="product-card__title">Title {{ forloop.index }}</h4>
-                        <p class="product-card__price">{{ 100000 | times: forloop.index | money }}</p>
+        <div class="swiper-wrapper">
+            {% if section.settings.collection != blank %}    
+                {% for product in section.settings.collection.products %}
+                    <div class="swiper-slide">
+                        {% render 'about-product-card', product: product %}
                     </div>
-                </div>                    
-            {% endfor %}
-        {% endif %}
-    </div>
-    </div>
-    <div class="product-slider__button-prev product-slider__button-prev--{{ section.id }}">
-        <svg width="23" height="16" viewBox="0 0 23 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M0.864321 8.82161C0.473797 8.43108 0.473797 7.79792 0.864321 7.4074L7.22828 1.04343C7.61881 0.65291 8.25197 0.65291 8.6425 1.04343C9.03302 1.43396 9.03302 2.06712 8.6425 2.45765L2.98564 8.1145L8.6425 13.7714C9.03302 14.1619 9.03302 14.795 8.6425 15.1856C8.25197 15.5761 7.61881 15.5761 7.22828 15.1856L0.864321 8.82161ZM23 9.1145H1.57143V7.1145H23V9.1145Z" fill="white"/>
-        </svg>
-    </div>
-    <div class="product-slider__button-next product-slider__button-next--{{ section.id }}">
-        <svg width="23" height="16" viewBox="0 0 23 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M22.1357 8.82161C22.5262 8.43108 22.5262 7.79792 22.1357 7.4074L15.7717 1.04343C15.3812 0.65291 14.748 0.65291 14.3575 1.04343C13.967 1.43396 13.967 2.06712 14.3575 2.45765L20.0144 8.1145L14.3575 13.7714C13.967 14.1619 13.967 14.795 14.3575 15.1856C14.748 15.5761 15.3812 15.5761 15.7717 15.1856L22.1357 8.82161ZM0 9.1145H21.4286V7.1145H0V9.1145Z" fill="white"/>
-        </svg>
+                {% endfor %}
+            {% else %}
+                {% for i in (1..12) %}
+                    <div class="swiper-slide">
+                        <div class="product-card">
+                            <div class="product-card__image image-wrapper placeholder">
+                                {{ 'image' | placeholder_svg_tag }}
+                            </div>
+                            <h4 class="product-card__title">Title {{ forloop.index }}</h4>
+                            <p class="product-card__price">{{ 100000 | times: forloop.index | money }}</p>
+                        </div>
+                    </div>                    
+                {% endfor %}
+            {% endif %}
+        </div>
+        <div class="product-slider__button-prev product-slider__button-prev--{{ section.id }}">
+            <svg width="23" height="16" viewBox="0 0 23 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0.864321 8.82161C0.473797 8.43108 0.473797 7.79792 0.864321 7.4074L7.22828 1.04343C7.61881 0.65291 8.25197 0.65291 8.6425 1.04343C9.03302 1.43396 9.03302 2.06712 8.6425 2.45765L2.98564 8.1145L8.6425 13.7714C9.03302 14.1619 9.03302 14.795 8.6425 15.1856C8.25197 15.5761 7.61881 15.5761 7.22828 15.1856L0.864321 8.82161ZM23 9.1145H1.57143V7.1145H23V9.1145Z" fill="white"/>
+            </svg>
+        </div>
+        <div class="product-slider__button-next product-slider__button-next--{{ section.id }}">
+            <svg width="23" height="16" viewBox="0 0 23 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M22.1357 8.82161C22.5262 8.43108 22.5262 7.79792 22.1357 7.4074L15.7717 1.04343C15.3812 0.65291 14.748 0.65291 14.3575 1.04343C13.967 1.43396 13.967 2.06712 14.3575 2.45765L20.0144 8.1145L14.3575 13.7714C13.967 14.1619 13.967 14.795 14.3575 15.1856C14.748 15.5761 15.3812 15.5761 15.7717 15.1856L22.1357 8.82161ZM0 9.1145H21.4286V7.1145H0V9.1145Z" fill="white"/>
+            </svg>
+        </div>
     </div>
 </div>
 
