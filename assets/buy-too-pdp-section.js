@@ -1,4 +1,6 @@
-function addToCart (element) {
+function addToCart (event, element) {
+    event.preventDefault();
+
     let formData = {
         "items": [{
             "id": +element.dataset.variantId,

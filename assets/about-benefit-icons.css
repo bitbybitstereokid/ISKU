@@ -16,7 +16,14 @@
 
 .benefit-icons__icon {
     width: 60px;
+    height: 60px;
     margin: 0 0 12px;
+}
+
+.benefit-icons__icon svg {
+    max-width: 60px;
+    width: 60px;
+    height: 60px;
 }
 
 .benefit-icons__icon .placeholder {

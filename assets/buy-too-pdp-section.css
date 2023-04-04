@@ -27,6 +27,20 @@
     background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
+    text-decoration: none;
+    color: inherit;
+}
+
+.buy-too-card__image {
+    overflow: hidden;
+}
+
+.buy-too-card__image img {
+    transition: .4s ease-in-out;
+}
+
+.buy-too-card:hover .buy-too-card__image img  {
+    scale: 1.1;
 }
 
 .buy-too-card__content {
@@ -104,6 +118,8 @@
     font-weight: 700;
     line-height: 10px;
     text-transform: uppercase;
+    position: relative;
+    z-index: 2;
 }
 
 .buy-too-card__button.out-of-stock {

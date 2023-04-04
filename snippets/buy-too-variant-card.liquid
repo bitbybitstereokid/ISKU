@@ -4,7 +4,7 @@
     {% assign is_in_stock = false %}
 {% endunless %}
 
-<div class="buy-too-card">
+<a href="{{ variant.url }}" class="buy-too-card">
     <div class="buy-too-card__image image-wrapper">
         {{
             variant.featured_image
@@ -19,7 +19,7 @@
             <span class="buy-too-card__available--in-stock">{{ section.settings.in_stock_text | escape }}</span>
             <span class="buy-too-card__available--out-stock">{{ section.settings.out_stock_text | escape  }}</span>
         </p>
-        <button onclick='addToCart(this)' class="buy-too-card__button primary-btn {% unless variant.available and variant.inventory_management %}out-of-stock{% endunless %}"
+        <button onclick='addToCart(event, this)' class="buy-too-card__button primary-btn {% unless variant.available and variant.inventory_management %}out-of-stock{% endunless %}"
                 data-variant-id="{{ variant.id }}"
         >
             <span class="main-text">
@@ -33,4 +33,4 @@
             </span>
         </button>
     </div>
-</div>
+</a>
