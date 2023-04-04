@@ -265,6 +265,13 @@
     margin-bottom: 20px;
 }
 
+.custom-product .custom-quantity-wrapper .custom-quantity-container .buy-buttons__wrapper .product-form,
+.custom-product .custom-quantity-wrapper .custom-quantity-container .buy-buttons__wrapper form,
+.custom-product .custom-quantity-wrapper .custom-quantity-container .buy-buttons__wrapper .product-form__buttons,
+.custom-product .custom-quantity-wrapper .custom-quantity-container .buy-buttons__wrapper .product-form__buttons .product-form__submit {
+    height: 100%;
+}
+
 @media  screen and (min-width:750px) {
     .custom-product .custom-quantity-wrapper {
         flex-direction: row;
