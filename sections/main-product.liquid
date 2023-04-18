@@ -423,6 +423,7 @@
                   </aside>
                 {%- endif -%}
                 {{ 'component-card.css' | asset_url | stylesheet_tag }}
+                {{ 'custom-component-card.css' | asset_url | stylesheet_tag }}
                 {{ 'component-complementary-products.css' | asset_url | stylesheet_tag }}
                 {%- if block.settings.enable_quick_add -%}
                   <link rel="stylesheet" href="{{ 'quick-add.css' | asset_url }}" media="print" onload="this.media='all'">

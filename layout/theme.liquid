@@ -417,6 +417,25 @@
       }
     {% endstyle %}
 
+    <style>
+      @font-face {
+        font-family: "itcbook";
+        src: url('{{ "itc-avant-garde-gothic-std-book.otf" | asset_url }}');
+        font-weight: 400;
+        font-style: normal;
+        font-display: swap;
+      }
+
+      @font-face {
+        font-family: "itcmedium";
+        src: url('{{ "itcm.otf" | asset_url }}');
+        font-weight: 500;
+        font-style: normal;
+        font-display: swap;
+      }
+
+    </style>
+
     {{ 'base.css' | asset_url | stylesheet_tag }}
 
     {%- unless settings.type_body_font.system? -%}
@@ -511,5 +530,7 @@
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
+    <script src="{{ 'collection-page-custom.js' | asset_url }}" defer="defer"></script>
+
   </body>
 </html>
