@@ -16,28 +16,29 @@
 
 {%- style -%}
   .footer {
-    margin-top: {{ section.settings.margin_top | times: 0.75 | round: 0 }}px;
+  margin-top: {{ section.settings.margin_top | times: 0.75 | round: 0 }}px;
   }
 
   .section-{{ section.id }}-padding {
-    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
-    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  padding-top: {{ section.settings.padding_top_mobile }}px;
+  padding-bottom: {{ section.settings.padding_bottom_mobile }}px;
   }
 
   @media screen and (min-width: 750px) {
-    .footer {
-      margin-top: {{ section.settings.margin_top }}px;
-    }
+  .footer {
+  margin-top: {{ section.settings.margin_top }}px;
+  }
 
-    .section-{{ section.id }}-padding {
-      padding-top: {{ section.settings.padding_top }}px;
-      padding-bottom: {{ section.settings.padding_bottom }}px;
-    }
+  .section-{{ section.id }}-padding {
+  padding-top: {{ section.settings.padding_top }}px;
+  padding-bottom: {{ section.settings.padding_bottom }}px;
+  }
   }
 {%- endstyle -%}
+{{ 'custom-footer.css' | asset_url | stylesheet_tag }}
 
 <footer class="footer color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding">
-  {%- liquid 
+  {%- liquid
     assign has_social_icons = true
     if settings.social_facebook_link == blank and settings.social_instagram_link == blank and settings.social_youtube_link == blank and settings.social_tiktok_link == blank and settings.social_twitter_link == blank and settings.social_pinterest_link == blank and settings.social_snapchat_link == blank and settings.social_tumblr_link == blank and settings.social_vimeo_link == blank
       assign has_social_icons = false
@@ -66,7 +67,7 @@
           -%}
           <div class="footer__blocks-wrapper grid grid--1-col grid--2-col grid--4-col-tablet {{ footer_grid_class }}">
             {%- for block in section.blocks -%}
-              <div class="footer-block grid__item{% if block.type == 'link_list' %} footer-block--menu{% endif %}" {{ block.shopify_attributes }}>
+              <div class="footer-block grid__item {% if block.type == 'custom' %} {% endif %} footer-block__custom-width{% if block.type == 'link_list' %} footer-block--menu{% endif %}" {{ block.shopify_attributes }}>
                 {%- if block.settings.heading != blank -%}
                   <h2 class="footer-block__heading">{{- block.settings.heading | escape -}}</h2>
                 {%- endif -%}
@@ -83,7 +84,8 @@
                       <ul class="footer-block__details-content list-unstyled">
                         {%- for link in block.settings.menu.links -%}
                           <li>
-                            <a href="{{ link.url }}" class="link link--text list-menu__item list-menu__item--link{% if link.active %} list-menu__item--active{% endif %}">
+                            <a href="{{ link.url }}"
+                               class="link link--text list-menu__item list-menu__item--link{% if link.active %} list-menu__item--active{% endif %}">
                               {{ link.title }}
                             </a>
                           </li>
@@ -94,12 +96,13 @@
                     <div class="footer-block__brand-info">
                       {%- if settings.brand_image != blank -%}
                         {%- assign brand_image_height = settings.brand_image_width | divided_by: settings.brand_image.aspect_ratio -%}
-                        <div class="footer-block__image-wrapper global-media-settings" style="max-width: min(100%, {{ settings.brand_image_width }}px);">
+                        <div class="footer-block__image-wrapper global-media-settings"
+                             style="max-width: min(100%, {{ settings.brand_image_width }}px);">
                           {{ settings.brand_image | image_url: width: 1100 | image_tag:
-                            loading: 'lazy',
-                            widths: '50, 100, 150, 200, 300, 400, 550, 800, 1100',
-                            height: brand_image_height,
-                            width: settings.brand_image_width
+                          loading: 'lazy',
+                          widths: '50, 100, 150, 200, 300, 400, 550, 800, 1100',
+                          height: brand_image_height,
+                          width: settings.brand_image_width
                           }}
                         </div>
                       {%- endif -%}
@@ -117,21 +120,211 @@
                     <div class="footer-block__details-content footer-block-image {{ block.settings.alignment }}">
                       {%- if block.settings.image != blank -%}
                         {%- assign image_size_2x = block.settings.image_width | times: 2 | at_most: 5760 -%}
-                        <div class="footer-block__image-wrapper global-media-settings"  style="max-width: min(100%, {{ block.settings.image_width }}px);">
+                        <div class="footer-block__image-wrapper global-media-settings"
+                             style="max-width: min(100%, {{ block.settings.image_width }}px);">
                           <img
-                            srcset= "{{ block.settings.image | image_url: width: block.settings.image_width }}, {{ block.settings.image | image_url: width: image_size_2x }} 2x"
-                            src="{{ block.settings.image | image_url: width: 760 }}"
-                            alt="{{ block.settings.image.alt | escape }}"
-                            loading="lazy"
-                            width="{{ block.settings.image.width }}"
-                            height="{{ block.settings.image.height }}"
+                                  srcset="{{ block.settings.image | image_url: width: block.settings.image_width }}, {{ block.settings.image | image_url: width: image_size_2x }} 2x"
+                                  src="{{ block.settings.image | image_url: width: 760 }}"
+                                  alt="{{ block.settings.image.alt | escape }}"
+                                  loading="lazy"
+                                  width="{{ block.settings.image.width }}"
+                                  height="{{ block.settings.image.height }}"
                           >
                         </div>
                       {%- else -%}
                         {{ 'image' | placeholder_svg_tag: 'placeholder-svg placeholder' }}
                       {%- endif -%}
                     </div>
-                  {%- endcase -%}
+                  {%- when 'custom' -%}
+                    <div class="footer-block_custom">
+                      <div class="footer-block-custom__items">
+                        <div class="footer-block-custom__item">
+                          <div class="footer-block__title">{{ block.settings.custom_newsletter_text }}</div>
+                          {%- if block.settings.custom_newsletter -%}
+                            <div class="footer-block__newsletter">
+                              {%- form 'customer', id: 'ContactFooter', class: 'footer__newsletter newsletter-form' -%}
+                                <input type="hidden" name="contact[tags]"
+                                       value="newsletter">
+                                <div class="newsletter-form__field-wrapper">
+                                  <div class="field">
+                                    <input
+                                            id="NewsletterForm--{{ section.id }}"
+                                            type="email"
+                                            name="contact[email]"
+                                            class="field__input"
+                                            value="{{ form.email }}"
+                                            aria-required="true"
+                                            autocorrect="off"
+                                            autocapitalize="off"
+                                            autocomplete="email"
+                                            {% if form.errors %}
+                                              autofocus
+                                              aria-invalid="true"
+                                              aria-describedby="ContactFooter-error"
+                                            {% elsif form.posted_successfully? %}
+                                              aria-describedby="ContactFooter-success"
+                                            {% endif %}
+                                            placeholder="Sähköpostisi"
+                                            {% comment %}placeholder="{{ 'newsletter.label' | t }}"{% endcomment %}
+                                            required
+                                    >
+                                    <label class="field__label"
+                                           for="NewsletterForm--{{ section.id }}">
+                                      {{ 'newsletter.label' | t }}
+                                    </label>
+                                    <button type="submit"
+                                            class="newsletter-form__button field__button"
+                                            name="commit" id="Subscribe"
+                                            aria-label="{{ 'newsletter.button_label' | t }}">
+                                      {% render 'icon-arrow' %}
+                                    </button>
+                                  </div>
+                                  {%- if form.errors -%}
+                                    <small class="newsletter-form__message form__message"
+                                           id="ContactFooter-error">{% render 'icon-error' %}{{ form.errors.translated_fields['email'] | capitalize }} {{ form.errors.messages['email'] }}</small>
+                                  {%- endif -%}
+                                </div>
+                                {%- if form.posted_successfully? -%}
+                                  <h3 class="newsletter-form__message newsletter-form__message--success form__message"
+                                      id="ContactFooter-success" tabindex="-1"
+                                      autofocus>{% render 'icon-success' %}{{ 'newsletter.success' | t }}</h3>
+                                {%- endif -%}
+                              {%- endform -%}
+                            </div>
+                          {%- endif -%}
+                          {%- if block.settings.custom_newsletter_richtext != blank -%}
+                            <div class="footer-block__privacy-policy">{{ block.settings.custom_newsletter_richtext }}</div>
+                          {%- endif -%}
+                          <div class="footer-block__title">{{ block.settings.custom_services }}</div>
+                          <div class="footer-block-custom__social">
+                            <ul>
+                              {% if block.settings.custom_phone %}
+                                <li><a class="link--text" href="tel:{{ block.settings.custom_phone }}">
+                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                         width="20" height="20" viewBox="0 0 20 20"
+                                         fill="none">
+                                      <g clip-path="url(#clip0_3722_813)">
+                                        <path d="M8.79454 5.19994L5.97538 1.94578C5.65038 1.57078 5.05454 1.57244 4.67704 1.95078L2.35871 4.27328C1.66871 4.96411 1.47121 5.98994 1.87038 6.81244C4.25506 11.7499 8.23708 15.7375 13.1712 18.1291C13.9929 18.5283 15.0179 18.3308 15.7079 17.6399L18.0479 15.2958C18.427 14.9166 18.4279 14.3174 18.0495 13.9924L14.7829 11.1883C14.4412 10.8949 13.9104 10.9333 13.5679 11.2766L12.4312 12.4149C12.373 12.4759 12.2964 12.5161 12.2132 12.5294C12.1299 12.5426 12.0446 12.5282 11.9704 12.4883C10.1124 11.4184 8.5712 9.87514 7.50371 8.01578C7.46373 7.9414 7.44926 7.85597 7.4625 7.77257C7.47575 7.68918 7.51599 7.61244 7.57704 7.55411L8.71038 6.41994C9.05371 6.07494 9.09121 5.54161 8.79454 5.19911V5.19994Z"
+                                              stroke="#1A1919" stroke-width="2"
+                                              stroke-linecap="round"
+                                              stroke-linejoin="round"/>
+                                      </g>
+                                      <defs>
+                                        <clipPath id="clip0_3722_813">
+                                          <rect width="20" height="20"
+                                                fill="white"/>
+                                        </clipPath>
+                                      </defs>
+                                    </svg>
+                                    {{ block.settings.custom_phone }}</a></li>
+                              {% endif %}
+                              {% if block.settings.custom_work %}
+                                <li>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="20"
+                                       height="20" viewBox="0 0 20 20" fill="none">
+                                    <path d="M9.99199 1.66675C5.39199 1.66675 1.66699 5.40008 1.66699 10.0001C1.66699 14.6001 5.39199 18.3334 9.99199 18.3334C14.6003 18.3334 18.3337 14.6001 18.3337 10.0001C18.3337 5.40008 14.6003 1.66675 9.99199 1.66675ZM10.0003 16.6667C6.31699 16.6667 3.33366 13.6834 3.33366 10.0001C3.33366 6.31675 6.31699 3.33341 10.0003 3.33341C13.6837 3.33341 16.667 6.31675 16.667 10.0001C16.667 13.6834 13.6837 16.6667 10.0003 16.6667Z"
+                                          fill="#1A1919"/>
+                                    <path d="M10.417 5.83325H9.16699V10.8333L13.542 13.4583L14.167 12.4333L10.417 10.2083V5.83325Z"
+                                          fill="#1A1919"/>
+                                  </svg>
+                                  {{ block.settings.custom_work }}</li>
+                              {% endif %}
+                              {% if block.settings.custom_email %}
+                                <li><a class="link--text"  href="mailto:{{ block.settings.custom_email }}">
+                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                         width="20" height="20" viewBox="0 0 20 20"
+                                         fill="none">
+                                      <g clip-path="url(#clip0_3722_816)">
+                                        <path d="M17.778 3.33325H2.22244C1.92775 3.33325 1.64514 3.45032 1.43676 3.65869C1.22839 3.86706 1.11133 4.14968 1.11133 4.44436V15.5555C1.11133 15.8502 1.22839 16.1328 1.43676 16.3411C1.64514 16.5495 1.92775 16.6666 2.22244 16.6666H17.778C18.0727 16.6666 18.3553 16.5495 18.5637 16.3411C18.772 16.1328 18.8891 15.8502 18.8891 15.5555V4.44436C18.8891 4.14968 18.772 3.86706 18.5637 3.65869C18.3553 3.45032 18.0727 3.33325 17.778 3.33325ZM16.9224 15.5555H3.14466L7.03355 11.5333L6.23355 10.761L2.22244 14.911V5.28881L9.128 12.161C9.33618 12.368 9.61779 12.4841 9.91133 12.4841C10.2049 12.4841 10.4865 12.368 10.6947 12.161L17.778 5.11659V14.8388L13.6891 10.7499L12.9058 11.5333L16.9224 15.5555ZM2.95022 4.44436H16.878L9.91133 11.3721L2.95022 4.44436Z"
+                                              fill="#1A1919" stroke="#1A1919"
+                                              stroke-width="0.5"/>
+                                      </g>
+                                      <defs>
+                                        <clipPath id="clip0_3722_816">
+                                          <rect width="20" height="20"
+                                                fill="white"/>
+                                        </clipPath>
+                                      </defs>
+                                    </svg>
+                                    {{ block.settings.custom_email }}</a></li>
+                              {% endif %}
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="footer-block-custom__item">
+                          <div class="footer-block__title">{{ block.settings.menu_first_title }}</div>
+                          <div class="footer-block__menu">
+                            <ul>
+                              {%- for link in block.settings.menu_first.links -%}
+                                <li>
+                                  <a href="{{ link.url }}"
+                                     class="link link--text list-menu__item list-menu__item--link{% if link.active %} list-menu__item--active{% endif %}">
+                                    {{ link.title }}
+                                  </a>
+                                </li>
+                              {%- endfor -%}
+                            </ul>
+                          </div>
+                          <div class="footer-block__title">{{ block.settings.menu_first_title_1 }}</div>
+                          <div class="footer-block__menu">
+                            <ul>
+                              {%- for link in block.settings.menu_first_1.links -%}
+                                <li>
+                                  <a href="{{ link.url }}"
+                                     class="link link--text list-menu__item list-menu__item--link{% if link.active %} list-menu__item--active{% endif %}">
+                                    {{ link.title }}
+                                  </a>
+                                </li>
+                              {%- endfor -%}
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="footer-block-custom__item">
+                          <div class="footer-block__title">{{ block.settings.menu_second_title_1 }}</div>
+                          <div class="footer-block__menu">
+                            <ul>
+                              {%- for link in block.settings.menu_second.links -%}
+                                <li>
+                                  <a href="{{ link.url }}"
+                                     class="link link--text list-menu__item list-menu__item--link{% if link.active %} list-menu__item--active{% endif %}">
+                                    {{ link.title }}
+                                  </a>
+                                </li>
+                              {%- endfor -%}
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="footer-block-custom__item">
+                          <div class="footer-block__title">{{ block.settings.menu_third_title }}</div>
+                          <div class="footer-block__menu">
+                            <ul>
+                              {%- for link in block.settings.menu_thrid.links -%}
+                                <li>
+                                  <a href="{{ link.url }}"
+                                     class="link link--text list-menu__item list-menu__item--link{% if link.active %} list-menu__item--active{% endif %}">
+                                    {{ link.title }}
+                                  </a>
+                                </li>
+                              {%- endfor -%}
+                            </ul>
+                          </div>
+                          <div class="footer-block__title">{{ block.settings.menu_third_title_1 }}</div>
+                          <div class="footer-block__menu">
+                            <ul>
+                              {%- for link in block.settings.menu_third_1.links -%}
+                                <li>
+                                  <a href="{{ link.url }}"
+                                     class="link link--text list-menu__item list-menu__item--link{% if link.active %} list-menu__item--active{% endif %}">
+                                    {{ link.title }}
+                                  </a>
+                                </li>
+                              {%- endfor -%}
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                {%- endcase -%}
               </div>
             {%- endfor -%}
           </div>
@@ -148,38 +341,43 @@
                 <div class="newsletter-form__field-wrapper">
                   <div class="field">
                     <input
-                      id="NewsletterForm--{{ section.id }}"
-                      type="email"
-                      name="contact[email]"
-                      class="field__input"
-                      value="{{ form.email }}"
-                      aria-required="true"
-                      autocorrect="off"
-                      autocapitalize="off"
-                      autocomplete="email"
-                      {% if form.errors %}
-                        autofocus
-                        aria-invalid="true"
-                        aria-describedby="ContactFooter-error"
-                      {% elsif form.posted_successfully? %}
-                        aria-describedby="ContactFooter-success"
-                      {% endif %}
-                      placeholder="{{ 'newsletter.label' | t }}"
-                      required
+                            id="NewsletterForm--{{ section.id }}"
+                            type="email"
+                            name="contact[email]"
+                            class="field__input"
+                            value="{{ form.email }}"
+                            aria-required="true"
+                            autocorrect="off"
+                            autocapitalize="off"
+                            autocomplete="email"
+                            {% if form.errors %}
+                              autofocus
+                              aria-invalid="true"
+                              aria-describedby="ContactFooter-error"
+                            {% elsif form.posted_successfully? %}
+                              aria-describedby="ContactFooter-success"
+                            {% endif %}
+                            placeholder="{{ 'newsletter.label' | t }}"
+                            required
                     >
                     <label class="field__label" for="NewsletterForm--{{ section.id }}">
                       {{ 'newsletter.label' | t }}
                     </label>
-                    <button type="submit" class="newsletter-form__button field__button" name="commit" id="Subscribe" aria-label="{{ 'newsletter.button_label' | t }}">
+                    <button type="submit" class="newsletter-form__button field__button"
+                            name="commit" id="Subscribe"
+                            aria-label="{{ 'newsletter.button_label' | t }}">
                       {% render 'icon-arrow' %}
                     </button>
                   </div>
                   {%- if form.errors -%}
-                    <small class="newsletter-form__message form__message" id="ContactFooter-error">{% render 'icon-error' %}{{ form.errors.translated_fields['email'] | capitalize }} {{ form.errors.messages['email'] }}</small>
+                    <small class="newsletter-form__message form__message"
+                           id="ContactFooter-error">{% render 'icon-error' %}{{ form.errors.translated_fields['email'] | capitalize }} {{ form.errors.messages['email'] }}</small>
                   {%- endif -%}
                 </div>
                 {%- if form.posted_successfully? -%}
-                  <h3 class="newsletter-form__message newsletter-form__message--success form__message" id="ContactFooter-success" tabindex="-1" autofocus>{% render 'icon-success' %}{{ 'newsletter.success' | t }}</h3>
+                  <h3 class="newsletter-form__message newsletter-form__message--success form__message"
+                      id="ContactFooter-success" tabindex="-1"
+                      autofocus>{% render 'icon-success' %}{{ 'newsletter.success' | t }}</h3>
                 {%- endif -%}
               {%- endform -%}
             </div>
@@ -187,10 +385,10 @@
 
           {%- if shop.features.follow_on_shop? and section.settings.enable_follow_on_shop -%}
             <div class="footer__follow-on-shop">
-            {% comment %} TODO: enable theme-check once `login_button` is accepted as valid filter {% endcomment %}
-            {% # theme-check-disable %}
+              {% comment %} TODO: enable theme-check once `login_button` is accepted as valid filter {% endcomment %}
+              {% # theme-check-disable %}
               {{ shop | login_button: action: 'follow' }}
-            {% # theme-check-enable %}
+              {% # theme-check-enable %}
             </div>
           {%- endif -%}
 
@@ -202,6 +400,7 @@
     {%- endunless -%}
   {%- endif -%}
 
+
   <div class="footer__content-bottom">
     <div class="footer__content-bottom-wrapper page-width">
       <div class="footer__column footer__localization isolate">
@@ -209,11 +408,14 @@
           <noscript>
             {%- form 'localization', id: 'FooterCountryFormNoScript', class: 'localization-form' -%}
               <div class="localization-form__select">
-                <h2 class="visually-hidden" id="FooterCountryLabelNoScript">{{ 'localization.country_label' | t }}</h2>
-                <select class="localization-selector link" name="country_code" aria-labelledby="FooterCountryLabelNoScript">
+                <h2 class="visually-hidden"
+                    id="FooterCountryLabelNoScript">{{ 'localization.country_label' | t }}</h2>
+                <select class="localization-selector link" name="country_code"
+                        aria-labelledby="FooterCountryLabelNoScript">
                   {%- for country in localization.available_countries -%}
                     <option value="{{ country.iso_code }}" {%- if country.iso_code == localization.country.iso_code %} selected{% endif %}>
-                      {{ country.name }} ({{ country.currency.iso_code }} {{ country.currency.symbol }})
+                      {{ country.name }}
+                      ({{ country.currency.iso_code }} {{ country.currency.symbol }})
                     </option>
                   {%- endfor -%}
                 </select>
@@ -225,18 +427,27 @@
           <localization-form>
             {%- form 'localization', id: 'FooterCountryForm', class: 'localization-form' -%}
               <div class="no-js-hidden">
-                <h2 class="caption-large text-body" id="FooterCountryLabel">{{ 'localization.country_label' | t }}</h2>
+                <h2 class="caption-large text-body"
+                    id="FooterCountryLabel">{{ 'localization.country_label' | t }}</h2>
                 <div class="disclosure">
-                  <button type="button" class="disclosure__button localization-form__select localization-selector link link--text caption-large" aria-expanded="false" aria-controls="FooterCountryList" aria-describedby="FooterCountryLabel">
-                    {{ localization.country.name }} ({{ localization.country.currency.iso_code }} {{ localization.country.currency.symbol }})
+                  <button type="button"
+                          class="disclosure__button localization-form__select localization-selector link link--text caption-large"
+                          aria-expanded="false" aria-controls="FooterCountryList"
+                          aria-describedby="FooterCountryLabel">
+                    {{ localization.country.name }}
+                    ({{ localization.country.currency.iso_code }} {{ localization.country.currency.symbol }}
+                    )
                     {% render 'icon-caret' %}
                   </button>
                   <div class="disclosure__list-wrapper" hidden>
                     <ul id="FooterCountryList" role="list" class="disclosure__list list-unstyled">
                       {%- for country in localization.available_countries -%}
                         <li class="disclosure__item" tabindex="-1">
-                          <a class="link link--text disclosure__link caption-large{% if country.iso_code == localization.country.iso_code %} disclosure__link--active{% endif %} focus-inset" href="#"{% if country.iso_code == localization.country.iso_code %} aria-current="true"{% endif %} data-value="{{ country.iso_code }}">
-                            {{ country.name }} <span class="localization-form__currency">({{ country.currency.iso_code }} {{ country.currency.symbol }})</span>
+                          <a class="link link--text disclosure__link caption-large{% if country.iso_code == localization.country.iso_code %} disclosure__link--active{% endif %} focus-inset"
+                             href="#"{% if country.iso_code == localization.country.iso_code %} aria-current="true"{% endif %}
+                             data-value="{{ country.iso_code }}">
+                            {{ country.name }} <span
+                                    class="localization-form__currency">({{ country.currency.iso_code }} {{ country.currency.symbol }})</span>
                           </a>
                         </li>
                       {%- endfor -%}
@@ -253,10 +464,13 @@
           <noscript>
             {%- form 'localization', id: 'FooterLanguageFormNoScript', class: 'localization-form' -%}
               <div class="localization-form__select">
-                <h2 class="visually-hidden" id="FooterLanguageLabelNoScript">{{ 'localization.language_label' | t }}</h2>
-                <select class="localization-selector link" name="locale_code" aria-labelledby="FooterLanguageLabelNoScript">
+                <h2 class="visually-hidden"
+                    id="FooterLanguageLabelNoScript">{{ 'localization.language_label' | t }}</h2>
+                <select class="localization-selector link" name="locale_code"
+                        aria-labelledby="FooterLanguageLabelNoScript">
                   {%- for language in localization.available_languages -%}
-                    <option value="{{ language.iso_code }}" lang="{{ language.iso_code }}" {%- if language.iso_code == localization.language.iso_code %} selected{% endif %}>
+                    <option value="{{ language.iso_code }}"
+                            lang="{{ language.iso_code }}" {%- if language.iso_code == localization.language.iso_code %} selected{% endif %}>
                       {{ language.endonym_name | capitalize }}
                     </option>
                   {%- endfor -%}
@@ -270,9 +484,13 @@
           <localization-form>
             {%- form 'localization', id: 'FooterLanguageForm', class: 'localization-form' -%}
               <div class="no-js-hidden">
-                <h2 class="caption-large text-body" id="FooterLanguageLabel">{{ 'localization.language_label' | t }}</h2>
+                <h2 class="caption-large text-body"
+                    id="FooterLanguageLabel">{{ 'localization.language_label' | t }}</h2>
                 <div class="disclosure">
-                  <button type="button" class="disclosure__button localization-form__select localization-selector link link--text caption-large" aria-expanded="false" aria-controls="FooterLanguageList" aria-describedby="FooterLanguageLabel">
+                  <button type="button"
+                          class="disclosure__button localization-form__select localization-selector link link--text caption-large"
+                          aria-expanded="false" aria-controls="FooterLanguageList"
+                          aria-describedby="FooterLanguageLabel">
                     {{ localization.language.endonym_name | capitalize }}
                     {% render 'icon-caret' %}
                   </button>
@@ -280,7 +498,10 @@
                     <ul id="FooterLanguageList" role="list" class="disclosure__list list-unstyled">
                       {%- for language in localization.available_languages -%}
                         <li class="disclosure__item" tabindex="-1">
-                          <a class="link link--text disclosure__link caption-large{% if language.iso_code == localization.language.iso_code %} disclosure__link--active{% endif %} focus-inset" href="#" hreflang="{{ language.iso_code }}" lang="{{ language.iso_code }}"{% if language.iso_code == localization.language.iso_code %} aria-current="true"{% endif %} data-value="{{ language.iso_code }}">
+                          <a class="link link--text disclosure__link caption-large{% if language.iso_code == localization.language.iso_code %} disclosure__link--active{% endif %} focus-inset"
+                             href="#" hreflang="{{ language.iso_code }}"
+                             lang="{{ language.iso_code }}"{% if language.iso_code == localization.language.iso_code %} aria-current="true"{% endif %}
+                             data-value="{{ language.iso_code }}">
                             {{ language.endonym_name | capitalize }}
                           </a>
                         </li>
@@ -311,13 +532,17 @@
     </div>
     <div class="footer__content-bottom-wrapper page-width{% if section.settings.enable_country_selector == false and section.settings.enable_language_selector == false %} footer__content-bottom-wrapper--center{% endif %}">
       <div class="footer__copyright caption">
-        <small class="copyright__content">&copy; {{ 'now' | date: "%Y" }}, {{ shop.name | link_to: routes.root_url }}</small>
-        <small class="copyright__content">{{ powered_by_link }}</small>
+        <p>&copy; {{ 'now' | date: "%Y" }} {{ section.settings.copyright_first }}</p>
+        <div>{{ section.settings.copyright_second }}</div>
+        {% comment %}<small class="copyright__content">&copy; {{ 'now' | date: "%Y" }}{% endcomment %}
+        {% comment %}, {{ shop.name | link_to: routes.root_url }}</small>{% endcomment %}
+        {% comment %}<small class="copyright__content">{{ powered_by_link }}</small>{% endcomment %}
         {%- if section.settings.show_policy -%}
           <ul class="policies list-unstyled">
             {%- for policy in shop.policies -%}
               {%- if policy != blank -%}
-                <li><small class="copyright__content"><a href="{{ policy.url }}">{{ policy.title }}</a></small></li>
+                <li><small class="copyright__content"><a href="{{ policy.url }}">{{ policy.title }}</a></small>
+                </li>
               {%- endif -%}
             {%- endfor -%}
           </ul>
@@ -328,55 +553,55 @@
 </footer>
 
 {% javascript %}
-  class LocalizationForm extends HTMLElement {
-    constructor() {
-      super();
-      this.elements = {
-        input: this.querySelector('input[name="locale_code"], input[name="country_code"]'),
-        button: this.querySelector('button'),
-        panel: this.querySelector('.disclosure__list-wrapper'),
-      };
-      this.elements.button.addEventListener('click', this.openSelector.bind(this));
-      this.elements.button.addEventListener('focusout', this.closeSelector.bind(this));
-      this.addEventListener('keyup', this.onContainerKeyUp.bind(this));
+class LocalizationForm extends HTMLElement {
+constructor() {
+super();
+this.elements = {
+input: this.querySelector('input[name="locale_code"], input[name="country_code"]'),
+button: this.querySelector('button'),
+panel: this.querySelector('.disclosure__list-wrapper'),
+};
+this.elements.button.addEventListener('click', this.openSelector.bind(this));
+this.elements.button.addEventListener('focusout', this.closeSelector.bind(this));
+this.addEventListener('keyup', this.onContainerKeyUp.bind(this));
 
-      this.querySelectorAll('a').forEach(item => item.addEventListener('click', this.onItemClick.bind(this)));
-    }
+this.querySelectorAll('a').forEach(item => item.addEventListener('click', this.onItemClick.bind(this)));
+}
 
-    hidePanel() {
-      this.elements.button.setAttribute('aria-expanded', 'false');
-      this.elements.panel.setAttribute('hidden', true);
-    }
+hidePanel() {
+this.elements.button.setAttribute('aria-expanded', 'false');
+this.elements.panel.setAttribute('hidden', true);
+}
 
-    onContainerKeyUp(event) {
-      if (event.code.toUpperCase() !== 'ESCAPE') return;
+onContainerKeyUp(event) {
+if (event.code.toUpperCase() !== 'ESCAPE') return;
 
-      this.hidePanel();
-      this.elements.button.focus();
-    }
+this.hidePanel();
+this.elements.button.focus();
+}
 
-    onItemClick(event) {
-      event.preventDefault();
-      const form = this.querySelector('form');
-      this.elements.input.value = event.currentTarget.dataset.value;
-      if (form) form.submit();
-    }
+onItemClick(event) {
+event.preventDefault();
+const form = this.querySelector('form');
+this.elements.input.value = event.currentTarget.dataset.value;
+if (form) form.submit();
+}
 
-    openSelector() {
-      this.elements.button.focus();
-      this.elements.panel.toggleAttribute('hidden');
-      this.elements.button.setAttribute('aria-expanded', (this.elements.button.getAttribute('aria-expanded') === 'false').toString());
-    }
+openSelector() {
+this.elements.button.focus();
+this.elements.panel.toggleAttribute('hidden');
+this.elements.button.setAttribute('aria-expanded', (this.elements.button.getAttribute('aria-expanded') === 'false').toString());
+}
 
-    closeSelector(event) {
-      const shouldClose = event.relatedTarget && event.relatedTarget.nodeName === 'BUTTON';
-      if (event.relatedTarget === null || shouldClose) {
-        this.hidePanel();
-      }
-    }
-  }
+closeSelector(event) {
+const shouldClose = event.relatedTarget && event.relatedTarget.nodeName === 'BUTTON';
+if (event.relatedTarget === null || shouldClose) {
+this.hidePanel();
+}
+}
+}
 
-  customElements.define('localization-form', LocalizationForm);
+customElements.define('localization-form', LocalizationForm);
 {% endjavascript %}
 
 {% schema %}
@@ -484,6 +709,132 @@
           "default": "center"
         }
       ]
+    },
+    {
+      "type": "custom",
+      "name": "Custom footer",
+      "settings": [
+        {
+          "type": "header",
+          "content": "Newsletter"
+        },
+        {
+          "type": "checkbox",
+          "id": "custom_newsletter",
+          "label": "On/Off Newsletter",
+          "default": true
+        },
+        {
+          "type": "text",
+          "id": "custom_newsletter_text",
+          "label": "Title Newsletter",
+          "default": "NEWSLETTER"
+        },
+        {
+          "type": "richtext",
+          "id": "custom_newsletter_richtext",
+          "label": "Richtext under newsletter form"
+        },
+        {
+          "type": "header",
+          "content": "Customer services"
+        },
+        {
+          "type": "text",
+          "id": "custom_services",
+          "label": "Title",
+          "default": "ASIAKASPALVELU"
+        },
+        {
+          "type": "html",
+          "id": "custom_phone",
+          "label": "Phone",
+          "default": "+358 29 309 3000"
+        },
+        {
+          "type": "html",
+          "id": "custom_work",
+          "label": "Phone",
+          "default": "ma - pe 9 - 17"
+        },
+        {
+          "type": "html",
+          "id": "custom_email",
+          "label": "Email",
+          "default": "asiakaspalvelu@isku.com"
+        },
+        {
+          "type": "paragraph",
+          "content": "Menus"
+        },
+        {
+          "type": "header",
+          "content": "First column"
+        },
+        {
+          "type": "text",
+          "id": "menu_first_title",
+          "label": "Title",
+          "default": "ISKU"
+        },
+        {
+          "type": "link_list",
+          "id": "menu_first",
+          "label": "Menu"
+        },
+        {
+          "type": "text",
+          "id": "menu_first_title_1",
+          "label": "Title",
+          "default": "OTA YHTEYTTÄ"
+        },
+        {
+          "type": "link_list",
+          "id": "menu_first_1",
+          "label": "Menu"
+        },
+        {
+          "type": "header",
+          "content": "Second column"
+        },
+        {
+          "type": "text",
+          "id": "menu_second_title_1",
+          "label": "Title",
+          "default": "VERKKOKAUPPA"
+        },
+        {
+          "type": "link_list",
+          "id": "menu_second",
+          "label": "Menu"
+        },
+        {
+          "type": "header",
+          "content": "Thrid column"
+        },
+        {
+          "type": "text",
+          "id": "menu_third_title",
+          "label": "Title",
+          "default": "ISKU"
+        },
+        {
+          "type": "link_list",
+          "id": "menu_thrid",
+          "label": "Menu"
+        },
+        {
+          "type": "text",
+          "id": "menu_third_title_1",
+          "label": "Title",
+          "default": "ISKU"
+        },
+        {
+          "type": "link_list",
+          "id": "menu_third_1",
+          "label": "Menu"
+        }
+      ]
     }
   ],
   "settings": [
@@ -532,7 +883,7 @@
       "default": "Subscribe to our emails",
       "label": "t:sections.footer.settings.newsletter_heading.label"
     },
-     {
+    {
       "type": "header",
       "content": "t:sections.footer.settings.header__9.content",
       "info": "t:sections.footer.settings.header__9.info"
@@ -620,20 +971,50 @@
       "id": "padding_top",
       "min": 0,
       "max": 100,
-      "step": 4,
+      "step": 1,
       "unit": "px",
       "label": "t:sections.all.padding.padding_top",
-      "default": 36
+      "default": 70
     },
     {
       "type": "range",
       "id": "padding_bottom",
       "min": 0,
       "max": 100,
-      "step": 4,
+      "step": 1,
       "unit": "px",
       "label": "t:sections.all.padding.padding_bottom",
-      "default": 36
+      "default": 30
+    },
+    {
+      "type": "range",
+      "id": "padding_top_mobile",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding top mob",
+      "default": 80
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_mobile",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding bottom mobile",
+      "default": 30
+    },
+    {
+      "type": "text",
+      "id": "copyright_first",
+      "label": "Copyright"
+    },
+    {
+      "type": "richtext",
+      "id": "copyright_second",
+      "label": "Copyright"
     }
   ],
   "default": {

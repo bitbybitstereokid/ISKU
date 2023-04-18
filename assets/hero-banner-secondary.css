@@ -1,6 +1,8 @@
 .hero-banner-secondary {
     position: relative;
-    padding: 0;
+    /*padding: 0;*/
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 .hero-banner-secondary__container {
@@ -99,13 +101,13 @@
 
 @media screen and (min-width:769px) {
     .hero-banner-secondary {
-        padding: 0 50px;
+        /*padding: 0 50px;*/
     }
 
     .hero-banner-secondary__image::before {
         padding-top: 52.42%;
     }
-    
+
     .hero-banner-secondary__content {
         padding: 50px;
         max-width: 700px;
@@ -128,7 +130,7 @@
 
 @media screen and (min-width:1025px) {
     .hero-banner-secondary {
-        padding: 0 100px;
+        /*padding: 0 100px;*/
     }
 
     .hero-banner-secondary__title {
@@ -143,5 +145,11 @@
 
     .hero-banner-secondary__content.center .hero-banner-secondary__title {
         margin: 0 0 72px;
+    }
+}
+
+@media screen and (max-width: 749px){
+    .hero-banner-secondary{
+        padding: 0;
     }
 }

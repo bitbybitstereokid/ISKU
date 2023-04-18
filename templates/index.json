@@ -3,7 +3,7 @@
     "5ffa3993-f36e-4b26-a08a-60dd72c4d9be": {
       "type": "hero-banner-half",
       "settings": {
-        "image": "shopify:\/\/shop_images\/minimal-picture-frame-with-scandinavian-design_1.jpg",
+        "image": "shopify:\/\/shop_images\/homepage.jpg",
         "title": "ISKUn Brändiviikko!",
         "text": "Saat 5.3. saakka ISKUn Lahden omalla tehtaalla valmistetuista tuotteista suosikkisi -30% koodilla ISKU-30!",
         "btn_text": "ISKUN TUOTTEISIIN TÄSTÄ",
@@ -18,7 +18,7 @@
     "a62c2669-6545-452b-8c54-de617831aae4": {
       "type": "hero-banner-secondary",
       "settings": {
-        "image": "shopify:\/\/shop_images\/minimalistic-still-life-with-candles-interior-room_1.jpg",
+        "image": "shopify:\/\/shop_images\/homepage2.jpg",
         "title": "ISKUssa On Nyt Univiikot!",
         "btn_text": "ETUIHIN TÄSTÄ",
         "btn_url": "",
@@ -142,7 +142,7 @@
     "de0f6296-9452-488f-a982-a31b8b396fff": {
       "type": "hero-banner-secondary",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Rectangle_67.jpg",
+        "image": "shopify:\/\/shop_images\/homepage1.jpg",
         "title": "ISKUn Kotimaiset Sohvat",
         "btn_text": "LUE LISÄÄ TÄSTÄ",
         "btn_url": "",
@@ -155,7 +155,7 @@
     "b9432f4d-03b8-46a9-af6c-e2e8cbe547e1": {
       "type": "hero-banner-secondary",
       "settings": {
-        "image": "shopify:\/\/shop_images\/vintage-ceiling-light-lamp_1.jpg",
+        "image": "shopify:\/\/shop_images\/homepage3.jpg",
         "title": "Trendikäs Uutuus Tuoli 53 On Täällä!",
         "btn_text": "TUTUSTU TÄSTÄ",
         "btn_url": "",
@@ -168,7 +168,7 @@
     "3d45458a-fc10-48c0-80b4-70414810b48e": {
       "type": "about-image-text",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Rectangle_42.jpg",
+        "image": "shopify:\/\/shop_images\/homepage4.jpg",
         "padding_top": 50,
         "padding_bottom": 50,
         "reverse": false,
@@ -198,7 +198,7 @@
       "settings": {
         "padding_top": 50,
         "padding_bottom": 0,
-        "title": "<p>Sign up to <b>save 10%<\/b> on your first order!<\/p>",
+        "title": "<p>Sign up to <strong>save 10%<\/strong> on your first order!<\/p>",
         "text": "To learn more about how we use your information, read our Privacy Policy",
         "btn_text": "Subscribe"
       }

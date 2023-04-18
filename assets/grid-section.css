@@ -1,5 +1,5 @@
 .collections-grid__wrapper {
-    padding: 0 15px;
+    /*padding: 0 15px;*/
 }
 
 .collections-grid__title {
@@ -74,7 +74,7 @@
 
 @media screen and (min-width: 769px) {
     .collections-grid__wrapper {
-        padding: 0 50px;
+        /*padding: 0 50px;*/
     }
 
     .collections-grid__title {
@@ -99,6 +99,6 @@
 
 @media screen and (min-width: 1025px) {
     .collections-grid__wrapper {
-        padding: 0 100px;
+        /*padding: 0 100px;*/
     }
 }

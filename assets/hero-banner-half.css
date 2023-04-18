@@ -4,7 +4,7 @@
 }
 
 .hero-banner-half.in-container {
-    padding: 0;
+    /*padding: 0;*/
 }
 
 .hero-banner-half__image::before {
@@ -25,7 +25,8 @@
 }
 
 .hero-banner-half__title {
-    font-family: var(--font-body-family);
+    /*font-family: var(--font-body-family);*/
+    font-family: 'itcmedium', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 30px;
@@ -43,7 +44,7 @@
     line-height: 150%;
     text-align: center;
     color: inherit;
-    margin:  0 auto 30px;
+    margin: 0 auto 30px;
     max-width: 421px;
 }
 
@@ -54,13 +55,13 @@
     text-align: center;
 }
 
-@media screen and (min-width:769px) {
+@media screen and (min-width: 769px) {
     .hero-banner-half {
         flex-direction: row;
     }
 
     .hero-banner-half.in-container {
-        padding: 0 50px;
+        /*padding: 0 50px;*/
     }
 
     .hero-banner-half__image {
@@ -103,10 +104,10 @@
     }
 }
 
-@media screen and (min-width:1024px) {
+@media screen and (min-width: 1024px) {
     .hero-banner-half.in-container {
-        padding: 0 100px;
-    }    
+        /*padding: 0 100px;*/
+    }
 
     .hero-banner-half__title {
         font-size: 60px;
@@ -119,5 +120,12 @@
 
     .hero-banner-half.in-container .hero-banner-half__content {
         padding: 45px 50px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hero-banner-half {
+        padding-right: 0;
+        padding-left: 0;
     }
 }

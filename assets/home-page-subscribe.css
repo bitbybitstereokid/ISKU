@@ -16,6 +16,12 @@
     text-align: center;
     color: var(--color-text-primary);
     margin: 0 0 15px;
+    letter-spacing: 0;
+}
+
+.home-page-subscribe__title strong{
+    color: #0F4880;
+    font-weight: 400;
 }
 
 .home-page-subscribe__title p {
@@ -77,6 +83,20 @@
 .home-page-subscribe__button {
     padding: 21px 60px;
     width: 100%;
+    border: 1px solid var(--color-accent-1);
+}
+
+.home-page-subscribe__button:hover{
+    border: 1px solid var(--color-text-secondary);
+}
+
+.home-page-subscribe__form{
+    flex-wrap: wrap;
+}
+
+.newsletter-form__message{
+    max-width: 590px;
+    width: 100%;
 }
 
 @media screen and (min-width:769px) {
@@ -127,8 +147,9 @@
     }
 
     .home-page-subscribe__form {
-        flex: 1 1 590px;
+        /*flex: 1 1 590px;*/
         max-width: 590px;
         justify-content: start;
+        flex-wrap: wrap;
     }
 }
