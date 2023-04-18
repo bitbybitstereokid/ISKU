@@ -1,37 +1,37 @@
 {{ "component-contact-text.css" | asset_url | stylesheet_tag }}
 
 {%- style -%}
-.contactWithText-{{section.id}}{
+    .contactWithText-{{section.id}}{
     padding-top: {{section.settings.st}}px;
     padding-bottom: {{section.settings.sb}}px;
-}
-
-@media(max-width: 768px) {
-    .contactWithText-{{section.id}} {
-        padding-top: {{section.settings.stm}}px;
-        padding-bottom: {{section.settings.sbm}}px;
     }
-}
+
+    @media(max-width: 768px) {
+    .contactWithText-{{section.id}} {
+    padding-top: {{section.settings.stm}}px;
+    padding-bottom: {{section.settings.sbm}}px;
+    }
+    }
 {%- endstyle-%}
 <div class="contactWithText contactWithText-{{section.id}}">
-    <div class="contactWithText_container page_width_container">
+    <div class="contactWithText_container page-width">
         <div class="contactWithText-item contactWithText-text">
             <h2 class="contactWithText-text__title">{{section.settings.title}}</h2>
             <div class="contactWithText-text__description">{{section.settings.description}}</div>
             <ul class="contactWithText-text__social text-social">
                 {%- if settings.social_facebook_link != blank -%}
                     <li class="text-social__item">
-                        <a href="{{ settings.social_facebook_link }}" class="text-social__link" >
+                        <a href="{{ settings.social_facebook_link }}" target="_blank" class="text-social__link" >
                             {%- render 'icon-facebook' -%}
                         </a>
-                      </li>
+                    </li>
                 {%- endif -%}
                 {%- if settings.social_instagram_link != blank -%}
                     <li class="text-social__item">
-                        <a href="{{ settings.social_instagram_link }}" class="text-social__link" >
+                        <a href="{{ settings.social_instagram_link }}" target="_blank" class="text-social__link" >
                             {%- render 'icon-instagram' -%}
                         </a>
-                      </li>
+                    </li>
                 {%- endif -%}
             </ul>
         </div>
@@ -41,95 +41,95 @@
     </div>
 </div>
 {% if section.blocks.size >= 1 %}
-{{ "component-contact-text.js" | asset_url | script_tag }}
+    {{ "component-contact-text.js" | asset_url | script_tag }}
 {% endif %}
 
 
 {% schema %}
 {
-    "name": "Contact form with text",
-    "blocks": [
+  "name": "Contact form with text",
+  "blocks": [
+    {
+      "name": "Dropdown Item",
+      "type": "dropdown",
+      "settings": [
         {
-            "name": "Dropdown Item",
-            "type": "dropdown",
-            "settings": [
-                {
-                    "type": "text",
-                    "id": "dropdown",
-                    "label": "Name item dropdown"
-                }
-            ]
+          "type": "text",
+          "id": "dropdown",
+          "label": "Name item dropdown"
         }
-    ],
-    "settings": [
-        {
-            "type": "header",
-            "content": "Desktop space"
-        },
-        {
-            "type": "range",
-            "id": "st",
-            "label": "Space top",
-            "unit": "px",
-            "min": 0,
-            "max": 200,
-            "step": 2,
-            "default": 0
-        },
-        {
-            "type": "range",
-            "id": "sb",
-            "label": "Space bottom",
-            "unit": "px",
-            "min": 0,
-            "max": 200,
-            "step": 2,
-            "default": 100
-        },
-        {
-            "type": "header",
-            "content": "Mobile space"
-        },
-        {
-            "type": "range",
-            "id": "stm",
-            "label": "Space top ",
-            "unit": "px",
-            "min": 0,
-            "max": 200,
-            "step": 2,
-            "default": 0
-        },
-        {
-            "type": "range",
-            "id": "sbm",
-            "label": "Space bottom",
-            "unit": "px",
-            "min": 0,
-            "max": 200,
-            "step": 2,
-            "default": 80
-        },
-        {
-            "type": "header",
-            "content": "Text"
-        },
-        {
-            "type": "text",
-            "id": "title",
-            "label": "Title form",
-            "default": "Get in touch with us!"
-        },
-        {
-            "type": "richtext",
-            "id": "description",
-            "label": "Description form"
-        }
-    ],
-    "presets": [
-        {
-            "name": "Contact form with text"
-        }
-    ]
+      ]
+    }
+  ],
+  "settings": [
+    {
+      "type": "header",
+      "content": "Desktop space"
+    },
+    {
+      "type": "range",
+      "id": "st",
+      "label": "Space top",
+      "unit": "px",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "sb",
+      "label": "Space bottom",
+      "unit": "px",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "default": 100
+    },
+    {
+      "type": "header",
+      "content": "Mobile space"
+    },
+    {
+      "type": "range",
+      "id": "stm",
+      "label": "Space top ",
+      "unit": "px",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "sbm",
+      "label": "Space bottom",
+      "unit": "px",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "default": 80
+    },
+    {
+      "type": "header",
+      "content": "Text"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title form",
+      "default": "Get in touch with us!"
+    },
+    {
+      "type": "richtext",
+      "id": "description",
+      "label": "Description form"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Contact form with text"
+    }
+  ]
 }
 {% endschema %}

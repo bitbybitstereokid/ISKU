@@ -3,8 +3,8 @@
     "cart-items": {
       "type": "main-cart-items",
       "settings": {
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 52,
+        "padding_bottom": 20
       }
     },
     "cart-footer": {
@@ -12,25 +12,76 @@
       "blocks": {
         "subtotal": {
           "type": "subtotal",
-          "settings": {
-          }
+          "settings": {}
         },
         "buttons": {
           "type": "buttons",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
         "subtotal",
         "buttons"
       ],
+      "settings": {}
+    },
+    "ba32c7ab-d2eb-4525-9003-5f669b2397b4": {
+      "type": "about-product-slider",
+      "disabled": true,
       "settings": {
+        "title": "",
+        "collection": "chairs",
+        "padding_top": 50,
+        "padding_bottom": 0
+      }
+    },
+    "a1d2731d-a288-4d00-a74b-40e71b69f960": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "Featured collection",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "chairs",
+        "products_to_show": 10,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "5c8753e3-b3e4-46d0-8c78-daf705dab556": {
+      "type": "cart-you-may-also-like",
+      "settings": {
+        "title": "He myös ostavat sen kanssa",
+        "collection": "chairs",
+        "show_button": true,
+        "button_name": "OSTA NYT",
+        "padding_top": 100,
+        "padding_bottom": 100,
+        "padding_top_mobile": 80,
+        "padding_bottom_mobile": 80
       }
     }
   },
   "order": [
     "cart-items",
-    "cart-footer"
+    "cart-footer",
+    "ba32c7ab-d2eb-4525-9003-5f669b2397b4",
+    "a1d2731d-a288-4d00-a74b-40e71b69f960",
+    "5c8753e3-b3e4-46d0-8c78-daf705dab556"
   ]
 }
