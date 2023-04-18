@@ -2,16 +2,16 @@
 {{ 'about-product-card.css' | asset_url | stylesheet_tag }}
 
 {% style %}
-    .product-slider.product-slider--{{ section.id }} {
-        padding-top: {{ section.settings.padding_top | times: 0.8 | round: 0 }}px;
-        padding-bottom: {{ section.settings.padding_bottom | times: 0.8 | round: 0 }}px;
+    product-slider {
+    padding-top: {{ section.settings.padding_top_mobile }}px;
+    padding-bottom: {{ section.settings.padding_bottom_mobile }}px;
     }
 
     @media only screen and (min-width: 769px) {
-        .product-slider.product-slider--{{ section.id }} {
-            padding-top: {{ section.settings.padding_top }}px;
-            padding-bottom: {{ section.settings.padding_bottom }}px;
-        }
+    .product-slider {
+    padding-top: {{ section.settings.padding_top }}px;
+    padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
     }
 {% endstyle %}
 
@@ -20,27 +20,27 @@
         <h2 class="product-slider__title">{{ section.settings.title }}</h2>
     {% endif %}
     <div class="swiper product-slider--{{ section.id }}">
-    <div class="swiper-wrapper">
-        {% if section.settings.collection != blank %}    
-            {% for product in section.settings.collection.products %}
-                <div class="swiper-slide">
-                    {% render 'about-product-card', product: product %}
-                </div>
-            {% endfor %}
-        {% else %}
-            {% for i in (1..12) %}
-                <div class="swiper-slide">
-                    <div class="product-card">
-                        <div class="product-card__image image-wrapper placeholder">
-                            {{ 'image' | placeholder_svg_tag }}
-                        </div>
-                        <h4 class="product-card__title">Title {{ forloop.index }}</h4>
-                        <p class="product-card__price">{{ 100000 | times: forloop.index | money }}</p>
+        <div class="swiper-wrapper">
+            {% if section.settings.collection != blank %}
+                {% for product in section.settings.collection.products %}
+                    <div class="swiper-slide">
+                        {% render 'about-product-card', product: product %}
                     </div>
-                </div>                    
-            {% endfor %}
-        {% endif %}
-    </div>
+                {% endfor %}
+            {% else %}
+                {% for i in (1..12) %}
+                    <div class="swiper-slide">
+                        <div class="product-card">
+                            <div class="product-card__image image-wrapper placeholder">
+                                {{ 'image' | placeholder_svg_tag }}
+                            </div>
+                            <h4 class="product-card__title">Title {{ forloop.index }}</h4>
+                            <p class="product-card__price">{{ 100000 | times: forloop.index | money }}</p>
+                        </div>
+                    </div>
+                {% endfor %}
+            {% endif %}
+        </div>
     </div>
     <div class="product-slider__button-prev product-slider__button-prev--{{ section.id }}">
         <svg width="23" height="16" viewBox="0 0 23 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -75,7 +75,7 @@
         }
         window.addEventListener("resize", (event) => {
             if (productSlidesWidth <= window.innerWidth) {
-               productSliderWrapper.classList.add('centered');
+                productSliderWrapper.classList.add('centered');
                 productSlider.enabled = false;
             } else {
                 productSliderWrapper.classList.remove('centered')
@@ -86,44 +86,64 @@
 </script>
 
 {% schema %}
+{
+  "name": "Product slider",
+  "settings": [
     {
-        "name": "Product slider",
-        "settings": [
-            {
-                "type": "text",
-                "id": "title",
-                "label": "Title"
-            },
-            {
-                "type": "collection",
-                "id": "collection",
-                "label": "Collection of products"
-            },
-            {
-                "type": "range",
-                "id": "padding_top",
-                "min": 0,
-                "max": 100,
-                "step": 1,
-                "unit": "px",
-                "label": "Free spave above",
-                "default": 0
-            },
-            {
-                "type": "range",
-                "id": "padding_bottom",
-                "min": 0,
-                "max": 100,
-                "step": 1,
-                "unit": "px",
-                "label": "Free spave below",
-                "default": 0
-            }
-        ],
-        "presets": [
-            {
-                "name": "Product slider"
-            }
-        ]
+      "type": "text",
+      "id": "title",
+      "label": "Title"
+    },
+    {
+      "type": "collection",
+      "id": "collection",
+      "label": "Collection of products"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Free spave above",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Free spave below",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_top_mobile",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Free spave above",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_mobile",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Free spave below",
+      "default": 80
     }
+  ],
+  "presets": [
+    {
+      "name": "Product slider"
+    }
+  ]
+}
 {% endschema %}

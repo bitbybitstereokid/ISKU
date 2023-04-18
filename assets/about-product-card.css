@@ -8,6 +8,10 @@
 .product-card__url {
     text-decoration: none;
     color: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
 }
 
 .product-card__image {
@@ -65,7 +69,3 @@
         margin: 0 0 16px;
     }
 }
-
-
-
-

@@ -2,32 +2,33 @@
 
 {% style %}
     .about-image-text.about-image-text--{{ section.id }} {
-        padding-top: {{ section.settings.padding_top | times: 0.8 | round: 0 }}px;
-        padding-bottom: {{ section.settings.padding_bottom | times: 0.8 | round: 0 }}px;
+    padding-top: {{ section.settings.padding_top | times: 0.8 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.8 | round: 0 }}px;
     }
 
     @media only screen and (min-width: 769px) {
-        .about-image-text.about-image-text--{{ section.id }} {
-            padding-top: {{ section.settings.padding_top }}px;
-            padding-bottom: {{ section.settings.padding_bottom }}px;
-        }
+    .about-image-text.about-image-text--{{ section.id }} {
+    padding-top: {{ section.settings.padding_top }}px;
+    padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
 
-        {% if section.settings.reverse %}
+    {% if section.settings.reverse %}
         .about-image-text.about-image-text--{{ section.id }} {
-            flex-direction: row-reverse;
+        flex-direction: row-reverse;
         }
-        {% else %}
+    {% else %}
         .about-image-text.about-image-text--{{ section.id }} {
-            flex-direction: row;
+        flex-direction: row;
         }
-        {% endif %}
+    {% endif %}
     }
 {% endstyle %}
 
-<div class="about-image-text about-image-text--{{ section.id }} {% if template.name == 'blog' %}about-image-text--container{% endif %}">
+<div class="about-image-text page-width about-image-text--{{ section.id }} {% if template.name == 'blog' %}about-image-text--container{% endif %}">
     <div class="about-image-text__wrapper image-wrapper">
         {% if section.settings.image != blank%}
-            {{ section.settings.image | image_url: width: 610 | image_tag: widths: '375, 480, 550, 610, 720, 930, 1100', alt: section.settings.image.alt, loading: 'lazy' }}
+            <img src="{{ section.settings.image | img_url: "master" }}" alt="section.settings.image.alt">
+            {% comment %}{{ section.settings.image | image_url: width: 800 | image_tag: widths: '375, 480, 550, 610, 720, 930, 1100', alt: section.settings.image.alt, loading: 'lazy' }}{% endcomment %}
         {% else %}
             {{ 'image' | placeholder_svg_tag }}
         {% endif %}
@@ -45,73 +46,73 @@
 </div>
 
 {% schema %}
+{
+  "name": "Image and text",
+  "settings": [
     {
-        "name": "Image and text",
-        "settings": [
-            {
-                "type": "image_picker",
-                "id": "image",
-                "label": "Image"
-            },
-            {
-                "type": "range",
-                "id": "padding_top",
-                "min": 0,
-                "max": 100,
-                "step": 1,
-                "unit": "px",
-                "label": "Free spave above",
-                "default": 50
-            },
-            {
-                "type": "range",
-                "id": "padding_bottom",
-                "min": 0,
-                "max": 100,
-                "step": 1,
-                "unit": "px",
-                "label": "Free spave below",
-                "default": 50
-            },
-            {
-                "type": "checkbox",
-                "id": "reverse",
-                "label": "Reverse image and text",
-                "default": false
-            },
-            {
-                "type": "checkbox",
-                "id": "text_centered",
-                "label": "Align text center",
-                "default": false
-            },
-            {
-                "type": "text",
-                "id": "title",
-                "label": "Title",
-                "default": "Title"
-            },
-            {
-                "type": "richtext",
-                "id": "text",
-                "label": "Text",
-                "default": "<p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.  Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Velit officia consequat duis enim velit mollit. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p><p>Exercitation veniam consequat sunt nostrud amet. Exercitatio n veniam consequat sunt nostrud amet.Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>"
-            },
-            {
-                "type": "text",
-                "id": "btn_text",
-                "label": "Button text"
-            },
-            {
-                "type": "url",
-                "id": "btn_url",
-                "label": "Button url"
-            }
-        ],
-        "presets": [
-            {
-                "name": "Image and text"
-            }
-        ]
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Free spave above",
+      "default": 50
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Free spave below",
+      "default": 50
+    },
+    {
+      "type": "checkbox",
+      "id": "reverse",
+      "label": "Reverse image and text",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "text_centered",
+      "label": "Align text center",
+      "default": false
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "default": "Title"
+    },
+    {
+      "type": "richtext",
+      "id": "text",
+      "label": "Text",
+      "default": "<p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.  Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Velit officia consequat duis enim velit mollit. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p><p>Exercitation veniam consequat sunt nostrud amet. Exercitatio n veniam consequat sunt nostrud amet.Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>"
+    },
+    {
+      "type": "text",
+      "id": "btn_text",
+      "label": "Button text"
+    },
+    {
+      "type": "url",
+      "id": "btn_url",
+      "label": "Button url"
     }
+  ],
+  "presets": [
+    {
+      "name": "Image and text"
+    }
+  ]
+}
 {% endschema %}
