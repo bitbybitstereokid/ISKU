@@ -8,27 +8,27 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Welcome to our store",
+            "text": "Mukkulankatu 19, 15210 Lahti",
             "text_alignment": "center",
-            "color_scheme": "background-1",
+            "color_scheme": "accent-2",
             "link": ""
           }
         },
         "839d4ef2-afc4-43a6-8c4a-bde088d6f515": {
           "type": "announcement",
           "settings": {
-            "text": "Welcome to our store",
+            "text": "Soita numeroon  +358 29 309 3000",
             "text_alignment": "center",
-            "color_scheme": "accent-1",
+            "color_scheme": "accent-2",
             "link": ""
           }
         },
         "4eb82a86-7678-452f-962f-c6e5a65cc5d4": {
           "type": "announcement",
           "settings": {
-            "text": "Welcome to our store",
+            "text": "Ilmainen toimitus yli $1000 tilauksille",
             "text_alignment": "center",
-            "color_scheme": "accent-1",
+            "color_scheme": "accent-2",
             "link": ""
           }
         }
@@ -45,9 +45,9 @@
       "type": "header",
       "settings": {
         "color_scheme": "background-1",
-        "logo_position": "middle-left",
-        "menu": "new-pages",
-        "menu_type_desktop": "dropdown",
+        "logo_position": "top-center",
+        "menu": "header-menu",
+        "menu_type_desktop": "mega",
         "sticky_header_type": "on-scroll-up",
         "show_line_separator": true,
         "mobile_logo_position": "center",
