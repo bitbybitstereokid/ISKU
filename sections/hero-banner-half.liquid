@@ -1,120 +1,122 @@
 {{ 'hero-banner-half.css' | asset_url | stylesheet_tag }}
 
 {% style %}
-  .hero-banner-half.hero-banner-half--{{ section.id }}{
-    padding-top: {{ section.settings.padding_top | times: 0.8 | round: 0 }}
-    px;
-    padding-bottom: {{ section.settings.padding_bottom | times: 0.8 | round: 0 }}
-    px;
-  }
-
-  .hero-banner-half.hero-banner-half--{{ section.id }}.hero-banner-half__content {
-    background-color: {{ section.settings.bg_color }}
-    ;
-    color: {{ section.settings.text_color }}
-    ;
-  }
-
-  @media only screen and (min-width: 769px) {
-    .hero-banner-half.hero-banner-half--{{ section.id }}{
-      padding-top: {{ section.settings.padding_top }}
-      px;
-      padding-bottom: {{ section.settings.padding_bottom }}
-      px;
+    .hero-banner-half.hero-banner-half--{{ section.id }} {
+        padding-top: {{ section.settings.padding_top | times: 0.8 | round: 0 }}px;
+        padding-bottom: {{ section.settings.padding_bottom | times: 0.8 | round: 0 }}px;
     }
-  }
-{% endstyle %}
 
+    .hero-banner-half.hero-banner-half--{{ section.id }} .hero-banner-half__content {
+        background-color: {{ section.settings.bg_color }};
+        color: {{ section.settings.text_color }};
+    }
+
+    @media only screen and (min-width: 769px) {
+        .hero-banner-half.hero-banner-half--{{ section.id }} {
+            padding-top: {{ section.settings.padding_top }}px;
+            padding-bottom: {{ section.settings.padding_bottom }}px;
+        }
+    }
+{% endstyle %}
+    
 <div class="hero-banner-half hero-banner-half--{{ section.id }} {% unless section.settings.full_width %}in-container{% endunless %}">
-  <div class="hero-banner-half__image image-wrapper">
-    {% if section.settings.image != blank %}
-      {{ section.settings.image | image_url: width: 1440 | image_tag: widths: '550, 760, 1400, 2200', alt: section.settings.image.alt, loading: 'lazy' }}
-    {% else %}
-      {{ 'lifestyle-1' | placeholder_svg_tag }}
-    {% endif %}
-  </div>
-  <div class="hero-banner-half__content">
-    <h2 class="hero-banner-half__title">{{ section.settings.title }}</h2>
-    <p class="hero-banner-half__text">{{ section.settings.text }}</p>
-    <a href="{{ section.settings.btn_url }}" class="hero-banner-half__button primary-btn">{{ section.settings.btn_text }}</a>
-  </div>
+    <div class="hero-banner-half__image image-wrapper">
+        {% if section.settings.image != blank%}
+            {{ section.settings.image | image_url: width: 3000 | image_tag: widths: '550, 800, 1100 1400, 2200 3000', alt: section.settings.image.alt, loading: 'lazy' }}
+        {% else %}
+            {{ 'lifestyle-1' | placeholder_svg_tag }}
+        {% endif %}
+    </div>
+    <div class="hero-banner-half__content">
+        <h2 class="hero-banner-half__title">{{ section.settings.title }}</h2>
+        <p class="hero-banner-half__text">{{ section.settings.text }}</p>
+        <a href="{{ section.settings.btn_url }}" class="hero-banner-half__button primary-btn">{{ section.settings.btn_text }}</a>
+    </div>
 </div>
 
 {% schema %}
-  {
+{
     "name": "Hero banner primary",
     "settings": [
-      {
-        "type": "header",
-        "content": "Content"
-      },
-      {
-        "type": "image_picker",
-        "id": "image",
-        "label": "Image"
-      },
-      {
-        "type": "text",
-        "id": "title",
-        "label": "Title",
-        "default": "ISKUn brändiviikko!"
-      },
-      {
-        "type": "textarea",
-        "id": "text",
-        "label": "Text",
-        "default": "Saat 5.3. saakka ISKUn Lahden omalla tehtaalla valmistetuista tuotteista suosikkisi -30% koodilla ISKU-30!"
-      }, {
-        "type": "text",
-        "id": "btn_text",
-        "label": "Button text",
-        "default": "ISKUN TUOTTEISIIN TÄSTÄ"
-      }, {
-        "type": "url",
-        "id": "btn_url",
-        "label": "Button URL"
-      }, {
-        "type": "header",
-        "content": "Layout"
-      }, {
-        "type": "range",
-        "id": "padding_top",
-        "min": 0,
-        "max": 100,
-        "step": 1,
-        "unit": "px",
-        "label": "Free spave above",
-        "default": 50
-      }, {
-        "type": "range",
-        "id": "padding_bottom",
-        "min": 0,
-        "max": 100,
-        "step": 1,
-        "unit": "px",
-        "label": "Free spave below",
-        "default": 50
-      }, {
-        "type": "checkbox",
-        "id": "full_width",
-        "label": "Full width",
-        "default": true
-      }, {
-        "type": "color",
-        "id": "bg_color",
-        "label": "Background color",
-        "default": "var(--color-accent-2)"
-      }, {
-        "type": "color",
-        "id": "text_color",
-        "label": "Text color",
-        "default": "var(--color-text-accent)"
-      }
+        {
+            "type": "header",
+            "content": "Content"
+        },
+        {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+        },
+        {
+            "type": "text",
+            "id": "title",
+            "label": "Title",
+            "default": "ISKUn brändiviikko!"
+        },
+        {
+            "type": "textarea",
+            "id": "text",
+            "label": "Text",
+            "default": "Saat 5.3. saakka ISKUn Lahden omalla tehtaalla valmistetuista tuotteista suosikkisi -30% koodilla ISKU-30!"
+        },
+        {
+            "type": "text",
+            "id": "btn_text",
+            "label": "Button text",
+            "default": "ISKUN TUOTTEISIIN TÄSTÄ"
+        },
+        {
+            "type": "url",
+            "id": "btn_url",
+            "label": "Button URL"
+        },
+        {
+            "type": "header",
+            "content": "Layout"
+        },
+        {
+            "type": "range",
+            "id": "padding_top",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "unit": "px",
+            "label": "Free spave above",
+            "default": 50
+        },
+        {
+            "type": "range",
+            "id": "padding_bottom",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "unit": "px",
+            "label": "Free spave below",
+            "default": 50
+        },
+        {
+            "type": "checkbox",
+            "id": "full_width",
+            "label": "Full width",
+            "default": true
+        },
+        {
+            "type": "color",
+            "id": "bg_color",
+            "label": "Background color",
+            "default": "#0F4880"
+        },
+        {
+            "type": "color",
+            "id": "text_color",
+            "label": "Text color",
+            "default": "#FFFFFF"
+        }
     ],
     "presets": [
-      {
+    {
         "name": "Hero banner primary"
-      }
-    ]
-  }
+    }
+  ]
+}
 {% endschema %}
