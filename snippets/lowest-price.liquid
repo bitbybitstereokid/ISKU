@@ -1,0 +1,11 @@
+{% assign showClass = false %}
+{% if product.selected_or_first_available_variant.compare_at_price != null and product.selected_or_first_available_variant.compare_at_price > product.selected_or_first_available_variant.price %}
+    {% assign showClass = true %}
+{% endif %}
+
+<div class="lowest-price__wrapper {% if showClass %}lowest-price__wrapper--show{% endif %}">
+{% if block.settings.text %}
+    <span class="lowest-price__text">{{ block.settings.text }}</span>
+{% endif %}
+    <span class="lowest-price__price" id="lowest-price-{{ section.id }}">{{ product.selected_or_first_available_variant.price | money }}</span>
+</div>

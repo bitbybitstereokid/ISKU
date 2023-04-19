@@ -1,5 +1,20 @@
 .breadcrumbs {
-    padding: 20px 20px 40px;
+    padding: 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+.breadcrumbs--overflow {
+    padding: 20px 30px 20px 20px;
+}
+
+.breadcrumbs--overflow::after {
+    content: '...';
+    display: inline;
+    position: absolute;
+    right: 29px;
+    bottom: 25px;
+    transform: translateX(100%);
 }
 
 .breadcrumbs__list {
@@ -8,6 +23,14 @@
     margin: 0;
     display: flex;
     justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.breadcrumbs--overflow .breadcrumbs__list {
+    justify-content: flex-start;
 }
 
 .breadcrumbs__item {
@@ -37,11 +60,12 @@
     font-size: 14px;
     line-height: 150%;
     color: var(--color-text-primary);
+    margin: 0;
 }
 
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 750px) {
     .breadcrumbs {
-        padding: 20px 50px 40px;
+        padding: 20px 50px;
     }
 
     .breadcrumbs__list {
@@ -49,8 +73,8 @@
     }
 }
 
-@media only screen and (min-width: 1025px) {
+@media only screen and (min-width: 990px) {
     .breadcrumbs {
-        padding: 40px 100px;
+        padding: 30px 100px;
     }
 }

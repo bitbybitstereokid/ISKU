@@ -22,7 +22,7 @@
                 </li>
             {%- endif -%}
                 <li class="breadcrumbs__item">
-                    <a class="breadcrumbs__link" href="{{ product.url }}" aria-current="page">{{ product.title }}</a>
+                    <p class="breadcrumbs__link" aria-current="page">{{ product.title }}</p>
                 </li>
 
         {%- when 'collection' and collection.handle -%}
@@ -51,6 +51,22 @@
     </ul>
 </nav>
 {% endunless %}
+
+<script>
+    const breadcrumbsContainer = document.querySelector('.breadcrumbs');
+    const breadcrumbsList = document.querySelector('.breadcrumbs__list');
+
+    function checkBreadcrumbsOverflow() {
+        if (breadcrumbsList.offsetWidth < breadcrumbsList.scrollWidth) {
+            breadcrumbsContainer.classList.add('breadcrumbs--overflow');
+        } else {
+            breadcrumbsContainer.classList.remove('breadcrumbs--overflow');
+        }
+    }
+
+    window.addEventListener('resize', checkBreadcrumbsOverflow);
+    document.addEventListener('DOMContentLoaded', checkBreadcrumbsOverflow);
+</script>
 
 {% schema %}
     {

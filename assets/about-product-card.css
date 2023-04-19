@@ -8,6 +8,9 @@
 .product-card__url {
     text-decoration: none;
     color: inherit;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
 .product-card__image {
