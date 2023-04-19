@@ -1903,7 +1903,7 @@
           }
         },
         "quantity_selector": {
-          "name": "Quantity selector"
+          "name": "Actions block"
         },
         "variant_picker": {
           "name": "Variant picker",

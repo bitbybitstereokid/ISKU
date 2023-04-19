@@ -1,0 +1,40 @@
+{% assign isVariantAvailable = true %}
+
+{% if product.selected_or_first_available_variant.available %}
+    {% assign isVariantAvailable = true %}
+{% else %}
+    {% assign isVariantAvailable = false %}
+{% endif %}
+
+<div class="delivery-info" id="delivery-info-{{ section.id }}">
+    {% if block.settings.delivery_time_lable != blank %}
+        <div class="delivery-info__item">
+            <p class="delivery-info__item-label">{{ block.settings.delivery_time_lable }}</p>
+            <p class="delivery-info__item-text">
+                {% if isVariantAvailable %}
+                    {{ block.settings.delivery_time_text1 }}
+                {% else %}
+                    {{ block.settings.delivery_time_text2 }}
+                {% endif %}
+            </p>
+        </div>
+    {% endif %}
+    {% if block.settings.delivery_price_lable != blank %}
+        <div class="delivery-info__item">
+            <p class="delivery-info__item-label">{{ block.settings.delivery_price_lable }}</p>
+            <p class="delivery-info__item-text">{{ block.settings.delivery_price_text }}</p>
+        </div>
+    {% endif %}
+    {% if block.settings.delivery_status_lable != blank %}
+        <div class="delivery-info__item">
+            <p class="delivery-info__item-label">{{ block.settings.delivery_status_lable }}</p>
+            <p class="delivery-info__item-text delivery-info__item-text--status delivery-info__item-text--status-{{ isVariantAvailable }}">
+                {% if isVariantAvailable %}
+                    {{ block.settings.delivery_status_text1 }}
+                {% else %}
+                    {{ block.settings.delivery_status_text2 }}
+                {% endif %}
+            </p>
+        </div>
+    {% endif %}
+</div>

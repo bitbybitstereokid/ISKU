@@ -13,13 +13,18 @@
 .product-slider__title {
     font-family: var(--font-body-family);
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 30px;
     line-height: 150%;
     text-align: center;
     color: var(--color-text-primary);
     margin: 0 auto 40px;
-    width: 75%;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.product-slider__title--article {
+    font-weight: 500;
 }
 
 .product-slider__button-prev,
@@ -84,6 +89,12 @@
     }
 
     .product-slider__title {
+        font-weight: 500;
+        letter-spacing: initial;
+        margin-bottom: 50px;
+    }
+
+    .product-slider__title--article {
         font-size: 40px;
         line-height: 48px;
         margin-bottom: 50px;

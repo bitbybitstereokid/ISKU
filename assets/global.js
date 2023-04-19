@@ -326,10 +326,22 @@ class MenuDrawer extends HTMLElement {
     super();
 
     this.mainDetailsToggle = this.querySelector('details');
-
+    this.closeMenuDrawerBtn = this.querySelector('.menu-drawer__close-navigation');
+    this.toggleDrawerBtn = this.querySelector('summary.header__icon--menu.header__icon--summary')
+    this.closeMenuDrawerBtn.addEventListener('click', () => {
+      this.closeMenuDrawerByBtn();
+    });
     this.addEventListener('keyup', this.onKeyUp.bind(this));
     this.addEventListener('focusout', this.onFocusOut.bind(this));
     this.bindEvents();
+  }
+
+  closeMenuDrawerByBtn() {
+    const attrAriaExtended = this.toggleDrawerBtn.getAttribute('aria-expanded');
+
+    if (attrAriaExtended) {
+      this.toggleDrawerBtn.click();
+    }
   }
 
   bindEvents() {
@@ -917,23 +929,48 @@ class VariantSelects extends HTMLElement {
         const html = new DOMParser().parseFromString(responseText, 'text/html')
         const destination = document.getElementById(`price-${this.dataset.section}`);
         const source = html.getElementById(`price-${this.dataset.originalSection ? this.dataset.originalSection : this.dataset.section}`);
+        const quantityPriceDestination = document.getElementById(`price-quantity-${this.dataset.section}`);
+        const quantityPriceSource = html.getElementById(`price-quantity-${this.dataset.originalSection ? this.dataset.originalSection : this.dataset.section}`);
         const skuSource = html.getElementById(`Sku-${this.dataset.originalSection ? this.dataset.originalSection : this.dataset.section}`);
         const skuDestination = document.getElementById(`Sku-${this.dataset.section}`);
         const inventorySource = html.getElementById(`Inventory-${this.dataset.originalSection ? this.dataset.originalSection : this.dataset.section}`);
         const inventoryDestination = document.getElementById(`Inventory-${this.dataset.section}`);
+        const lowestPriceSource = html.getElementById(`lowest-price-${this.dataset.originalSection ? this.dataset.originalSection : this.dataset.section}`);
+        const lowestPriceDestination = document.getElementById(`lowest-price-${this.dataset.section}`);
+        const deliveryInfoSource = html.getElementById(`delivery-info-${this.dataset.originalSection ? this.dataset.originalSection : this.dataset.section}`);
+        const deliveryInfoDestination = document.getElementById(`delivery-info-${this.dataset.section}`);
+        const colorSwatcherSource = html.getElementById(`custom-color-swatches`);
+        const colorSwatcherDestination = document.getElementById(`custom-color-swatches`);
 
         if (source && destination) destination.innerHTML = source.innerHTML;
+        if (quantityPriceSource)  {
+          quantityPriceDestination.innerHTML = quantityPriceSource.innerHTML;
+          quantityPriceDestination.dataset.basePrice = quantityPriceSource.dataset.basePrice;
+        }
         if (inventorySource && inventoryDestination) inventoryDestination.innerHTML = inventorySource.innerHTML;
         if (skuSource && skuDestination) {
           skuDestination.innerHTML = skuSource.innerHTML;
           skuDestination.classList.toggle('visibility-hidden', skuSource.classList.contains('visibility-hidden'));
         }
 
+        if (lowestPriceSource && lowestPriceDestination) {
+          if (this.currentVariant.compare_at_price) {
+            lowestPriceDestination.parentElement.style.display = 'flex';
+          } else {
+            lowestPriceDestination.parentElement.style.display = 'none';
+          }
+          lowestPriceDestination.innerHTML = lowestPriceSource.innerHTML
+        }
+
+        if (deliveryInfoSource && deliveryInfoDestination) deliveryInfoDestination.innerHTML = deliveryInfoSource.innerHTML;
+
         const price = document.getElementById(`price-${this.dataset.section}`);
 
         if (price) price.classList.remove('visibility-hidden');
 
         if (inventoryDestination) inventoryDestination.classList.toggle('visibility-hidden', inventorySource.innerText === '');
+
+        if (colorSwatcherSource && colorSwatcherDestination) colorSwatcherDestination.innerHTML = colorSwatcherSource.innerHTML;
 
         const addButtonUpdated = html.getElementById(`ProductSubmitButton-${sectionId}`);
         this.toggleAddButton(addButtonUpdated ? addButtonUpdated.hasAttribute('disabled') : true, window.variantStrings.soldOut);
@@ -1051,3 +1088,4 @@ class ProductRecommendations extends HTMLElement {
 }
 
 customElements.define('product-recommendations', ProductRecommendations);
+

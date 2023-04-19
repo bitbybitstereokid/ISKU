@@ -1,0 +1,61 @@
+{% if product.metafields.custom.buy_too != blank %}
+{{ 'buy-too-pdp-section.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'buy-too-pdp-section.js' | asset_url }}" defer="defer"></script>
+
+<div class="buy-too">
+    {% if section.settings.title != blank %}
+        <h2 class="buy-too__title">{{ section.settings.title }}</h2>
+    {% endif %}
+    <div class="buy-too__grid">
+    {% for variant in product.metafields.custom.buy_too.value %}
+        {% render 'buy-too-variant-card', variant: variant %}
+    {% endfor %}
+    </div>
+</div>
+
+{% endif %}
+
+{% schema %}
+{
+    "name": {
+        "en": "Buy too"
+    },
+    "settings": [
+        {
+            "type": "text",
+            "id": "title",
+            "label": "Title",
+            "default": "Osta myös"
+        },
+        {
+            "type": "text",
+            "id": "in_stock_text",
+            "label": "In stock text",
+            "default": "Varastossa"
+        },
+        {
+            "type": "text",
+            "id": "out_stock_text",
+            "label": "Out stock text",
+            "default": "loppu varastosta"
+        },
+        {
+            "type": "text",
+            "id": "btn_text",
+            "label": "Button text",
+            "default": "Osta"
+        },
+        {
+            "type": "text",
+            "id": "btn_out_stock_text",
+            "label": "Button text",
+            "default": "Loppuunmyyty"
+        }
+    ],
+    "presets": [
+    {
+        "name": "Buy too"
+    }
+  ]
+}
+{% endschema %}

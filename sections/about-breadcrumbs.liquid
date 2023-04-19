@@ -54,6 +54,22 @@
     </nav>
 {% endunless %}
 
+<script>
+    const breadcrumbsContainer = document.querySelector('.breadcrumbs');
+    const breadcrumbsList = document.querySelector('.breadcrumbs__list');
+
+    function checkBreadcrumbsOverflow() {
+        if (breadcrumbsList.offsetWidth < breadcrumbsList.scrollWidth) {
+            breadcrumbsContainer.classList.add('breadcrumbs--overflow');
+        } else {
+            breadcrumbsContainer.classList.remove('breadcrumbs--overflow');
+        }
+    }
+
+    window.addEventListener('resize', checkBreadcrumbsOverflow);
+    document.addEventListener('DOMContentLoaded', checkBreadcrumbsOverflow);
+</script>
+
 {% schema %}
 {
   "name": "Breadcrumbs",
