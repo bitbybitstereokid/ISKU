@@ -10,56 +10,44 @@
           "settings": {
             "text": "Welcome to our store",
             "text_alignment": "center",
-            "color_scheme": "accent-2",
+            "color_scheme": "background-1",
             "link": ""
           }
         },
-        "02dad83f-c22c-4f6b-bbb4-6549f8b9b586": {
+        "839d4ef2-afc4-43a6-8c4a-bde088d6f515": {
           "type": "announcement",
           "settings": {
             "text": "Welcome to our store",
             "text_alignment": "center",
-            "color_scheme": "accent-2",
+            "color_scheme": "accent-1",
             "link": ""
           }
         },
-        "52052eb9-fc0f-4c63-a326-793fd83e489b": {
+        "4eb82a86-7678-452f-962f-c6e5a65cc5d4": {
           "type": "announcement",
           "settings": {
             "text": "Welcome to our store",
             "text_alignment": "center",
-            "color_scheme": "accent-2",
+            "color_scheme": "accent-1",
             "link": ""
           }
         }
       },
       "block_order": [
         "announcement-bar-0",
-        "02dad83f-c22c-4f6b-bbb4-6549f8b9b586",
-        "52052eb9-fc0f-4c63-a326-793fd83e489b"
+        "839d4ef2-afc4-43a6-8c4a-bde088d6f515",
+        "4eb82a86-7678-452f-962f-c6e5a65cc5d4"
       ],
-      "settings": {}
+      "settings": {
+      }
     },
     "header": {
       "type": "header",
-      "blocks": {
-        "1ab7b21b-6891-4337-a6a2-2045b5ef047b": {
-          "type": "slot",
-          "settings": {
-            "link_title": "Tuotteet kotiin",
-            "image": "shopify:\/\/shop_images\/mega-menu-slot-img.jpg",
-            "title": "Title"
-          }
-        }
-      },
-      "block_order": [
-        "1ab7b21b-6891-4337-a6a2-2045b5ef047b"
-      ],
       "settings": {
         "color_scheme": "background-1",
-        "logo_position": "top-center",
-        "menu": "header-menu",
-        "menu_type_desktop": "mega",
+        "logo_position": "middle-left",
+        "menu": "new-pages",
+        "menu_type_desktop": "dropdown",
         "sticky_header_type": "on-scroll-up",
         "show_line_separator": true,
         "mobile_logo_position": "center",
