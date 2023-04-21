@@ -43,11 +43,11 @@
         "padding_top": 50,
         "padding_bottom": 50,
         "reverse": false,
-        "text_centered": false,
-        "title": "Kaytavamatot",
+        "text_centered": true,
+        "title": "Hyllyt",
         "text": "",
-        "btn_text": "Kaytavamatot",
-        "btn_url": "shopify:\/\/collections\/kaytavamatot"
+        "btn_text": "Hyllyt",
+        "btn_url": "shopify:\/\/collections\/hyllyt"
       }
     },
     "bf0360e0-abee-4eb2-8b99-6be4c228910a": {
@@ -56,12 +56,12 @@
         "image": "shopify:\/\/shop_images\/homepage4.jpg",
         "padding_top": 50,
         "padding_bottom": 50,
-        "reverse": false,
-        "text_centered": false,
-        "title": "Kaytavamatot",
+        "reverse": true,
+        "text_centered": true,
+        "title": "Lipastot ja senkit",
         "text": "",
-        "btn_text": "Kaytavamatot",
-        "btn_url": "shopify:\/\/collections\/kaytavamatot"
+        "btn_text": "Lipastot ja senkit",
+        "btn_url": "shopify:\/\/collections\/lipastot-ja-senkit"
       }
     },
     "43a788a5-f0d3-4c28-a84b-291a591657af": {
@@ -71,11 +71,11 @@
         "padding_top": 50,
         "padding_bottom": 50,
         "reverse": false,
-        "text_centered": false,
-        "title": "Kaytavamatot",
+        "text_centered": true,
+        "title": "Kaapit",
         "text": "",
-        "btn_text": "Kaytavamatot",
-        "btn_url": "shopify:\/\/collections\/kaytavamatot"
+        "btn_text": "Kaapit",
+        "btn_url": "shopify:\/\/collections\/kaapit"
       }
     },
     "f8d71f76-22c4-4d15-bb9c-ee782888b497": {
@@ -84,12 +84,12 @@
         "image": "shopify:\/\/shop_images\/homepage4.jpg",
         "padding_top": 50,
         "padding_bottom": 50,
-        "reverse": false,
-        "text_centered": false,
-        "title": "Kaytavamatot",
+        "reverse": true,
+        "text_centered": true,
+        "title": "Vitriinit",
         "text": "",
-        "btn_text": "Kaytavamatot",
-        "btn_url": "shopify:\/\/collections\/kaytavamatot"
+        "btn_text": "Vitriinit",
+        "btn_url": "shopify:\/\/collections\/vitriinit"
       }
     },
     "6bc59e3e-7c26-4ccb-adcf-c0511c931c0c": {
@@ -99,11 +99,11 @@
         "padding_top": 50,
         "padding_bottom": 50,
         "reverse": false,
-        "text_centered": false,
-        "title": "Kaytavamatot",
+        "text_centered": true,
+        "title": "Naulakot",
         "text": "",
-        "btn_text": "Kaytavamatot",
-        "btn_url": "shopify:\/\/collections\/kaytavamatot"
+        "btn_text": "Naulakot",
+        "btn_url": "shopify:\/\/collections\/naulakot"
       }
     },
     "07c8bb50-82d6-4c9a-925f-d0714e1d1b7a": {
@@ -112,26 +112,12 @@
         "image": "shopify:\/\/shop_images\/homepage4.jpg",
         "padding_top": 50,
         "padding_bottom": 50,
-        "reverse": false,
-        "text_centered": false,
-        "title": "Kaytavamatot",
+        "reverse": true,
+        "text_centered": true,
+        "title": "Eteisen sailytys",
         "text": "",
-        "btn_text": "Kaytavamatot",
-        "btn_url": "shopify:\/\/collections\/kaytavamatot"
-      }
-    },
-    "85a6a5de-7c1a-4dd8-9849-7d8df5abc535": {
-      "type": "about-image-text",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/homepage4.jpg",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "reverse": false,
-        "text_centered": false,
-        "title": "Kaytavamatot",
-        "text": "",
-        "btn_text": "Kaytavamatot",
-        "btn_url": "shopify:\/\/collections\/kaytavamatot"
+        "btn_text": "Eteisen sailytys",
+        "btn_url": "shopify:\/\/collections\/eteisen-sailytys"
       }
     }
   },
@@ -144,7 +130,6 @@
     "43a788a5-f0d3-4c28-a84b-291a591657af",
     "f8d71f76-22c4-4d15-bb9c-ee782888b497",
     "6bc59e3e-7c26-4ccb-adcf-c0511c931c0c",
-    "07c8bb50-82d6-4c9a-925f-d0714e1d1b7a",
-    "85a6a5de-7c1a-4dd8-9849-7d8df5abc535"
+    "07c8bb50-82d6-4c9a-925f-d0714e1d1b7a"
   ]
 }
