@@ -183,10 +183,10 @@
         "padding_top": 50,
         "padding_bottom": 50,
         "reverse": false,
-        "text_centered": false,
-        "title": "Title",
+        "text_centered": true,
+        "title": "Kaapit",
         "text": "",
-        "btn_text": "Sohvat",
+        "btn_text": "Kaapit",
         "btn_url": ""
       }
     },
