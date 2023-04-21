@@ -44,10 +44,10 @@
         "padding_bottom": 50,
         "reverse": false,
         "text_centered": true,
-        "title": "Poydat",
+        "title": "Ruokailuryhmat",
         "text": "",
-        "btn_text": "Poydat",
-        "btn_url": "shopify:\/\/collections\/poydat"
+        "btn_text": "Ruokailuryhmat",
+        "btn_url": "shopify:\/\/collections\/ruokailuryhmat"
       }
     },
     "05e5b24f-5bd6-4663-a578-e121cac05f3a": {
