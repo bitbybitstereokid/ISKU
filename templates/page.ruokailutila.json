@@ -47,7 +47,7 @@
         "title": "Ruokailupoydan tuolit",
         "text": "",
         "btn_text": "Ruokailupoydan tuolit",
-        "btn_url": ""
+        "btn_url": "shopify:\/\/collections\/ruokailupoydan-tuolit"
       }
     },
     "d860dc34-e813-49ce-9adf-9518588014f7": {
@@ -56,12 +56,12 @@
         "image": "shopify:\/\/shop_images\/kampa2.jpg",
         "padding_top": 50,
         "padding_bottom": 50,
-        "reverse": false,
+        "reverse": true,
         "text_centered": true,
-        "title": "Ruokailupoydat",
+        "title": "Baaripoydat",
         "text": "",
-        "btn_text": "Ruokailupoydat",
-        "btn_url": "shopify:\/\/collections\/ruokailupoydat"
+        "btn_text": "Baaripoydat",
+        "btn_url": "shopify:\/\/collections\/baaripoydat"
       }
     }
   },
