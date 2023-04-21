@@ -63,6 +63,62 @@
         "btn_text": "Runkosangyt",
         "btn_url": "shopify:\/\/collections\/runkosangyt"
       }
+    },
+    "96329102-33a5-4013-af01-c3d8f85e6c73": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/kampa2_710974a3-1885-4177-9d20-ec2753449cad.jpg",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": false,
+        "text_centered": true,
+        "title": "Patjat",
+        "text": "",
+        "btn_text": "Patjat",
+        "btn_url": "shopify:\/\/collections\/patjat"
+      }
+    },
+    "51e7c3ce-b54b-402b-bf8b-0298495725dd": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/kampa2_710974a3-1885-4177-9d20-ec2753449cad.jpg",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": true,
+        "text_centered": true,
+        "title": "Tempur",
+        "text": "",
+        "btn_text": "Tempur",
+        "btn_url": "shopify:\/\/collections\/tempur"
+      }
+    },
+    "6d1af726-257c-47c8-bcc6-b7ac6337ea54": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/kampa2_710974a3-1885-4177-9d20-ec2753449cad.jpg",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": true,
+        "text_centered": true,
+        "title": "Runkosangyt",
+        "text": "",
+        "btn_text": "Runkosangyt",
+        "btn_url": "shopify:\/\/collections\/runkosangyt"
+      }
+    },
+    "c3f9b77a-40ba-4700-88c4-e37df4fa2e29": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/kampa2_710974a3-1885-4177-9d20-ec2753449cad.jpg",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": true,
+        "text_centered": true,
+        "title": "Runkosangyt",
+        "text": "",
+        "btn_text": "Runkosangyt",
+        "btn_url": "shopify:\/\/collections\/runkosangyt"
+      }
     }
   },
   "order": [
@@ -70,6 +126,10 @@
     "a65a1687-c603-4667-9f0b-2523fdad5cb7",
     "2299cf72-cfbe-41cf-98aa-2dfd0c44a5e3",
     "83c09231-d0a9-4b22-8193-2b5b23768dc8",
-    "beee39c4-0851-45c2-b15d-dc6f90046534"
+    "beee39c4-0851-45c2-b15d-dc6f90046534",
+    "96329102-33a5-4013-af01-c3d8f85e6c73",
+    "51e7c3ce-b54b-402b-bf8b-0298495725dd",
+    "6d1af726-257c-47c8-bcc6-b7ac6337ea54",
+    "c3f9b77a-40ba-4700-88c4-e37df4fa2e29"
   ]
 }
