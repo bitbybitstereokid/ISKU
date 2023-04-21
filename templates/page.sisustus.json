@@ -21,10 +21,145 @@
         "btn_text": "Valaisimet",
         "btn_url": "shopify:\/\/collections\/valaisimet"
       }
+    },
+    "3a170b16-a12c-4a9a-a1ee-47b7da6f2e2b": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_40.png",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": true,
+        "text_centered": true,
+        "title": "Kattovalaisimet",
+        "text": "",
+        "btn_text": "Kattovalaisimet",
+        "btn_url": "shopify:\/\/collections\/kattovalaisimet"
+      }
+    },
+    "4ddb0516-2718-4335-834d-2c035f03a750": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_40.png",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": false,
+        "text_centered": true,
+        "title": "Lattiavalaisimet",
+        "text": "",
+        "btn_text": "Lattiavalaisimet",
+        "btn_url": "shopify:\/\/collections\/lattiavalaisimet"
+      }
+    },
+    "6fa57ff8-05b0-4ed7-93a2-a0faaed27289": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_40.png",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": true,
+        "text_centered": true,
+        "title": "Poytavalaisimet",
+        "text": "",
+        "btn_text": "Poytavalaisimet",
+        "btn_url": "shopify:\/\/collections\/poytavalaisimet"
+      }
+    },
+    "46a010d0-d5a6-4c4d-a8f3-f51db8d3f7d6": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_40.png",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": false,
+        "text_centered": true,
+        "title": "Seinavalaisimet",
+        "text": "",
+        "btn_text": "Seinavalaisimet",
+        "btn_url": "shopify:\/\/collections\/valaisimet"
+      }
+    },
+    "33d43fec-10d9-4df4-bbab-2dfba2348708": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_40.png",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": true,
+        "text_centered": true,
+        "title": "Tyopoytavalaisimet",
+        "text": "",
+        "btn_text": "Tyopoytavalaisimet",
+        "btn_url": "shopify:\/\/collections\/valaisimet"
+      }
+    },
+    "92d77794-2cb9-4efa-9833-981c95ce205f": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_40.png",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": false,
+        "text_centered": true,
+        "title": "Valaisintarvikkeet",
+        "text": "",
+        "btn_text": "Valaisintarvikkeet",
+        "btn_url": "shopify:\/\/collections\/valaisimet"
+      }
+    },
+    "30f6d938-f184-462f-8627-029da027cf75": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_40.png",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": true,
+        "text_centered": true,
+        "title": "Matot",
+        "text": "",
+        "btn_text": "Matot",
+        "btn_url": "shopify:\/\/collections\/matot"
+      }
+    },
+    "215fbb37-9911-4e0f-b1df-2f9ff40649af": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_40.png",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": false,
+        "text_centered": true,
+        "title": "Kaytavamatot",
+        "text": "",
+        "btn_text": "Kaytavamatot",
+        "btn_url": "shopify:\/\/collections\/kaytavamatot"
+      }
+    },
+    "07d6a352-4ba7-4ddf-87cc-9d1d0b4080b7": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_40.png",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": true,
+        "text_centered": true,
+        "title": "Eteismatot",
+        "text": "",
+        "btn_text": "Eteismatot",
+        "btn_url": "shopify:\/\/collections\/eteismatot"
+      }
     }
   },
   "order": [
     "main",
-    "fb385c95-4699-42ba-b356-10a518bc9bb1"
+    "fb385c95-4699-42ba-b356-10a518bc9bb1",
+    "3a170b16-a12c-4a9a-a1ee-47b7da6f2e2b",
+    "4ddb0516-2718-4335-834d-2c035f03a750",
+    "6fa57ff8-05b0-4ed7-93a2-a0faaed27289",
+    "46a010d0-d5a6-4c4d-a8f3-f51db8d3f7d6",
+    "33d43fec-10d9-4df4-bbab-2dfba2348708",
+    "92d77794-2cb9-4efa-9833-981c95ce205f",
+    "30f6d938-f184-462f-8627-029da027cf75",
+    "215fbb37-9911-4e0f-b1df-2f9ff40649af",
+    "07d6a352-4ba7-4ddf-87cc-9d1d0b4080b7"
   ]
 }
