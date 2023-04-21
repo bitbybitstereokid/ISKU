@@ -114,10 +114,24 @@
         "padding_bottom": 50,
         "reverse": true,
         "text_centered": true,
-        "title": "Kaytavamatot",
+        "title": "Puuvillamatot",
         "text": "",
-        "btn_text": "Kaytavamatot",
-        "btn_url": "shopify:\/\/collections\/kaytavamatot"
+        "btn_text": "Puuvillamatot",
+        "btn_url": "shopify:\/\/collections\/puuvillamatot"
+      }
+    },
+    "475d044e-3ed2-4c92-9ff4-46c46ebbef59": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_34.png",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": true,
+        "text_centered": true,
+        "title": "Puuvillamatot",
+        "text": "",
+        "btn_text": "Puuvillamatot",
+        "btn_url": "shopify:\/\/collections\/puuvillamatot"
       }
     }
   },
@@ -130,6 +144,7 @@
     "3ee4abc0-bf57-4196-b21c-98423d11678d",
     "ad0cb396-4a65-4a12-94e2-3a925be1e72e",
     "31a79294-9985-4493-b9e9-d1add184f053",
-    "df0d561b-d3db-467c-853e-97f5c072b90c"
+    "df0d561b-d3db-467c-853e-97f5c072b90c",
+    "475d044e-3ed2-4c92-9ff4-46c46ebbef59"
   ]
 }
