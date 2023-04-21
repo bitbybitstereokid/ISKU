@@ -21,10 +21,145 @@
         "btn_text": "Terassimatot",
         "btn_url": "shopify:\/\/collections\/terassimatot"
       }
+    },
+    "70636d80-643d-4971-a5cf-435879783955": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/mega-menu-slot-img.jpg",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": true,
+        "text_centered": true,
+        "title": "Puutarhakalusteet",
+        "text": "",
+        "btn_text": "Puutarhakalusteet",
+        "btn_url": "shopify:\/\/collections\/puutarhakalusteet"
+      }
+    },
+    "2d6d4d38-13b0-48b0-acf1-57c3eb881d60": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/mega-menu-slot-img.jpg",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": false,
+        "text_centered": true,
+        "title": "Terassimatot",
+        "text": "",
+        "btn_text": "Terassimatot",
+        "btn_url": "shopify:\/\/collections\/terassimatot"
+      }
+    },
+    "d5b27758-accb-47d5-a70a-ec56860f79e8": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/mega-menu-slot-img.jpg",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": false,
+        "text_centered": true,
+        "title": "Terassimatot",
+        "text": "",
+        "btn_text": "Terassimatot",
+        "btn_url": "shopify:\/\/collections\/terassimatot"
+      }
+    },
+    "ef593c9e-3abf-43c6-9a31-cec2de415183": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/mega-menu-slot-img.jpg",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": false,
+        "text_centered": true,
+        "title": "Terassimatot",
+        "text": "",
+        "btn_text": "Terassimatot",
+        "btn_url": "shopify:\/\/collections\/terassimatot"
+      }
+    },
+    "332f1947-3e2e-462b-8b1d-6f15adfa46d6": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/mega-menu-slot-img.jpg",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": false,
+        "text_centered": true,
+        "title": "Terassimatot",
+        "text": "",
+        "btn_text": "Terassimatot",
+        "btn_url": "shopify:\/\/collections\/terassimatot"
+      }
+    },
+    "7810d182-24f9-4e3a-9c4b-59e24a669f8a": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/mega-menu-slot-img.jpg",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": false,
+        "text_centered": true,
+        "title": "Terassimatot",
+        "text": "",
+        "btn_text": "Terassimatot",
+        "btn_url": "shopify:\/\/collections\/terassimatot"
+      }
+    },
+    "c451f210-291b-4f74-950d-4fc198f96fe0": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/mega-menu-slot-img.jpg",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": false,
+        "text_centered": true,
+        "title": "Terassimatot",
+        "text": "",
+        "btn_text": "Terassimatot",
+        "btn_url": "shopify:\/\/collections\/terassimatot"
+      }
+    },
+    "185c893e-55b1-48de-8256-88f315ad705e": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/mega-menu-slot-img.jpg",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": false,
+        "text_centered": true,
+        "title": "Terassimatot",
+        "text": "",
+        "btn_text": "Terassimatot",
+        "btn_url": "shopify:\/\/collections\/terassimatot"
+      }
+    },
+    "03641a08-99ac-4bbd-8df4-d2b427d98010": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/mega-menu-slot-img.jpg",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": false,
+        "text_centered": true,
+        "title": "Terassimatot",
+        "text": "",
+        "btn_text": "Terassimatot",
+        "btn_url": "shopify:\/\/collections\/terassimatot"
+      }
     }
   },
   "order": [
     "main",
-    "02df9c5d-b121-445a-a19c-ffc9a2a528e2"
+    "02df9c5d-b121-445a-a19c-ffc9a2a528e2",
+    "70636d80-643d-4971-a5cf-435879783955",
+    "2d6d4d38-13b0-48b0-acf1-57c3eb881d60",
+    "d5b27758-accb-47d5-a70a-ec56860f79e8",
+    "ef593c9e-3abf-43c6-9a31-cec2de415183",
+    "332f1947-3e2e-462b-8b1d-6f15adfa46d6",
+    "7810d182-24f9-4e3a-9c4b-59e24a669f8a",
+    "c451f210-291b-4f74-950d-4fc198f96fe0",
+    "185c893e-55b1-48de-8256-88f315ad705e",
+    "03641a08-99ac-4bbd-8df4-d2b427d98010"
   ]
 }
