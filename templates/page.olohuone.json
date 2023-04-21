@@ -210,12 +210,12 @@
         "image": "shopify:\/\/shop_images\/kampa2.jpg",
         "padding_top": 50,
         "padding_bottom": 50,
-        "reverse": false,
-        "text_centered": false,
-        "title": "Title",
+        "reverse": true,
+        "text_centered": true,
+        "title": "Poydat",
         "text": "",
-        "btn_text": "Sohvat",
-        "btn_url": ""
+        "btn_text": "Poydat",
+        "btn_url": "shopify:\/\/collections\/poydat"
       }
     },
     "977577cd-f399-400e-b860-3636230c6817": {
