@@ -2,15 +2,15 @@
 
 {% style %}
     .benefit-icons.benefit-icons--{{ section.id }} {
-        padding-top: {{ section.settings.padding_top | times: 0.8 | round: 0 }}px;
-        padding-bottom: {{ section.settings.padding_bottom | times: 0.8 | round: 0 }}px;
+    padding-top: {{ section.settings.padding_top | times: 0.8 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.8 | round: 0 }}px;
     }
 
     @media only screen and (min-width: 769px) {
-        .benefit-icons.benefit-icons--{{ section.id }} {
-            padding-top: {{ section.settings.padding_top }}px;
-            padding-bottom: {{ section.settings.padding_bottom }}px;
-        }
+    .benefit-icons.benefit-icons--{{ section.id }} {
+    padding-top: {{ section.settings.padding_top }}px;
+    padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
     }
 {% endstyle %}
 
@@ -19,7 +19,7 @@
         <div class="benefit-icons__item">
             <div class="benefit-icons__icon image-wrapper">
                 {% if block.settings.icon != blank%}
-                    {{ block.settings.icon }}
+                    {{ block.settings.icon | image_url: width: 60 | image_tag: alt: block.settings.icon.alt, loading: 'lazy' }}
                 {% else %}
                     {{ 'image' | placeholder_svg_tag: "placeholder" }}
                 {% endif %}
@@ -31,72 +31,72 @@
 
 {% schema %}
 {
-    "name": "Benefit icons",
-    "settings": [
+  "name": "Benefit icons",
+  "settings": [
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Free spave above",
+      "default": 50
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Free spave below",
+      "default": 50
+    }
+  ],
+  "max_blocks": 3,
+  "blocks": [
+    {
+      "type": "icon",
+      "name": "Benefit icon",
+      "settings": [
         {
-            "type": "range",
-            "id": "padding_top",
-            "min": 0,
-            "max": 100,
-            "step": 1,
-            "unit": "px",
-            "label": "Free spave above",
-            "default": 50
+          "type": "image_picker",
+          "id": "icon",
+          "label": "Icon"
         },
         {
-            "type": "range",
-            "id": "padding_bottom",
-            "min": 0,
-            "max": 100,
-            "step": 1,
-            "unit": "px",
-            "label": "Free spave below",
-            "default": 50
+          "type": "text",
+          "id": "text",
+          "label": "Text",
+          "default": "Style"
         }
-    ],
-    "max_blocks": 3,
-    "blocks": [
-        {
-            "type": "icon",
-            "name": "Benefit icon",
-            "settings": [
-                {
-                    "type": "html",
-                    "id": "icon",
-                    "label": "Icon"
-                },
-                {
-                    "type": "text",
-                    "id": "text",
-                    "label": "Text",
-                    "default": "Style"
-                }
-            ]
-        }
-    ],
-    "presets": [
+      ]
+    }
+  ],
+  "presets": [
     {
-        "name": "Benefit icons",
-        "blocks": [
-            {
-                "type": "icon",
-                "settings": {
-                    "text": "style"
-                }
-            },
-            {
-                "type": "icon",
-                "settings": {
-                    "text": "quality"
-                }
-            },
-            {
-                "type": "icon",
-                "settings": {
-                    "text": "fast delivery"
-                }
-            }
-        ]
+      "name": "Benefit icons",
+      "blocks": [
+        {
+          "type": "icon",
+          "settings": {
+            "text": "style"
+          }
+        },
+        {
+          "type": "icon",
+          "settings": {
+            "text": "quality"
+          }
+        },
+        {
+          "type": "icon",
+          "settings": {
+            "text": "fast delivery"
+          }
+        }
+      ]
     }
   ]
 }
