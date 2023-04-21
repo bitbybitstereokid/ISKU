@@ -1,0 +1,120 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "440ddb5e-997b-4397-935d-f5c61bac05cc": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/kampa2_710974a3-1885-4177-9d20-ec2753449cad.jpg",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": false,
+        "text_centered": false,
+        "title": "Sohvat",
+        "text": "<p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.  Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Velit officia consequat duis enim velit mollit. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.<\/p><p>Exercitation veniam consequat sunt nostrud amet. Exercitatio n veniam consequat sunt nostrud amet.Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.<\/p>",
+        "btn_text": "Sohvat",
+        "btn_url": "shopify:\/\/collections\/chairs"
+      }
+    },
+    "17078852-2de4-4f6a-b7bb-1cb7e399c0a8": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/kampa2_710974a3-1885-4177-9d20-ec2753449cad.jpg",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": true,
+        "text_centered": false,
+        "title": "Title",
+        "text": "<p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.  Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Velit officia consequat duis enim velit mollit. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.<\/p><p>Exercitation veniam consequat sunt nostrud amet. Exercitatio n veniam consequat sunt nostrud amet.Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.<\/p>",
+        "btn_text": "",
+        "btn_url": ""
+      }
+    },
+    "e98369a1-af80-4d5d-9363-1fc74ab2a34c": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/kampa2_710974a3-1885-4177-9d20-ec2753449cad.jpg",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": false,
+        "text_centered": false,
+        "title": "Title",
+        "text": "<p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.  Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Velit officia consequat duis enim velit mollit. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.<\/p><p>Exercitation veniam consequat sunt nostrud amet. Exercitatio n veniam consequat sunt nostrud amet.Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.<\/p>",
+        "btn_text": "",
+        "btn_url": ""
+      }
+    },
+    "f1681f5d-6c9d-4bac-8a5b-57a90617d807": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/kampa2_710974a3-1885-4177-9d20-ec2753449cad.jpg",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": true,
+        "text_centered": false,
+        "title": "Title",
+        "text": "<p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.  Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Velit officia consequat duis enim velit mollit. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.<\/p><p>Exercitation veniam consequat sunt nostrud amet. Exercitatio n veniam consequat sunt nostrud amet.Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.<\/p>",
+        "btn_text": "",
+        "btn_url": ""
+      }
+    },
+    "8d994b7f-9d7a-45bc-a7ba-0f00f0fdede3": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/kampa2_710974a3-1885-4177-9d20-ec2753449cad.jpg",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": false,
+        "text_centered": false,
+        "title": "Title",
+        "text": "<p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.  Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Velit officia consequat duis enim velit mollit. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.<\/p><p>Exercitation veniam consequat sunt nostrud amet. Exercitatio n veniam consequat sunt nostrud amet.Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.<\/p>",
+        "btn_text": "",
+        "btn_url": ""
+      }
+    },
+    "ca1da860-e815-4911-a6e7-7fb7e7580824": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/kampa2_710974a3-1885-4177-9d20-ec2753449cad.jpg",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": true,
+        "text_centered": false,
+        "title": "Title",
+        "text": "<p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.  Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Velit officia consequat duis enim velit mollit. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.<\/p><p>Exercitation veniam consequat sunt nostrud amet. Exercitatio n veniam consequat sunt nostrud amet.Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.<\/p>",
+        "btn_text": "",
+        "btn_url": ""
+      }
+    },
+    "7dfa4c31-4e8b-4260-b80b-75281c08813f": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/kampa2_710974a3-1885-4177-9d20-ec2753449cad.jpg",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": false,
+        "text_centered": false,
+        "title": "Title",
+        "text": "<p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.  Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Velit officia consequat duis enim velit mollit. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.<\/p><p>Exercitation veniam consequat sunt nostrud amet. Exercitatio n veniam consequat sunt nostrud amet.Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.<\/p>",
+        "btn_text": "",
+        "btn_url": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "440ddb5e-997b-4397-935d-f5c61bac05cc",
+    "17078852-2de4-4f6a-b7bb-1cb7e399c0a8",
+    "e98369a1-af80-4d5d-9363-1fc74ab2a34c",
+    "f1681f5d-6c9d-4bac-8a5b-57a90617d807",
+    "8d994b7f-9d7a-45bc-a7ba-0f00f0fdede3",
+    "ca1da860-e815-4911-a6e7-7fb7e7580824",
+    "7dfa4c31-4e8b-4260-b80b-75281c08813f"
+  ]
+}
