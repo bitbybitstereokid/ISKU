@@ -44,10 +44,10 @@
         "padding_bottom": 50,
         "reverse": false,
         "text_centered": true,
-        "title": "Etatyokalusteet",
+        "title": "Tyotuolit",
         "text": "",
-        "btn_text": "Etatyokalusteet",
-        "btn_url": "shopify:\/\/pages\/etatyokalusteet"
+        "btn_text": "Tyotuolit",
+        "btn_url": "shopify:\/\/collections\/tyotuolit"
       }
     },
     "8a3b31f2-a06f-4113-af18-1c4cc85a21cf": {
@@ -56,12 +56,12 @@
         "image": "shopify:\/\/shop_images\/image_36.png",
         "padding_top": 50,
         "padding_bottom": 50,
-        "reverse": false,
+        "reverse": true,
         "text_centered": true,
-        "title": "Etatyokalusteet",
+        "title": "Satulatuolit",
         "text": "",
-        "btn_text": "Etatyokalusteet",
-        "btn_url": "shopify:\/\/pages\/etatyokalusteet"
+        "btn_text": "Satulatuolit",
+        "btn_url": "shopify:\/\/collections\/satulatuolit"
       }
     },
     "b04bf464-eb8f-4f3b-ab8e-88ef7bb9fe97": {
@@ -72,10 +72,10 @@
         "padding_bottom": 50,
         "reverse": false,
         "text_centered": true,
-        "title": "Etatyokalusteet",
+        "title": "Sahkopoydat",
         "text": "",
-        "btn_text": "Etatyokalusteet",
-        "btn_url": "shopify:\/\/pages\/etatyokalusteet"
+        "btn_text": "Sahkopoydat",
+        "btn_url": "shopify:\/\/collections\/sahkopoydat"
       }
     }
   },
