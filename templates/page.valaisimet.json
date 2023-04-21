@@ -2,13 +2,119 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "5a5e2137-c7b2-44e3-806a-1aa77e219328": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_41_1.png",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": false,
+        "text_centered": true,
+        "title": "Valaisimet",
+        "text": "",
+        "btn_text": "Valaisimet",
+        "btn_url": "shopify:\/\/collections\/valaisimet"
+      }
+    },
+    "883f5459-35e2-45b8-876a-db526fa2e19f": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_41_1.png",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": true,
+        "text_centered": true,
+        "title": "Kattovalaisimet",
+        "text": "",
+        "btn_text": "Kattovalaisimet",
+        "btn_url": "shopify:\/\/collections\/kattovalaisimet"
+      }
+    },
+    "328d96d0-2a8c-40a4-b8f3-a613f760b408": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_41_1.png",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": false,
+        "text_centered": true,
+        "title": "Lattiavalaisimet",
+        "text": "",
+        "btn_text": "Lattiavalaisimet",
+        "btn_url": "shopify:\/\/collections\/lattiavalaisimet"
+      }
+    },
+    "8ff6df9b-ed71-48e0-9464-fb4ab860c683": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_41_1.png",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": false,
+        "text_centered": true,
+        "title": "Poytavalaisimet",
+        "text": "",
+        "btn_text": "Poytavalaisimet",
+        "btn_url": "shopify:\/\/collections\/poytavalaisimet"
+      }
+    },
+    "366bc890-d6df-4420-86f4-6b40ef92ec4c": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_41_1.png",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": true,
+        "text_centered": true,
+        "title": "Seinavalaisimet",
+        "text": "",
+        "btn_text": "Seinavalaisimet",
+        "btn_url": "shopify:\/\/collections\/seinavalaisimet"
+      }
+    },
+    "4254250d-e3b7-47ac-93dd-d72162067fe7": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_41_1.png",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": false,
+        "text_centered": true,
+        "title": "Tyopoytavalaisimet",
+        "text": "",
+        "btn_text": "Tyopoytavalaisimet",
+        "btn_url": "shopify:\/\/collections\/tyopoytavalaisimet"
+      }
+    },
+    "259312a9-229a-4cc8-af1a-0694c931d2d6": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_41_1.png",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": true,
+        "text_centered": true,
+        "title": "Valaisintarvikkeet",
+        "text": "",
+        "btn_text": "Valaisintarvikkeet",
+        "btn_url": "shopify:\/\/collections\/valaisintarvikkeet"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "5a5e2137-c7b2-44e3-806a-1aa77e219328",
+    "883f5459-35e2-45b8-876a-db526fa2e19f",
+    "328d96d0-2a8c-40a4-b8f3-a613f760b408",
+    "8ff6df9b-ed71-48e0-9464-fb4ab860c683",
+    "366bc890-d6df-4420-86f4-6b40ef92ec4c",
+    "4254250d-e3b7-47ac-93dd-d72162067fe7",
+    "259312a9-229a-4cc8-af1a-0694c931d2d6"
   ]
 }

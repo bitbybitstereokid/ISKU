@@ -259,6 +259,34 @@
         "btn_text": "Taljat",
         "btn_url": "shopify:\/\/collections\/taljat"
       }
+    },
+    "b51d47e5-a3c1-40b2-ae06-879bf05ea9fc": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_40.png",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": false,
+        "text_centered": true,
+        "title": "Sisustustuotteet",
+        "text": "",
+        "btn_text": "Sisustustuotteet",
+        "btn_url": "shopify:\/\/collections\/sisustustuotteet"
+      }
+    },
+    "f3f1c8df-d283-4d5a-bf0f-92692c8fbb8d": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_40.png",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": true,
+        "text_centered": true,
+        "title": "Kalusteiden hoito",
+        "text": "",
+        "btn_text": "Kalusteiden hoito",
+        "btn_url": "shopify:\/\/collections\/sisustustuotteet"
+      }
     }
   },
   "order": [
@@ -280,6 +308,8 @@
     "7913be62-bebf-480a-a2c6-9b3353d5c3d1",
     "f137bf98-69a6-48e7-8b6e-0bac72f81daa",
     "b1b2d27a-8c83-45c7-94bb-0c407eb22409",
-    "5633a92f-a36f-4d1a-93a3-d2694b394dbb"
+    "5633a92f-a36f-4d1a-93a3-d2694b394dbb",
+    "b51d47e5-a3c1-40b2-ae06-879bf05ea9fc",
+    "f3f1c8df-d283-4d5a-bf0f-92692c8fbb8d"
   ]
 }
