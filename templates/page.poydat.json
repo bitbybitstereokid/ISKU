@@ -21,10 +21,130 @@
         "btn_text": "Poydat",
         "btn_url": "shopify:\/\/collections\/poydat"
       }
+    },
+    "18e9504a-b4be-4abd-84a0-5fa6d1c48c2f": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/living-room-design-with-couch_1.jpg",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": true,
+        "text_centered": true,
+        "title": "Ruokailupoydat",
+        "text": "",
+        "btn_text": "Ruokailupoydat",
+        "btn_url": "shopify:\/\/collections\/ruokailupoydat"
+      }
+    },
+    "bd75793e-36cc-4e9b-b660-11e3ce4c9136": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/living-room-design-with-couch_1.jpg",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": false,
+        "text_centered": true,
+        "title": "Poydat",
+        "text": "",
+        "btn_text": "Poydat",
+        "btn_url": "shopify:\/\/collections\/poydat"
+      }
+    },
+    "05e5b24f-5bd6-4663-a578-e121cac05f3a": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/living-room-design-with-couch_1.jpg",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": false,
+        "text_centered": true,
+        "title": "Poydat",
+        "text": "",
+        "btn_text": "Poydat",
+        "btn_url": "shopify:\/\/collections\/poydat"
+      }
+    },
+    "bb95728c-59d3-48c7-a756-a17c0ada9c49": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/living-room-design-with-couch_1.jpg",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": false,
+        "text_centered": true,
+        "title": "Poydat",
+        "text": "",
+        "btn_text": "Poydat",
+        "btn_url": "shopify:\/\/collections\/poydat"
+      }
+    },
+    "0b158cc1-496d-4d81-bafd-95246b0a0b0d": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/living-room-design-with-couch_1.jpg",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": false,
+        "text_centered": true,
+        "title": "Poydat",
+        "text": "",
+        "btn_text": "Poydat",
+        "btn_url": "shopify:\/\/collections\/poydat"
+      }
+    },
+    "34b44c4d-16dd-48e3-ae97-4ccd2a3adfed": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/living-room-design-with-couch_1.jpg",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": false,
+        "text_centered": true,
+        "title": "Poydat",
+        "text": "",
+        "btn_text": "Poydat",
+        "btn_url": "shopify:\/\/collections\/poydat"
+      }
+    },
+    "d30bc5ed-4911-4c2d-8358-0eec0cfed2e4": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/living-room-design-with-couch_1.jpg",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": false,
+        "text_centered": true,
+        "title": "Poydat",
+        "text": "",
+        "btn_text": "Poydat",
+        "btn_url": "shopify:\/\/collections\/poydat"
+      }
+    },
+    "b62b944e-6281-49fa-857b-1ee45cfd8e6c": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/living-room-design-with-couch_1.jpg",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": false,
+        "text_centered": true,
+        "title": "Poydat",
+        "text": "",
+        "btn_text": "Poydat",
+        "btn_url": "shopify:\/\/collections\/poydat"
+      }
     }
   },
   "order": [
     "main",
-    "2efddc9c-0a1f-4017-959f-68aeb7274853"
+    "2efddc9c-0a1f-4017-959f-68aeb7274853",
+    "18e9504a-b4be-4abd-84a0-5fa6d1c48c2f",
+    "bd75793e-36cc-4e9b-b660-11e3ce4c9136",
+    "05e5b24f-5bd6-4663-a578-e121cac05f3a",
+    "bb95728c-59d3-48c7-a756-a17c0ada9c49",
+    "0b158cc1-496d-4d81-bafd-95246b0a0b0d",
+    "34b44c4d-16dd-48e3-ae97-4ccd2a3adfed",
+    "d30bc5ed-4911-4c2d-8358-0eec0cfed2e4",
+    "b62b944e-6281-49fa-857b-1ee45cfd8e6c"
   ]
 }
