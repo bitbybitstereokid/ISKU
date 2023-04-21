@@ -99,10 +99,10 @@
         "padding_top": 50,
         "padding_bottom": 50,
         "reverse": false,
-        "text_centered": false,
-        "title": "Title",
+        "text_centered": true,
+        "title": "Nojatuolit",
         "text": "",
-        "btn_text": "Sohvat",
+        "btn_text": "Nojatuolit",
         "btn_url": ""
       }
     },
@@ -112,12 +112,12 @@
         "image": "shopify:\/\/shop_images\/kampa2.jpg",
         "padding_top": 50,
         "padding_bottom": 50,
-        "reverse": false,
-        "text_centered": false,
-        "title": "Title",
+        "reverse": true,
+        "text_centered": true,
+        "title": "Tv-tuolit",
         "text": "",
-        "btn_text": "Sohvat",
-        "btn_url": ""
+        "btn_text": "Tv-tuolit",
+        "btn_url": "shopify:\/\/collections\/tv-tuolit"
       }
     },
     "270ab66d-80b7-4b46-be0d-7d273fd84c5c": {
