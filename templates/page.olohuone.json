@@ -225,11 +225,11 @@
         "padding_top": 50,
         "padding_bottom": 50,
         "reverse": false,
-        "text_centered": false,
-        "title": "Title",
+        "text_centered": true,
+        "title": "Olohuoneen poydat",
         "text": "",
-        "btn_text": "Sohvat",
-        "btn_url": ""
+        "btn_text": "Olohuoneen poydat",
+        "btn_url": "shopify:\/\/collections\/olohuoneen-poydat"
       }
     },
     "d3135ee6-e788-4fe9-acf6-c5351d209bdb": {
