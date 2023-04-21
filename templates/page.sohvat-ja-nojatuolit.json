@@ -58,6 +58,20 @@
         "padding_bottom": 50,
         "reverse": true,
         "text_centered": true,
+        "title": "Kahden istuttavat sohvat",
+        "text": "",
+        "btn_text": "Kahden istuttavat sohvat",
+        "btn_url": "shopify:\/\/collections\/kahden-istuttavat-sohvat"
+      }
+    },
+    "34b37f9d-3b82-483f-b94f-3a78028be2a9": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Rectangle_65.jpg",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": false,
+        "text_centered": true,
         "title": "Kolmen istuttavat sohvat",
         "text": "",
         "btn_text": "Kolmen istuttavat sohvat",
@@ -70,7 +84,7 @@
         "image": "shopify:\/\/shop_images\/Rectangle_65.jpg",
         "padding_top": 50,
         "padding_bottom": 50,
-        "reverse": false,
+        "reverse": true,
         "text_centered": true,
         "title": "Divaanisohvat",
         "text": "",
@@ -84,7 +98,7 @@
         "image": "shopify:\/\/shop_images\/Rectangle_65.jpg",
         "padding_top": 50,
         "padding_bottom": 50,
-        "reverse": true,
+        "reverse": false,
         "text_centered": true,
         "title": "Nojatuolit",
         "text": "",
@@ -98,7 +112,7 @@
         "image": "shopify:\/\/shop_images\/Rectangle_65.jpg",
         "padding_top": 50,
         "padding_bottom": 50,
-        "reverse": false,
+        "reverse": true,
         "text_centered": true,
         "title": "Tv-tuolit",
         "text": "",
@@ -114,10 +128,10 @@
         "padding_bottom": 50,
         "reverse": false,
         "text_centered": true,
-        "title": "Sohvat",
+        "title": "Rahit",
         "text": "",
-        "btn_text": "Sohvat",
-        "btn_url": "shopify:\/\/collections\/sohvat"
+        "btn_text": "Rahit",
+        "btn_url": "shopify:\/\/collections\/rahit"
       }
     },
     "206ac32a-14a0-49aa-8d85-2b62f4899a82": {
@@ -126,40 +140,12 @@
         "image": "shopify:\/\/shop_images\/Rectangle_65.jpg",
         "padding_top": 50,
         "padding_bottom": 50,
-        "reverse": false,
+        "reverse": true,
         "text_centered": true,
-        "title": "Sohvat",
+        "title": "Ottomanit",
         "text": "",
-        "btn_text": "Sohvat",
-        "btn_url": "shopify:\/\/collections\/sohvat"
-      }
-    },
-    "194c6124-8c1f-4eca-be40-3c3c87a625f6": {
-      "type": "about-image-text",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Rectangle_65.jpg",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "reverse": false,
-        "text_centered": true,
-        "title": "Sohvat",
-        "text": "",
-        "btn_text": "Sohvat",
-        "btn_url": "shopify:\/\/collections\/sohvat"
-      }
-    },
-    "07323b9a-e77a-41ec-9022-8afb7f208cdf": {
-      "type": "about-image-text",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Rectangle_65.jpg",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "reverse": false,
-        "text_centered": true,
-        "title": "Sohvat",
-        "text": "",
-        "btn_text": "Sohvat",
-        "btn_url": "shopify:\/\/collections\/sohvat"
+        "btn_text": "Ottomanit",
+        "btn_url": "shopify:\/\/collections\/ottomanit"
       }
     }
   },
@@ -169,12 +155,11 @@
     "4680063a-6d41-41ed-a3d5-ad9bdb998a3e",
     "f59d0ff9-f1be-4355-a9d3-b613d491e5c6",
     "5ad428cf-0bac-4e48-a01d-b4888654c59c",
+    "34b37f9d-3b82-483f-b94f-3a78028be2a9",
     "6dc3a841-4ed8-43c0-aa25-50592e6c564a",
     "002a857b-c3af-48a3-ba1a-379ae8e8c814",
     "1fbfe275-c719-4611-8921-380e12fe240a",
     "3eb76e73-844b-4d16-addc-883bbf70e3a4",
-    "206ac32a-14a0-49aa-8d85-2b62f4899a82",
-    "194c6124-8c1f-4eca-be40-3c3c87a625f6",
-    "07323b9a-e77a-41ec-9022-8afb7f208cdf"
+    "206ac32a-14a0-49aa-8d85-2b62f4899a82"
   ]
 }
