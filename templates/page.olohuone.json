@@ -259,6 +259,34 @@
         "btn_text": "Sohvapoydat",
         "btn_url": "shopify:\/\/collections\/sohvapoydat"
       }
+    },
+    "1f9abca2-e4f2-4692-aaa5-b974ff31eebe": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/kampa2.jpg",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": true,
+        "text_centered": true,
+        "title": "Sohvatyynyt",
+        "text": "",
+        "btn_text": "Sohvatyynyt",
+        "btn_url": "shopify:\/\/collections\/sohvatyynyt"
+      }
+    },
+    "d8ca6a18-9f86-444a-a32c-2fd6f466201c": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/kampa2.jpg",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": false,
+        "text_centered": true,
+        "title": "Viltit ja sohvapeitot",
+        "text": "",
+        "btn_text": "Viltit ja sohvapeitot",
+        "btn_url": "shopify:\/\/collections\/viltit-ja-sohvapeitot"
+      }
     }
   },
   "order": [
@@ -280,6 +308,8 @@
     "b297538b-97c6-4b31-8f8a-899a53b1b49d",
     "977577cd-f399-400e-b860-3636230c6817",
     "d3135ee6-e788-4fe9-acf6-c5351d209bdb",
-    "f930edee-c09e-41a2-b1a1-98678d951798"
+    "f930edee-c09e-41a2-b1a1-98678d951798",
+    "1f9abca2-e4f2-4692-aaa5-b974ff31eebe",
+    "d8ca6a18-9f86-444a-a32c-2fd6f466201c"
   ]
 }
