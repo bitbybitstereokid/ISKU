@@ -1,0 +1,30 @@
+.seo-block__title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 150%;
+    color: var(--color-text-primary);
+    text-transform: capitalize;
+}
+
+.seo-block__description {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 150%;
+    color: var(--color-text-primary);
+}
+
+.seo-block__description p:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.seo-block__description p:last-child {
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 991px) {
+    .seo-block__title {
+        font-size: 22px;
+    }
+}
