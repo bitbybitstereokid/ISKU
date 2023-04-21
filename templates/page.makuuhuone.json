@@ -119,6 +119,76 @@
         "btn_text": "Joustinpatjat",
         "btn_url": "shopify:\/\/collections\/joustinpatjat"
       }
+    },
+    "afeb53f8-8693-4211-95a6-fb97d4b7e4b4": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/kampa2_710974a3-1885-4177-9d20-ec2753449cad.jpg",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": false,
+        "text_centered": true,
+        "title": "Vaahtomuovipatjat",
+        "text": "",
+        "btn_text": "Vaahtomuovipatjat",
+        "btn_url": "shopify:\/\/collections\/joustinpatjat"
+      }
+    },
+    "3d70f830-60c5-4d3d-afee-16af11af7b96": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/kampa2_710974a3-1885-4177-9d20-ec2753449cad.jpg",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": true,
+        "text_centered": true,
+        "title": "Peitot",
+        "text": "",
+        "btn_text": "Peitot",
+        "btn_url": "shopify:\/\/collections\/peitot"
+      }
+    },
+    "63988179-8dc1-4dc5-8f78-934e92c19e12": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/kampa2_710974a3-1885-4177-9d20-ec2753449cad.jpg",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": false,
+        "text_centered": true,
+        "title": "Tyynyt",
+        "text": "",
+        "btn_text": "Tyynyt",
+        "btn_url": "shopify:\/\/collections\/tyynyt"
+      }
+    },
+    "c2d41511-f51d-4dee-9283-9c6470f61277": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/kampa2_710974a3-1885-4177-9d20-ec2753449cad.jpg",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": true,
+        "text_centered": true,
+        "title": "Paivapeitot",
+        "text": "",
+        "btn_text": "Paivapeitot",
+        "btn_url": "shopify:\/\/collections\/paivapeitot"
+      }
+    },
+    "7d0ba12a-706b-4ec3-838c-6e4ba262b4ae": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/kampa2_710974a3-1885-4177-9d20-ec2753449cad.jpg",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": false,
+        "text_centered": true,
+        "title": "Yopoydat",
+        "text": "",
+        "btn_text": "Yopoydat",
+        "btn_url": "shopify:\/\/collections\/yopoydat"
+      }
     }
   },
   "order": [
@@ -130,6 +200,11 @@
     "96329102-33a5-4013-af01-c3d8f85e6c73",
     "51e7c3ce-b54b-402b-bf8b-0298495725dd",
     "6d1af726-257c-47c8-bcc6-b7ac6337ea54",
-    "c3f9b77a-40ba-4700-88c4-e37df4fa2e29"
+    "c3f9b77a-40ba-4700-88c4-e37df4fa2e29",
+    "afeb53f8-8693-4211-95a6-fb97d4b7e4b4",
+    "3d70f830-60c5-4d3d-afee-16af11af7b96",
+    "63988179-8dc1-4dc5-8f78-934e92c19e12",
+    "c2d41511-f51d-4dee-9283-9c6470f61277",
+    "7d0ba12a-706b-4ec3-838c-6e4ba262b4ae"
   ]
 }
