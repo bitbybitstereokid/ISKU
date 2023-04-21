@@ -2,13 +2,119 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "29ea210c-7548-4910-a231-b104e4ddd487": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_40.png",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": false,
+        "text_centered": true,
+        "title": "Sailytys",
+        "text": "",
+        "btn_text": "Sailytys",
+        "btn_url": "shopify:\/\/collections\/sailytys"
+      }
+    },
+    "81d0820d-470f-4da8-a0df-eeb477d47754": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_40.png",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": true,
+        "text_centered": true,
+        "title": "Hyllyt",
+        "text": "",
+        "btn_text": "Hyllyt",
+        "btn_url": "shopify:\/\/collections\/hyllyt"
+      }
+    },
+    "580f827c-15cf-4147-943a-0089568b1074": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_40.png",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": false,
+        "text_centered": true,
+        "title": "Lipastot ja senkit",
+        "text": "",
+        "btn_text": "Lipastot ja senkit",
+        "btn_url": "shopify:\/\/collections\/lipastot-ja-senkit"
+      }
+    },
+    "09ce80a2-f805-4a4c-865f-e2f9267c4631": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_40.png",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": true,
+        "text_centered": true,
+        "title": "Kaapit",
+        "text": "",
+        "btn_text": "Kaapit",
+        "btn_url": "shopify:\/\/collections\/kaapit"
+      }
+    },
+    "c86612c7-08fc-4590-b09e-3abb7a135e3c": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_40.png",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": false,
+        "text_centered": true,
+        "title": "Vitriinit",
+        "text": "",
+        "btn_text": "Vitriinit",
+        "btn_url": "shopify:\/\/collections\/vitriinit"
+      }
+    },
+    "694c299f-6902-4898-a723-149df51744e6": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_40.png",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": false,
+        "text_centered": true,
+        "title": "Sailytys",
+        "text": "",
+        "btn_text": "Sailytys",
+        "btn_url": "shopify:\/\/collections\/sailytys"
+      }
+    },
+    "d00cbaaf-b227-4dcb-9c67-8f5e71d23c3a": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_40.png",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": false,
+        "text_centered": true,
+        "title": "Sailytys",
+        "text": "",
+        "btn_text": "Sailytys",
+        "btn_url": "shopify:\/\/collections\/sailytys"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "29ea210c-7548-4910-a231-b104e4ddd487",
+    "81d0820d-470f-4da8-a0df-eeb477d47754",
+    "580f827c-15cf-4147-943a-0089568b1074",
+    "09ce80a2-f805-4a4c-865f-e2f9267c4631",
+    "c86612c7-08fc-4590-b09e-3abb7a135e3c",
+    "694c299f-6902-4898-a723-149df51744e6",
+    "d00cbaaf-b227-4dcb-9c67-8f5e71d23c3a"
   ]
 }
