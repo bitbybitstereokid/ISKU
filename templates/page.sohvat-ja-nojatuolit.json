@@ -84,12 +84,12 @@
         "image": "shopify:\/\/shop_images\/Rectangle_65.jpg",
         "padding_top": 50,
         "padding_bottom": 50,
-        "reverse": false,
+        "reverse": true,
         "text_centered": true,
-        "title": "Sohvat",
+        "title": "Nojatuolit",
         "text": "",
-        "btn_text": "Sohvat",
-        "btn_url": "shopify:\/\/collections\/sohvat"
+        "btn_text": "Nojatuolit",
+        "btn_url": "shopify:\/\/collections\/nojatuolit"
       }
     },
     "1fbfe275-c719-4611-8921-380e12fe240a": {
