@@ -182,11 +182,11 @@
         "image": "shopify:\/\/shop_images\/kampa2.jpg",
         "padding_top": 50,
         "padding_bottom": 50,
-        "reverse": false,
+        "reverse": true,
         "text_centered": true,
-        "title": "Kaapit",
+        "title": "Vitriinit",
         "text": "",
-        "btn_text": "Kaapit",
+        "btn_text": "Vitriinit",
         "btn_url": ""
       }
     },
