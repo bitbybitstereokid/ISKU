@@ -2,13 +2,134 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "72a87646-8cc9-4dc5-9009-30d47ae74228": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_34.png",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": false,
+        "text_centered": true,
+        "title": "Matot",
+        "text": "",
+        "btn_text": "Matot",
+        "btn_url": "shopify:\/\/collections\/matot"
+      }
+    },
+    "58b04cd3-5c3a-4bb7-a13a-45abf60bbc7f": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_34.png",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": true,
+        "text_centered": true,
+        "title": "Kaytavamatot",
+        "text": "",
+        "btn_text": "Kaytavamatot",
+        "btn_url": "shopify:\/\/collections\/kaytavamatot"
+      }
+    },
+    "62f691e8-21c5-4874-9a67-bb38c541f451": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_34.png",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": false,
+        "text_centered": true,
+        "title": "Eteismatot",
+        "text": "",
+        "btn_text": "Eteismatot",
+        "btn_url": "shopify:\/\/collections\/eteismatot"
+      }
+    },
+    "ee350f72-8d60-4179-b3e1-9247b536622e": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_34.png",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": true,
+        "text_centered": true,
+        "title": "Terassimatot",
+        "text": "",
+        "btn_text": "Terassimatot",
+        "btn_url": "shopify:\/\/collections\/terassimatot"
+      }
+    },
+    "3ee4abc0-bf57-4196-b21c-98423d11678d": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_34.png",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": false,
+        "text_centered": true,
+        "title": "Olohuoneen matot",
+        "text": "",
+        "btn_text": "Olohuoneen matot",
+        "btn_url": "shopify:\/\/collections\/olohuoneen-matot"
+      }
+    },
+    "ad0cb396-4a65-4a12-94e2-3a925be1e72e": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_34.png",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": true,
+        "text_centered": true,
+        "title": "Pyoreat matot",
+        "text": "",
+        "btn_text": "Pyoreat matot",
+        "btn_url": "shopify:\/\/collections\/pyoreat-matot"
+      }
+    },
+    "31a79294-9985-4493-b9e9-d1add184f053": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_34.png",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": false,
+        "text_centered": true,
+        "title": "Villamatot",
+        "text": "",
+        "btn_text": "Villamatot",
+        "btn_url": "shopify:\/\/collections\/villamatot"
+      }
+    },
+    "df0d561b-d3db-467c-853e-97f5c072b90c": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_34.png",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": true,
+        "text_centered": true,
+        "title": "Kaytavamatot",
+        "text": "",
+        "btn_text": "Kaytavamatot",
+        "btn_url": "shopify:\/\/collections\/kaytavamatot"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "72a87646-8cc9-4dc5-9009-30d47ae74228",
+    "58b04cd3-5c3a-4bb7-a13a-45abf60bbc7f",
+    "62f691e8-21c5-4874-9a67-bb38c541f451",
+    "ee350f72-8d60-4179-b3e1-9247b536622e",
+    "3ee4abc0-bf57-4196-b21c-98423d11678d",
+    "ad0cb396-4a65-4a12-94e2-3a925be1e72e",
+    "31a79294-9985-4493-b9e9-d1add184f053",
+    "df0d561b-d3db-467c-853e-97f5c072b90c"
   ]
 }
