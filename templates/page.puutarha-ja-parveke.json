@@ -44,10 +44,10 @@
         "padding_bottom": 50,
         "reverse": false,
         "text_centered": true,
-        "title": "Terassimatot",
+        "title": "Terassikalusteet",
         "text": "",
-        "btn_text": "Terassimatot",
-        "btn_url": "shopify:\/\/collections\/terassimatot"
+        "btn_text": "Terassikalusteet",
+        "btn_url": "shopify:\/\/collections\/terassikalusteet"
       }
     },
     "d5b27758-accb-47d5-a70a-ec56860f79e8": {
@@ -56,12 +56,12 @@
         "image": "shopify:\/\/shop_images\/mega-menu-slot-img.jpg",
         "padding_top": 50,
         "padding_bottom": 50,
-        "reverse": false,
+        "reverse": true,
         "text_centered": true,
-        "title": "Terassimatot",
+        "title": "Rottinkikalusteet",
         "text": "",
-        "btn_text": "Terassimatot",
-        "btn_url": "shopify:\/\/collections\/terassimatot"
+        "btn_text": "Rottinkikalusteet",
+        "btn_url": "shopify:\/\/collections\/rottinkikalusteet"
       }
     },
     "ef593c9e-3abf-43c6-9a31-cec2de415183": {
@@ -72,10 +72,10 @@
         "padding_bottom": 50,
         "reverse": false,
         "text_centered": true,
-        "title": "Terassimatot",
+        "title": "Aurinkovarjot ja jalat",
         "text": "",
-        "btn_text": "Terassimatot",
-        "btn_url": "shopify:\/\/collections\/terassimatot"
+        "btn_text": "Aurinkovarjot ja jalat",
+        "btn_url": "shopify:\/\/collections\/aurinkovarjot-ja-jalat"
       }
     },
     "332f1947-3e2e-462b-8b1d-6f15adfa46d6": {
@@ -84,12 +84,12 @@
         "image": "shopify:\/\/shop_images\/mega-menu-slot-img.jpg",
         "padding_top": 50,
         "padding_bottom": 50,
-        "reverse": false,
+        "reverse": true,
         "text_centered": true,
-        "title": "Terassimatot",
+        "title": "Puutarhapöydät ja tuolit",
         "text": "",
-        "btn_text": "Terassimatot",
-        "btn_url": "shopify:\/\/collections\/terassimatot"
+        "btn_text": "Puutarhapöydät ja tuolit",
+        "btn_url": "shopify:\/\/collections\/puutarhapoydat-ja-tuolit"
       }
     },
     "7810d182-24f9-4e3a-9c4b-59e24a669f8a": {
@@ -100,10 +100,10 @@
         "padding_bottom": 50,
         "reverse": false,
         "text_centered": true,
-        "title": "Terassimatot",
+        "title": "Aurinkotuolit",
         "text": "",
-        "btn_text": "Terassimatot",
-        "btn_url": "shopify:\/\/collections\/terassimatot"
+        "btn_text": "Aurinkotuolit",
+        "btn_url": "shopify:\/\/collections\/aurinkotuolit"
       }
     },
     "c451f210-291b-4f74-950d-4fc198f96fe0": {
@@ -112,12 +112,12 @@
         "image": "shopify:\/\/shop_images\/mega-menu-slot-img.jpg",
         "padding_top": 50,
         "padding_bottom": 50,
-        "reverse": false,
+        "reverse": true,
         "text_centered": true,
-        "title": "Terassimatot",
+        "title": "Polyrottinkikalusteet",
         "text": "",
-        "btn_text": "Terassimatot",
-        "btn_url": "shopify:\/\/collections\/terassimatot"
+        "btn_text": "Polyrottinkikalusteet",
+        "btn_url": "shopify:\/\/collections\/polyrottinkikalusteet"
       }
     },
     "185c893e-55b1-48de-8256-88f315ad705e": {
@@ -128,24 +128,10 @@
         "padding_bottom": 50,
         "reverse": false,
         "text_centered": true,
-        "title": "Terassimatot",
+        "title": "Ulkosohvat",
         "text": "",
-        "btn_text": "Terassimatot",
-        "btn_url": "shopify:\/\/collections\/terassimatot"
-      }
-    },
-    "03641a08-99ac-4bbd-8df4-d2b427d98010": {
-      "type": "about-image-text",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/mega-menu-slot-img.jpg",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "reverse": false,
-        "text_centered": true,
-        "title": "Terassimatot",
-        "text": "",
-        "btn_text": "Terassimatot",
-        "btn_url": "shopify:\/\/collections\/terassimatot"
+        "btn_text": "Ulkosohvat",
+        "btn_url": "shopify:\/\/collections\/ulkosohvat"
       }
     }
   },
@@ -159,7 +145,6 @@
     "332f1947-3e2e-462b-8b1d-6f15adfa46d6",
     "7810d182-24f9-4e3a-9c4b-59e24a669f8a",
     "c451f210-291b-4f74-950d-4fc198f96fe0",
-    "185c893e-55b1-48de-8256-88f315ad705e",
-    "03641a08-99ac-4bbd-8df4-d2b427d98010"
+    "185c893e-55b1-48de-8256-88f315ad705e"
   ]
 }
