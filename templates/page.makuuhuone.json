@@ -28,7 +28,7 @@
         "image": "shopify:\/\/shop_images\/kampa2_710974a3-1885-4177-9d20-ec2753449cad.jpg",
         "padding_top": 50,
         "padding_bottom": 50,
-        "reverse": false,
+        "reverse": true,
         "text_centered": true,
         "title": "Jenkkisangyt",
         "text": "",
@@ -44,10 +44,10 @@
         "padding_bottom": 50,
         "reverse": false,
         "text_centered": true,
-        "title": "Kaikki sangyt",
+        "title": "Moottorisangyt",
         "text": "",
-        "btn_text": "Kaikki sangyt",
-        "btn_url": "shopify:\/\/collections\/kaikki-sangyt"
+        "btn_text": "Moottorisangyt",
+        "btn_url": "shopify:\/\/collections\/moottorisangyt"
       }
     },
     "beee39c4-0851-45c2-b15d-dc6f90046534": {
