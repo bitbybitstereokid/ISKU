@@ -56,12 +56,12 @@
         "image": "shopify:\/\/shop_images\/Rectangle_65.jpg",
         "padding_top": 50,
         "padding_bottom": 50,
-        "reverse": false,
+        "reverse": true,
         "text_centered": true,
-        "title": "Kahden istuttavat sohvat",
+        "title": "Kolmen istuttavat sohvat",
         "text": "",
-        "btn_text": "Kahden istuttavat sohvat",
-        "btn_url": "shopify:\/\/collections\/kahden-istuttavat-sohvat"
+        "btn_text": "Kolmen istuttavat sohvat",
+        "btn_url": "shopify:\/\/collections\/kolmen-istuttavat-sohvat"
       }
     },
     "6dc3a841-4ed8-43c0-aa25-50592e6c564a": {
