@@ -2,13 +2,149 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "2a280a0c-fbaf-4ccb-a315-9142022e7abe": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/homepage4.jpg",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": false,
+        "text_centered": true,
+        "title": "Kaytavamatot",
+        "text": "",
+        "btn_text": "Kaytavamatot",
+        "btn_url": "shopify:\/\/collections\/kaytavamatot"
+      }
+    },
+    "7f5e194c-e375-40d0-89cf-ef8d8bc10a44": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/homepage4.jpg",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": true,
+        "text_centered": true,
+        "title": "Sailytys",
+        "text": "",
+        "btn_text": "Sailytys",
+        "btn_url": "shopify:\/\/collections\/sailytys"
+      }
+    },
+    "04e7ba5d-2bb3-4a92-b25a-4ee48169c514": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/homepage4.jpg",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": false,
+        "text_centered": false,
+        "title": "Kaytavamatot",
+        "text": "",
+        "btn_text": "Kaytavamatot",
+        "btn_url": "shopify:\/\/collections\/kaytavamatot"
+      }
+    },
+    "bf0360e0-abee-4eb2-8b99-6be4c228910a": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/homepage4.jpg",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": false,
+        "text_centered": false,
+        "title": "Kaytavamatot",
+        "text": "",
+        "btn_text": "Kaytavamatot",
+        "btn_url": "shopify:\/\/collections\/kaytavamatot"
+      }
+    },
+    "43a788a5-f0d3-4c28-a84b-291a591657af": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/homepage4.jpg",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": false,
+        "text_centered": false,
+        "title": "Kaytavamatot",
+        "text": "",
+        "btn_text": "Kaytavamatot",
+        "btn_url": "shopify:\/\/collections\/kaytavamatot"
+      }
+    },
+    "f8d71f76-22c4-4d15-bb9c-ee782888b497": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/homepage4.jpg",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": false,
+        "text_centered": false,
+        "title": "Kaytavamatot",
+        "text": "",
+        "btn_text": "Kaytavamatot",
+        "btn_url": "shopify:\/\/collections\/kaytavamatot"
+      }
+    },
+    "6bc59e3e-7c26-4ccb-adcf-c0511c931c0c": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/homepage4.jpg",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": false,
+        "text_centered": false,
+        "title": "Kaytavamatot",
+        "text": "",
+        "btn_text": "Kaytavamatot",
+        "btn_url": "shopify:\/\/collections\/kaytavamatot"
+      }
+    },
+    "07c8bb50-82d6-4c9a-925f-d0714e1d1b7a": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/homepage4.jpg",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": false,
+        "text_centered": false,
+        "title": "Kaytavamatot",
+        "text": "",
+        "btn_text": "Kaytavamatot",
+        "btn_url": "shopify:\/\/collections\/kaytavamatot"
+      }
+    },
+    "85a6a5de-7c1a-4dd8-9849-7d8df5abc535": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/homepage4.jpg",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": false,
+        "text_centered": false,
+        "title": "Kaytavamatot",
+        "text": "",
+        "btn_text": "Kaytavamatot",
+        "btn_url": "shopify:\/\/collections\/kaytavamatot"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "2a280a0c-fbaf-4ccb-a315-9142022e7abe",
+    "7f5e194c-e375-40d0-89cf-ef8d8bc10a44",
+    "04e7ba5d-2bb3-4a92-b25a-4ee48169c514",
+    "bf0360e0-abee-4eb2-8b99-6be4c228910a",
+    "43a788a5-f0d3-4c28-a84b-291a591657af",
+    "f8d71f76-22c4-4d15-bb9c-ee782888b497",
+    "6bc59e3e-7c26-4ccb-adcf-c0511c931c0c",
+    "07c8bb50-82d6-4c9a-925f-d0714e1d1b7a",
+    "85a6a5de-7c1a-4dd8-9849-7d8df5abc535"
   ]
 }
