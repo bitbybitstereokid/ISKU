@@ -126,12 +126,54 @@
         "image": "shopify:\/\/shop_images\/image_34.png",
         "padding_top": 50,
         "padding_bottom": 50,
+        "reverse": false,
+        "text_centered": true,
+        "title": "Nukkamatot",
+        "text": "",
+        "btn_text": "Nukkamatot",
+        "btn_url": "shopify:\/\/collections\/nukkamatot"
+      }
+    },
+    "8c60f2e8-2f9e-4936-bedc-d5d9ab5bec13": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_34.png",
+        "padding_top": 50,
+        "padding_bottom": 50,
         "reverse": true,
         "text_centered": true,
-        "title": "Puuvillamatot",
+        "title": "Juuttimatot",
         "text": "",
-        "btn_text": "Puuvillamatot",
-        "btn_url": "shopify:\/\/collections\/puuvillamatot"
+        "btn_text": "Juuttimatot",
+        "btn_url": "shopify:\/\/collections\/juuttimatot"
+      }
+    },
+    "ac17c7f8-5bdc-4dcd-a87d-4d466f123d14": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_34.png",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": false,
+        "text_centered": true,
+        "title": "Taljat",
+        "text": "",
+        "btn_text": "Taljat",
+        "btn_url": "shopify:\/\/collections\/taljat"
+      }
+    },
+    "7d3a4d0e-1a54-4c2b-8733-2eb0a42cb5aa": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_34.png",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": true,
+        "text_centered": true,
+        "title": "Muovimatot",
+        "text": "",
+        "btn_text": "Muovimatot",
+        "btn_url": "shopify:\/\/collections\/muovimatot"
       }
     }
   },
@@ -145,6 +187,9 @@
     "ad0cb396-4a65-4a12-94e2-3a925be1e72e",
     "31a79294-9985-4493-b9e9-d1add184f053",
     "df0d561b-d3db-467c-853e-97f5c072b90c",
-    "475d044e-3ed2-4c92-9ff4-46c46ebbef59"
+    "475d044e-3ed2-4c92-9ff4-46c46ebbef59",
+    "8c60f2e8-2f9e-4936-bedc-d5d9ab5bec13",
+    "ac17c7f8-5bdc-4dcd-a87d-4d466f123d14",
+    "7d3a4d0e-1a54-4c2b-8733-2eb0a42cb5aa"
   ]
 }
