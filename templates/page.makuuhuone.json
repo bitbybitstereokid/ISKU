@@ -2,13 +2,29 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "a65a1687-c603-4667-9f0b-2523fdad5cb7": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/kampa2_710974a3-1885-4177-9d20-ec2753449cad.jpg",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": false,
+        "text_centered": true,
+        "title": "Kaikki sangyt",
+        "text": "",
+        "btn_text": "Kaikki sangyt",
+        "btn_url": "shopify:\/\/collections\/kaikki-sangyt"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "a65a1687-c603-4667-9f0b-2523fdad5cb7"
   ]
 }
