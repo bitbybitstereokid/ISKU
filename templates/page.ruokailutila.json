@@ -21,10 +21,55 @@
         "btn_text": "Ruokailupoydat",
         "btn_url": "shopify:\/\/collections\/ruokailupoydat"
       }
+    },
+    "08605677-bf71-463f-8a77-0de8ff5c7af6": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/kampa2.jpg",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": true,
+        "text_centered": true,
+        "title": "Ruokailuryhmat",
+        "text": "",
+        "btn_text": "Ruokailuryhmat",
+        "btn_url": "shopify:\/\/collections\/ruokailuryhmat"
+      }
+    },
+    "c0f8a0f6-6291-4ad2-a358-61058977699b": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/kampa2.jpg",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": false,
+        "text_centered": true,
+        "title": "Ruokailupoydan tuolit",
+        "text": "",
+        "btn_text": "Ruokailupoydan tuolit",
+        "btn_url": ""
+      }
+    },
+    "d860dc34-e813-49ce-9adf-9518588014f7": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/kampa2.jpg",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": false,
+        "text_centered": true,
+        "title": "Ruokailupoydat",
+        "text": "",
+        "btn_text": "Ruokailupoydat",
+        "btn_url": "shopify:\/\/collections\/ruokailupoydat"
+      }
     }
   },
   "order": [
     "main",
-    "dee31f09-5bdf-4377-a998-0ba46450dfb4"
+    "dee31f09-5bdf-4377-a998-0ba46450dfb4",
+    "08605677-bf71-463f-8a77-0de8ff5c7af6",
+    "c0f8a0f6-6291-4ad2-a358-61058977699b",
+    "d860dc34-e813-49ce-9adf-9518588014f7"
   ]
 }
