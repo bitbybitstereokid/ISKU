@@ -1,0 +1,73 @@
+{{ 'seo-block.css' | asset_url | stylesheet_tag }}
+{% style %}
+    .seo-block__collection{
+    padding-top: {{ section.settings.padding_top }}px;
+    padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+
+    @media screen and (max-width: 768px){
+    .seo-block__collection{
+    padding-top: {{ section.settings.padding_top_mobile }}px;
+    padding-bottom: {{ section.settings.padding_bottom_mobile }}px;
+    }
+    }
+{% endstyle %}
+
+{% if collection.metafields.custom.seo_title_collection != blank and collection.metafields.custom.seo_richtext != blank %}
+    <div class="seo-block__collection">
+        <div class="page-width">
+            <div class="seo-block__content">
+                <div class="seo-block__title">{{ collection.metafields.custom.seo_title_collection | metafield_tag }}</div>
+                <div class="seo-block__description">{{ collection.metafields.custom.seo_richtext | metafield_tag }}</div>
+            </div>
+        </div>
+    </div>
+{% endif %}
+
+{% schema %}
+{
+  "name": "Seo block",
+  "settings": [
+    {
+      "type": "range",
+      "id": "padding_top",
+      "label": "Padding top",
+      "unit": "px",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "default": 100
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "label": "Padding bottom",
+      "unit": "px",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_top_mobile",
+      "label": "Padding top mobile",
+      "unit": "px",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_mobile",
+      "label": "Padding bottom mobile",
+      "unit": "px",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "default": 0
+    }
+  ]
+}
+{% endschema %}
