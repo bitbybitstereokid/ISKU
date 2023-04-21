@@ -98,12 +98,12 @@
         "image": "shopify:\/\/shop_images\/kampa2_710974a3-1885-4177-9d20-ec2753449cad.jpg",
         "padding_top": 50,
         "padding_bottom": 50,
-        "reverse": true,
+        "reverse": false,
         "text_centered": true,
-        "title": "Runkosangyt",
+        "title": "Runkopatjat",
         "text": "",
-        "btn_text": "Runkosangyt",
-        "btn_url": "shopify:\/\/collections\/runkosangyt"
+        "btn_text": "Runkopatjat",
+        "btn_url": "shopify:\/\/collections\/runkopatjat"
       }
     },
     "c3f9b77a-40ba-4700-88c4-e37df4fa2e29": {
@@ -114,10 +114,10 @@
         "padding_bottom": 50,
         "reverse": true,
         "text_centered": true,
-        "title": "Runkosangyt",
+        "title": "Joustinpatjat",
         "text": "",
-        "btn_text": "Runkosangyt",
-        "btn_url": "shopify:\/\/collections\/runkosangyt"
+        "btn_text": "Joustinpatjat",
+        "btn_url": "shopify:\/\/collections\/joustinpatjat"
       }
     }
   },
