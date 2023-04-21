@@ -28,12 +28,12 @@
         "image": "shopify:\/\/shop_images\/kampa2.jpg",
         "padding_top": 50,
         "padding_bottom": 50,
-        "reverse": false,
+        "reverse": true,
         "text_centered": false,
-        "title": "Title",
+        "title": "Kulmasohvat",
         "text": "",
-        "btn_text": "Sohvat",
-        "btn_url": ""
+        "btn_text": "Kulmasohvat",
+        "btn_url": "shopify:\/\/collections\/kulmasohvat"
       }
     },
     "62c1852c-8802-49a8-a524-403f32a1b76d": {
