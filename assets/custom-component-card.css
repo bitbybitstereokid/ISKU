@@ -1,0 +1,144 @@
+
+/* card information */
+.card__information, .card-information {
+    text-align: center;
+}
+
+.card__information {
+    padding: 10px 0;
+}
+
+.card__information .card__heading {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    color: var(--color-text-primary);
+    margin-bottom: 15px;
+}
+
+.card-information .price {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0;
+    color: var(--color-text-primary);
+}
+
+.card {
+    position: relative;
+}
+
+.product-card-wrapper:hover .cart--hover {
+    opacity: 1;
+}
+
+.cart--hover > a {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: calc(100% - 47px);
+    width: 100%;
+    z-index: 1;
+    display: block;
+    cursor: pointer;
+}
+
+.product-card-wrapper:hover .cart--hover a {
+    text-decoration: none;
+}
+
+.card__badge .badge {
+    border-radius: 0;
+}
+
+.cart--hover__image {
+    max-height: 244px;
+    display: flex;
+}
+
+.cart--hover img {
+    width: 100%;
+    height: 100%;
+    /*object-fit: cover;*/
+    object-fit: contain;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.cart--hover__desc {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    padding: 15px 0 20px 0;
+    margin: 0 auto;
+    max-width: 255px;
+    text-align: center;
+    color: var(--color-text-primary);
+    letter-spacing: 0;
+}
+
+.cart--hover__desc p {
+    margin: 0;
+}
+
+.cart--hover {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    background-color: var(--color-text-accent);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.product-card-wrapper {
+    position: relative;
+}
+
+.cart--hover__image {
+    width: 100%;
+    position: relative;
+    padding-top: 75%;
+}
+
+.card--hover__href {
+    width: 100%;
+}
+
+.card--hover__href a {
+    background: var(--color-accent-1);
+    padding: 15px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0;
+    /* identical to box height */
+
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-decoration: none;
+    color: var(--color-text-accent);
+    transition: 500ms ease-in-out;
+}
+
+.card--hover__href a:hover{
+    background: var(--color-text-secondary);
+    transition: 500ms ease-in-out;
+}
