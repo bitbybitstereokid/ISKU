@@ -2,13 +2,29 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "dee31f09-5bdf-4377-a998-0ba46450dfb4": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/kampa2.jpg",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": false,
+        "text_centered": true,
+        "title": "Ruokailupoydat",
+        "text": "",
+        "btn_text": "Ruokailupoydat",
+        "btn_url": "shopify:\/\/collections\/ruokailupoydat"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "dee31f09-5bdf-4377-a998-0ba46450dfb4"
   ]
 }
