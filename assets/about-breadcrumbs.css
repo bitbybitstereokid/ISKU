@@ -1,20 +1,9 @@
 .breadcrumbs {
-    padding: 20px;
-    overflow: hidden;
-    position: relative;
+    padding: 30px 0;
 }
 
-.breadcrumbs--overflow {
-    padding: 20px 30px 20px 20px;
-}
-
-.breadcrumbs--overflow::after {
-    content: '...';
-    display: inline;
-    position: absolute;
-    right: 29px;
-    bottom: 25px;
-    transform: translateX(100%);
+.breadcrumbs.collection{
+    padding: 30px 0;
 }
 
 .breadcrumbs__list {
@@ -31,6 +20,14 @@
 
 .breadcrumbs--overflow .breadcrumbs__list {
     justify-content: flex-start;
+}
+
+.breadcrumbs__item:first-child{
+    padding-right: 10px;
+}
+
+.breadcrumbs__item:not(:first-child){
+    padding-left: 10px;
 }
 
 .breadcrumbs__item {
@@ -52,7 +49,6 @@
 
 .breadcrumbs__link {
     display: inline-block;
-    padding: 10px;
     text-decoration: none;
     font-family: var(--font-body-family);
     font-style: normal;
@@ -65,7 +61,7 @@
 
 @media only screen and (min-width: 750px) {
     .breadcrumbs {
-        padding: 20px 50px;
+        padding: 40px 0;
     }
 
     .breadcrumbs__list {
@@ -75,6 +71,6 @@
 
 @media only screen and (min-width: 990px) {
     .breadcrumbs {
-        padding: 30px 100px;
+        /*padding: 30px 0;*/
     }
 }

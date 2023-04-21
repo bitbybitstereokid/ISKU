@@ -254,8 +254,22 @@ cart-drawer-items {
 }
 
 .cart-drawer .cart-item .loading-overlay {
-  right: 5px;
-  padding-top: 2.5rem;
+  left: 50%;
+  top: 59%;
+  padding-top: 0;
+  transform: translate(-50%, -50%);
+}
+
+.cart-drawer .quantity__button:focus,
+.cart-drawer .quantity__input:focus{
+  background-color: transparent;
+}
+
+.cart-drawer .quantity__button:focus-visible, .cart-drawer .quantity__input:focus-visible{
+  box-shadow: none;
+  outline: none;
+  outline-offset: 0;
+  background-color: transparent;
 }
 
 .cart-drawer .cart-items td {
@@ -348,7 +362,7 @@ cart-drawer-items {
 }
 
 .drawer__footer #dynamic-checkout-cart ul > li {
-	flex-basis: calc(50% - 0.5rem) !important;
+  flex-basis: calc(50% - 0.5rem) !important;
   margin: 0 !important;
 }
 
@@ -367,7 +381,7 @@ cart-drawer-items {
   .drawer__footer #dynamic-checkout-cart ul > li:first-child:nth-last-child(2) ~ li,
   .drawer__footer #dynamic-checkout-cart ul > li:first-child:nth-last-child(4),
   .drawer__footer #dynamic-checkout-cart ul > li:first-child:nth-last-child(4) ~ li {
-	  flex-basis: calc(50% - 0.5rem) !important;
+    flex-basis: calc(50% - 0.5rem) !important;
   }
 }
 

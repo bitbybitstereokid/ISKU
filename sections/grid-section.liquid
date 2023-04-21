@@ -2,18 +2,18 @@
 
 {% style %}
     .collections-grid__wrapper.collections-grid__wrapper--{{ section.id }} {
-        padding-top: {{ section.settings.padding_top | times: 0.8 | round: 0 }}px;
-        padding-bottom: {{ section.settings.padding_bottom | times: 0.8 | round: 0 }}px;
+    padding-top: {{ section.settings.padding_top | times: 0.8 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.8 | round: 0 }}px;
     }
 
     @media only screen and (min-width: 769px) {
-        .collections-grid__wrapper.collections-grid__wrapper--{{ section.id }} {
-            padding-top: {{ section.settings.padding_top }}px;
-            padding-bottom: {{ section.settings.padding_bottom }}px;
-        }
+    .collections-grid__wrapper.collections-grid__wrapper--{{ section.id }} {
+    padding-top: {{ section.settings.padding_top }}px;
+    padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
     }
 {% endstyle %}
-<div class="collections-grid__wrapper collections-grid__wrapper--{{ section.id }}">
+<div class="collections-grid__wrapper page-width collections-grid__wrapper--{{ section.id }}">
     {% if section.settings.title != blank %}
         <h2 class="collections-grid__title">{{ section.settings.title }}</h2>
     {% endif %}
@@ -35,76 +35,76 @@
 
 {% schema %}
 {
-    "name": "Collections grid",
-    "settings": [
-        {
-            "type": "text",
-            "id": "title",
-            "label": "Title",
-            "default": "Title"
-        },
-        {
-            "type": "range",
-            "id": "padding_top",
-            "min": 0,
-            "max": 100,
-            "step": 1,
-            "unit": "px",
-            "label": "Free spave above",
-            "default": 50
-        },
-        {
-            "type": "range",
-            "id": "padding_bottom",
-            "min": 0,
-            "max": 100,
-            "step": 1,
-            "unit": "px",
-            "label": "Free spave below",
-            "default": 50
-        }
-    ],
-    "blocks": [
-        {
-            "type": "item",
-            "name": "Grid item",
-            "settings": [
-                {
-                    "type": "image_picker",
-                    "id": "image",
-                    "label": "Image"
-                },
-                {
-                    "type": "text",
-                    "id": "title",
-                    "label": "Title",
-                    "default": "Sängyt ja nukkuminen"
-                },
-                {
-                    "type": "url",
-                    "id": "url",
-                    "label": "URL"
-                }
-            ]
-        }
-    ],
-    "presets": [
+  "name": "Collections grid",
+  "settings": [
     {
-        "name": "Collections grid",
-        "blocks": [
-            {
-                "type": "item"
-            },
-            {
-                "type": "item"
-            },
-            {
-                "type": "item"
-            },
-            {
-                "type": "item"
-            }   
-        ]
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "default": "Title"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Free spave above",
+      "default": 50
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Free spave below",
+      "default": 50
+    }
+  ],
+  "blocks": [
+    {
+      "type": "item",
+      "name": "Grid item",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "Sängyt ja nukkuminen"
+        },
+        {
+          "type": "url",
+          "id": "url",
+          "label": "URL"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Collections grid",
+      "blocks": [
+        {
+          "type": "item"
+        },
+        {
+          "type": "item"
+        },
+        {
+          "type": "item"
+        },
+        {
+          "type": "item"
+        }
+      ]
     }
   ]
 }

@@ -10,6 +10,7 @@
     color: inherit;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     height: 100%;
 }
 
@@ -68,7 +69,3 @@
         margin: 0 0 16px;
     }
 }
-
-
-
-

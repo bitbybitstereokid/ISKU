@@ -4,23 +4,6 @@ document.addEventListener('DOMContentLoaded', function () {
     let allElemSlider = galleryImagePopUp.querySelectorAll("div");
     let html = document.querySelector("html");
 
-    allElemSlider.forEach(element => {
-        element.addEventListener("click", function (event) {
-            event.stopPropagation();
-        })
-    })
-    galleryImageItem.forEach((el, index) => {
-        el.addEventListener("click", function () {
-            let currentPosition = index + 1;
-            gallery.slideTo(currentPosition, 0)
-            html.classList.add("_show");
-        })
-    })
-
-    galleryImagePopUp.addEventListener("click", function (event) {
-        html.classList.remove("_show");
-    })
-
     const gallery = new Swiper('.galleryImage_swiper', {
         centeredSlides: true,
         spaceBetween: 50,
@@ -36,4 +19,23 @@ document.addEventListener('DOMContentLoaded', function () {
             clickable: true
         },
     });
+
+    allElemSlider.forEach(element => {
+        element.addEventListener("click", function (event) {
+            event.stopPropagation();
+        })
+    });
+
+    galleryImageItem.forEach((el, index) => {
+        el.addEventListener("click", function () {
+            console.log(index)
+            gallery.slideTo(index);
+            html.classList.add("_show");
+        })
+    })
+
+    galleryImagePopUp.addEventListener("click", function (event) {
+        html.classList.remove("_show");
+    })
+
 })

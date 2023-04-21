@@ -75,6 +75,15 @@
     display: flex;
 }
 
+.about-newsletter-form__message{
+    display: flex;
+    align-items: center;
+}
+
+.about-newsletter-form__message svg{
+    margin-right: 0.5rem;
+}
+
 .about-newsletter-form__message--success {
     display: flex;
     align-items: center;

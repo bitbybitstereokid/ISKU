@@ -47,8 +47,8 @@ class FacetFiltersForm extends HTMLElement {
       const filterDataUrl = element => element.url === url;
 
       FacetFiltersForm.filterData.some(filterDataUrl) ?
-        FacetFiltersForm.renderSectionFromCache(filterDataUrl, event) :
-        FacetFiltersForm.renderSectionFromFetch(url, event);
+          FacetFiltersForm.renderSectionFromCache(filterDataUrl, event) :
+          FacetFiltersForm.renderSectionFromFetch(url, event);
     });
 
     if (updateURLHash) FacetFiltersForm.updateURLHash(searchParams);
@@ -56,14 +56,14 @@ class FacetFiltersForm extends HTMLElement {
 
   static renderSectionFromFetch(url, event) {
     fetch(url)
-      .then(response => response.text())
-      .then((responseText) => {
-        const html = responseText;
-        FacetFiltersForm.filterData = [...FacetFiltersForm.filterData, { html, url }];
-        FacetFiltersForm.renderFilters(html, event);
-        FacetFiltersForm.renderProductGridContainer(html);
-        FacetFiltersForm.renderProductCount(html);
-      });
+        .then(response => response.text())
+        .then((responseText) => {
+          const html = responseText;
+          FacetFiltersForm.filterData = [...FacetFiltersForm.filterData, { html, url }];
+          FacetFiltersForm.renderFilters(html, event);
+          FacetFiltersForm.renderProductGridContainer(html);
+          FacetFiltersForm.renderProductCount(html);
+        });
   }
 
   static renderSectionFromCache(filterDataUrl, event) {
@@ -93,7 +93,7 @@ class FacetFiltersForm extends HTMLElement {
     const parsedHTML = new DOMParser().parseFromString(html, 'text/html');
 
     const facetDetailsElements =
-      parsedHTML.querySelectorAll('#FacetFiltersForm .js-filter, #FacetFiltersFormMobile .js-filter, #FacetFiltersPillsForm .js-filter');
+        parsedHTML.querySelectorAll('#FacetFiltersForm .js-filter, #FacetFiltersFormMobile .js-filter, #FacetFiltersPillsForm .js-filter');
     const matchesIndex = (element) => {
       const jsFilter = event ? event.target.closest('.js-filter') : undefined;
       return jsFilter ? element.dataset.index === jsFilter.dataset.index : false;
@@ -214,7 +214,7 @@ class PriceRange extends HTMLElement {
   constructor() {
     super();
     this.querySelectorAll('input')
-      .forEach(element => element.addEventListener('change', this.onRangeChange.bind(this)));
+        .forEach(element => element.addEventListener('change', this.onRangeChange.bind(this)));
     this.setMinAndMaxValues();
   }
 
@@ -265,3 +265,59 @@ class FacetRemove extends HTMLElement {
 }
 
 customElements.define('facet-remove', FacetRemove);
+
+class PriceMultiInput extends HTMLElement {
+  constructor() {
+    super();
+    let inputLeft = document.querySelector("#Filter-LTER");
+    let inputRight = document.querySelector("#Filter-GTER");
+    function setLeftValue() {
+      let _this = inputLeft;
+      let min = parseInt(_this.min);
+      let max = parseInt(_this.max);
+
+      _this.value = Math.min(parseInt(_this.value), parseInt(inputRight.value) - 1);
+
+      let percent = ((_this.value - min) / (max - min)) * 100;
+
+      document.querySelector("#multi-slider .left").style.left = percent + "%";
+      document.querySelector("#multi-slider .range").style.left = percent + "%";
+    }
+    setLeftValue()
+
+    function setRightValue() {
+      let _this = inputRight;
+      let min = parseInt(_this.min);
+      let max = parseInt(_this.max);
+      _this.value = Math.max(parseInt(_this.value), parseInt(inputLeft.value) + 1);
+      let percent = ((_this.value - min) / (max - min)) * 100;
+
+      document.querySelector("#multi-slider .right").style.right = (100 - percent) + "%";
+      document.querySelector("#multi-slider .range").style.right = (100 - percent) + "%";
+    }
+    setRightValue()
+    inputLeft.addEventListener("input", setLeftValue);
+    inputRight.addEventListener("input", setRightValue);
+
+    function priceMin(value) {
+      document.querySelector('.rangeMinLeft_input--value').value = this.value + ".00";
+      document.querySelector('.rangeMinLeft_input').innerHTML = this.value + ",00";
+    }
+
+    function priceMax(value) {
+      document.querySelector(".rangeMaxRight_input--value").value = this.value + ".00"
+      document.querySelector(".rangeMaxRight_input").innerHTML = this.value + ",00"
+    }
+
+    inputLeft.addEventListener("mousemove", priceMin);
+    inputLeft.addEventListener('touchmove', priceMin);
+    inputLeft.addEventListener('touchstart', priceMin);
+    inputLeft.addEventListener('touchend', priceMin);
+
+    inputRight.addEventListener("mousemove", priceMax);
+    inputRight.addEventListener('touchmove', priceMax);
+    inputRight.addEventListener('touchstart', priceMax);
+    inputRight.addEventListener('touchend', priceMax);
+  }
+}
+customElements.define('price-multi-input', PriceMultiInput);

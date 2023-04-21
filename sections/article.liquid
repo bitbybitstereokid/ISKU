@@ -3,7 +3,7 @@
 <div class="article-banner">
     <div class="article-banner__container">
         {% if article.image != blank%}
-            {{ article.image | image_url: width: 610 | image_tag: widths: '375, 480, 550, 610, 720, 930, 1100 1200 1300 1400 1500 1600 1800 2200', alt: article.image.alt, loading: 'lazy', class: 'article-banner__image' }}
+            {{ article.image | image_url: width: 1920 | image_tag: widths: '375, 480, 550, 610, 720, 930, 1100 1200 1300 1400 1500 1600 1800 2200', alt: article.image.alt, loading: 'lazy', class: 'article-banner__image' }}
         {% else %}
             {{ 'image' | placeholder_svg_tag: 'article-banner__image' }}
         {% endif %}

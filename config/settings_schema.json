@@ -167,7 +167,7 @@
         "id": "page_width",
         "min": 1000,
         "max": 1600,
-        "step": 100,
+        "step": 20,
         "default": 1200,
         "unit": "px",
         "label": "t:settings_schema.layout.settings.page_width.label"
@@ -205,7 +205,7 @@
         "id": "spacing_grid_vertical",
         "min": 4,
         "max": 40,
-        "step": 4,
+        "step": 1,
         "default": 8,
         "unit": "px",
         "label": "t:settings_schema.layout.settings.spacing_grid_vertical.label"
@@ -1555,6 +1555,22 @@
         "id": "cart_drawer_collection",
         "label": "t:settings_schema.cart.settings.cart_drawer.collection.label",
         "info": "t:settings_schema.cart.settings.cart_drawer.collection.info"
+      },
+      {
+        "type": "text",
+        "id": "cart_url_name",
+        "label": "Cart url name"
+      },
+      {
+        "type": "url",
+        "id": "cart_url",
+        "label": "Cart url"
+      },
+      {
+        "type": "text",
+        "id": "drawer_title",
+        "label": "Cart drawer title",
+        "default": "Kassa"
       }
     ]
   }
