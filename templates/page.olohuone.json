@@ -127,10 +127,10 @@
         "padding_top": 50,
         "padding_bottom": 50,
         "reverse": false,
-        "text_centered": false,
-        "title": "Title",
+        "text_centered": true,
+        "title": "Rahit",
         "text": "",
-        "btn_text": "Sohvat",
+        "btn_text": "Rahit",
         "btn_url": ""
       }
     },
