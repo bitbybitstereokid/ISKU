@@ -2,13 +2,89 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "eb4f5fd2-4877-4d98-be2d-cfba6f795f90": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_36.png",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": false,
+        "text_centered": true,
+        "title": "Etatyokalusteet",
+        "text": "",
+        "btn_text": "Etatyokalusteet",
+        "btn_url": "shopify:\/\/pages\/etatyokalusteet"
+      }
+    },
+    "d51d62f3-ed31-40e1-a332-dec631b799fa": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_36.png",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": true,
+        "text_centered": true,
+        "title": "Tyopoydat",
+        "text": "",
+        "btn_text": "Tyopoydat",
+        "btn_url": "shopify:\/\/collections\/tyopoydat"
+      }
+    },
+    "c44e8d29-aa34-486d-b826-d7486bdbf408": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_36.png",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": false,
+        "text_centered": true,
+        "title": "Etatyokalusteet",
+        "text": "",
+        "btn_text": "Etatyokalusteet",
+        "btn_url": "shopify:\/\/pages\/etatyokalusteet"
+      }
+    },
+    "8a3b31f2-a06f-4113-af18-1c4cc85a21cf": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_36.png",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": false,
+        "text_centered": true,
+        "title": "Etatyokalusteet",
+        "text": "",
+        "btn_text": "Etatyokalusteet",
+        "btn_url": "shopify:\/\/pages\/etatyokalusteet"
+      }
+    },
+    "b04bf464-eb8f-4f3b-ab8e-88ef7bb9fe97": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_36.png",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": false,
+        "text_centered": true,
+        "title": "Etatyokalusteet",
+        "text": "",
+        "btn_text": "Etatyokalusteet",
+        "btn_url": "shopify:\/\/pages\/etatyokalusteet"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "eb4f5fd2-4877-4d98-be2d-cfba6f795f90",
+    "d51d62f3-ed31-40e1-a332-dec631b799fa",
+    "c44e8d29-aa34-486d-b826-d7486bdbf408",
+    "8a3b31f2-a06f-4113-af18-1c4cc85a21cf",
+    "b04bf464-eb8f-4f3b-ab8e-88ef7bb9fe97"
   ]
 }
