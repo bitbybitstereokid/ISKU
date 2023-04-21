@@ -2,13 +2,29 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "0a122795-a2c5-4f52-a410-569de80670d9": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Rectangle_65.jpg",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": false,
+        "text_centered": true,
+        "title": "Sohvat",
+        "text": "",
+        "btn_text": "Sohvat",
+        "btn_url": "shopify:\/\/collections\/sohvat"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "0a122795-a2c5-4f52-a410-569de80670d9"
   ]
 }
