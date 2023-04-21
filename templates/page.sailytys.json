@@ -84,12 +84,12 @@
         "image": "shopify:\/\/shop_images\/image_40.png",
         "padding_top": 50,
         "padding_bottom": 50,
-        "reverse": false,
+        "reverse": true,
         "text_centered": true,
-        "title": "Sailytys",
+        "title": "Naulakot",
         "text": "",
-        "btn_text": "Sailytys",
-        "btn_url": "shopify:\/\/collections\/sailytys"
+        "btn_text": "Naulakot",
+        "btn_url": "shopify:\/\/collections\/naulakot"
       }
     },
     "d00cbaaf-b227-4dcb-9c67-8f5e71d23c3a": {
@@ -100,10 +100,10 @@
         "padding_bottom": 50,
         "reverse": false,
         "text_centered": true,
-        "title": "Sailytys",
+        "title": "Eteisen sailytys",
         "text": "",
-        "btn_text": "Sailytys",
-        "btn_url": "shopify:\/\/collections\/sailytys"
+        "btn_text": "Eteisen sailytys",
+        "btn_url": "shopify:\/\/collections\/eteisen-sailytys"
       }
     }
   },
