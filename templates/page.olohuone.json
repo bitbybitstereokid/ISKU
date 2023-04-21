@@ -155,11 +155,11 @@
         "padding_top": 50,
         "padding_bottom": 50,
         "reverse": false,
-        "text_centered": false,
-        "title": "Title",
+        "text_centered": true,
+        "title": "Hyllyt",
         "text": "",
-        "btn_text": "Sohvat",
-        "btn_url": ""
+        "btn_text": "Hyllyt",
+        "btn_url": "shopify:\/\/collections\/hyllyt"
       }
     },
     "7cc46c1c-c59b-4327-881c-827580dd0147": {
