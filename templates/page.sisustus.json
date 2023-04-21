@@ -147,6 +147,118 @@
         "btn_text": "Eteismatot",
         "btn_url": "shopify:\/\/collections\/eteismatot"
       }
+    },
+    "d1f2cf70-2cd8-4d9c-9876-f8d23316fdba": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_40.png",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": false,
+        "text_centered": true,
+        "title": "Terassimatot",
+        "text": "",
+        "btn_text": "Terassimatot",
+        "btn_url": "shopify:\/\/collections\/terassimatot"
+      }
+    },
+    "9a4ba4a2-4cb2-49d5-af6b-197054e0b379": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_40.png",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": true,
+        "text_centered": true,
+        "title": "Pyoreat matot",
+        "text": "",
+        "btn_text": "Pyoreat matot",
+        "btn_url": "shopify:\/\/collections\/pyoreat-matot"
+      }
+    },
+    "60b8c5f2-32ef-4e71-bc8d-63441234d0ee": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_40.png",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": false,
+        "text_centered": true,
+        "title": "Villamatot",
+        "text": "",
+        "btn_text": "Villamatot",
+        "btn_url": "shopify:\/\/collections\/villamatot"
+      }
+    },
+    "a260cefe-68c2-4266-8881-ff886656dda3": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_40.png",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": true,
+        "text_centered": true,
+        "title": "Puuvillamatot",
+        "text": "",
+        "btn_text": "Puuvillamatot",
+        "btn_url": "shopify:\/\/collections\/puuvillamatot"
+      }
+    },
+    "7913be62-bebf-480a-a2c6-9b3353d5c3d1": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_40.png",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": false,
+        "text_centered": true,
+        "title": "Nukkamatot",
+        "text": "",
+        "btn_text": "Nukkamatot",
+        "btn_url": "shopify:\/\/collections\/nukkamatot"
+      }
+    },
+    "f137bf98-69a6-48e7-8b6e-0bac72f81daa": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_40.png",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": true,
+        "text_centered": true,
+        "title": "Juuttimatot",
+        "text": "",
+        "btn_text": "Juuttimatot",
+        "btn_url": "shopify:\/\/collections\/juuttimatot"
+      }
+    },
+    "b1b2d27a-8c83-45c7-94bb-0c407eb22409": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_40.png",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": false,
+        "text_centered": true,
+        "title": "Muovimatot",
+        "text": "",
+        "btn_text": "Muovimatot",
+        "btn_url": "shopify:\/\/collections\/muovimatot"
+      }
+    },
+    "5633a92f-a36f-4d1a-93a3-d2694b394dbb": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_40.png",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": true,
+        "text_centered": true,
+        "title": "Taljat",
+        "text": "",
+        "btn_text": "Taljat",
+        "btn_url": "shopify:\/\/collections\/taljat"
+      }
     }
   },
   "order": [
@@ -160,6 +272,14 @@
     "92d77794-2cb9-4efa-9833-981c95ce205f",
     "30f6d938-f184-462f-8627-029da027cf75",
     "215fbb37-9911-4e0f-b1df-2f9ff40649af",
-    "07d6a352-4ba7-4ddf-87cc-9d1d0b4080b7"
+    "07d6a352-4ba7-4ddf-87cc-9d1d0b4080b7",
+    "d1f2cf70-2cd8-4d9c-9876-f8d23316fdba",
+    "9a4ba4a2-4cb2-49d5-af6b-197054e0b379",
+    "60b8c5f2-32ef-4e71-bc8d-63441234d0ee",
+    "a260cefe-68c2-4266-8881-ff886656dda3",
+    "7913be62-bebf-480a-a2c6-9b3353d5c3d1",
+    "f137bf98-69a6-48e7-8b6e-0bac72f81daa",
+    "b1b2d27a-8c83-45c7-94bb-0c407eb22409",
+    "5633a92f-a36f-4d1a-93a3-d2694b394dbb"
   ]
 }
