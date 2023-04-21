@@ -2,13 +2,134 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "092bc77a-53e0-4c0c-b41c-753d7ab2a78a": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_34.png",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": false,
+        "text_centered": true,
+        "title": "Puutarhakalusteet",
+        "text": "",
+        "btn_text": "Puutarhakalusteet",
+        "btn_url": "shopify:\/\/collections\/puutarhakalusteet"
+      }
+    },
+    "1afc44d0-4e44-4623-b9c2-3c450e53a3b1": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_34.png",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": true,
+        "text_centered": true,
+        "title": "Terassikalusteet",
+        "text": "",
+        "btn_text": "Terassikalusteet",
+        "btn_url": "shopify:\/\/collections\/terassikalusteet"
+      }
+    },
+    "1e743da6-64fb-43d2-bfc6-f01758b8be08": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_34.png",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": false,
+        "text_centered": true,
+        "title": "Rottinkikalusteet",
+        "text": "",
+        "btn_text": "Rottinkikalusteet",
+        "btn_url": "shopify:\/\/collections\/rottinkikalusteet"
+      }
+    },
+    "af3ee8e8-a716-49c9-9033-2117c7c9cc81": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_34.png",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": true,
+        "text_centered": true,
+        "title": "Aurinkovarjot ja jalat",
+        "text": "",
+        "btn_text": "Aurinkovarjot ja jalat",
+        "btn_url": "shopify:\/\/collections\/aurinkovarjot-ja-jalat"
+      }
+    },
+    "f97548d4-2ee6-4019-a0b6-1b1e3c026409": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_34.png",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": false,
+        "text_centered": true,
+        "title": "Puutarhapöydät ja tuolit",
+        "text": "",
+        "btn_text": "Puutarhapöydät ja tuolit",
+        "btn_url": "shopify:\/\/collections\/puutarhapoydat-ja-tuolit"
+      }
+    },
+    "f41be11c-20f0-4fce-a1ac-96439b175fea": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_34.png",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": true,
+        "text_centered": true,
+        "title": "Aurinkotuolit",
+        "text": "",
+        "btn_text": "Aurinkotuolit",
+        "btn_url": "shopify:\/\/collections\/aurinkotuolit"
+      }
+    },
+    "88365c8b-c982-460a-aea6-6ed7c70cace1": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_34.png",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": false,
+        "text_centered": true,
+        "title": "Polyrottinkikalusteet",
+        "text": "",
+        "btn_text": "Polyrottinkikalusteet",
+        "btn_url": "shopify:\/\/collections\/polyrottinkikalusteet"
+      }
+    },
+    "d66b3fdf-4a0d-4cc3-93ac-e303a68b2a03": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_34.png",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": true,
+        "text_centered": true,
+        "title": "Ulkosohvat",
+        "text": "",
+        "btn_text": "Ulkosohvat",
+        "btn_url": "shopify:\/\/collections\/ulkosohvat"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "092bc77a-53e0-4c0c-b41c-753d7ab2a78a",
+    "1afc44d0-4e44-4623-b9c2-3c450e53a3b1",
+    "1e743da6-64fb-43d2-bfc6-f01758b8be08",
+    "af3ee8e8-a716-49c9-9033-2117c7c9cc81",
+    "f97548d4-2ee6-4019-a0b6-1b1e3c026409",
+    "f41be11c-20f0-4fce-a1ac-96439b175fea",
+    "88365c8b-c982-460a-aea6-6ed7c70cace1",
+    "d66b3fdf-4a0d-4cc3-93ac-e303a68b2a03"
   ]
 }
