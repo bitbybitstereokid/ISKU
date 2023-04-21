@@ -44,10 +44,10 @@
         "padding_bottom": 50,
         "reverse": false,
         "text_centered": false,
-        "title": "Title",
+        "title": "Vuodesohvat",
         "text": "",
-        "btn_text": "Sohvat",
-        "btn_url": ""
+        "btn_text": "Vuodesohvat",
+        "btn_url": "shopify:\/\/collections\/vuodesohvat"
       }
     },
     "ec10c27f-d631-42be-9f58-71a512459d0d": {
