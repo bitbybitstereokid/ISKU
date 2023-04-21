@@ -238,12 +238,12 @@
         "image": "shopify:\/\/shop_images\/kampa2.jpg",
         "padding_top": 50,
         "padding_bottom": 50,
-        "reverse": false,
-        "text_centered": false,
-        "title": "Title",
+        "reverse": true,
+        "text_centered": true,
+        "title": "Sivupoydat",
         "text": "",
-        "btn_text": "Sohvat",
-        "btn_url": ""
+        "btn_text": "Sivupoydat",
+        "btn_url": "shopify:\/\/collections\/sivupoydat"
       }
     },
     "f930edee-c09e-41a2-b1a1-98678d951798": {
@@ -254,7 +254,7 @@
         "padding_bottom": 50,
         "reverse": false,
         "text_centered": false,
-        "title": "Title",
+        "title": "\/collections\/sohvapoydat",
         "text": "",
         "btn_text": "Sohvat",
         "btn_url": ""
