@@ -56,12 +56,12 @@
         "image": "shopify:\/\/shop_images\/living-room-design-with-couch_1.jpg",
         "padding_top": 50,
         "padding_bottom": 50,
-        "reverse": false,
+        "reverse": true,
         "text_centered": true,
-        "title": "Poydat",
+        "title": "Ruokailupoydan tuolit",
         "text": "",
-        "btn_text": "Poydat",
-        "btn_url": "shopify:\/\/collections\/poydat"
+        "btn_text": "Ruokailupoydan tuolit",
+        "btn_url": "shopify:\/\/collections\/ruokailupoydan-tuolit"
       }
     },
     "bb95728c-59d3-48c7-a756-a17c0ada9c49": {
@@ -72,10 +72,10 @@
         "padding_bottom": 50,
         "reverse": false,
         "text_centered": true,
-        "title": "Poydat",
+        "title": "Olohuoneen poydat",
         "text": "",
-        "btn_text": "Poydat",
-        "btn_url": "shopify:\/\/collections\/poydat"
+        "btn_text": "Olohuoneen poydat",
+        "btn_url": "shopify:\/\/collections\/olohuoneen-poydat"
       }
     },
     "0b158cc1-496d-4d81-bafd-95246b0a0b0d": {
@@ -84,12 +84,12 @@
         "image": "shopify:\/\/shop_images\/living-room-design-with-couch_1.jpg",
         "padding_top": 50,
         "padding_bottom": 50,
-        "reverse": false,
+        "reverse": true,
         "text_centered": true,
-        "title": "Poydat",
+        "title": "Sivupoydat",
         "text": "",
-        "btn_text": "Poydat",
-        "btn_url": "shopify:\/\/collections\/poydat"
+        "btn_text": "Sivupoydat",
+        "btn_url": "shopify:\/\/collections\/sivupoydat"
       }
     },
     "34b44c4d-16dd-48e3-ae97-4ccd2a3adfed": {
@@ -100,10 +100,10 @@
         "padding_bottom": 50,
         "reverse": false,
         "text_centered": true,
-        "title": "Poydat",
+        "title": "Sohvapoydat",
         "text": "",
-        "btn_text": "Poydat",
-        "btn_url": "shopify:\/\/collections\/poydat"
+        "btn_text": "Sohvapoydat",
+        "btn_url": "shopify:\/\/collections\/sohvapoydat"
       }
     },
     "d30bc5ed-4911-4c2d-8358-0eec0cfed2e4": {
@@ -112,12 +112,12 @@
         "image": "shopify:\/\/shop_images\/living-room-design-with-couch_1.jpg",
         "padding_top": 50,
         "padding_bottom": 50,
-        "reverse": false,
+        "reverse": true,
         "text_centered": true,
-        "title": "Poydat",
+        "title": "Yopoydat",
         "text": "",
-        "btn_text": "Poydat",
-        "btn_url": "shopify:\/\/collections\/poydat"
+        "btn_text": "Yopoydat",
+        "btn_url": "shopify:\/\/collections\/yopoydat"
       }
     },
     "b62b944e-6281-49fa-857b-1ee45cfd8e6c": {
@@ -128,10 +128,10 @@
         "padding_bottom": 50,
         "reverse": false,
         "text_centered": true,
-        "title": "Poydat",
+        "title": "Baaripoydat",
         "text": "",
-        "btn_text": "Poydat",
-        "btn_url": "shopify:\/\/collections\/poydat"
+        "btn_text": "Baaripoydat",
+        "btn_url": "shopify:\/\/collections\/baaripoydat"
       }
     }
   },
