@@ -2,13 +2,29 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "02df9c5d-b121-445a-a19c-ffc9a2a528e2": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/mega-menu-slot-img.jpg",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": false,
+        "text_centered": true,
+        "title": "Terassimatot",
+        "text": "",
+        "btn_text": "Terassimatot",
+        "btn_url": "shopify:\/\/collections\/terassimatot"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "02df9c5d-b121-445a-a19c-ffc9a2a528e2"
   ]
 }
