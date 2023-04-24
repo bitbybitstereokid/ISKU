@@ -4,7 +4,8 @@
       "type": "main-cart-items",
       "settings": {
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 36,
+        "title": "Kassa"
       }
     },
     "cart-footer": {
@@ -12,22 +13,39 @@
       "blocks": {
         "subtotal": {
           "type": "subtotal",
-          "settings": {}
+          "settings": {
+          }
         },
         "buttons": {
           "type": "buttons",
-          "settings": {}
+          "settings": {
+          }
         }
       },
       "block_order": [
         "subtotal",
         "buttons"
       ],
-      "settings": {}
+      "settings": {
+      }
+    },
+    "5d9cb773-12d3-4d48-b75a-e268104ec7e2": {
+      "type": "cart-you-may-also-like",
+      "settings": {
+        "title": "He myös ostavat sen kanssa",
+        "collection": "chairs",
+        "show_button": true,
+        "button_name": "OSTA NYT",
+        "padding_top": 100,
+        "padding_bottom": 100,
+        "padding_top_mobile": 80,
+        "padding_bottom_mobile": 79
+      }
     }
   },
   "order": [
     "cart-items",
-    "cart-footer"
+    "cart-footer",
+    "5d9cb773-12d3-4d48-b75a-e268104ec7e2"
   ]
 }
