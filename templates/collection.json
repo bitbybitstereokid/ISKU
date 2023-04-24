@@ -40,16 +40,13 @@
     "seo-block": {
       "type": "seo-block",
       "settings": {
-        "padding_top": 50,
-        "padding_bottom": 80,
-        "padding_top_mobile": 60,
-        "padding_bottom_mobile": 0
       }
     }
   },
   "order": [
     "681cc2a2-0268-4186-b413-0bffd6085c5e",
     "banner",
-    "product-grid"
+    "product-grid",
+    "seo-block"
   ]
 }
