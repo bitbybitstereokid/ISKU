@@ -96,6 +96,37 @@
     },
     "93a16e45-03c8-4faa-afcc-7bc32dece52d": {
       "type": "product-highlights",
+      "blocks": {
+        "0308fb3d-3e71-48a7-a30d-c26f11385a9f": {
+          "type": "highlight",
+          "source": "{{ product.metafields.custom.product_highligts.value }}",
+          "settings": {
+            "label": "{{ product.metafields.custom.product_highligts.value.highlight_label_1.value }}",
+            "content": "{{ product.metafields.custom.product_highligts.value.highlight_text_1 | metafield_tag }}"
+          }
+        },
+        "62e43251-7c38-4791-af4e-5efc7c5079e2": {
+          "type": "highlight",
+          "source": "{{ product.metafields.custom.product_highligts.value }}",
+          "settings": {
+            "label": "{{ product.metafields.custom.product_highligts.value.highlight_label_1.value }}",
+            "content": "{{ product.metafields.custom.product_highligts.value.highlight_text_1 | metafield_tag }}"
+          }
+        },
+        "2876d941-77ce-4286-abef-34c5c05a79f9": {
+          "type": "highlight",
+          "source": "{{ product.metafields.custom.product_highligts.value }}",
+          "settings": {
+            "label": "{{ product.metafields.custom.product_highligts.value.highlight_label_1.value }}",
+            "content": "{{ product.metafields.custom.product_highligts.value.highlight_text_1 | metafield_tag }}"
+          }
+        }
+      },
+      "block_order": [
+        "0308fb3d-3e71-48a7-a30d-c26f11385a9f",
+        "62e43251-7c38-4791-af4e-5efc7c5079e2",
+        "2876d941-77ce-4286-abef-34c5c05a79f9"
+      ],
       "settings": {
         "padding_top": 100,
         "padding_bottom": 100,
