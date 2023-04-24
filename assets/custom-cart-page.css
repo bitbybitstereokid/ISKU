@@ -200,6 +200,11 @@
     margin: 0 auto;
 }
 
+.cart__warnings > a:before,
+.cart__warnings > a:after{
+    display: none;
+}
+
 .cart__warnings > a:hover{
     color: var(--color-accent-2);
     transition: 0.3s ease-in-out;
