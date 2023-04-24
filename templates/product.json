@@ -78,6 +78,7 @@
     },
     "related-products": {
       "type": "related-products",
+      "disabled": true,
       "settings": {
         "heading": "You may also like",
         "heading_size": "h2",
@@ -93,6 +94,24 @@
         "padding_bottom": 28
       }
     },
+    "93a16e45-03c8-4faa-afcc-7bc32dece52d": {
+      "type": "product-highlights",
+      "settings": {
+        "padding_top": 100,
+        "padding_bottom": 100,
+        "main_text": "<p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.<\/p>"
+      }
+    },
+    "8db35396-c85e-486d-aaf2-8eb8623b292a": {
+      "type": "buy-too-pdp-section",
+      "settings": {
+        "title": "Osta myös",
+        "in_stock_text": "Varastossa",
+        "out_stock_text": "loppu varastosta",
+        "btn_text": "Osta",
+        "btn_out_stock_text": "Loppuunmyyty"
+      }
+    },
     "98ad94fe-8e64-42b5-bdfb-4488ca9c10da": {
       "type": "product-recomendations-slider",
       "settings": {
@@ -101,6 +120,17 @@
         "padding_bottom": 50,
         "product_list_limit": 10,
         "intent": "related"
+      }
+    },
+    "581ad5fb-5e12-40fc-8351-2b7f8fb599f0": {
+      "type": "about-product-slider",
+      "settings": {
+        "title": "Vastaavia tuotteita",
+        "collection": "chairs",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 80
       }
     },
     "6a064f3f-48d8-48e8-88ec-c4a86a645611": {
@@ -152,7 +182,10 @@
   "order": [
     "main",
     "related-products",
+    "93a16e45-03c8-4faa-afcc-7bc32dece52d",
+    "8db35396-c85e-486d-aaf2-8eb8623b292a",
     "98ad94fe-8e64-42b5-bdfb-4488ca9c10da",
+    "581ad5fb-5e12-40fc-8351-2b7f8fb599f0",
     "6a064f3f-48d8-48e8-88ec-c4a86a645611",
     "507436a0-5691-43ad-baeb-505a62237dd4"
   ]
