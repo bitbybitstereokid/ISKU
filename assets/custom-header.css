@@ -303,7 +303,7 @@
 
 @media  screen and (min-width:990px) {
     .custom-header.header--top-center {
-        padding: 15px 100px 0;
+        padding: 15px 50px 0;
         grid-template-areas:
                 "left-icon heading icons"
                 "navigation navigation navigation";
