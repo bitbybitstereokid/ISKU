@@ -41,6 +41,11 @@
     transition: 0.3s ease-in-out;
 }
 
+#main-cart-footer .cart__checkout-button:before,
+#main-cart-footer .cart__checkout-button:after{
+    display: none;
+}
+
 #main-cart-footer .cart__checkout-button:hover{
     background: var(--color-text-secondary);
     transition: 0.3s ease-in-out;

@@ -36,6 +36,15 @@
         "load_more_text": "Load More products",
         "shown_products": "products shown"
       }
+    },
+    "seo-block": {
+      "type": "seo-block",
+      "settings": {
+        "padding_top": 50,
+        "padding_bottom": 80,
+        "padding_top_mobile": 60,
+        "padding_bottom_mobile": 0
+      }
     }
   },
   "order": [
