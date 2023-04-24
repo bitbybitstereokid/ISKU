@@ -137,12 +137,23 @@
         "padding_top": 50,
         "padding_bottom": 50
       }
+    },
+    "507436a0-5691-43ad-baeb-505a62237dd4": {
+      "type": "about-newsletter",
+      "settings": {
+        "padding_top": 50,
+        "padding_bottom": 100,
+        "title": "Subscribe to our mailing list for newsletter exclusives",
+        "input_placeholder": "Enter your email",
+        "btn_text": "Subscribe"
+      }
     }
   },
   "order": [
     "main",
     "related-products",
     "98ad94fe-8e64-42b5-bdfb-4488ca9c10da",
-    "6a064f3f-48d8-48e8-88ec-c4a86a645611"
+    "6a064f3f-48d8-48e8-88ec-c4a86a645611",
+    "507436a0-5691-43ad-baeb-505a62237dd4"
   ]
 }
