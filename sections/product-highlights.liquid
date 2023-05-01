@@ -29,9 +29,11 @@
         {% endfor %}
     </div>
     <div class="product-highlights__main">
-        <div class="product-highlights__main-image image-wrapper">
-            <img src="{{ section.settings.image | img_url: 'master' }}" alt="{{ section.settings.image.alt }}">
-        </div>
+        {% if section.settings.image != blank %}
+            <div class="product-highlights__main-image image-wrapper">
+                <img src="{{ section.settings.image | img_url: 'master' }}" alt="{{ section.settings.image.alt }}">
+            </div>
+        {% endif %}
         <div class="product-highlights__main-text">
             {{ section.settings.main_text }}
         </div>
