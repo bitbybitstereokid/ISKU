@@ -129,6 +129,7 @@
     "cart_drawer_collection": "",
     "cart_url_name": "Go to cart",
     "cart_url": "\/cart",
+    "drawer_title": "",
     "sections": {
       "main-password-header": {
         "type": "main-password-header",
