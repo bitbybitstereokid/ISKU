@@ -23,7 +23,7 @@
           "settings": {
             "picker_type": "dropdown",
             "colors_swatcher_title": "color, colour, verhoilu",
-            "colors_swatcher_colors": "black: #1F1F21; white: #FFFFFF; dark-grey: #424348;"
+            "colors_swatcher_colors": "black: #1F1F21;dark-grey: #424348;white:grey.jpg"
           }
         },
         "quantity_selector": {
