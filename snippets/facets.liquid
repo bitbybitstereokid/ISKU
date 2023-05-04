@@ -290,7 +290,7 @@
         </svg>
       </button>
       <div class="facet-filters__custom-select display-none">
-        <div class="custom-select-list" onclick="clickSort()">
+        <div class="custom-select-list" onclick="clickSort(this)">
           <div class="custom-select__title">
             {%- for option in collection.sort_options -%}
               {% if option.value == sort_by %}  {{ option.name | escape }} {% break %} {% endif %}
@@ -871,7 +871,7 @@
               </div>
 
               <div class="facet-filters__custom-select">
-                <div class="custom-select-list" onclick="clickSort()">
+                <div class="custom-select-list" onclick="clickSort(this)">
                   <div class="custom-select__title">
                     {%- for option in collection.sort_options -%}
                       {% if option.value == sort_by %}  {{ option.name | escape }} {% break %} {% endif %}
@@ -964,7 +964,7 @@
               </div>
             </div>
             <div class="facet-filters__custom-select">
-              <div class="custom-select-list" onclick="clickSort()">
+              <div class="custom-select-list" onclick="clickSort(this)">
                 <div class="custom-select__title">
                   {%- for option in collection.sort_options -%}
                     {% if option.value == sort_by %}  {{ option.name | escape }} {% break %} {% endif %}
@@ -1337,7 +1337,7 @@
                       </div>
                     </div>
                     <div class="facet-filters__custom-select">
-                      <div class="custom-select-list" onclick="clickSort()">
+                      <div class="custom-select-list" onclick="clickSort(this)">
                         <div class="custom-select__title">
                           {%- for option in collection.sort_options -%}
                             {% if option.value == sort_by %}  {{ option.name | escape }} {% break %} {% endif %}
@@ -1479,7 +1479,7 @@
           </div>
 
           <div class="facet-filters__custom-select">
-            <div class="custom-select-list" onclick="clickSort()">
+            <div class="custom-select-list" onclick="clickSort(this)">
               <div class="custom-select__title">
                 {%- for option in collection.sort_options -%}
                   {% if option.value == sort_by %}  {{ option.name | escape }} {% break %} {% endif %}

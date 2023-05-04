@@ -52,7 +52,7 @@
             </h2>
             {%- assign sort_by = collection.sort_by | default: collection.default_sort_by -%}
             <div class="facet-filters__custom-select">
-              <div class="custom-select-list" onclick="clickSort()">
+              <div class="custom-select-list" onclick="clickSort(this)">
                 <div class="custom-select__title">
                   {%- for option in collection.sort_options -%}
                     {% if option.value == sort_by %}  {{ option.name | escape }} {% break %} {% endif %}
