@@ -38,7 +38,7 @@
                             <img src="{{collectionImage | img_url: 'master' }}" alt="{{collectionImage.alt}}">
                         </div>
                         <h4 class="collections_row_blocks_item_title">
-                            {%- assign collectionTitle = block.settings.collection -%}
+                            {%- assign collectionTitle = block.settings.collection.title -%}
                             {% if block.settings.title != blank %}
                                 {%- assign collectionTitle = block.settings.title -%}
                             {% endif %}
