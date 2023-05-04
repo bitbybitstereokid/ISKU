@@ -8,6 +8,11 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "2afe51da-b9b0-4327-b31c-e2facff45b8a": {
+          "type": "vendor",
+          "settings": {
+          }
+        },
         "title": {
           "type": "title",
           "settings": {
@@ -75,6 +80,7 @@
         }
       },
       "block_order": [
+        "2afe51da-b9b0-4327-b31c-e2facff45b8a",
         "title",
         "price",
         "variant_picker",
