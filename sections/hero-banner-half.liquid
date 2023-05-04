@@ -2,24 +2,45 @@
 
 {% style %}
   .hero-banner-half.hero-banner-half--{{ section.id }} {
-  padding-top: {{ section.settings.padding_top | times: 0.8 | round: 0 }}px;
-  padding-bottom: {{ section.settings.padding_bottom | times: 0.8 | round: 0 }}px;
+    padding-top: {{ section.settings.padding_top | times: 0.8 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.8 | round: 0 }}px;
   }
 
   .hero-banner-half.hero-banner-half--{{ section.id }} .hero-banner-half__content {
-  background-color: {{ section.settings.bg_color }};
-  color: {{ section.settings.text_color }};
+    background-color: {{ section.settings.bg_color }};
+    color: {{ section.settings.text_color }};
   }
-
+  @media screen and (min-width: 769px){
+    .benner_full_width-padding.hero-banner-half.hero-banner-half--{{ section.id }} > div{
+      flex: unset !important;
+      max-width: 50%;
+      width: 50%;
+    }
+    .hero-banner-half.hero-banner-half--{{ section.id }}.image_position-right{
+      flex-direction: row-reverse;
+    }
+  }
   @media only screen and (min-width: 769px) {
-  .hero-banner-half.hero-banner-half--{{ section.id }} {
-  padding-top: {{ section.settings.padding_top }}px;
-  padding-bottom: {{ section.settings.padding_bottom }}px;
+    .hero-banner-half.hero-banner-half--{{ section.id }} {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
   }
+  @media screen and (max-width: 768px){
+    .text_full_width-padding_left{
+      padding-left: 15px !important;
+    }
+  }
+  .hero-banner-half--{{ section.id }} .hero-banner-half__button.secondary-btn{
+    border: 1px solid {{section.settings.text_color}};
+    color: {{section.settings.text_color}};
   }
 {% endstyle %}
 
-<div class="hero-banner-half{% if section.settings.full_width %}{% else %} page-width{% endif %} hero-banner-half--{{ section.id }} {% unless section.settings.full_width %}in-container{% endunless %}">
+<div class="hero-banner-half{% if section.settings.full_width %}{% else %} page-width{% endif %}
+ hero-banner-half--{{ section.id }} {% unless section.settings.full_width %}in-container{% endunless %} image_position-{{section.settings.image_position}}
+ {% if section.settings.full_width == true %} benner_full_width-padding{% endif %}
+ image_position_mobile-{{section.settings.image_position_mobile}}">
   <div class="hero-banner-half__image image-wrapper">
     {% if section.settings.image != blank %}
       {{ section.settings.image | image_url: width: 1440 | image_tag: widths: '550, 760, 1400, 2200', alt: section.settings.image.alt, loading: 'lazy' }}
@@ -27,13 +48,20 @@
       {{ 'lifestyle-1' | placeholder_svg_tag }}
     {% endif %}
   </div>
-  <div class="hero-banner-half__content">
+  <div class="hero-banner-half__content {% if section.settings.full_width == true and section.settings.image_position == 'right' %} text_full_width-padding_left{% endif %} hero-banner-half__content-align_{{section.settings.text_align}}">
     <h2 class="hero-banner-half__title">{{ section.settings.title }}</h2>
-    <p class="hero-banner-half__text">{{ section.settings.text }}</p>
+    <p class="hero-banner-half__text">{{ section.settings.text | split: '|' | first }}
+      {% if section.settings.text contains '|' %}
+        <br>
+        <br>
+        {{ section.settings.text | split: '|' | last }}
+      {% endif %}
+    </p>
     <a href="{{ section.settings.btn_url }}"
-       class="hero-banner-half__button primary-btn">{{ section.settings.btn_text }}</a>
+       class="hero-banner-half__button {{section.settings.button_style}}-btn">{{ section.settings.btn_text }}</a>
   </div>
 </div>
+
 
 {% schema %}
 {
@@ -42,6 +70,55 @@
     {
       "type": "header",
       "content": "Content"
+    },
+    {
+      "type": "select",
+      "id": "text_align",
+      "label": "Text align",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "image_position",
+      "label": "Image position",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "image_position_mobile",
+      "label": "Image position (mobile)",
+      "options": [
+        {
+          "value": "top",
+          "label": "Top"
+        },
+        {
+          "value": "bottom",
+          "label": "Bottom"
+        }
+      ]
     },
     {
       "type": "image_picker",
@@ -58,7 +135,23 @@
       "type": "textarea",
       "id": "text",
       "label": "Text",
-      "default": "Saat 5.3. saakka ISKUn Lahden omalla tehtaalla valmistetuista tuotteista suosikkisi -30% koodilla ISKU-30!"
+      "default": "Saat 5.3. saakka ISKUn Lahden omalla tehtaalla valmistetuista tuotteista suosikkisi -30% koodilla ISKU-30!",
+      "info": "Use | for break to new line"
+    },
+    {
+      "type": "select",
+      "id": "button_style",
+      "label": "Button style",
+      "options": [
+        {
+          "value": "primary",
+          "label": "Primary"
+        },
+        {
+          "value": "secondary",
+          "label": "Secondary"
+        }
+      ]
     },
     {
       "type": "text",
