@@ -14,6 +14,28 @@
     height: 100%;
 }
 
+.product-card__url .price {
+    text-align: center;
+}
+
+.product-card__url .price .price-item {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    color: var(--color-accent-1);
+}
+
+.product-card__url .price-item.price-item--regular {
+    color: #c8c8c8;
+    font-size: 12px;
+}
+
+.product-card__url .price__regular .price-item.price-item--regular {
+    color: inherit;
+}
+
 .product-card__image {
     width: 100%;
     margin-bottom: 10px;

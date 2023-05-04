@@ -59,30 +59,30 @@
                 }
             })
             .then(async () => {
-                const productSlider = await setTimeout(() => {
+                const productSlider1 = setTimeout(() => {
                     return initProductSlider('{{ section.id }}');
                 }, 100)
                 const productSliderWrapper = document.querySelector('.product-slider--{{ section.id }} .swiper-wrapper')
                 const productSlides = Array.from(document.querySelectorAll('.product-slider--{{ section.id }} .swiper-slide'));
-                const productSlidesWidth = productSlides.reduce((acc, slide) => {
+                const productSlidesWidth1 = productSlides.reduce((acc, slide) => {
                     acc += slide.offsetWidth + 20
                     return acc
                 }, 0);
 
-                if (productSlidesWidth <= window.innerWidth) {
+                if (productSlidesWidth1 <= window.innerWidth) {
                     productSliderWrapper.classList.add('centered');
-                    productSlider.enabled = false;
+                    productSlider1.enabled = false;
                 } else {
                     productSliderWrapper.classList.remove('centered')
-                    productSlider.enabled = true;
+                    productSlider1.enabled = true;
                 }
                 window.addEventListener("resize", (event) => {
-                    if (productSlidesWidth <= window.innerWidth) {
+                    if (productSlidesWidth1 <= window.innerWidth) {
                     productSliderWrapper.classList.add('centered');
-                        productSlider.enabled = false;
+                        productSlider1.enabled = false;
                     } else {
                         productSliderWrapper.classList.remove('centered')
-                        productSlider.enabled = true;
+                        productSlider1.enabled = true;
                     }
                 });
             })

@@ -1,6 +1,3 @@
-{{ 'custom-product-gallery.css' | asset_url | stylesheet_tag }}
-{{ 'custom-product-content.css' | asset_url | stylesheet_tag }}
-{{ 'delivery-info-block.css' | asset_url | stylesheet_tag }}
 <script src="{{ 'custom-product-quantity.js' | asset_url }}" defer="defer"></script>
 <script src="{{ 'custom-color-swatcher.js' | asset_url }}" defer="defer"></script>
 
@@ -19,6 +16,9 @@
   {{ 'component-rating.css' | asset_url | stylesheet_tag }}
   {{ 'component-loading-overlay.css' | asset_url | stylesheet_tag }}
   {{ 'component-deferred-media.css' | asset_url | stylesheet_tag }}
+  {{ 'custom-product-gallery.css' | asset_url | stylesheet_tag }}
+  {{ 'custom-product-content.css' | asset_url | stylesheet_tag }}
+  {{ 'delivery-info-block.css' | asset_url | stylesheet_tag }}
 
   {%- style -%}
     .section-{{ section.id }}-padding {
@@ -72,7 +72,7 @@
       <product-info
         id="ProductInfo-{{ section.id }}"
         data-section="{{ section.id }}"
-        data-url="{{ product.url }}"
+        data-url="{{ product.url | within: collection }}"
         class="product__info-container{% if section.settings.enable_sticky_info %} product__column-sticky{% endif %}"
       >
         {%- assign product_form_id = 'product-form-' | append: section.id -%}
@@ -91,7 +91,7 @@
             {%- when 'title' -%}
               <div class="product__title" {{ block.shopify_attributes }}>
                 <h1>{{ product.title | escape }}</h1>
-                <a href="{{ product.url }}" class="product__title">
+                <a href="{{ product.url | within: collection }}" class="product__title">
                   <h2 class="h1">
                     {{ product.title | escape }}
                   </h2>
@@ -106,7 +106,7 @@
                   price_class: 'price--large'
                 -%}
               </div>
-              <div class="klarna">This place for klarna</div>
+              {% comment %}<div class="klarna">This place for klarna</div>{% endcomment %}
               <div {{ block.shopify_attributes }}>
                 {%- assign product_form_installment_id = 'product-form-installment-' | append: section.id -%}
                 {%- form 'product', product, id: product_form_installment_id, class: 'installment caption-large' -%}
@@ -314,6 +314,7 @@
               </div>
             {%- when 'wishlist-and-chat' -%}
               <div class="wishlist-chat__wrapper">
+                <div class="wishlist-char__inner">
                 <div class="wishlist-chat__wishlist">
                   {{ block.settings.wishlist_icon }}
                   {{ block.settings.wishlist_text }}
@@ -322,6 +323,13 @@
                   {{ block.settings.chat_icon }}
                   {{ block.settings.chat_text }}
                 </div>
+                </div>
+                {% if product.metafields.custom.manufacture_finland %}
+                  <div class="wishlist-manufacturer">
+                    <img src="{{ section.settings.manufacture_finland | img_url: "master" }}"
+                         alt="{{ section.settings.manufacture_finland.alt }}">
+                  </div>
+                {% endif %}
               </div>
             {%- when 'delivery-info' -%}
               {% render 'delivery-info-block', block: block, product: product %}
@@ -346,7 +354,7 @@
                 {{- block.settings.text -}}
               </a>
             {%- when 'share' -%}
-              {% assign share_url = product.selected_variant.url | default: product.url | prepend: request.origin %}
+              {% assign share_url = product.selected_variant.url | default: product.url | prepend: request.origin  | within: collection %}
               {% render 'share-button',
                 block: block,
                 share_link: share_url
@@ -475,9 +483,11 @@
               {% render 'icon-with-text',
                 block: block
               %}
+            {%- when 'vendor' -%}
+              {%- if product.vendor -%}<div class="product-vendor">{{ product.vendor }}</div>{%- endif -%}
           {%- endcase -%}
         {%- endfor -%}
-        <a href="{{ product.url }}" class="link product__view-details animate-arrow">
+        <a href="{{ product.url | within: collection}}" class="link product__view-details animate-arrow">
           {{ 'products.product.view_full_details' | t }}
           {% render 'icon-arrow' %}
         </a>
@@ -857,20 +867,6 @@
           ],
           "default": "button",
           "label": "t:sections.main-product.blocks.variant_picker.settings.picker_type.label"
-        },
-        {
-          "type": "textarea",
-          "id": "colors_swatcher_title",
-          "label": "Option names for color swatches",
-          "default": "color, colour, verhoilu",
-          "info": "Use ','(comma) separetor for different names. Example: color, colour, verhoilu"
-        },
-        {
-          "type": "textarea",
-          "id": "colors_swatcher_colors",
-          "label": "Colors for color swatches",
-          "default": "black: #1F1F21; white: #FFFFFF; dark-grey: #424348;",
-          "info": "Use ':' separetor between the color name and color hex code and ';' separetor between the different items. Example: black: #1F1F21; white: #FFFFFF; dark-grey: #424348;"
         }
       ]
     },
@@ -1624,6 +1620,11 @@
       "id": "enable_video_looping",
       "default": false,
       "label": "t:sections.main-product.settings.enable_video_looping.label"
+    },
+    {
+      "type": "image_picker",
+      "id": "manufacture_finland",
+      "label": "Manufacture (finland)"
     },
     {
       "type": "header",

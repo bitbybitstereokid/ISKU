@@ -6,11 +6,11 @@
 
 <a href="{{ variant.url }}" class="buy-too-card">
     <div class="buy-too-card__image image-wrapper">
-        {{
-            variant.featured_image
-            | image_url: width: 1100
-            | image_tag: loading: 'lazy', widths: '550, 720, 990, 1100'
-        }}
+        {% if variant.featured_image %}
+            {{ variant.featured_image | image_url: width: 1100 | image_tag: loading: 'lazy', widths: '550, 720, 990, 1100' }}
+        {% else %}
+            {{ variant.product.featured_image | image_url: width: 1100 | image_tag: loading: 'lazy', widths: '550, 720, 990, 1100' }}
+        {% endif %}
     </div>
     <div class="buy-too-card__content">
         <h4 class="buy-too-card__title">{{ variant.product.title }}</h4>

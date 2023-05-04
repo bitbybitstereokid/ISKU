@@ -44,7 +44,7 @@
           </svg>
         </button>
       </div>
-      <form class="facets-vertical-form" id="FacetSortForm">
+      <form class="facets-vertical-form FacetSortForm" id="FacetSortForm">
         <div class="facet-filters sorting caption">
           <div class="facet-filters__field">
             <h2 class="facet-filters__label caption-large text-body">
@@ -179,7 +179,7 @@
             </div>
           </div>
         {%- else -%}
-          <div class="collection{% if section.settings.filter_type != 'vertical' %} page-width{% endif %}">
+          <div class="{% if section.settings.filter_type != 'horizontal' %}collection-vertical {% endif %}collection{% if section.settings.filter_type != 'vertical' %} collection-horizontal page-width{% endif %}">
             <div class="loading-overlay gradient">
               <div class="sk-chase">
                 <div class="sk-chase-dot"></div>
@@ -199,6 +199,8 @@
                 grid--{{ section.settings.columns_desktop }}-col-desktop
               "
             >
+              {% assign namesForColorSwotcher = settings.colors_swatcher_title | escape | strip | downcase %}
+              {% assign colorsNamesAndHex = settings.colors_swatcher_colors | strip | downcase | split: ';' %}
               {%- for product in collection.products -%}
                 {% assign lazy_load = false %}
                 {%- if forloop.index > 2 -%}
@@ -213,7 +215,9 @@
                           show_rating: section.settings.show_rating,
                           lazy_load: lazy_load,
                           show_quick_add: section.settings.enable_quick_add,
-                          section_id: section.id
+                          section_id: section.id,
+                          nameSwatch: namesForColorSwotcher,
+                          colorSwatch: colorsNamesAndHex
                   %}
                 </li>
               {%- endfor -%}
@@ -316,7 +320,7 @@
             });
   }
 
-  let btnFilter = document.querySelector('.facets-custom__filter');
+  let btnFilter = document.querySelector('.facets-custom__filter > button');
   let btnFilterClose = document.querySelector('.facets__heading--title button')
   let modalBackdrop = document.querySelector('.facets-container .mobile_backdrop')
   let mobileFilter = document.querySelector('.mobile-facets__filter');

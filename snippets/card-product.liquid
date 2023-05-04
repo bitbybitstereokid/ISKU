@@ -127,6 +127,41 @@
       </div>
       <div class="card__content">
         <div class="card__information">
+            <div class="card-variants">
+                {%- for option in card_product.options_with_values -%}
+                    {% assign formatedOptionName = option.name | strip | downcase %}
+                    {% if nameSwatch contains formatedOptionName %}
+                        <div class="card-color-options">
+                            {%- for value in option.values -%}
+                                {% assign colorHex = 'background-color: #000000' %}
+                                {% for color in colorSwatch %}
+                                    {% assign colorHexFromSettings = color | split: ':' | last | strip %}
+                                    {% assign colorNameFromSettings = color | split: ':' | first | strip | downcase %}
+                                    {% assign formatedColorNameFromOption = value | strip | downcase %}
+                                    {% if colorNameFromSettings == formatedColorNameFromOption  %}
+                                        {%- if colorHexFromSettings contains '#' -%}
+                                            {%- assign colorHex = 'background-color: ' | append: colorHexFromSettings  -%}
+                                            {%- break -%}
+                                        {%- elsif images[colorHexFromSettings] != blank -%}
+                                            {%- assign color_swatch_image = images[colorHexFromSettings] | img_url: '72x72' -%}
+                                            {%- assign colorHex = 'background-image: url(' | append: color_swatch_image | append: ')' -%}
+                                            {%- break -%}
+                                        {%- else -%}
+                                            {% assign colorHex = 'background-color: #000000' %}
+                                            {%- break -%}
+                                        {%- endif -%}
+                                    {% endif %}
+                                {% endfor %}
+                                <span style="{{ colorHex }};"></span>
+                            {%- endfor -%}
+                        </div>
+                    {% endif %}
+                {%- endfor -%}
+            </div>
+            {%- if show_vendor -%}
+                <span class="visually-hidden">{{ 'accessibility.vendor' | t }}</span>
+                <div class="card-vendor caption-with-letter-spacing light">{{ card_product.vendor }}</div>
+            {%- endif -%}
           <h3
                   class="card__heading{% if card_product.featured_media or settings.card_style == 'standard' %} h5{% endif %}"
                   {% if card_product.featured_media or settings.card_style == 'card' %}
@@ -134,7 +169,7 @@
                   {% endif %}
           >
             <a
-                    href="{{ card_product.url }}"
+                    href="{{ card_product.url | within: collection }}"
                     id="CardLink-{{ section_id }}-{{ card_product.id }}"
                     class="full-unstyled-link"
                     aria-labelledby="CardLink-{{ section_id }}-{{ card_product.id }} Badge-{{ section_id }}-{{ card_product.id }}"
@@ -327,7 +362,7 @@
     </div>
 
     <div class="cart--hover">
-      <a href="{{ card_product.url }}"></a>
+      <a href="{{ card_product.url | within: collection }}"></a>
       <div class="cart--hover__image">
         {% if card_product.media[1] %}
           <img src="{{ card_product.media[1] | img_url: "master" }}" alt="{{ card_product.title }}">
@@ -339,7 +374,7 @@
         {{ card_product.description | strip_html | truncate: 65 }}
       </div>
       <div class="card--hover__href">
-        <a href="{{ card_product.url }}">osta nyt</a>
+        <a href="{{ card_product.url | within: collection }}">osta nyt</a>
       </div>
     </div>
   </div>

@@ -975,6 +975,8 @@ class VariantSelects extends HTMLElement {
         const addButtonUpdated = html.getElementById(`ProductSubmitButton-${sectionId}`);
         this.toggleAddButton(addButtonUpdated ? addButtonUpdated.hasAttribute('disabled') : true, window.variantStrings.soldOut);
 
+        document.dispatchEvent(new Event('reInitCollectionSort'));
+
         publish(PUB_SUB_EVENTS.variantChange, {data: {
           sectionId,
           html,
