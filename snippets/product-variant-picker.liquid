@@ -161,56 +161,7 @@
   {%- endfor -%}
 {%- endunless -%}
 
-<style>
-  .product-label-hover {
-    position: relative;
-  }
-
-  /*.product-label-hover:hover .variant__hovering{*/
-  /*  opacity: 1;*/
-  /*  visibility: visible;*/
-  /*}*/
-
-  .variant__hovering {
-    position: fixed;
-    background: #353c4e;
-    margin-left: 5px;
-    margin-right: 5px;
-    /*margin: auto 10px 16px;*/
-    border-radius: 4px;
-    line-height: 30px;
-    color: #fff;
-    padding: 10px;
-    opacity: 1;
-    visibility: visible;
-    overflow: visible;
-    display: block;
-    white-space: nowrap;
-    text-align: center;
-    z-index: 9999;
-    width: auto;
-    height: auto;
-  }
-
-  .variant__hovering--image {
-    width: 200px;
-    height: 220px;
-  }
-
-  .product-label-hover:hover::after {
-    top: -8px;
-    left: 50%;
-    transform: translateX(-50%);
-    height: 0;
-    width: 0;
-    content: '';
-    position: absolute;
-    pointer-events: none;
-    border: solid;
-    border-color: #353c4e #0000 #0000;
-    border-width: 5px;
-  }
-</style>
+{{ 'custom-style-filter-horizontal.css' | asset_url | stylesheet_tag }}
 
 <noscript class="product-form__noscript-wrapper-{{ section.id }}">
   <div class="product-form__input{% if product.has_only_default_variant %} hidden{% endif %}">
@@ -265,68 +216,4 @@
   </div>
 </noscript>
 
-<script>
-  //Filter collection mobile + product form
-  document.addEventListener('reInitCollectionSort', () => {
-    filterInitialization();
-  })
-  filterInitialization();
-
-  function filterInitialization() {
-    let tooltipElem;
-
-    let variantColors = document.querySelectorAll('.product-label-hover');
-
-    variantColors.forEach((variant) => {
-
-      variant.onmouseover = function (event) {
-        let target = event.target;
-
-        let tooltipHtmlColor = target.dataset.variantColor;
-        let tooltipHtmlUrl = target.dataset.variantUrl;
-        if (!tooltipHtmlColor) return;
-        if (!tooltipHtmlColor) return;
-
-        tooltipElem = document.createElement('div');
-        tooltipElem.className = 'variant__hovering';
-        tooltipElem.innerHTML += `<span class="variant__hovering--image" style="${tooltipHtmlUrl}; display: block;"></span>`;
-        tooltipElem.innerHTML += `<span class="variant__hovering--title">${tooltipHtmlColor}</span>`;
-        variant.append(tooltipElem);
-
-        // спозиционируем его сверху от аннотируемого элемента (top-center)
-        let coords = target.getBoundingClientRect();
-
-        let left = coords.left + (target.offsetWidth - tooltipElem.offsetWidth) / 2;
-        let right = coords.right - (target.offsetWidth - tooltipElem.offsetWidth) / 2;
-
-        let top = coords.top - tooltipElem.offsetHeight - 5;
-
-        if (left < 0) {
-          right = '';
-          tooltipElem.style.right = right;
-          tooltipElem.style.left = '0';
-        } else if (right > window.innerWidth) {
-          left = '';
-          tooltipElem.style.right = '0';
-          tooltipElem.style.left = left;
-
-        } else {
-          tooltipElem.style.left = left + 'px';
-        }
-
-        // if (top < 0) { // если подсказка не помещается сверху, то отображать её снизу
-        //     top = coords.top + target.offsetHeight + 5;
-        // }
-
-        tooltipElem.style.top = top + 'px';
-      };
-
-      variant.onmouseout = function (e) {
-        if (tooltipElem) {
-          tooltipElem.remove();
-          tooltipElem = null;
-        }
-      };
-    });
-  }
-</script>
+<script src="{{ 'product-variant-tooltip.js' | asset_url }}" defer="defer"></script>
