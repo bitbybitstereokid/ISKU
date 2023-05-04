@@ -324,7 +324,7 @@
                   {{ block.settings.chat_text }}
                 </div>
                 </div>
-                {% if product.metafields.custom.manufacture_finland %}
+                {% if product.metafields.custom.manufacture_finland == true %}
                   <div class="wishlist-manufacturer">
                     <img src="{{ section.settings.manufacture_finland | img_url: "master" }}"
                          alt="{{ section.settings.manufacture_finland.alt }}">
