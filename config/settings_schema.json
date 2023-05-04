@@ -1575,22 +1575,22 @@
     ]
   },
   {
-  "name": "Color swatches",
-  "settings": [
-    {
-      "type": "textarea",
-      "id": "colors_swatcher_title",
-      "label": "Option names for color swatches",
-      "default": "color, colour, verhoilu",
-      "info": "Use ','(comma) separetor for different names. Example: color, colour, verhoilu"
-    },
-    {
-      "type": "textarea",
-      "id": "colors_swatcher_colors",
-      "label": "Colors for color swatches",
-      "default": "black: #1F1F21; white: #FFFFFF; dark-grey: #424348;",
-      "info": "Use ':' separetor between the color name and color hex code and ';' separetor between the different items. Example: black: #1F1F21; white: #FFFFFF; dark-grey: #424348;"
-    }
-  ]
-}
+    "name": "Color swatches",
+    "settings": [
+      {
+        "type": "textarea",
+        "id": "colors_swatcher_title",
+        "label": "Option names for color swatches",
+        "default": "color, colour, verhoilu",
+        "info": "Use ','(comma) separetor for different names. Example: color, colour, verhoilu"
+      },
+      {
+        "type": "textarea",
+        "id": "colors_swatcher_colors",
+        "label": "Colors for color swatches",
+        "default": "black: #1F1F21; white: #FFFFFF; dark-grey: #424348;",
+        "info": "Use ':' separetor between the color name and color hex code and ';' separetor between the different items. Example: black: #1F1F21; white: #FFFFFF; dark-grey: #424348;"
+      }
+    ]
+  }
 ]
