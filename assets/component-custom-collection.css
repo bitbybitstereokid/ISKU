@@ -11,8 +11,8 @@
 }
 
 .collection .grid {
-    column-gap: 20px;
-    row-gap: 20px;
+    /*column-gap: 20px;*/
+    /*row-gap: 20px;*/
 }
 
 .collection .card__content{
