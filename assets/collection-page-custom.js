@@ -13,8 +13,8 @@ if (btnHeight) {
     });
 }
 
-function clickSort() {
-    document.querySelector('.custom-select-list').classList.toggle('is-active');
+function clickSort(block) {
+    block.classList.toggle('is-active');
 }
 
 function clickOption(op) {
