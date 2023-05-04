@@ -2,6 +2,7 @@
   "sections": {
     "main": {
       "type": "main-list-collections",
+      "disabled": true,
       "settings": {
         "title": "Collections",
         "sort": "alphabetical",
@@ -9,9 +10,15 @@
         "columns_desktop": 3,
         "columns_mobile": "2"
       }
+    },
+    "dbe4ac43-0301-4375-99fc-4cd1d96844be": {
+      "type": "collections-list",
+      "settings": {
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "dbe4ac43-0301-4375-99fc-4cd1d96844be"
   ]
 }
