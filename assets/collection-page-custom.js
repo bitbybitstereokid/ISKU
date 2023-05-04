@@ -12,6 +12,7 @@ if (btnHeight) {
         }
     });
 }
+
 function clickSort() {
     document.querySelector('.custom-select-list').classList.toggle('is-active');
 }
@@ -19,7 +20,7 @@ function clickSort() {
 function clickOption(op) {
     let customOption = document.querySelectorAll('.custom-select-list ul li button');
     let colTitle = document.querySelector('.custom-select-list .custom-select__title');
-    let formSelect = document.querySelector('#FacetSortForm');
+    let formSelect = document.querySelector('.FacetSortForm');
     let optionData = op.dataset.value;
     customOption.forEach((optionLi) => {
         optionLi.classList.remove('selected');
@@ -35,6 +36,16 @@ function clickOption(op) {
     colTitle.innerHTML = op.innerHTML;
 }
 
+
+window.addEventListener('DOMContentLoaded', () => {
+    if (window.innerWidth < 749) {
+        let filterOpened = document.querySelectorAll('#FacetsWrapperDesktop details');
+
+        filterOpened.forEach((detail) => {
+            detail.setAttribute('open', 'true');
+        });
+    }
+});
 
 // document.addEventListener('click', function(e) {
 //     if (!e.target.matches('.custom-select-list')) document.querySelector('.custom-select-list').classList.remove('is-active');

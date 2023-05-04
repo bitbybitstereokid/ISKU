@@ -28,7 +28,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
     galleryImageItem.forEach((el, index) => {
         el.addEventListener("click", function () {
-            console.log(index)
             gallery.slideTo(index);
             html.classList.add("_show");
         })

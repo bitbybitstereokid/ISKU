@@ -38,6 +38,13 @@
     position: relative;
 }
 
+.custom-select-list svg{
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
 .custom-select__title {
     border: 1px solid var(--color-text-primary);
     padding: 11.5px 35px 11.5px 16px;
