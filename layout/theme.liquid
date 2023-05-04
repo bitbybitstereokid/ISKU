@@ -334,6 +334,7 @@
     </ul>
 
     <script>
+      window.pageWidth = +('{{settings.page_width}}')
       window.currentCurrency = '{{cart.currency.symbol}}'
       window.shopUrl = '{{ request.origin }}';
       window.routes = {

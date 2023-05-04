@@ -12,7 +12,9 @@
 .hero-banner-secondary__image::before {
     padding-top: 106.66%;
 }
-
+.hero-banner-secondary__image_fullwidth.hero-banner-secondary__image::before{
+    padding-top: 45.13%;
+}
 .hero-banner-secondary__overlay {
     position: absolute;
     top: 0;

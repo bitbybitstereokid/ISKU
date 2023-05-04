@@ -1,3 +1,28 @@
+
+document.addEventListener('DOMContentLoaded', ()=> {
+  calcTextWrapperPadding()
+
+  window.addEventListener('resize', ()=> {
+    calcTextWrapperPadding()
+  })
+
+  function calcTextWrapperPadding(){
+    let allPaddingBlocks = document.querySelectorAll('.hero-banner-half .text_full_width-padding_left')
+    if (allPaddingBlocks.length == 0) return
+    if (window.innerWidth >= window.pageWidth ) {
+      let paddingForSumm = (window.innerWidth - window.pageWidth) / 2
+      allPaddingBlocks.forEach( block => {
+        block.style.paddingLeft = paddingForSumm + 50 + 'px'
+      })
+    } else {
+      allPaddingBlocks.forEach( block => {
+        block.style.paddingLeft = 50 + 'px'
+      })
+    }
+  }
+})
+
+
 function getFocusableElements(container) {
   return Array.from(
     container.querySelectorAll(

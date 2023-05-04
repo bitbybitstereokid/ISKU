@@ -14,12 +14,12 @@
     }
 {% endstyle %}
 
-<div class="hero-banner-secondary hero-banner-secondary--{{ section.id }} page-width">
+<div class="hero-banner-secondary hero-banner-secondary--{{ section.id }} {% unless section.settings.full_width %}page-width{% endunless %}">
     <div class="hero-banner-secondary__container">
         {% if section.settings.overlay %}
             <div class="hero-banner-secondary__overlay"></div>
         {% endif %}
-        <div class="hero-banner-secondary__image image-wrapper">
+        <div class="hero-banner-secondary__image {% if section.settings.full_width == true %}hero-banner-secondary__image_fullwidth{% endif %} image-wrapper">
             {% if section.settings.image != blank%}
                 {{ section.settings.image | image_url: width: 3000 | image_tag: widths: '550, 760, 1240, 1400, 2200 3000', alt: section.settings.image.alt, loading: 'lazy' }}
             {% else %}
@@ -139,6 +139,12 @@
         }
       ],
       "default": "top-left"
+    },
+    {
+      "type": "checkbox",
+      "id": "full_width",
+      "label": "Full width",
+      "default": false
     },
     {
       "type": "checkbox",
