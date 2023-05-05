@@ -133,7 +133,7 @@
         "title": "ISKUssa On Nyt Univiikot!",
         "btn_text": "ETUIHIN TÄSTÄ",
         "btn_url": "",
-        "padding_top": 0,
+        "padding_top": 50,
         "padding_bottom": 50,
         "content_position": "top-left",
         "full_width": false,
