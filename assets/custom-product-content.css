@@ -217,6 +217,15 @@
     letter-spacing: 0;
     text-transform: capitalize;
     color: var(--color-text-primary);
+    position: relative;
+}
+.wishlist-chat__wishlist > #smartwishlist{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
 }
 
 .custom-product .custom-icon-text {
