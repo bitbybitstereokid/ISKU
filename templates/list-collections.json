@@ -11,6 +11,17 @@
         "columns_mobile": "2"
       }
     },
+    "c73b5c85-1256-42be-827b-02fbe5e7d84c": {
+      "type": "collections_list_banner",
+      "settings": {
+        "title": "Feel Luxury To The Touch",
+        "text": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+        "image": "shopify:\/\/shop_images\/living-room-design-with-couch_1.png",
+        "swap": false,
+        "TxtColor": "#1a1919",
+        "BgColor": "#efefef"
+      }
+    },
     "dbe4ac43-0301-4375-99fc-4cd1d96844be": {
       "type": "collections-list",
       "settings": {
@@ -19,6 +30,7 @@
   },
   "order": [
     "main",
+    "c73b5c85-1256-42be-827b-02fbe5e7d84c",
     "dbe4ac43-0301-4375-99fc-4cd1d96844be"
   ]
 }
