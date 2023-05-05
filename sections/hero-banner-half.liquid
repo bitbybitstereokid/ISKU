@@ -49,7 +49,7 @@
     {% endif %}
   </div>
   <div class="hero-banner-half__content {% if section.settings.full_width == true and section.settings.image_position == 'right' %} text_full_width-padding_left{% endif %} hero-banner-half__content-align_{{section.settings.text_align}}">
-    <h2 class="hero-banner-half__title">{{ section.settings.title }}</h2>
+    <h2 class="hero-banner-half__title hero-banner-half__title-{{section.settings.small}}">{{ section.settings.title }}</h2>
     <p class="hero-banner-half__text">{{ section.settings.text | split: '|' | first }}
       {% if section.settings.text contains '|' %}
         <br>
@@ -130,6 +130,12 @@
       "id": "title",
       "label": "Title",
       "default": "ISKUn brändiviikko!"
+    },
+    {
+      "type": "checkbox",
+      "id": "small",
+      "label": "Small title",
+      "default": false
     },
     {
       "type": "textarea",

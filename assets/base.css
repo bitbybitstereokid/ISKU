@@ -3092,12 +3092,6 @@ details-disclosure > details {
   transition: .2s ease-in-out;
 }
 
-.secondary-btn:hover,
-.secondary-btn:active {
-  background: var(--color-accent-2);
-  color: var(--color-text-accent);
-}
-
 #preview-bar-iframe {
   display: none !important;
 }

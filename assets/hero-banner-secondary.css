@@ -13,7 +13,7 @@
     padding-top: 106.66%;
 }
 .hero-banner-secondary__image_fullwidth.hero-banner-secondary__image::before{
-    padding-top: 45.13%;
+    padding-top: 106.66%;
 }
 .hero-banner-secondary__overlay {
     position: absolute;
@@ -109,7 +109,9 @@
     .hero-banner-secondary__image::before {
         padding-top: 52.42%;
     }
-
+    .hero-banner-secondary__image_fullwidth.hero-banner-secondary__image::before{
+        padding-top: 45.13%;
+    }
     .hero-banner-secondary__content {
         padding: 50px;
         max-width: 700px;
@@ -152,6 +154,6 @@
 
 @media screen and (max-width: 749px){
     .hero-banner-secondary{
-        padding: 0;
+        
     }
 }

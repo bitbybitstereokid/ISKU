@@ -72,6 +72,7 @@
       {{ settings.type_header_font | font_face: font_display: 'swap' }}
 
       :root  {
+        --font-body-family-regular: {{settings.type_body_font_bold.family}};
         --font-body-family: {{ settings.type_body_font.family }}, {{ settings.type_body_font.fallback_families }};
         --font-body-style: {{ settings.type_body_font.style }};
         --font-body-weight: {{ settings.type_body_font.weight }};
@@ -256,6 +257,10 @@
       }
       .card-wrapper_wishlist_full{
         background-image: url('{{settings.wishlist_full | img_url: "master" }}');
+      }
+      .secondary-btn:hover,
+      .secondary-btn:active {
+        background: rgba(255,255,255, 0.4) !important;
       }
     {% endstyle %}
 
