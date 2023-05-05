@@ -6,7 +6,7 @@
         "c2d11906-9a42-4ce1-b13b-37495790ff47": {
           "type": "slider",
           "settings": {
-            "title": "Comfort and Style |That Will Wransform Your Home",
+            "title": "Comfort and Style |That Will Transform Your Home",
             "content": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
             "button": "LEARN MORE",
             "button_url": "shopify:\/\/collections",
@@ -35,7 +35,7 @@
       "settings": {
         "padding_top": 0,
         "padding_bottom": 50,
-        "content_color": "#fff"
+        "content_color": "#ffffff"
       }
     },
     "165ada33-7568-45ff-a3ed-4d70620bfee3": {
@@ -314,8 +314,8 @@
         "padding_top": 0,
         "padding_bottom": 50,
         "full_width": true,
-        "bg_color": "#0F4880",
-        "text_color": "#FFFFFF"
+        "bg_color": "#0f4880",
+        "text_color": "#ffffff"
       }
     },
     "273fe876-ab7b-4aad-8dec-4cf8c8f92d7c": {
