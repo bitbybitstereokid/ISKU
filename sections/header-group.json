@@ -51,6 +51,7 @@
         "sticky_header_type": "on-scroll-up",
         "show_line_separator": false,
         "mobile_logo_position": "center",
+        "wishlist_page": "\/a\/wishlist",
         "margin_bottom": 0,
         "padding_top": 20,
         "padding_bottom": 20
