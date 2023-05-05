@@ -38,7 +38,10 @@
     color: inherit;
     margin: 0 0 20px;
 }
-
+.hero-banner-half__title-small{
+    font-size: 30px;
+    line-height: 150%;
+}
 .hero-banner-half__text {
     font-family: var(--font-body-family);
     font-style: normal;
@@ -104,7 +107,7 @@
     }
 
     .hero-banner-half__image::before {
-        padding-top: 81.25%;
+        padding-top: 84.72%;
     }
 
     .hero-banner-half.in-container .hero-banner-half__image::before {
@@ -128,7 +131,10 @@
         font-size: 45px;
         line-height: 60px;
     }
-
+    .hero-banner-half__title-small{
+        font-size: 40px;
+        line-height: 48px;
+    }
     .hero-banner-half__text {
         margin-bottom: 40px;
     }
@@ -142,6 +148,10 @@
     .hero-banner-half__title {
         font-size: 60px;
         line-height: 72px;
+    }
+    .hero-banner-half__title-small{
+        font-size: 40px;
+        line-height: 48px;
     }
 
     .hero-banner-half__content {
