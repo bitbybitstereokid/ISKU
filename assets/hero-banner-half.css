@@ -38,7 +38,7 @@
     color: inherit;
     margin: 0 0 20px;
 }
-.hero-banner-half__title-small{
+.hero-banner-half__title-true{
     font-size: 30px;
     line-height: 150%;
 }
@@ -131,7 +131,7 @@
         font-size: 45px;
         line-height: 60px;
     }
-    .hero-banner-half__title-small{
+    .hero-banner-half__title-true{
         font-size: 40px;
         line-height: 48px;
     }
@@ -149,7 +149,7 @@
         font-size: 60px;
         line-height: 72px;
     }
-    .hero-banner-half__title-small{
+    .hero-banner-half__title-true{
         font-size: 40px;
         line-height: 48px;
     }
