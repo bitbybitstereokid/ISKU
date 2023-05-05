@@ -158,7 +158,7 @@
       },
       "2992592445315385548": {
         "type": "shopify:\/\/apps\/shipfy-shipping-customization\/blocks\/install-snippets\/aab29d3f-8ec5-43ef-b394-5088032470b9",
-        "disabled": false,
+        "disabled": true,
         "settings": {
         }
       }
