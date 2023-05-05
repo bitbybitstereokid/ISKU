@@ -32,6 +32,9 @@
       assign ratio = 1
     endif
   -%}
+  <div class="card-wrapper_wishlist">
+    <span class="smartwishlist" data-product="{{ card_product.id }}" data-variant="{{ card_product.selected_or_first_available_variant.id }}"></span>
+  </div>
   <div class="card-wrapper product-card-wrapper underline-links-hover">
     <div class="card card--{{ settings.card_style }}
         {% if card_product.featured_media %} card--media{% else %} card--text{% endif %}

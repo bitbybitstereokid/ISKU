@@ -245,7 +245,7 @@
                       {% render 'icon-account' %}
                     </a>
                   {%- endif -%}
-                  <a href="#" class="menu-drawer__wishlist">
+                  <a href="{{section.settings.wishlist_page}}" class="menu-drawer__wishlist">
                     {% render 'icon-wishlist' %}
                   </a>
                 </div>
@@ -510,7 +510,7 @@
         {% render 'icon-locator' %}
       </a>
 
-      <a href="#wishlist" class="header__icon header__icon--wishlist link focus-inset">
+      <a href="{{section.settings.wishlist_page}}" class="header__icon header__icon--wishlist link focus-inset">
         {% render 'icon-wishlist' %}
       </a>
 
@@ -868,6 +868,11 @@
   ],
   "default": "center",
   "label": "t:sections.header.settings.mobile_logo_position.label"
+  },
+  {
+    "type": "url",
+    "id": "wishlist_page",
+    "label": "Wishlist page URL"
   },
   {
   "type": "header",

@@ -8,6 +8,21 @@
     "theme_support_url": "https:\/\/support.shopify.com\/"
   },
   {
+    "name": "Wishlist",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "wishlist_outline",
+        "label": "Wishlist heart outline"
+      },
+      {
+        "type": "image_picker",
+        "id": "wishlist_full",
+        "label": "Wishlist heart full"
+      }
+    ]
+  },
+  {
     "name": "t:settings_schema.logo.name",
     "settings": [
       {

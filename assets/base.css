@@ -2958,6 +2958,35 @@ details-disclosure > details {
     }
   }
 }
+.product-grid > .grid__item{
+  position: relative;
+}
+.product-grid > .grid__item > .card-wrapper_wishlist{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  z-index: 2;
+  top: 5px;
+  right: 4px;
+}
+.card-wrapper_wishlist_outline{
+  background-repeat: no-repeat;
+  width: 22px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+}
+.card-wrapper_wishlist_full{
+  width: 22px;
+  height: 20px;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .font-body-bold {
   font-weight: var(--font-body-weight-bold);
