@@ -133,7 +133,7 @@
         "image": "shopify:\/\/shop_images\/homepage2.jpg",
         "title": "ISKUssa On Nyt Univiikot!",
         "btn_text": "ETUIHIN TÄSTÄ",
-        "btn_url": "",
+        "btn_url": "shopify:\/\/pages\/project-sales",
         "padding_top": 50,
         "padding_bottom": 50,
         "content_position": "top-left",
