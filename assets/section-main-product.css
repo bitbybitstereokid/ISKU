@@ -1107,7 +1107,7 @@ a.product__text {
   }
 
   .thumbnail-list.slider--tablet-up .thumbnail-list__item.slider__slide {
-    width: calc(25% - 0.8rem);
+    width: calc(50% - 0.8rem);
   }
 
   .product--thumbnail_slider .slider-mobile-gutter .slider-button {
@@ -1117,11 +1117,11 @@ a.product__text {
 
 @media screen and (min-width: 900px) {
   .product--small .thumbnail-list.slider--tablet-up .thumbnail-list__item.slider__slide {
-    width: calc(25% - 0.8rem);
+    width: calc(50% - 0.8rem);
   }
 
   .thumbnail-list.slider--tablet-up .thumbnail-list__item.slider__slide {
-    width: calc(20% - 0.8rem);
+    width: calc(50 - 0.8rem);
   }
 }
 
