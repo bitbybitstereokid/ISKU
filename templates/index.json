@@ -202,7 +202,7 @@
         "text": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
         "button_style": "secondary",
         "btn_text": "Varaa aika",
-        "btn_url": "",
+        "btn_url": "shopify:\/\/pages\/contact",
         "padding_top": 50,
         "padding_bottom": 50,
         "full_width": true,
