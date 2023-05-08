@@ -227,13 +227,13 @@
       ],
       "settings": {
         "padding_top": 50,
-        "padding_bottom": 50
+        "padding_bottom": 25
       }
     },
     "507436a0-5691-43ad-baeb-505a62237dd4": {
       "type": "about-newsletter",
       "settings": {
-        "padding_top": 50,
+        "padding_top": 25,
         "padding_bottom": 100,
         "title": "Subscribe to our mailing list for newsletter exclusives",
         "input_placeholder": "Enter your email",
