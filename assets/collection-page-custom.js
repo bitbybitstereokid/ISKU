@@ -38,7 +38,7 @@ function clickOption(op) {
 
 
 window.addEventListener('DOMContentLoaded', () => {
-    if (window.innerWidth < 749) {
+    if (window.innerWidth <= 768) {
         let filterOpened = document.querySelectorAll('#FacetsWrapperDesktop details');
 
         filterOpened.forEach((detail) => {
