@@ -1,2 +1,7 @@
 assets/.DS_Store
 .DS_Store
+.idea/ISKU.iml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/php.xml
+.idea/workspace.xml

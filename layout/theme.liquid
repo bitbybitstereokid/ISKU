@@ -48,14 +48,6 @@
     <script src="{{ 'about-product-slider.js' | asset_url }}" defer="defer"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
 
-    {% if template.name == 'product' %}
-      <script src="{{ 'product-gallery.js' | asset_url }}" defer="defer"></script>
-    {% endif %}
-
-    {% if template.name == 'blog' %}
-      <script src="{{ 'article-list.js' | asset_url }}" defer="defer"></script>
-    {% endif %}
-
     {{ content_for_header }}
 
     {%- liquid
@@ -375,6 +367,14 @@
         playSlideshow: `{{ 'sections.slideshow.play_slideshow' | t }}`
       }
     </script>
+
+    {% if template.name == 'product' %}
+      {% comment %}<script src="{{ 'product-gallery.js' | asset_url }}" defer="defer"></script>{% endcomment %}
+    {% endif %}
+
+    {% if template.name == 'blog' %}
+      <script src="{{ 'article-list.js' | asset_url }}" defer="defer"></script>
+    {% endif %}
 
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
