@@ -170,7 +170,7 @@
     .product-highlights {
         flex-direction: row;
         gap: 20px;
-        padding: 0 50px;
+        /*padding: 0 50px;*/
     }
 }
 
