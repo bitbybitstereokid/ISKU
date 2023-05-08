@@ -1,0 +1,57 @@
+<product-form>
+    {%- form 'product',
+            product,
+            id: product_form_id,
+            class: 'form',
+            novalidate: 'novalidate',
+            data-type: 'add-to-cart-form'
+    -%}
+        <input
+                type="hidden"
+                name="id"
+                value="{{ variant.id }}"
+                disabled
+        >
+        {% if variant.available == false %}
+            {% comment %}<p class="message-sold-out">{% endcomment %}
+            {% comment %}<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="18" height="18" class="bi bi-exclamation-circle-fill" viewBox="0 0 18 18">{% endcomment %}
+            {% comment %}<path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 4a.905.905 0 0 0-.9.995l.35 3.507a.552.552 0 0 0 1.1 0l.35-3.507A.905.905 0 0 0 8 4zm.002 6a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"></path>{% endcomment %}
+            {% comment %}</svg>{% endcomment %}
+            {% comment %}<span>{{ 'products.product.sold_outs' | t }}</span>{% endcomment %}
+            {% comment %}</p>{% endcomment %}
+        {% endif %}
+        <button
+                id="{{ product_form_id }}-submit"
+                type="submit"
+                name="add"
+                class="buy-too-card__button primary-btn{% unless variant.available and variant.inventory_management %} out-of-stock{% endunless %}"
+                aria-haspopup="dialog"
+                aria-labelledby="{{ product_form_id }}-submit title-{{ section_id }}-{{ product.id }}"
+                aria-live="polite"
+                data-sold-out-message="true"
+        {% if variant.available == false %}
+            disabled
+                {% endif %}>
+                        <span>
+                          {%- if variant.available -%}
+                              {{ button_in }}
+                          {%- else -%}
+                              {{btn_out}}
+                          {%- endif -%}
+                        </span>
+            <span class="sold-out-message hidden">{{ btn_out }}</span>
+            <div class="loading-overlay__spinner hidden">
+                <svg
+                        aria-hidden="true"
+                        focusable="false"
+                        class="spinner"
+                        viewBox="0 0 66 66"
+                        xmlns="http://www.w3.org/2000/svg"
+                >
+                    <circle class="path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle>
+                </svg>
+            </div>
+        </button>
+    {%- endform -%}
+</product-form>
+<script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>

@@ -18,7 +18,9 @@
     {% for block in section.blocks %}
         <div class="benefit-icons__item">
             <div class="benefit-icons__icon image-wrapper">
-                {% if block.settings.icon != blank%}
+                {% if block.settings.icon_svg != blank %}
+                    {{ block.settings.icon_svg }}
+                {% elsif block.settings.icon != blank%}
                     {{ block.settings.icon | image_url: width: 60 | image_tag: alt: block.settings.icon.alt, loading: 'lazy' }}
                 {% else %}
                     {{ 'image' | placeholder_svg_tag: "placeholder" }}
@@ -64,6 +66,11 @@
           "type": "image_picker",
           "id": "icon",
           "label": "Icon"
+        },
+        {
+          "type": "html",
+          "id": "icon_svg",
+          "label": "Icon(svg)"
         },
         {
           "type": "text",
