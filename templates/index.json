@@ -293,7 +293,7 @@
         "image": "shopify:\/\/shop_images\/homepage3.jpg",
         "title": "Trendikäs Uutuus Tuoli 53 On Täällä!",
         "btn_text": "TUTUSTU TÄSTÄ",
-        "btn_url": "",
+        "btn_url": "shopify:\/\/collections\/chairs",
         "padding_top": 50,
         "padding_bottom": 0,
         "content_position": "center",
