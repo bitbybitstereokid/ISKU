@@ -135,6 +135,12 @@
     "cart_url": "\/cart",
     "drawer_title": "Kassa",
     "colors_swatcher_colors": "black: #1F1F21; white: #FFFFFF; dark-grey: #424348; grey: grey.jpg; brown: #A52A2A; anthracite.jpg; arsenic:grey.jpg; wenge: beige.jpg; dark-liver:dark-blue.jpg;",
+    "checkout_logo_image": "shopify:\/\/shop_images\/image_50.webp",
+    "checkout_logo_position": "center",
+    "checkout_logo_size": "large",
+    "checkout_sidebar_background_color": "#0f4880",
+    "checkout_accent_color": "#373737",
+    "checkout_button_color": "#ce386a",
     "sections": {
       "main-password-header": {
         "type": "main-password-header",
