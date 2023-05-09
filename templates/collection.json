@@ -83,6 +83,16 @@
         "padding_top": 50,
         "padding_bottom": 50
       }
+    },
+    "ea5628a9-88fc-414e-ba74-51323f42d771": {
+      "type": "about-newsletter",
+      "settings": {
+        "padding_top": 50,
+        "padding_bottom": 100,
+        "title": "Subscribe to our mailing list for newsletter exclusives",
+        "input_placeholder": "Enter your email",
+        "btn_text": "Subscribe"
+      }
     }
   },
   "order": [
@@ -90,6 +100,7 @@
     "banner",
     "product-grid",
     "seo-block",
-    "3b6f5671-7d17-401e-a4bf-1f0a4c6432fd"
+    "3b6f5671-7d17-401e-a4bf-1f0a4c6432fd",
+    "ea5628a9-88fc-414e-ba74-51323f42d771"
   ]
 }
