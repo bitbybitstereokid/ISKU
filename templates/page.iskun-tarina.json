@@ -151,13 +151,35 @@
             "link_label": "",
             "link": ""
           }
+        },
+        "1ea3ceaa-d9b4-42d7-80f3-ee7e8cb1307e": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Isku_Center_080916_Office_735x505_d7d60e88-8ade-4566-99c0-26773539c72a.jpg",
+            "title": "Iskun johto ja hallinto",
+            "text": "<p>Iskua johtaa Arto Tiitinen, joka on toiminut Iskun toimitusjohtajana jo vuodesta 2011.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "bcca13d4-5ec8-4212-95c0-0cbc5c11472b": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Myyj__270319_03_735x505_3e370604-280c-4477-9dce-924df0324c9c.jpg",
+            "title": "Rekrytointi",
+            "text": "<p>Iskulla työskentelee yli 600 ihmistä: myynnin ammattilaisia, verhoilijoita, ompelijoita, tuotannon työntekijöitä, muotoilijoita, teknisiä tuotesuunnittelijoita ja monia muita. Haemme jatkuvasti joukkoomme uusia henkilöitä työskentelemään Suomen suurimmassa ja Euroopan moderneimmassa huonekaluteollisuuden yrityksessä.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "template--18960568844632__dfbc42c5-8975-4ee6-a8e7-19b77a1308ec-1684169800ae4304ac-0",
         "template--18960568844632__dfbc42c5-8975-4ee6-a8e7-19b77a1308ec-1684169800ae4304ac-1",
         "44d5ff57-850b-4e1e-9795-f57a990dbfc5",
-        "8f0bbadc-bc23-4a4a-abc1-993a9f0d40ee"
+        "8f0bbadc-bc23-4a4a-abc1-993a9f0d40ee",
+        "1ea3ceaa-d9b4-42d7-80f3-ee7e8cb1307e",
+        "bcca13d4-5ec8-4212-95c0-0cbc5c11472b"
       ],
       "settings": {
         "title": "",
