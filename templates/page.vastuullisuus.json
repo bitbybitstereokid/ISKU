@@ -1,0 +1,114 @@
+{
+  "sections": {
+    "f572960a-64b7-485a-bbb5-3e72e2ccac8d": {
+      "type": "about-breadcrumbs",
+      "settings": {
+      }
+    },
+    "main": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Rectangle_42_84085027-b1f5-478b-b8a0-5497189359e4.jpg",
+        "padding_top": 0,
+        "padding_bottom": 50,
+        "reverse": false,
+        "text_centered": false,
+        "title": "Title",
+        "text": "<p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.  Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Velit officia consequat duis enim velit mollit. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.<\/p><p>Exercitation veniam consequat sunt nostrud amet. Exercitatio n veniam consequat sunt nostrud amet.Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.<\/p>",
+        "btn_text": "",
+        "btn_url": ""
+      }
+    },
+    "cf9a212e-69c0-4fb6-badc-e31720078c6e": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/aboutus.png",
+        "padding_top": 50,
+        "padding_bottom": 100,
+        "reverse": true,
+        "text_centered": false,
+        "title": "Title",
+        "text": "<p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.  Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Velit officia consequat duis enim velit mollit. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.<\/p><p>Exercitation veniam consequat sunt nostrud amet. Exercitatio n veniam consequat sunt nostrud amet.Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.<\/p>",
+        "btn_text": "",
+        "btn_url": ""
+      }
+    },
+    "db3a9088-3047-4b00-8ec8-73b07be7f951": {
+      "type": "about-product-slider",
+      "settings": {
+        "title": "",
+        "collection": "chairs",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "3307a6af-c522-423b-8c9e-4a877abcc3de": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Rectangle_44.jpg",
+        "padding_top": 100,
+        "padding_bottom": 50,
+        "reverse": false,
+        "text_centered": false,
+        "title": "Title",
+        "text": "<p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.  Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Velit officia consequat duis enim velit mollit. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.<\/p><p>Exercitation veniam consequat sunt nostrud amet. Exercitatio n veniam consequat sunt nostrud amet.Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.<\/p>",
+        "btn_text": "",
+        "btn_url": ""
+      }
+    },
+    "afd15317-226f-4424-b69f-e7005d0e7e1d": {
+      "type": "about-benefit-icons",
+      "blocks": {
+        "template--18265837797674__afd15317-226f-4424-b69f-e7005d0e7e1d-16783642746c2ccd63-0": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/Mask_group-2.png",
+            "text": "style"
+          }
+        },
+        "template--18265837797674__afd15317-226f-4424-b69f-e7005d0e7e1d-16783642746c2ccd63-1": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/Mask_group.png",
+            "text": "quality"
+          }
+        },
+        "template--18265837797674__afd15317-226f-4424-b69f-e7005d0e7e1d-16783642746c2ccd63-2": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/Mask_group-1.png",
+            "text": "fast delivery"
+          }
+        }
+      },
+      "block_order": [
+        "template--18265837797674__afd15317-226f-4424-b69f-e7005d0e7e1d-16783642746c2ccd63-0",
+        "template--18265837797674__afd15317-226f-4424-b69f-e7005d0e7e1d-16783642746c2ccd63-1",
+        "template--18265837797674__afd15317-226f-4424-b69f-e7005d0e7e1d-16783642746c2ccd63-2"
+      ],
+      "settings": {
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "c3648cfd-de5e-45c2-91c9-198e9c48f2f1": {
+      "type": "about-newsletter",
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 100,
+        "title": "Subscribe to our mailing list for newsletter exclusives",
+        "input_placeholder": "Enter your email",
+        "btn_text": "Subscribe"
+      }
+    }
+  },
+  "order": [
+    "f572960a-64b7-485a-bbb5-3e72e2ccac8d",
+    "main",
+    "cf9a212e-69c0-4fb6-badc-e31720078c6e",
+    "db3a9088-3047-4b00-8ec8-73b07be7f951",
+    "3307a6af-c522-423b-8c9e-4a877abcc3de",
+    "afd15317-226f-4424-b69f-e7005d0e7e1d",
+    "c3648cfd-de5e-45c2-91c9-198e9c48f2f1"
+  ]
+}
