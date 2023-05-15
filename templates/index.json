@@ -45,9 +45,10 @@
         "8b05ba39-d983-40db-ac4c-882a3a69563b": {
           "type": "collection",
           "settings": {
-            "collection": "chairs",
-            "title": "",
-            "url": ""
+            "collection": "puutarhakalusteet",
+            "title": "Puutarhakalusteet",
+            "image": "shopify:\/\/shop_images\/Brafab_miljoo_Sandkorn_Varm_Amarante_Kotte_Como.jpg",
+            "url": "shopify:\/\/collections\/puutarhakalusteet"
           }
         },
         "ee352da1-a486-46f2-a12c-eecba3c97aa5": {
