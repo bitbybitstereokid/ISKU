@@ -8,67 +8,278 @@
         "padding_bottom": 36
       }
     },
-    "e1ecd320-9c8f-475f-afb6-df2be51fb8aa": {
-      "type": "about-breadcrumbs",
-      "settings": {
-      }
-    },
-    "1e245789-bafb-4460-bd23-5dfcde05ec7e": {
-      "type": "banner-section",
-      "settings": {
-        "mask_banner": true,
-        "opacity_mask": 45,
-        "st": 0,
-        "sb": 100,
-        "stm": 40,
-        "sbm": 80,
-        "h_tag": "h1",
-        "banner_photo": "shopify:\/\/shop_images\/contact.jpg",
-        "banner_photo_mobile": "shopify:\/\/shop_images\/Rectangle_37_1.png",
-        "title_text": "Ota meihin yhteyttä"
-      }
-    },
-    "475abe9f-5d8e-43df-a39c-c481de1251db": {
-      "type": "contact_us-custom",
+    "5f19d166-9b7e-49af-98df-4a2651b24587": {
+      "type": "multicolumn",
       "blocks": {
-        "88af4ccb-7bec-49e5-b0be-515fbe3a7769": {
-          "type": "dropdown",
+        "template--18960932667736__5f19d166-9b7e-49af-98df-4a2651b24587-1684169800ae4304ac-0": {
+          "type": "column",
           "settings": {
-            "dropdown": "Topic 1"
+            "image": "shopify:\/\/shop_images\/JPG_Pieni_Arto_Tiitinen_170115.jpg",
+            "title": "Arto Tiitinen",
+            "text": "<p>Toimitusjohtaja<\/p>",
+            "link_label": "",
+            "link": ""
           }
         },
-        "5cf2984c-7e26-47c8-afd9-65a2967c2790": {
-          "type": "dropdown",
+        "template--18960932667736__5f19d166-9b7e-49af-98df-4a2651b24587-1684169800ae4304ac-1": {
+          "type": "column",
           "settings": {
-            "dropdown": "Topic 2"
+            "image": "shopify:\/\/shop_images\/Mikko_Hamalainen_Grey_09082022_4.jpg",
+            "title": "Mikko Hämäläinen",
+            "text": "<p>EVP, Group B2B and Retail Businesses<\/p>",
+            "link_label": "mikko.hamalainen@isku.com",
+            "link": "mailto:mikko.hamalainen@isku.com"
           }
         },
-        "cf03ca8b-7e32-4487-8376-5a1169e42c44": {
-          "type": "dropdown",
+        "template--18960932667736__5f19d166-9b7e-49af-98df-4a2651b24587-1684169800ae4304ac-2": {
+          "type": "column",
           "settings": {
-            "dropdown": "Topic 3"
+            "image": "shopify:\/\/shop_images\/Saku_Antikainen_130514_E-mail__800x800_6e45e9eb-cd7e-495d-85e1-8af1af164863.jpg",
+            "title": "Saku Antikainen",
+            "text": "<p>VP, Production & R&D<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "e7479ebc-0f00-4533-8b0b-7f541f20b3bd": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Jussi_Saukkonen_050313_E-mail__800x800_5b30bcaf-0aba-4029-870a-581b63a4de1f.jpg",
+            "title": "Jussi Saukkonen",
+            "text": "<p>CFO<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "dce9e0aa-5342-4f7c-87f7-58ac245400c6": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Elise_Tarvainen_190119_E-mail__800x800_9697df41-aa64-4c44-aa38-b4096ba39468.jpg",
+            "title": "Elise Tarvainen",
+            "text": "<p>VP, International Business<\/p>",
+            "link_label": "elise.tarvainen@isku.com",
+            "link": "mailto:elise.tarvainen@isku.com"
+          }
+        },
+        "e9370301-86b9-4d53-9d68-3bedb56c6eb7": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Noora_Tirkkonen_Grey_08062022.jpg",
+            "title": "Noora Tirkkonen",
+            "text": "<p>VP, Technology<\/p>",
+            "link_label": "noora.tirkkonen@isku.com",
+            "link": "mailto:noora.tirkkonen@isku.com"
+          }
+        },
+        "cef701d7-37f5-4dec-a219-4876e5307cc7": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Roope_Vikstrom_Grey_06092022.jpg",
+            "title": "Roope Vikström",
+            "text": "<p>General Counsel<\/p>",
+            "link_label": "roope.vikstrom@isku.com",
+            "link": "mailto:roope.vikstrom@isku.com"
+          }
+        },
+        "bba905d9-1381-4972-b8d5-dfcea13f436a": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/kaisa_vuori-henkilokuva_isku.jpg",
+            "title": "Kaisa Vuori",
+            "text": "<p>VP, HR & ESG<\/p>",
+            "link_label": "",
+            "link": ""
           }
         }
       },
       "block_order": [
-        "88af4ccb-7bec-49e5-b0be-515fbe3a7769",
-        "5cf2984c-7e26-47c8-afd9-65a2967c2790",
-        "cf03ca8b-7e32-4487-8376-5a1169e42c44"
+        "template--18960932667736__5f19d166-9b7e-49af-98df-4a2651b24587-1684169800ae4304ac-0",
+        "template--18960932667736__5f19d166-9b7e-49af-98df-4a2651b24587-1684169800ae4304ac-1",
+        "template--18960932667736__5f19d166-9b7e-49af-98df-4a2651b24587-1684169800ae4304ac-2",
+        "e7479ebc-0f00-4533-8b0b-7f541f20b3bd",
+        "dce9e0aa-5342-4f7c-87f7-58ac245400c6",
+        "e9370301-86b9-4d53-9d68-3bedb56c6eb7",
+        "cef701d7-37f5-4dec-a219-4876e5307cc7",
+        "bba905d9-1381-4972-b8d5-dfcea13f436a"
       ],
       "settings": {
-        "st": 0,
-        "sb": 100,
-        "stm": 0,
-        "sbm": 80,
-        "title": "Get in touch with us!",
-        "description": "<p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.  Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Velit officia consequat duis enim velit mollit. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.<br\/><br\/>Exercitation veniam consequat sunt nostrud amet. Exercitatio n veniam consequat sunt nostrud amet.Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.<\/p>"
+        "title": "Johtoryhmä",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "7c9fcfef-ad60-49e2-a86e-820afb5c3fb9": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--18960932667736__7c9fcfef-ad60-49e2-a86e-820afb5c3fb9-1684169800ae4304ac-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/tommi-hagman-800x800.jpg",
+            "title": "Tommi Hagman",
+            "text": "<p>Director, Group Retail Business<\/p><p>044 032 4252<\/p>",
+            "link_label": "tommi.hagman@isku.fi",
+            "link": "mailto:tommi.hagman@isku.fi"
+          }
+        },
+        "template--18960932667736__7c9fcfef-ad60-49e2-a86e-820afb5c3fb9-1684169800ae4304ac-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ville_Levaniemi.jpg",
+            "title": "Ville Leväniemi",
+            "text": "<p>Aluejohtaja<\/p><p>050 436 9946<\/p>",
+            "link_label": "ville.levaniemi@isku.fi",
+            "link": "mailto:ville.levaniemi@isku.fi"
+          }
+        },
+        "template--18960932667736__7c9fcfef-ad60-49e2-a86e-820afb5c3fb9-1684169800ae4304ac-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ilkka_Viitanen.jpg",
+            "title": "Ilkka Viitanen",
+            "text": "<p>Aluepäällikkö<\/p><p>029 086 3366<\/p>",
+            "link_label": "ilkka.viitanen@isku.fi",
+            "link": "mailto:ilkka.viitanen@isku.fi"
+          }
+        },
+        "11443aed-07f7-4174-9bb7-d290d20d1cef": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ilari_J__skel_inen_031218_E-mail__800x800_a609ee90-1cda-49d7-b26e-586298468ba0.jpg",
+            "title": "Ilari Jääskeläinen",
+            "text": "<p>Valikoimajohtaja<\/p><p>0443863860<\/p>",
+            "link_label": "ilari.jaaskelainen@isku.com",
+            "link": "mailto:ilari.jaaskelainen@isku.com"
+          }
+        },
+        "9c17c02f-cb9c-4870-88be-2523eee52914": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Taija_Purhonen.jpg",
+            "title": "Taija Purhonen",
+            "text": "<p>Aluejohtaja<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18960932667736__7c9fcfef-ad60-49e2-a86e-820afb5c3fb9-1684169800ae4304ac-0",
+        "template--18960932667736__7c9fcfef-ad60-49e2-a86e-820afb5c3fb9-1684169800ae4304ac-1",
+        "template--18960932667736__7c9fcfef-ad60-49e2-a86e-820afb5c3fb9-1684169800ae4304ac-2",
+        "11443aed-07f7-4174-9bb7-d290d20d1cef",
+        "9c17c02f-cb9c-4870-88be-2523eee52914"
+      ],
+      "settings": {
+        "title": "Myynnin johto, kuluttajamyynti (BtoC)",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "b92b9afe-7a02-4aeb-bd5e-6edc8bdca82a": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--18960932667736__b92b9afe-7a02-4aeb-bd5e-6edc8bdca82a-1684169800ae4304ac-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/JPG_Pieni_Satu_Miettinen_200121_grey.jpg",
+            "title": "Satu Miettinen",
+            "text": "<p>Aluejohtaja, Eteläinen Suomi<\/p><p>040 710 8699<\/p>",
+            "link_label": "satu.miettinen@isku.com",
+            "link": "mailto:satu.miettinen@isku.com"
+          }
+        },
+        "template--18960932667736__b92b9afe-7a02-4aeb-bd5e-6edc8bdca82a-1684169800ae4304ac-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/JPG_Pieni_Ilkka_Ylilauri_09072020_grey.jpg",
+            "title": "Ilkka Ylilauri",
+            "text": "<p>Aluejohtaja, Pohjoinen Suomi<\/p><p>040 59 62 688<\/p>",
+            "link_label": "ilkka.ylilauri@isku.com",
+            "link": "mailto:ilkka.ylilauri@isku.com"
+          }
+        },
+        "template--18960932667736__b92b9afe-7a02-4aeb-bd5e-6edc8bdca82a-1684169800ae4304ac-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Teemu_Heikura.jpg",
+            "title": "Teemu Heikura",
+            "text": "<p>Asiakkuusjohtaja (valtio- ja kuntasektori)<\/p><p>044 386 3002<\/p>",
+            "link_label": "teemu.heikura@isku.com",
+            "link": "mailto:teemu.heikura@isku.com"
+          }
+        },
+        "b1dcbd4a-6d43-49bd-a44f-92c73667f0e3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Marko_Kattilakoski_261015_ID.jpg",
+            "title": "Marko Kattilakoski",
+            "text": "<p>Valikoimajohtaja<\/p><p>040 7217 319<\/p>",
+            "link_label": "marko.kattilakoski@isku.com",
+            "link": "mailto:marko.kattilakoski@isku.com"
+          }
+        },
+        "a1b0e1ce-e57e-4c71-90f1-557652939385": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mona_Auervuolle_090119_E-mail__800x800_9d89686f-f1f9-406d-8009-1d4c1381bd26.jpg",
+            "title": "Mona Auervuolle",
+            "text": "<p>Viestintä- ja markkinointipäällikkö<\/p><p>050 563 2130<\/p>",
+            "link_label": "mona.auervuolle@isku.com",
+            "link": "mailto:mona.auervuolle@isku.com"
+          }
+        }
+      },
+      "block_order": [
+        "template--18960932667736__b92b9afe-7a02-4aeb-bd5e-6edc8bdca82a-1684169800ae4304ac-0",
+        "template--18960932667736__b92b9afe-7a02-4aeb-bd5e-6edc8bdca82a-1684169800ae4304ac-1",
+        "template--18960932667736__b92b9afe-7a02-4aeb-bd5e-6edc8bdca82a-1684169800ae4304ac-2",
+        "b1dcbd4a-6d43-49bd-a44f-92c73667f0e3",
+        "a1b0e1ce-e57e-4c71-90f1-557652939385"
+      ],
+      "settings": {
+        "title": "Myynnin johto, yritysmyynti (BtoB)",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
   "order": [
     "main",
-    "e1ecd320-9c8f-475f-afb6-df2be51fb8aa",
-    "1e245789-bafb-4460-bd23-5dfcde05ec7e",
-    "475abe9f-5d8e-43df-a39c-c481de1251db"
+    "5f19d166-9b7e-49af-98df-4a2651b24587",
+    "7c9fcfef-ad60-49e2-a86e-820afb5c3fb9",
+    "b92b9afe-7a02-4aeb-bd5e-6edc8bdca82a"
   ]
 }
