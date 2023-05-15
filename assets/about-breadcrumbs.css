@@ -28,6 +28,7 @@
 
 .breadcrumbs__item:not(:first-child){
     padding-left: 10px;
+    padding-right: 10px;
 }
 
 .breadcrumbs__item {

@@ -59,6 +59,7 @@
 
 .product-card__wishlist-btn {
     position: absolute;
+    display: flex;
     top: 0;
     right: 0;
     z-index: 3;

@@ -133,11 +133,10 @@
 
 @media screen and (max-width: 749px) {
     .about-image-text {
-        gap: 20px;
+        gap: 40px;
     }
 
-    .about-image-text {
-        padding-right: 0;
-        padding-left: 0;
+    .about-image-text__content {
+        padding: 0;
     }
 }

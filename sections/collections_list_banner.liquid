@@ -1,0 +1,160 @@
+{% style %}
+    .collections-list_banner_container{
+        display: flex;
+        {% if section.settings.swap == true %}
+            flex-direction: row-reverse;
+        {% else %}
+            flex-direction: row;
+        {% endif %}
+        max-width: 1440px;
+        margin: 0 auto;
+
+    }
+    .collections-list_banner_img,
+    .collections-list_banner_text-block{
+        width: 50%;
+    }
+    .collections-list_banner_text-block{
+        background: {{ section.settings.BgColor }};
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px 50px;
+    }
+    .text-block_title{
+        color: {{ section.settings.TxtColor }};
+        /*font-family: 'ITC Avant Garde Gothic Std';*/
+        font-style: normal;
+        font-weight: 500;
+        font-size: 60px;
+        line-height: 72px;
+        text-transform: capitalize;
+        margin-bottom: 20px;
+    }
+    .text-block_text{
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 150%;
+        letter-spacing: 0.02em;
+        color: {{ section.settings.TxtColor }};
+    }
+    .collections-list_banner_img img,
+    .collections-list_banner_img svg{
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .collections-list_banner_img {
+        position: relative;
+        display: block;
+    }
+
+    .collections-list_banner_img:before {
+        content: '';
+        display: block;
+        padding-top: 100%;
+    }
+    @media screen and (max-width: 770px){
+        .collections-list_banner_container{
+            flex-direction: column;
+        }
+        .collections-list_banner_img,
+        .collections-list_banner_text-block{
+            width: 100%;
+        }
+        .collections-list_banner_text-block{
+            padding: 40px 15px;
+        }
+        .text-block_title{
+            max-width: 220px;
+            font-size: 30px;
+            line-height: 36px;
+        }
+        .text-block_text{
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 150%;
+        }
+    }
+
+{% endstyle %}
+
+
+<div class="collections-list_banner">
+    <div class="collections-list_banner_container">
+        <div class="collections-list_banner_img">
+            {%  if  section.settings.image != blank %}
+                <img  src="{{ section.settings.image | img_url: 'master' }}" alt="{{ section.settings.image.alt }}">
+            {% else %}
+                {{ 'image' | placeholder_svg_tag: 'my-class' }}
+            {% endif %}
+        </div>
+        <div class="collections-list_banner_text-block">
+            <div class="text-block_box">
+                <h2 class="text-block_title">
+                    {{ section.settings.title }}
+                </h2>
+                <div class="text-block_text">
+                    {{ section.settings.text }}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+{% schema %}
+{
+  "name": "Collections-list banner",
+  "tag": "section",
+  "class": "Section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "title",
+      "default": "Feel Luxury To The Touch"
+    },
+    {
+      "type": "text",
+      "id": "text",
+      "label": "text",
+      "default": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    },
+    {
+      "type": "checkbox",
+      "id": "swap",
+      "default": false,
+      "label": "Swap image and text"
+    },
+    {
+      "type": "color",
+      "id": "TxtColor",
+      "label": "Text color",
+      "default": "#fff"
+    },
+    {
+      "type": "color",
+      "id": "BgColor",
+      "label": "Background color",
+      "default": "#0F4880"
+    }
+  ],
+
+  "presets": [
+    {
+      "name": "Collections-list banner"
+    }
+  ]
+}
+{% endschema %}

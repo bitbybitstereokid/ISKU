@@ -4,6 +4,7 @@
   "sections": {
     "announcement-bar": {
       "type": "announcement-bar",
+      "disabled": true,
       "blocks": {
         "announcement-bar-0": {
           "type": "announcement",
@@ -26,7 +27,7 @@
         "4eb82a86-7678-452f-962f-c6e5a65cc5d4": {
           "type": "announcement",
           "settings": {
-            "text": "Ilmainen toimitus yli $1000 tilauksille",
+            "text": "",
             "text_alignment": "center",
             "color_scheme": "accent-2",
             "link": ""
@@ -46,11 +47,12 @@
       "settings": {
         "color_scheme": "background-1",
         "logo_position": "top-center",
-        "menu": "header-menu",
+        "menu": "header-new",
         "menu_type_desktop": "mega",
         "sticky_header_type": "on-scroll-up",
         "show_line_separator": false,
         "mobile_logo_position": "center",
+        "wishlist_page": "\/a\/wishlist",
         "margin_bottom": 0,
         "padding_top": 20,
         "padding_bottom": 20

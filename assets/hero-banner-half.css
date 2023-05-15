@@ -2,7 +2,9 @@
     display: flex;
     flex-direction: column;
 }
-
+.hero-banner-half.image_position_mobile-bottom{
+    flex-direction: column-reverse;
+}
 .hero-banner-half.in-container {
     /*padding: 0;*/
 }
@@ -16,7 +18,7 @@
 }
 
 .hero-banner-half__content {
-    padding: 88px 15px;
+    padding: 40px 15px;
     text-align: center;
 }
 
@@ -25,6 +27,7 @@
 }
 
 .hero-banner-half__title {
+    width: 100%;
     /*font-family: var(--font-body-family);*/
     font-family: 'itcmedium', sans-serif;
     font-style: normal;
@@ -35,7 +38,10 @@
     color: inherit;
     margin: 0 0 20px;
 }
-
+.hero-banner-half__title-true{
+    font-size: 30px;
+    line-height: 150%;
+}
 .hero-banner-half__text {
     font-family: var(--font-body-family);
     font-style: normal;
@@ -54,7 +60,35 @@
     min-width: 180px;
     text-align: center;
 }
-
+.hero-banner-half__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.text_full_width-padding_left{
+    transition: all .2s linear;
+}
+.hero-banner-half__content-align_left{
+    align-items: flex-start;
+}
+.hero-banner-half__content-align_center{
+    align-items: center;
+}
+.hero-banner-half__content-align_right{
+    align-items: flex-end;
+}
+.hero-banner-half__content-align_left > .hero-banner-half__title, .hero-banner-half__content-align_left > .hero-banner-half__text{
+    text-align: left;
+}
+.hero-banner-half__content-align_center > .hero-banner-half__title, .hero-banner-half__content-align_center > .hero-banner-half__text{
+    text-align: center;
+}
+.hero-banner-half__content-align_right > .hero-banner-half__title, .hero-banner-half__content-align_right > .hero-banner-half__text{
+    text-align: right;
+}
+.hero-banner-half__content-align_left > .hero-banner-half__text, .hero-banner-half__content-align_right > .hero-banner-half__text{
+    max-width: 100%;
+}
 @media screen and (min-width: 769px) {
     .hero-banner-half {
         flex-direction: row;
@@ -73,7 +107,7 @@
     }
 
     .hero-banner-half__image::before {
-        padding-top: 81.25%;
+        padding-top: 84.72%;
     }
 
     .hero-banner-half.in-container .hero-banner-half__image::before {
@@ -86,7 +120,6 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
     }
 
     .hero-banner-half.in-container .hero-banner-half__content {
@@ -98,7 +131,10 @@
         font-size: 45px;
         line-height: 60px;
     }
-
+    .hero-banner-half__title-true{
+        font-size: 40px;
+        line-height: 48px;
+    }
     .hero-banner-half__text {
         margin-bottom: 40px;
     }
@@ -112,6 +148,10 @@
     .hero-banner-half__title {
         font-size: 60px;
         line-height: 72px;
+    }
+    .hero-banner-half__title-true{
+        font-size: 40px;
+        line-height: 48px;
     }
 
     .hero-banner-half__content {

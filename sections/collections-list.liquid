@@ -1,0 +1,222 @@
+<script src="{{ 'collections-list.js' | asset_url }}" defer="defer"></script>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        text-decoration: none;
+    }
+    .collections-list_container{
+        max-width: 1440px;
+        margin: 0 auto;
+        padding: 100px 50px;
+        padding-bottom: 50px;
+    }
+    .list-tabs{
+        display:flex;
+        width: 100%;
+        max-width: 100%;
+        overflow-x: auto;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+    .list-tabs::-webkit-scrollbar{
+        display: none;
+    }
+    .collections-tabs{
+        margin-bottom: 50px;
+        max-width: 651px;
+        display: flex;
+    }
+    .tab label {
+        display: inline-block;
+    }
+    .tab{
+        margin-right: 50px;
+    }
+    .list-tabs > li > input[type="radio"]{
+        display: none;
+    }
+    .tab input + label{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        padding-bottom: 7px;
+        line-height: 21px;
+        color: #1A1919;
+        white-space: nowrap;
+        border-bottom: 1px solid rgba(0, 0, 0, 0);
+        cursor: pointer;
+    }
+    /*.list-tabs > li > input[type="radio"]:checked + label{*/
+    /*    border-bottom: 1px solid #1A1919;*/
+    /*}*/
+
+    .tab input:checked + label {
+        border-bottom: 1px solid #1A1919;
+    }
+    .tab:hover input + label {
+        border-bottom: 1px solid #1A1919;
+    }
+    .list-tabs:last-child{
+        margin-right: 0;
+    }
+    .list-collections-ul{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .list-collection{
+        width: 32.32%;
+    }
+    .collection-img img,
+    .collection-img svg{
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        transition: transform 0.5s ease;
+
+    }
+
+    .collection-img{
+        position: relative;
+        display: block;
+        overflow: hidden;
+    }
+
+    .collection-img:before {
+        content: '';
+        display: block;
+        padding-top: 100%;
+    }
+    .collection-img:hover img,
+    .collection-img:hover svg{
+        transform: scale(1.1); /* add this line to zoom by 15% on hover */
+    }
+    .collection-title{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color: #1A1919;
+        padding: 15px 0;
+    }
+    .collection-description{
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 150%;
+        letter-spacing: 0.02em;
+        color: #1A1919;
+    }
+    .list-collection{
+        margin-bottom: 50px;
+    }
+
+    @media screen and (max-width: 1000px){
+        .list-collection{
+            width: 49%;
+        }
+    }
+    @media screen and (max-width: 770px){
+        .collections-list_container{
+            padding: 80px 0;
+            padding-bottom: 50px;
+        }
+        .list-collections{
+            padding: 0 15px;
+        }
+        .list-tabs{
+            padding-left: 15px;
+        }
+        .list-collection{
+            margin-bottom: 30px;
+        }
+    }
+    @media screen and (max-width: 550px){
+        .list-collection{
+            width: 100%;
+        }
+        .collections-tabs{
+            margin-bottom: 40px;
+        }
+    }
+</style>
+
+{% assign types_of_collections = "" %}
+{% for collection in collections %}
+    {% if collection.metafields.custom.type_of_collection != blank %}
+        {% assign types_of_collections = types_of_collections | append: collection.metafields.custom.type_of_collection | append: "," %}
+    {% endif %}
+{% endfor %}
+{% assign types_of_collections = types_of_collections | split: "," | uniq %}
+
+
+<div class="collections-list">
+    <div class="collections-list_container">
+        <div class="collections-tabs">
+            <ul class="list-tabs">
+                <li class="tab">
+                    <input type="radio" name="tabs" id="show_all" value="show_all" checked>
+                    <label for="show_all">
+                        Show All
+                    </label>
+                </li>
+                {% for type_of_collection in types_of_collections %}
+                    <li class="tab">
+                        <input type="radio" name="tabs" id="{{ type_of_collection }}" value="{{ type_of_collection }}">
+                        <label for="{{ type_of_collection }}">
+                            {{ type_of_collection }}
+                        </label>
+                    </li>
+                {% endfor %}
+
+            </ul>
+        </div>
+        <div class="list-collections">
+            <ul class="list-collections-ul">
+                {% for collection in collections %}
+                    <li class="list-collection {{collection.metafields.custom.type_of_collection}}" >
+                        <a href="{{ collection.url }}">
+                            <div class="collection-img">
+                                {%  if  collection.featured_image != blank %}
+                                    <img src="{{ collection.featured_image | img_url: 'master' }}" alt="{{ collection.featured_image.alt }}">
+                                {% else %}
+                                    {{ 'collection-1' | placeholder_svg_tag: 'my-class' }}
+                                {% endif %}
+                            </div>
+                            <h2 class="collection-title">
+                                {{ collection.title}}
+                            </h2>
+                            <div class="collection-description">
+                                {{ collection.description | strip_html | truncate: 80 }}
+                            </div>
+                        </a>
+
+                    </li>
+
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</div>
+
+{% schema %}
+{
+  "name": "Collections list",
+  "tag": "section",
+  "class": "Section",
+  "settings": [
+
+  ],
+
+  "presets": [
+    {
+      "name": "Collections list"
+    }
+  ]
+}
+{% endschema %}

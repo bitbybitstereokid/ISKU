@@ -8,6 +8,21 @@
     "theme_support_url": "https:\/\/support.shopify.com\/"
   },
   {
+    "name": "Wishlist",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "wishlist_outline",
+        "label": "Wishlist heart outline"
+      },
+      {
+        "type": "image_picker",
+        "id": "wishlist_full",
+        "label": "Wishlist heart full"
+      }
+    ]
+  },
+  {
     "name": "t:settings_schema.logo.name",
     "settings": [
       {
@@ -156,6 +171,20 @@
         "unit": "%",
         "label": "t:settings_schema.typography.settings.body_scale.label",
         "default": 100
+      },
+      {
+        "type": "font_picker",
+        "id": "type_body_font_bold",
+        "default": "assistant_n4",
+        "label": "Bold font",
+        "info": "t:settings_schema.typography.settings.type_body_font.info"
+      },
+      {
+        "type": "font_picker",
+        "id": "type_body_font_light",
+        "default": "assistant_n4",
+        "label": "Light font",
+        "info": "t:settings_schema.typography.settings.type_body_font.info"
       }
     ]
   },

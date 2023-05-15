@@ -1,0 +1,363 @@
+<style>
+    .cart__like {
+        overflow-x: hidden;
+    }
+
+    .cart__like .page-width {
+        max-width: 100%;
+    }
+
+    .cart__like--inner {
+        position: relative;
+        width: 100%;
+    }
+
+    .cart__like--inner .card__badge {
+        position: absolute;
+        left: 0;
+        top: 0;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .cart__like--inner .card__badge .badge {
+        border-radius: 0;
+        padding: 11px 15px;
+        font-size: 14px;
+        line-height: 17px;
+        font-weight: 400;
+    }
+
+    .cart__like--inner a {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        display: block;
+        z-index: 1;
+    }
+
+    .cart__like .swiper, .cart__like .swiper-container {
+        overflow: initial;
+    }
+
+    .cart__like--price {
+        margin-top: 15px;
+    }
+
+    .cart__like--title--section {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 150%;
+        text-transform: capitalize;
+        color: #1A1919;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .cart__like--image img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 330px;
+        object-fit: contain;
+    }
+
+    .cart__like--title, .cart__like--price .price, .price .price-item {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 150%;
+        text-align: center;
+        color: #1A1919;
+    }
+
+    .cart__like--title {
+        margin-top: 10px;
+    }
+
+    .cart__like--item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .cart-like__button {
+        display: flex;
+        margin-top: 20px;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .cart-like__button a {
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        background-color: transparent;
+        color: var(--color-accent-2);
+        padding: 15px 0;
+        width: 185px;
+        border: 2px solid var(--color-accent-2);
+        transition: .3s ease-in-out;
+    }
+
+    .cart-like__button a:hover {
+        transition: .3s ease-in-out;
+        background-color: var(--color-accent-2);
+        color: var(--color-text-accent);
+    }
+
+    .cart__like--slider {
+        position: relative;
+    }
+
+    .cart__like-prev,
+    .cart__like-next {
+        z-index: 2;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        display: flex;
+        cursor: pointer;
+        transition: 0.3s ease-in-out;
+    }
+
+    .cart__like-prev:hover svg circle,
+    .cart__like-next:hover svg circle{
+        fill: #C8C8C8;
+        transition: 0.3s ease-in-out;
+    }
+
+    .cart__like-prev {
+        left: -30px;
+    }
+
+    .cart__like-next {
+        right: -30px;
+    }
+
+
+    @media screen and (max-width: 749px) {
+        .cart__like-prev, .cart__like-next {
+            display: none;
+        }
+    }
+
+    @media screen and (max-width: 576px) {
+        .cart__like--image img {
+            height: 165px;
+        }
+
+        .cart__like--inner .card__badge .badge {
+            font-size: 12px;
+            font-weight: 400;
+            padding: 4px;
+        }
+
+        .cart-like__button a {
+            padding: 8px 0;
+            width: 110px;
+        }
+
+        .cart__like--title--section {
+            max-width: 285px;
+            margin: 0 auto 50px auto;
+        }
+
+        .cart__like--price {
+            margin-top: 11px;
+        }
+    }
+</style>
+
+{% style %}
+    .cart__like.cart__like--{{ section.id }} {
+    padding-top: {{ section.settings.padding_top_mobile }}px;
+    padding-bottom: {{ section.settings.padding_bottom_mobile }}px;
+    }
+
+    @media only screen and (min-width: 769px) {
+    .cart__like.cart__like--{{ section.id }} {
+    padding-top: {{ section.settings.padding_top }}px;
+    padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+    }
+{% endstyle %}
+
+{% if section.settings.collection.all_products_count != 0 %}
+    <div class="cart__like cart__like--{{ section.id }}">
+        <div class=" page-width">
+            <div class="cart__like--title--section">{{ section.settings.title }}</div>
+            <div class="cart__like--slider">
+                <div class="cart__like--swiper-slider swiper cart__like cart__like-slider--{{ section.id }}">
+                    <div class="swiper-wrapper">
+                        {% for product in section.settings.collection.products %}
+                            <div class="cart__like--item swiper-slide">
+                                <div class="cart__like--inner">
+                                    <a href="{{ product.url }}"></a>
+                                    <div class="card__badge {{ settings.badge_position }}">
+                                        {%- if product.available == false -%}
+                                            <span
+                                                    id="Badge-{{ section_id }}-{{ product.id }}"
+                                                    class="badge badge--bottom-left color-{{ settings.sold_out_badge_color_scheme }}">
+                                              {{- 'products.product.sold_out' | t -}}
+                                            </span>
+                                        {%- elsif product.compare_at_price > product.price and product.available -%}
+                                            <span
+                                                    id="Badge-{{ section_id }}-{{ product.id }}"
+                                                    class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}">
+                                              {{- 'products.product.on_sale' | t -}}
+                                            </span>
+                                        {%- endif -%}
+                                    </div>
+                                    <div class="cart__like--image">
+                                        <img src="{{ product.featured_image | img_url: "master" }}"
+                                             alt="{{ product.title }}">
+                                    </div>
+                                    <div class="cart__like--title">{{ product.title }}</div>
+                                </div>
+                                <div class="cart__like--footer">
+                                    <div class="cart__like--price">
+                                        {% render 'price', product: product, price_class: '' %}
+                                    </div>
+                                    {% if section.settings.show_button %}
+                                        <div class="cart-like__button">
+                                            <a href="{{ product.url }}">{{ section.settings.button_name }}</a>
+                                        </div>
+                                    {% endif %}
+                                </div>
+                            </div>
+                        {% endfor %}
+                    </div>
+                    <div class="cart__like-prev">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" fill="none">
+                            <circle cx="25" cy="25" r="25" transform="matrix(-1 0 0 1 50 0)" fill="#EFEFEF"/>
+                            <path d="M13.8643 25.7071C13.4738 25.3166 13.4738 24.6834 13.8643 24.2929L20.2283 17.9289C20.6188 17.5384 21.252 17.5384 21.6425 17.9289C22.033 18.3195 22.033 18.9526 21.6425 19.3431L15.9856 25L21.6425 30.6569C22.033 31.0474 22.033 31.6805 21.6425 32.0711C21.252 32.4616 20.6188 32.4616 20.2283 32.0711L13.8643 25.7071ZM36 26H14.5714V24H36V26Z"
+                                  fill="white"/>
+                        </svg>
+                    </div>
+                    <div class="cart__like-next">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" fill="none">
+                            <circle cx="25" cy="25" r="25" fill="#EFEFEF"/>
+                            <path d="M36.1357 25.7071C36.5262 25.3166 36.5262 24.6834 36.1357 24.2929L29.7717 17.9289C29.3812 17.5384 28.748 17.5384 28.3575 17.9289C27.967 18.3195 27.967 18.9526 28.3575 19.3431L34.0144 25L28.3575 30.6569C27.967 31.0474 27.967 31.6805 28.3575 32.0711C28.748 32.4616 29.3812 32.4616 29.7717 32.0711L36.1357 25.7071ZM14 26H35.4286V24H14V26Z"
+                                  fill="white"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endif %}
+
+<script>
+    document.addEventListener('DOMContentLoaded', async () => {
+        const cartLike = new Swiper('.swiper.cart__like.cart__like-slider--{{ section.id }}', {
+            loop: true,
+            slidesPerView: 3.6,
+            centeredSlides: 1,
+            navigation: {
+                nextEl: '.cart__like-next',
+                prevEl: '.cart__like-prev',
+            },
+            breakpoints: {
+                0: {
+                    slidesPerView: 1.8,
+                    spaceBetween: 15
+                },
+                577: {
+                    slidesPerView: 2.3,
+                    spaceBetween: 20
+                },
+                990: {
+                    slidesPerView: 3.8,
+                    spaceBetween: 20
+                }
+            },
+        });
+    });
+</script>
+
+{% schema %}
+{
+  "name": "Cart (You may also like)",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title"
+    },
+    {
+      "type": "collection",
+      "id": "collection",
+      "label": "Collection of products"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_button",
+      "label": "Show button"
+    },
+    {
+      "type": "text",
+      "id": "button_name",
+      "label": "Button name",
+      "default": "OSTA NYT"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding bottom",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_top_mobile",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding top mobile",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_mobile",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding bottom mobile",
+      "default": 0
+    }
+  ],
+  "presets": [
+    {
+      "name": "Cart (You may also like)"
+    }
+  ]
+}
+{% endschema %}
