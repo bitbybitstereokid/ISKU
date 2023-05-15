@@ -1,10 +1,5 @@
 {
   "sections": {
-    "f572960a-64b7-485a-bbb5-3e72e2ccac8d": {
-      "type": "about-breadcrumbs",
-      "settings": {
-      }
-    },
     "main": {
       "type": "about-image-text",
       "settings": {
@@ -13,10 +8,77 @@
         "padding_bottom": 50,
         "reverse": false,
         "text_centered": false,
-        "title": "Title",
-        "text": "<p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.  Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Velit officia consequat duis enim velit mollit. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.<\/p><p>Exercitation veniam consequat sunt nostrud amet. Exercitatio n veniam consequat sunt nostrud amet.Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.<\/p>",
+        "title": "ISKU mukana elämäsi seikkailuissa",
+        "text": "<p>Teemme suomalaisten arjesta viihtyisämpää ja toimivampaa. Suunnittelemme, valmistamme ja myymme huonekaluja, toimitamme sisustusratkaisuja koteihin ja julkisiin tiloihin, kuten kouluihin, toimistoihin ja terveydenhuoltoon, sekä tarjoamme näihin liittyviä palveluita, kuten suunnittelu- ja kierrätyspalveluita. Valmistamme kalusteemme Suomessa, mutta toimitamme niitä ympäri maailman - toimimme tällä hetkellä 16 eri maassa.<\/p>",
         "btn_text": "",
         "btn_url": ""
+      }
+    },
+    "5ce02346-c582-4617-8a26-0f6dbe0fda5a": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--18960568844632__5ce02346-c582-4617-8a26-0f6dbe0fda5a-1684169800ae4304ac-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Tuotanto_291217_06_735x505_eff00501-1432-45e9-a759-b3f95a9fce49.jpg",
+            "title": "600 työntekijää",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--18960568844632__5ce02346-c582-4617-8a26-0f6dbe0fda5a-1684169800ae4304ac-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rudolf_190117_02_735x505_4dc90091-b76d-4653-97ee-b4edbb564655.jpg",
+            "title": "Liikevaihto 138,2 miljoonaa euroa",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--18960568844632__5ce02346-c582-4617-8a26-0f6dbe0fda5a-1684169800ae4304ac-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Julkiskalustetehdas_ID-16658_735x505_392fc55f-33bb-4488-a78b-7e4ddfb4cab8.jpg",
+            "title": "Toimialan suurin teollinen toimija",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "bc04a8f6-6771-4368-8c17-d5916d821a5b": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Isku_Jumbo_100419_04_735x505_638309ef-49d2-41c3-a3a9-998ffcb12ebf.jpg",
+            "title": "Kansainvälisesti 68:ssa kaupungissa",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18960568844632__5ce02346-c582-4617-8a26-0f6dbe0fda5a-1684169800ae4304ac-0",
+        "template--18960568844632__5ce02346-c582-4617-8a26-0f6dbe0fda5a-1684169800ae4304ac-1",
+        "template--18960568844632__5ce02346-c582-4617-8a26-0f6dbe0fda5a-1684169800ae4304ac-2",
+        "bc04a8f6-6771-4368-8c17-d5916d821a5b"
+      ],
+      "settings": {
+        "title": "ISKU lyhyesti",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "cf9a212e-69c0-4fb6-badc-e31720078c6e": {
@@ -33,15 +95,6 @@
         "btn_url": ""
       }
     },
-    "db3a9088-3047-4b00-8ec8-73b07be7f951": {
-      "type": "about-product-slider",
-      "settings": {
-        "title": "",
-        "collection": "chairs",
-        "padding_top": 50,
-        "padding_bottom": 50
-      }
-    },
     "3307a6af-c522-423b-8c9e-4a877abcc3de": {
       "type": "about-image-text",
       "settings": {
@@ -56,43 +109,76 @@
         "btn_url": ""
       }
     },
-    "afd15317-226f-4424-b69f-e7005d0e7e1d": {
-      "type": "about-benefit-icons",
+    "dfbc42c5-8975-4ee6-a8e7-19b77a1308ec": {
+      "type": "multicolumn",
       "blocks": {
-        "template--18265837797674__afd15317-226f-4424-b69f-e7005d0e7e1d-16783642746c2ccd63-0": {
-          "type": "icon",
+        "template--18960568844632__dfbc42c5-8975-4ee6-a8e7-19b77a1308ec-1684169800ae4304ac-0": {
+          "type": "column",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/Mask_group-2.png",
-            "text": "style"
+            "image": "shopify:\/\/shop_images\/Tuotanto_310517_09_Office_735x505_c460eb3f-b406-4386-ab83-f7ac3751805b.jpg",
+            "title": "Tuotanto kotimaassa",
+            "text": "<p>Pienestä verstaasta Pohjois-Euroopan moderneimmaksi tehtaaksi kasvanut Isku valmistaa kalusteensa edelleen kotikaupungissaan Lahdessa. Tuotteemme ja palvelumme ovat tunnettuja korkeasta laadustaan.<\/p>",
+            "link_label": "",
+            "link": ""
           }
         },
-        "template--18265837797674__afd15317-226f-4424-b69f-e7005d0e7e1d-16783642746c2ccd63-1": {
-          "type": "icon",
+        "template--18960568844632__dfbc42c5-8975-4ee6-a8e7-19b77a1308ec-1684169800ae4304ac-1": {
+          "type": "column",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/Mask_group.png",
-            "text": "quality"
+            "image": "shopify:\/\/shop_images\/Myyj__banneri_290419_04_735x505_1895e629-aae7-4aae-9218-a6998e818fc4.jpg",
+            "title": "Arvot, visio ja missio",
+            "text": "<p>Visiomme: Parasta ja nopeaa palvelua<\/p>",
+            "link_label": "",
+            "link": ""
           }
         },
-        "template--18265837797674__afd15317-226f-4424-b69f-e7005d0e7e1d-16783642746c2ccd63-2": {
-          "type": "icon",
+        "44d5ff57-850b-4e1e-9795-f57a990dbfc5": {
+          "type": "column",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/Mask_group-1.png",
-            "text": "fast delivery"
+            "image": "shopify:\/\/shop_images\/Koivikko2_ID-9430_735x505_867f9b51-f5a9-43c2-bb88-32efd359d527.jpg",
+            "title": "Vastuullinen valmistaja",
+            "text": "<p>Isku on sertifioinut laatu-, ympäristö ja turvallisuusjärjestelmänsä ja ne ovat ISO 9001-, ISO 14001- ja ISO 45001 -standardien mukaiset. Lisäksi Iskulla on oman tuotannon kattava PEFC (CoC) järjestelmä eli kaiken Iskun käyttämän puun alkuperä on tunnettua ja kestävän kehityksen periaatteiden mukaan tuotettua.<\/p>",
+            "link_label": "Tutustu vastuullisuuteemme",
+            "link": "shopify:\/\/pages\/vastuullisuus"
+          }
+        },
+        "8f0bbadc-bc23-4a4a-abc1-993a9f0d40ee": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Nea_Seppo_Kirsi_Vikstr_m_281217_735x505_6c4cd906-b428-4dae-ad54-c47c3b06310a.jpg",
+            "title": "Perheyritys jo kolmannessa polvessa",
+            "text": "<p>Iskun yrittäjinä toimivat Vikströmin sisarukset Seppo, Kirsi ja Nea, joiden isoisä Eino perusti yrityksen vuonna 1928.<\/p>",
+            "link_label": "",
+            "link": ""
           }
         }
       },
       "block_order": [
-        "template--18265837797674__afd15317-226f-4424-b69f-e7005d0e7e1d-16783642746c2ccd63-0",
-        "template--18265837797674__afd15317-226f-4424-b69f-e7005d0e7e1d-16783642746c2ccd63-1",
-        "template--18265837797674__afd15317-226f-4424-b69f-e7005d0e7e1d-16783642746c2ccd63-2"
+        "template--18960568844632__dfbc42c5-8975-4ee6-a8e7-19b77a1308ec-1684169800ae4304ac-0",
+        "template--18960568844632__dfbc42c5-8975-4ee6-a8e7-19b77a1308ec-1684169800ae4304ac-1",
+        "44d5ff57-850b-4e1e-9795-f57a990dbfc5",
+        "8f0bbadc-bc23-4a4a-abc1-993a9f0d40ee"
       ],
       "settings": {
-        "padding_top": 50,
-        "padding_bottom": 50
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "c3648cfd-de5e-45c2-91c9-198e9c48f2f1": {
       "type": "about-newsletter",
+      "disabled": true,
       "settings": {
         "padding_top": 0,
         "padding_bottom": 100,
@@ -103,12 +189,11 @@
     }
   },
   "order": [
-    "f572960a-64b7-485a-bbb5-3e72e2ccac8d",
     "main",
+    "5ce02346-c582-4617-8a26-0f6dbe0fda5a",
     "cf9a212e-69c0-4fb6-badc-e31720078c6e",
-    "db3a9088-3047-4b00-8ec8-73b07be7f951",
     "3307a6af-c522-423b-8c9e-4a877abcc3de",
-    "afd15317-226f-4424-b69f-e7005d0e7e1d",
+    "dfbc42c5-8975-4ee6-a8e7-19b77a1308ec",
     "c3648cfd-de5e-45c2-91c9-198e9c48f2f1"
   ]
 }
