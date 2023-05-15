@@ -160,14 +160,6 @@
     "04ecae4b-e98b-4d30-97f6-196b8c864c7a": {
       "type": "featured-product",
       "blocks": {
-        "template--18960223469912__04ecae4b-e98b-4d30-97f6-196b8c864c7a-1684168001c89462b6-0": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "{{ section.settings.product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
         "template--18960223469912__04ecae4b-e98b-4d30-97f6-196b8c864c7a-1684168001c89462b6-1": {
           "type": "title",
           "settings": {
@@ -179,6 +171,13 @@
           "settings": {
           }
         },
+        "a531722e-84f3-4792-9ad4-de5488a911b1": {
+          "type": "text",
+          "settings": {
+            "text": "Curve-sohvan suunnittelijan, Ilari Jääskeläisen sanoin Curve ei ole vain kaunis ulkonäöltään, vaan se on juuri niin mukava, kuin sohvan kuuluu olla. Kevyt ja ilmava malli sopii myös löhöilyyn, sillä siinä on syvä istuinosa. Korkea maavara lisää istuinmukavuutta ja helpottaa siivousta sohvan alta.",
+            "text_style": "body"
+          }
+        },
         "template--18960223469912__04ecae4b-e98b-4d30-97f6-196b8c864c7a-1684168001c89462b6-3": {
           "type": "variant_picker",
           "disabled": true,
@@ -188,6 +187,7 @@
         },
         "template--18960223469912__04ecae4b-e98b-4d30-97f6-196b8c864c7a-1684168001c89462b6-4": {
           "type": "quantity_selector",
+          "disabled": true,
           "settings": {
           }
         },
@@ -206,9 +206,9 @@
         }
       },
       "block_order": [
-        "template--18960223469912__04ecae4b-e98b-4d30-97f6-196b8c864c7a-1684168001c89462b6-0",
         "template--18960223469912__04ecae4b-e98b-4d30-97f6-196b8c864c7a-1684168001c89462b6-1",
         "template--18960223469912__04ecae4b-e98b-4d30-97f6-196b8c864c7a-1684168001c89462b6-2",
+        "a531722e-84f3-4792-9ad4-de5488a911b1",
         "template--18960223469912__04ecae4b-e98b-4d30-97f6-196b8c864c7a-1684168001c89462b6-3",
         "template--18960223469912__04ecae4b-e98b-4d30-97f6-196b8c864c7a-1684168001c89462b6-4",
         "template--18960223469912__04ecae4b-e98b-4d30-97f6-196b8c864c7a-1684168001c89462b6-5",
