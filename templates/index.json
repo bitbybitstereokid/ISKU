@@ -78,14 +78,6 @@
             "url": "shopify:\/\/collections\/ruokailuryhmat"
           }
         },
-        "2a85f196-8f87-4b3d-b9bf-e9c4c60640d0": {
-          "type": "collection",
-          "settings": {
-            "collection": "chairs",
-            "title": "",
-            "url": ""
-          }
-        },
         "a778f8ef-e09b-4440-805d-cf2009c6cad5": {
           "type": "collection",
           "settings": {
@@ -101,7 +93,6 @@
         "ee352da1-a486-46f2-a12c-eecba3c97aa5",
         "86567cf2-a6da-49cc-a945-2b62e1e14e32",
         "db396ac4-bfa5-4f8b-8d76-2680e46fbdec",
-        "2a85f196-8f87-4b3d-b9bf-e9c4c60640d0",
         "a778f8ef-e09b-4440-805d-cf2009c6cad5"
       ],
       "settings": {
