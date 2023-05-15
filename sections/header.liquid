@@ -249,6 +249,7 @@
                     {% render 'icon-wishlist' %}
                     <span class="wishlist__content"></span>
                   </a>
+
                 </div>
               </div>
             </div>
@@ -515,6 +516,7 @@
         {% render 'icon-wishlist' %}
         <span class="wishlist__content"></span>
       </a>
+
 
       {%- if shop.customer_accounts_enabled -%}
         <a href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}"
