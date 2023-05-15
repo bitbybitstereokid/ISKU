@@ -245,8 +245,9 @@
                       {% render 'icon-account' %}
                     </a>
                   {%- endif -%}
-                  <a href="#" class="menu-drawer__wishlist">
+                  <a href="/a/wishlist" class="menu-drawer__wishlist action-area__link wishlist__header">
                     {% render 'icon-wishlist' %}
+                    <span class="wishlist__content"></span>
                   </a>
                 </div>
               </div>
@@ -510,8 +511,9 @@
         {% render 'icon-locator' %}
       </a>
 
-      <a href="#wishlist" class="header__icon header__icon--wishlist link focus-inset">
+      <a href="/a/wishlist" id="smartwishlist_desktop_link" class="header__icon header__icon--wishlist link focus-inset action-area__link wishlist__header">
         {% render 'icon-wishlist' %}
+        <span class="wishlist__content"></span>
       </a>
 
       {%- if shop.customer_accounts_enabled -%}

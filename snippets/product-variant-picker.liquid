@@ -11,209 +11,289 @@
 {% endcomment %}
 {%- unless product.has_only_default_variant -%}
 
-  {% assign namesForColorSwotcher = settings.colors_swatcher_title | escape | strip | downcase %}
-  {% assign colorsNamesAndHex = settings.colors_swatcher_colors | strip | downcase | split: ';' %}
+    {% assign namesForColorSwotcher = settings.colors_swatcher_title | escape | strip | downcase %}
+    {% assign colorsNamesAndHex = settings.colors_swatcher_colors | strip | downcase | split: ';' %}
 
-  {%- if block.settings.picker_type == 'button' -%}
-    <variant-radios
-            id="variant-radios-{{ section.id }}"
-            class="no-js-hidden"
-            data-section="{{ section.id }}"
-            data-url="{{ product.url }}"
-            {% if update_url == false %}
-              data-update-url="false"
-            {% endif %}
-            {{ block.shopify_attributes }}
-    >
-      {%- for option in product.options_with_values -%}
-        <fieldset class="js product-form__input">
-          <legend class="form__label">{{ option.name }}</legend>
-          {% render 'product-variant-options', product: product, option: option, block: block %}
-        </fieldset>
-      {%- endfor -%}
-      <script type="application/json">
+    {%- if block.settings.picker_type == 'button' -%}
+        <variant-radios
+                id="variant-radios-{{ section.id }}"
+                class="no-js-hidden"
+                data-section="{{ section.id }}"
+                data-url="{{ product.url }}"
+                {% if update_url == false %}
+                    data-update-url="false"
+                {% endif %}
+                {{ block.shopify_attributes }}
+        >
+            {%- for option in product.options_with_values -%}
+                <fieldset class="js product-form__input">
+                    <legend class="form__label">{{ option.name }}</legend>
+                    {% render 'product-variant-options', product: product, option: option, block: block %}
+                </fieldset>
+            {%- endfor -%}
+            <script type="application/json">
         {{ product.variants | json }}
 
 
 
+
+
             </script>
-    </variant-radios>
-  {%- else -%}
-    <variant-selects
-            id="variant-selects-{{ section.id }}"
-            class="no-js-hidden"
-            data-section="{{ section.id }}"
-            data-url="{{ product.url }}"
-            {% if update_url == false %}
-              data-update-url="false"
-            {% endif %}
-            {{ block.shopify_attributes }}
-    >
-      {%- for option in product.options_with_values -%}
+        </variant-radios>
+    {%- else -%}
+        <variant-selects
+                id="variant-selects-{{ section.id }}"
+                class="no-js-hidden"
+                data-section="{{ section.id }}"
+                data-url="{{ product.url }}"
+                {% if update_url == false %}
+                    data-update-url="false"
+                {% endif %}
+                {{ block.shopify_attributes }}
+        >
+            {%- for option in product.options_with_values -%}
+                {% assign formatedOptionName = option.name | strip | downcase %}
+
+                <div class="product-form__input product-form__input--dropdown {% if namesForColorSwotcher contains formatedOptionName %}product-form__input--color-swatcher{% endif %}">
+                    <label class="form__label" for="Option-{{ section.id }}-{{ forloop.index0 }}">
+                        {{ option.name }}
+                    </label>
+                    <div class="select">
+                        <select
+                                id="Option-{{ section.id }}-{{ forloop.index0 }}"
+                                class="select__select custom-select__select"
+                                name="options[{{ option.name | escape }}]"
+                                form="{{ product_form_id }}"
+                        >
+                            {% render 'product-variant-options', product: product, option: option, block: block %}
+                        </select>
+                        {% render 'icon-caret' %}
+                    </div>
+                </div>
+            {%- endfor -%}
+
+            <script type="application/json">
+        {{ product.variants | json }}
+
+
+
+
+
+            </script>
+        </variant-selects>
+    {%- endif -%}
+
+
+    {%- for option in product.options_with_values -%}
         {% assign formatedOptionName = option.name | strip | downcase %}
 
-        <div class="product-form__input product-form__input--dropdown {% if namesForColorSwotcher contains formatedOptionName %}product-form__input--color-swatcher{% endif %}">
-          <label class="form__label" for="Option-{{ section.id }}-{{ forloop.index0 }}">
-            {{ option.name }}
-          </label>
-          <div class="select">
-            <select
-                    id="Option-{{ section.id }}-{{ forloop.index0 }}"
-                    class="select__select custom-select__select"
-                    name="options[{{ option.name | escape }}]"
-                    form="{{ product_form_id }}"
-            >
-              {% render 'product-variant-options', product: product, option: option, block: block %}
-            </select>
-            {% render 'icon-caret' %}
-          </div>
-        </div>
-      {%- endfor -%}
+        {% if namesForColorSwotcher contains formatedOptionName %}
+            <div class="js product-form__input" id="custom-color-swatches">
+                <h4 class="form__label">{{ option.name }}</h4>
+                {% comment %} {% render 'product-variant-options', product: product, option: option, block: block %} {% endcomment %}
+                {%- liquid
+                    assign variants_available_arr = product.variants | map: 'available'
+                    assign variants_option1_arr = product.variants | map: 'option1'
+                    assign variants_option2_arr = product.variants | map: 'option2'
+                    assign variants_option3_arr = product.variants | map: 'option3'
 
-      <script type="application/json">
-        {{ product.variants | json }}
+                    assign product_form_id = 'product-form-' | append: section.id
+                -%}
+                <div class="color-options-grid">
+                    {%- for value in option.values -%}
+                        {%- liquid
+                            assign option_disabled = true
+
+                            for option1_name in variants_option1_arr
+                                case option.position
+                                    when 1
+                                        if variants_option1_arr[forloop.index0] == value and variants_available_arr[forloop.index0]
+                                            assign option_disabled = false
+                                        endif
+                                    when 2
+                                        if option1_name == product.selected_or_first_available_variant.option1 and variants_option2_arr[forloop.index0] == value and variants_available_arr[forloop.index0]
+                                            assign option_disabled = false
+                                        endif
+                                    when 3
+                                        if option1_name == product.selected_or_first_available_variant.option1 and variants_option2_arr[forloop.index0] == product.selected_or_first_available_variant.option2 and variants_option3_arr[forloop.index0] == value and variants_available_arr[forloop.index0]
+                                            assign option_disabled = false
+                                        endif
+                                endcase
+                            endfor
+                        -%}
+                        <input
+                                type="radio"
+                                id="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}"
+                                name="{{ option.name }}"
+                                value="{{ value | escape }}"
+                                form="{{ product_form_id }}"
+                                {% if option.selected_value == value %}
+                                    checked
+                                {% endif %}
+                                {% if option_disabled %}
+                                    class="disabled"
+                                {% endif %}
+                        >
+                        {% assign colorHex = 'background-color: #000000' %}
+                        {% for color in colorsNamesAndHex %}
+                            {% assign colorHexFromSettings = color | split: ':' | last | strip %}
+                            {% assign colorNameFrom = value | split: ':' | first %}
+                            {% assign colorNameFromSettings = color | split: ':' | first | strip | downcase | replace: " ", "" %}
+                            {% assign formatedColorNameFromOption = value | strip | downcase | replace: " ", "" %}
+
+                            {% if colorNameFromSettings == formatedColorNameFromOption %}
+                                {%- if colorHexFromSettings contains '#' -%}
+                                    {%- assign colorHex = 'background-color: ' | append: colorHexFromSettings -%}
+                                {%- elsif images[colorHexFromSettings] != blank -%}
+                                    {%- assign color_swatch_image = images[colorHexFromSettings] | img_url: 'master' -%}
+                                    {%- assign colorHex = 'background-image: url(' | append: color_swatch_image | append: ')' -%}
+                                {%- else -%}
+                                    {% assign colorHex = 'background-color: #000000' %}
+                                {%- endif -%}
+                            {% endif %}
+                        {% endfor %}
+
+                        <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}" style="{{ colorHex }};"
+                               class="product-label-hover" data-variant-url="{{ colorHex }}"
+                               data-variant-color="{{ colorNameFrom }}">
+                            <span class="visually-hidden">{{ 'products.product.variant_sold_out_or_unavailable' | t }}</span>
+
+                        </label>
+                    {%- endfor -%}
+                </div>
+            </div>
+        {% endif %}
+    {%- endfor -%}
 
 
-
-            </script>
-    </variant-selects>
-  {%- endif -%}
-
-
-  {%- for option in product.options_with_values -%}
-    {% assign formatedOptionName = option.name | strip | downcase %}
-
-    {% if namesForColorSwotcher contains formatedOptionName %}
-      <div class="js product-form__input" id="custom-color-swatches">
-        <h4 class="form__label">{{ option.name }}</h4>
-        {% comment %} {% render 'product-variant-options', product: product, option: option, block: block %} {% endcomment %}
-        {%- liquid
-          assign variants_available_arr = product.variants | map: 'available'
-          assign variants_option1_arr = product.variants | map: 'option1'
-          assign variants_option2_arr = product.variants | map: 'option2'
-          assign variants_option3_arr = product.variants | map: 'option3'
-
-          assign product_form_id = 'product-form-' | append: section.id
-        -%}
-        <div class="color-options-grid">
-          {%- for value in option.values -%}
-            {%- liquid
-              assign option_disabled = true
-
-              for option1_name in variants_option1_arr
-                case option.position
-                  when 1
-                    if variants_option1_arr[forloop.index0] == value and variants_available_arr[forloop.index0]
-                      assign option_disabled = false
-                    endif
-                  when 2
-                    if option1_name == product.selected_or_first_available_variant.option1 and variants_option2_arr[forloop.index0] == value and variants_available_arr[forloop.index0]
-                      assign option_disabled = false
-                    endif
-                  when 3
-                    if option1_name == product.selected_or_first_available_variant.option1 and variants_option2_arr[forloop.index0] == product.selected_or_first_available_variant.option2 and variants_option3_arr[forloop.index0] == value and variants_available_arr[forloop.index0]
-                      assign option_disabled = false
-                    endif
-                endcase
-              endfor
-            -%}
-            <input
-                    type="radio"
-                    id="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}"
-                    name="{{ option.name }}"
-                    value="{{ value | escape }}"
-                    form="{{ product_form_id }}"
-                    {% if option.selected_value == value %}
-                      checked
-                    {% endif %}
-                    {% if option_disabled %}
-                      class="disabled"
-                    {% endif %}
-            >
-            {% assign colorHex = 'background-color: #000000' %}
-            {% for color in colorsNamesAndHex %}
-              {% assign colorHexFromSettings = color | split: ':' | last | strip %}
-              {% assign colorNameFromSettings = color | split: ':' | first | strip | downcase %}
-              {% assign formatedColorNameFromOption = value | strip | downcase %}
-
-              {% if colorNameFromSettings == formatedColorNameFromOption %}
-                {%- if colorHexFromSettings contains '#' -%}
-                  {%- assign colorHex = 'background-color: ' | append: colorHexFromSettings -%}
-                {%- elsif images[colorHexFromSettings] != blank -%}
-                  {%- assign color_swatch_image = images[colorHexFromSettings] | img_url: '72x72' -%}
-                  {%- assign colorHex = 'background-image: url(' | append: color_swatch_image | append: ')' -%}
-                {%- else -%}
-                  {% assign colorHex = 'background-color: #000000' %}
-                {%- endif -%}
-              {% endif %}
-            {% endfor %}
-
-            <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}" style="{{ colorHex }};"
-                   class="product-label-hover" data-variant-url="{{ colorHex }}"
-                   data-variant-color="{{ formatedColorNameFromOption }}">
-              <span class="visually-hidden">{{ 'products.product.variant_sold_out_or_unavailable' | t }}</span>
-
-            </label>
-          {%- endfor -%}
-        </div>
-      </div>
-    {% endif %}
-  {%- endfor -%}
 {%- endunless -%}
 
 {{ 'custom-style-filter-horizontal.css' | asset_url | stylesheet_tag }}
 
 <noscript class="product-form__noscript-wrapper-{{ section.id }}">
-  <div class="product-form__input{% if product.has_only_default_variant %} hidden{% endif %}">
-    <label class="form__label" for="Variants-{{ section.id }}">
-      {{- 'products.product.product_variants' | t -}}
-    </label>
-    <div class="select">
-      <select
-              name="id"
-              id="Variants-{{ section.id }}"
-              class="select__select"
-              form="{{ product_form_id }}"
-      >
-        {%- for variant in product.variants -%}
-          <option
-                  {% if variant == product.selected_or_first_available_variant %}
-                    selected="selected"
-                  {% endif %}
-                  {% if variant.available == false %}
-                    disabled
-                  {% endif %}
-                  value="{{ variant.id }}"
-          >
-            {%- liquid
-              echo variant.title
-              echo variant.price | money | strip_html | prepend: ' - '
-              if variant.available == false
-                echo 'products.product.sold_out' | t | prepend: ' - '
-              endif
-              if variant.quantity_rule.increment > 1
-                echo 'products.product.quantity.multiples_of' | t: quantity: variant.quantity_rule.increment | prepend: ' - '
-              endif
-              if variant.quantity_rule.min > 1
-                echo 'products.product.quantity.minimum_of' | t: quantity: variant.quantity_rule.min | prepend: ' - '
-              endif
-              if variant.quantity_rule.max != null
-                echo 'products.product.quantity.maximum_of' | t: quantity: variant.quantity_rule.max | prepend: ' - '
-              endif
-              # TODO: enable theme-check once `item_count_for_variant` is accepted as valid filter
-              # theme-check-disable
-              assign cart_quantity = cart | item_count_for_variant: variant.id
-              # theme-check-enable
-              if cart_quantity > 0
-                echo 'products.product.quantity.in_cart_html' | t: quantity: cart_quantity | prepend: ' - '
-              endif
-            -%}
-          </option>
-        {%- endfor -%}
-      </select>
-      {% render 'icon-caret' %}
+    <div class="product-form__input{% if product.has_only_default_variant %} hidden{% endif %}">
+        <label class="form__label" for="Variants-{{ section.id }}">
+            {{- 'products.product.product_variants' | t -}}
+        </label>
+        <div class="select">
+            <select
+                    name="id"
+                    id="Variants-{{ section.id }}"
+                    class="select__select"
+                    form="{{ product_form_id }}"
+            >
+                {%- for variant in product.variants -%}
+                    <option
+                            {% if variant == product.selected_or_first_available_variant %}
+                                selected="selected"
+                            {% endif %}
+                            {% if variant.available == false %}
+                                disabled
+                            {% endif %}
+                            value="{{ variant.id }}"
+                    >
+                        {%- liquid
+                            echo variant.title
+                            echo variant.price | money | strip_html | prepend: ' - '
+                            if variant.available == false
+                                echo 'products.product.sold_out' | t | prepend: ' - '
+                            endif
+                            if variant.quantity_rule.increment > 1
+                                echo 'products.product.quantity.multiples_of' | t: quantity: variant.quantity_rule.increment | prepend: ' - '
+                            endif
+                            if variant.quantity_rule.min > 1
+                                echo 'products.product.quantity.minimum_of' | t: quantity: variant.quantity_rule.min | prepend: ' - '
+                            endif
+                            if variant.quantity_rule.max != null
+                                echo 'products.product.quantity.maximum_of' | t: quantity: variant.quantity_rule.max | prepend: ' - '
+                            endif
+                            # TODO: enable theme-check once `item_count_for_variant` is accepted as valid filter
+                            # theme-check-disable
+                            assign cart_quantity = cart | item_count_for_variant: variant.id
+                            # theme-check-enable
+                            if cart_quantity > 0
+                                echo 'products.product.quantity.in_cart_html' | t: quantity: cart_quantity | prepend: ' - '
+                            endif
+                        -%}
+                    </option>
+                {%- endfor -%}
+            </select>
+            {% render 'icon-caret' %}
+        </div>
     </div>
-  </div>
 </noscript>
 
-<script src="{{ 'product-variant-tooltip.js' | asset_url }}" defer="defer"></script>
+{% comment %}<span class="variant__hovering">{% endcomment %}
+{% comment %}<span class="variant__hovering--image" style="{{ colorHex }}; display: block;"></span>{% endcomment %}
+{% comment %}<span class="variant__hovering--title">{{ formatedColorNameFromOption }}</span>{% endcomment %}
+{% comment %}</span>{% endcomment %}
+
+<script>
+    //Filter collection mobile + product form
+    document.addEventListener('reInitCollectionSort', () => {
+        filterInitialization();
+    })
+    filterInitialization();
+
+    function filterInitialization() {
+        let tooltipElem;
+        let variantColors = document.querySelectorAll('.product-label-hover');
+
+        variantColors.forEach((variant) => {
+
+            variant.onmouseover = function (event) {
+                if (window.innerWidth >= 768) {
+                    let target = event.target;
+
+                    // если у нас есть подсказка...
+                    let tooltipHtmlColor = target.dataset.variantColor;
+                    let tooltipHtmlUrl = target.dataset.variantUrl;
+                    if (!tooltipHtmlColor) return;
+                    if (!tooltipHtmlColor) return;
+
+                    // ...создадим элемент для подсказки
+
+                    tooltipElem = document.createElement('div');
+                    tooltipElem.className = 'variant__hovering';
+                    tooltipElem.innerHTML += `<span class="variant__hovering--image" style="${tooltipHtmlUrl}; display: block;"></span>`;
+                    tooltipElem.innerHTML += `<span class="variant__hovering--title">${tooltipHtmlColor}</span>`;
+                    variant.append(tooltipElem);
+
+                    // спозиционируем его сверху от аннотируемого элемента (top-center)
+                    let coords = target.getBoundingClientRect();
+
+                    let left = coords.left + (target.offsetWidth - tooltipElem.offsetWidth) / 2;
+                    let right = coords.right - (target.offsetWidth - tooltipElem.offsetWidth) / 2;
+
+                    let top = coords.top - tooltipElem.offsetHeight - 5;
+
+                    if (left < 0) {
+                        right = '';
+                        tooltipElem.style.right = right;
+                        tooltipElem.style.left = '0';
+                    } else if (right > window.innerWidth) {
+                        left = '';
+                        tooltipElem.style.right = '0';
+                        tooltipElem.style.left = left;
+
+                    } else {
+                        tooltipElem.style.left = left + 'px';
+                    }
+
+                    // if (top < 0) { // если подсказка не помещается сверху, то отображать её снизу
+                    //     top = coords.top + target.offsetHeight + 5;
+                    // }
+
+                    tooltipElem.style.top = top + 'px';
+                }
+            }
+
+            variant.onmouseout = function (e) {
+                if (tooltipElem) {
+                    tooltipElem.remove();
+                    tooltipElem = null;
+                }
+            };
+        });
+    }
+</script>

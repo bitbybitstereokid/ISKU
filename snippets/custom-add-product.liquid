@@ -25,10 +25,11 @@
                 type="submit"
                 name="add"
                 class="buy-too-card__button primary-btn{% unless variant.available and variant.inventory_management %} out-of-stock{% endunless %}"
-                aria-haspopup="dialog"
-                aria-labelledby="{{ product_form_id }}-submit title-{{ section_id }}-{{ product.id }}"
-                aria-live="polite"
-                data-sold-out-message="true"
+                {% if btn_too != false %}aria-haspopup="dialog"
+                    aria-labelledby="{{ product_form_id }}-submit title-{{ section_id }}-{{ product.id }}"
+                    aria-live="polite"
+                    data-sold-out-message="true"
+                {% endif %}
         {% if variant.available == false %}
             disabled
                 {% endif %}>

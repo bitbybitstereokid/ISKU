@@ -1,4 +1,3 @@
-
 /* card information */
 .card__information, .card-information {
     text-align: center;
@@ -49,22 +48,31 @@
     cursor: pointer;
 }
 
-.card-color-options{
+.card-color-options {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.card-color-options span{
+.card-color-options span {
     display: block;
     width: 15px;
     height: 15px;
     border-radius: 50%;
     margin-right: 10px;
     border: 1px solid #CE386A;
+    font-size: 12px;
 }
 
-.card-vendor{
+.card-color-options span.lastColor {
+    width: auto;
+    height: auto;
+    border-radius: 0;
+    margin-right: 0;
+    border: none
+}
+
+.card-vendor {
     font-style: normal;
     font-weight: 300;
     font-size: 12px;
@@ -74,7 +82,7 @@
     margin: 10px 0;
 }
 
-.card-color-options span:last-child{
+.card-color-options span:last-child {
     margin-right: 0;
 }
 
@@ -84,6 +92,10 @@
 
 .card__badge .badge {
     border-radius: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
 }
 
 .cart--hover__image {
@@ -167,7 +179,20 @@
     transition: 500ms ease-in-out;
 }
 
-.card--hover__href a:hover{
+.card--hover__href a:hover {
     background: var(--color-text-secondary);
     transition: 500ms ease-in-out;
+}
+
+@media screen and (max-width: 768px) {
+    .card-color-options span {
+        width: 11px;
+        height: 11px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .card__badge .badge {
+        height: auto
+    }
 }

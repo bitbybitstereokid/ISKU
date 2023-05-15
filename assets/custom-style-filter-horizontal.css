@@ -31,18 +31,22 @@
 .variant__hovering--image {
     width: 200px;
     height: 220px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%, cover;
 }
 
-.product-label-hover:hover::after {
-    top: -8px;
-    left: 50%;
-    transform: translateX(-50%);
-    height: 0;
-    width: 0;
-    content: '';
-    position: absolute;
-    pointer-events: none;
-    border: solid;
-    border-color: #353c4e #0000 #0000;
-    border-width: 5px;
+@media screen and (min-width: 991px) {
+    .product-label-hover:hover::after {
+        top: -8px;
+        left: 50%;
+        transform: translateX(-50%);
+        height: 0;
+        width: 0;
+        content: '';
+        position: absolute;
+        pointer-events: none;
+        border: solid;
+        border-color: #353c4e #0000 #0000;
+        border-width: 5px;
+    }
 }
