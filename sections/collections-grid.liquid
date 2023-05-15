@@ -1,0 +1,141 @@
+{% style %}
+    .collections_row--{{section.id}}{
+        padding-top: {{section.settings.padding_top}}px;
+        padding-bottom: {{section.settings.padding_bottom}}px;
+    }
+
+    @media screen and (max-width: 749px){
+        .collections_row--{{section.id}}{
+            padding-top: {{section.settings.padding_top_mobile}}px;
+            padding-bottom: {{section.settings.padding_bottom_mobile}}px;
+        }   
+    }
+    .collections_row_blocks > .collections_row_blocks_item{
+        max-width: calc((100% / {{section.blocks.size}}) - 16px);
+    }
+{% endstyle %}
+
+{{'collections-grid.css' | asset_url | stylesheet_tag }}
+
+<div class="collections_row collections_row--{{section.id}}">
+    <div class="collections_row_wrapper page-width">
+        <h3 class="collections_row_title">
+            {{section.settings.title}}
+        </h3>
+        <div class="collections_row_blocks">
+            {% for block in section.blocks %}
+                {% if block.settings.collection != blank or block.settings.title != blank %}
+                    {%- assign collectionUrl = block.settings.collection.url -%}
+                    {% if block.settings.url != blank %}
+                        {%- assign collectionUrl = block.settings.url -%}
+                    {% endif %}
+                    <a href="{{collectionUrl}}" class="collections_row_blocks_item">
+                        <div class="collections_row_blocks_item_image"> 
+                            {%- assign collectionImage = block.settings.collection -%}
+                            {% if block.settings.image != blank %}
+                                {%- assign collectionImage = block.settings.image -%}
+                            {% endif %}
+                            <img src="{{collectionImage | img_url: 'master' }}" alt="{{collectionImage.alt}}">
+                        </div>
+                        <h4 class="collections_row_blocks_item_title">
+                            {%- assign collectionTitle = block.settings.collection.title -%}
+                            {% if block.settings.title != blank %}
+                                {%- assign collectionTitle = block.settings.title -%}
+                            {% endif %}
+                            {{collectionTitle}}
+                        </h4>
+                    </a>
+                {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+{% schema %}
+{
+    "name": "Collections row",
+    "settings": [
+        {
+            "type": "text",
+            "id": "title",
+            "label": "Title",
+            "default": "Products"
+        },
+        {
+            "type": "range",
+            "id": "padding_top",
+            "label": "Padding top",
+            "unit": "px",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "default": 50
+        },
+        {
+            "type": "range",
+            "id": "padding_bottom",
+            "label": "Padding bottom",
+            "unit": "px",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "default": 50
+        },
+        {
+            "type": "range",
+            "id": "padding_top_mobile",
+            "label": "Padding top mobile",
+            "unit": "px",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "default": 30
+        },
+        {
+            "type": "range",
+            "id": "padding_bottom_mobile",
+            "label": "Padding bottom mobile",
+            "unit": "px",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "default": 30
+        }
+    ],
+    "blocks": [
+        {
+            "type": "collection",
+            "name": "Collection",
+            "settings": [
+                {
+                    "type": "collection",
+                    "id": "collection",
+                    "label": "Collection"
+                },
+                {
+                    "type": "text",
+                    "id": "title",
+                    "label": "Colelction title",
+                    "default": "TABLE",
+                    "info": "Optional"
+                },
+                {
+                    "type": "image_picker",
+                    "id": "image",
+                    "label": "Collection image (optional)"
+                },
+                {
+                    "type": "url",
+                    "id": "url",
+                    "label": "Collection url (optional)"
+                }
+            ]
+        }
+    ],
+    "presets": [
+        {
+            "name":"Collections row"
+        }
+    ]
+}
+{% endschema %}

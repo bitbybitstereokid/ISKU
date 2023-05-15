@@ -1,7 +1,10 @@
 {
   "current": {
+    "wishlist_outline": "shopify:\/\/shop_images\/heartoutline.png",
+    "wishlist_full": "shopify:\/\/shop_images\/heartfull.png",
     "logo": "shopify:\/\/shop_images\/image_50.png",
     "logo_width": 160,
+    "favicon": "shopify:\/\/shop_images\/Frame-5_1.png",
     "colors_solid_button_labels": "#ffffff",
     "colors_accent_1": "#121212",
     "gradient_accent_1": "",
@@ -17,7 +20,8 @@
     "heading_scale": 100,
     "type_body_font": "itc_avant_garde_gothic_n4",
     "body_scale": 100,
-    "page_width": 1240,
+    "type_body_font_bold": "itc_avant_garde_gothic_n6",
+    "page_width": 1340,
     "spacing_sections": 0,
     "spacing_grid_horizontal": 8,
     "spacing_grid_vertical": 8,
@@ -130,6 +134,13 @@
     "cart_url_name": "Go to cart",
     "cart_url": "\/cart",
     "drawer_title": "Kassa",
+    "colors_swatcher_colors": "black: #1F1F21; white: #FFFFFF; dark-grey: #424348; grey: grey.jpg; brown: #A52A2A; anthracite.jpg; arsenic:grey.jpg; wenge: beige.jpg; dark-liver:dark-blue.jpg;",
+    "checkout_logo_image": "shopify:\/\/shop_images\/image_50.webp",
+    "checkout_logo_position": "center",
+    "checkout_logo_size": "large",
+    "checkout_sidebar_background_color": "#0f4880",
+    "checkout_accent_color": "#373737",
+    "checkout_button_color": "#ce386a",
     "sections": {
       "main-password-header": {
         "type": "main-password-header",
@@ -146,21 +157,7 @@
     },
     "content_for_index": [
 
-    ],
-    "blocks": {
-      "18171216174956455555": {
-        "type": "shopify:\/\/apps\/order-delivery-date\/blocks\/odd-block\/80605365-b4f4-42ba-9b84-3d39984a49dc",
-        "disabled": true,
-        "settings": {
-        }
-      },
-      "2992592445315385548": {
-        "type": "shopify:\/\/apps\/shipfy-shipping-customization\/blocks\/install-snippets\/aab29d3f-8ec5-43ef-b394-5088032470b9",
-        "disabled": false,
-        "settings": {
-        }
-      }
-    }
+    ]
   },
   "presets": {
     "Default": {

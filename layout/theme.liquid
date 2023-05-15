@@ -64,6 +64,7 @@
       {{ settings.type_header_font | font_face: font_display: 'swap' }}
 
       :root  {
+        --font-body-family-regular: {{settings.type_body_font_bold.family}};
         --font-body-family: {{ settings.type_body_font.family }}, {{ settings.type_body_font.fallback_families }};
         --font-body-style: {{ settings.type_body_font.style }};
         --font-body-weight: {{ settings.type_body_font.weight }};
@@ -267,6 +268,16 @@
           padding: 0 10rem;
         }
       }
+      .card-wrapper_wishlist_outline{
+        background-image: url('{{settings.wishlist_outline | img_url: "master" }}');
+      }
+      .card-wrapper_wishlist_full{
+        background-image: url('{{settings.wishlist_full | img_url: "master" }}');
+      }
+      .secondary-btn:hover,
+      .secondary-btn:active {
+        background: rgba(255,255,255, 0.4) !important;
+      }
     {% endstyle %}
 
     <style>
@@ -321,7 +332,7 @@
         document.documentElement.classList.add('shopify-design-mode');
       }
     </script>
-  </head>
+  {% include 'hulk_po_vd' %}</head>
 
   <body class="gradient">
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
@@ -350,6 +361,7 @@
     </ul>
 
     <script>
+      window.pageWidth = +('{{settings.page_width}}')
       window.currentCurrency = '{{cart.currency.symbol}}'
       window.shopUrl = '{{ request.origin }}';
       window.routes = {

@@ -1,0 +1,110 @@
+
+{{'blog-preview-list.css' | asset_url | stylesheet_tag }}
+
+{% style %}
+    .blog_preview-{{section.id}}{
+        padding-top: {{section.settings.padding_top}}px;
+        padding-bottom: {{section.settings.padding_bottom}}px;
+    }
+    @media screen and (max-width: 749px) {
+        .blog_preview-{{section.id}}{
+            padding-top: {{section.settings.padding_top_mobile}}px;
+            padding-bottom: {{section.settings.padding_bottom_mobile}}px;
+        }
+    }
+{% endstyle %}
+
+<div class="blog_preview blog_preview-{{section.id}}">
+    <div class="blog_preview_wrapper page-width">
+        <h3 class="blog_preview_title">{{section.settings.title}}</h3>
+        <div class="blog_preview_articles">
+            {% for article in section.settings.blog.articles limit: 4 %}
+                <a href="{{article.url}}" class="blog_preview_articles_item">
+                    <div class="blog_preview_articles_item_img">
+                        <img src="{{article.image.src | img_url: 'medium' }}" alt="{{article.image.alt}}">
+                    </div>
+                    <div class="blog_preview_articles_item_info">
+                        <span>
+                            {{article.author}} &#x2022; {{article.published_at | date: "%m/%d/%Y"}}
+                        </span>
+                    </div>
+                    <div class="blog_preview_articles_item_title">
+                        {{article.title}}
+                    </div>
+                    <div class="blog_preview_articles_item_excerpt">
+                        {% if article.excerpt == blank %}
+                            {{ article.content | strip_html | truncate: 30 }}
+                        {% else %}
+                            {{ article.excerpt }}
+                        {% endif %}
+                    </div>
+                </a>
+
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+{% schema %}
+{
+    "name": "Blog preview list",
+    "settings": [
+        {
+            "type": "blog",
+            "id": "blog",
+            "label": "Blog"
+        },
+        {
+            "type": "text",
+            "id": "title",
+            "label": "Title",
+            "default": "Blog"
+        },
+        {
+            "type": "range",
+            "id": "padding_top",
+            "label": "Padding top",
+            "unit": "px",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "default": 50
+        },
+        {
+            "type": "range",
+            "id": "padding_bottom",
+            "label": "Padding bottom",
+            "unit": "px",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "default": 50
+        },
+        {
+            "type": "range",
+            "id": "padding_top_mobile",
+            "label": "Padding top mobile",
+            "unit": "px",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "default": 40
+        },
+        {
+            "type": "range",
+            "id": "padding_bottom_mobile",
+            "label": "Padding bottom mobile",
+            "unit": "px",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "default": 40
+        }
+    ],
+    "presets": [
+        {
+            "name":"Blog preview list"
+        }
+    ]
+}
+{% endschema %}

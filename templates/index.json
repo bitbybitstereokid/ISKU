@@ -1,11 +1,123 @@
 {
   "sections": {
+    "468448b2-8437-4b13-89c7-cf60342c62ae": {
+      "type": "hero-banner-slider",
+      "blocks": {
+        "c2d11906-9a42-4ce1-b13b-37495790ff47": {
+          "type": "slider",
+          "settings": {
+            "title": "Comfort and Style |That Will Transform Your Home",
+            "content": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat |duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+            "button": "LEARN MORE",
+            "button_url": "shopify:\/\/pages\/a-lifetime-with-isku",
+            "button_style": "secondary-btn",
+            "image": "shopify:\/\/shop_images\/Rectangle_4_3.png",
+            "image_mobile": "shopify:\/\/shop_images\/Rectangle_4_4.png"
+          }
+        },
+        "d2162bde-2b0e-4d0e-b3c0-f7a519aeeee0": {
+          "type": "slider",
+          "settings": {
+            "title": "Comfort and Style |That Will Transform Your Home",
+            "content": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat |duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+            "button": "LEARN MORE",
+            "button_url": "shopify:\/\/pages\/a-lifetime-with-isku",
+            "button_style": "primary-btn",
+            "image": "shopify:\/\/shop_images\/Rectangle_4_3.png",
+            "image_mobile": "shopify:\/\/shop_images\/Rectangle_4_4.png"
+          }
+        }
+      },
+      "block_order": [
+        "c2d11906-9a42-4ce1-b13b-37495790ff47",
+        "d2162bde-2b0e-4d0e-b3c0-f7a519aeeee0"
+      ],
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 50,
+        "content_color": "#ffffff"
+      }
+    },
+    "165ada33-7568-45ff-a3ed-4d70620bfee3": {
+      "type": "collections-grid",
+      "blocks": {
+        "8b05ba39-d983-40db-ac4c-882a3a69563b": {
+          "type": "collection",
+          "settings": {
+            "collection": "chairs",
+            "title": "",
+            "url": ""
+          }
+        },
+        "ee352da1-a486-46f2-a12c-eecba3c97aa5": {
+          "type": "collection",
+          "settings": {
+            "collection": "demo-collection",
+            "title": "",
+            "url": ""
+          }
+        },
+        "86567cf2-a6da-49cc-a945-2b62e1e14e32": {
+          "type": "collection",
+          "settings": {
+            "collection": "matot",
+            "title": "",
+            "url": ""
+          }
+        },
+        "db396ac4-bfa5-4f8b-8d76-2680e46fbdec": {
+          "type": "collection",
+          "settings": {
+            "collection": "matot",
+            "title": "",
+            "url": ""
+          }
+        },
+        "2a85f196-8f87-4b3d-b9bf-e9c4c60640d0": {
+          "type": "collection",
+          "settings": {
+            "collection": "chairs",
+            "title": "",
+            "url": ""
+          }
+        },
+        "a778f8ef-e09b-4440-805d-cf2009c6cad5": {
+          "type": "collection",
+          "settings": {
+            "collection": "demo-collection",
+            "title": "",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "8b05ba39-d983-40db-ac4c-882a3a69563b",
+        "ee352da1-a486-46f2-a12c-eecba3c97aa5",
+        "86567cf2-a6da-49cc-a945-2b62e1e14e32",
+        "db396ac4-bfa5-4f8b-8d76-2680e46fbdec",
+        "2a85f196-8f87-4b3d-b9bf-e9c4c60640d0",
+        "a778f8ef-e09b-4440-805d-cf2009c6cad5"
+      ],
+      "settings": {
+        "title": "Huonekaluja jokaiseen tilaan",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 30,
+        "padding_bottom_mobile": 40
+      }
+    },
     "5ffa3993-f36e-4b26-a08a-60dd72c4d9be": {
       "type": "hero-banner-half",
+      "disabled": true,
       "settings": {
+        "text_align": "left",
+        "image_position": "left",
+        "image_position_mobile": "top",
         "image": "shopify:\/\/shop_images\/homepage.jpg",
         "title": "ISKUn Brändiviikko!",
+        "small": false,
         "text": "Saat 5.3. saakka ISKUn Lahden omalla tehtaalla valmistetuista tuotteista suosikkisi -30% koodilla ISKU-30!",
+        "button_style": "primary",
         "btn_text": "ISKUN TUOTTEISIIN TÄSTÄ",
         "btn_url": "",
         "padding_top": 0,
@@ -21,15 +133,17 @@
         "image": "shopify:\/\/shop_images\/homepage2.jpg",
         "title": "ISKUssa On Nyt Univiikot!",
         "btn_text": "ETUIHIN TÄSTÄ",
-        "btn_url": "",
-        "padding_top": 0,
+        "btn_url": "shopify:\/\/pages\/project-sales",
+        "padding_top": 50,
         "padding_bottom": 50,
         "content_position": "top-left",
+        "full_width": false,
         "overlay": false
       }
     },
     "03254933-067d-4aaf-8f4a-611de34d2b27": {
       "type": "grid-section",
+      "disabled": true,
       "blocks": {
         "template--18265806242090__03254933-067d-4aaf-8f4a-611de34d2b27-1678440586048b43de-0": {
           "type": "item",
@@ -79,20 +193,26 @@
     "24f39b0f-ddeb-4fe4-b950-1ff47944f981": {
       "type": "hero-banner-half",
       "settings": {
+        "text_align": "left",
+        "image_position": "right",
+        "image_position_mobile": "top",
         "image": "shopify:\/\/shop_images\/minimal-picture-frame-with-scandinavian-design_1-1.jpg",
         "title": "Laadukkaan Unen Salaisuus",
+        "small": false,
         "text": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
+        "button_style": "secondary",
         "btn_text": "Varaa aika",
-        "btn_url": "",
+        "btn_url": "shopify:\/\/pages\/contact",
         "padding_top": 50,
         "padding_bottom": 50,
-        "full_width": false,
-        "bg_color": "#efefef",
-        "text_color": "#1a1919"
+        "full_width": true,
+        "bg_color": "#0f4880",
+        "text_color": "#ffffff"
       }
     },
     "71faa244-acd3-4776-9fcf-94afd49f27c6": {
       "type": "grid-section",
+      "disabled": true,
       "blocks": {
         "template--18265806242090__71faa244-acd3-4776-9fcf-94afd49f27c6-1678440586048b43de-0": {
           "type": "item",
@@ -145,24 +265,12 @@
         "image": "shopify:\/\/shop_images\/homepage1.jpg",
         "title": "ISKUn Kotimaiset Sohvat",
         "btn_text": "LUE LISÄÄ TÄSTÄ",
-        "btn_url": "",
+        "btn_url": "shopify:\/\/blogs\/referenssit",
         "padding_top": 50,
         "padding_bottom": 50,
         "content_position": "center-left",
+        "full_width": false,
         "overlay": false
-      }
-    },
-    "b9432f4d-03b8-46a9-af6c-e2e8cbe547e1": {
-      "type": "hero-banner-secondary",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/homepage3.jpg",
-        "title": "Trendikäs Uutuus Tuoli 53 On Täällä!",
-        "btn_text": "TUTUSTU TÄSTÄ",
-        "btn_url": "",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "content_position": "center",
-        "overlay": true
       }
     },
     "3d45458a-fc10-48c0-80b4-70414810b48e": {
@@ -172,15 +280,50 @@
         "padding_top": 50,
         "padding_bottom": 50,
         "reverse": false,
-        "text_centered": true,
+        "text_centered": false,
         "title": "Interfacen uusi mallisto nyt kaikista ISKUn myymälöistä!",
         "text": "<p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.  Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Velit officia consequat duis enim velit mollit. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. <\/p><p>Exercitation veniam consequat sunt nostrud amet. Exercitatio n veniam consequat sunt nostrud amet.Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.<\/p>",
         "btn_text": "LUE LISÄÄ TÄSTÄ",
-        "btn_url": ""
+        "btn_url": "shopify:\/\/blogs\/inspiration\/syksyn-2021-trendit"
+      }
+    },
+    "b9432f4d-03b8-46a9-af6c-e2e8cbe547e1": {
+      "type": "hero-banner-secondary",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/homepage3.jpg",
+        "title": "Trendikäs Uutuus Tuoli 53 On Täällä!",
+        "btn_text": "TUTUSTU TÄSTÄ",
+        "btn_url": "shopify:\/\/collections\/chairs",
+        "padding_top": 50,
+        "padding_bottom": 0,
+        "content_position": "center",
+        "full_width": true,
+        "overlay": true
+      }
+    },
+    "99b95b1a-5e12-46bc-8d88-c0a756a10df4": {
+      "type": "hero-banner-half",
+      "settings": {
+        "text_align": "left",
+        "image_position": "right",
+        "image_position_mobile": "bottom",
+        "image": "shopify:\/\/shop_images\/Rectangle_42_84085027-b1f5-478b-b8a0-5497189359e4.jpg",
+        "title": "Title",
+        "small": true,
+        "text": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.  Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Velit officia consequat duis enim velit mollit. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.Exercitation veniam consequat sunt nostrud amet. \n|\nExercitatio n veniam consequat sunt nostrud amet.Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+        "button_style": "secondary",
+        "btn_text": "Lue lisää",
+        "btn_url": "shopify:\/\/pages\/a-lifetime-with-isku",
+        "padding_top": 0,
+        "padding_bottom": 50,
+        "full_width": true,
+        "bg_color": "#0f4880",
+        "text_color": "#ffffff"
       }
     },
     "273fe876-ab7b-4aad-8dec-4cf8c8f92d7c": {
       "type": "about-image-text",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Rectangle_42_84085027-b1f5-478b-b8a0-5497189359e4.jpg",
         "padding_top": 50,
@@ -193,27 +336,42 @@
         "btn_url": ""
       }
     },
+    "feb9c2fd-6386-484f-903f-7acd018a6e98": {
+      "type": "blog-preview",
+      "settings": {
+        "blog": "kampanjat",
+        "title": "Blog",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40
+      }
+    },
     "c8acecc1-e53e-43a2-9708-51112c7d2ff1": {
       "type": "home-page-subscribe",
       "settings": {
         "padding_top": 50,
         "padding_bottom": 0,
-        "title": "<p>Sign up to <strong>save 10%<\/strong> on your first order!<\/p>",
-        "text": "To learn more about how we use your information, read our Privacy Policy",
-        "btn_text": "Subscribe"
+        "title": "<p>Tilaa uutiskirje, saat 15% alekoodin.<\/p>",
+        "text": "Uutiskirjeistämme saat inspiraatiota sisustukseen, sekä tiedät ensimmäisenä kampanjoistamme ja tarjouksistamme.",
+        "btn_text": "Tilaa"
       }
     }
   },
   "order": [
+    "468448b2-8437-4b13-89c7-cf60342c62ae",
+    "165ada33-7568-45ff-a3ed-4d70620bfee3",
     "5ffa3993-f36e-4b26-a08a-60dd72c4d9be",
     "a62c2669-6545-452b-8c54-de617831aae4",
     "03254933-067d-4aaf-8f4a-611de34d2b27",
     "24f39b0f-ddeb-4fe4-b950-1ff47944f981",
     "71faa244-acd3-4776-9fcf-94afd49f27c6",
     "de0f6296-9452-488f-a982-a31b8b396fff",
-    "b9432f4d-03b8-46a9-af6c-e2e8cbe547e1",
     "3d45458a-fc10-48c0-80b4-70414810b48e",
+    "b9432f4d-03b8-46a9-af6c-e2e8cbe547e1",
+    "99b95b1a-5e12-46bc-8d88-c0a756a10df4",
     "273fe876-ab7b-4aad-8dec-4cf8c8f92d7c",
+    "feb9c2fd-6386-484f-903f-7acd018a6e98",
     "c8acecc1-e53e-43a2-9708-51112c7d2ff1"
   ]
 }
