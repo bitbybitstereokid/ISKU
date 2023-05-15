@@ -1,130 +1,141 @@
-{{ 'product-highlights.css' | asset_url | stylesheet_tag }}
+{% if product.metafields.custom.video_product != blank %}
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css"/>
+    {{ 'product-highlights.css' | asset_url | stylesheet_tag }}
 
-{% style %}
-    .product-highlights.product-highlights--{{ section.id }} {
+    {% style %}
+        .product-highlights.product-highlights--{{ section.id }} {
         padding-top: {{ section.settings.padding_top | times: 0.8 | round: 0 }}px;
         padding-bottom: {{ section.settings.padding_bottom | times: 0.8 | round: 0 }}px;
-    }
-
-    @media only screen and (min-width: 769px) {
-        .product-highlights.product-highlights--{{ section.id }} {
-            padding-top: {{ section.settings.padding_top }}px;
-            padding-bottom: {{ section.settings.padding_bottom }}px;
         }
-    }
-{% endstyle %}
 
-<div class="product-highlights page-width product-highlights--{{ section.id }}">
-    <div class="product-highlights__tabs">
-        {% for block in section.blocks %}
-            <div class="product-highlights__tab {% if forloop.index == 1 %}active{% endif %}">
-                <h5 class="product-highlights__tab-label">
-                    {{ block.settings.label }}
-                    <span class="product-highlights__tab-label--icon"></span>
-                </h5>
-                <div class="product-highlights__tab-content">
-                    {{ block.settings.content }}
+        @media only screen and (min-width: 769px) {
+        .product-highlights.product-highlights--{{ section.id }} {
+        padding-top: {{ section.settings.padding_top }}px;
+        padding-bottom: {{ section.settings.padding_bottom }}px;
+        }
+        }
+    {% endstyle %}
+    <div class="product-highlights page-width product-highlights--{{ section.id }}">
+        <div class="product-highlights__tabs">
+            {% comment %}<div class="product-highlights__main-text">{% endcomment %}
+            {% comment %}{{ product.description }}{% endcomment %}
+            {% comment %}</div>{% endcomment %}
+            {% for block in section.blocks %}
+                <div class="product-highlights__tab {% if forloop.index == 1 %}active{% endif %}">
+                    <h5 class="product-highlights__tab-label">
+                        {{ block.settings.label }}
+                        <span class="product-highlights__tab-label--icon"></span>
+                    </h5>
+                    <div class="product-highlights__tab-content">
+                        {{ block.settings.content }}
+                    </div>
                 </div>
-            </div>
-        {% endfor %}
-    </div>
-    <div class="product-highlights__main">
-        {% if section.settings.image != blank %}
+            {% endfor %}
+        </div>
+        <div class="product-highlights__main">
             <div class="product-highlights__main-image image-wrapper">
-                <img src="{{ section.settings.image | img_url: 'master' }}" alt="{{ section.settings.image.alt }}">
+                {% comment %}{{ product.metafields.custom.video_product | file_url }}{% endcomment %}
+                <video class="video__product" controls>
+                    <source src="{{ product.metafields.custom.video_product | file_url }}" />
+                </video>
             </div>
-        {% endif %}
-        <div class="product-highlights__main-text">
-            {{ section.settings.main_text }}
+            {% if section.settings.main_text != blank %}
+                <div class="product-highlights__main-text">
+                    {{ section.settings.main_text }}
+                </div>
+            {% endif %}
         </div>
     </div>
-</div>
+    <script src="https://cdn.plyr.io/3.7.8/plyr.js"></script>
+    <script>
+        const player = new Plyr(document.querySelector('.video__product'));
 
-<script>
-    const accordion = document.querySelector('.product-highlights--{{ section.id }} .product-highlights__tabs')
-    const arrayTabs = accordion.querySelectorAll('.product-highlights__tab');
-    arrayTabs.forEach((tab) => {
-        const title = tab.querySelector('.product-highlights__tab-label');
-        const content = tab.querySelector('.product-highlights__tab-content');
+        const accordion = document.querySelector('.product-highlights--{{ section.id }} .product-highlights__tabs')
+        const arrayTabs = accordion.querySelectorAll('.product-highlights__tab');
+        arrayTabs.forEach((tab) => {
+            const title = tab.querySelector('.product-highlights__tab-label');
+            const content = tab.querySelector('.product-highlights__tab-content');
 
-        title.addEventListener('click', () => {
-            // перевіряємо, чи активний елемент
-            const isActive = tab.classList.contains("active");
+            title.addEventListener('click', () => {
+                // перевіряємо, чи активний елемент
+                const isActive = tab.classList.contains("active");
 
-            // закриваємо всі відкриті елементи
-            arrayTabs.forEach(tab => {
-                tab.classList.remove("active");
+                // закриваємо всі відкриті елементи
+                arrayTabs.forEach(tab => {
+                    tab.classList.remove("active");
+                });
+
+                // відкриваємо клікнутий елемент, якщо він не активний
+                if (!isActive) {
+                    tab.classList.add("active");
+                }
             });
+        })
+    </script>
 
-            // відкриваємо клікнутий елемент, якщо він не активний
-            if (!isActive) {
-                tab.classList.add("active");
-            }
-        });
-    })
-</script>
+{% endif %}
 
 {% schema %}
 {
-    "name": {
-        "en": "Product Highlights"
-    },
-    "settings": [
-        {
-            "type": "range",
-            "id": "padding_top",
-            "min": 0,
-            "max": 100,
-            "step": 1,
-            "unit": "px",
-            "label": "Free spave above",
-            "default": 0
-        },
-        {
-            "type": "range",
-            "id": "padding_bottom",
-            "min": 0,
-            "max": 100,
-            "step": 1,
-            "unit": "px",
-            "label": "Free spave below",
-            "default": 0
-        },
-        {
-            "type": "image_picker",
-            "id": "image",
-            "label": "Image"
-        },
-        {
-            "type": "richtext",
-            "id": "main_text",
-            "label": "Main text",
-            "default": "<p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>"
-        }
-    ],
-    "blocks": [
-        {
-            "type": "highlight",
-            "name": "Product highlight",
-            "settings": [
-                {
-                    "type": "text",
-                    "id": "label",
-                    "label": "Label",
-                    "default": "Tuotteen ominaisuudet"
-                },
-                {
-                    "type": "richtext",
-                    "id": "content",
-                    "label": "Content",
-                    "default": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis eaque, qui natus ipsam fugit, sed vitae voluptate reiciendis quia officiis odio repellat magni repellendus, ratione asperiores laudantium doloribus ipsum distinctio?</p>"
-                }
-            ]
-        }
-    ],
-    "presets": [
+  "name": {
+    "en": "Product Highlights"
+  },
+  "settings": [
     {
-        "name": "Product Highlights"
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Free spave above",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Free spave below",
+      "default": 0
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    },
+    {
+      "type": "richtext",
+      "id": "main_text",
+      "label": "Main text",
+      "default": "<p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "highlight",
+      "name": "Product highlight",
+      "settings": [
+        {
+          "type": "text",
+          "id": "label",
+          "label": "Label",
+          "default": "Tuotteen ominaisuudet"
+        },
+        {
+          "type": "richtext",
+          "id": "content",
+          "label": "Content",
+          "default": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis eaque, qui natus ipsam fugit, sed vitae voluptate reiciendis quia officiis odio repellat magni repellendus, ratione asperiores laudantium doloribus ipsum distinctio?</p>"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Product Highlights"
     }
   ]
 }

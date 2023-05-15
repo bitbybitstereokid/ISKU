@@ -10,6 +10,6 @@
         <h4 class="article-card-kampanjat__title">{{ article.title | escape | truncatewords: 9 }}</h4>
         <p class="article-card__date">{{ article.published_at | date: '%B %d, %Y'  }}</p>
         <p class="article-card__text">{{ article.excerpt_or_content | strip | strip_html | truncatewords: 10, '...' }}</p>
-        <button class="article-card-kampanjat__button article-card__button primary-btn">{{ section.settings.article_btn_text }}</button>
+        <button class="article-card-kampanjat__button article-card__button primary-btn">{{ settings.article_btn_text }}</button>
     </div>
 </a>

@@ -298,61 +298,77 @@
   let rightButton = document.querySelector('.button-thumbnail-slide-right');
   let leftButton = document.querySelector('.button-thumbnail-slide-left');
 
-  leftButton.addEventListener('click', () => {
-    let thumbnails = document.querySelectorAll('.thumbnail-list__item > button');
-    let thumbBig = document.querySelectorAll('.product__media-item');
-    let slider = document.querySelector('.thumbnail-list');
-    let acI = 0;
-    thumbnails.forEach((thumbnail, index) => {
-      thumbnail.ariaCurrent ? acI = --index : null;
-      thumbnail.removeAttribute('aria-current');
-    });
+  if (leftButton) {
+    leftButton.addEventListener('click', () => {
+      let thumbnails = document.querySelectorAll('.thumbnail-list__item > button');
+      let thumbBig = document.querySelectorAll('.product__media-item');
+      let slider = document.querySelector('.thumbnail-list');
+      let acI = 0;
+      thumbnails.forEach((thumbnail, index) => {
+        thumbnail.ariaCurrent ? acI = --index : null;
+        thumbnail.removeAttribute('aria-current');
+      });
 
-    thumbBig.forEach((big)=> {
-      big.classList.remove('is-active');
-    });
+      thumbBig.forEach((big) => {
+        big.classList.remove('is-active');
+      });
 
-    acI = 0 > acI ? thumbnails.length - 1 : acI;
-    if (thumbnails[acI].parentElement.classList.contains('thumbnail-list_item--variant')) {
+      acI = 0 > acI ? thumbnails.length - 1 : acI;
+      // if (thumbnails[acI].parentElement.classList.contains('thumbnail-list_item--variant')) {
+      //     if (acI === 0) {
+      //         acI = 0;
+      //     } else {
+      //         acI--;
+      //     }
+      // }
       if (acI === 0) {
-        acI = 0;
-      } else {
-        acI--;
+        leftButton.classList.add('none');
       }
-    }
-    if (acI === 0) { leftButton.classList.add('none'); }
-    rightButton.classList.remove('none');
 
-    thumbnails[acI].setAttribute('aria-current', true);
-    slider.scrollTo({left: thumbnails[acI].parentElement.offsetLeft});
-    thumbBig[acI].classList.add('is-active');
-    thumbBig[acI].parentElement.scrollTo({left: thumbBig[acI].offsetLeft})
-  });
+      if (acI < 0) {
+        acI = 0;
+        leftButton.classList.add('none');
+      }
+      rightButton.classList.remove('none');
 
-  rightButton.addEventListener('click', () => {
-    let thumbnails = document.querySelectorAll('.thumbnail-list__item > button');
-    let thumbBig = document.querySelectorAll('.product__media-item');
-    let slider = document.querySelector('.thumbnail-list');
-    let acI = 0;
-    thumbnails.forEach((thumbnail, index) => {
-      thumbnail.ariaCurrent ? acI = ++index : null;
-      thumbnail.removeAttribute('aria-current');
+      thumbnails[acI].setAttribute('aria-current', true);
+      slider.scrollTo({left: thumbnails[acI].parentElement.offsetLeft});
+      thumbBig[acI].classList.add('is-active');
+      thumbBig[acI].parentElement.scrollTo({left: thumbBig[acI].offsetLeft})
     });
-    thumbBig.forEach((big)=> {
-      big.classList.remove('is-active');
+  }
+
+  if (rightButton) {
+    rightButton.addEventListener('click', () => {
+      let thumbnails = document.querySelectorAll('.thumbnail-list__item > button');
+      let thumbBig = document.querySelectorAll('.product__media-item');
+      let slider = document.querySelector('.thumbnail-list');
+      let acI = 0;
+      thumbnails.forEach((thumbnail, index) => {
+        thumbnail.ariaCurrent ? acI = ++index : null;
+        thumbnail.removeAttribute('aria-current');
+      });
+      thumbBig.forEach((big) => {
+        big.classList.remove('is-active');
+      });
+
+      // acI = thumbnails[acI].parentElement.classList.contains('thumbnail-list_item--variant') ? acI + 1 : acI;
+      let length = thumbnails.length - 1;
+      if (acI === length) {
+        // acI = thumbnails[length].classList.contains('thumbnail-list_item--variant') ? length - 1 : acI;
+        rightButton.classList.add('none');
+      }
+
+      if (acI > length) {
+        acI = length;
+        rightButton.classList.add('none');
+      }
+      leftButton.classList.remove('none');
+
+      thumbnails[acI].setAttribute('aria-current', true);
+      slider.scrollTo({left: thumbnails[acI].parentElement.offsetLeft})
+      thumbBig[acI].classList.add('is-active');
+      thumbBig[acI].parentElement.scrollTo({left: thumbBig[acI].offsetLeft});
     });
-
-    acI = thumbnails[acI].parentElement.classList.contains('thumbnail-list_item--variant') ? acI + 1 : acI;
-    let length = thumbnails.length - 1;
-    if(acI === length){
-      acI = thumbnails[length].classList.contains('thumbnail-list_item--variant') ? length - 1 : acI;
-      rightButton.classList.add('none');
-    }
-    leftButton.classList.remove('none');
-
-    thumbnails[acI].setAttribute('aria-current', true);
-    slider.scrollTo({left: thumbnails[acI].parentElement.offsetLeft})
-    thumbBig[acI].classList.add('is-active');
-    thumbBig[acI].parentElement.scrollTo({left: thumbBig[acI].offsetLeft});
-  });
+  }
 </script>

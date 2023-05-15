@@ -80,11 +80,11 @@
     }
 
     .cart__like--item {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        flex-direction: column;
-        height: auto;
+        /*display: flex;*/
+        /*align-items: center;*/
+        /*justify-content: space-between;*/
+        /*flex-direction: column;*/
+        /*height: auto;*/
     }
 
     .cart-like__button {
@@ -263,9 +263,7 @@
 <script>
     document.addEventListener('DOMContentLoaded', async () => {
         const cartLike = new Swiper('.swiper.cart__like.cart__like-slider--{{ section.id }}', {
-            loop: true,
-            slidesPerView: 3.6,
-            centeredSlides: 1,
+            centeredSlides: true,
             navigation: {
                 nextEl: '.cart__like-next',
                 prevEl: '.cart__like-prev',
@@ -280,7 +278,7 @@
                     spaceBetween: 20
                 },
                 990: {
-                    slidesPerView: 3.8,
+                    slidesPerView: 3.6,
                     spaceBetween: 20
                 }
             },

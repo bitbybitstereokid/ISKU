@@ -1,6 +1,7 @@
 .buy-too {
     padding: 40px 15px;
     background-color: #F4F4F2;
+    margin: 0 auto;
 }
 
 .buy-too__title {
@@ -227,12 +228,11 @@
         padding: 15px;
         width: fit-content;
     }
-
 }
 
-
-@media screen and (min-width:1400px) {
+@media screen and (min-width:1441px) {
     .buy-too {
-        padding: 50px 190px;
+        padding-left: 10rem;
+        padding-right: 10rem;
     }
 }

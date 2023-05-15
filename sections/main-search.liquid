@@ -2,6 +2,9 @@
 {{ 'component-card.css' | asset_url | stylesheet_tag }}
 {{ 'custom-component-card.css' | asset_url | stylesheet_tag }}
 {{ 'component-price.css' | asset_url | stylesheet_tag }}
+{{ 'article-list.css' | asset_url | stylesheet_tag }}
+{{ 'article-card-kampanjat.css' | asset_url | stylesheet_tag }}
+{{ 'custom-style-filter-horizontal.css' | asset_url | stylesheet_tag }}
 
 <link rel="stylesheet" href="{{ 'component-search.css' | asset_url }}" media="print" onload="this.media='all'">
 
@@ -32,6 +35,18 @@
     padding-bottom: 18rem;
   }
 
+  .article-card__content{
+    justify-content: flex-end;
+  }
+
+  .article-card-kampanjat{
+    height: 100%;
+  }
+
+  .article-card__text{
+    display: none;
+  }
+
   @media screen and (min-width: 750px) {
     .template-search__header {
       margin-bottom: 5rem;
@@ -51,17 +66,18 @@
 
 {%- style -%}
   .section-{{ section.id }}-padding {
-    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
-    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+  padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
 
   @media screen and (min-width: 750px) {
-    .section-{{ section.id }}-padding {
-      padding-top: {{ section.settings.padding_top }}px;
-      padding-bottom: {{ section.settings.padding_bottom }}px;
-    }
+  .section-{{ section.id }}-padding {
+  padding-top: {{ section.settings.padding_top }}px;
+  padding-bottom: {{ section.settings.padding_bottom }}px;
+  }
   }
 {%- endstyle -%}
+{{ 'component-custom-facets.css' | asset_url | stylesheet_tag }}
 
 <div class="template-search{% unless search.performed and search.results_count > 0 %} template-search--empty{% endunless %} section-{{ section.id }}-padding">
   <div class="template-search__header page-width">
@@ -73,62 +89,63 @@
       {%- endif -%}
     </h1>
     <div class="template-search__search">
-      {%- if settings.predictive_search_enabled -%}
-        <predictive-search data-loading-text="{{ 'accessibility.loading' | t }}">
-      {%- endif -%}
-          <main-search>
-            <form action="{{ routes.search_url }}" method="get" role="search" class="search">
-              <div class="field">
-                <input
-                  class="search__input field__input"
-                  id="Search-In-Template"
-                  type="search"
-                  name="q"
-                  value="{{ search.terms | escape }}"
-                  placeholder="{{ 'general.search.search' | t }}"
-                  {%- if settings.predictive_search_enabled -%}
-                    role="combobox"
-                    aria-expanded="false"
-                    aria-owns="predictive-search-results"
-                    aria-controls="predictive-search-results"
-                    aria-haspopup="listbox"
-                    aria-autocomplete="list"
-                    autocorrect="off"
-                    autocomplete="off"
-                    autocapitalize="off"
-                    spellcheck="false"
-                  {%- endif -%}
-                >
-                <label class="field__label" for="Search-In-Template">{{ 'general.search.search' | t }}</label>
-                <input name="options[prefix]" type="hidden" value="last">
+    {%- if settings.predictive_search_enabled -%}
+      <predictive-search data-loading-text="{{ 'accessibility.loading' | t }}">
+        {%- endif -%}
+        <main-search>
+          <form action="{{ routes.search_url }}" method="get" role="search" class="search">
+            <div class="field">
+              <label for="Search-In-Template"></label>
+              <input
+                      class="search__input field__input"
+                      id="Search-In-Template"
+                      type="search"
+                      name="q"
+                      value="{{ search.terms | escape }}"
+                      placeholder="{{ 'general.search.search' | t }}"
+                      {%- if settings.predictive_search_enabled -%}
+                        role="combobox"
+                        aria-expanded="false"
+                        aria-owns="predictive-search-results"
+                        aria-controls="predictive-search-results"
+                        aria-haspopup="listbox"
+                        aria-autocomplete="list"
+                        autocorrect="off"
+                        autocomplete="off"
+                        autocapitalize="off"
+                        spellcheck="false"
+                      {%- endif -%}
+              >
+              <label class="field__label" for="Search-In-Template">{{ 'general.search.search' | t }}</label>
+              <input name="options[prefix]" type="hidden" value="last">
 
-                {%- if settings.predictive_search_enabled -%}
-                  <div class="predictive-search predictive-search--search-template" tabindex="-1" data-predictive-search>
-                    <div class="predictive-search__loading-state">
-                      <svg aria-hidden="true" focusable="false" class="spinner" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
-                        <circle class="path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle>
-                      </svg>
-                    </div>
+              {%- if settings.predictive_search_enabled -%}
+                <div class="predictive-search predictive-search--search-template" tabindex="-1" data-predictive-search>
+                  <div class="predictive-search__loading-state">
+                    <svg aria-hidden="true" focusable="false" class="spinner" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
+                      <circle class="path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle>
+                    </svg>
                   </div>
+                </div>
 
-                  <span class="predictive-search-status visually-hidden" role="status" aria-hidden="true"></span>
-                {%- endif -%}
+                <span class="predictive-search-status visually-hidden" role="status" aria-hidden="true"></span>
+              {%- endif -%}
 
-                <button type="reset" class="reset__button field__button{% if search.terms == blank %} hidden{% endif %}" aria-label="{{ 'general.search.reset' | t }}">
-                  <svg class="icon icon-close" aria-hidden="true" focusable="false">
-                    <use xlink:href="#icon-reset">
-                  </svg>
-                </button>
-                <button type="submit" class="search__button field__button" aria-label="{{ 'general.search.search' | t }}">
-                  <svg class="icon icon-search" aria-hidden="true" focusable="false">
-                    <use xlink:href="#icon-search">
-                  </svg>
-                </button>
-              </div>
-            </form>
-          </main-search>
-      {%- if settings.predictive_search_enabled -%}
-        </predictive-search>
+              <button type="reset" class="reset__button field__button{% if search.terms == blank %} hidden{% endif %}" aria-label="{{ 'general.search.reset' | t }}">
+                <svg class="icon icon-close" aria-hidden="true" focusable="false">
+                  <use xlink:href="#icon-reset">
+                </svg>
+              </button>
+              <button type="submit" class="search__button field__button" aria-label="{{ 'general.search.search' | t }}">
+                <svg class="icon icon-search" aria-hidden="true" focusable="false">
+                  <use xlink:href="#icon-search">
+                </svg>
+              </button>
+            </div>
+          </form>
+        </main-search>
+        {%- if settings.predictive_search_enabled -%}
+      </predictive-search>
       {%- endif -%}
 
     </div>
@@ -149,9 +166,9 @@
         <form class="facets-vertical-form" id="FacetSortForm">
           <div class="facet-filters sorting caption">
             <div class="facet-filters__field">
-              <h2 class="facet-filters__label caption-large text-body">
+              {% comment %}<h2 class="facet-filters__label caption-large text-body">
                 <label for="SortBy">{{ 'products.facets.sort_by_label' | t }}</label>
-              </h2>
+              </h2>{% endcomment %}
               <div class="select">
                 {%- assign sort_by = search.sort_by | default: search.default_sort_by -%}
                 <select name="sort_by" class="facet-filters__sort select__select caption-large" id="SortBy" aria-describedby="a11y-refresh-page-message">
@@ -160,6 +177,32 @@
                   {%- endfor -%}
                 </select>
                 {% render 'icon-caret' %}
+              </div>
+
+              <div class="facet-filters__custom-select">
+                {%- assign sort_by = search.sort_by | default: search.default_sort_by -%}
+                <div class="custom-select-list" onclick="clickSort(this)">
+                  <div class="custom-select__title">
+                    {%- for option in search.sort_options -%}
+                      {% if option.value == sort_by %}  {{ option.name | escape }} {% break %} {% endif %}
+                    {%- endfor -%}
+                  </div>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13"
+                       viewBox="0 0 13 13"
+                       fill="none">
+                    <path d="M1 4L6.5 9L12 4" stroke="#1A1919"/>
+                  </svg>
+                  <ul>
+                    {%- for option in search.sort_options -%}
+                      <li>
+                        <button type="button" onclick="clickOption(this)"
+                                data-value="{{ option.value | escape }}"
+                        {% if option.value == sort_by %} class="active" {% endif %}>
+                          {{ option.name | escape }}</button>
+                      </li>
+                    {%- endfor -%}
+                  </ul>
+                </div>
               </div>
             </div>
             <noscript>
@@ -223,22 +266,22 @@
                       {%- when 'product' -%}
                         {%- capture product_settings -%}{%- if section.settings.product_show_vendor -%}vendor,{%- endif -%}title,price{%- endcapture -%}
                         {% render 'card-product',
-                          card_product: item,
-                          media_aspect_ratio: section.settings.image_ratio,
-                          show_secondary_image: section.settings.show_secondary_image,
-                          show_vendor: section.settings.show_vendor,
-                          show_rating: section.settings.show_rating,
-                          lazy_load: lazy_load
+                                card_product: item,
+                                media_aspect_ratio: section.settings.image_ratio,
+                                show_secondary_image: section.settings.show_secondary_image,
+                                show_vendor: section.settings.show_vendor,
+                                show_rating: section.settings.show_rating,
+                                lazy_load: lazy_load
                         %}
                       {%- when 'article' -%}
                         {% render 'article-card',
-                          article: item,
-                          show_image: true,
-                          show_date: section.settings.article_show_date,
-                          show_author: section.settings.article_show_author,
-                          show_badge: true,
-                          media_aspect_ratio: 1,
-                          lazy_load: lazy_load
+                                article: item,
+                                show_image: true,
+                                show_date: section.settings.article_show_date,
+                                show_author: section.settings.article_show_author,
+                                show_badge: true,
+                                media_aspect_ratio: 1,
+                                lazy_load: lazy_load
                         %}
                       {%- when 'page' -%}
                         <div class="article-card-wrapper card-wrapper underline-links-hover">
@@ -271,6 +314,9 @@
     </div>
   {%- endif -%}
 </div>
+
+
+<script src="{{ 'collection-script.js' | asset_url }}" defer="defer"></script>
 
 {% schema %}
 {

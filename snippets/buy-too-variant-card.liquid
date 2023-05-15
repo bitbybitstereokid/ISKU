@@ -19,7 +19,12 @@
             <span class="buy-too-card__available--in-stock">{{ section.settings.in_stock_text | escape }}</span>
             <span class="buy-too-card__available--out-stock">{{ section.settings.out_stock_text | escape  }}</span>
         </p>
-        {% render 'custom-add-product', product: variant.product, variant: variant, button_in: section.settings.btn_text, btn_out: section.settings.btn_out_stock_text %}
-
+        {% render 'custom-add-product',
+                product: variant.product,
+                variant: variant,
+                button_in: section.settings.btn_text,
+                btn_out: section.settings.btn_out_stock_text,
+                btn_too: false
+        %}
     </div>
 </a>

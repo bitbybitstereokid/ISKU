@@ -34,7 +34,7 @@
 /*}*/
 
 .custom-product .product__media-wrapper slider-component.thumbnail-slider {
-    margin: 0;
+    margin: 15px 0 0 0;
 }
 
 .custom-product .product-media-container.constrain-height.media-fit-contain {
@@ -177,8 +177,9 @@
     }
 }
 
-@media screen and (min-width:1025px) {
-    .custom-product {
-        /*padding: 0 100px;*/
+@media screen and (max-width: 749px){
+    .custom-product .product-media-container.constrain-height.media-fit-contain {
+        /*width: 100%;*/
+        width: calc(100% - 30px);
     }
 }

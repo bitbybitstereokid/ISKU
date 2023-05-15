@@ -69,12 +69,14 @@
                     return acc
                 }, 0);
 
-                if (productSlidesWidth1 <= window.innerWidth) {
-                    productSliderWrapper.classList.add('centered');
-                    productSlider1.enabled = false;
-                } else {
-                    productSliderWrapper.classList.remove('centered')
-                    productSlider1.enabled = true;
+                if(productSliderWrapper) {
+                    if (productSlidesWidth1 <= window.innerWidth) {
+                        productSliderWrapper.classList.add('centered');
+                        productSlider1.enabled = false;
+                    } else {
+                        productSliderWrapper.classList.remove('centered')
+                        productSlider1.enabled = true;
+                    }
                 }
                 window.addEventListener("resize", (event) => {
                     if (productSlidesWidth1 <= window.innerWidth) {

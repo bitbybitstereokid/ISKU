@@ -23,7 +23,7 @@
 }
 
 .breadcrumbs__item:first-child{
-    padding-right: 10px;
+    /*padding-right: 10px;*/
 }
 
 .breadcrumbs__item:not(:first-child){

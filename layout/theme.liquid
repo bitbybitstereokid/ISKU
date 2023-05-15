@@ -237,11 +237,35 @@
         font-family: var(--font-body-family);
         font-style: var(--font-body-style);
         font-weight: var(--font-body-weight);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+      }
+
+      .content-for-layout {
+        flex: 1 1;
+      }
+
+      .shopify-policy__container{
+        max-width: var(--page-width);
+        padding: 0 1.5rem;
       }
 
       @media screen and (min-width: 750px) {
         body {
           font-size: 1.6rem;
+        }
+        .shopify-policy__container{
+          max-width: var(--page-width);
+          padding: 0 5rem;
+        }
+      }
+
+      @media screen and (min-width: 1441px) {
+        .shopify-policy__container{
+          max-width: 1920px;
+          padding: 0 10rem;
         }
       }
       .card-wrapper_wishlist_outline{
@@ -372,9 +396,9 @@
       {% comment %}<script src="{{ 'product-gallery.js' | asset_url }}" defer="defer"></script>{% endcomment %}
     {% endif %}
 
-    {% if template.name == 'blog' %}
-      <script src="{{ 'article-list.js' | asset_url }}" defer="defer"></script>
-    {% endif %}
+    {% comment %}{% if template.name == 'blog' %}{% endif %}{% endcomment %}
+    <script src="{{ 'article-list.js' | asset_url }}" defer="defer"></script>
+
 
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>

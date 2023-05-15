@@ -316,7 +316,8 @@
               <div class="wishlist-chat__wrapper">
                 <div class="wishlist-char__inner">
                 <div class="wishlist-chat__wishlist">
-                  <div id="smartwishlist" data-product="{{ product.id }}" data-variant="{{ product.selected_or_first_available_variant.id }}"></div>
+                  <div id="smartwishlist" data-product="{{ product.id }}" data-variant="{{ product.variants.first.id }}"></div>
+                  {{ block.settings.wishlist_icon }}
                   {{ block.settings.wishlist_text }}
                 </div>
                 <div class="wishlist-chat__chat">
