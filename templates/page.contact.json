@@ -34,26 +34,33 @@
         "88af4ccb-7bec-49e5-b0be-515fbe3a7769": {
           "type": "dropdown",
           "settings": {
-            "dropdown": "Topic 1"
+            "dropdown": "Palaute"
           }
         },
         "5cf2984c-7e26-47c8-afd9-65a2967c2790": {
           "type": "dropdown",
           "settings": {
-            "dropdown": "Topic 2"
+            "dropdown": "Toimituskysely"
           }
         },
         "cf03ca8b-7e32-4487-8376-5a1169e42c44": {
           "type": "dropdown",
           "settings": {
-            "dropdown": "Topic 3"
+            "dropdown": "Tarjouspyyntö"
+          }
+        },
+        "2ece53ac-3736-4593-998c-f5dd8cab6e6f": {
+          "type": "dropdown",
+          "settings": {
+            "dropdown": "Tuotekysely"
           }
         }
       },
       "block_order": [
         "88af4ccb-7bec-49e5-b0be-515fbe3a7769",
         "5cf2984c-7e26-47c8-afd9-65a2967c2790",
-        "cf03ca8b-7e32-4487-8376-5a1169e42c44"
+        "cf03ca8b-7e32-4487-8376-5a1169e42c44",
+        "2ece53ac-3736-4593-998c-f5dd8cab6e6f"
       ],
       "settings": {
         "st": 0,
