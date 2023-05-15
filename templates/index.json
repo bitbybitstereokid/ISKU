@@ -352,9 +352,9 @@
       "settings": {
         "padding_top": 50,
         "padding_bottom": 0,
-        "title": "<p>Sign up to <strong>save 10%<\/strong> on your first order!<\/p>",
-        "text": "To learn more about how we use your information, read our Privacy Policy",
-        "btn_text": "Subscribe"
+        "title": "<p>Tilaa uutiskirje, saat 15% alekoodin.<\/p>",
+        "text": "Uutiskirjeistämme saat inspiraatiota sisustukseen, sekä tiedät ensimmäisenä kampanjoistamme ja tarjouksistamme.",
+        "btn_text": "Tilaa"
       }
     }
   },
