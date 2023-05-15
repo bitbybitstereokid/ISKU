@@ -6,17 +6,18 @@
         "c2d11906-9a42-4ce1-b13b-37495790ff47": {
           "type": "slider",
           "settings": {
-            "title": "Comfort and Style |That Will Transform Your Home",
-            "content": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat |duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
-            "button": "LEARN MORE",
-            "button_url": "shopify:\/\/pages\/a-lifetime-with-isku",
+            "title": "Terassikauden avajaiset",
+            "content": "Toivota kesä tervetulleeksi ISKUn Terassikauden avajaisissa. |Laaja valikoima upeita kesäkalusteita sekä muita suosikkituotteita huippuhintaan!",
+            "button": "",
+            "button_url": "",
             "button_style": "secondary-btn",
-            "image": "shopify:\/\/shop_images\/Rectangle_4_3.png",
+            "image": "shopify:\/\/shop_images\/Puutarhakalusteet_030621_098-1-min-scaled-min_1.jpg",
             "image_mobile": "shopify:\/\/shop_images\/Rectangle_4_4.png"
           }
         },
         "d2162bde-2b0e-4d0e-b3c0-f7a519aeeee0": {
           "type": "slider",
+          "disabled": true,
           "settings": {
             "title": "Comfort and Style |That Will Transform Your Home",
             "content": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat |duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
