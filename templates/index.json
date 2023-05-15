@@ -259,7 +259,7 @@
     "de0f6296-9452-488f-a982-a31b8b396fff": {
       "type": "hero-banner-secondary",
       "settings": {
-        "image": "shopify:\/\/shop_images\/1000x658_Monkey.jpg",
+        "image": "shopify:\/\/shop_images\/homepage1.jpg",
         "title": "ISKUn Kotimaiset Sohvat",
         "btn_text": "LUE LISÄÄ TÄSTÄ",
         "btn_url": "shopify:\/\/blogs\/referenssit",
@@ -305,9 +305,9 @@
         "image_position": "right",
         "image_position_mobile": "bottom",
         "image": "shopify:\/\/shop_images\/Rectangle_42_84085027-b1f5-478b-b8a0-5497189359e4.jpg",
-        "title": "Title",
+        "title": "ISKU - mukana elämäsi seikkailuissa",
         "small": true,
-        "text": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.  Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Velit officia consequat duis enim velit mollit. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.Exercitation veniam consequat sunt nostrud amet. \n|\nExercitatio n veniam consequat sunt nostrud amet.Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+        "text": "Teemme suomalaisten arjesta viihtyisämpää ja toimivampaa. Suunnittelemme, valmistamme ja myymme huonekaluja. Toimitamme sisustusratkaisuja koteihin ja julkisiin tiloihin, kuten kouluihin, toimistoihin ja terveydenhuoltoon. Lisäksi tarjoamme näihin liittyviä palveluita, kuten suunnittelu- ja kierrätyspalveluita. |\n\nValmistamme kalusteemme Suomessa, mutta toimitamme niitä ympäri maailman - toimimme tällä hetkellä 16 eri maassa.",
         "button_style": "secondary",
         "btn_text": "Lue lisää",
         "btn_url": "shopify:\/\/pages\/a-lifetime-with-isku",
