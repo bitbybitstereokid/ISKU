@@ -54,25 +54,28 @@
         "ee352da1-a486-46f2-a12c-eecba3c97aa5": {
           "type": "collection",
           "settings": {
-            "collection": "demo-collection",
-            "title": "",
-            "url": ""
+            "collection": "sohvat",
+            "title": "Sohvat",
+            "image": "shopify:\/\/shop_images\/curve-miljoo2_1a50ba62-c0e6-4bc8-a812-3a9b26e68c99.jpg",
+            "url": "shopify:\/\/collections\/sohvat"
           }
         },
         "86567cf2-a6da-49cc-a945-2b62e1e14e32": {
           "type": "collection",
           "settings": {
-            "collection": "matot",
-            "title": "",
-            "url": ""
+            "collection": "kaikki-sangyt",
+            "title": "Sängyt",
+            "image": "shopify:\/\/shop_images\/tempur-flex-base-jenkki.jpg",
+            "url": "shopify:\/\/collections\/kaikki-sangyt"
           }
         },
         "db396ac4-bfa5-4f8b-8d76-2680e46fbdec": {
           "type": "collection",
           "settings": {
-            "collection": "matot",
-            "title": "",
-            "url": ""
+            "collection": "ruokailuryhmat",
+            "title": "Ruokailuryhmät",
+            "image": "shopify:\/\/shop_images\/aino-valkoinen-sisustuskuva.jpg",
+            "url": "shopify:\/\/collections\/ruokailuryhmat"
           }
         },
         "2a85f196-8f87-4b3d-b9bf-e9c4c60640d0": {
@@ -86,9 +89,10 @@
         "a778f8ef-e09b-4440-805d-cf2009c6cad5": {
           "type": "collection",
           "settings": {
-            "collection": "demo-collection",
-            "title": "",
-            "url": ""
+            "collection": "etatyokalusteet",
+            "title": "Etätyökalusteet",
+            "image": "shopify:\/\/shop_images\/kotitoimisto-bw-rise.webp",
+            "url": "shopify:\/\/collections\/etatyokalusteet"
           }
         }
       },
