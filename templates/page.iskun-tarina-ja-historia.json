@@ -3,13 +3,27 @@
     "main": {
       "type": "about-image-text",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Rectangle_42_84085027-b1f5-478b-b8a0-5497189359e4.jpg",
+        "image": "shopify:\/\/shop_images\/Lahden_puukalusto_1902.jpg",
         "padding_top": 0,
         "padding_bottom": 50,
         "reverse": false,
         "text_centered": false,
-        "title": "ISKU mukana elämäsi seikkailuissa",
-        "text": "<p>Teemme suomalaisten arjesta viihtyisämpää ja toimivampaa. Suunnittelemme, valmistamme ja myymme huonekaluja, toimitamme sisustusratkaisuja koteihin ja julkisiin tiloihin, kuten kouluihin, toimistoihin ja terveydenhuoltoon, sekä tarjoamme näihin liittyviä palveluita, kuten suunnittelu- ja kierrätyspalveluita. Valmistamme kalusteemme Suomessa, mutta toimitamme niitä ympäri maailman - toimimme tällä hetkellä 16 eri maassa.<\/p>",
+        "title": "Since 1928 – Iskun tarina",
+        "text": "<p>ISKU, Suomen suurin huonekaluteollisuuden toimija, kasvaa ja on keskittänyt kaiken tuotantonsa Lahteen. Lue tästä tarinamme aina vuodesta 1928 alkaen, kun Eino Vikström perusti ISKUn kotitalonsa alakertaan.<\/p>",
+        "btn_text": "",
+        "btn_url": ""
+      }
+    },
+    "cf9a212e-69c0-4fb6-badc-e31720078c6e": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/1920-1.jpg",
+        "padding_top": 50,
+        "padding_bottom": 100,
+        "reverse": true,
+        "text_centered": false,
+        "title": "ISKUn tarina alkoi jo vuonna 1928",
+        "text": "<p>ISKUn tarina alkoi vuonna 1928 kun Lahden Puukalusto Oy rekisteröitiin osakeyhtiöksi. Yhtiön perustivat Eino Vikström ja hänen yhtiökumppaninsa Matti Metso, joka luopui osuudestaan yrityksessä vuonna 1929. Aina siitä lähtien osakepääoma on ollut kokonaisuudessaan Vikströmin perheen omistuksessa. Nykyään ISKU on perheyritys jo kolmannessa polvessa.<\/p>",
         "btn_text": "",
         "btn_url": ""
       }
@@ -81,38 +95,51 @@
         "padding_bottom": 36
       }
     },
-    "cf9a212e-69c0-4fb6-badc-e31720078c6e": {
+    "3307a6af-c522-423b-8c9e-4a877abcc3de": {
       "type": "about-image-text",
-      "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/aboutus.png",
-        "padding_top": 50,
-        "padding_bottom": 100,
-        "reverse": true,
+        "image": "shopify:\/\/shop_images\/1930-1_1_1.jpg",
+        "padding_top": 75,
+        "padding_bottom": 50,
+        "reverse": false,
         "text_centered": false,
-        "title": "Title",
-        "text": "<p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.  Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Velit officia consequat duis enim velit mollit. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.<\/p><p>Exercitation veniam consequat sunt nostrud amet. Exercitatio n veniam consequat sunt nostrud amet.Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.<\/p>",
+        "title": "Erikoistumista toimisto-kalustamiseen",
+        "text": "<p>30-luvulla ISKU alkoi erikoistua toimistokalusteiden valmistamiseen. Suomalaiset toimistokalusteet seurasivat kansainvälisiä, jopa Yhdysvaltalaisia, trendejä. Kalusteet olivat yleensä raskaita ja ne oli tehty massiivipuusta; - esimerkiksi koivusta tai tammesta. Tällaisia kalusteita osasivat valmistaa vain erittäin taitavat puusepät. Pian kävi selväksi, että uusi tehdasrakennus oli välttämätön.<\/p>",
         "btn_text": "",
         "btn_url": ""
       }
     },
-    "3307a6af-c522-423b-8c9e-4a877abcc3de": {
+    "8f8e0a9f-4b27-4668-9ac7-26a434ab971c": {
       "type": "about-image-text",
-      "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/Rectangle_44.jpg",
-        "padding_top": 100,
+        "image": "shopify:\/\/shop_images\/1940-1.jpg",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": true,
+        "text_centered": false,
+        "title": "Huonekalujen tuotanto sodan aikana",
+        "text": "<p>Toisen maailmansodan ajat vaikuttivat myös ISKUn toimintaan. Miehet lähtivät sotaan ja joutuivat jättämään työpaikkansa tehtaassa, jolloin kalusteiden valmistusmäärissä tapahtui notkahdus. Sodan aikana ISKU toimitti kuljetus- ja ammuslaatikoita sekä ruumisarkkuja Suomen armeijalle. Einon poissa ollessa yrityksen toiminta jatkui ahkeran vaimon, Ainon, ansiosta.<\/p>",
+        "btn_text": "",
+        "btn_url": ""
+      }
+    },
+    "537448b6-217d-405d-a523-06a64446e3bc": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/1950-1_1_1.jpg",
+        "padding_top": 50,
         "padding_bottom": 50,
         "reverse": false,
         "text_centered": false,
-        "title": "Title",
-        "text": "<p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.  Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Velit officia consequat duis enim velit mollit. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.<\/p><p>Exercitation veniam consequat sunt nostrud amet. Exercitatio n veniam consequat sunt nostrud amet.Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.<\/p>",
+        "title": "Seuraava sukupolvi mukaan yritykseen",
+        "text": "<p>Timo Vikström siirtyi töihin perheyritykseen ja lähestyi liiketoimintaa uudesta näkökulmasta. Hän kiinnitti huomiota uusiin tekniikoihin, kalusteiden muotoiluun, toimivuuteen ja laatuun. 50-luvulla myös ISKU-brändi alkoi syntyä, kun Iskukaluste Oy:n myymäläverkosto perustettiin. Vuonna 1957 uutta tuotantolaitosta alettiin rakentaa Lahden Mukkulaan, jossa ISKUn kaikki tuotanto on nykypäivänäkin.<\/p>",
         "btn_text": "",
         "btn_url": ""
       }
     },
     "dfbc42c5-8975-4ee6-a8e7-19b77a1308ec": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "template--18960568844632__dfbc42c5-8975-4ee6-a8e7-19b77a1308ec-1684169800ae4304ac-0": {
           "type": "column",
@@ -210,14 +237,106 @@
         "input_placeholder": "Enter your email",
         "btn_text": "Subscribe"
       }
+    },
+    "ccd7c222-c76f-4109-8a38-6c4493867f70": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/1960-2_1.jpg",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": true,
+        "text_centered": false,
+        "title": "Iskun Tehtaat Oy kansainvälistyy",
+        "text": "<p>Iskukaluste Oy myymäläketjun nimivalinta osoittautui onnistuneeksi, ja Lahden Puukalusto Oy muutti nimensä Iskun Tehtaat Oy:ksi. 60-luku oli taloudellisen kukoistuksen aikaa. Kaupungistuminen kasvatti asuntojen kysynnän kaksinkertaiseksi, minkä vuoksi myös huonekalujen kysyntä kasvoi kansalaisten elintason kohotessa. <\/p><p>Tuotantokapasiteetin kasvun myötä ISKU aloitti kansainvälistymisen Ruotsiin ja Neuvostoliittoon. Syyskuussa 1966 yhtiön perustaja Eino Vikström menehtyi. Yhtiö siirtyi sukupolvelta toiselle, kun Timo siirtyi yrityksen johtoon.<\/p>",
+        "btn_text": "",
+        "btn_url": ""
+      }
+    },
+    "9b6a00f9-57d3-4778-bbfc-66cd75783b33": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/1970-63_1.jpg",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": false,
+        "text_centered": false,
+        "title": "Isku Oy syntyy",
+        "text": "<p>Kansainvälinen öljykriisi vuonna 1973 johti tuotannon supistumiseen. ISKU kuitenkin vahvisti läsnäoloaan viennissä – Lähi-idästä ja arabimaista tuli merkittäviä uusia vientikohteita. <\/p><p>Vuonna 1978 syntyi Isku Oy, kun vähittäismyyntiorganisaatio Iskukaluste Oy ja Iskun Tehtaat Oy:n kalustetuotantoyksiköt sulautettiin yhteen. Sulauttamisen yhteydessä perustettiin kaksi liiketoimintasegmenttiä, joista toinen keskittyi kotikalusteisiin ja toinen toimisto- ja koulukalusteisiin.<\/p>",
+        "btn_text": "",
+        "btn_url": ""
+      }
+    },
+    "70f8f710-3ab3-4492-b88d-3f405602e106": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/1980-9_1_1.jpg",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": true,
+        "text_centered": false,
+        "title": "Toimistojen murros",
+        "text": "<p>1980-luvulla asuntolainaa sai helposti, joten ihmisille tuli mahdollisuus panostaa kotinsa sisustukseen. Myös työympäristöistä haluttiin entistä joustavampia avokonttoreita ja ISKU kalustikin suuria projekteja Suomessa. 80-luvulla yhtiössä panostettiin entistä enemmän ympäristöasioihin ja vihreisiin arvoihin, ja ISKUn logo uudistettiin – vihreä väri kuvasti yhtiön ympäristömyönteisiä periaatteita. 80-luvulla Seppo Vikströmistä tuli ensimmäinen kolmannen sukupolven iskulainen.<\/p>",
+        "btn_text": "",
+        "btn_url": ""
+      }
+    },
+    "0b69aa3b-2b8b-4c37-9edc-98f092ec3eac": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/1990_-_4_1.jpg",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": false,
+        "text_centered": false,
+        "title": "Lama haastoi kalustemarkkinaa",
+        "text": "<p>Neuvostoliiton hajoamisen myötä ISKUlle avautui uusia mahdollisuuksia laajentaa toimintaa kansainvälisesti Baltian maissa ja IVY-alueella. Samalla 90-luvun alun suuri lamakausi toi haasteita myös ISKUlle ja ensimmäistä kertaa yhtiön historiassa liikevaihto laski rajusti. Laman jälkeen kysyntä kalustemarkkinoilla kääntyi jälleen voimakkaaseen kasvuun. <\/p><p>Vuonna 1992 ISKU sai ISO 9001 -sertifikaatin laatujärjestelmälleen ja ryhtyi toimimaan aktiivisesti vastuullisuusasioissa. ISKU oli Pohjoismaiden ensimmäinen huonekalualan yritys, joka sai ISO 14001 -sertifikaatin alkuperäiselle ympäristöjärjestelmälleen jo vuonna 1997.<\/p>",
+        "btn_text": "",
+        "btn_url": ""
+      }
+    },
+    "12783725-0187-4282-8ea1-a004b07ba5a3": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/2000-3_1_1.jpg",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": true,
+        "text_centered": false,
+        "title": "Isku siirtyy kolmannelle sukupolvelle",
+        "text": "<p>Timo Vikström siirtyi eläkkeelle vuonna 2004, mutta pysyi Isku-Yhtymä Oy:n hallituksen jäsenenä vuoteen 2009 saakka. Seppo Vikström jatkoi Isku-Yhtymä Oy:n hallituksen puheenjohtajana. Vuonna 2005 Isku Oy jaettiin erillisiin yrityksiin liiketoiminta-alueittain. Jakautumisessa muodostuivat Isku Koti Oy, Isku Interior Oy, Isku Invest Oy ja Isku Keittiöt Oy. Vuoden 2008 finanssikriisi aiheutti talouteen shokkeja, ja ISKUlla oli edessään useita haastavia vuosia. Niistä selviäminen vaati radikaaleja toimenpiteitä, kuten toimintojen ja työntekijöiden määrän supistamista sekä myymälöiden sulkemisia.<\/p>",
+        "btn_text": "",
+        "btn_url": ""
+      }
+    },
+    "fbceeca6-daa9-45d1-9e92-4163858c95c4": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/2000-11_1_1.jpg",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": false,
+        "text_centered": false,
+        "title": "Täyskäännös",
+        "text": "<p>Arto Tiitinen aloitti ISKUn toimitusjohtajana vuonna 2011. ISKU sai puun alkuperän seurantajärjestelmälle (Chain of Custody) annettavan PEFC-sertifioinnin ja koko ISKUn tuotanto on PEFC-sertifioitua. ISKU laajensi liiketoimintaansa työterveyshuoltoon ja myös sertifioi työterveys- ja turvallisuusjärjestelmänsä. <\/p><p>Vuonna 2016 ISKUn brändi-identiteetti uusittiin. Myös osa ISKUn tehdasrakennuksesta muutetiin moderniksi oppimisympäristöksi 5000 LAB-ammattikorkeakoulun opiskelijalle. Vuosien 2014-2021 aikana ISKU on investoinut yli 100 miljoonaa euroa Lahteen.<\/p>",
+        "btn_text": "",
+        "btn_url": ""
+      }
     }
   },
   "order": [
     "main",
-    "5ce02346-c582-4617-8a26-0f6dbe0fda5a",
     "cf9a212e-69c0-4fb6-badc-e31720078c6e",
+    "5ce02346-c582-4617-8a26-0f6dbe0fda5a",
     "3307a6af-c522-423b-8c9e-4a877abcc3de",
+    "8f8e0a9f-4b27-4668-9ac7-26a434ab971c",
+    "537448b6-217d-405d-a523-06a64446e3bc",
     "dfbc42c5-8975-4ee6-a8e7-19b77a1308ec",
-    "c3648cfd-de5e-45c2-91c9-198e9c48f2f1"
+    "c3648cfd-de5e-45c2-91c9-198e9c48f2f1",
+    "ccd7c222-c76f-4109-8a38-6c4493867f70",
+    "9b6a00f9-57d3-4778-bbfc-66cd75783b33",
+    "70f8f710-3ab3-4492-b88d-3f405602e106",
+    "0b69aa3b-2b8b-4c37-9edc-98f092ec3eac",
+    "12783725-0187-4282-8ea1-a004b07ba5a3",
+    "fbceeca6-daa9-45d1-9e92-4163858c95c4"
   ]
 }
