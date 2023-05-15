@@ -508,12 +508,10 @@
     {%- endif -%}
 
     <div class="header__icons">
-      <a href="#locator" class="header__icon header__icon--locator link focus-inset">
-        {% render 'icon-locator' %}
-      </a>
-
       <a href="/a/wishlist" id="smartwishlist_desktop_link" class="header__icon header__icon--wishlist link focus-inset action-area__link wishlist__header">
-
+        {% render 'icon-wishlist' %}
+        <span class="wishlist__content"></span>
+      </a>
 
       {%- if shop.customer_accounts_enabled -%}
         <a href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}"
