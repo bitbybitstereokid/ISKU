@@ -338,6 +338,7 @@
     },
     "feb9c2fd-6386-484f-903f-7acd018a6e98": {
       "type": "blog-preview",
+      "disabled": true,
       "settings": {
         "blog": "kampanjat",
         "title": "Blog",
