@@ -74,6 +74,7 @@
         },
         "description": {
           "type": "description",
+          "disabled": true,
           "settings": {
           }
         }
@@ -129,6 +130,7 @@
       "blocks": {
         "0308fb3d-3e71-48a7-a30d-c26f11385a9f": {
           "type": "highlight",
+          "disabled": true,
           "source": "{{ product.metafields.custom.product_highligts.value }}",
           "settings": {
             "label": "{{ product.metafields.custom.product_highligts.value.highlight_label_1.value }}",
@@ -137,6 +139,7 @@
         },
         "62e43251-7c38-4791-af4e-5efc7c5079e2": {
           "type": "highlight",
+          "disabled": true,
           "source": "{{ product.metafields.custom.product_highligts.value }}",
           "settings": {
             "label": "{{ product.metafields.custom.product_highligts.value.highlight_label_1.value }}",
@@ -145,6 +148,7 @@
         },
         "2876d941-77ce-4286-abef-34c5c05a79f9": {
           "type": "highlight",
+          "disabled": true,
           "source": "{{ product.metafields.custom.product_highligts.value }}",
           "settings": {
             "label": "{{ product.metafields.custom.product_highligts.value.highlight_label_1.value }}",
@@ -161,7 +165,7 @@
         "padding_top": 100,
         "padding_bottom": 100,
         "image": "shopify:\/\/shop_images\/Rectangle_4_3.png",
-        "main_text": "<p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.<\/p>"
+        "main_text": ""
       }
     },
     "8db35396-c85e-486d-aaf2-8eb8623b292a": {
