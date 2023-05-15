@@ -9,8 +9,8 @@
           "type": "custom",
           "settings": {
             "custom_newsletter": true,
-            "custom_newsletter_text": "NEWSLETTER",
-            "custom_newsletter_richtext": "<p>Read our <a href=\"\/policies\/privacy-policy\" title=\"Privacy Policy\">Privacy Policy<\/a><\/p>",
+            "custom_newsletter_text": "UUTISKIRJE",
+            "custom_newsletter_richtext": "",
             "custom_services": "ASIAKASPALVELU",
             "custom_phone": "+358 29 309 3000",
             "custom_work": "ma - pe 9 - 17",
