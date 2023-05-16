@@ -93,26 +93,26 @@
 
 {%- style -%}
   .header {
-    padding-top: {{ section.settings.padding_top | times: 0.5 | round: 0 }}px;
-    padding-bottom: {{ section.settings.padding_bottom | times: 0.5 | round: 0 }}px;
+  padding-top: {{ section.settings.padding_top | times: 0.5 | round: 0 }}px;
+  padding-bottom: {{ section.settings.padding_bottom | times: 0.5 | round: 0 }}px;
   }
 
   .section-header {
-    position: sticky; /* This is for fixing a Safari z-index issue. PR #2147 */
-    margin-bottom: {{ section.settings.margin_bottom | times: 0.75 | round: 0 }}px;
+  position: sticky; /* This is for fixing a Safari z-index issue. PR #2147 */
+  margin-bottom: {{ section.settings.margin_bottom | times: 0.75 | round: 0 }}px;
   }
 
   @media screen and (min-width: 750px) {
-    .section-header {
-      margin-bottom: {{ section.settings.margin_bottom }}px;
-    }
+  .section-header {
+  margin-bottom: {{ section.settings.margin_bottom }}px;
+  }
   }
 
   @media screen and (min-width: 990px) {
-    .header {
-      padding-top: {{ section.settings.padding_top }}px;
-      padding-bottom: {{ section.settings.padding_bottom }}px;
-    }
+  .header {
+  padding-top: {{ section.settings.padding_top }}px;
+  padding-bottom: {{ section.settings.padding_bottom }}px;
+  }
   }
 {%- endstyle -%}
 
@@ -869,9 +869,9 @@
   "label": "t:sections.header.settings.mobile_logo_position.label"
   },
   {
-    "type": "url",
-    "id": "wishlist_page",
-    "label": "Wishlist page URL"
+  "type": "url",
+  "id": "wishlist_page",
+  "label": "Wishlist page URL"
   },
   {
   "type": "header",
