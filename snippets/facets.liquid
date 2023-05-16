@@ -24,6 +24,12 @@
   endif
 -%}
 
+{% if template == 'search' %}
+  {% assign res = search %}
+{% else %}
+  {% assign res = collection %}
+{% endif %}
+
 {{ 'facets-horizontal.css' | asset_url | stylesheet_tag }}
 
 <div class="facets-container{% if filter_type == 'drawer' %} facets-container-drawer{% endif %} {% if filter_type == 'horizontal' %} horizontal__filter{% endif %}">
@@ -38,7 +44,7 @@
       <div class="facet-filters__custom-select display-none">
         <div class="custom-select-list" onclick="clickSort(this)">
           <div class="custom-select__title">
-            {%- for option in collection.sort_options -%}
+            {%- for option in res.sort_options -%}
               {% if option.value == sort_by %}  {{ option.name | escape }} {% break %} {% endif %}
             {%- endfor -%}
           </div>
@@ -48,7 +54,7 @@
             <path d="M1 4L6.5 9L12 4" stroke="#1A1919"/>
           </svg>
           <ul>
-            {%- for option in collection.sort_options -%}
+            {%- for option in res.sort_options -%}
               <li>
                 <button type="button" onclick="clickOption(this)"
                         data-value="{{ option.value | escape }}"
@@ -584,14 +590,14 @@
                   <label for="SortBy">{{ 'products.facets.sort_by_label' | t }}</label>
                 </h2>
                 <div class="select">
-                  {%- assign sort_by = results.sort_by | default: results.default_sort_by -%}
+                  {%- assign sort_by = res.sort_by | default: res.default_sort_by -%}
                   <select
                           name="sort_by"
                           class="facet-filters__sort select__select caption-large"
                           id="SortBy"
                           aria-describedby="a11y-refresh-page-message"
                   >
-                    {%- for option in results.sort_options -%}
+                    {%- for option in res.sort_options -%}
                       <option
                               value="{{ option.value | escape }}"
                               {% if option.value == sort_by %}
@@ -609,7 +615,7 @@
               <div class="facet-filters__custom-select">
                 <div class="custom-select-list" onclick="clickSort(this)">
                   <div class="custom-select__title">
-                    {%- for option in collection.sort_options -%}
+                    {%- for option in res.sort_options -%}
                       {% if option.value == sort_by %}  {{ option.name | escape }} {% break %} {% endif %}
                     {%- endfor -%}
                   </div>
@@ -619,7 +625,7 @@
                     <path d="M1 4L6.5 9L12 4" stroke="#1A1919"/>
                   </svg>
                   <ul>
-                    {%- for option in collection.sort_options -%}
+                    {%- for option in res.sort_options -%}
                       <li>
                         <button type="button" onclick="clickOption(this)"
                                 data-value="{{ option.value | escape }}"
@@ -678,14 +684,14 @@
                 <label for="SortBy">{{ 'products.facets.sort_by_label' | t }}</label>
               </h2>
               <div class="select">
-                {%- assign sort_by = results.sort_by | default: results.default_sort_by -%}
+                {%- assign sort_by = res.sort_by | default: res.default_sort_by -%}
                 <select
                         name="sort_by"
                         class="facet-filters__sort select__select caption-large"
                         id="SortBy"
                         aria-describedby="a11y-refresh-page-message"
                 >
-                  {%- for option in results.sort_options -%}
+                  {%- for option in res.sort_options -%}
                     <option
                             value="{{ option.value | escape }}"
                             {% if option.value == sort_by %}
@@ -702,7 +708,7 @@
             <div class="facet-filters__custom-select">
               <div class="custom-select-list" onclick="clickSort(this)">
                 <div class="custom-select__title">
-                  {%- for option in collection.sort_options -%}
+                  {%- for option in res.sort_options -%}
                     {% if option.value == sort_by %}  {{ option.name | escape }} {% break %} {% endif %}
                   {%- endfor -%}
                   <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 13 13"
@@ -711,7 +717,7 @@
                   </svg>
                 </div>
                 <ul>
-                  {%- for option in collection.sort_options -%}
+                  {%- for option in res.sort_options -%}
                     <li>
                       <button type="button" onclick="clickOption(this)"
                               data-value="{{ option.value | escape }}"
@@ -1058,7 +1064,7 @@
                                 id="SortBy-mobile"
                                 aria-describedby="a11y-refresh-page-message"
                         >
-                          {%- for option in results.sort_options -%}
+                          {%- for option in res.sort_options -%}
                             <option
                                     value="{{ option.value | escape }}"
                                     {% if option.value == sort_by %}
@@ -1075,7 +1081,7 @@
                     <div class="facet-filters__custom-select">
                       <div class="custom-select-list" onclick="clickSort(this)">
                         <div class="custom-select__title">
-                          {%- for option in collection.sort_options -%}
+                          {%- for option in res.sort_options -%}
                             {% if option.value == sort_by %}  {{ option.name | escape }} {% break %} {% endif %}
                           {%- endfor -%}
                         </div>
@@ -1085,7 +1091,7 @@
                           <path d="M1 4L6.5 9L12 4" stroke="#1A1919"/>
                         </svg>
                         <ul>
-                          {%- for option in collection.sort_options -%}
+                          {%- for option in res.sort_options -%}
                             <li>
                               <button type="button" onclick="clickOption(this)"
                                       data-value="{{ option.value | escape }}"
@@ -1183,14 +1189,14 @@
               <label for="SortBy">{{ 'products.facets.sort_by_label' | t }}</label>
             </h2>
             <div class="select">
-              {%- assign sort_by = results.sort_by | default: results.default_sort_by -%}
+              {%- assign sort_by = res.sort_by | default: res.default_sort_by -%}
               <select
                       name="sort_by"
                       class="facet-filters__sort select__select caption-large"
                       id="SortBy"
                       aria-describedby="a11y-refresh-page-message"
               >
-                {%- for option in results.sort_options -%}
+                {%- for option in res.sort_options -%}
                   <option
                           value="{{ option.value | escape }}"
                           {% if option.value == sort_by %}
@@ -1208,7 +1214,7 @@
           <div class="facet-filters__custom-select">
             <div class="custom-select-list" onclick="clickSort(this)">
               <div class="custom-select__title">
-                {%- for option in collection.sort_options -%}
+                {%- for option in res.sort_options -%}
                   {% if option.value == sort_by %}  {{ option.name | escape }} {% break %} {% endif %}
                 {%- endfor -%}
               </div>
@@ -1217,7 +1223,7 @@
                 <path d="M1 4L6.5 9L12 4" stroke="#1A1919"/>
               </svg>
               <ul>
-                {%- for option in collection.sort_options -%}
+                {%- for option in res.sort_options -%}
                   <li>
                     <button type="button" onclick="clickOption(this)"
                             data-value="{{ option.value | escape }}"

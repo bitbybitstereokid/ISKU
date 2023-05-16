@@ -107,8 +107,8 @@
 }
 
 .template-search .collection .grid{
-    column-gap: 10px;
-    row-gap: 10px;
+    /*column-gap: 10px;*/
+    /*row-gap: 10px;*/
 }
 
 @media screen and (max-width: 989px) {

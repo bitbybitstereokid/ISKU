@@ -92,7 +92,7 @@
     font-size: 30px;
     line-height: 150%;
     align-items: center;
-    text-transform: capitalize;
+    /*text-transform: capitalize;*/
     color: var(--color-text-primary);
     margin: 0 0 30px;
 }
