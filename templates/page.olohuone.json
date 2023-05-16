@@ -8,6 +8,97 @@
         "padding_bottom": 28
       }
     },
+    "9ad368f3-97bb-4c42-b959-36f26be299c1": {
+      "type": "image-banner",
+      "blocks": {
+        "template--15666921111652__9ad368f3-97bb-4c42-b959-36f26be299c1-1684252064d794e204-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Kaikki kalusteet olohuoneeseen",
+            "heading_size": "h1"
+          }
+        },
+        "template--15666921111652__9ad368f3-97bb-4c42-b959-36f26be299c1-1684252064d794e204-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--15666921111652__9ad368f3-97bb-4c42-b959-36f26be299c1-1684252064d794e204-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15666921111652__9ad368f3-97bb-4c42-b959-36f26be299c1-1684252064d794e204-0",
+        "template--15666921111652__9ad368f3-97bb-4c42-b959-36f26be299c1-1684252064d794e204-1",
+        "template--15666921111652__9ad368f3-97bb-4c42-b959-36f26be299c1-1684252064d794e204-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/1000x658_Monkey_8035d919-8884-44cf-93a4-c1ef2bbebc37.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "top-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "b9e500c8-adb3-4132-94a2-9a22956ef3df": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15666921111652__b9e500c8-adb3-4132-94a2-9a22956ef3df-1684252192b4e19411-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Olohuone on kotisi sydän<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--15666921111652__b9e500c8-adb3-4132-94a2-9a22956ef3df-1684252192b4e19411-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Tervetuloa tekemään kestäviä hankintoja olohuoneeseesi. Tarjoamme laajan valikoiman olohuoneen kalusteita - sohvat, nojatuolit, sohvapöydät, valaisimet ja matot. Huonekalumme ovat paitsi tyylikkäitä ja mukavia, myös valmistettu palvelemaan sinua niin arjessa kuin juhlassakin. <\/p><p>Löydät varmasti juuri sinun makuusi sopivat huonekalut monipuolisesta valikoimastamme. Tutustu tuotteisiimme ja luo unelmiesi olohuone. Muista, että kotisi kertoo tarinaa - meidän tehtävämme on auttaa sinua kirjoittamaan se.<\/p>"
+          }
+        },
+        "template--15666921111652__b9e500c8-adb3-4132-94a2-9a22956ef3df-1684252192b4e19411-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15666921111652__b9e500c8-adb3-4132-94a2-9a22956ef3df-1684252192b4e19411-0",
+        "template--15666921111652__b9e500c8-adb3-4132-94a2-9a22956ef3df-1684252192b4e19411-1",
+        "template--15666921111652__b9e500c8-adb3-4132-94a2-9a22956ef3df-1684252192b4e19411-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "e52ac009-f21e-4644-8d5b-5871fd6214ca": {
       "type": "about-image-text",
       "settings": {
@@ -291,6 +382,8 @@
   },
   "order": [
     "main",
+    "9ad368f3-97bb-4c42-b959-36f26be299c1",
+    "b9e500c8-adb3-4132-94a2-9a22956ef3df",
     "e52ac009-f21e-4644-8d5b-5871fd6214ca",
     "03ee385f-7007-4b61-a651-14e2a047e155",
     "62c1852c-8802-49a8-a524-403f32a1b76d",
