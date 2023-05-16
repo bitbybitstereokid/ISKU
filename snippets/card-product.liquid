@@ -129,7 +129,7 @@
             <div class="card__content">
 
                 <div class="card__information">
-                    <div class="card-variants">
+                    {% comment %}<div class="card-variants">
                         {%- for option in card_product.options_with_values -%}
                             {% assign formatedOptionName = option.name | strip | downcase %}
                             {% if nameSwatch contains formatedOptionName %}
@@ -166,7 +166,7 @@
                                 </div>
                             {% endif %}
                         {%- endfor -%}
-                    </div>
+                    </div>{% endcomment %}
                     {%- if show_vendor -%}
                         <span class="visually-hidden">{{ 'accessibility.vendor' | t }}</span>
                         <div class="card-vendor caption-with-letter-spacing light">{{ card_product.vendor }}</div>

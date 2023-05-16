@@ -14,23 +14,30 @@
     margin-right: 5px;
     /*margin: auto 10px 16px;*/
     border-radius: 4px;
-    line-height: 30px;
+    line-height: 15px;
     color: var(--color-text-accent);
     padding: 10px;
     opacity: 1;
     visibility: visible;
     overflow: visible;
-    display: block;
+    display: flex;
+    flex-direction: column;
     white-space: nowrap;
     text-align: center;
     z-index: 9999;
-    width: auto;
+    width: 220px;
     height: auto;
+}
+
+.variant__hovering--title{
+    white-space: pre-wrap;
+    line-height: 15px;
+    padding-top: 5px;
 }
 
 .variant__hovering--image {
     width: 200px;
-    height: 220px;
+    height: 210px;
     background-repeat: no-repeat;
     background-size: 100% 100%, cover;
 }

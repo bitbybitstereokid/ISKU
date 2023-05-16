@@ -57,7 +57,7 @@
     margin-bottom: 15px;
     /* identical to box height */
     text-align: center;
-    text-transform: capitalize;
+    /*text-transform: capitalize;*/
     color: var(--color-text-accent);
 
     position: relative !important;
@@ -163,7 +163,7 @@
     line-height: 150%;
     /* identical to box height, or 45px */
     color: var(--color-text-primary);
-    text-transform: capitalize;
+    /*text-transform: capitalize;*/
     margin-bottom: 50px;
     letter-spacing: 0;
 }
@@ -212,7 +212,7 @@
     line-height: 150%;
     /* identical to box height, or 45px */
     color: var(--color-text-primary);
-    text-transform: capitalize;
+    /*text-transform: capitalize;*/
     margin-bottom: 50px;
     letter-spacing: 0;
 }
@@ -297,7 +297,7 @@
     border: 0;
 
     text-decoration-line: underline;
-    text-transform: capitalize;
+    /*text-transform: capitalize;*/
     color: var(--color-accent-1);
 
     cursor: pointer;
