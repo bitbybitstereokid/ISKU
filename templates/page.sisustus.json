@@ -287,6 +287,34 @@
         "btn_text": "Kalusteiden hoito",
         "btn_url": "shopify:\/\/collections\/sisustustuotteet"
       }
+    },
+    "71df6335-b5c9-4f5f-8d6f-58cf9db1bfd7": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_40.png",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": false,
+        "text_centered": true,
+        "title": "Olohuoneen matot",
+        "text": "",
+        "btn_text": "Olohuoneen matot",
+        "btn_url": "shopify:\/\/collections\/olohuoneen-matot"
+      }
+    },
+    "d74a8ad2-7f40-46c4-a3f5-98da72806a80": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_40.png",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": true,
+        "text_centered": true,
+        "title": "Taljat",
+        "text": "",
+        "btn_text": "Taljat",
+        "btn_url": "shopify:\/\/collections\/taljat"
+      }
     }
   },
   "order": [
@@ -310,6 +338,8 @@
     "b1b2d27a-8c83-45c7-94bb-0c407eb22409",
     "5633a92f-a36f-4d1a-93a3-d2694b394dbb",
     "b51d47e5-a3c1-40b2-ae06-879bf05ea9fc",
-    "f3f1c8df-d283-4d5a-bf0f-92692c8fbb8d"
+    "f3f1c8df-d283-4d5a-bf0f-92692c8fbb8d",
+    "71df6335-b5c9-4f5f-8d6f-58cf9db1bfd7",
+    "d74a8ad2-7f40-46c4-a3f5-98da72806a80"
   ]
 }
