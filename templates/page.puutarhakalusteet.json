@@ -8,6 +8,187 @@
         "padding_bottom": 28
       }
     },
+    "4e26546f-498d-4af6-9727-b0027b450550": {
+      "type": "image-banner",
+      "blocks": {
+        "template--15666921275492__4e26546f-498d-4af6-9727-b0027b450550-1684252064d794e204-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Puutarhakalusteet",
+            "heading_size": "h1"
+          }
+        },
+        "template--15666921275492__4e26546f-498d-4af6-9727-b0027b450550-1684252064d794e204-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--15666921275492__4e26546f-498d-4af6-9727-b0027b450550-1684252064d794e204-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15666921275492__4e26546f-498d-4af6-9727-b0027b450550-1684252064d794e204-0",
+        "template--15666921275492__4e26546f-498d-4af6-9727-b0027b450550-1684252064d794e204-1",
+        "template--15666921275492__4e26546f-498d-4af6-9727-b0027b450550-1684252064d794e204-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/77183_Sandkorn_lounge_group_Varm_Amarante_Kotte_Como_screen_77183.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "top-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "c0f6ae04-b0d1-4a9c-8cdd-6f0cf50f0671": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15666921275492__c0f6ae04-b0d1-4a9c-8cdd-6f0cf50f0671-1684252192b4e19411-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Kalusteita useammaksi kesäksi<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--15666921275492__c0f6ae04-b0d1-4a9c-8cdd-6f0cf50f0671-1684252192b4e19411-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Kaikki kalusteet puutarhaan, terassille tai parvekkeelle. Löydä laajasta puutarhakalusteiden valikoimastamme juuri sinulle sopivat kalusteet.<\/p>"
+          }
+        },
+        "template--15666921275492__c0f6ae04-b0d1-4a9c-8cdd-6f0cf50f0671-1684252192b4e19411-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Puutarhakalusteet",
+            "button_link": "shopify:\/\/collections\/puutarhakalusteet",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15666921275492__c0f6ae04-b0d1-4a9c-8cdd-6f0cf50f0671-1684252192b4e19411-0",
+        "template--15666921275492__c0f6ae04-b0d1-4a9c-8cdd-6f0cf50f0671-1684252192b4e19411-1",
+        "template--15666921275492__c0f6ae04-b0d1-4a9c-8cdd-6f0cf50f0671-1684252192b4e19411-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "808b0aee-d633-47f9-8895-992f659e098f": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--15666921275492__808b0aee-d633-47f9-8895-992f659e098f-1684252586156a85ac-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brafab-lyra-sohva-beige.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Ulkosohvat",
+            "link": "shopify:\/\/collections\/ulkosohvat"
+          }
+        },
+        "template--15666921275492__808b0aee-d633-47f9-8895-992f659e098f-1684252586156a85ac-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brafab-lyra-ruokapoyta.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Puutarhapöydät ja tuolit",
+            "link": "shopify:\/\/collections\/puutarhapoydat-ja-tuolit"
+          }
+        },
+        "template--15666921275492__808b0aee-d633-47f9-8895-992f659e098f-1684252586156a85ac-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/isabella-nojatuoli-rottinki-1.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Rottinkikalusteet",
+            "link": "shopify:\/\/collections\/rottinkikalusteet"
+          }
+        },
+        "d3de6cfb-a59d-4656-a67a-c0964bcc279d": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brafab-varallo-varjo-beige.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Aurinkovarjot ja -jalat",
+            "link": "shopify:\/\/collections\/aurinkovarjot-ja-jalat"
+          }
+        },
+        "97ad1037-3b4c-4ee7-a72d-5590b55e569c": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brafab-aspen-aurinkotuoli-harmaa-musta-1.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Aurinkotuolit",
+            "link": "shopify:\/\/collections\/aurinkotuolit"
+          }
+        },
+        "892d7ebe-8370-4ec9-9e31-39ba218c307d": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/vanilla-riipputuoli.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Puutarhakeinut",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15666921275492__808b0aee-d633-47f9-8895-992f659e098f-1684252586156a85ac-0",
+        "template--15666921275492__808b0aee-d633-47f9-8895-992f659e098f-1684252586156a85ac-1",
+        "template--15666921275492__808b0aee-d633-47f9-8895-992f659e098f-1684252586156a85ac-2",
+        "d3de6cfb-a59d-4656-a67a-c0964bcc279d",
+        "97ad1037-3b4c-4ee7-a72d-5590b55e569c",
+        "892d7ebe-8370-4ec9-9e31-39ba218c307d"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "092bc77a-53e0-4c0c-b41c-753d7ab2a78a": {
       "type": "about-image-text",
       "settings": {
@@ -123,6 +304,9 @@
   },
   "order": [
     "main",
+    "4e26546f-498d-4af6-9727-b0027b450550",
+    "c0f6ae04-b0d1-4a9c-8cdd-6f0cf50f0671",
+    "808b0aee-d633-47f9-8895-992f659e098f",
     "092bc77a-53e0-4c0c-b41c-753d7ab2a78a",
     "1afc44d0-4e44-4623-b9c2-3c450e53a3b1",
     "1e743da6-64fb-43d2-bfc6-f01758b8be08",
