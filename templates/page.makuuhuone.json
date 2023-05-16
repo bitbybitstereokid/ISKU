@@ -8,6 +8,153 @@
         "padding_bottom": 28
       }
     },
+    "2de4b604-a275-45c5-919a-0668ac0b2cdb": {
+      "type": "image-banner",
+      "blocks": {
+        "template--15666920915044__2de4b604-a275-45c5-919a-0668ac0b2cdb-1684252064d794e204-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Makuuhuone",
+            "heading_size": "h1"
+          }
+        },
+        "template--15666920915044__2de4b604-a275-45c5-919a-0668ac0b2cdb-1684252064d794e204-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--15666920915044__2de4b604-a275-45c5-919a-0668ac0b2cdb-1684252064d794e204-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15666920915044__2de4b604-a275-45c5-919a-0668ac0b2cdb-1684252064d794e204-0",
+        "template--15666920915044__2de4b604-a275-45c5-919a-0668ac0b2cdb-1684252064d794e204-1",
+        "template--15666920915044__2de4b604-a275-45c5-919a-0668ac0b2cdb-1684252064d794e204-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/7_0-produkt_boxspringbett_j5-continental_jensen.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "top-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "61308a27-1ea2-44d9-a9f2-79798a85f59e": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15666920915044__61308a27-1ea2-44d9-a9f2-79798a85f59e-1684252192b4e19411-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Parempien unien puolesta<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--15666920915044__61308a27-1ea2-44d9-a9f2-79798a85f59e-1684252192b4e19411-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>ISKUn valikoimasta löydät laajan valikoiman sänkyjä johtavilta nukkumisen asiantuntijoilta. Merkit Tempur, Jensen, Unigold ja Carpe Diem puhuvat puolestaan. Kaikista myymälöistämme löydät koulutetut uniergonomian asiantuntijat. <\/p><p>Verkkokaupassa jokainen sänky ja sen ominaisuudet ovat tarkoitusti kuvailtu ja lisäksi osasta löydät uniasiantutijamme videon, joka auttaa sängyn valinnassa. Hyviä unia toivottaen!<\/p>"
+          }
+        },
+        "template--15666920915044__61308a27-1ea2-44d9-a9f2-79798a85f59e-1684252192b4e19411-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15666920915044__61308a27-1ea2-44d9-a9f2-79798a85f59e-1684252192b4e19411-0",
+        "template--15666920915044__61308a27-1ea2-44d9-a9f2-79798a85f59e-1684252192b4e19411-1",
+        "template--15666920915044__61308a27-1ea2-44d9-a9f2-79798a85f59e-1684252192b4e19411-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "5e40d301-6651-47f2-b86b-6f7c61e1591d": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--15666920915044__5e40d301-6651-47f2-b86b-6f7c61e1591d-1684252586156a85ac-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/tempur-flex-base-uusi.jpg",
+            "title": "Tempur",
+            "text": "<p>Laaja valikoima nukkumisen asiantuntijan Tempurin sänkyjä, patjoja ja tyynyjä. <\/p>",
+            "link_label": "Tempurin tuotteet",
+            "link": "shopify:\/\/collections\/tempur"
+          }
+        },
+        "template--15666920915044__5e40d301-6651-47f2-b86b-6f7c61e1591d-1684252586156a85ac-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Jensen_Bett_Diplomat_green_1.jpg",
+            "title": "Jensen",
+            "text": "<p>Vuodesta 1947 norjalainen Jensenin laadukkaat sängyt ovat taanneet parhaan unen. Patentoitu jousiratkaisu, jolla 25 v. takuu. <\/p>",
+            "link_label": "Jensenin sängyt",
+            "link": ""
+          }
+        },
+        "template--15666920915044__5e40d301-6651-47f2-b86b-6f7c61e1591d-1684252586156a85ac-2": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15666920915044__5e40d301-6651-47f2-b86b-6f7c61e1591d-1684252586156a85ac-0",
+        "template--15666920915044__5e40d301-6651-47f2-b86b-6f7c61e1591d-1684252586156a85ac-1",
+        "template--15666920915044__5e40d301-6651-47f2-b86b-6f7c61e1591d-1684252586156a85ac-2"
+      ],
+      "settings": {
+        "title": "Sänkymme",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "a65a1687-c603-4667-9f0b-2523fdad5cb7": {
       "type": "about-image-text",
       "settings": {
@@ -221,6 +368,9 @@
   },
   "order": [
     "main",
+    "2de4b604-a275-45c5-919a-0668ac0b2cdb",
+    "61308a27-1ea2-44d9-a9f2-79798a85f59e",
+    "5e40d301-6651-47f2-b86b-6f7c61e1591d",
     "a65a1687-c603-4667-9f0b-2523fdad5cb7",
     "2299cf72-cfbe-41cf-98aa-2dfd0c44a5e3",
     "83c09231-d0a9-4b22-8193-2b5b23768dc8",
