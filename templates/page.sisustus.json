@@ -8,338 +8,155 @@
         "padding_bottom": 28
       }
     },
-    "fb385c95-4699-42ba-b356-10a518bc9bb1": {
-      "type": "about-image-text",
+    "5550b5e4-b302-4396-bed5-54ac320902be": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15666921144420__5550b5e4-b302-4396-bed5-54ac320902be-1684252048ba902b65-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Kaikki sisustukseen",
+            "heading_size": "h1"
+          }
+        },
+        "template--15666921144420__5550b5e4-b302-4396-bed5-54ac320902be-1684252048ba902b65-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Löydät meiltä erilaiset valaisimet, matot ja muut sisustustarvikkeet.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--15666921144420__5550b5e4-b302-4396-bed5-54ac320902be-1684252048ba902b65-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15666921144420__5550b5e4-b302-4396-bed5-54ac320902be-1684252048ba902b65-0",
+        "template--15666921144420__5550b5e4-b302-4396-bed5-54ac320902be-1684252048ba902b65-1",
+        "template--15666921144420__5550b5e4-b302-4396-bed5-54ac320902be-1684252048ba902b65-2"
+      ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/image_40.png",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "reverse": false,
-        "text_centered": true,
-        "title": "Valaisimet",
-        "text": "",
-        "btn_text": "Valaisimet",
-        "btn_url": "shopify:\/\/collections\/valaisimet"
+        "image": "shopify:\/\/shop_images\/SISUSTUS-2.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
-    "3a170b16-a12c-4a9a-a1ee-47b7da6f2e2b": {
-      "type": "about-image-text",
+    "8f8f0d08-d1f7-440f-825b-fc8368df008a": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--15666921144420__8f8f0d08-d1f7-440f-825b-fc8368df008a-1684252586156a85ac-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/valaisin-gronlund-meukow-kattovalaisin-shampanja.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Kaikki valaisimet",
+            "link": "shopify:\/\/collections\/valaisimet"
+          }
+        },
+        "template--15666921144420__8f8f0d08-d1f7-440f-825b-fc8368df008a-1684252586156a85ac-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/valaisin-gronlund-layer1-led-kattovalaisin-60-messinki.webp",
+            "title": "",
+            "text": "",
+            "link_label": "Kattovalaisimet",
+            "link": "shopify:\/\/collections\/kattovalaisimet"
+          }
+        },
+        "template--15666921144420__8f8f0d08-d1f7-440f-825b-fc8368df008a-1684252586156a85ac-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/valaisin-gronlund-round-double-lattiavalaisin.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Lattiavalaisimet",
+            "link": "shopify:\/\/collections\/lattiavalaisimet"
+          }
+        },
+        "9c94962d-4716-4498-a76b-4c33ec0122bc": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/finarte-juhla-matto.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Matot",
+            "link": "shopify:\/\/collections\/matot"
+          }
+        },
+        "e7729e8d-3fad-4020-b10d-2edd2f59a383": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/valaisin-gronlund-glasgow-seinavalaisin-messinkishampanja.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Seinävalaisimet",
+            "link": "shopify:\/\/collections\/seinavalaisimet"
+          }
+        },
+        "2342cc90-7723-4ea5-aa42-935fa09e8856": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/valaisin-gronlund-blink-poytavalaisin-musta.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Pöytävalaisimet",
+            "link": "shopify:\/\/collections\/poytavalaisimet"
+          }
+        },
+        "2d505c42-f529-4e85-863b-bc8a5157d06d": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/anno-arkiivi-villahuopa-beige-oranssi-hang_2844495d-4724-4f2a-a886-141b9b1ef059.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Sisustustuotteet",
+            "link": "shopify:\/\/collections\/sisustustuotteet"
+          }
+        }
+      },
+      "block_order": [
+        "template--15666921144420__8f8f0d08-d1f7-440f-825b-fc8368df008a-1684252586156a85ac-0",
+        "template--15666921144420__8f8f0d08-d1f7-440f-825b-fc8368df008a-1684252586156a85ac-1",
+        "template--15666921144420__8f8f0d08-d1f7-440f-825b-fc8368df008a-1684252586156a85ac-2",
+        "9c94962d-4716-4498-a76b-4c33ec0122bc",
+        "e7729e8d-3fad-4020-b10d-2edd2f59a383",
+        "2342cc90-7723-4ea5-aa42-935fa09e8856",
+        "2d505c42-f529-4e85-863b-bc8a5157d06d"
+      ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/image_40.png",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "reverse": true,
-        "text_centered": true,
-        "title": "Kattovalaisimet",
-        "text": "",
-        "btn_text": "Kattovalaisimet",
-        "btn_url": "shopify:\/\/collections\/kattovalaisimet"
-      }
-    },
-    "4ddb0516-2718-4335-834d-2c035f03a750": {
-      "type": "about-image-text",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/image_40.png",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "reverse": false,
-        "text_centered": true,
-        "title": "Lattiavalaisimet",
-        "text": "",
-        "btn_text": "Lattiavalaisimet",
-        "btn_url": "shopify:\/\/collections\/lattiavalaisimet"
-      }
-    },
-    "6fa57ff8-05b0-4ed7-93a2-a0faaed27289": {
-      "type": "about-image-text",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/image_40.png",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "reverse": true,
-        "text_centered": true,
-        "title": "Poytavalaisimet",
-        "text": "",
-        "btn_text": "Poytavalaisimet",
-        "btn_url": "shopify:\/\/collections\/poytavalaisimet"
-      }
-    },
-    "46a010d0-d5a6-4c4d-a8f3-f51db8d3f7d6": {
-      "type": "about-image-text",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/image_40.png",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "reverse": false,
-        "text_centered": true,
-        "title": "Seinavalaisimet",
-        "text": "",
-        "btn_text": "Seinavalaisimet",
-        "btn_url": "shopify:\/\/collections\/valaisimet"
-      }
-    },
-    "33d43fec-10d9-4df4-bbab-2dfba2348708": {
-      "type": "about-image-text",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/image_40.png",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "reverse": true,
-        "text_centered": true,
-        "title": "Tyopoytavalaisimet",
-        "text": "",
-        "btn_text": "Tyopoytavalaisimet",
-        "btn_url": "shopify:\/\/collections\/valaisimet"
-      }
-    },
-    "92d77794-2cb9-4efa-9833-981c95ce205f": {
-      "type": "about-image-text",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/image_40.png",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "reverse": false,
-        "text_centered": true,
-        "title": "Valaisintarvikkeet",
-        "text": "",
-        "btn_text": "Valaisintarvikkeet",
-        "btn_url": "shopify:\/\/collections\/valaisimet"
-      }
-    },
-    "30f6d938-f184-462f-8627-029da027cf75": {
-      "type": "about-image-text",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/image_40.png",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "reverse": true,
-        "text_centered": true,
-        "title": "Matot",
-        "text": "",
-        "btn_text": "Matot",
-        "btn_url": "shopify:\/\/collections\/matot"
-      }
-    },
-    "215fbb37-9911-4e0f-b1df-2f9ff40649af": {
-      "type": "about-image-text",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/image_40.png",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "reverse": false,
-        "text_centered": true,
-        "title": "Kaytavamatot",
-        "text": "",
-        "btn_text": "Kaytavamatot",
-        "btn_url": "shopify:\/\/collections\/kaytavamatot"
-      }
-    },
-    "07d6a352-4ba7-4ddf-87cc-9d1d0b4080b7": {
-      "type": "about-image-text",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/image_40.png",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "reverse": true,
-        "text_centered": true,
-        "title": "Eteismatot",
-        "text": "",
-        "btn_text": "Eteismatot",
-        "btn_url": "shopify:\/\/collections\/eteismatot"
-      }
-    },
-    "d1f2cf70-2cd8-4d9c-9876-f8d23316fdba": {
-      "type": "about-image-text",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/image_40.png",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "reverse": false,
-        "text_centered": true,
-        "title": "Terassimatot",
-        "text": "",
-        "btn_text": "Terassimatot",
-        "btn_url": "shopify:\/\/collections\/terassimatot"
-      }
-    },
-    "9a4ba4a2-4cb2-49d5-af6b-197054e0b379": {
-      "type": "about-image-text",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/image_40.png",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "reverse": true,
-        "text_centered": true,
-        "title": "Pyoreat matot",
-        "text": "",
-        "btn_text": "Pyoreat matot",
-        "btn_url": "shopify:\/\/collections\/pyoreat-matot"
-      }
-    },
-    "60b8c5f2-32ef-4e71-bc8d-63441234d0ee": {
-      "type": "about-image-text",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/image_40.png",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "reverse": false,
-        "text_centered": true,
-        "title": "Villamatot",
-        "text": "",
-        "btn_text": "Villamatot",
-        "btn_url": "shopify:\/\/collections\/villamatot"
-      }
-    },
-    "a260cefe-68c2-4266-8881-ff886656dda3": {
-      "type": "about-image-text",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/image_40.png",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "reverse": true,
-        "text_centered": true,
-        "title": "Puuvillamatot",
-        "text": "",
-        "btn_text": "Puuvillamatot",
-        "btn_url": "shopify:\/\/collections\/puuvillamatot"
-      }
-    },
-    "7913be62-bebf-480a-a2c6-9b3353d5c3d1": {
-      "type": "about-image-text",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/image_40.png",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "reverse": false,
-        "text_centered": true,
-        "title": "Nukkamatot",
-        "text": "",
-        "btn_text": "Nukkamatot",
-        "btn_url": "shopify:\/\/collections\/nukkamatot"
-      }
-    },
-    "f137bf98-69a6-48e7-8b6e-0bac72f81daa": {
-      "type": "about-image-text",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/image_40.png",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "reverse": true,
-        "text_centered": true,
-        "title": "Juuttimatot",
-        "text": "",
-        "btn_text": "Juuttimatot",
-        "btn_url": "shopify:\/\/collections\/juuttimatot"
-      }
-    },
-    "b1b2d27a-8c83-45c7-94bb-0c407eb22409": {
-      "type": "about-image-text",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/image_40.png",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "reverse": false,
-        "text_centered": true,
-        "title": "Muovimatot",
-        "text": "",
-        "btn_text": "Muovimatot",
-        "btn_url": "shopify:\/\/collections\/muovimatot"
-      }
-    },
-    "5633a92f-a36f-4d1a-93a3-d2694b394dbb": {
-      "type": "about-image-text",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/image_40.png",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "reverse": true,
-        "text_centered": true,
-        "title": "Taljat",
-        "text": "",
-        "btn_text": "Taljat",
-        "btn_url": "shopify:\/\/collections\/taljat"
-      }
-    },
-    "b51d47e5-a3c1-40b2-ae06-879bf05ea9fc": {
-      "type": "about-image-text",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/image_40.png",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "reverse": false,
-        "text_centered": true,
-        "title": "Sisustustuotteet",
-        "text": "",
-        "btn_text": "Sisustustuotteet",
-        "btn_url": "shopify:\/\/collections\/sisustustuotteet"
-      }
-    },
-    "f3f1c8df-d283-4d5a-bf0f-92692c8fbb8d": {
-      "type": "about-image-text",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/image_40.png",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "reverse": true,
-        "text_centered": true,
-        "title": "Kalusteiden hoito",
-        "text": "",
-        "btn_text": "Kalusteiden hoito",
-        "btn_url": "shopify:\/\/collections\/sisustustuotteet"
-      }
-    },
-    "71df6335-b5c9-4f5f-8d6f-58cf9db1bfd7": {
-      "type": "about-image-text",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/image_40.png",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "reverse": false,
-        "text_centered": true,
-        "title": "Olohuoneen matot",
-        "text": "",
-        "btn_text": "Olohuoneen matot",
-        "btn_url": "shopify:\/\/collections\/olohuoneen-matot"
-      }
-    },
-    "d74a8ad2-7f40-46c4-a3f5-98da72806a80": {
-      "type": "about-image-text",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/image_40.png",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "reverse": true,
-        "text_centered": true,
-        "title": "Taljat",
-        "text": "",
-        "btn_text": "Taljat",
-        "btn_url": "shopify:\/\/collections\/taljat"
+        "title": "Sisustamisen kategoriat",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
   "order": [
     "main",
-    "fb385c95-4699-42ba-b356-10a518bc9bb1",
-    "3a170b16-a12c-4a9a-a1ee-47b7da6f2e2b",
-    "4ddb0516-2718-4335-834d-2c035f03a750",
-    "6fa57ff8-05b0-4ed7-93a2-a0faaed27289",
-    "46a010d0-d5a6-4c4d-a8f3-f51db8d3f7d6",
-    "33d43fec-10d9-4df4-bbab-2dfba2348708",
-    "92d77794-2cb9-4efa-9833-981c95ce205f",
-    "30f6d938-f184-462f-8627-029da027cf75",
-    "215fbb37-9911-4e0f-b1df-2f9ff40649af",
-    "07d6a352-4ba7-4ddf-87cc-9d1d0b4080b7",
-    "d1f2cf70-2cd8-4d9c-9876-f8d23316fdba",
-    "9a4ba4a2-4cb2-49d5-af6b-197054e0b379",
-    "60b8c5f2-32ef-4e71-bc8d-63441234d0ee",
-    "a260cefe-68c2-4266-8881-ff886656dda3",
-    "7913be62-bebf-480a-a2c6-9b3353d5c3d1",
-    "f137bf98-69a6-48e7-8b6e-0bac72f81daa",
-    "b1b2d27a-8c83-45c7-94bb-0c407eb22409",
-    "5633a92f-a36f-4d1a-93a3-d2694b394dbb",
-    "b51d47e5-a3c1-40b2-ae06-879bf05ea9fc",
-    "f3f1c8df-d283-4d5a-bf0f-92692c8fbb8d",
-    "71df6335-b5c9-4f5f-8d6f-58cf9db1bfd7",
-    "d74a8ad2-7f40-46c4-a3f5-98da72806a80"
+    "5550b5e4-b302-4396-bed5-54ac320902be",
+    "8f8f0d08-d1f7-440f-825b-fc8368df008a"
   ]
 }
