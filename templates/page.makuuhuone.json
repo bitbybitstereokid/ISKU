@@ -189,6 +189,34 @@
         "btn_text": "Yopoydat",
         "btn_url": "shopify:\/\/collections\/yopoydat"
       }
+    },
+    "313ce444-f425-4b7f-87c2-6b8d6f990eb9": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/kampa2_710974a3-1885-4177-9d20-ec2753449cad.jpg",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": true,
+        "text_centered": true,
+        "title": "Vuodevaatteet",
+        "text": "",
+        "btn_text": "Vuodevaatteet",
+        "btn_url": "shopify:\/\/collections\/vuodevaatteet"
+      }
+    },
+    "03ab1097-790d-4832-aabc-6568e3533c12": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/kampa2_710974a3-1885-4177-9d20-ec2753449cad.jpg",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": false,
+        "text_centered": true,
+        "title": "Petaus ja sijauspatjat",
+        "text": "",
+        "btn_text": "Petaus ja sijauspatjat",
+        "btn_url": "shopify:\/\/collections\/petaus-ja-sijauspatjat"
+      }
     }
   },
   "order": [
@@ -205,6 +233,8 @@
     "3d70f830-60c5-4d3d-afee-16af11af7b96",
     "63988179-8dc1-4dc5-8f78-934e92c19e12",
     "c2d41511-f51d-4dee-9283-9c6470f61277",
-    "7d0ba12a-706b-4ec3-838c-6e4ba262b4ae"
+    "7d0ba12a-706b-4ec3-838c-6e4ba262b4ae",
+    "313ce444-f425-4b7f-87c2-6b8d6f990eb9",
+    "03ab1097-790d-4832-aabc-6568e3533c12"
   ]
 }
