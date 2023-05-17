@@ -1,0 +1,77 @@
+@media screen and (min-width: 750px){
+    .page-width.page-width--narrow{
+        padding: 0 5rem;
+    }
+}
+
+@media screen and (max-width: 749px){
+    .page-width.page-width--narrow{
+        padding: 0 1.5rem;
+    }
+}
+
+#stockist-widget .stockist-powered-by-link {
+    display: none;
+}
+
+#stockist-widget .stockist-list-result > div {
+    /*padding-left: 25px;*/
+    font-size: 14px;
+}
+
+#stockist-widget .stockist-list-result .stockist-result-distance {
+    /*width: auto;*/
+    /*padding-left: 0;*/
+}
+
+#stockist-widget .stockist-result > div {
+    margin-top: 0;
+}
+
+#stockist-widget .stockist-result-list ul > li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#stockist-widget .stockist-list-result > .stockist-result-distance > .stockist-icon {
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 1px;
+    font-size: 21px;
+    top: -4px;
+}
+
+#stockist-widget .stockist-query-entry .stockist-search-field {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid #121212;
+}
+
+#stockist-widget .stockist-result-list ul > li:first-child {
+    border-top: 0;
+}
+
+#stockist-widget .stockist-result-list ul > li {
+    border-top: 1px solid #121212;
+}
+
+#stockist-widget .stockist-query-entry .stockist-search-field {
+    padding: 9px 8px 8px;
+    font-family: var(--font-body-family), sans-serif !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+#stockist-widget .stockist-query-entry .stockist-search-field:focus-visible {
+    outline: none;
+    box-shadow: none;
+}
+
+@media screen and (max-width: 768px) {
+    #stockist-widget.stockist-responsive .stockist-side-panel {
+        padding-bottom: 40px;
+    }
+}

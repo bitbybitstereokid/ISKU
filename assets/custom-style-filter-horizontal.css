@@ -8,6 +8,7 @@
 /*}*/
 
 .variant__hovering {
+    pointer-events: none;
     position: fixed;
     background: #353c4e;
     margin-left: 5px;
