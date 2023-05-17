@@ -103,6 +103,16 @@
     "5e40d301-6651-47f2-b86b-6f7c61e1591d": {
       "type": "multicolumn",
       "blocks": {
+        "template--15666920915044__5e40d301-6651-47f2-b86b-6f7c61e1591d-1684252586156a85ac-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/uudistunut-unigold-image_1.jpg",
+            "title": "Unigold",
+            "text": "<p>Unigold on Iskun laadukas ja laaja kotimainen sänkymallisto, josta löytyy sopiva ratkaisu erilaisiin nukkumisen tarpeisiin.<\/p>",
+            "link_label": "Unigold",
+            "link": "shopify:\/\/collections\/unigold"
+          }
+        },
         "template--15666920915044__5e40d301-6651-47f2-b86b-6f7c61e1591d-1684252586156a85ac-0": {
           "type": "column",
           "settings": {
@@ -121,16 +131,6 @@
             "text": "<p>Vuodesta 1947 norjalainen Jensenin laadukkaat sängyt ovat taanneet parhaan unen. Patentoitu jousiratkaisu, jolla 25 v. takuu. <\/p>",
             "link_label": "Jensenin sängyt",
             "link": "shopify:\/\/collections\/jensen"
-          }
-        },
-        "template--15666920915044__5e40d301-6651-47f2-b86b-6f7c61e1591d-1684252586156a85ac-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/uudistunut-unigold-image_1.jpg",
-            "title": "Unigold",
-            "text": "<p>Unigold on Iskun laadukas ja laaja kotimainen sänkymallisto, josta löytyy sopiva ratkaisu erilaisiin nukkumisen tarpeisiin.<\/p>",
-            "link_label": "Unigold",
-            "link": "shopify:\/\/collections\/unigold"
           }
         },
         "9516141d-b374-43c7-ba9d-7865a5be6247": {
@@ -215,9 +215,9 @@
         }
       },
       "block_order": [
+        "template--15666920915044__5e40d301-6651-47f2-b86b-6f7c61e1591d-1684252586156a85ac-2",
         "template--15666920915044__5e40d301-6651-47f2-b86b-6f7c61e1591d-1684252586156a85ac-0",
         "template--15666920915044__5e40d301-6651-47f2-b86b-6f7c61e1591d-1684252586156a85ac-1",
-        "template--15666920915044__5e40d301-6651-47f2-b86b-6f7c61e1591d-1684252586156a85ac-2",
         "9516141d-b374-43c7-ba9d-7865a5be6247",
         "ed45d166-fab6-434e-8562-33ca9dca93b7",
         "e7ee30df-3f2a-46f0-9413-8bfb2dfc9b41",
