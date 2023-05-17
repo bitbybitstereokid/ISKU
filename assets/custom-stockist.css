@@ -10,6 +10,10 @@
     }
 }
 
+#stockist-widget{
+    padding-bottom: 50px;
+}
+
 #stockist-widget .stockist-powered-by-link {
     display: none;
 }
