@@ -1,3 +1,9 @@
+<script>
+  if (window.location.href.indexOf('duplicate-') != -1) {
+    window.location.href = window.location.href.replace('duplicate-', '').split('?variant')[0]
+  }
+</script>
+
 <script src="{{ 'custom-product-quantity.js' | asset_url }}" defer="defer"></script>
 <script src="{{ 'custom-color-swatcher.js' | asset_url }}" defer="defer"></script>
 
@@ -66,7 +72,11 @@
 
   <div class="product product--{{ section.settings.media_size }} product--{{ section.settings.media_position }} product--{{ section.settings.gallery_layout }} product--mobile-{{ section.settings.mobile_thumbnails }} grid grid--1-col {% if product.media.size > 0 %}grid--2-col-tablet{% else %}product--no-media{% endif %}">
     <div class="grid__item product__media-wrapper{% if section.settings.media_position == 'right' %} medium-hide large-up-hide{% endif %}">
-      {% render 'product-media-gallery', variant_images: variant_images %}
+      {% if product.metafields.custom.duplicat_product == blank %}
+        {% render 'product-media-gallery', variant_images: variant_images %}
+      {% else %}
+        {% render 'product-media-gallery-multi', variant_images: variant_images %}
+      {% endif %}
     </div>
     <div class="product__info-wrapper grid__item{% if settings.page_width > 1400 and section.settings.media_size == "small" %} product__info-wrapper--extra-padding{% endif %}">
       <product-info
