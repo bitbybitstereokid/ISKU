@@ -366,8 +366,10 @@
                     <details id="Details-HeaderMenu-{{ forloop.index }}" class="open-on-hover">
                       <summary
                               class=" header__menu-item list-menu__item link focus-inset">
+                        <a href="{{ link.url }}">
                         <span {%- if link.child_active %} class="header__active-menu-item"{% endif %}>{{ link.title | escape }}</span>
                         {% render 'icon-caret' %}
+                        </a>
                       </summary>
                       <ul id="HeaderMenu-MenuList-{{ forloop.index }}"
                           class="header__submenu list-menu list-menu--disclosure gradient caption-large motion-reduce global-settings-popup"
@@ -423,8 +425,10 @@
                   <header-menu>
                     <details id="Details-HeaderMenu-{{ forloop.index }}" class="open-on-hover mega-menu">
                       <summary class="header__menu-item list-menu__item link focus-inset">
+                        <a href="{{ link.url }}">
                         <span {%- if link.child_active %} class="header__active-menu-item"{% endif %}>{{ link.title | escape }}</span>
                         {% render 'icon-caret' %}
+                        </a>
                       </summary>
                       <div id="MegaMenu-Content-{{ forloop.index }}"
                            class="mega-menu__content gradient motion-reduce global-settings-popup"

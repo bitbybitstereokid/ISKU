@@ -83,7 +83,6 @@
 .custom-product .custom-quantity-wrapper {
     padding: 16px;
     background-color: #F4F4F2;
-    gap: 10px;
     margin: 20px -15px;
     display: flex;
     align-items: center;
@@ -192,7 +191,7 @@
     align-items: center;
 }
 
-.product-vendor{
+.product-vendor {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -219,7 +218,8 @@
     color: var(--color-text-primary);
     position: relative;
 }
-.wishlist-chat__wishlist > #smartwishlist{
+
+.wishlist-chat__wishlist > #smartwishlist {
     width: 30px;
     height: 30px;
 }
