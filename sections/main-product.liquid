@@ -361,7 +361,13 @@
                 share_link: share_url
               %}
             {%- when 'variant_picker' -%}
+              
+            {% if product.metafields.custom.duplicat_product != blank %}
+              {% render 'product-variant-picker-multi', product: product, productMulti: product.metafields.custom.duplicat_product, block: block, product_form_id: product_form_id %}
+            {% else %} 
               {% render 'product-variant-picker', product: product, block: block, product_form_id: product_form_id %}
+            {% endif %} 
+
             {%- when 'rating' -%}
               {%- if product.metafields.reviews.rating.value != blank -%}
                 {% liquid
