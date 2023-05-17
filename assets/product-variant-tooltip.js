@@ -1,11 +1,11 @@
 //Filter collection mobile + product form
+let tooltipElem;
 document.addEventListener('reInitCollectionSort', () => {
     filterInitialization();
-})
+});
 filterInitialization();
 
 function filterInitialization() {
-    let tooltipElem;
     let variantColors = document.querySelectorAll('.product-label-hover');
 
     variantColors.forEach((variant) => {
@@ -14,13 +14,10 @@ function filterInitialization() {
             if (window.innerWidth >= 768) {
                 let target = event.target;
 
-                // если у нас есть подсказка...
                 let tooltipHtmlColor = target.dataset.variantColor;
                 let tooltipHtmlUrl = target.dataset.variantUrl;
                 if (!tooltipHtmlColor) return;
                 if (!tooltipHtmlColor) return;
-
-                // ...создадим элемент для подсказки
 
                 tooltipElem = document.createElement('div');
                 tooltipElem.className = 'variant__hovering';
@@ -28,7 +25,6 @@ function filterInitialization() {
                 tooltipElem.innerHTML += `<span class="variant__hovering--title">${tooltipHtmlColor}</span>`;
                 variant.append(tooltipElem);
 
-                // спозиционируем его сверху от аннотируемого элемента (top-center)
                 let coords = target.getBoundingClientRect();
 
                 let left = coords.left + (target.offsetWidth - tooltipElem.offsetWidth) / 2;

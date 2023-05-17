@@ -245,7 +245,10 @@
                       {% render 'icon-account' %}
                     </a>
                   {%- endif -%}
-                  <a href="/a/wishlist" class="menu-drawer__wishlist action-area__link wishlist__header">
+                  <a href="{{ section.settings.location_link }}" class="menu-drawer__wishlist">
+                    {% render 'icon-locator' %}
+                  </a>
+                  <a href="{{ section.settings.wishlist_page }}" class="menu-drawer__wishlist action-area__link wishlist__header">
                     {% render 'icon-wishlist' %}
                     <span class="wishlist__content"></span>
                   </a>
@@ -508,7 +511,11 @@
     {%- endif -%}
 
     <div class="header__icons">
-      <a href="/a/wishlist" id="smartwishlist_desktop_link" class="header__icon header__icon--wishlist link focus-inset action-area__link wishlist__header">
+      <a href="{{ section.settings.location_link }}" class="header__icon header__icon--locator link focus-inset">
+        {% render 'icon-locator' %}
+      </a>
+
+      <a href="{{ section.settings.wishlist_page }}" id="smartwishlist_desktop_link" class="header__icon header__icon--wishlist link focus-inset action-area__link wishlist__header">
         {% render 'icon-wishlist' %}
         <span class="wishlist__content"></span>
       </a>
@@ -872,6 +879,11 @@
   "type": "url",
   "id": "wishlist_page",
   "label": "Wishlist page URL"
+  },
+  {
+  "type": "url",
+  "id": "location_link",
+  "label": "Location page URL"
   },
   {
   "type": "header",

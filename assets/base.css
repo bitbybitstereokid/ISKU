@@ -2717,7 +2717,13 @@ details[open] > .header__submenu {
   color: rgb(var(--color-foreground));
 }
 
+.header__menu-item > a {
+  text-decoration: none;
+  color: var(--color-text-secondary);
+}
+
 .header__menu-item span {
+  pointer-events: none;
   transition: text-decoration var(--duration-short) ease;
 }
 
