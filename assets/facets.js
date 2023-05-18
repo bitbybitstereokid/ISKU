@@ -63,7 +63,6 @@ class FacetFiltersForm extends HTMLElement {
           FacetFiltersForm.renderFilters(html, event);
           FacetFiltersForm.renderProductGridContainer(html);
           FacetFiltersForm.renderProductCount(html);
-          ReloadSmartWishlist();
         });
   }
 
