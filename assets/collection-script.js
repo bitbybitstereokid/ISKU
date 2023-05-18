@@ -39,8 +39,6 @@ function loadMoreClick() {
             if (newLoadCurrentPage === loadTotalPage) {
                 loaderButton.remove();
             }
-
-            ReloadSmartWishlist();
         });
 }
 

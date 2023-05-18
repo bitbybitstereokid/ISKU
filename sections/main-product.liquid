@@ -325,15 +325,15 @@
             {%- when 'wishlist-and-chat' -%}
               <div class="wishlist-chat__wrapper">
                 <div class="wishlist-char__inner">
-                <div class="wishlist-chat__wishlist">
-                  <div id="smartwishlist" data-product="{{ product.id }}" data-variant="{{ product.variants.first.id }}"></div>
-                  {{ block.settings.wishlist_icon }}
-                  {{ block.settings.wishlist_text }}
-                </div>
-                <div class="wishlist-chat__chat">
-                  {{ block.settings.chat_icon }}
-                  {{ block.settings.chat_text }}
-                </div>
+                {% comment %}<div class="wishlist-chat__wishlist">{% endcomment %}
+                  {% comment %}<div id="smartwishlist" data-product="{{ product.id }}" data-variant="{{ product.variants.first.id }}"></div>{% endcomment %}
+                  {% comment %}{{ block.settings.wishlist_icon }}{% endcomment %}
+                  {% comment %}{{ block.settings.wishlist_text }}{% endcomment %}
+                {% comment %}</div>{% endcomment %}
+                  <div class="wishlist-chat__chat">
+                    {{ block.settings.chat_icon }}
+                    {{ block.settings.chat_text }}
+                  </div>
                 </div>
                 {% if product.metafields.custom.manufacture_finland == true %}
                   <div class="wishlist-manufacturer">
