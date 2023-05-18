@@ -56,7 +56,6 @@
           "settings": {
             "collection": "sohvat",
             "title": "Sohvat",
-            "image": "shopify:\/\/shop_images\/curve-miljoo2_1a50ba62-c0e6-4bc8-a812-3a9b26e68c99.jpg",
             "url": "shopify:\/\/collections\/sohvat"
           }
         },
@@ -65,7 +64,6 @@
           "settings": {
             "collection": "kaikki-sangyt",
             "title": "Sängyt",
-            "image": "shopify:\/\/shop_images\/tempur-flex-base-jenkki.jpg",
             "url": "shopify:\/\/collections\/kaikki-sangyt"
           }
         },
@@ -74,7 +72,6 @@
           "settings": {
             "collection": "ruokailuryhmat",
             "title": "Ruokailuryhmät",
-            "image": "shopify:\/\/shop_images\/aino-valkoinen-sisustuskuva.jpg",
             "url": "shopify:\/\/collections\/ruokailuryhmat"
           }
         },
@@ -193,7 +190,7 @@
         "text_align": "left",
         "image_position": "right",
         "image_position_mobile": "top",
-        "image": "shopify:\/\/shop_images\/tempur-flex-base-jenkki.jpg",
+        "image": "shopify:\/\/shop_images\/tempur-flex-base-uusi.jpg",
         "title": "Uudet Tempur sängyt",
         "small": false,
         "text": "Löydät nyt upouudet Tempur-mallimme kaikista ISKUn myymälöistä kautta maan. Lisäksi uusi Tempur Flexible Base on loistavassa tarjouksessa myymälöissä sekä verkkokaupassa. Tule tutustumaan lähimpään myymälääsi ja pääset testaamaan ne ensimmäisenä Suomessa! Tutustu uutuussänkyyn alta.",
