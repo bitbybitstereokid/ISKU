@@ -1,5 +1,5 @@
 {% assign showClass = false %}
-{% if product.selected_or_first_available_variant.compare_at_price != null and product.selected_or_first_available_variant.compare_at_price > product.selected_or_first_available_variant.price %}
+{% if product.selected_or_first_available_variant.compare_at_price > product.selected_or_first_available_variant.price %}
     {% assign showClass = true %}
 {% endif %}
 

@@ -1,79 +1,149 @@
-{% if product.metafields.custom.video_product != blank %}
-    <link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css"/>
-    {{ 'product-highlights.css' | asset_url | stylesheet_tag }}
+<link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css"/>
+{{ 'product-highlights.css' | asset_url | stylesheet_tag }}
 
-    {% style %}
-        .product-highlights.product-highlights--{{ section.id }} {
-        padding-top: {{ section.settings.padding_top | times: 0.8 | round: 0 }}px;
-        padding-bottom: {{ section.settings.padding_bottom | times: 0.8 | round: 0 }}px;
-        }
+{% style %}
+    .product-highlights.product-highlights--{{ section.id }} {
+    padding-top: {{ section.settings.padding_top | times: 0.8 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.8 | round: 0 }}px;
+    }
 
-        @media only screen and (min-width: 769px) {
-        .product-highlights.product-highlights--{{ section.id }} {
-        padding-top: {{ section.settings.padding_top }}px;
-        padding-bottom: {{ section.settings.padding_bottom }}px;
-        }
-        }
-    {% endstyle %}
-    <div class="product-highlights page-width product-highlights--{{ section.id }}">
-        <div class="product-highlights__tabs">
-            {% comment %}<div class="product-highlights__main-text">{% endcomment %}
-            {% comment %}{{ product.description }}{% endcomment %}
-            {% comment %}</div>{% endcomment %}
-            {% for block in section.blocks %}
-                <div class="product-highlights__tab {% if forloop.index == 1 %}active{% endif %}">
+    @media only screen and (min-width: 769px) {
+    .product-highlights.product-highlights--{{ section.id }} {
+    padding-top: {{ section.settings.padding_top }}px;
+    padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+    }
+{% endstyle %}
+
+
+{% assign namesForColorSwotcher = settings.colors_swatcher_title | escape | strip | downcase %}
+{% assign optionP = false %}
+{%- for option in product.options_with_values -%}
+    {% assign formatedOptionName = option.name | strip | downcase %}
+    {% if namesForColorSwotcher contains formatedOptionName %}
+        {% assign optionP = true %}
+    {% endif %}
+{%- endfor -%}
+{% assign widhtP = product.metafields.custom.product_width %}
+{% assign heightP = product.metafields.custom.product_height %}
+{% assign depthP = product.metafields.custom.product_depth %}
+{% assign weightP = product.metafields.custom.weight %}
+
+
+<div class="product-highlights page-width product-highlights--{{ section.id }}">
+    <div class="product-highlights__tabs">
+        <div class="product-highlights__tab active">
+            <h5 class="product-highlights__tab-label">
+                {{ section.settings.text_kuvas }}
+                <span class="product-highlights__tab-label--icon"></span>
+            </h5>
+            <div class="product-highlights__tab-content">{{ product.description }}</div>
+        </div>
+        {% if weightP != blank or heightP != blank or depthP != blank or widhtP != blank or optionP%}
+            <div class="product-highlights__tab">
+                <h5 class="product-highlights__tab-label">
+                    {{ section.settings.text_lisatiedot }}
+                    <span class="product-highlights__tab-label--icon"></span>
+                </h5>
+                {% if weightP != blank %}
+                    <div class="product-highlights__tab-content product-highlights__inner">
+                        <div class="product-highlight__inner">
+                            <div class="product-highlight__title">{{ section.settings.text_paino }}</div>
+                            <div class="product-highlight__info">{{ weightP }} kg (kilogramma)
+                            </div>
+                        </div>
+                    </div>
+                {% endif %}
+                {% if heightP != blank or depthP != blank or widhtP != blank %}
+                    <div class="product-highlights__tab-content product-highlights__inner">
+                        <div class="product-highlight__inner">
+                            <div class="product-highlight__title">{{ section.settings.text_mitat }}</div>
+                            <div class="product-highlight__info">
+                                {% if heightP != blank %}{{ heightP }}{% endif %}
+                                {% if depthP != blank %}{{ depthP | prepend: "x " }}{% endif %}
+                                {% if widhtP != blank %}{{ widhtP | prepend: "x " }}{% endif %}
+                                cm (senttimetri)
+                            </div>
+                        </div>
+                    </div>
+                {% endif %}
+                {% if optionP %}
+                    <div class="product-highlights__tab-content product-highlights__inner">
+                        {%- for option in product.options_with_values -%}
+                            {% assign formatedOptionName = option.name | strip | downcase %}
+                            {% if namesForColorSwotcher contains formatedOptionName %}
+                                <div class="product-highlight__inner">
+                                    <div class="product-highlight__title">{{ option.name }}</div>
+                                    <div class="product-highlight__info">{%- for value in option.values -%}
+                                            {{ value }}{% unless forloop.last %},{% endunless %}
+                                        {%- endfor -%}
+                                    </div>
+                                </div>
+                            {% endif %}
+                        {%- endfor -%}
+                    </div>
+                {% endif %}
+            </div>
+        {% endif %}
+
+        {% for block in section.blocks %}
+            {% comment %}{% if forloop.index == 1 %}active{% endif %}{% endcomment %}
+            {% if block.settings.content %}
+                <div class="product-highlights__tab">
                     <h5 class="product-highlights__tab-label">
                         {{ block.settings.label }}
                         <span class="product-highlights__tab-label--icon"></span>
                     </h5>
-                    <div class="product-highlights__tab-content">
-                        {{ block.settings.content }}
-                    </div>
+                    <div class="product-highlights__tab-content">{{ block.settings.content }}</div>
                 </div>
-            {% endfor %}
-        </div>
-        <div class="product-highlights__main">
+            {% endif %}
+        {% endfor %}
+    </div>
+    <div class="product-highlights__main">
+        {% if product.metafields.custom.video_product != blank %}
             <div class="product-highlights__main-image image-wrapper">
                 {% comment %}{{ product.metafields.custom.video_product | file_url }}{% endcomment %}
                 <video class="video__product" controls>
-                    <source src="{{ product.metafields.custom.video_product | file_url }}" />
+                    <source src="{{ product.metafields.custom.video_product | file_url }}"/>
                 </video>
             </div>
-            {% if section.settings.main_text != blank %}
-                <div class="product-highlights__main-text">
-                    {{ section.settings.main_text }}
-                </div>
-            {% endif %}
-        </div>
+        {% if section.settings.main_text != blank %}
+            <div class="product-highlights__main-text">
+                {{ section.settings.main_text }}
+            </div>
+        {% endif %}
+            <script src="https://cdn.plyr.io/3.7.8/plyr.js"></script>
+            <script>
+                const player = new Plyr(document.querySelector('.video__product'));
+            </script>
+        {% endif %}
     </div>
-    <script src="https://cdn.plyr.io/3.7.8/plyr.js"></script>
-    <script>
-        const player = new Plyr(document.querySelector('.video__product'));
+</div>
 
-        const accordion = document.querySelector('.product-highlights--{{ section.id }} .product-highlights__tabs')
-        const arrayTabs = accordion.querySelectorAll('.product-highlights__tab');
-        arrayTabs.forEach((tab) => {
-            const title = tab.querySelector('.product-highlights__tab-label');
-            const content = tab.querySelector('.product-highlights__tab-content');
+<script>
+    const accordion = document.querySelector('.product-highlights--{{ section.id }} .product-highlights__tabs')
+    const arrayTabs = accordion.querySelectorAll('.product-highlights__tab');
+    arrayTabs.forEach((tab) => {
+        const title = tab.querySelector('.product-highlights__tab-label');
+        const content = tab.querySelector('.product-highlights__tab-content');
 
-            title.addEventListener('click', () => {
-                // перевіряємо, чи активний елемент
-                const isActive = tab.classList.contains("active");
+        title.addEventListener('click', () => {
+            // перевіряємо, чи активний елемент
+            const isActive = tab.classList.contains("active");
 
-                // закриваємо всі відкриті елементи
-                arrayTabs.forEach(tab => {
-                    tab.classList.remove("active");
-                });
-
-                // відкриваємо клікнутий елемент, якщо він не активний
-                if (!isActive) {
-                    tab.classList.add("active");
-                }
+            // закриваємо всі відкриті елементи
+            arrayTabs.forEach(tab => {
+                tab.classList.remove("active");
             });
-        })
-    </script>
 
-{% endif %}
+            // відкриваємо клікнутий елемент, якщо він не активний
+            if (!isActive) {
+                tab.classList.add("active");
+            }
+        });
+    })
+</script>
+
 
 {% schema %}
 {
@@ -111,6 +181,30 @@
       "id": "main_text",
       "label": "Main text",
       "default": "<p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>"
+    },
+    {
+      "type": "text",
+      "id": "text_kuvas",
+      "label": "Kuvas",
+      "default": "Kuvas"
+    },
+    {
+      "type": "text",
+      "id": "text_lisatiedot",
+      "label": "Lisätiedot",
+      "default": "Lisätiedot"
+    },
+    {
+      "type": "text",
+      "id": "text_mitat",
+      "label": "PAKKAUKSEN MITAT",
+      "default": "PAKKAUKSEN MITAT"
+    },
+    {
+      "type": "text",
+      "id": "text_paino",
+      "label": "PAKKAUKSEN PAINO",
+      "default": "PAKKAUKSEN PAINO"
     }
   ],
   "blocks": [

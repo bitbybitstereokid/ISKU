@@ -310,13 +310,13 @@
               {%- if settings.predictive_search_enabled -%}
                 <div class="predictive-search predictive-search--header" tabindex="-1"
                      data-predictive-search>
-                  <div class="predictive-search__loading-state">
-                    <svg aria-hidden="true" focusable="false" class="spinner" viewBox="0 0 66 66"
-                         xmlns="http://www.w3.org/2000/svg">
-                      <circle class="path" fill="none" stroke-width="6" cx="33" cy="33"
-                              r="30"></circle>
-                    </svg>
-                  </div>
+                  {% comment %}<div class="predictive-search__loading-state">{% endcomment %}
+                    {% comment %}<svg aria-hidden="true" focusable="false" class="spinner" viewBox="0 0 66 66"{% endcomment %}
+                         {% comment %}xmlns="http://www.w3.org/2000/svg">{% endcomment %}
+                      {% comment %}<circle class="path" fill="none" stroke-width="6" cx="33" cy="33"{% endcomment %}
+                              {% comment %}r="30"></circle>{% endcomment %}
+                    {% comment %}</svg>{% endcomment %}
+                  {% comment %}</div>{% endcomment %}
                 </div>
 
                 <span class="predictive-search-status visually-hidden" role="status"

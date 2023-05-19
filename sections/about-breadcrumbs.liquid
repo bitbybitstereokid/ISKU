@@ -19,11 +19,18 @@
                     {%- when 'product' -%}
                         {%- if collection.url -%}
                             <li class="breadcrumbs__item">
-                                <a class="breadcrumbs__link" href="{{ collection.url }}" aria-current="page">{{ collection.title }}</a>
+                                <a class="breadcrumbs__link" href="{{ collection.url }}"
+                                   aria-current="page">{{ collection.title }}</a>
+                            </li>
+                        {% else %}
+                            <li class="breadcrumbs__item">
+                                <a class="breadcrumbs__link" href="{{ routes.collections_url }}/all"
+                                   aria-current="page">Kaikki</a>
                             </li>
                         {%- endif -%}
                         <li class="breadcrumbs__item">
-                            <a class="breadcrumbs__link" href="{{ product.url }}" aria-current="page">{{ product.title }}</a>
+                            <a class="breadcrumbs__link" href="{{ product.url }}"
+                               aria-current="page">{{ product.title }}</a>
                         </li>
 
                     {%- when 'collection' and collection.handle -%}

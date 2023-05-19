@@ -144,10 +144,9 @@
       <a href="{{ routes.account_register_url }}">
         {{ 'customer.login_page.create_account' | t }}
       </a>
-
-      <button type="button">
-        {{ 'customer.login_page.create_account' | t }}
-      </button>
+      {% comment %}<button type="button">{% endcomment %}
+        {% comment %}{{ 'customer.login_page.create_account' | t }}{% endcomment %}
+      {% comment %}</button>{% endcomment %}
     {%- endform -%}
   </div>
 
