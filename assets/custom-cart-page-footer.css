@@ -65,8 +65,8 @@
 
 .csapp_aiod_coupan button.csapp_aiod_coupan_btn{
     color: var(--color-text-accent);
-    background: var(--color-accent-1);
-    border: 1px solid var(--color-accent-1);
+    background: var(--color-accent-1) !important;
+    border: 1px solid var(--color-accent-1) !important;
     font-family: "ITC Avant Garde Gothic", sans-serif;
 }
 
