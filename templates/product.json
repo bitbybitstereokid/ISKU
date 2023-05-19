@@ -46,8 +46,8 @@
           "type": "delivery-info",
           "settings": {
             "delivery_time_lable": "Toimitusaika:",
-            "delivery_time_text1": "2 päivää",
-            "delivery_time_text2": "4-5 viikkoa",
+            "delivery_time_text1": "6-8 viikkoa",
+            "delivery_time_text2": "6-8 viikkoa",
             "delivery_price_lable": "",
             "delivery_price_text": "5,99€",
             "delivery_status_lable": "Saatavuus:",
@@ -73,12 +73,6 @@
             "text": "30 day lowest price:"
           }
         },
-        "description": {
-          "type": "description",
-          "disabled": true,
-          "settings": {
-          }
-        },
         "a98d107f-9e81-4331-b1ef-0b9029d00918": {
           "type": "brands",
           "settings": {
@@ -95,7 +89,6 @@
         "10ad2495-f841-446a-990a-6d62483b318a",
         "d5d76b23-c270-46e6-ab01-a2acac1f9252",
         "0dd2c139-d779-473f-9d18-33a54573ef44",
-        "description",
         "a98d107f-9e81-4331-b1ef-0b9029d00918"
       ],
       "settings": {
