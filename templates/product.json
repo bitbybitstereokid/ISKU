@@ -78,6 +78,11 @@
           "disabled": true,
           "settings": {
           }
+        },
+        "a98d107f-9e81-4331-b1ef-0b9029d00918": {
+          "type": "brands",
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -90,7 +95,8 @@
         "10ad2495-f841-446a-990a-6d62483b318a",
         "d5d76b23-c270-46e6-ab01-a2acac1f9252",
         "0dd2c139-d779-473f-9d18-33a54573ef44",
-        "description"
+        "description",
+        "a98d107f-9e81-4331-b1ef-0b9029d00918"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -166,7 +172,11 @@
         "padding_top": 100,
         "padding_bottom": 100,
         "image": "shopify:\/\/shop_images\/Rectangle_4_3.png",
-        "main_text": ""
+        "main_text": "",
+        "text_kuvas": "Kuvas",
+        "text_lisatiedot": "Lisätiedot",
+        "text_mitat": "PAKKAUKSEN MITAT",
+        "text_paino": "PAKKAUKSEN PAINO"
       }
     },
     "8db35396-c85e-486d-aaf2-8eb8623b292a": {
