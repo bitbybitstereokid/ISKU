@@ -60,7 +60,7 @@
     margin: 0;
 }
 
-.breadcrumbs__item:first-child a{
+.breadcrumbs__item a{
     padding-right: 10px;
 }
 
