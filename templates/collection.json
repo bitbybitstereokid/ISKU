@@ -32,7 +32,7 @@
         "padding_bottom": 36,
         "padding_top_mobile": 0,
         "padding_bottom_mobile": 52,
-        "change__pagination": "loadmore",
+        "change__pagination": "pagination",
         "load_more_text": "Load More products",
         "shown_products": "products shown"
       }
