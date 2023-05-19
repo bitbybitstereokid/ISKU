@@ -41,6 +41,10 @@
     transition: 0.3s ease-in-out;
 }
 
+#main-cart-footer .totals{
+    align-items: flex-start;
+}
+
 #main-cart-footer .cart__checkout-button:before,
 #main-cart-footer .cart__checkout-button:after{
     display: none;
@@ -49,6 +53,26 @@
 #main-cart-footer .cart__checkout-button:hover{
     background: var(--color-text-secondary);
     transition: 0.3s ease-in-out;
+}
+
+.csapp_aiod_coupan, .csapps-cart-original-total, .cscode_msg{
+    margin: 0;
+}
+
+.csapp_aiod_coupan .csapp_aiod_coupan_code{
+    font-family: "ITC Avant Garde Gothic", sans-serif;
+}
+
+.csapp_aiod_coupan button.csapp_aiod_coupan_btn{
+    color: var(--color-text-accent);
+    background: var(--color-accent-1);
+    border: 1px solid var(--color-accent-1);
+    font-family: "ITC Avant Garde Gothic", sans-serif;
+}
+
+.csapp_aiod_coupan_code:focus-visible{
+    box-shadow: none;
+    outline: none;
 }
 
 .cart__dynamic-checkout-buttons{

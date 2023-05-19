@@ -501,7 +501,10 @@
                 block: block
               %}
             {%- when 'vendor' -%}
-              {%- if product.vendor -%}<div class="product-vendor">{{ product.vendor }}</div>{%- endif -%}
+            {% if collection %}
+              <div class="product-vendor">{{ collection.title }}</div>
+            {% endif %}
+            {% comment %}{%- if product.vendor -%}<div class="product-vendor">{{ product.vendor }}</div>{%- endif -%}{% endcomment %}
           {%- endcase -%}
         {%- endfor -%}
         <a href="{{ product.url | within: collection}}" class="link product__view-details animate-arrow">
@@ -804,6 +807,11 @@
           "default": "Kysy lisää"
         }
       ]
+    },
+    {
+      "type": "brands",
+      "name": "Brands",
+      "limit": 1
     },
     {
       "type": "delivery-info",

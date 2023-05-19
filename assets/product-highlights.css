@@ -19,6 +19,17 @@
     transition: max-height .5s .5s linear;
 }
 
+.product-highlight__inner{
+    display: flex;
+    align-items: center;
+}
+
+.product-highlight__title{
+    min-width: 200px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
 .product-highlights__tab.active .product-highlights__tab-label--icon::after {
     opacity: 0;
     visibility: hidden;

@@ -7,18 +7,21 @@
 {% endif %}
 
 <div class="delivery-info" id="delivery-info-{{ section.id }}">
-    {% if block.settings.delivery_time_lable != blank %}
-        <div class="delivery-info__item">
-            <p class="delivery-info__item-label">{{ block.settings.delivery_time_lable }}</p>
-            <p class="delivery-info__item-text">
+    {% comment %}{% if block.settings.delivery_time_lable != blank %} {% endif %}{% endcomment %}
+    <div class="delivery-info__item">
+        <p class="delivery-info__item-label">{{ block.settings.delivery_time_lable }}</p>
+        <p class="delivery-info__item-text">
+            {% if product.metafields.custom.delivery_estimator != blank %}
+                {{ product.metafields.custom.delivery_estimator }}
+            {% else %}
                 {% if isVariantAvailable %}
                     {{ block.settings.delivery_time_text1 }}
                 {% else %}
                     {{ block.settings.delivery_time_text2 }}
                 {% endif %}
-            </p>
-        </div>
-    {% endif %}
+            {% endif %}
+        </p>
+    </div>
     {% if block.settings.delivery_price_lable != blank %}
         <div class="delivery-info__item">
             <p class="delivery-info__item-label">{{ block.settings.delivery_price_lable }}</p>

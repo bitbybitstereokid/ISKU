@@ -1,0 +1,8 @@
+{% assign brandsImage = product.metafields.custom.product_brands_image %}
+{% if brandsImage %}
+    <div class="delivery-info" id="delivery-info-{{ section.id }}">
+        <div class="delivery-info__item delivery-info__item--brands">
+            <img src="{{ brandsImage | img_url: "master" }}" {% if brandsImage.alt %}alt="{{ brandsImage.alt }}"{% else %}alt="brand{% endif %}">
+        </div>
+    </div>
+{% endif %}
