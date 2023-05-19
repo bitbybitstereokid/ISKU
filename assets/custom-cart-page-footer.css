@@ -79,6 +79,10 @@
     max-width: 100%;
 }
 
+.csapp_aiod_coupan .csapp_aiod_coupan_code{
+    max-width: 180px !important;
+}
+
 @media screen and (min-width: 750px) {
     #main-cart-footer .cart__footer > * {
         width: 42.2rem;

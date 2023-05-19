@@ -334,6 +334,8 @@
               </div>
             {%- when 'delivery-info' -%}
               {% render 'delivery-info-block', block: block, product: product %}
+            {%- when 'brands' -%}
+              {% render 'image-brands-block', product: product %}
             {%- when 'lowest_price' -%}
               {% render 'lowest-price', block: block, product: product %}
             {%- when 'popup' -%}
@@ -485,10 +487,7 @@
                 block: block
               %}
             {%- when 'vendor' -%}
-            {% if collection %}
-              <div class="product-vendor">{{ collection.title }}</div>
-            {% endif %}
-            {% comment %}{%- if product.vendor -%}<div class="product-vendor">{{ product.vendor }}</div>{%- endif -%}{% endcomment %}
+            {%- if product.vendor -%}<div class="product-vendor">{{ product.vendor }}</div>{%- endif -%}
           {%- endcase -%}
         {%- endfor -%}
         <a href="{{ product.url | within: collection}}" class="link product__view-details animate-arrow">
