@@ -106,7 +106,6 @@
                   price_class: 'price--large'
                 -%}
               </div>
-              {% comment %}<div class="klarna">This place for klarna</div>{% endcomment %}
               <div {{ block.shopify_attributes }}>
                 {%- assign product_form_installment_id = 'product-form-installment-' | append: section.id -%}
                 {%- form 'product', product, id: product_form_installment_id, class: 'installment caption-large' -%}
@@ -315,11 +314,6 @@
             {%- when 'wishlist-and-chat' -%}
               <div class="wishlist-chat__wrapper">
                 <div class="wishlist-char__inner">
-                {% comment %}<div class="wishlist-chat__wishlist">{% endcomment %}
-                  {% comment %}<div id="smartwishlist" data-product="{{ product.id }}" data-variant="{{ product.variants.first.id }}"></div>{% endcomment %}
-                  {% comment %}{{ block.settings.wishlist_icon }}{% endcomment %}
-                  {% comment %}{{ block.settings.wishlist_text }}{% endcomment %}
-                {% comment %}</div>{% endcomment %}
                   <div class="wishlist-chat__chat">
                     {{ block.settings.chat_icon }}
                     {{ block.settings.chat_text }}
