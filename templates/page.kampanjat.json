@@ -76,7 +76,7 @@
           "type": "button",
           "settings": {
             "button_label": "Katso kaikki tuotteet",
-            "button_link": "shopify:\/\/collections"
+            "button_link": "shopify:\/\/collections\/all"
           }
         }
       },
