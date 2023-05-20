@@ -1,0 +1,123 @@
+{
+  "sections": {
+    "main": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Rectangle_42_84085027-b1f5-478b-b8a0-5497189359e4.jpg",
+        "padding_top": 0,
+        "padding_bottom": 50,
+        "reverse": false,
+        "text_centered": false,
+        "title": "5 syytä panostaa kotimaisuuteen ja vastuullisuuteen",
+        "text": "<p>Kotimaisuuden ja vastuullisuuden merkitys ja arvostus on viime vuosien aikana kasvanut merkittävästi. Kun maailma sulkeutui, tuntui monesta erikoiselta, että kotiin tai töihin hankitut kalusteet matkustavat enemmän kuin itse sai matkustaa. Kotimaassa vastuullisesti valmistetut kalusteet matkustavat vähän ja puhtaasti luoksesi ja kuormittavat näin luontoa vähemmän. Panostamalla kotimaisuuteen ja kotimaiseen tuotteeseen tuet samalla kotimaista työtä. Kotimainen tuote on usein myös laadukas ja säilyttää hyvin arvonsa.<br\/>Lue 5 syytä miksi kotimaisella ja vastuullisella valmistuksella todella on merkitystä.<\/p>",
+        "btn_text": "",
+        "btn_url": ""
+      }
+    },
+    "dfbc42c5-8975-4ee6-a8e7-19b77a1308ec": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--18960568844632__dfbc42c5-8975-4ee6-a8e7-19b77a1308ec-1684169800ae4304ac-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Nimet__n_suunn.malli_-_2022-04-13T132033.612.jpg",
+            "title": "1. Turvalliset valmistusmateriaalit",
+            "text": "<p>Me ISKUssa hankimme 75% ostoistamme kotimaasta ja 99% EU-alueelta. Tällöin saavutamme parhaan toimitusvarmuuden sekä tiedämme, mistä materiaalimme hankimme. <\/p><p>Esimerkiksi käyttämämme kalustelevy on PEFC- ja M1-sertifioituja. PEFC-sertifiointi tarkoittaa sitä, että käyttämämme puun alkuperä on tunnettua ja kestävän kehityksen periaatteiden mukaan tuotettua. <\/p><p>M1 on rakennusmateriaalien päästöluokka, joka kertoo alhaisesta sisäilmaemissiotasosta (mm. formaldehydi, VOC, ammoniakki, hajut). Vaahtomuoveilla on CertiPUR sertifikaatti, joka kertoo siitä, että materiaalit on testattu eikä niissä ole raja-arvojen ylittäviä terveydelle tai ympäristölle vaarallisia kemikaalipitoisuuksia (ml. formaldehydi).<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--18960568844632__dfbc42c5-8975-4ee6-a8e7-19b77a1308ec-1684169800ae4304ac-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Nimet__n_suunn.malli_-_2022-04-13T131928.608_1.jpg",
+            "title": "2. Työtä kotimaahan",
+            "text": "<p>ISKU työllistää yli 600 henkilöä erilaisissa työtehtävissä mm. tuotannossa, myynnissä, markkinoinnissa, tuotekehityksessä, hankinnassa ja monissa muissa orgaisaation osissa. <\/p><p>Kumppaniverkostomme kautta työllistämme lisäksi yli 1000 henkilöä kotimaassa. Kun ostat kotimaisia kalusteita, voit myös luottaa, että työntekijöiden työolosuhteet ovat kunnossa. Kiinnitämme erityistä huomiota työergonomiaan, jotta työntekijöidemme on mahdollisimman helppo tehdä töitä myös tehtävissä, jotka vaativat nostamista tai tuotteiden kääntämistä. <\/p><p>ISKUlla on sertifioitu ISO 45001 -standardiin perustuva työterveys- ja turvallisuusjärjestelmä. Konsernin sairauspoissaoloprosentti vuonna 2020 oli 2,3 %.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "44d5ff57-850b-4e1e-9795-f57a990dbfc5": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Nimet__n_suunn.malli_-_2022-04-13T133238.604.jpg",
+            "title": "3. Tuotteet on valmistettu ja testattu aikaa ja käyttöä kestäviksi",
+            "text": "<p>Suomalainen osaaminen tunnetaan myös maailmalla laadukkuudesta ja kestävyydestä. Vahvuutenamme ISKUlla on moderni teknologia, joka täydentyy tuotantotyöntekijöidemme rautaisella ammattitaidolla ja käsityötaidolla. Tehtaallamme työskentelee pitkän linjan ammattilaisia ja pisimmät työurat ovat yli 40-vuotisia. Olemme ylpeitä osaamisestamme, laadusta ja kestävästä ajattelustamme ja tämä näkyy tuotteissamme.<\/p><p>ISKUlla on myös oma testilaboratorio laajoille tuotetesteille. Testilaboratoriossamme tuotteet testataan monipuolisesti vastaamaan EN- ja ISO-standardeja.<\/p>",
+            "link_label": "Tutustu vastuullisuuteemme",
+            "link": "shopify:\/\/pages\/vastuullisuus"
+          }
+        },
+        "8f0bbadc-bc23-4a4a-abc1-993a9f0d40ee": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Nimet__n_suunn.malli_-_2022-04-13T133437.494.jpg",
+            "title": "4. Vähemmän päästöjä",
+            "text": "<p>Tuotteiden valmistuksessa ja kuljetuksessa aiheutuu mahdollisimman vähän päästöjä. ISKUn tuotanto sekä kaikki ISKUn omistamat showroomit ja myymälät Suomessa käyttävät 100%:sti uusiutuvaa sähköenergiaa. Lisäksi rakennamme yhden Suomen suurimmista aurinkovoimapuistoista tehtaamme vieraan Lahdessa ja kaikki energia siirtyy tuotantomme käyttöön. Kalusteemme ovatkin siis valtaosaltaan aurinkovoimalla tuotettuja! Tuotantomme sijaitsee vain Lahdessa, jolloin toimitukset tehdään yhdestä paikasta. Haluamme vähentää päästöjä kaikin keinoin.<\/p>",
+            "link_label": "ISKUn tarina",
+            "link": "shopify:\/\/pages\/iskun-tarina-1"
+          }
+        },
+        "1ea3ceaa-d9b4-42d7-80f3-ee7e8cb1307e": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Nimet__n_suunn.malli_-_2022-04-13T133830.441.jpg",
+            "title": "5. Tuotteiden koko elinkaari on huomioitu",
+            "text": "<p>Olemme huomioineet tuotteiden valmistuksessa niiden koko elinkaaren. Vastuullisuus todella konkretisoituu tuotteidemme raaka-ainevalinnoissa, suunnittelussa, tuotannossa ja valmiissa tuotteessa. Tuotteen elinkaaren lopussa kierrätyspalvelumme käsittää kalusteiden kierrätyksen alkaen kalusteiden noudosta asiakkaalta ja päättyen kierrätyksen toteutumisen loppuraportointiin. Ensisijainen tavoite on minimoida kierrätettävän jätteen ympäristökuormitus ja sekajätteen määrä. Huonokuntoiset kalusteet puretaan, osat lajitellaan ja kierrätetään. Materiaalit saavat uuden elämän toisena tuotteena tai uusiokäytössä. Käyttökelpoiset vanhat kalusteet ohjataan jatkokäyttöön, tarvittaessa kunnostettuina, ja myydään käytettyinä edelleen.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "bcca13d4-5ec8-4212-95c0-0cbc5c11472b": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Nimet__n_suunn.malli_-_2022-11-16T123049.326.png",
+            "title": "Tuhansia tuotteita",
+            "text": "<p>Tutustu nyt laajaan huonekalumallistoomme<\/p>",
+            "link_label": "ISKUn kotimaiset sohvat",
+            "link": "shopify:\/\/collections\/iskun-kotimaiset-sohvat"
+          }
+        }
+      },
+      "block_order": [
+        "template--18960568844632__dfbc42c5-8975-4ee6-a8e7-19b77a1308ec-1684169800ae4304ac-0",
+        "template--18960568844632__dfbc42c5-8975-4ee6-a8e7-19b77a1308ec-1684169800ae4304ac-1",
+        "44d5ff57-850b-4e1e-9795-f57a990dbfc5",
+        "8f0bbadc-bc23-4a4a-abc1-993a9f0d40ee",
+        "1ea3ceaa-d9b4-42d7-80f3-ee7e8cb1307e",
+        "bcca13d4-5ec8-4212-95c0-0cbc5c11472b"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "c3648cfd-de5e-45c2-91c9-198e9c48f2f1": {
+      "type": "about-newsletter",
+      "disabled": true,
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 100,
+        "title": "Subscribe to our mailing list for newsletter exclusives",
+        "input_placeholder": "Enter your email",
+        "btn_text": "Subscribe"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "dfbc42c5-8975-4ee6-a8e7-19b77a1308ec",
+    "c3648cfd-de5e-45c2-91c9-198e9c48f2f1"
+  ]
+}
