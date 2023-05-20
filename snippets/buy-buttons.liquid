@@ -21,6 +21,19 @@
         novalidate: 'novalidate',
         data-type: 'add-to-cart-form'
       -%}
+        {% if product.metafields.custom.delivery_estimator != blank %}
+          {% assign prop =product.metafields.custom.delivery_estimator %}
+        {% else %}
+          {% if isVariantAvailable %}
+            {% assign prop = block.settings.delivery_time_text1 %}
+          {% else %}
+            {% assign prop = block.settings.delivery_time_text2 %}
+          {% endif %}
+        {% endif %}
+        <p class="line-item-property__field" style="display: none;">
+          <label for="delivery">Toimitusaika</label>
+          <input id="delivery" type="text" name="properties[Toimitusaika]" value="{{ prop }}">
+        </p>
         <input
           type="hidden"
           name="id"
