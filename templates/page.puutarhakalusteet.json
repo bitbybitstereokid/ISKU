@@ -77,7 +77,7 @@
         "template--15666921275492__c0f6ae04-b0d1-4a9c-8cdd-6f0cf50f0671-1684252192b4e19411-2": {
           "type": "button",
           "settings": {
-            "button_label": "Puutarhakalusteet",
+            "button_label": "Kaikki puutarhakalusteet",
             "button_link": "shopify:\/\/collections\/puutarhakalusteet",
             "button_style_secondary": false,
             "button_label_2": "",
