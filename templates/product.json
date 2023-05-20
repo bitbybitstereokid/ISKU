@@ -192,17 +192,6 @@
         "intent": "related"
       }
     },
-    "581ad5fb-5e12-40fc-8351-2b7f8fb599f0": {
-      "type": "about-product-slider",
-      "settings": {
-        "title": "Vastaavia tuotteita",
-        "collection": "chairs",
-        "padding_top": 100,
-        "padding_bottom": 0,
-        "padding_top_mobile": 50,
-        "padding_bottom_mobile": 80
-      }
-    },
     "507436a0-5691-43ad-baeb-505a62237dd4": {
       "type": "about-newsletter",
       "settings": {
@@ -221,7 +210,6 @@
     "93a16e45-03c8-4faa-afcc-7bc32dece52d",
     "8db35396-c85e-486d-aaf2-8eb8623b292a",
     "98ad94fe-8e64-42b5-bdfb-4488ca9c10da",
-    "581ad5fb-5e12-40fc-8351-2b7f8fb599f0",
     "507436a0-5691-43ad-baeb-505a62237dd4"
   ]
 }
