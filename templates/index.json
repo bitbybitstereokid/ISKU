@@ -369,6 +369,26 @@
         "padding_top": 50,
         "padding_bottom": 50,
         "full_width": true,
+        "bg_color": "#0f4880",
+        "text_color": "#ffffff"
+      }
+    },
+    "72599099-35e9-4513-bd8c-5323b6f189e2": {
+      "type": "hero-banner-half",
+      "settings": {
+        "text_align": "left",
+        "image_position": "left",
+        "image_position_mobile": "top",
+        "image": "shopify:\/\/shop_images\/orient_occident_aquaclean_referenssi_nelio_7.jpg__1350.0x1350.0_q85_subsampling-2.jpg",
+        "title": "Helposti puhdistettava AquaClean-huonekalukangas",
+        "small": true,
+        "text": "ISKU Lahden sisustusmyyjämme ja -arkkitehti Mirella Virtanen kertoo, että oikein valitulla verhoilukankaalla on sohvahankinnan onnistumisessa äärimmäisen tärkeä merkitys – monessakin eri mielessä. Ensimmäisenä listalla ovat huonekalun käyttöiän pituus ja sen säilyminen ilona silmälle. Lue lisää artikkelista, että kuinka voit pidentää sohvasi käyttöikää merkittävästi.",
+        "button_style": "primary",
+        "btn_text": "LUE LISÄÄ",
+        "btn_url": "shopify:\/\/pages\/aquaclean-huonekalukangas",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "full_width": true,
         "bg_color": "#0F4880",
         "text_color": "#FFFFFF"
       }
@@ -389,6 +409,7 @@
     "273fe876-ab7b-4aad-8dec-4cf8c8f92d7c",
     "feb9c2fd-6386-484f-903f-7acd018a6e98",
     "c8acecc1-e53e-43a2-9708-51112c7d2ff1",
-    "8552a01e-70d9-4704-bd5c-ea9f9440e455"
+    "8552a01e-70d9-4704-bd5c-ea9f9440e455",
+    "72599099-35e9-4513-bd8c-5323b6f189e2"
   ]
 }
