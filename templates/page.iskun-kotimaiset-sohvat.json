@@ -228,6 +228,56 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "eba7bc1f-4b56-477a-9f1a-66febe236e70": {
+      "type": "image-banner",
+      "blocks": {
+        "template--18960223469912__eba7bc1f-4b56-477a-9f1a-66febe236e70-1684591104b1519fad-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "template--18960223469912__eba7bc1f-4b56-477a-9f1a-66febe236e70-1684591104b1519fad-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--18960223469912__eba7bc1f-4b56-477a-9f1a-66febe236e70-1684591104b1519fad-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--18960223469912__eba7bc1f-4b56-477a-9f1a-66febe236e70-1684591104b1519fad-0",
+        "template--18960223469912__eba7bc1f-4b56-477a-9f1a-66febe236e70-1684591104b1519fad-1",
+        "template--18960223469912__eba7bc1f-4b56-477a-9f1a-66febe236e70-1684591104b1519fad-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Tyota_Suomeen.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
@@ -236,6 +286,7 @@
     "ec9c5898-30e0-4893-97b8-adda40bd870e",
     "65593d06-a63d-4709-bd5f-1f1073717fcd",
     "1982424f-0345-46e0-9d15-08d663f1d0de",
-    "04ecae4b-e98b-4d30-97f6-196b8c864c7a"
+    "04ecae4b-e98b-4d30-97f6-196b8c864c7a",
+    "eba7bc1f-4b56-477a-9f1a-66febe236e70"
   ]
 }
