@@ -498,6 +498,164 @@
     {%- endif -%}
   </div>
 
+  <style>
+    .custom__popup{
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 9999;
+      background-color: rgba(0,0,0,0.5);
+      overflow-y: auto;
+      visibility: hidden;
+      opacity: 0;
+      pointer-events: none;
+      transition: all 500ms ease-in-out;
+    }
+
+    .custom__popup.active{
+      visibility: visible;
+      opacity: 1;
+      pointer-events: initial;
+    }
+
+    .custom__popup__inner{
+      height: 100%;
+      width: 100%;
+    }
+
+    .custom__popup__width{
+      padding: 0 15px;
+      max-width: 600px;
+      margin: 0 auto;
+      position: relative;
+    }
+
+    .custom__close{
+      cursor: pointer;
+      position: absolute;
+      right: 40px;
+      top: 20px;
+      background-color: transparent;
+      outline: none;
+      border: none;
+    }
+
+    .custom__popup__inner form{
+      margin-top: 50px;
+      width: 100%;
+      position: relative;
+      padding: 40px;
+      background-color: var(--color-background-2);
+    }
+
+    .custom__popup__inner form input{
+      width: 100%;
+      height: 60px;
+      border: none;
+      outline: none;
+      padding-left: 20px;
+      background-color: #fff;
+      font-family: var(--font-body-family);
+      font-size: 14px;
+      font-weight: 300;
+      line-height: 21px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #3e3f41b3;
+      margin-bottom: 20px;
+      opacity: 1!important;
+    }
+
+    .custom__popup__inner form textarea{
+      resize: none;
+      width: 100%;
+      height: 150px;
+      border: none;
+      outline: none;
+      padding-left: 20px;
+      padding-top: 20px;
+      background-color: #fff;
+      font-family: var(--font-body-family);
+      font-size: 14px;
+      font-weight: 300;
+      line-height: 21px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #3e3f41b3;
+      opacity: 1!important;
+    }
+
+    .custom__popup__title{
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 150%;
+      color: var(--color-text-primary);
+      letter-spacing: 0;
+      text-align: center;
+    }
+
+    .custom__popup__inner form .submit__button {
+      padding: 0;
+      text-align: center;
+      font-family: var(--font-body-family);
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 17px;
+      letter-spacing: 0em;
+      text-transform: uppercase;
+      color: var(--color-text-accent);
+      cursor: pointer;
+      -webkit-transition: all .3s;
+      -o-transition: all .3s;
+      transition: all .3s;
+      border: none;
+      background-color: var(--color-accent-1);
+      max-width: 167px;
+      margin: 0 auto;
+      width: 100%;
+      height: 47px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+    }
+  </style>
+  <div class="custom__popup">
+    <div class="custom__popup__inner">
+      <div class="custom__popup__width">
+        <form>
+          <div class="custom__popup__title">Callback</div>
+          <button class="custom__close" type="button">X</button>
+          <label for="nimi__product">
+            Nimi
+            <input required id="nimi__product" type="text" placeholder="Nimi">
+          </label>
+          <label for="email__product">
+            Email
+            <input required id="email__product" type="text" placeholder="Email">
+          </label>
+          <label for="phone__product">
+            Puhelin
+            <input id="phone__product" type="text" placeholder="Puhelin">
+          </label>
+          <label for="textarea__product">
+            Viestisi
+            <textarea id="textarea__product" type="text" placeholder="Viestisi"></textarea>
+          </label>
+          <button class="submit__button" type="submit">Lähetä</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
   {% render 'product-media-modal' variant_images: variant_images %}
 
   {% assign popups = section.blocks | where: 'type', 'popup' %}
@@ -552,6 +710,26 @@
       background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzAiIGhlaWdodD0iMzAiIHZpZXdCb3g9IjAgMCAzMCAzMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTI3LjA0MSA4LjMwODYxQzI2LjY0ODMgNy4zOTkzNSAyNi4wODIxIDYuNTc1MzggMjUuMzc0IDUuODgyODNDMjQuNjY1NCA1LjE4ODIyIDIzLjgzIDQuNjM2MjIgMjIuOTEzMSA0LjI1Njg2QzIxLjk2MjMgMy44NjE5MSAyMC45NDI2IDMuNjU5NzYgMTkuOTEzMSAzLjY2MjEzQzE4LjQ2ODggMy42NjIxMyAxNy4wNTk2IDQuMDU3NjQgMTUuODM1IDQuODA0NzFDMTUuNTQyIDQuOTgzNDIgMTUuMjYzNyA1LjE3OTcxIDE1IDUuMzkzNThDMTQuNzM2MyA1LjE3OTcxIDE0LjQ1OCA0Ljk4MzQyIDE0LjE2NSA0LjgwNDcxQzEyLjk0MDQgNC4wNTc2NCAxMS41MzEyIDMuNjYyMTMgMTAuMDg2OSAzLjY2MjEzQzkuMDQ2ODcgMy42NjIxMyA4LjAzOTA2IDMuODYxMzUgNy4wODY5MSA0LjI1Njg2QzYuMTY2OTkgNC42Mzc3MiA1LjMzNzg5IDUuMTg1NTcgNC42MjU5OCA1Ljg4MjgzQzMuOTE2OTggNi41NzQ2IDMuMzUwNjIgNy4zOTg3NiAyLjk1ODk4IDguMzA4NjFDMi41NTE3NiA5LjI1NDkgMi4zNDM3NSAxMC4yNTk4IDIuMzQzNzUgMTEuMjk0QzIuMzQzNzUgMTIuMjY5NiAyLjU0Mjk3IDEzLjI4NjIgMi45Mzg0OCAxNC4zMjAzQzMuMjY5NTMgMTUuMTg0NiAzLjc0NDE0IDE2LjA4MTEgNC4zNTA1OSAxNi45ODYzQzUuMzExNTIgMTguNDE5IDYuNjMyODEgMTkuOTEzMSA4LjI3MzQ0IDIxLjQyNzhDMTAuOTkyMiAyMy45Mzg1IDEzLjY4NDYgMjUuNjcyOSAxMy43OTg4IDI1Ljc0MzJMMTQuNDkzMiAyNi4xODg1QzE0LjgwMDggMjYuMzg0OCAxNS4xOTYzIDI2LjM4NDggMTUuNTAzOSAyNi4xODg1TDE2LjE5ODIgMjUuNzQzMkMxNi4zMTI1IDI1LjY2OTkgMTkuMDAyIDIzLjkzODUgMjEuNzIzNiAyMS40Mjc4QzIzLjM2NDMgMTkuOTEzMSAyNC42ODU1IDE4LjQxOSAyNS42NDY1IDE2Ljk4NjNDMjYuMjUyOSAxNi4wODExIDI2LjczMDUgMTUuMTg0NiAyNy4wNTg2IDE0LjMyMDNDMjcuNDU0MSAxMy4yODYyIDI3LjY1MzMgMTIuMjY5NiAyNy42NTMzIDExLjI5NEMyNy42NTYyIDEwLjI1OTggMjcuNDQ4MiA5LjI1NDkgMjcuMDQxIDguMzA4NjFaIiBmaWxsPSIjQ0UzODZBIi8+Cjwvc3ZnPgo=");
     }
   {% endstyle %}
+
+  <script>
+    const btnOpenPop = document.querySelector('.wishlist-chat__chat');
+    const btnClosePop = document.querySelector('.custom__close');
+    const popUp = document.querySelector('.custom__popup');
+    const html = document.querySelector('html');
+    const body = document.body;
+
+    btnOpenPop.addEventListener('click', function (){
+      popUp.classList.add('active');
+      html.classList.add('overflow-hidden');
+      body.classList.add('overflow-hidden');
+    });
+
+    btnClosePop.addEventListener('click', function (){
+      popUp.classList.remove('active');
+      html.classList.remove('overflow-hidden');
+      body.classList.remove('overflow-hidden');
+    });
+  </script>
 
   <script>
     document.addEventListener('DOMContentLoaded', function () {

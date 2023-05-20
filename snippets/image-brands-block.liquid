@@ -1,10 +1,8 @@
 {% if product.vendor != blank %}
     {% assign brandImage = product.vendor | replace: " ", "-" | downcase | append: "-logo.png" %}
-    {% if brandImage %}
-        <div class="delivery-info" id="delivery-info-{{ section.id }}">
-            <div class="delivery-info__item delivery-info__item--brands">
-                <img src="{{ brandImage | file_url }}">
-            </div>
+    <div class="delivery-info" id="delivery-info-{{ section.id }}">
+        <div class="delivery-info__item delivery-info__item--brands">
+            <img src="{{ brandImage | file_url }}">
         </div>
-    {% endif %}
+    </div>
 {% endif %}
