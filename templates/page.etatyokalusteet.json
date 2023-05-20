@@ -8,24 +8,44 @@
         "padding_bottom": 28
       }
     },
+    "762733e6-1954-4216-bd5b-7eeec9df7197": {
+      "type": "hero-banner-half",
+      "settings": {
+        "text_align": "left",
+        "image_position": "left",
+        "image_position_mobile": "top",
+        "image": "shopify:\/\/shop_images\/BW_rise_-sahkopoyta_1.png",
+        "title": "Etätyö",
+        "small": true,
+        "text": "Etätöitä tehdessäkin kannattaa muistaa hyvä ergonomia sekä monipuoliset työskentelytavat. Työskentelyasentoa on myös suositeltavaa vaihtaa useamman kerran päivän aikana. Säädettävät työpöydät ja aktiivituolit auttavat pitämään työskentelyn ergonomisena ja säilyttämään hyvän vireystason koko työpäivän ajan. |Pienemmissä tiloissa voi hyödyntää myös kotona olevia tasoja ja panostaa työskentelyasentoon ergonomisella työtuolilla. Meiltä löydät laajan valikoiman laadukkaita ja erilaisia työtuoleja sekä työpisteitä ja säilytysratkaisuja.",
+        "button_style": "primary",
+        "btn_text": "",
+        "btn_url": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "full_width": true,
+        "bg_color": "#0F4880",
+        "text_color": "#FFFFFF"
+      }
+    },
     "eb4f5fd2-4877-4d98-be2d-cfba6f795f90": {
       "type": "about-image-text",
       "settings": {
-        "image": "shopify:\/\/shop_images\/image_36.png",
+        "image": "shopify:\/\/shop_images\/BW_rise_-sahkopoyta_2_1.png",
         "padding_top": 50,
         "padding_bottom": 50,
         "reverse": false,
         "text_centered": true,
-        "title": "Etatyokalusteet",
+        "title": "Kaikki etätyökalusteet",
         "text": "",
-        "btn_text": "Etatyokalusteet",
+        "btn_text": "etätyökalusteet",
         "btn_url": "shopify:\/\/collections\/etatyokalusteet"
       }
     },
     "d51d62f3-ed31-40e1-a332-dec631b799fa": {
       "type": "about-image-text",
       "settings": {
-        "image": "shopify:\/\/shop_images\/image_36.png",
+        "image": "shopify:\/\/shop_images\/bw-active-table-high-isku-tyopoyta.jpg",
         "padding_top": 50,
         "padding_bottom": 50,
         "reverse": true,
@@ -39,7 +59,7 @@
     "c44e8d29-aa34-486d-b826-d7486bdbf408": {
       "type": "about-image-text",
       "settings": {
-        "image": "shopify:\/\/shop_images\/image_36.png",
+        "image": "shopify:\/\/shop_images\/bw-triton-2-tyotuoli.jpg",
         "padding_top": 50,
         "padding_bottom": 50,
         "reverse": false,
@@ -52,6 +72,7 @@
     },
     "8a3b31f2-a06f-4113-af18-1c4cc85a21cf": {
       "type": "about-image-text",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/image_36.png",
         "padding_top": 50,
@@ -67,7 +88,7 @@
     "b04bf464-eb8f-4f3b-ab8e-88ef7bb9fe97": {
       "type": "about-image-text",
       "settings": {
-        "image": "shopify:\/\/shop_images\/image_36.png",
+        "image": "shopify:\/\/shop_images\/BW_rise_-sahkopoyta_1_3504a21c-b2c4-4f69-a176-cfe02f272390.png",
         "padding_top": 50,
         "padding_bottom": 50,
         "reverse": false,
@@ -77,14 +98,72 @@
         "btn_text": "Sahkopoydat",
         "btn_url": "shopify:\/\/collections\/sahkopoydat"
       }
+    },
+    "a28fc7c8-269f-4d0e-9545-79e114dfe193": {
+      "type": "multirow",
+      "disabled": true,
+      "blocks": {
+        "template--15666921341028__a28fc7c8-269f-4d0e-9545-79e114dfe193-16845881935c1936dc-0": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "template--15666921341028__a28fc7c8-269f-4d0e-9545-79e114dfe193-16845881935c1936dc-1": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "template--15666921341028__a28fc7c8-269f-4d0e-9545-79e114dfe193-16845881935c1936dc-2": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15666921341028__a28fc7c8-269f-4d0e-9545-79e114dfe193-16845881935c1936dc-0",
+        "template--15666921341028__a28fc7c8-269f-4d0e-9545-79e114dfe193-16845881935c1936dc-1",
+        "template--15666921341028__a28fc7c8-269f-4d0e-9545-79e114dfe193-16845881935c1936dc-2"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "background-1",
+        "row_color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
+    "762733e6-1954-4216-bd5b-7eeec9df7197",
     "eb4f5fd2-4877-4d98-be2d-cfba6f795f90",
     "d51d62f3-ed31-40e1-a332-dec631b799fa",
     "c44e8d29-aa34-486d-b826-d7486bdbf408",
     "8a3b31f2-a06f-4113-af18-1c4cc85a21cf",
-    "b04bf464-eb8f-4f3b-ab8e-88ef7bb9fe97"
+    "b04bf464-eb8f-4f3b-ab8e-88ef7bb9fe97",
+    "a28fc7c8-269f-4d0e-9545-79e114dfe193"
   ]
 }
