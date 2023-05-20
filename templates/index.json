@@ -392,6 +392,26 @@
         "bg_color": "#0f4880",
         "text_color": "#ffffff"
       }
+    },
+    "3abcb0f4-2f21-4c2c-8a03-e4c026e3c75c": {
+      "type": "hero-banner-half",
+      "settings": {
+        "text_align": "left",
+        "image_position": "left",
+        "image_position_mobile": "top",
+        "image": "shopify:\/\/shop_images\/Nimet__n_suunn.malli_-_2022-04-13T084625.710_1_1.jpg",
+        "title": "Laadukkaan unen salaisuus",
+        "small": true,
+        "text": "Arvosta untasi! Oikeanlainen ja juuri sinulle sopiva sänky on paras perusta hyvälle unelle. Vääränkokoinen tyyny häiritsee untasi ja voi aiheuttaa niska ja hartiakipuja. \n\nEpäsopiva patja puolestaan saattaa pahentaa selkäoireita ja vaikeuttaa nukkumistasi. Iskun Unigold-sänkymalliston patjoilla ja sijauspatjoilla on Allergia-, Iho- ja Astmaliiton myöntämä Allergiatunnus®\n| \nIskun koulutetuilta nukkumisergonomian asiantuntijoilta saat parhaat vinkit laadukkaaseen nukkumiseen. Piipahda lähimmässä myymälässä tai varaa aika!",
+        "button_style": "primary",
+        "btn_text": "VARAA AIKA UNIASIANTUNTIJALLE",
+        "btn_url": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "full_width": true,
+        "bg_color": "#0F4880",
+        "text_color": "#FFFFFF"
+      }
     }
   },
   "order": [
@@ -410,6 +430,7 @@
     "feb9c2fd-6386-484f-903f-7acd018a6e98",
     "c8acecc1-e53e-43a2-9708-51112c7d2ff1",
     "8552a01e-70d9-4704-bd5c-ea9f9440e455",
-    "72599099-35e9-4513-bd8c-5323b6f189e2"
+    "72599099-35e9-4513-bd8c-5323b6f189e2",
+    "3abcb0f4-2f21-4c2c-8a03-e4c026e3c75c"
   ]
 }
