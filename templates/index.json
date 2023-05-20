@@ -352,6 +352,26 @@
         "text": "Uutiskirjeistämme saat inspiraatiota sisustukseen, sekä tiedät ensimmäisenä kampanjoistamme ja tarjouksistamme.",
         "btn_text": "Tilaa"
       }
+    },
+    "8552a01e-70d9-4704-bd5c-ea9f9440e455": {
+      "type": "hero-banner-half",
+      "settings": {
+        "text_align": "left",
+        "image_position": "left",
+        "image_position_mobile": "top",
+        "image": "shopify:\/\/shop_images\/Nimet__n_suunn.malli_-_2022-04-13T131928.608_1.jpg",
+        "title": "5 syytä valita kotimainen ja vastuullinen vaihtoehto",
+        "small": false,
+        "text": "Kotimaisuuden ja vastuullisuuden merkitys ja arvostus on viime vuosien aikana kasvanut merkittävästi. Kun maailma sulkeutui, tuntui monesta erikoiselta, että kotiin tai töihin hankitut kalusteet matkustavat enemmän kuin itse sai matkustaa. Kotimaassa vastuullisesti valmistetut kalusteet matkustavat vähän ja puhtaasti luoksesi ja kuormittavat näin luontoa vähemmän. Panostamalla kotimaisuuteen ja kotimaiseen tuotteeseen tuet samalla kotimaista työtä. Kotimainen tuote on usein myös laadukas ja säilyttää hyvin arvonsa. Lue 5 syytä miksi kotimaisella ja vastuullisella valmistuksella todella on merkitystä.",
+        "button_style": "primary",
+        "btn_text": "LUE LISÄÄ TÄSTÄ",
+        "btn_url": "shopify:\/\/pages\/5-syyta-panostaa-kotimaisuuteen-ja-vastuullisuuteen",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "full_width": true,
+        "bg_color": "#0F4880",
+        "text_color": "#FFFFFF"
+      }
     }
   },
   "order": [
@@ -368,6 +388,7 @@
     "99b95b1a-5e12-46bc-8d88-c0a756a10df4",
     "273fe876-ab7b-4aad-8dec-4cf8c8f92d7c",
     "feb9c2fd-6386-484f-903f-7acd018a6e98",
-    "c8acecc1-e53e-43a2-9708-51112c7d2ff1"
+    "c8acecc1-e53e-43a2-9708-51112c7d2ff1",
+    "8552a01e-70d9-4704-bd5c-ea9f9440e455"
   ]
 }
