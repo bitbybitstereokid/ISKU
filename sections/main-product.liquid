@@ -339,7 +339,7 @@
             {%- when 'delivery-info' -%}
               {% render 'delivery-info-block', block: block, product: product %}
             {%- when 'brands' -%}
-              {% render 'image-brands-block', product: product %}
+              {% render 'image-brands-block', product: product, block: block %}
             {%- when 'lowest_price' -%}
               {% render 'lowest-price', block: block, product: product %}
             {%- when 'popup' -%}
@@ -498,7 +498,7 @@
               %}
             {%- when 'vendor' -%}
               {%- if product.vendor -%}
-                {% unless section.settings.not_show_vendor contains product.vendor %}  
+                {% unless block.settings.not_show_vendor contains product.vendor %}  
                   <div class="product-vendor">{{ product.vendor }}</div>
                 {% endunless %}
               {%- endif -%}
