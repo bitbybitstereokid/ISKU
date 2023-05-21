@@ -647,27 +647,30 @@
   <div class="custom__popup">
     <div class="custom__popup__inner">
       <div class="custom__popup__width">
-        <form>
-          <div class="custom__popup__title">Callback</div>
-          <button class="custom__close" type="button">X</button>
+        {% form 'contact' %}
+          <div class="custom__popup__title">{{section.settings.popup_title}}</div>
+          <button class="custom__close" type="button">{% if section.settings.popup_cross != blank %}{{section.settings.popup_cross}}{% else %}X{% endif %}</button>
           <label for="nimi__product">
-            Nimi
-            <input required id="nimi__product" type="text" placeholder="Nimi">
+            {{section.settings.popup_name}}
+            <input required id="nimi__product first-name" name="contact[first_name]" type="text" placeholder="{{section.settings.popup_name}}">
           </label>
           <label for="email__product">
-            Email
-            <input required id="email__product" type="text" placeholder="Email">
+            {{section.settings.popup_email}}
+            <input required name="contact[email]" id="email__product email" type="text" placeholder="{{section.settings.popup_email}}">
           </label>
           <label for="phone__product">
-            Puhelin
-            <input id="phone__product" type="text" placeholder="Puhelin">
+            {{section.settings.popup_phone}}
+            <input id="phone__product phone" name="contact[phone]" type="text" placeholder="{{section.settings.popup_phone}}">
           </label>
           <label for="textarea__product">
-            Viestisi
-            <textarea id="textarea__product" type="text" placeholder="Viestisi"></textarea>
+            {{section.settings.popup_message}}
+            <textarea id="textarea__product message" name="contact[body]" type="text" placeholder="{{section.settings.popup_message}}"></textarea>
           </label>
-          <button class="submit__button" type="submit">Lähetä</button>
-        </form>
+          <label for="email__product" style="display: none;">
+            <input required name="contact[Product]" id="email__product email" type="text" value="{{product.title}}">
+          </label>
+          <button class="submit__button" type="submit">{{section.settings.popup_submit}}</button>
+        {% endform %}
       </div>
     </div>
   </div>
@@ -1858,6 +1861,51 @@
       "unit": "px",
       "label": "t:sections.all.padding.padding_bottom",
       "default": 36
+    },
+    {
+      "type": "header",
+      "content": "Popup settings"
+    },
+    {
+      "type": "text",
+      "id": "popup_title",
+      "label": "Popup title",
+      "default": "Callback"
+    },
+    {
+      "type": "html",
+      "id": "popup_cross",
+      "label": "Popup cross"
+    },
+    {
+      "type": "text",
+      "id": "popup_name",
+      "label": "Popup name label",
+      "default": "Nimi"
+    },
+    {
+      "type": "text",
+      "id": "popup_email",
+      "label": "Popup email label",
+      "default": "Email"
+    },
+    {
+      "type": "text",
+      "id": "popup_phone",
+      "label": "Popup phone label",
+      "default": "Puhelin"
+    },
+    {
+      "type": "text",
+      "id": "popup_message",
+      "label": "Popup message label",
+      "default": "Viestisi"
+    },
+    {
+      "type": "text",
+      "id": "popup_submit",
+      "label": "Popup submit button text",
+      "default": "Lähetä"
     }
   ]
 }
