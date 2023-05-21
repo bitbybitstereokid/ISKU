@@ -1626,17 +1626,6 @@
         "label": "Colors for color swatches",
         "default": "black: #1F1F21; white: #FFFFFF; dark-grey: #424348;",
         "info": "Use ':' separetor between the color name and color hex code and ';' separetor between the different items. Example: black: #1F1F21; white: #FFFFFF; dark-grey: #424348;"
-      },
-      {
-        "name": "Button names",
-        "settings": [
-          {
-            "type": "text",
-            "id": "article_btn_text",
-            "label": "Article button text",
-            "default": "Lue lisää"
-          }
-        ]
       }
     ]
   }
