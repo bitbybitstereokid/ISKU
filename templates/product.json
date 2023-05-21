@@ -11,6 +11,7 @@
         "2afe51da-b9b0-4327-b31c-e2facff45b8a": {
           "type": "vendor",
           "settings": {
+            "not_show_vendor": "Isku Stage"
           }
         },
         "title": {
@@ -76,6 +77,7 @@
         "a98d107f-9e81-4331-b1ef-0b9029d00918": {
           "type": "brands",
           "settings": {
+            "not_show_vendor": "Isku Stage"
           }
         }
       },
@@ -104,7 +106,14 @@
         "enable_video_looping": false,
         "manufacture_finland": "shopify:\/\/shop_images\/Finland.png",
         "padding_top": 36,
-        "padding_bottom": 12
+        "padding_bottom": 12,
+        "popup_title": "Yhteydenottolomake",
+        "popup_cross": "",
+        "popup_name": "Nimi",
+        "popup_email": "Email",
+        "popup_phone": "Puhelin",
+        "popup_message": "Viestisi",
+        "popup_submit": "Lähetä"
       }
     },
     "related-products": {
