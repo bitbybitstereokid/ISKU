@@ -497,7 +497,11 @@
                 block: block
               %}
             {%- when 'vendor' -%}
-            {%- if product.vendor -%}<div class="product-vendor">{{ product.vendor }}</div>{%- endif -%}
+              {%- if product.vendor -%}
+                {% unless section.settings.not_show_vendor contains product.vendor %}  
+                  <div class="product-vendor">{{ product.vendor }}</div>
+                {% endunless %}
+              {%- endif -%}
           {%- endcase -%}
         {%- endfor -%}
         <a href="{{ product.url | within: collection}}" class="link product__view-details animate-arrow">
@@ -1686,7 +1690,16 @@
     },
     {
       "type": "vendor",
-      "name": "Vendor"
+      "name": "Vendor",
+      "settings": [
+        {
+          "type": "text",
+          "id": "not_show_vendor",
+          "label": "Don't show vendor when",
+          "default": "Isku Stage",
+          "info": "Enter the vendor, separate by ,"
+        }
+      ]
     }
   ],
   "settings": [
