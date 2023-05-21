@@ -96,6 +96,13 @@
     gap: 10px;
 }
 
+.product-form .aiod-wholesale-discount-topbar,
+.product-form .aiod-bogo-discount-wrap,
+.product-form .aiod-volume-discount-wrap{
+    display: none !important;
+    margin: 0 !important;
+}
+
 .custom-product .custom-quantity-wrapper .price--based-quiantity {
     font-family: var(--font-body-family);
     font-style: normal;
@@ -207,6 +214,7 @@
     display: flex;
     align-items: center;
     gap: 10px;
+    cursor: pointer;
 
     font-family: var(--font-body-family);
     font-style: normal;

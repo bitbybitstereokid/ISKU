@@ -1,4 +1,3 @@
-{% comment %}<link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css"/>{% endcomment %}
 {{ 'product-highlights.css' | asset_url | stylesheet_tag }}
 
 {% style %}
@@ -103,19 +102,12 @@
         {% if product.metafields.custom.product_video_embed_ != blank %}
             <div class="product-highlights__main-image">
                 {{ product.metafields.custom.product_video_embed }}
-                {% comment %}<video class="video__product" controls>{% endcomment %}
-                {% comment %}<source src="{{ product.metafields.custom.custom.product_video_url }}"/>{% endcomment %}
-                {% comment %}</video>{% endcomment %}
             </div>
             {% if section.settings.main_text != blank %}
                 <div class="product-highlights__main-text">
                     {{ section.settings.main_text }}
                 </div>
             {% endif %}
-            {% comment %}<script src="https://cdn.plyr.io/3.7.8/plyr.js"></script>{% endcomment %}
-            {% comment %}<script>{% endcomment %}
-            {% comment %}const player = new Plyr(document.querySelector('.video__product'));{% endcomment %}
-            {% comment %}</script>{% endcomment %}
         {% endif %}
     </div>
 </div>
