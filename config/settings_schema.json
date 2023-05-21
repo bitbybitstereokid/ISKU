@@ -498,6 +498,13 @@
     "name": "t:settings_schema.cards.name",
     "settings": [
       {
+        "type": "text",
+        "id": "not_show_vendor",
+        "label": "Don't show vendor when",
+        "default": "Isku Stage",
+        "info": "Enter the vendor, separate by ,"
+      },
+      {
         "type": "select",
         "id": "card_style",
         "options": [
