@@ -1,6 +1,6 @@
 <script>
-  if (window.location.href.indexOf('duplicate-') != -1) {
-    window.location.href = window.location.href.replace('duplicate-', '').split('?variant')[0]
+  if (window.location.href.indexOf('duplicat-') != -1) {
+    window.location.href = '{{all_products[product.metafields.custom.original_product].url}}'
   }
 </script>
 
@@ -989,7 +989,16 @@
     {
       "type": "brands",
       "name": "Brands",
-      "limit": 1
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "not_show_vendor",
+          "label": "Don't show vendor when",
+          "default": "Isku Stage",
+          "info": "Enter the vendor, separate by ,"
+        }
+      ]
     },
     {
       "type": "delivery-info",

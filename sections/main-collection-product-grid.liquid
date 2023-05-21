@@ -201,26 +201,31 @@
             >
               {% assign namesForColorSwotcher = settings.colors_swatcher_title | escape | strip | downcase %}
               {% assign colorsNamesAndHex = settings.colors_swatcher_colors | strip | downcase | split: ';' %}
-              {%- for product in collection.products -%}
-                {% assign lazy_load = false %}
-                {%- if forloop.index > 2 -%}
-                  {%- assign lazy_load = true -%}
-                {%- endif -%}
-                <li class="grid__item">
-                  {% render 'card-product',
-                          card_product: product,
-                          media_aspect_ratio: section.settings.image_ratio,
-                          show_secondary_image: section.settings.show_secondary_image,
-                          show_vendor: section.settings.show_vendor,
-                          show_rating: section.settings.show_rating,
-                          lazy_load: lazy_load,
-                          show_quick_add: section.settings.enable_quick_add,
-                          section_id: section.id,
-                          nameSwatch: namesForColorSwotcher,
-                          colorSwatch: colorsNamesAndHex
-                  %}
-                </li>
-              {%- endfor -%}
+              {%- assign duplicatElements = 0 -%}
+                {% if product.title contains 'Duplicat' %}
+                  {%- assign duplicatElements = duplicatElements | plus: 1 -%}
+                {% else %}
+                  {%- for product in collection.products -%}
+                    {% assign lazy_load = false %}
+                    {%- if forloop.index > 2 -%}
+                      {%- assign lazy_load = true -%}
+                    {%- endif -%}
+                    <li class="grid__item">
+                      {% render 'card-product',
+                              card_product: product,
+                              media_aspect_ratio: section.settings.image_ratio,
+                              show_secondary_image: section.settings.show_secondary_image,
+                              show_vendor: section.settings.show_vendor,
+                              show_rating: section.settings.show_rating,
+                              lazy_load: lazy_load,
+                              show_quick_add: section.settings.enable_quick_add,
+                              section_id: section.id,
+                              nameSwatch: namesForColorSwotcher,
+                              colorSwatch: colorsNamesAndHex
+                      %}
+                    </li>
+                  {%- endfor -%}
+                {% endif %}
             </ul>
 
             {% if section.settings.change__pagination == 'pagination' %}
@@ -261,8 +266,8 @@
                   </div>
                 {% else %}
                   <div class="wrap-elements-pagination">
-                    <span class="currentElements">{{ paginate.items }}</span>
-                    <span class="totalElements">/ {{ paginate.items }}  {{ section.settings.shown_products }}   </span>
+                    <span class="currentElements">{{ paginate.items | minus: duplicatElements }}</span>
+                    <span class="totalElements">/ {{ paginate.items | minus: duplicatElements }}  {{ section.settings.shown_products }}   </span>
                   </div>
                 {% endif %}
               {%- endif -%}
