@@ -14,15 +14,12 @@
     }
 {% endstyle %}
 
+{% assign optionP = false %}
+{% if product.options_with_values != blank %}
+    {% assign optionP = true %}
+{% endif %}
 
 {% assign namesForColorSwotcher = settings.colors_swatcher_title | escape | strip | downcase %}
-{% assign optionP = false %}
-{%- for option in product.options_with_values -%}
-    {% assign formatedOptionName = option.name | strip | downcase %}
-    {% if namesForColorSwotcher contains formatedOptionName %}
-        {% assign optionP = true %}
-    {% endif %}
-{%- endfor -%}
 {% assign widhtP = product.metafields.custom.product_width %}
 {% assign heightP = product.metafields.custom.product_height %}
 {% assign depthP = product.metafields.custom.product_depth %}
@@ -38,7 +35,7 @@
             </h5>
             <div class="product-highlights__tab-content">{{ product.description }}</div>
         </div>
-        {% if weightP != blank or heightP != blank or depthP != blank or widhtP != blank or optionP%}
+        {% if weightP != blank or heightP != blank or depthP != blank or widhtP != blank or optionP %}
             <div class="product-highlights__tab">
                 <h5 class="product-highlights__tab-label">
                     {{ section.settings.text_lisatiedot }}
@@ -48,7 +45,7 @@
                     <div class="product-highlights__tab-content product-highlights__inner">
                         <div class="product-highlight__inner">
                             <div class="product-highlight__title">{{ section.settings.text_paino }}</div>
-                            <div class="product-highlight__info">{{ weightP }} kg (kilogramma)
+                            <div class="product-highlight__info">{{ weightP }} kg
                             </div>
                         </div>
                     </div>
@@ -61,7 +58,7 @@
                                 {% if heightP != blank %}{{ heightP }}{% endif %}
                                 {% if depthP != blank %}{{ depthP | prepend: "x " }}{% endif %}
                                 {% if widhtP != blank %}{{ widhtP | prepend: "x " }}{% endif %}
-                                cm (senttimetri)
+                                cm
                             </div>
                         </div>
                     </div>
@@ -69,19 +66,33 @@
                 {% if optionP %}
                     <div class="product-highlights__tab-content product-highlights__inner">
                         {%- for option in product.options_with_values -%}
-                            {% assign formatedOptionName = option.name | strip | downcase %}
-                            {% if namesForColorSwotcher contains formatedOptionName %}
-                                <div class="product-highlight__inner">
-                                    <div class="product-highlight__title">{{ option.name }}</div>
-                                    <div class="product-highlight__info">{%- for value in option.values -%}
-                                            {{ value }}{% unless forloop.last %},{% endunless %}
-                                        {%- endfor -%}
-                                    </div>
+                            <div class="product-highlight__inner">
+                                <div class="product-highlight__title">{{ option.name }}</div>
+                                <div class="product-highlight__info">{%- for value in option.values -%}
+                                        {{ value }}{% unless forloop.last %},{% endunless %}
+                                    {%- endfor -%}
                                 </div>
-                            {% endif %}
+                            </div>
                         {%- endfor -%}
                     </div>
                 {% endif %}
+            </div>
+        {% endif %}
+        {% if product.metafields.custom.file_pdf != blank %}
+            <div class="product-highlights__tab">
+                <h5 class="product-highlights__tab-label">
+                    {{ section.settings.text_ladattavat }}
+                    <span class="product-highlights__tab-label--icon"></span>
+                </h5>
+                <div class="product-highlights__tab-content">
+                    {% assign file = product.metafields.custom.file_pdf.value %}
+                    {% assign file_url = file.url %}
+                    {% assign file_name_with_shopify_extension = file_url | split: '/' | last %}
+                    {% assign file_name = file_name_with_shopify_extension | split: '?' | first %}
+                    <span class="product__instruction-title">{{ file_name | replace: ".pdf", "" | replace: "_", " " }}</span>
+                    <a href="{{ file.url }}" class="product__instruction"
+                       target="_blank">{{ section.settings.text_btn_download }}</a>
+                </div>
             </div>
         {% endif %}
 
@@ -98,10 +109,21 @@
             {% endif %}
         {% endfor %}
     </div>
+
     <div class="product-highlights__main">
-        {% if product.metafields.custom.product_video_embed_ != blank %}
-            <div class="product-highlights__main-image">
+        {% if product.metafields.custom.product_video_embed != blank %}
+            <div class="product-highlights__main-image desktop__video">
                 {{ product.metafields.custom.product_video_embed }}
+            </div>
+            {% if section.settings.main_text != blank %}
+                <div class="product-highlights__main-text">
+                    {{ section.settings.main_text }}
+                </div>
+            {% endif %}
+        {% endif %}
+        {% if product.metafields.custom.product_video_embed_mobile != blank %}
+            <div class="product-highlights__main-image mobile__video">
+                {{ product.metafields.custom.product_video_embed_mobile }}
             </div>
             {% if section.settings.main_text != blank %}
                 <div class="product-highlights__main-text">
@@ -197,6 +219,18 @@
       "id": "text_paino",
       "label": "PAKKAUKSEN PAINO",
       "default": "PAKKAUKSEN PAINO"
+    },
+    {
+      "type": "text",
+      "id": "text_ladattavat",
+      "label": " Ladattavat tiedostot",
+      "default": " Ladattavat tiedostot"
+    },
+    {
+      "type": "text",
+      "id": "text_btn_download",
+      "label": "Button download",
+      "default": "See more"
     }
   ],
   "blocks": [

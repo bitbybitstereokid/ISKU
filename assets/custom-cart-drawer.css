@@ -17,6 +17,10 @@
     font-family: "ITC Avant Garde Gothic", sans-serif;
 }
 
+.csapp_aiod_coupan button.csapp_aiod_coupan_btn span{
+    padding: 5px 30px;
+}
+
 .cart-drawer__footer .totals{
     align-items: flex-start;
 }

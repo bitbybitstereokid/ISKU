@@ -81,7 +81,9 @@
 }
 
 .home-page-subscribe__button {
-    padding: 21px 60px;
+    /*padding: 21px 60px;*/
+    padding: 0;
+    height: 61px;
     width: 100%;
     border: 1px solid var(--color-accent-1);
 }
