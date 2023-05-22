@@ -77,6 +77,9 @@ if (!customElements.get('product-info')) {
     updateQuantityRules(sectionId, html) {
       const quantityFormUpdated = html.getElementById(`Quantity-Form-${sectionId}`);
       const selectors = ['.quantity__input', '.quantity__rules', '.quantity__label'];
+      let priceFormUpdated = html.querySelector('.price--based-quiantity');
+      let priceFormCurrent = document.querySelector('.price--based-quiantity');
+      priceFormCurrent.innerHTML = priceFormUpdated.innerHTML;
       for (let selector of selectors) { 
         const current = this.quantityForm.querySelector(selector);
         const updated = quantityFormUpdated.querySelector(selector);

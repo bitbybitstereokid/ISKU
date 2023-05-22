@@ -12,8 +12,20 @@
     color: var(--color-text-primary);
 }
 
+#main-cart-footer .totals__subtotal{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#main-cart-footer .totals{
+    flex-direction: column;
+    position: relative;
+}
+
 #main-cart-footer .totals__subtotal-value{
-    margin-right: 17px;
+    margin: 0;
+    width: 100%;
 }
 
 #main-cart-footer .tax-note{
