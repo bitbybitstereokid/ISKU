@@ -135,6 +135,7 @@
         "hide_variants": true,
         "enable_video_looping": false,
         "manufacture_finland": "shopify:\/\/shop_images\/Finland.png",
+        "manufacture_finland_2": "shopify:\/\/shop_images\/avainlippu-sininen.png",
         "padding_top": 36,
         "padding_bottom": 12,
         "popup_title": "Yhteydenottolomake",
@@ -208,7 +209,9 @@
         "text_kuvas": "Kuvaus",
         "text_lisatiedot": "Lisätiedot",
         "text_mitat": "PAKKAUKSEN MITAT",
-        "text_paino": "PAKKAUKSEN PAINO"
+        "text_paino": "PAKKAUKSEN PAINO",
+        "text_ladattavat": "Ladattavat tiedostot",
+        "text_btn_download": "See more"
       }
     },
     "8db35396-c85e-486d-aaf2-8eb8623b292a": {
