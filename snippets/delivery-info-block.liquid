@@ -23,13 +23,13 @@
         </p>
     </div>
     {% if block.settings.delivery_price_lable != blank %}
-        <div class="delivery-info__item" style="display: none">
+        <div class="delivery-info__item" style="margin-bottom: 0">
             <p class="delivery-info__item-label">{{ block.settings.delivery_price_lable }}</p>
             <p class="delivery-info__item-text">{{ block.settings.delivery_price_text }}</p>
         </div>
     {% endif %}
     {% if block.settings.delivery_status_lable != blank %}
-        <div class="delivery-info__item">
+        <div class="delivery-info__item" style="display: none">
             <p class="delivery-info__item-label">{{ block.settings.delivery_status_lable }}</p>
             <p class="delivery-info__item-text delivery-info__item-text--status delivery-info__item-text--status-{{ isVariantAvailable }}">
                 {% if isVariantAvailable %}

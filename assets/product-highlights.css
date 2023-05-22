@@ -10,6 +10,10 @@
     flex: 1 1 50%;
 }
 
+.mobile__video{
+    display: none;
+}
+
 .product-highlights__tab {
     border-bottom: 1px solid var(--color-background-1);
 }
@@ -266,5 +270,15 @@
 
     100% {
         transform: rotate(0deg);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .mobile__video {
+        display: block;
+    }
+
+    .desktop__video {
+        display: none;
     }
 }
