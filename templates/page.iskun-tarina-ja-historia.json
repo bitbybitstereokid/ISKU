@@ -3,8 +3,8 @@
     "main": {
       "type": "about-image-text",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Lahden_puukalusto_1902.jpg",
-        "padding_top": 0,
+        "image": "shopify:\/\/shop_images\/Lahden_puukalusto_02_2.jpg",
+        "padding_top": 20,
         "padding_bottom": 50,
         "reverse": false,
         "text_centered": false,
