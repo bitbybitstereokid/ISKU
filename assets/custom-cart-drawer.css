@@ -25,6 +25,17 @@
     align-items: flex-start;
 }
 
+.cart-drawer__footer .totals{
+    align-items: flex-start;
+    position: relative;
+    flex-direction: column;
+}
+
+.totals__subtotal-value{
+    margin: 0;
+    width: 100%;
+}
+
 .csapp_aiod_coupan_code:focus-visible{
     box-shadow: none;
     outline: none;
