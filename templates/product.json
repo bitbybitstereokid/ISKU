@@ -82,16 +82,19 @@
         },
         "52369498-8776-41fd-b7d9-b0a2dc043439": {
           "type": "shopify:\/\/apps\/fast-bundle-product-bundles\/blocks\/all_bundles\/9e87fbe2-9041-4c23-acf5-322413994cef",
+          "disabled": true,
           "settings": {
           }
         },
         "a87d3c0c-321b-47f8-a93a-efe2e4913ee1": {
           "type": "shopify:\/\/apps\/fast-bundle-product-bundles\/blocks\/fbt_position\/9e87fbe2-9041-4c23-acf5-322413994cef",
+          "disabled": true,
           "settings": {
           }
         },
         "dd9726de-2ac5-4429-8217-767b72f783b0": {
           "type": "shopify:\/\/apps\/fast-bundle-product-bundles\/blocks\/product_bundles\/9e87fbe2-9041-4c23-acf5-322413994cef",
+          "disabled": true,
           "settings": {
           }
         },
