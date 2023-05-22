@@ -169,6 +169,10 @@
     color: var(--color-text-primary);
 }
 
+.menu-drawer__close-button{
+    padding: 0 0 15px 0;
+}
+
 .custom-header .menu-drawer__menu-item > .icon-arrow {
     right: 0;
 }

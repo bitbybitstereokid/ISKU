@@ -78,6 +78,15 @@
                 {% endif %}
             </div>
         {% endif %}
+        {% if product.metafields.custom.tuotteen_mita != blank %}
+            <div class="product-highlights__tab">
+                <h5 class="product-highlights__tab-label">
+                    {{ section.settings.text_mitatt }}
+                    <span class="product-highlights__tab-label--icon"></span>
+                </h5>
+                <div class="product-highlights__tab-content">{{ product.metafields.custom.tuotteen_mita | metafield_tag }}</div>
+            </div>
+        {% endif %}
         {% if product.metafields.custom.file_pdf != blank %}
             <div class="product-highlights__tab">
                 <h5 class="product-highlights__tab-label">
@@ -201,6 +210,12 @@
       "id": "text_kuvas",
       "label": "Kuvas",
       "default": "Kuvas"
+    },
+    {
+      "type": "text",
+      "id": "text_mitatt",
+      "label": "Tuotteen Mitat",
+      "default": "Tuotteen Mitat"
     },
     {
       "type": "text",
