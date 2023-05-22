@@ -2,6 +2,7 @@
   "sections": {
     "main": {
       "type": "about-image-text",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Lahden_puukalusto_02_2.jpg",
         "padding_top": 20,
@@ -17,13 +18,13 @@
     "cf9a212e-69c0-4fb6-badc-e31720078c6e": {
       "type": "about-image-text",
       "settings": {
-        "image": "shopify:\/\/shop_images\/1920-1.jpg",
+        "image": "shopify:\/\/shop_images\/Lahden_puukalusto_02_2.jpg",
         "padding_top": 50,
         "padding_bottom": 100,
-        "reverse": true,
+        "reverse": false,
         "text_centered": false,
         "title": "ISKUn tarina alkoi jo vuonna 1928",
-        "text": "<p>ISKUn tarina alkoi vuonna 1928 kun Lahden Puukalusto Oy rekisteröitiin osakeyhtiöksi. Yhtiön perustivat Eino Vikström ja hänen yhtiökumppaninsa Matti Metso, joka luopui osuudestaan yrityksessä vuonna 1929. Aina siitä lähtien osakepääoma on ollut kokonaisuudessaan Vikströmin perheen omistuksessa. Nykyään ISKU on perheyritys jo kolmannessa polvessa.<\/p>",
+        "text": "<p>ISKU, Suomen suurin huonekaluteollisuuden toimija, kasvaa ja on keskittänyt kaiken tuotantonsa Lahteen. ISKUn tarina alkoi vuonna 1928, kun Eino Vikström perusti ISKUn kotitalonsa alakertaan ja Lahden Puukalusto Oy rekisteröitiin osakeyhtiöksi. <\/p><p>Yhtiön perustivat Eino Vikström ja hänen yhtiökumppaninsa Matti Metso, joka luopui osuudestaan yrityksessä vuonna 1929. Aina siitä lähtien osakepääoma on ollut kokonaisuudessaan Vikströmin perheen omistuksessa. Nykyään ISKU on perheyritys jo kolmannessa polvessa.<\/p>",
         "btn_text": "",
         "btn_url": ""
       }
