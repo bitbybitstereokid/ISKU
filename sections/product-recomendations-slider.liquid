@@ -23,9 +23,11 @@
     <div class="swiper product-slider--{{ section.id }}">
         <div class="swiper-wrapper">
             {% for product in recommendations.products %}
-                <div class="swiper-slide">
-                    {% render 'about-product-card', product: product %}
-                </div>
+                {% unless product.title contains 'Duplicat' %}
+                    <div class="swiper-slide">
+                        {% render 'about-product-card', product: product %}
+                    </div>
+                {% endunless %}
             {% endfor %}
         </div>
 

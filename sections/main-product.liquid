@@ -206,6 +206,9 @@
                 </details>
               </div>
               {%- when 'quantity_selector' -%}
+
+              <script src="https://payments.maksuturva.fi/tools/partpayment/partPayment.js" class="svea-pp-widget-part-payment" data-sellerid="VQPLPJEN" data-locale="fi" data-price="{{product.selected_or_first_available_variant.price | divided_by: '100'}}" data-campaign-text-fi="Maksa erissä" data-campaign-text-sv="Campaign text SV" data-campaign-text-en="Campaign text EN" data-fallback-text-fi="Svean maksimirahoitus on 4999€" data-fallback-text-sv="Fallback text SV" data-fallback-text-en="Fallback text EN" data-border-color="#cceef5" data-text-color="#00325c" data-highlight-color="#00325c" data-active-color="#00aece" data-threshold-prices="[[50, 1], [200, 36]]"></script>
+
               {% assign quantitySelector = true %}
               <div class="custom-quantity-wrapper">
                 <div class="price--based-quiantity"
@@ -329,12 +332,20 @@
                     {{ block.settings.chat_text }}
                   </div>
                 </div>
-                {% if product.metafields.custom.manufacture_finland == true %}
-                  <div class="wishlist-manufacturer">
-                    <img src="{{ section.settings.manufacture_finland | img_url: "master" }}"
-                         alt="{{ section.settings.manufacture_finland.alt }}">
-                  </div>
-                {% endif %}
+                <div class="wishlist-manufacturer_wrapper">
+                  {% if product.metafields.custom.manufacture_finland == true %}
+                    <div class="wishlist-manufacturer">
+                      <img src="{{ section.settings.manufacture_finland | img_url: "master" }}"
+                          alt="{{ section.settings.manufacture_finland.alt }}">
+                    </div>
+                  {% endif %}
+                  {% if product.metafields.custom.manufacture_finland_1 == true %}
+                    <div class="wishlist-manufacturer">
+                      <img src="{{ section.settings.manufacture_finland_2 | img_url: "master" }}"
+                          alt="{{ section.settings.manufacture_finland_2.alt }}">
+                    </div>
+                  {% endif %}
+                </div>
               </div>
             {%- when 'delivery-info' -%}
               {% render 'delivery-info-block', block: block, product: product %}
@@ -1858,7 +1869,12 @@
     {
       "type": "image_picker",
       "id": "manufacture_finland",
-      "label": "Manufacture (finland)"
+      "label": "Manufacture (finland)(logo)"
+    },
+    {
+      "type": "image_picker",
+      "id": "manufacture_finland_2",
+      "label": "Manufacture (finland)(flag)"
     },
     {
       "type": "header",

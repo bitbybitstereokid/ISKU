@@ -1628,5 +1628,17 @@
         "info": "Use ':' separetor between the color name and color hex code and ';' separetor between the different items. Example: black: #1F1F21; white: #FFFFFF; dark-grey: #424348;"
       }
     ]
+  },
+  {
+    "name": "Vendor icons",
+    "settings": [
+      {
+        "type": "textarea",
+        "id": "vendor_icons",
+        "label": "Vendor icons",
+        "default": "Anttiina|anttiina-logo.png;Brafab|brafab-logo.png;",
+        "info": "Use '|' separetor between the vendor name and icon name and ';' separetor between the different items. Example: Anttiina|anttiina-logo.png;Brafab|brafab-logo.png;"
+      }
+    ]
   }
 ]

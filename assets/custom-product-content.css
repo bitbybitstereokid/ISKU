@@ -359,6 +359,29 @@
     padding-top: 100%;
 }
 
+.wishlist-manufacturer_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.wishlist-manufacturer_wrapper > div{
+    max-height: 33px;
+    display: flex;
+}
+.wishlist-manufacturer_wrapper > div > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    max-height: 33px;
+}
+.wishlist-manufacturer_wrapper > div{
+    margin-right: 20px;
+}
+.wishlist-manufacturer_wrapper > div:last-of-type{
+    margin-right: 0;
+}
+
 @media screen and (min-width: 750px) {
     .custom-product .custom-quantity-wrapper {
         flex-direction: row;

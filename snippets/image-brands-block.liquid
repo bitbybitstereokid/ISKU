@@ -1,12 +1,19 @@
 {% if product.vendor != blank %}
     {% unless block.settings.not_show_vendor contains product.vendor %}
-        {% assign brandImage = product.vendor | replace: " ", "-" | downcase | append: "-logo.png" | file_url %}
-        {% if brandImage %}    
-            <div class="delivery-info" id="delivery-info-{{ section.id }}">
-                <div class="delivery-info__item delivery-info__item--brands">
-                    <img src="{{ brandImage}}">
-                </div>
-            </div>
+        {%- assign vendor = product.vendor | downcase | replace: ' ', '' | handleize -%}
+        {%- assign product_vendor = product.vendor | downcase  -%}
+        {% if settings.vendor_icons contains product_vendor %}
+            {%- assign vendor_list = settings.vendor_icons | split: ';' -%}
+            {% for item in vendor_list %}
+                {% assign vendor_list_item = item | split: '|' | first | replace: ' ', '' | handleize %}
+                {% if vendor_list_item == vendor %}
+                    <div class="delivery-info" id="delivery-info-{{ section.id }}">
+                        <div class="delivery-info__item delivery-info__item--brands">
+                            <img src="{{ item | split: '|' | last | file_url }}">
+                        </div>
+                    </div>
+                {% endif %}
+            {% endfor %}
         {% endif %}
     {% endunless %}
 {% endif %}
