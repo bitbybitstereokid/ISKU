@@ -498,6 +498,13 @@
     "name": "t:settings_schema.cards.name",
     "settings": [
       {
+        "type": "text",
+        "id": "not_show_vendor",
+        "label": "Don't show vendor when",
+        "default": "Isku Stage",
+        "info": "Enter the vendor, separate by ,"
+      },
+      {
         "type": "select",
         "id": "card_style",
         "options": [
@@ -1619,17 +1626,18 @@
         "label": "Colors for color swatches",
         "default": "black: #1F1F21; white: #FFFFFF; dark-grey: #424348;",
         "info": "Use ':' separetor between the color name and color hex code and ';' separetor between the different items. Example: black: #1F1F21; white: #FFFFFF; dark-grey: #424348;"
-      },
+      }
+    ]
+  },
+  {
+    "name": "Vendor icons",
+    "settings": [
       {
-        "name": "Button names",
-        "settings": [
-          {
-            "type": "text",
-            "id": "article_btn_text",
-            "label": "Article button text",
-            "default": "Lue lisää"
-          }
-        ]
+        "type": "textarea",
+        "id": "vendor_icons",
+        "label": "Vendor icons",
+        "default": "Anttiina|anttiina-logo.png;Brafab|brafab-logo.png;",
+        "info": "Use '|' separetor between the vendor name and icon name and ';' separetor between the different items. Example: Anttiina|anttiina-logo.png;Brafab|brafab-logo.png;"
       }
     ]
   }

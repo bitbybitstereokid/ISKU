@@ -8,68 +8,97 @@
         "padding_bottom": 28
       }
     },
-    "dee31f09-5bdf-4377-a998-0ba46450dfb4": {
-      "type": "about-image-text",
+    "4c3f5b5c-b0a6-43c2-bf42-8073d576cbbd": {
+      "type": "hero-banner-half",
       "settings": {
-        "image": "shopify:\/\/shop_images\/kampa2.jpg",
+        "text_align": "left",
+        "image_position": "left",
+        "image_position_mobile": "top",
+        "image": "shopify:\/\/shop_images\/Nimet__n_suunn.malli_-_2022-11-16T123049.326.png",
+        "title": "Ruokailutila",
+        "small": true,
+        "text": "Keittiö ja ruokailutila on kodin sydän. Ruokapöydän ääressä paitsi ruokaillaan, myös viihdytään ja seurustellaan. Valitse sinulle sopivat kalusteet laajasta valikoimastamme.",
+        "button_style": "primary",
+        "btn_text": "",
+        "btn_url": "",
         "padding_top": 50,
         "padding_bottom": 50,
-        "reverse": false,
-        "text_centered": true,
-        "title": "Ruokailupoydat",
-        "text": "",
-        "btn_text": "Ruokailupoydat",
-        "btn_url": "shopify:\/\/collections\/ruokailupoydat"
+        "full_width": true,
+        "bg_color": "#0F4880",
+        "text_color": "#FFFFFF"
       }
     },
-    "08605677-bf71-463f-8a77-0de8ff5c7af6": {
-      "type": "about-image-text",
+    "178dfb40-d264-4884-82c5-7c35886d96d7": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--15666920947812__178dfb40-d264-4884-82c5-7c35886d96d7-1684583830ad021b0a-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Aino-ruokaryhma_1.png",
+            "title": "Ruokailuryhmät",
+            "text": "<p>Arkeen ja juhlaan. Tyylikästä, klassista mukavaa. Katso kaikki Ruokailuryhmämme.<\/p>",
+            "link_label": "Ruokailuryhmät",
+            "link": "shopify:\/\/collections\/ruokailuryhmat"
+          }
+        },
+        "template--15666920947812__178dfb40-d264-4884-82c5-7c35886d96d7-1684583830ad021b0a-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/rowico-brigham-brent.jpg",
+            "title": "Ruokapöydät",
+            "text": "<p>Tutustu laajaan valikoimaan ruokapöytiämme.<\/p>",
+            "link_label": "Ruokapöydät",
+            "link": "shopify:\/\/collections\/ruokailupoydat"
+          }
+        },
+        "template--15666920947812__178dfb40-d264-4884-82c5-7c35886d96d7-1684583830ad021b0a-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pohjanmaan-aino-tuoli-smoked.jpg",
+            "title": "Ruokapöydän tuolit",
+            "text": "<p>Ruokapöydän tuolin tulee olla paitsi mukava, myös kestävä. Laaja valikoima Aino -klassikosta moderneihin vaihtoehtoihin.<\/p>",
+            "link_label": "Ruokapöydän tuolit",
+            "link": "shopify:\/\/collections\/ruokailupoydan-tuolit"
+          }
+        },
+        "5eecd173-fde1-4125-982e-726b8727d731": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pohjanmaan-aino-baaripoyta-saareketuolit-tammi.jpg",
+            "title": "Baaripöydät",
+            "text": "<p>Baaripöytä on oiva valinta pienempään keittiöön.<\/p>",
+            "link_label": "Baaripöydät",
+            "link": "shopify:\/\/collections\/baaripoydat"
+          }
+        }
+      },
+      "block_order": [
+        "template--15666920947812__178dfb40-d264-4884-82c5-7c35886d96d7-1684583830ad021b0a-0",
+        "template--15666920947812__178dfb40-d264-4884-82c5-7c35886d96d7-1684583830ad021b0a-1",
+        "template--15666920947812__178dfb40-d264-4884-82c5-7c35886d96d7-1684583830ad021b0a-2",
+        "5eecd173-fde1-4125-982e-726b8727d731"
+      ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/kampa2.jpg",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "reverse": true,
-        "text_centered": true,
-        "title": "Ruokailuryhmat",
-        "text": "",
-        "btn_text": "Ruokailuryhmat",
-        "btn_url": "shopify:\/\/collections\/ruokailuryhmat"
-      }
-    },
-    "c0f8a0f6-6291-4ad2-a358-61058977699b": {
-      "type": "about-image-text",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/kampa2.jpg",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "reverse": false,
-        "text_centered": true,
-        "title": "Ruokailupoydan tuolit",
-        "text": "",
-        "btn_text": "Ruokailupoydan tuolit",
-        "btn_url": "shopify:\/\/collections\/ruokailupoydan-tuolit"
-      }
-    },
-    "d860dc34-e813-49ce-9adf-9518588014f7": {
-      "type": "about-image-text",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/kampa2.jpg",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "reverse": true,
-        "text_centered": true,
-        "title": "Baaripoydat",
-        "text": "",
-        "btn_text": "Baaripoydat",
-        "btn_url": "shopify:\/\/collections\/baaripoydat"
+        "title": "Kaikki ruokailutilaan",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
   "order": [
     "main",
-    "dee31f09-5bdf-4377-a998-0ba46450dfb4",
-    "08605677-bf71-463f-8a77-0de8ff5c7af6",
-    "c0f8a0f6-6291-4ad2-a358-61058977699b",
-    "d860dc34-e813-49ce-9adf-9518588014f7"
+    "4c3f5b5c-b0a6-43c2-bf42-8073d576cbbd",
+    "178dfb40-d264-4884-82c5-7c35886d96d7"
   ]
 }

@@ -139,7 +139,7 @@
                         {%- endif -%}
 
                         <a href="{{ item.url }}" class="cart-item__name h4 break">
-                          {{- item.product.title | escape -}}
+                          {{- item.product.title | escape | replace: 'Duplicat ', '' -}}
                         </a>
 
                         {% comment %}{%- if item.original_price != item.final_price -%}
@@ -396,7 +396,7 @@
         <div class="cart-drawer__footer" {{ block.shopify_attributes }}>
           <div class="totals" role="status">
             <h2 class="totals__subtotal">{{ 'sections.cart.subtotal' | t }}</h2>
-            <p  data-hulkapps-cart-total class="totals__subtotal-value">{{ cart.total_price | money_with_currency }}</p>
+            <p  data-hulkapps-cart-total class="totals__subtotal-value"><span class="csapps-cart-original-total">{{ cart.total_price | money_with_currency }}</span></p>
           </div>
 
           <div>

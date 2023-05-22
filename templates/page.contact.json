@@ -8,11 +8,6 @@
         "padding_bottom": 36
       }
     },
-    "e1ecd320-9c8f-475f-afb6-df2be51fb8aa": {
-      "type": "about-breadcrumbs",
-      "settings": {
-      }
-    },
     "1e245789-bafb-4460-bd23-5dfcde05ec7e": {
       "type": "banner-section",
       "settings": {
@@ -34,40 +29,46 @@
         "88af4ccb-7bec-49e5-b0be-515fbe3a7769": {
           "type": "dropdown",
           "settings": {
-            "dropdown": "Topic 1"
+            "dropdown": "Palaute"
           }
         },
         "5cf2984c-7e26-47c8-afd9-65a2967c2790": {
           "type": "dropdown",
           "settings": {
-            "dropdown": "Topic 2"
+            "dropdown": "Toimituskysely"
           }
         },
         "cf03ca8b-7e32-4487-8376-5a1169e42c44": {
           "type": "dropdown",
           "settings": {
-            "dropdown": "Topic 3"
+            "dropdown": "Tarjouspyyntö"
+          }
+        },
+        "2ece53ac-3736-4593-998c-f5dd8cab6e6f": {
+          "type": "dropdown",
+          "settings": {
+            "dropdown": "Tuotekysely"
           }
         }
       },
       "block_order": [
         "88af4ccb-7bec-49e5-b0be-515fbe3a7769",
         "5cf2984c-7e26-47c8-afd9-65a2967c2790",
-        "cf03ca8b-7e32-4487-8376-5a1169e42c44"
+        "cf03ca8b-7e32-4487-8376-5a1169e42c44",
+        "2ece53ac-3736-4593-998c-f5dd8cab6e6f"
       ],
       "settings": {
         "st": 0,
         "sb": 100,
         "stm": 0,
         "sbm": 80,
-        "title": "Get in touch with us!",
-        "description": "<p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.  Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Velit officia consequat duis enim velit mollit. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.<br\/><br\/>Exercitation veniam consequat sunt nostrud amet. Exercitatio n veniam consequat sunt nostrud amet.Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.<\/p>"
+        "title": "Ota yhteyttä",
+        "description": "<p>Jätä yhteydenottopyyntö tai lähetä meille kommentteja tai palautetta. Kaikki tiedot ovat pakollisia. Mahdollisissa tuotereklamaatioissa käytä lomaketta<\/p>"
       }
     }
   },
   "order": [
     "main",
-    "e1ecd320-9c8f-475f-afb6-df2be51fb8aa",
     "1e245789-bafb-4460-bd23-5dfcde05ec7e",
     "475abe9f-5d8e-43df-a39c-c481de1251db"
   ]

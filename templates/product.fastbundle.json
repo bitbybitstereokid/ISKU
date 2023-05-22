@@ -79,32 +79,6 @@
           "settings": {
             "not_show_vendor": "Isku Stage"
           }
-        },
-        "52369498-8776-41fd-b7d9-b0a2dc043439": {
-          "type": "shopify:\/\/apps\/fast-bundle-product-bundles\/blocks\/all_bundles\/9e87fbe2-9041-4c23-acf5-322413994cef",
-          "disabled": true,
-          "settings": {
-          }
-        },
-        "a87d3c0c-321b-47f8-a93a-efe2e4913ee1": {
-          "type": "shopify:\/\/apps\/fast-bundle-product-bundles\/blocks\/fbt_position\/9e87fbe2-9041-4c23-acf5-322413994cef",
-          "disabled": true,
-          "settings": {
-          }
-        },
-        "dd9726de-2ac5-4429-8217-767b72f783b0": {
-          "type": "shopify:\/\/apps\/fast-bundle-product-bundles\/blocks\/product_bundles\/9e87fbe2-9041-4c23-acf5-322413994cef",
-          "settings": {
-          }
-        },
-        "0345ac45-a8d3-4374-8f71-5b94983a326c": {
-          "type": "shopify:\/\/apps\/fast-bundle-product-bundles\/blocks\/product_bundle_with_ids\/9e87fbe2-9041-4c23-acf5-322413994cef",
-          "settings": {
-            "bundle_ids": "",
-            "products": [
-
-            ]
-          }
         }
       },
       "block_order": [
@@ -117,11 +91,7 @@
         "10ad2495-f841-446a-990a-6d62483b318a",
         "d5d76b23-c270-46e6-ab01-a2acac1f9252",
         "0dd2c139-d779-473f-9d18-33a54573ef44",
-        "a98d107f-9e81-4331-b1ef-0b9029d00918",
-        "52369498-8776-41fd-b7d9-b0a2dc043439",
-        "a87d3c0c-321b-47f8-a93a-efe2e4913ee1",
-        "dd9726de-2ac5-4429-8217-767b72f783b0",
-        "0345ac45-a8d3-4374-8f71-5b94983a326c"
+        "a98d107f-9e81-4331-b1ef-0b9029d00918"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -135,7 +105,6 @@
         "hide_variants": true,
         "enable_video_looping": false,
         "manufacture_finland": "shopify:\/\/shop_images\/Finland.png",
-        "manufacture_finland_2": "shopify:\/\/shop_images\/avainlippu-sininen.png",
         "padding_top": 36,
         "padding_bottom": 12,
         "popup_title": "Yhteydenottolomake",
@@ -206,12 +175,10 @@
         "padding_bottom": 100,
         "image": "shopify:\/\/shop_images\/Rectangle_4_3.png",
         "main_text": "",
-        "text_kuvas": "Kuvaus",
+        "text_kuvas": "Kuvas",
         "text_lisatiedot": "Lisätiedot",
         "text_mitat": "PAKKAUKSEN MITAT",
-        "text_paino": "PAKKAUKSEN PAINO",
-        "text_ladattavat": "Ladattavat tiedostot",
-        "text_btn_download": "See more"
+        "text_paino": "PAKKAUKSEN PAINO"
       }
     },
     "8db35396-c85e-486d-aaf2-8eb8623b292a": {

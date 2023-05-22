@@ -23,6 +23,19 @@
   assign product_form_id = 'product-form-' | append: section.id
 -%}
 
+{% if product.metafields.custom.duplicat_product != blank %}
+  {%- assign default_values = '' -%}
+  {% for value in option.values %}
+    {%- assign default_values = default_values | append: value -%}
+    {% unless forloop.last %}
+      {%- assign default_values = default_values | append: ',' -%}
+    {% endunless %}
+  {% endfor %}
+{% endif %}
+
+
+
+
 {%- for value in option.values -%}
   {%- liquid
     assign option_disabled = true
@@ -78,3 +91,68 @@
     </option>
   {%- endif -%}
 {%- endfor -%}
+
+
+{% if product.metafields.custom.duplicat_product != blank %}
+  {% for item in product.metafields.custom.duplicat_product.value %}
+    {%- liquid
+      assign multivariants_available_arr = item.variants | map: 'available'
+      assign multivariants_option1_arr = item.variants | map: 'option1'
+      assign multivariants_option2_arr = item.variants | map: 'option2'
+      assign multivariants_option3_arr = item.variants | map: 'option3'
+    -%}
+    {% for multioption in item.options_with_values %}
+      {% if multioption.position == option.position %}
+        {% for multivalue in multioption.values %}
+          {%- liquid
+            assign multioption_disabled = true
+            for option1_name in multivariants_option1_arr
+              case option.position
+                when 1
+                  if multivariants_option1_arr[forloop.index0] == multivalue and multivariants_available_arr[forloop.index0]
+                    assign multioption_disabled = false
+                  endif
+                when 2
+                  if option1_name == item.selected_or_first_available_variant.option1 and multivariants_option2_arr[forloop.index0] == multivalue and multivariants_available_arr[forloop.index0]
+                    assign multioption_disabled = false
+                  endif
+                when 3
+                  if option1_name == item.selected_or_first_available_variant.option1 and multivariants_option2_arr[forloop.index0] == item.selected_or_first_available_variant.option2 and multivariants_option3_arr[forloop.index0] == multivalue and multivariants_available_arr[forloop.index0]
+                    assign multioption_disabled = false
+                  endif
+              endcase
+            endfor
+          -%}
+          {% unless default_values contains multivalue %}
+            {%- if block.settings.picker_type == 'button' -%}
+              <input
+                type="radio"
+                id="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}"
+                name="{{ option.name }}"
+                value="{{ multivalue | escape }}"
+                form="{{ product_form_id }}"
+                {% if multioption_disabled %}
+                  class="disabled"
+                {% endif %}
+              >
+              <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}">
+                {{ value -}}
+                <span class="visually-hidden">{{ 'products.product.variant_sold_out_or_unavailable' | t }}</span>
+              </label>
+            {%- elsif block.settings.picker_type == 'dropdown' -%}
+              <option
+                value="{{ multivalue | escape }}"
+              >
+                {% if multioption_disabled -%}
+                  {{- 'products.product.value_unavailable' | t: option_value: multivalue -}}
+                {%- else -%}
+                  {{- multivalue -}}
+                {%- endif %}
+              </option>
+            {%- endif -%}
+          {% endunless %}
+        {% endfor %}
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+{% endif %}

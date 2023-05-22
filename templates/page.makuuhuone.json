@@ -8,203 +8,247 @@
         "padding_bottom": 28
       }
     },
-    "a65a1687-c603-4667-9f0b-2523fdad5cb7": {
-      "type": "about-image-text",
+    "2de4b604-a275-45c5-919a-0668ac0b2cdb": {
+      "type": "image-banner",
+      "blocks": {
+        "template--15666920915044__2de4b604-a275-45c5-919a-0668ac0b2cdb-1684252064d794e204-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Makuuhuone",
+            "heading_size": "h1"
+          }
+        },
+        "template--15666920915044__2de4b604-a275-45c5-919a-0668ac0b2cdb-1684252064d794e204-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--15666920915044__2de4b604-a275-45c5-919a-0668ac0b2cdb-1684252064d794e204-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15666920915044__2de4b604-a275-45c5-919a-0668ac0b2cdb-1684252064d794e204-0",
+        "template--15666920915044__2de4b604-a275-45c5-919a-0668ac0b2cdb-1684252064d794e204-1",
+        "template--15666920915044__2de4b604-a275-45c5-919a-0668ac0b2cdb-1684252064d794e204-2"
+      ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/kampa2_710974a3-1885-4177-9d20-ec2753449cad.jpg",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "reverse": false,
-        "text_centered": true,
-        "title": "Kaikki sangyt",
-        "text": "",
-        "btn_text": "Kaikki sangyt",
-        "btn_url": "shopify:\/\/collections\/kaikki-sangyt"
+        "image": "shopify:\/\/shop_images\/7_0-produkt_boxspringbett_j5-continental_jensen.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "top-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     },
-    "2299cf72-cfbe-41cf-98aa-2dfd0c44a5e3": {
-      "type": "about-image-text",
+    "61308a27-1ea2-44d9-a9f2-79798a85f59e": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15666920915044__61308a27-1ea2-44d9-a9f2-79798a85f59e-1684252192b4e19411-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Parempien unien puolesta<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--15666920915044__61308a27-1ea2-44d9-a9f2-79798a85f59e-1684252192b4e19411-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>ISKUn valikoimasta löydät laajan valikoiman sänkyjä johtavilta nukkumisen asiantuntijoilta. Merkit Tempur, Jensen, Unigold ja Carpe Diem puhuvat puolestaan. Kaikista myymälöistämme löydät koulutetut uniergonomian asiantuntijat. <\/p><p>Verkkokaupassa jokainen sänky ja sen ominaisuudet ovat tarkoitusti kuvailtu ja lisäksi osasta löydät uniasiantutijamme videon, joka auttaa sängyn valinnassa. Hyviä unia toivottaen!<\/p>"
+          }
+        },
+        "template--15666920915044__61308a27-1ea2-44d9-a9f2-79798a85f59e-1684252192b4e19411-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15666920915044__61308a27-1ea2-44d9-a9f2-79798a85f59e-1684252192b4e19411-0",
+        "template--15666920915044__61308a27-1ea2-44d9-a9f2-79798a85f59e-1684252192b4e19411-1",
+        "template--15666920915044__61308a27-1ea2-44d9-a9f2-79798a85f59e-1684252192b4e19411-2"
+      ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/kampa2_710974a3-1885-4177-9d20-ec2753449cad.jpg",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "reverse": true,
-        "text_centered": true,
-        "title": "Jenkkisangyt",
-        "text": "",
-        "btn_text": "Jenkkisangyt",
-        "btn_url": "shopify:\/\/collections\/jenkkisangyt"
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
-    "83c09231-d0a9-4b22-8193-2b5b23768dc8": {
-      "type": "about-image-text",
+    "5e40d301-6651-47f2-b86b-6f7c61e1591d": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--15666920915044__5e40d301-6651-47f2-b86b-6f7c61e1591d-1684252586156a85ac-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/uudistunut-unigold-image_1.jpg",
+            "title": "Unigold",
+            "text": "<p>Unigold on Iskun laadukas ja laaja kotimainen sänkymallisto, josta löytyy sopiva ratkaisu erilaisiin nukkumisen tarpeisiin.<\/p>",
+            "link_label": "Unigold",
+            "link": "shopify:\/\/collections\/unigold"
+          }
+        },
+        "template--15666920915044__5e40d301-6651-47f2-b86b-6f7c61e1591d-1684252586156a85ac-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/tempur-flex-base-uusi.jpg",
+            "title": "Tempur",
+            "text": "<p>Laaja valikoima nukkumisen asiantuntijan Tempurin sänkyjä, patjoja ja tyynyjä. <\/p>",
+            "link_label": "Tempurin tuotteet",
+            "link": "shopify:\/\/collections\/tempur"
+          }
+        },
+        "template--15666920915044__5e40d301-6651-47f2-b86b-6f7c61e1591d-1684252586156a85ac-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Jensen_Bett_Diplomat_green_1.jpg",
+            "title": "Jensen",
+            "text": "<p>Vuodesta 1947 norjalainen Jensenin laadukkaat sängyt ovat taanneet parhaan unen. Patentoitu jousiratkaisu, jolla 25 v. takuu. <\/p>",
+            "link_label": "Jensenin sängyt",
+            "link": "shopify:\/\/collections\/jensen"
+          }
+        },
+        "9516141d-b374-43c7-ba9d-7865a5be6247": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/unigold-elegance-jenkkisanky-sp-paaty.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Jenkkisängyt",
+            "link": "shopify:\/\/collections\/jenkkisangyt"
+          }
+        },
+        "ed45d166-fab6-434e-8562-33ca9dca93b7": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/unigold-unelma-moottorisanky-lux-mokka.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Moottorisängyt",
+            "link": "shopify:\/\/collections\/moottorisangyt"
+          }
+        },
+        "e7ee30df-3f2a-46f0-9413-8bfb2dfc9b41": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/unigold-unelma-runko-parisanky-lux-latte.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Runkosängyt",
+            "link": "shopify:\/\/collections\/runkosangyt"
+          }
+        },
+        "91b31f50-e37d-4b46-ae3d-8105c54ee9af": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/tempur-patja-pro-plus-smartcool-medium_b919717f-a3c3-41a7-8278-e2ca3262e170.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Patjat",
+            "link": "shopify:\/\/collections\/patjat"
+          }
+        },
+        "75927527-2483-46f5-ab38-7b10a3d89d3d": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/tempur-ombracio-smartcool.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Tyynyt",
+            "link": "shopify:\/\/collections\/tyynyt"
+          }
+        },
+        "89dd05c2-50a8-4e2b-beb7-f2529325662a": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/latte-yopoyta-musta-etu.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Yöpöydät",
+            "link": "shopify:\/\/collections\/yopoydat"
+          }
+        },
+        "56a014e3-4ede-4baa-99cf-944bf7b85b0f": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/unigold-sl1-peite-150x200cm.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Peitot",
+            "link": "shopify:\/\/collections\/peitot"
+          }
+        },
+        "fdc366c3-02d7-46e2-8363-a405ebbed5bb": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/carpe-diem-premium-petauspatja.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Petauspatjat",
+            "link": "shopify:\/\/collections\/petaus-ja-sijauspatjat"
+          }
+        }
+      },
+      "block_order": [
+        "template--15666920915044__5e40d301-6651-47f2-b86b-6f7c61e1591d-1684252586156a85ac-2",
+        "template--15666920915044__5e40d301-6651-47f2-b86b-6f7c61e1591d-1684252586156a85ac-0",
+        "template--15666920915044__5e40d301-6651-47f2-b86b-6f7c61e1591d-1684252586156a85ac-1",
+        "9516141d-b374-43c7-ba9d-7865a5be6247",
+        "ed45d166-fab6-434e-8562-33ca9dca93b7",
+        "e7ee30df-3f2a-46f0-9413-8bfb2dfc9b41",
+        "91b31f50-e37d-4b46-ae3d-8105c54ee9af",
+        "75927527-2483-46f5-ab38-7b10a3d89d3d",
+        "89dd05c2-50a8-4e2b-beb7-f2529325662a",
+        "56a014e3-4ede-4baa-99cf-944bf7b85b0f",
+        "fdc366c3-02d7-46e2-8363-a405ebbed5bb"
+      ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/kampa2_710974a3-1885-4177-9d20-ec2753449cad.jpg",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "reverse": false,
-        "text_centered": true,
-        "title": "Moottorisangyt",
-        "text": "",
-        "btn_text": "Moottorisangyt",
-        "btn_url": "shopify:\/\/collections\/moottorisangyt"
-      }
-    },
-    "beee39c4-0851-45c2-b15d-dc6f90046534": {
-      "type": "about-image-text",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/kampa2_710974a3-1885-4177-9d20-ec2753449cad.jpg",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "reverse": true,
-        "text_centered": true,
-        "title": "Runkosangyt",
-        "text": "",
-        "btn_text": "Runkosangyt",
-        "btn_url": "shopify:\/\/collections\/runkosangyt"
-      }
-    },
-    "96329102-33a5-4013-af01-c3d8f85e6c73": {
-      "type": "about-image-text",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/kampa2_710974a3-1885-4177-9d20-ec2753449cad.jpg",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "reverse": false,
-        "text_centered": true,
-        "title": "Patjat",
-        "text": "",
-        "btn_text": "Patjat",
-        "btn_url": "shopify:\/\/collections\/patjat"
-      }
-    },
-    "51e7c3ce-b54b-402b-bf8b-0298495725dd": {
-      "type": "about-image-text",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/kampa2_710974a3-1885-4177-9d20-ec2753449cad.jpg",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "reverse": true,
-        "text_centered": true,
-        "title": "Tempur",
-        "text": "",
-        "btn_text": "Tempur",
-        "btn_url": "shopify:\/\/collections\/tempur"
-      }
-    },
-    "6d1af726-257c-47c8-bcc6-b7ac6337ea54": {
-      "type": "about-image-text",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/kampa2_710974a3-1885-4177-9d20-ec2753449cad.jpg",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "reverse": false,
-        "text_centered": true,
-        "title": "Runkopatjat",
-        "text": "",
-        "btn_text": "Runkopatjat",
-        "btn_url": "shopify:\/\/collections\/runkopatjat"
-      }
-    },
-    "c3f9b77a-40ba-4700-88c4-e37df4fa2e29": {
-      "type": "about-image-text",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/kampa2_710974a3-1885-4177-9d20-ec2753449cad.jpg",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "reverse": true,
-        "text_centered": true,
-        "title": "Joustinpatjat",
-        "text": "",
-        "btn_text": "Joustinpatjat",
-        "btn_url": "shopify:\/\/collections\/joustinpatjat"
-      }
-    },
-    "afeb53f8-8693-4211-95a6-fb97d4b7e4b4": {
-      "type": "about-image-text",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/kampa2_710974a3-1885-4177-9d20-ec2753449cad.jpg",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "reverse": false,
-        "text_centered": true,
-        "title": "Vaahtomuovipatjat",
-        "text": "",
-        "btn_text": "Vaahtomuovipatjat",
-        "btn_url": "shopify:\/\/collections\/joustinpatjat"
-      }
-    },
-    "3d70f830-60c5-4d3d-afee-16af11af7b96": {
-      "type": "about-image-text",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/kampa2_710974a3-1885-4177-9d20-ec2753449cad.jpg",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "reverse": true,
-        "text_centered": true,
-        "title": "Peitot",
-        "text": "",
-        "btn_text": "Peitot",
-        "btn_url": "shopify:\/\/collections\/peitot"
-      }
-    },
-    "63988179-8dc1-4dc5-8f78-934e92c19e12": {
-      "type": "about-image-text",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/kampa2_710974a3-1885-4177-9d20-ec2753449cad.jpg",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "reverse": false,
-        "text_centered": true,
-        "title": "Tyynyt",
-        "text": "",
-        "btn_text": "Tyynyt",
-        "btn_url": "shopify:\/\/collections\/tyynyt"
-      }
-    },
-    "c2d41511-f51d-4dee-9283-9c6470f61277": {
-      "type": "about-image-text",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/kampa2_710974a3-1885-4177-9d20-ec2753449cad.jpg",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "reverse": true,
-        "text_centered": true,
-        "title": "Paivapeitot",
-        "text": "",
-        "btn_text": "Paivapeitot",
-        "btn_url": "shopify:\/\/collections\/paivapeitot"
-      }
-    },
-    "7d0ba12a-706b-4ec3-838c-6e4ba262b4ae": {
-      "type": "about-image-text",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/kampa2_710974a3-1885-4177-9d20-ec2753449cad.jpg",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "reverse": false,
-        "text_centered": true,
-        "title": "Yopoydat",
-        "text": "",
-        "btn_text": "Yopoydat",
-        "btn_url": "shopify:\/\/collections\/yopoydat"
+        "title": "Nukkumisen merkit ja tuotteet",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
   "order": [
     "main",
-    "a65a1687-c603-4667-9f0b-2523fdad5cb7",
-    "2299cf72-cfbe-41cf-98aa-2dfd0c44a5e3",
-    "83c09231-d0a9-4b22-8193-2b5b23768dc8",
-    "beee39c4-0851-45c2-b15d-dc6f90046534",
-    "96329102-33a5-4013-af01-c3d8f85e6c73",
-    "51e7c3ce-b54b-402b-bf8b-0298495725dd",
-    "6d1af726-257c-47c8-bcc6-b7ac6337ea54",
-    "c3f9b77a-40ba-4700-88c4-e37df4fa2e29",
-    "afeb53f8-8693-4211-95a6-fb97d4b7e4b4",
-    "3d70f830-60c5-4d3d-afee-16af11af7b96",
-    "63988179-8dc1-4dc5-8f78-934e92c19e12",
-    "c2d41511-f51d-4dee-9283-9c6470f61277",
-    "7d0ba12a-706b-4ec3-838c-6e4ba262b4ae"
+    "2de4b604-a275-45c5-919a-0668ac0b2cdb",
+    "61308a27-1ea2-44d9-a9f2-79798a85f59e",
+    "5e40d301-6651-47f2-b86b-6f7c61e1591d"
   ]
 }

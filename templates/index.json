@@ -6,17 +6,18 @@
         "c2d11906-9a42-4ce1-b13b-37495790ff47": {
           "type": "slider",
           "settings": {
-            "title": "Comfort and Style |That Will Transform Your Home",
-            "content": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat |duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
-            "button": "LEARN MORE",
-            "button_url": "shopify:\/\/pages\/a-lifetime-with-isku",
-            "button_style": "secondary-btn",
-            "image": "shopify:\/\/shop_images\/Rectangle_4_3.png",
-            "image_mobile": "shopify:\/\/shop_images\/Rectangle_4_4.png"
+            "title": "Kaikki tuotteet -20% | Löytöjä jopa -40%",
+            "content": "",
+            "button": "Kaikki tuotteet",
+            "button_url": "shopify:\/\/collections\/all",
+            "button_style": "primary-btn",
+            "image": "shopify:\/\/shop_images\/Puutarhakalusteet_030621_098-1-min-scaled-min_1.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/Brafab_miljoo_Sandkorn_Varm_Amarante_Kotte_Como.jpg"
           }
         },
         "d2162bde-2b0e-4d0e-b3c0-f7a519aeeee0": {
           "type": "slider",
+          "disabled": true,
           "settings": {
             "title": "Comfort and Style |That Will Transform Your Home",
             "content": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat |duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
@@ -44,49 +45,43 @@
         "8b05ba39-d983-40db-ac4c-882a3a69563b": {
           "type": "collection",
           "settings": {
-            "collection": "chairs",
-            "title": "",
-            "url": ""
+            "collection": "puutarhakalusteet",
+            "title": "Puutarhakalusteet",
+            "image": "shopify:\/\/shop_images\/Brafab_miljoo_Sandkorn_Varm_Amarante_Kotte_Como.jpg",
+            "url": "shopify:\/\/collections\/puutarhakalusteet"
           }
         },
         "ee352da1-a486-46f2-a12c-eecba3c97aa5": {
           "type": "collection",
           "settings": {
-            "collection": "demo-collection",
-            "title": "",
-            "url": ""
+            "collection": "sohvat",
+            "title": "Sohvat",
+            "url": "shopify:\/\/collections\/sohvat"
           }
         },
         "86567cf2-a6da-49cc-a945-2b62e1e14e32": {
           "type": "collection",
           "settings": {
-            "collection": "matot",
-            "title": "",
-            "url": ""
+            "collection": "kaikki-sangyt",
+            "title": "Sängyt",
+            "url": "shopify:\/\/collections\/kaikki-sangyt"
           }
         },
         "db396ac4-bfa5-4f8b-8d76-2680e46fbdec": {
           "type": "collection",
           "settings": {
-            "collection": "matot",
-            "title": "",
-            "url": ""
-          }
-        },
-        "2a85f196-8f87-4b3d-b9bf-e9c4c60640d0": {
-          "type": "collection",
-          "settings": {
-            "collection": "chairs",
-            "title": "",
-            "url": ""
+            "collection": "ruokailuryhmat",
+            "title": "Ruokailuryhmät",
+            "url": "shopify:\/\/collections\/ruokailuryhmat"
           }
         },
         "a778f8ef-e09b-4440-805d-cf2009c6cad5": {
           "type": "collection",
           "settings": {
-            "collection": "demo-collection",
-            "title": "",
-            "url": ""
+            "collection": "etatyokalusteet",
+            "title": "Etätyökalusteet",
+            "image": "shopify:\/\/shop_images\/kotitoimisto-bw-rise.webp",
+            "url": "shopify:\/\/collections\/etatyokalusteet"
           }
         }
       },
@@ -95,7 +90,6 @@
         "ee352da1-a486-46f2-a12c-eecba3c97aa5",
         "86567cf2-a6da-49cc-a945-2b62e1e14e32",
         "db396ac4-bfa5-4f8b-8d76-2680e46fbdec",
-        "2a85f196-8f87-4b3d-b9bf-e9c4c60640d0",
         "a778f8ef-e09b-4440-805d-cf2009c6cad5"
       ],
       "settings": {
@@ -130,10 +124,10 @@
     "a62c2669-6545-452b-8c54-de617831aae4": {
       "type": "hero-banner-secondary",
       "settings": {
-        "image": "shopify:\/\/shop_images\/homepage2.jpg",
-        "title": "ISKUssa On Nyt Univiikot!",
-        "btn_text": "ETUIHIN TÄSTÄ",
-        "btn_url": "shopify:\/\/pages\/project-sales",
+        "image": "shopify:\/\/shop_images\/isku-lilly-3h-oasis-vaalea-miljoo-lahi.jpg",
+        "title": "Ihastuttava uutuus Lilly",
+        "btn_text": "Tutustu lillyyn",
+        "btn_url": "shopify:\/\/products\/isku-lilly-3h-sohva-245-cm",
         "padding_top": 50,
         "padding_bottom": 50,
         "content_position": "top-left",
@@ -196,13 +190,13 @@
         "text_align": "left",
         "image_position": "right",
         "image_position_mobile": "top",
-        "image": "shopify:\/\/shop_images\/minimal-picture-frame-with-scandinavian-design_1-1.jpg",
-        "title": "Laadukkaan Unen Salaisuus",
+        "image": "shopify:\/\/shop_images\/tempur-flex-base-uusi.jpg",
+        "title": "Uudet Tempur sängyt",
         "small": false,
-        "text": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
+        "text": "Löydät nyt upouudet Tempur-mallimme kaikista ISKUn myymälöistä kautta maan. Lisäksi uusi Tempur Flexible Base on loistavassa tarjouksessa myymälöissä sekä verkkokaupassa. Tule tutustumaan lähimpään myymälääsi ja pääset testaamaan ne ensimmäisenä Suomessa! Tutustu uutuussänkyyn alta.",
         "button_style": "secondary",
-        "btn_text": "Varaa aika",
-        "btn_url": "shopify:\/\/pages\/contact",
+        "btn_text": "TUTUSTU FLEXIBLEEN",
+        "btn_url": "shopify:\/\/products\/tempur-flexible-base-sanky-160x200-cm-pro-smartcool-patjat-80x200x21-cm",
         "padding_top": 50,
         "padding_bottom": 50,
         "full_width": true,
@@ -265,7 +259,7 @@
         "image": "shopify:\/\/shop_images\/homepage1.jpg",
         "title": "ISKUn Kotimaiset Sohvat",
         "btn_text": "LUE LISÄÄ TÄSTÄ",
-        "btn_url": "shopify:\/\/blogs\/referenssit",
+        "btn_url": "shopify:\/\/pages\/iskun-kotimaiset-sohvat-1",
         "padding_top": 50,
         "padding_bottom": 50,
         "content_position": "center-left",
@@ -276,19 +270,20 @@
     "3d45458a-fc10-48c0-80b4-70414810b48e": {
       "type": "about-image-text",
       "settings": {
-        "image": "shopify:\/\/shop_images\/homepage4.jpg",
+        "image": "shopify:\/\/shop_images\/Rex_kuvake.jpg",
         "padding_top": 50,
         "padding_bottom": 50,
         "reverse": false,
         "text_centered": false,
         "title": "Interfacen uusi mallisto nyt kaikista ISKUn myymälöistä!",
-        "text": "<p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.  Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Velit officia consequat duis enim velit mollit. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. <\/p><p>Exercitation veniam consequat sunt nostrud amet. Exercitatio n veniam consequat sunt nostrud amet.Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.<\/p>",
-        "btn_text": "LUE LISÄÄ TÄSTÄ",
-        "btn_url": "shopify:\/\/blogs\/inspiration\/syksyn-2021-trendit"
+        "text": "<p>Interface on vuodesta 1963 valmistanut olohuoneen kalusteita Suomessa. Brändin huonekalut tunnetaan korkeasta laadusta, skandinaavisesta muotoilusta sekä ylivoimaisesta mukavuudestaan. Interfacen tuotteet ovat osoitus suomalaisesta käsityötaidosta – kaikki Interface-tuotteet valmistetaan käsityönä Heinolassa.<\/p><p>Sisustusalan tunnetut brändit Interface ja ISKU ovat kuin luodut toisilleen, heitä yhdistävät molemmille keskeisen tärkeät arvot: kotimaisuus, laatu ja vastuullisuus. Se on skandinaavisen ajaton, varman osaamisen taidonnäyte.<\/p>",
+        "btn_text": "Tutustu interfaceen",
+        "btn_url": "shopify:\/\/collections\/interface"
       }
     },
     "b9432f4d-03b8-46a9-af6c-e2e8cbe547e1": {
       "type": "hero-banner-secondary",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/homepage3.jpg",
         "title": "Trendikäs Uutuus Tuoli 53 On Täällä!",
@@ -308,9 +303,9 @@
         "image_position": "right",
         "image_position_mobile": "bottom",
         "image": "shopify:\/\/shop_images\/Rectangle_42_84085027-b1f5-478b-b8a0-5497189359e4.jpg",
-        "title": "Title",
+        "title": "ISKU - mukana elämäsi seikkailuissa",
         "small": true,
-        "text": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.  Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Velit officia consequat duis enim velit mollit. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.Exercitation veniam consequat sunt nostrud amet. \n|\nExercitatio n veniam consequat sunt nostrud amet.Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+        "text": "Teemme suomalaisten arjesta viihtyisämpää ja toimivampaa. Suunnittelemme, valmistamme ja myymme huonekaluja. Toimitamme sisustusratkaisuja koteihin ja julkisiin tiloihin, kuten kouluihin, toimistoihin ja terveydenhuoltoon. Lisäksi tarjoamme näihin liittyviä palveluita, kuten suunnittelu- ja kierrätyspalveluita. |\n\nValmistamme kalusteemme Suomessa, mutta toimitamme niitä ympäri maailman - toimimme tällä hetkellä 16 eri maassa.",
         "button_style": "secondary",
         "btn_text": "Lue lisää",
         "btn_url": "shopify:\/\/pages\/a-lifetime-with-isku",
@@ -338,6 +333,7 @@
     },
     "feb9c2fd-6386-484f-903f-7acd018a6e98": {
       "type": "blog-preview",
+      "disabled": true,
       "settings": {
         "blog": "kampanjat",
         "title": "Blog",
@@ -349,12 +345,74 @@
     },
     "c8acecc1-e53e-43a2-9708-51112c7d2ff1": {
       "type": "home-page-subscribe",
+      "disabled": true,
       "settings": {
         "padding_top": 50,
         "padding_bottom": 0,
         "title": "<p>Tilaa uutiskirje, saat 15% alekoodin.<\/p>",
         "text": "Uutiskirjeistämme saat inspiraatiota sisustukseen, sekä tiedät ensimmäisenä kampanjoistamme ja tarjouksistamme.",
-        "btn_text": "Tilaa"
+        "btn_text": "Tilaa uutiskirje"
+      }
+    },
+    "8552a01e-70d9-4704-bd5c-ea9f9440e455": {
+      "type": "hero-banner-half",
+      "settings": {
+        "text_align": "left",
+        "image_position": "left",
+        "image_position_mobile": "top",
+        "image": "shopify:\/\/shop_images\/Nimet__n_suunn.malli_-_2022-04-13T131928.608_1.jpg",
+        "title": "5 syytä valita kotimainen ja vastuullinen vaihtoehto",
+        "small": true,
+        "text": "Kotimaisuuden ja vastuullisuuden merkitys ja arvostus on viime vuosien aikana kasvanut merkittävästi. Kun maailma sulkeutui, tuntui monesta erikoiselta, että kotiin tai töihin hankitut kalusteet matkustavat enemmän kuin itse sai matkustaa. Kotimaassa vastuullisesti valmistetut kalusteet matkustavat vähän ja puhtaasti luoksesi ja kuormittavat näin luontoa vähemmän. Panostamalla kotimaisuuteen ja kotimaiseen tuotteeseen tuet samalla kotimaista työtä. Kotimainen tuote on usein myös laadukas ja säilyttää hyvin arvonsa. Lue 5 syytä miksi kotimaisella ja vastuullisella valmistuksella todella on merkitystä.",
+        "button_style": "primary",
+        "btn_text": "LUE LISÄÄ TÄSTÄ",
+        "btn_url": "shopify:\/\/pages\/5-syyta-panostaa-kotimaisuuteen-ja-vastuullisuuteen",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "full_width": true,
+        "bg_color": "#0f4880",
+        "text_color": "#ffffff"
+      }
+    },
+    "72599099-35e9-4513-bd8c-5323b6f189e2": {
+      "type": "hero-banner-half",
+      "settings": {
+        "text_align": "left",
+        "image_position": "left",
+        "image_position_mobile": "top",
+        "image": "shopify:\/\/shop_images\/orient_occident_aquaclean_referenssi_nelio_7.jpg__1350.0x1350.0_q85_subsampling-2.jpg",
+        "title": "Helposti puhdistettava AquaClean-huonekalukangas",
+        "small": true,
+        "text": "ISKU Lahden sisustusmyyjämme ja -arkkitehti Mirella Virtanen kertoo, että oikein valitulla verhoilukankaalla on sohvahankinnan onnistumisessa äärimmäisen tärkeä merkitys – monessakin eri mielessä. Ensimmäisenä listalla ovat huonekalun käyttöiän pituus ja sen säilyminen ilona silmälle. Lue lisää artikkelista, että kuinka voit pidentää sohvasi käyttöikää merkittävästi.",
+        "button_style": "primary",
+        "btn_text": "LUE LISÄÄ",
+        "btn_url": "shopify:\/\/pages\/aquaclean-huonekalukangas",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "full_width": true,
+        "bg_color": "#0f4880",
+        "text_color": "#ffffff"
+      }
+    },
+    "3abcb0f4-2f21-4c2c-8a03-e4c026e3c75c": {
+      "type": "hero-banner-half",
+      "disabled": true,
+      "settings": {
+        "text_align": "left",
+        "image_position": "left",
+        "image_position_mobile": "top",
+        "image": "shopify:\/\/shop_images\/Nimet__n_suunn.malli_-_2022-04-13T084625.710_1_1.jpg",
+        "title": "Laadukkaan unen salaisuus",
+        "small": true,
+        "text": "Arvosta untasi! Oikeanlainen ja juuri sinulle sopiva sänky on paras perusta hyvälle unelle. Vääränkokoinen tyyny häiritsee untasi ja voi aiheuttaa niska ja hartiakipuja. \n\nEpäsopiva patja puolestaan saattaa pahentaa selkäoireita ja vaikeuttaa nukkumistasi. Iskun Unigold-sänkymalliston patjoilla ja sijauspatjoilla on Allergia-, Iho- ja Astmaliiton myöntämä Allergiatunnus®\n| \nIskun koulutetuilta nukkumisergonomian asiantuntijoilta saat parhaat vinkit laadukkaaseen nukkumiseen. Piipahda lähimmässä myymälässä tai varaa aika!",
+        "button_style": "primary",
+        "btn_text": "VARAA AIKA UNIASIANTUNTIJALLE",
+        "btn_url": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "full_width": true,
+        "bg_color": "#0f4880",
+        "text_color": "#ffffff"
       }
     }
   },
@@ -372,6 +430,9 @@
     "99b95b1a-5e12-46bc-8d88-c0a756a10df4",
     "273fe876-ab7b-4aad-8dec-4cf8c8f92d7c",
     "feb9c2fd-6386-484f-903f-7acd018a6e98",
-    "c8acecc1-e53e-43a2-9708-51112c7d2ff1"
+    "c8acecc1-e53e-43a2-9708-51112c7d2ff1",
+    "8552a01e-70d9-4704-bd5c-ea9f9440e455",
+    "72599099-35e9-4513-bd8c-5323b6f189e2",
+    "3abcb0f4-2f21-4c2c-8a03-e4c026e3c75c"
   ]
 }

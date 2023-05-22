@@ -8,308 +8,324 @@
         "padding_bottom": 28
       }
     },
-    "e52ac009-f21e-4644-8d5b-5871fd6214ca": {
-      "type": "about-image-text",
+    "9ad368f3-97bb-4c42-b959-36f26be299c1": {
+      "type": "image-banner",
+      "blocks": {
+        "template--15666921111652__9ad368f3-97bb-4c42-b959-36f26be299c1-1684252064d794e204-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Kaikki kalusteet olohuoneeseen",
+            "heading_size": "h1"
+          }
+        },
+        "template--15666921111652__9ad368f3-97bb-4c42-b959-36f26be299c1-1684252064d794e204-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--15666921111652__9ad368f3-97bb-4c42-b959-36f26be299c1-1684252064d794e204-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15666921111652__9ad368f3-97bb-4c42-b959-36f26be299c1-1684252064d794e204-0",
+        "template--15666921111652__9ad368f3-97bb-4c42-b959-36f26be299c1-1684252064d794e204-1",
+        "template--15666921111652__9ad368f3-97bb-4c42-b959-36f26be299c1-1684252064d794e204-2"
+      ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/kampa2.jpg",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "reverse": false,
-        "text_centered": true,
-        "title": "Sohvat",
-        "text": "",
-        "btn_text": "Sohvat",
-        "btn_url": "shopify:\/\/collections\/sohvat"
+        "image": "shopify:\/\/shop_images\/1000x658_Monkey_8035d919-8884-44cf-93a4-c1ef2bbebc37.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "top-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     },
-    "03ee385f-7007-4b61-a651-14e2a047e155": {
-      "type": "about-image-text",
+    "b9e500c8-adb3-4132-94a2-9a22956ef3df": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15666921111652__b9e500c8-adb3-4132-94a2-9a22956ef3df-1684252192b4e19411-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Olohuone on kotisi sydän<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--15666921111652__b9e500c8-adb3-4132-94a2-9a22956ef3df-1684252192b4e19411-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Tervetuloa tekemään kestäviä hankintoja olohuoneeseesi. Tarjoamme laajan valikoiman olohuoneen kalusteita - sohvat, nojatuolit, sohvapöydät, valaisimet ja matot. Huonekalumme ovat paitsi tyylikkäitä ja mukavia, myös valmistettu palvelemaan sinua niin arjessa kuin juhlassakin. <\/p><p>Löydät varmasti juuri sinun makuusi sopivat huonekalut monipuolisesta valikoimastamme. Tutustu tuotteisiimme ja luo unelmiesi olohuone. Muista, että kotisi kertoo tarinaa - meidän tehtävämme on auttaa sinua kirjoittamaan se.<\/p>"
+          }
+        },
+        "template--15666921111652__b9e500c8-adb3-4132-94a2-9a22956ef3df-1684252192b4e19411-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15666921111652__b9e500c8-adb3-4132-94a2-9a22956ef3df-1684252192b4e19411-0",
+        "template--15666921111652__b9e500c8-adb3-4132-94a2-9a22956ef3df-1684252192b4e19411-1",
+        "template--15666921111652__b9e500c8-adb3-4132-94a2-9a22956ef3df-1684252192b4e19411-2"
+      ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/kampa2.jpg",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "reverse": true,
-        "text_centered": true,
-        "title": "Kulmasohvat",
-        "text": "",
-        "btn_text": "Kulmasohvat",
-        "btn_url": "shopify:\/\/collections\/kulmasohvat"
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
-    "62c1852c-8802-49a8-a524-403f32a1b76d": {
-      "type": "about-image-text",
+    "feed3c0b-9956-4f00-b4e6-8581a11f296e": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--15666921111652__feed3c0b-9956-4f00-b4e6-8581a11f296e-1684252586156a85ac-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Monkey-2h-1_8b59a668-e72a-4063-8202-2a241cd76fb9.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Kahden hengen sohvat",
+            "link": "shopify:\/\/collections\/kahden-istuttavat-sohvat"
+          }
+        },
+        "template--15666921111652__feed3c0b-9956-4f00-b4e6-8581a11f296e-1684252586156a85ac-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/maestro-3h-miljoo2-1.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Kolmen hengen sohvat",
+            "link": "shopify:\/\/collections\/kolmen-istuttavat-sohvat"
+          }
+        },
+        "template--15666921111652__feed3c0b-9956-4f00-b4e6-8581a11f296e-1684252586156a85ac-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Curve_kulma_1000x658_ef891408-4b08-46c6-899e-c5bff9722d41.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Kulmasohvat",
+            "link": "shopify:\/\/collections\/kulmasohvat"
+          }
+        },
+        "7aff23eb-f842-4d9d-bbb4-620b402e606a": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Como_vuodesohva210_taustalla_1700x804_13b3ef47-1b12-4672-b826-20aadb9740d1_1.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Vuodesohvat",
+            "link": "shopify:\/\/collections\/vuodesohvat"
+          }
+        },
+        "2734f5ed-1d33-47ad-9437-2929f1335d21": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/time-divaanisohva-miljoo.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Divaanisohvat",
+            "link": "shopify:\/\/collections\/divaanisohvat"
+          }
+        },
+        "d00a6264-5588-4f3a-b9c4-460b3f2ef815": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Solt-nojatuoli_1.png",
+            "title": "",
+            "text": "",
+            "link_label": "Nojatuolit",
+            "link": "shopify:\/\/collections\/nojatuolit"
+          }
+        },
+        "e46c8c56-b08f-4edc-958b-fa4cf0cb95d2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/conform-beyoung-nojatuoli-fantasy-alu.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Tv-tuolit",
+            "link": "shopify:\/\/collections\/tv-tuolit"
+          }
+        },
+        "06982b76-d1aa-4c4f-96bb-88234bbb2664": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hetki-rahi-tammi-gwp.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Rahit",
+            "link": "shopify:\/\/collections\/rahit"
+          }
+        },
+        "7650a5a1-3d1c-46bb-9944-c9dba9c9a0b9": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/finarte-origami-matto-sininen.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Olohuoneen matot",
+            "link": "shopify:\/\/collections\/olohuoneen-matot"
+          }
+        },
+        "1882f264-a609-4991-995b-058b9ace01cc": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/dakota-hylly.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Hyllyt",
+            "link": "shopify:\/\/collections\/hyllyt"
+          }
+        },
+        "39814cc9-3563-4215-b951-9a5d4daa2b88": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/orion-senkki-81-1o-3ltk-tammi.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Senkit",
+            "link": "shopify:\/\/collections\/lipastot-ja-senkit"
+          }
+        },
+        "8bc1d853-dcbe-4b9e-8396-bd26f6651dd9": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/linja-vitriini-90cm-2lasiovea-puuovea-ja-laatikkoa.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Vitriinit",
+            "link": "shopify:\/\/collections\/vitriinit"
+          }
+        },
+        "363cbfc5-c7d1-429d-b2af-85ebb2bff417": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/latte-tv-taso-musta-miljoo.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Tv-tasot",
+            "link": "shopify:\/\/collections\/tv-tasot"
+          }
+        },
+        "8c36c573-e5ba-47cf-8a6e-88699b5258dc": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/aarni_poyta.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Pöydät",
+            "link": "shopify:\/\/collections\/olohuoneen-poydat"
+          }
+        },
+        "fc1e3818-46d7-42e4-b74c-f92c90c2279a": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/air-sivupoyta-hyllylla.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Sivupöydät",
+            "link": "shopify:\/\/collections\/sivupoydat"
+          }
+        },
+        "7dc92542-6fa0-4aa6-8c5a-1af1bcfa15db": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/latte-sohvapoyta-musta-etu.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Sohvapöydät",
+            "link": "shopify:\/\/collections\/sohvapoydat"
+          }
+        },
+        "d30cd9dd-0ffc-47ad-ac77-f00926422caa": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/riimu-koristetyyny-musta-hapsut-50x50.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Sohvatyynyt",
+            "link": "shopify:\/\/collections\/sohvatyynyt"
+          }
+        },
+        "d7c6e665-3256-4862-a814-7ce0dcd2d7ac": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/finarte-vare-viltti2.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Viltit",
+            "link": "shopify:\/\/collections\/viltit-ja-sohvapeitot"
+          }
+        }
+      },
+      "block_order": [
+        "template--15666921111652__feed3c0b-9956-4f00-b4e6-8581a11f296e-1684252586156a85ac-0",
+        "template--15666921111652__feed3c0b-9956-4f00-b4e6-8581a11f296e-1684252586156a85ac-1",
+        "template--15666921111652__feed3c0b-9956-4f00-b4e6-8581a11f296e-1684252586156a85ac-2",
+        "7aff23eb-f842-4d9d-bbb4-620b402e606a",
+        "2734f5ed-1d33-47ad-9437-2929f1335d21",
+        "d00a6264-5588-4f3a-b9c4-460b3f2ef815",
+        "e46c8c56-b08f-4edc-958b-fa4cf0cb95d2",
+        "06982b76-d1aa-4c4f-96bb-88234bbb2664",
+        "7650a5a1-3d1c-46bb-9944-c9dba9c9a0b9",
+        "1882f264-a609-4991-995b-058b9ace01cc",
+        "39814cc9-3563-4215-b951-9a5d4daa2b88",
+        "8bc1d853-dcbe-4b9e-8396-bd26f6651dd9",
+        "363cbfc5-c7d1-429d-b2af-85ebb2bff417",
+        "8c36c573-e5ba-47cf-8a6e-88699b5258dc",
+        "fc1e3818-46d7-42e4-b74c-f92c90c2279a",
+        "7dc92542-6fa0-4aa6-8c5a-1af1bcfa15db",
+        "d30cd9dd-0ffc-47ad-ac77-f00926422caa",
+        "d7c6e665-3256-4862-a814-7ce0dcd2d7ac"
+      ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/kampa2.jpg",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "reverse": false,
-        "text_centered": true,
-        "title": "Vuodesohvat",
-        "text": "",
-        "btn_text": "Vuodesohvat",
-        "btn_url": "shopify:\/\/collections\/vuodesohvat"
-      }
-    },
-    "ec10c27f-d631-42be-9f58-71a512459d0d": {
-      "type": "about-image-text",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/kampa2.jpg",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "reverse": true,
-        "text_centered": true,
-        "title": "Kahden istuttavat sohvat",
-        "text": "",
-        "btn_text": "Kahden stuttavat sohvat",
-        "btn_url": "shopify:\/\/collections\/kahden-istuttavat-sohvat"
-      }
-    },
-    "75b7831a-fe63-43c9-acd9-00605db9cdc1": {
-      "type": "about-image-text",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/kampa2.jpg",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "reverse": false,
-        "text_centered": true,
-        "title": "Kolmen istuttavat sohvat",
-        "text": "",
-        "btn_text": "Kolmen istuttavat sohvat",
-        "btn_url": "shopify:\/\/collections\/kolmen-istuttavat-sohvat"
-      }
-    },
-    "97112293-6df2-4632-9231-159bb427eb3f": {
-      "type": "about-image-text",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/kampa2.jpg",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "reverse": true,
-        "text_centered": true,
-        "title": "Divaanisohvat",
-        "text": "",
-        "btn_text": "Divaanisohvat",
-        "btn_url": "shopify:\/\/collections\/divaanisohvat"
-      }
-    },
-    "689921de-0a5e-4cea-b053-c75a027c014e": {
-      "type": "about-image-text",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/kampa2.jpg",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "reverse": false,
-        "text_centered": true,
-        "title": "Nojatuolit",
-        "text": "",
-        "btn_text": "Nojatuolit",
-        "btn_url": "shopify:\/\/collections\/nojatuolit"
-      }
-    },
-    "04ea1db6-f3f6-4797-9905-1321fbce40fe": {
-      "type": "about-image-text",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/kampa2.jpg",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "reverse": true,
-        "text_centered": true,
-        "title": "Tv-tuolit",
-        "text": "",
-        "btn_text": "Tv-tuolit",
-        "btn_url": "shopify:\/\/collections\/tv-tuolit"
-      }
-    },
-    "270ab66d-80b7-4b46-be0d-7d273fd84c5c": {
-      "type": "about-image-text",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/kampa2.jpg",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "reverse": false,
-        "text_centered": true,
-        "title": "Rahit",
-        "text": "",
-        "btn_text": "Rahit",
-        "btn_url": "shopify:\/\/collections\/rahit"
-      }
-    },
-    "e88c5357-47fc-408a-ac0e-f1b59a621b64": {
-      "type": "about-image-text",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/kampa2.jpg",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "reverse": true,
-        "text_centered": true,
-        "title": "Olohuoneen-matot",
-        "text": "",
-        "btn_text": "Olohuoneen-matot",
-        "btn_url": "shopify:\/\/collections\/olohuoneen-matot"
-      }
-    },
-    "2f54db6b-54e1-4391-97e3-8fa037281808": {
-      "type": "about-image-text",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/kampa2.jpg",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "reverse": false,
-        "text_centered": true,
-        "title": "Hyllyt",
-        "text": "",
-        "btn_text": "Hyllyt",
-        "btn_url": "shopify:\/\/collections\/hyllyt"
-      }
-    },
-    "7cc46c1c-c59b-4327-881c-827580dd0147": {
-      "type": "about-image-text",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/kampa2.jpg",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "reverse": false,
-        "text_centered": false,
-        "title": "Lipastot ja senkit",
-        "text": "",
-        "btn_text": "Lipastot ja senkit",
-        "btn_url": "shopify:\/\/collections\/lipastot-ja-senkit"
-      }
-    },
-    "e6f98c49-a361-4127-b105-921af9e4aaf4": {
-      "type": "about-image-text",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/kampa2.jpg",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "reverse": true,
-        "text_centered": true,
-        "title": "Vitriinit",
-        "text": "",
-        "btn_text": "Vitriinit",
-        "btn_url": "shopify:\/\/collections\/vitriinit"
-      }
-    },
-    "a9104853-a903-4a73-8f2d-b0733068bb12": {
-      "type": "about-image-text",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/kampa2.jpg",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "reverse": false,
-        "text_centered": true,
-        "title": "Tv-tasot",
-        "text": "",
-        "btn_text": "Tv-tasot",
-        "btn_url": "shopify:\/\/collections\/tv-tasot"
-      }
-    },
-    "b297538b-97c6-4b31-8f8a-899a53b1b49d": {
-      "type": "about-image-text",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/kampa2.jpg",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "reverse": true,
-        "text_centered": true,
-        "title": "Poydat",
-        "text": "",
-        "btn_text": "Poydat",
-        "btn_url": "shopify:\/\/collections\/poydat"
-      }
-    },
-    "977577cd-f399-400e-b860-3636230c6817": {
-      "type": "about-image-text",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/kampa2.jpg",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "reverse": false,
-        "text_centered": true,
-        "title": "Olohuoneen poydat",
-        "text": "",
-        "btn_text": "Olohuoneen poydat",
-        "btn_url": "shopify:\/\/collections\/olohuoneen-poydat"
-      }
-    },
-    "d3135ee6-e788-4fe9-acf6-c5351d209bdb": {
-      "type": "about-image-text",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/kampa2.jpg",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "reverse": true,
-        "text_centered": true,
-        "title": "Sivupoydat",
-        "text": "",
-        "btn_text": "Sivupoydat",
-        "btn_url": "shopify:\/\/collections\/sivupoydat"
-      }
-    },
-    "f930edee-c09e-41a2-b1a1-98678d951798": {
-      "type": "about-image-text",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/kampa2.jpg",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "reverse": false,
-        "text_centered": true,
-        "title": "Sohvapoydat",
-        "text": "",
-        "btn_text": "Sohvapoydat",
-        "btn_url": "shopify:\/\/collections\/sohvapoydat"
-      }
-    },
-    "1f9abca2-e4f2-4692-aaa5-b974ff31eebe": {
-      "type": "about-image-text",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/kampa2.jpg",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "reverse": true,
-        "text_centered": true,
-        "title": "Sohvatyynyt",
-        "text": "",
-        "btn_text": "Sohvatyynyt",
-        "btn_url": "shopify:\/\/collections\/sohvatyynyt"
-      }
-    },
-    "d8ca6a18-9f86-444a-a32c-2fd6f466201c": {
-      "type": "about-image-text",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/kampa2.jpg",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "reverse": false,
-        "text_centered": true,
-        "title": "Viltit ja sohvapeitot",
-        "text": "",
-        "btn_text": "Viltit ja sohvapeitot",
-        "btn_url": "shopify:\/\/collections\/viltit-ja-sohvapeitot"
+        "title": "Sohvakategoriat",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
   "order": [
     "main",
-    "e52ac009-f21e-4644-8d5b-5871fd6214ca",
-    "03ee385f-7007-4b61-a651-14e2a047e155",
-    "62c1852c-8802-49a8-a524-403f32a1b76d",
-    "ec10c27f-d631-42be-9f58-71a512459d0d",
-    "75b7831a-fe63-43c9-acd9-00605db9cdc1",
-    "97112293-6df2-4632-9231-159bb427eb3f",
-    "689921de-0a5e-4cea-b053-c75a027c014e",
-    "04ea1db6-f3f6-4797-9905-1321fbce40fe",
-    "270ab66d-80b7-4b46-be0d-7d273fd84c5c",
-    "e88c5357-47fc-408a-ac0e-f1b59a621b64",
-    "2f54db6b-54e1-4391-97e3-8fa037281808",
-    "7cc46c1c-c59b-4327-881c-827580dd0147",
-    "e6f98c49-a361-4127-b105-921af9e4aaf4",
-    "a9104853-a903-4a73-8f2d-b0733068bb12",
-    "b297538b-97c6-4b31-8f8a-899a53b1b49d",
-    "977577cd-f399-400e-b860-3636230c6817",
-    "d3135ee6-e788-4fe9-acf6-c5351d209bdb",
-    "f930edee-c09e-41a2-b1a1-98678d951798",
-    "1f9abca2-e4f2-4692-aaa5-b974ff31eebe",
-    "d8ca6a18-9f86-444a-a32c-2fd6f466201c"
+    "9ad368f3-97bb-4c42-b959-36f26be299c1",
+    "b9e500c8-adb3-4132-94a2-9a22956ef3df",
+    "feed3c0b-9956-4f00-b4e6-8581a11f296e"
   ]
 }
