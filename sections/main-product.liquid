@@ -319,18 +319,26 @@
                     {{ block.settings.chat_text }}
                   </div>
                 </div>
-                {% if product.metafields.custom.manufacture_finland == true %}
-                  <div class="wishlist-manufacturer">
-                    <img src="{{ section.settings.manufacture_finland | img_url: "master" }}"
-                         alt="{{ section.settings.manufacture_finland.alt }}">
-                  </div>
-                {% endif %}
-                {% if product.metafields.custom.manufacture_flagfield == true %}
-                  <div class="wishlist-manufacturer">
-                    <img class="wishlist-manufacturer-img" src="{{ section.settings.manufacture_finland_3 | img_url: "master" }}"
-                         alt="{{ section.settings.manufacture_finland_3.alt }}">
-                  </div>
-                {% endif %}
+                <div class="wishlist-manufacturer_wrapper">
+                  {% if product.metafields.custom.manufacture_finland == true %}
+                    <div class="wishlist-manufacturer">
+                      <img src="{{ section.settings.manufacture_finland | img_url: "master" }}"
+                           alt="{{ section.settings.manufacture_finland.alt }}">
+                    </div>
+                  {% endif %}
+                  {% if product.metafields.custom.manufacture_finland_1 == true %}
+                    <div class="wishlist-manufacturer">
+                      <img src="{{ section.settings.manufacture_finland_2 | img_url: "master" }}"
+                           alt="{{ section.settings.manufacture_finland_2.alt }}">
+                    </div>
+                  {% endif %}
+                  {% if product.metafields.custom.manufacture_flagfield == true %}
+                    <div class="wishlist-manufacturer">
+                      <img class="wishlist-manufacturer-img" src="{{ section.settings.manufacture_finland_3 | img_url: "master" }}"
+                           alt="{{ section.settings.manufacture_finland_3.alt }}">
+                    </div>
+                  {% endif %}
+                </div>
               </div>
             {%- when 'delivery-info' -%}
               {% render 'delivery-info-block', block: block, product: product %}
