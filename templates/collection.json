@@ -48,6 +48,7 @@
     },
     "3b6f5671-7d17-401e-a4bf-1f0a4c6432fd": {
       "type": "about-benefit-icons",
+      "disabled": true,
       "blocks": {
         "template--15630143160420__3b6f5671-7d17-401e-a4bf-1f0a4c6432fd-1683204649169c98f7-0": {
           "type": "icon",
@@ -86,6 +87,7 @@
     },
     "ea5628a9-88fc-414e-ba74-51323f42d771": {
       "type": "about-newsletter",
+      "disabled": true,
       "settings": {
         "padding_top": 50,
         "padding_bottom": 100,

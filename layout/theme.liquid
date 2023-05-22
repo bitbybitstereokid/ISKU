@@ -332,7 +332,23 @@
         document.documentElement.classList.add('shopify-design-mode');
       }
     </script>
-  {% include 'hulk_po_vd' %}</head>
+  {% include 'hulk_po_vd' %}{% if content_for_header contains 'aiodstag' %}
+{% include 'cscode_discount' %}
+{% endif %}
+
+
+{% if content_for_header contains 'fastbundle.co' %}
+    {% render 'fast_bundle_service' %}
+{% endif %}
+<style>
+/* Hide Pickup Availability */
+.template-index .pickup-availability,
+.template-product .pickup-availability {
+  display: none !important;
+}
+</style>
+
+</head>
 
   <body class="gradient">
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">

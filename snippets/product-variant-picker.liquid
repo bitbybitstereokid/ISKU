@@ -54,7 +54,7 @@
             {%- for option in product.options_with_values -%}
                 {% assign formatedOptionName = option.name | strip | downcase %}
 
-                <div class="product-form__input product-form__input--dropdown {% if namesForColorSwotcher contains formatedOptionName %}product-form__input--color-swatcher{% endif %}">
+                <div class="product-form__input product-form__input--dropdown {% if namesForColorSwotcher contains formatedOptionName %}product-form__input--color-swatcher{% endif %}"{% if namesForColorSwotcher contains formatedOptionName %} data-option-position="{{option.position}}"{% endif %}>
                     <label class="form__label" for="Option-{{ section.id }}-{{ forloop.index0 }}">
                         {{ option.name }}
                     </label>
@@ -88,7 +88,7 @@
         {% assign formatedOptionName = option.name | strip | downcase %}
 
         {% if namesForColorSwotcher contains formatedOptionName %}
-            <div class="js product-form__input" id="custom-color-swatches">
+        <div class="js product-form__input custom-color-swatches" data-option-position="{{option.position}}">
                 <h4 class="form__label">{{ option.name }}</h4>
                 {% comment %} {% render 'product-variant-options', product: product, option: option, block: block %} {% endcomment %}
                 {%- liquid

@@ -1,3 +1,9 @@
+<script>
+  if (window.location.href.indexOf('duplicat-') != -1) {
+    window.location.href = '{{all_products[product.metafields.custom.original_product].url}}'
+  }
+</script>
+
 <script src="{{ 'custom-product-quantity.js' | asset_url }}" defer="defer"></script>
 <script src="{{ 'custom-color-swatcher.js' | asset_url }}" defer="defer"></script>
 
@@ -66,7 +72,11 @@
 
   <div class="product product--{{ section.settings.media_size }} product--{{ section.settings.media_position }} product--{{ section.settings.gallery_layout }} product--mobile-{{ section.settings.mobile_thumbnails }} grid grid--1-col {% if product.media.size > 0 %}grid--2-col-tablet{% else %}product--no-media{% endif %}">
     <div class="grid__item product__media-wrapper{% if section.settings.media_position == 'right' %} medium-hide large-up-hide{% endif %}">
-      {% render 'product-media-gallery', variant_images: variant_images %}
+      {% if product.metafields.custom.duplicat_product == blank %}
+        {% render 'product-media-gallery', variant_images: variant_images %}
+      {% else %}
+        {% render 'product-media-gallery-multi', variant_images: variant_images %}
+      {% endif %}
     </div>
     <div class="product__info-wrapper grid__item{% if settings.page_width > 1400 and section.settings.media_size == "small" %} product__info-wrapper--extra-padding{% endif %}">
       <product-info
@@ -196,6 +206,9 @@
                 </details>
               </div>
               {%- when 'quantity_selector' -%}
+
+              <script src="https://payments.maksuturva.fi/tools/partpayment/partPayment.js" class="svea-pp-widget-part-payment" data-sellerid="VQPLPJEN" data-locale="fi" data-price="{{product.selected_or_first_available_variant.price | divided_by: '100'}}" data-campaign-text-fi="Maksa erissä" data-campaign-text-sv="Campaign text SV" data-campaign-text-en="Campaign text EN" data-fallback-text-fi="Svean maksimirahoitus on 4999€" data-fallback-text-sv="Fallback text SV" data-fallback-text-en="Fallback text EN" data-border-color="#cceef5" data-text-color="#00325c" data-highlight-color="#00325c" data-active-color="#00aece" data-threshold-prices="[[50, 1], [200, 36]]"></script>
+
               {% assign quantitySelector = true %}
               <div class="custom-quantity-wrapper">
                 <div class="price--based-quiantity"
@@ -343,7 +356,7 @@
             {%- when 'delivery-info' -%}
               {% render 'delivery-info-block', block: block, product: product %}
             {%- when 'brands' -%}
-              {% render 'image-brands-block', product: product %}
+              {% render 'image-brands-block', product: product, block: block %}
             {%- when 'lowest_price' -%}
               {% render 'lowest-price', block: block, product: product %}
             {%- when 'popup' -%}
@@ -371,7 +384,13 @@
                 share_link: share_url
               %}
             {%- when 'variant_picker' -%}
+              
+            {% if product.metafields.custom.duplicat_product != blank %}
+              {% render 'product-variant-picker-multi', product: product, productMulti: product.metafields.custom.duplicat_product, block: block, product_form_id: product_form_id %}
+            {% else %} 
               {% render 'product-variant-picker', product: product, block: block, product_form_id: product_form_id %}
+            {% endif %} 
+
             {%- when 'rating' -%}
               {%- if product.metafields.reviews.rating.value != blank -%}
                 {% liquid
@@ -495,7 +514,11 @@
                 block: block
               %}
             {%- when 'vendor' -%}
-            {%- if product.vendor -%}<div class="product-vendor">{{ product.vendor }}</div>{%- endif -%}
+              {%- if product.vendor -%}
+                {% unless block.settings.not_show_vendor contains product.vendor %}  
+                  <div class="product-vendor">{{ product.vendor }}</div>
+                {% endunless %}
+              {%- endif -%}
           {%- endcase -%}
         {%- endfor -%}
         <a href="{{ product.url | within: collection}}" class="link product__view-details animate-arrow">
@@ -645,27 +668,30 @@
   <div class="custom__popup">
     <div class="custom__popup__inner">
       <div class="custom__popup__width">
-        <form>
-          <div class="custom__popup__title">Callback</div>
-          <button class="custom__close" type="button">X</button>
+        {% form 'contact' %}
+          <div class="custom__popup__title">{{section.settings.popup_title}}</div>
+          <button class="custom__close" type="button">{% if section.settings.popup_cross != blank %}{{section.settings.popup_cross}}{% else %}X{% endif %}</button>
           <label for="nimi__product">
-            Nimi
-            <input required id="nimi__product" type="text" placeholder="Nimi">
+            {{section.settings.popup_name}}
+            <input required id="nimi__product first-name" name="contact[first_name]" type="text" placeholder="{{section.settings.popup_name}}">
           </label>
           <label for="email__product">
-            Email
-            <input required id="email__product" type="text" placeholder="Email">
+            {{section.settings.popup_email}}
+            <input required name="contact[email]" id="email__product email" type="text" placeholder="{{section.settings.popup_email}}">
           </label>
           <label for="phone__product">
-            Puhelin
-            <input id="phone__product" type="text" placeholder="Puhelin">
+            {{section.settings.popup_phone}}
+            <input id="phone__product phone" name="contact[phone]" type="text" placeholder="{{section.settings.popup_phone}}">
           </label>
           <label for="textarea__product">
-            Viestisi
-            <textarea id="textarea__product" type="text" placeholder="Viestisi"></textarea>
+            {{section.settings.popup_message}}
+            <textarea id="textarea__product message" name="contact[body]" type="text" placeholder="{{section.settings.popup_message}}"></textarea>
           </label>
-          <button class="submit__button" type="submit">Lähetä</button>
-        </form>
+          <label for="email__product" style="display: none;">
+            <input required name="contact[Product]" id="email__product email" type="text" value="{{product.title}}">
+          </label>
+          <button class="submit__button" type="submit">{{section.settings.popup_submit}}</button>
+        {% endform %}
       </div>
     </div>
   </div>
@@ -980,7 +1006,16 @@
     {
       "type": "brands",
       "name": "Brands",
-      "limit": 1
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "not_show_vendor",
+          "label": "Don't show vendor when",
+          "default": "Isku Stage",
+          "info": "Enter the vendor, separate by ,"
+        }
+      ]
     },
     {
       "type": "delivery-info",
@@ -1681,7 +1716,16 @@
     },
     {
       "type": "vendor",
-      "name": "Vendor"
+      "name": "Vendor",
+      "settings": [
+        {
+          "type": "text",
+          "id": "not_show_vendor",
+          "label": "Don't show vendor when",
+          "default": "Isku Stage",
+          "info": "Enter the vendor, separate by ,"
+        }
+      ]
     }
   ],
   "settings": [
@@ -1831,7 +1875,12 @@
     {
       "type": "image_picker",
       "id": "manufacture_finland",
-      "label": "Manufacture (finland)"
+      "label": "Manufacture (finland)(logo)"
+    },
+    {
+      "type": "image_picker",
+      "id": "manufacture_finland_2",
+      "label": "Manufacture (finland)(flag)"
     },
     {
       "type": "image_picker",
@@ -1861,6 +1910,51 @@
       "unit": "px",
       "label": "t:sections.all.padding.padding_bottom",
       "default": 36
+    },
+    {
+      "type": "header",
+      "content": "Popup settings"
+    },
+    {
+      "type": "text",
+      "id": "popup_title",
+      "label": "Popup title",
+      "default": "Callback"
+    },
+    {
+      "type": "html",
+      "id": "popup_cross",
+      "label": "Popup cross"
+    },
+    {
+      "type": "text",
+      "id": "popup_name",
+      "label": "Popup name label",
+      "default": "Nimi"
+    },
+    {
+      "type": "text",
+      "id": "popup_email",
+      "label": "Popup email label",
+      "default": "Email"
+    },
+    {
+      "type": "text",
+      "id": "popup_phone",
+      "label": "Popup phone label",
+      "default": "Puhelin"
+    },
+    {
+      "type": "text",
+      "id": "popup_message",
+      "label": "Popup message label",
+      "default": "Viestisi"
+    },
+    {
+      "type": "text",
+      "id": "popup_submit",
+      "label": "Popup submit button text",
+      "default": "Lähetä"
     }
   ]
 }

@@ -1,0 +1,487 @@
+{
+  "sections": {
+    "main": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/orient_occident_aquaclean_referenssi_vaakakuva_2.jpg__1920.0x1080.0_q85_subsampling-2.jpg",
+        "padding_top": 0,
+        "padding_bottom": 50,
+        "reverse": false,
+        "text_centered": false,
+        "title": "Helposti puhdistettava AquaClean-huonekalukangas on huoleton ja vastuullinen valinta",
+        "text": "<p>Muun muassa sohvien ja nojatuolien verhoiluun soveltuva AquaClean on kangasvalintana paitsi käytännöllinen ja pitkäikäinen myös käyttöturvallinen ja kaunis. Hiilineutraalit AquaClean-verhoilukankaat ovat saatavilla sisustus- ja huonekaluliikkeistä ympäri Suomen.<\/p>",
+        "btn_text": "",
+        "btn_url": ""
+      }
+    },
+    "c3648cfd-de5e-45c2-91c9-198e9c48f2f1": {
+      "type": "about-newsletter",
+      "disabled": true,
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 100,
+        "title": "Subscribe to our mailing list for newsletter exclusives",
+        "input_placeholder": "Enter your email",
+        "btn_text": "Subscribe"
+      }
+    },
+    "e5bf0dbb-07a7-410d-a091-8db575dafa6d": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18984247460184__e5bf0dbb-07a7-410d-a091-8db575dafa6d-1684559101f4b94c63-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Laadukas verhoilukangas kestää elämää<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--18984247460184__e5bf0dbb-07a7-410d-a091-8db575dafa6d-1684559101f4b94c63-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Sohva on kodin sisustajalle hankinta, joka tehdään lähes poikkeuksetta pitkälle tulevaisuuteen katsoen: olohuoneen uuden ykköskalusteen halutaan palvelevan käytössä ja säilyvän kauniina vuosien ja jopa vuosikymmenten ajan. Omaan tyyliin ja tarpeisiin sopivaa sohvaa miettiessä on hyvä kiinnittää huomiota paitsi sohvan kokoon, muotoon ja istumismukavuuteen myös sen verhoiluun. Jotta kangasvalinta osuu varmasti nappiin, kannattaa apua kysyä sisustus- tai huonekaluliikkeen asiantuntevalta myyjältä. <\/p>"
+          }
+        },
+        "template--18984247460184__e5bf0dbb-07a7-410d-a091-8db575dafa6d-1684559101f4b94c63-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--18984247460184__e5bf0dbb-07a7-410d-a091-8db575dafa6d-1684559101f4b94c63-0",
+        "template--18984247460184__e5bf0dbb-07a7-410d-a091-8db575dafa6d-1684559101f4b94c63-1",
+        "template--18984247460184__e5bf0dbb-07a7-410d-a091-8db575dafa6d-1684559101f4b94c63-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "446bec48-0aea-4f4b-9b0c-d53d02a33cbb": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--18984247460184__446bec48-0aea-4f4b-9b0c-d53d02a33cbb-1684558986517d353c-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h1"
+          }
+        },
+        "template--18984247460184__446bec48-0aea-4f4b-9b0c-d53d02a33cbb-1684558986517d353c-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>ISKUn Lahden sisustusmyyjä ja -arkkitehti <strong>Mirella Virtanen<\/strong> kertoo, että oikein valitulla verhoilukankaalla on sohvahankinnan onnistumisessa äärimmäisen tärkeä merkitys – monessakin eri mielessä. Ensimmäisenä listalla ovat huonekalun käyttöiän pituus ja sen säilyminen ilona silmälle.  <\/p><p>– Kun huonekalun runko ja jousitukset valmistetaan laadukkaista ja kestävistä materiaaleista, on mielestäni järkevää valita myös kangas siten, että kokonaisuus palvelee käytössä pitkään. Jos haluaa panostaa laatuun, ei kannata pihistää kankaan ominaisuuksista tai metrihinnasta, koska verhoiluhan on se suurimmalla kulutuksella oleva ja eniten elämää näkevä sohvan osa, hän kuvailee. <\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--18984247460184__446bec48-0aea-4f4b-9b0c-d53d02a33cbb-1684558986517d353c-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18984247460184__446bec48-0aea-4f4b-9b0c-d53d02a33cbb-1684558986517d353c-0",
+        "template--18984247460184__446bec48-0aea-4f4b-9b0c-d53d02a33cbb-1684558986517d353c-1",
+        "template--18984247460184__446bec48-0aea-4f4b-9b0c-d53d02a33cbb-1684558986517d353c-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/orient_occident_aquaclean_referenssi_nelio_7.jpg__1350.0x1350.0_q85_subsampling-2.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "4c89bb88-f300-4481-ac36-3a0b69aa97a7": {
+      "type": "image-banner",
+      "blocks": {
+        "template--18984247460184__4c89bb88-f300-4481-ac36-3a0b69aa97a7-1684559166b09887a5-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "template--18984247460184__4c89bb88-f300-4481-ac36-3a0b69aa97a7-1684559166b09887a5-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--18984247460184__4c89bb88-f300-4481-ac36-3a0b69aa97a7-1684559166b09887a5-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--18984247460184__4c89bb88-f300-4481-ac36-3a0b69aa97a7-1684559166b09887a5-0",
+        "template--18984247460184__4c89bb88-f300-4481-ac36-3a0b69aa97a7-1684559166b09887a5-1",
+        "template--18984247460184__4c89bb88-f300-4481-ac36-3a0b69aa97a7-1684559166b09887a5-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/orient_occident_aquaclean_referenssi_vaakakuva_1.jpg__1920.0x1080.0_q85_subsampling-2_1.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "da9eff70-3b4a-4c93-bbe3-5a7e19b8d716": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18984247460184__da9eff70-3b4a-4c93-bbe3-5a7e19b8d716-1684559101f4b94c63-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<h2>AquaClean-kankaiden kulutuksenkesto on huippuluokkaa<\/h2>",
+            "heading_size": "h1"
+          }
+        },
+        "template--18984247460184__da9eff70-3b4a-4c93-bbe3-5a7e19b8d716-1684559101f4b94c63-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Materiaalin kestävyydestä kertovat Martindale-arvot ovat kaikissa AquaClean-laaduissa tutkitusti aina vähintään 50 000 kierrosta.<\/p><p>– Tuo luku kertoo kankaiden hankauskeston olevan erittäin korkeaa tasoa. AquaCleanin kanssa voi olla varma myös siitä, ettei verhoilun pinta nyppyynny tai väri haalistu ajan myötä, Virtanen täsmentää.   <\/p>"
+          }
+        },
+        "template--18984247460184__da9eff70-3b4a-4c93-bbe3-5a7e19b8d716-1684559101f4b94c63-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--18984247460184__da9eff70-3b4a-4c93-bbe3-5a7e19b8d716-1684559101f4b94c63-0",
+        "template--18984247460184__da9eff70-3b4a-4c93-bbe3-5a7e19b8d716-1684559101f4b94c63-1",
+        "template--18984247460184__da9eff70-3b4a-4c93-bbe3-5a7e19b8d716-1684559101f4b94c63-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "d24fb3b4-c60c-40b2-9832-533e41fae798": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--18984247460184__d24fb3b4-c60c-40b2-9832-533e41fae798-1684558986517d353c-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Lukemattomia hurmaavia värejä ja kiehtovia laatuja",
+            "heading_size": "h1"
+          }
+        },
+        "template--18984247460184__d24fb3b4-c60c-40b2-9832-533e41fae798-1684558986517d353c-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Sohva on usein olohuoneen sisutuksessa se katseet vangitseva, kaikkein suurimman roolin itselleen ottava huonekalu. Siksi myös sohvan verhoilumateriaalin struktuuri, sävy ja tyyli vaikuttavat suuresti siihen, miltä huoneen sisustus kokonaisuutena näyttää ja minkälainen tunnelma tilassa vallitsee. Kangas kannattaa siis valita huolellisesti.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--18984247460184__d24fb3b4-c60c-40b2-9832-533e41fae798-1684558986517d353c-0",
+        "template--18984247460184__d24fb3b4-c60c-40b2-9832-533e41fae798-1684558986517d353c-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/orient_occident_aquaclean_referenssi_nelio_1.jpg__1350.0x1350.0_q85_subsampling-2_1_1_83f0e709-8baa-4a3c-bc67-423a46a852c7.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "78a0edcd-b91a-4fba-9dac-8af094d0a7ee": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18984247460184__78a0edcd-b91a-4fba-9dac-8af094d0a7ee-1684559101f4b94c63-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<p>Talk about your brand<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--18984247460184__78a0edcd-b91a-4fba-9dac-8af094d0a7ee-1684559101f4b94c63-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>AquaClean-mallistossa on saatavilla sekä sileämpiä että rouheampia laatuja. Myös väripaletti on monipuolinen, sisältäen tasavärisiä ja kirjavia sekä murrettuja ja puhtaita sävyjä. Vaihtoehtoja riittää erilaisiin tyyleihin, makuihin ja tiloihin. <\/p><p>Virtanen kertoo, että esimerkiksi Iskun myymälöissä tutustumista ja oman suosikin löytämistä helpottavat liikkeessä esillä olevat valmiit AquaClean-verhoillut kalusteet.  <\/p><p>– Lisäksi AquaCleanin mallikangasrekki on tehty asiakkaalle erittäin helposti selattavaksi. Tietyistä laaduista löytyy isompikin mallipala, josta näkee kankaan struktuurin laajemmalla pinnalla. Lainaamme mielellämme kangasnäytteitä myös asiakkaillemme kotiin, jolloin voi varmistua kankaan oikeasta sävystä luonnollisessa ympäristössään. Esimerkiksi tilan valaistus ja muut ympäristössä olevat värit vaikuttavat siihen, miltä jokin sävy lopulta näyttää. Suosittelen tarkastelemaan kankaan ulkoasua päivänvalossa, sillä siinä tekstiilin sävy näyttäytyy mahdollisimman luonnollisena, Virtanen neuvoo.  <\/p>"
+          }
+        },
+        "template--18984247460184__78a0edcd-b91a-4fba-9dac-8af094d0a7ee-1684559101f4b94c63-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--18984247460184__78a0edcd-b91a-4fba-9dac-8af094d0a7ee-1684559101f4b94c63-0",
+        "template--18984247460184__78a0edcd-b91a-4fba-9dac-8af094d0a7ee-1684559101f4b94c63-1",
+        "template--18984247460184__78a0edcd-b91a-4fba-9dac-8af094d0a7ee-1684559101f4b94c63-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "2c62bcaa-53aa-4cac-be5e-2b18519fe5a5": {
+      "type": "image-banner",
+      "blocks": {
+        "template--18984247460184__2c62bcaa-53aa-4cac-be5e-2b18519fe5a5-1684559166b09887a5-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "template--18984247460184__2c62bcaa-53aa-4cac-be5e-2b18519fe5a5-1684559166b09887a5-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--18984247460184__2c62bcaa-53aa-4cac-be5e-2b18519fe5a5-1684559166b09887a5-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--18984247460184__2c62bcaa-53aa-4cac-be5e-2b18519fe5a5-1684559166b09887a5-0",
+        "template--18984247460184__2c62bcaa-53aa-4cac-be5e-2b18519fe5a5-1684559166b09887a5-1",
+        "template--18984247460184__2c62bcaa-53aa-4cac-be5e-2b18519fe5a5-1684559166b09887a5-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/orient_occident_aquaclean_referenssi_vaakakuva_3.jpg__1920.0x1080.0_q85_subsampling-2_1.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "ab3b9402-48a6-4b57-a2c1-6f98d1f5fb46": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--18984247460184__ab3b9402-48a6-4b57-a2c1-6f98d1f5fb46-1684558986517d353c-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "AquaClean-verhoilukangas on helppo pitää puhtaana ",
+            "heading_size": "h1"
+          }
+        },
+        "template--18984247460184__ab3b9402-48a6-4b57-a2c1-6f98d1f5fb46-1684558986517d353c-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Verhoilukankaan ominaisuudet vaikuttavat suuresti myös siihen, minkälaista päivittäinen elämä huonekalun kanssa on. Jos haluaa huolettomuutta, on kankaan helppo ja nopea puhdistettavuus valttia. AquaClean-kankaat ovat tässä suhteessa ainutlaatuisia: lähes kaikki kotitaloustahrat puhdistuvat kankaiden pinnasta pelkkää vettä käyttämällä.  <\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--18984247460184__ab3b9402-48a6-4b57-a2c1-6f98d1f5fb46-1684558986517d353c-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18984247460184__ab3b9402-48a6-4b57-a2c1-6f98d1f5fb46-1684558986517d353c-0",
+        "template--18984247460184__ab3b9402-48a6-4b57-a2c1-6f98d1f5fb46-1684558986517d353c-1",
+        "template--18984247460184__ab3b9402-48a6-4b57-a2c1-6f98d1f5fb46-1684558986517d353c-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/orient_occident_aquaclean_referenssi_nelio_3.jpg__1350.0x1350.0_q85_subsampling-2_1.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "800e7944-09c3-4cf7-9b18-4879c509b768": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--18984247460184__800e7944-09c3-4cf7-9b18-4879c509b768-1684558986517d353c-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "template--18984247460184__800e7944-09c3-4cf7-9b18-4879c509b768-1684558986517d353c-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>– Mikä onkaan kätevämpää kuin se, että sohvan, nojatuolin tai verhoillun ruokapöydän tuolin kangas puhdistuu pelkkää vettä käyttämällä. Ominaisuus on erityisessä arvossaan lapsiperheissä ja lemmikkitalouksissa, joissa tyypillisesti riittää vilinää ja vilskettä. Ja toki kenellä tahansa muullakin saattaa joskus syödessä tai juodessa sattua pikku vahinko, Virtanen toteaa. <\/p><p>AquaCleanin puhdistuvuus perustuu kankaan kuiduissa olevaan näkymättömään molekyylikerrokseen, joka estää lian pääsyn kankaaseen. <br\/>Tavanomaisista helppohoitoisista huonekalukankaista poiketen AquaCleanin puhdistuvuus ei siis perustu suojasuihkeilla tai muilla kemikaaleilla tehtyyn jälkikäsittelyyn, vaan ominaisuus on kankaassa itsessään.<\/p><p><\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--18984247460184__800e7944-09c3-4cf7-9b18-4879c509b768-1684558986517d353c-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18984247460184__800e7944-09c3-4cf7-9b18-4879c509b768-1684558986517d353c-0",
+        "template--18984247460184__800e7944-09c3-4cf7-9b18-4879c509b768-1684558986517d353c-1",
+        "template--18984247460184__800e7944-09c3-4cf7-9b18-4879c509b768-1684558986517d353c-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/orient_occident_aquaclean_referenssi_nelio_6.jpg__1350.0x1350.0_q85_subsampling-2_1.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "b40095db-a103-4f22-b2f9-00ba97b1015a": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18984247460184__b40095db-a103-4f22-b2f9-00ba97b1015a-1684559101f4b94c63-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<p>Talk about your brand<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--18984247460184__b40095db-a103-4f22-b2f9-00ba97b1015a-1684559101f4b94c63-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>– AquaCleanille on myönnetty Oeko-Tex 100 -standardin korkein luokitus, joka löytyy usein esimerkiksi vauvanvaatteista. Kankaasta ei irtoa mitään haitallista, jos vaikka vauva päättää hiukan mutustella istuintyynyn kulmaa.<\/p><p>– AquaClean on lisäksi antimikrobinen, eli se hylkii tehokkaasti bakteereja ja viruksia. Käyttöturvallisuus on siis mallillaan siinäkin mielessä, Virtanen lisää.<\/p><h2>Huonekaluliikkeen myyjä on verhoilukankaan valinnassa arvokas apu<\/h2><p>AquaClean on fiksu verhoilukangasvalinta moniin erilaisiin koteihin, niiden tyyleihin ja tarpeisiin. AquaCleanissa yhdistyvät pitkä käyttöikä, helppo puhdistettavuus, korkean tason käyttöturvallisuus sekä tyylikkäiden ja kauniiden ulkoasujen ja erilaisten struktuurien kirjo. <\/p><p>– AquaCleanissa on kaikki ominaisuudet, joita hyvältä ja laadukkaalta kankaalta voi odottaa. Se on lisäksi hiilineutraali, eli myös ympäristöä ajatellen vastuullinen, mitä yhä useampi tänä päivänä arvostaa. <\/p><p>Virtasen oma suosikki on AquaClean <a href=\"https:\/\/www.orientoccident.fi\/tuotteet\/id\/14694-aquaclean-laviano-fr\/\">Laviano<\/a>. Se on tuplaloimeen kudottu, mikä tekee siitä erittäin tiiviin ja napakan. Kankaaseen ei pääse pitkälläkään käyttöajalla muodostumaan venymää. Lisäksi Lavianossa on miellyttävä, hiukan kirjava kudonta. Murrettuja värejä on saatavilla niin vaaleita hiekansävyisiä kuin myös tummempia vaihtoehtoja. <\/p><p>– Tervetuloa myymäläämme tutustumaan kattavaan AquaClean-valikoimaan. Me autamme oman suosikin löytämisessä mielellämme, Virtanen toivottaa lopuksi. <\/p><h2>Tutustu AquaClean-verhoilukankaiden valikoimaan ja tilaa suosikeistasi ilmaiset näytteet<\/h2><p>Tarjoamme veloituksetta kolme näytettä, jotka näytepalvelumme toimittaa sinulle antamaasi osoitteeseen. Tuotenäytelomakkeen löydät tuotekohtaisilta sivuilta.<\/p>"
+          }
+        },
+        "template--18984247460184__b40095db-a103-4f22-b2f9-00ba97b1015a-1684559101f4b94c63-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Tutustu kankaisiin",
+            "button_link": "https:\/\/www.orientoccident.fi\/tuotteet\/?s=1&j=2&t=aquaclean",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--18984247460184__b40095db-a103-4f22-b2f9-00ba97b1015a-1684559101f4b94c63-0",
+        "template--18984247460184__b40095db-a103-4f22-b2f9-00ba97b1015a-1684559101f4b94c63-1",
+        "template--18984247460184__b40095db-a103-4f22-b2f9-00ba97b1015a-1684559101f4b94c63-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "c3648cfd-de5e-45c2-91c9-198e9c48f2f1",
+    "e5bf0dbb-07a7-410d-a091-8db575dafa6d",
+    "446bec48-0aea-4f4b-9b0c-d53d02a33cbb",
+    "4c89bb88-f300-4481-ac36-3a0b69aa97a7",
+    "da9eff70-3b4a-4c93-bbe3-5a7e19b8d716",
+    "d24fb3b4-c60c-40b2-9832-533e41fae798",
+    "78a0edcd-b91a-4fba-9dac-8af094d0a7ee",
+    "2c62bcaa-53aa-4cac-be5e-2b18519fe5a5",
+    "ab3b9402-48a6-4b57-a2c1-6f98d1f5fb46",
+    "800e7944-09c3-4cf7-9b18-4879c509b768",
+    "b40095db-a103-4f22-b2f9-00ba97b1015a"
+  ]
+}

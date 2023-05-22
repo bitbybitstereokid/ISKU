@@ -843,7 +843,8 @@ class VariantSelects extends HTMLElement {
     this.updatePickupAvailability();
     this.removeErrorMessage();
     this.updateVariantStatuses();
-
+    let variantPrice = this.currentVariant.price / 100
+    document.dispatchEvent(new CustomEvent("svea-partpayment-calculator-update-price", { "detail": { "price": `${variantPrice}` } }));
     if (!this.currentVariant) {
       this.toggleAddButton(true, '', true);
       this.setUnavailable();
@@ -873,11 +874,13 @@ class VariantSelects extends HTMLElement {
     if (!this.currentVariant.featured_media) return;
 
     const mediaGalleries = document.querySelectorAll(`[id^="MediaGallery-${this.dataset.section}"]`);
-    mediaGalleries.forEach(mediaGallery => mediaGallery.setActiveMedia(`${this.dataset.section}-${this.currentVariant.featured_media.id}`, true));
+    let currentFeaturedMediaId = this.currentVariant.featured_media.id
+    if ( !document.querySelector(`[data-media-id="${this.dataset.section}-${this.currentVariant.featured_media.id}"]`)) return
+    mediaGalleries.forEach(mediaGallery => mediaGallery.setActiveMedia(`${this.dataset.section}-${currentFeaturedMediaId}`, true));
 
     const modalContent = document.querySelector(`#ProductModal-${this.dataset.section} .product-media-modal__content`);
     if (!modalContent) return;
-    const newMediaModal = modalContent.querySelector( `[data-media-id="${this.currentVariant.featured_media.id}"]`);
+    const newMediaModal = modalContent.querySelector( `[data-media-id="${currentFeaturedMediaId}"]`);
     modalContent.prepend(newMediaModal);
   }
 
@@ -966,8 +969,8 @@ class VariantSelects extends HTMLElement {
         const lowestPriceDestination = document.getElementById(`lowest-price-${this.dataset.section}`);
         const deliveryInfoSource = html.getElementById(`delivery-info-${this.dataset.originalSection ? this.dataset.originalSection : this.dataset.section}`);
         const deliveryInfoDestination = document.getElementById(`delivery-info-${this.dataset.section}`);
-        const colorSwatcherSource = html.getElementById(`custom-color-swatches`);
-        const colorSwatcherDestination = document.getElementById(`custom-color-swatches`);
+        const colorSwatcherSource = html.querySelectorAll(`custom-color-swatches`);
+        const colorSwatcherDestination = document.querySelectorAll(`custom-color-swatches`);
 
         if (source && destination) destination.innerHTML = source.innerHTML;
         if (quantityPriceSource)  {
@@ -997,7 +1000,11 @@ class VariantSelects extends HTMLElement {
 
         if (inventoryDestination) inventoryDestination.classList.toggle('visibility-hidden', inventorySource.innerText === '');
 
-        if (colorSwatcherSource && colorSwatcherDestination) colorSwatcherDestination.innerHTML = colorSwatcherSource.innerHTML;
+        if (colorSwatcherSource.length != 0 && colorSwatcherDestination.length != 0){
+          colorSwatcherDestination.forEach( (el, index) => {
+            el.innerHTML = colorSwatcherSource[index].innerHTML;
+          })
+        } 
 
         const addButtonUpdated = html.getElementById(`ProductSubmitButton-${sectionId}`);
         this.toggleAddButton(addButtonUpdated ? addButtonUpdated.hasAttribute('disabled') : true, window.variantStrings.soldOut);

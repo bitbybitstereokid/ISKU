@@ -1,0 +1,324 @@
+{% comment %}
+  Renders product variant-picker
+
+  Accepts:
+  - product: {Object} product object.
+  - block: {Object} passing the block information.
+  - product_form_id: {String} Id of the product form to which the variant picker is associated.
+  - update_url: {Boolean} whether or not to update url when changing variants. If false, the url isn't updated. Default: true (optional).
+  Usage:
+  {% render 'product-variant-picker', product: product, block: block, product_form_id: product_form_id %}
+{% endcomment %}
+{%- unless product.has_only_default_variant -%}
+
+  {% assign namesForColorSwotcher = settings.colors_swatcher_title | escape | strip | downcase %}
+  {% assign colorsNamesAndHex = settings.colors_swatcher_colors | strip | downcase | split: ';' %}
+
+  {%- if block.settings.picker_type == 'button' -%}
+    <variant-radios
+            id="variant-radios-{{ section.id }}"
+            class="no-js-hidden"
+            data-section="{{ section.id }}"
+            data-url="{{ product.url }}"
+            {% if update_url == false %}
+              data-update-url="false"
+            {% endif %}
+            {{ block.shopify_attributes }}
+    >
+      {%- for option in product.options_with_values -%}
+        <fieldset class="js product-form__input">
+          <legend class="form__label">{{ option.name }}</legend>
+          {% render 'product-variant-options', product: product, option: option, block: block %}
+        </fieldset>
+      {%- endfor -%}
+
+      {% assign multiDefaultSpliterStart = '}]' %}
+      {% assign multiDefaultSpliterEnd = '],' %}
+      {% assign multiSpliterStart = '[{' %}
+      {% assign multiSpliterEnd = ',{' %}
+      {% assign multiProduct = all_products[productMulti] | json | replace: multiSpliterStart, multiSpliterEnd  %}
+      <script type="application/json" class="1223_as">
+        {{ product.variants | json | replace: multiDefaultSpliterStart, multiDefaultSpliterEnd | append: multiProduct }}
+      </script>
+    </variant-radios>
+  {%- else -%}
+    <variant-selects
+            id="variant-selects-{{ section.id }}"
+            class="no-js-hidden"
+            data-section="{{ section.id }}"
+            data-multi-url="{{all_products[product.metafields.custom.duplicat_product].handle}}"
+            data-url="{{ product.url }}"
+            {% if update_url == false %}
+              data-update-url="false"
+            {% endif %}
+            {{ block.shopify_attributes }}
+    >
+      {%- for option in product.options_with_values -%}
+        {% assign formatedOptionName = option.name | strip | downcase %}
+
+        <div class="product-form__input product-form__input--dropdown {% if namesForColorSwotcher contains formatedOptionName %}product-form__input--color-swatcher{% endif %}"{% if namesForColorSwotcher contains formatedOptionName %} data-option-position="{{option.position}}"{% endif %}>
+          <label class="form__label" for="Option-{{ section.id }}-{{ forloop.index0 }}">
+            {{ option.name }}
+          </label> 
+          <div class="select">
+            <select
+                    id="Option-{{ section.id }}-{{ forloop.index0 }}"
+                    class="select__select custom-select__select"
+                    name="options[{{ option.name | escape }}]"
+                    form="{{ product_form_id }}"
+            >
+              {% render 'product-variant-options', product: product, option: option, block: block %}
+            </select>
+            {% render 'icon-caret' %}
+          </div>
+        </div>
+      {%- endfor -%}
+      {% assign multiDefaultSpliterStart = '}]' %}
+      {% assign multiDefaultSpliterEnd = '},' %}
+      {% assign multiSpliterStart = '[{' %}
+      {% assign multiSpliterEnd = '{' %}
+      {% assign multiProduct = '' %}
+      {% for item in product.metafields.custom.duplicat_product.value %}
+        {% if forloop.last %}
+          {% assign multiProductItem = item.variants | json | replace: multiSpliterStart, multiSpliterEnd %}
+          {%- assign multiProduct = multiProduct | append: multiProductItem -%}
+        {% else %}
+          {% assign multiProductItem = item.variants | json | replace: multiSpliterStart, multiSpliterEnd | replace: multiDefaultSpliterStart, multiDefaultSpliterEnd  %}
+          {%- assign multiProduct = multiProduct | append: multiProductItem -%}
+        {% endif %}
+      {% endfor %}
+      
+      
+      <script type="application/json" class="asdasdas">
+        {{ product.variants | json | replace: multiDefaultSpliterStart, multiDefaultSpliterEnd | append: multiProduct }}
+      </script>
+    </variant-selects>
+  {%- endif -%}
+
+
+  {%- for option in product.options_with_values -%}
+    {% assign formatedOptionName = option.name | strip | downcase %}
+
+    {% if namesForColorSwotcher contains formatedOptionName %}
+    <div class="js product-form__input custom-color-swatches" data-option-position="{{option.position}}">
+        <h4 class="form__label">{{ option.name }}</h4>
+        {% if productMulti != blank %}
+          {%- assign color_default_values = '' -%}
+          {% for value in option.values %}
+            {%- assign color_default_values = color_default_values | append: value -%}
+            {% unless forloop.last %}
+              {%- assign color_default_values = color_default_values | append: ',' -%}
+            {% endunless %}
+          {% endfor %}
+        {% endif %}
+
+        {%- liquid
+          assign variants_available_arr = product.variants | map: 'available'
+          assign variants_option1_arr = product.variants | map: 'option1'
+          assign variants_option2_arr = product.variants | map: 'option2'
+          assign variants_option3_arr = product.variants | map: 'option3'
+
+          assign product_form_id = 'product-form-' | append: section.id
+        -%}
+
+        {%- assign global_index = 0 -%}
+
+        <div class="color-options-grid">
+          {%- for value in option.values -%}
+            {%- liquid
+              assign option_disabled = true
+
+              for option1_name in variants_option1_arr
+                case option.position
+                  when 1
+                    if variants_option1_arr[forloop.index0] == value and variants_available_arr[forloop.index0]
+                      assign option_disabled = false
+                    endif
+                  when 2
+                    if option1_name == product.selected_or_first_available_variant.option1 and variants_option2_arr[forloop.index0] == value and variants_available_arr[forloop.index0]
+                      assign option_disabled = false
+                    endif
+                  when 3
+                    if option1_name == product.selected_or_first_available_variant.option1 and variants_option2_arr[forloop.index0] == product.selected_or_first_available_variant.option2 and variants_option3_arr[forloop.index0] == value and variants_available_arr[forloop.index0]
+                      assign option_disabled = false
+                    endif
+                endcase
+              endfor
+            -%}
+            {%- assign global_index = global_index | plus: forloop.index0 -%}
+            <input
+                    type="radio"
+                    id="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}"
+                    name="{{ option.name }}"
+                    value="{{ value | escape }}"
+                    form="{{ product_form_id }}"
+                    {% if option.selected_value == value %}
+                      checked
+                    {% endif %}
+                    {% if option_disabled %}
+                      class="disabled"
+                    {% endif %}
+            >
+            {% assign colorHex = 'background-color: #000000' %}
+            {% for color in colorsNamesAndHex %}
+              {% assign colorHexFromSettings = color | split: ':' | last | strip %}
+              {% assign colorNameFromSettings = color | split: ':' | first | strip | downcase %}
+              {% assign formatedColorNameFromOption = value | strip | downcase %}
+
+              {% if colorNameFromSettings == formatedColorNameFromOption %}
+                {%- if colorHexFromSettings contains '#' -%}
+                  {%- assign colorHex = 'background-color: ' | append: colorHexFromSettings -%}
+                {%- elsif images[colorHexFromSettings] != blank -%}
+                  {%- assign color_swatch_image = images[colorHexFromSettings] | img_url: '72x72' -%}
+                  {%- assign colorHex = 'background-image: url(' | append: color_swatch_image | append: ')' -%}
+                {%- else -%}
+                  {% assign colorHex = 'background-color: #000000' %}
+                {%- endif -%}
+              {% endif %}
+            {% endfor %}
+
+            <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}" style="{{ colorHex }};"
+                   class="product-label-hover" data-variant-url="{{ colorHex }}"
+                   data-variant-color="{{ formatedColorNameFromOption }}">
+              <span class="visually-hidden">{{ 'products.product.variant_sold_out_or_unavailable' | t }}</span>
+
+            </label>
+          {%- endfor -%}
+
+
+          {% if product.metafields.custom.duplicat_product != blank %}
+          {% for item in product.metafields.custom.duplicat_product.value %}
+            {% assign global_index = global_index | plus: forloop.index %}
+            {%- liquid
+            assign multicolorvariants_available_arr = item.variants | map: 'available'
+            assign multicolorvariants_option1_arr = item.variants | map: 'option1'
+            assign multicolorvariants_option2_arr = item.variants | map: 'option2'
+            assign multicolorvariants_option3_arr = item.variants | map: 'option3'
+            -%}
+            {% for multioption in item.options_with_values %}
+              {% assign multiFormatedOptionName = multioption.name | strip | downcase %}
+              {% if multioption.position ==  option.position and namesForColorSwotcher contains multiFormatedOptionName %}
+                {% for multivalue in multioption.values %}
+                  {%- liquid
+                    assign multicoloroption_disabled = true
+                    for option1_name in multicolorvariants_option1_arr
+                      case option.position
+                        when 1
+                          if multicolorvariants_option1_arr[forloop.index0] == multivalue and multicolorvariants_available_arr[forloop.index0]
+                            assign multicoloroption_disabled = false
+                          endif
+                        when 2
+                          if option1_name == item.selected_or_first_available_variant.option1 and multicolorvariants_option2_arr[forloop.index0] == multivalue and multicolorvariants_available_arr[forloop.index0]
+                            assign multicoloroption_disabled = false
+                          endif
+                        when 3
+                          if option1_name == item.selected_or_first_available_variant.option1 and multicolorvariants_option2_arr[forloop.index0] == item.selected_or_first_available_variant.option2 and multicolorvariants_option3_arr[forloop.index0] == multivalue and multicolorvariants_available_arr[forloop.index0]
+                            assign multicoloroption_disabled = false
+                          endif
+                      endcase
+                    endfor
+                  -%}
+                  {% unless color_default_values contains multivalue %}
+                    <input
+                    type="radio"
+                    id="{{ section.id }}-{{ option.position }}-{{ global_index | plus: forloop.index0 }}"
+                    name="{{ option.name }}"
+                    value="{{ multivalue | escape }}"
+                    form="{{ product_form_id }}"
+                    {% if multicoloroption_disabled %}
+                      class="disabled"
+                    {% endif %}
+                    >
+                    {% assign colorHex = 'background-color: #000000' %}
+                    {% for color in colorsNamesAndHex %}
+                      {% assign colorHexFromSettings = color | split: ':' | last | strip %}
+                      {% assign colorNameFromSettings = color | split: ':' | first | strip | downcase %}
+                      {% assign formatedColorNameFromOption = multivalue | strip | downcase %}
+
+                      {% if colorNameFromSettings == formatedColorNameFromOption %}
+                        {%- if colorHexFromSettings contains '#' -%}
+                          {%- assign colorHex = 'background-color: ' | append: colorHexFromSettings -%}
+                        {%- elsif images[colorHexFromSettings] != blank -%}
+                          {%- assign color_swatch_image = images[colorHexFromSettings] | img_url: '72x72' -%}
+                          {%- assign colorHex = 'background-image: url(' | append: color_swatch_image | append: ')' -%}
+                        {%- else -%}
+                          {% assign colorHex = 'background-color: #000000' %}
+                        {%- endif -%}
+                      {% endif %}
+                    {% endfor %}
+
+                    <label for="{{ section.id }}-{{ option.position }}-{{ global_index | plus: forloop.index0 }}" style="{{ colorHex }};"
+                          class="product-label-hover" data-variant-url="{{ colorHex }}"
+                          data-variant-color="{{ formatedColorNameFromOption }}">
+                      <span class="visually-hidden">{{ 'products.product.variant_sold_out_or_unavailable' | t }}</span>
+
+                    </label>
+                  {% endunless %}
+                {% endfor %}
+              {% endif %}
+            {% endfor %}
+          {% endfor %}
+        {% endif %}
+
+        </div>
+      </div>
+    {% endif %}
+  {%- endfor -%}
+{%- endunless -%}
+
+{{ 'custom-style-filter-horizontal.css' | asset_url | stylesheet_tag }}
+
+<noscript class="product-form__noscript-wrapper-{{ section.id }}">
+  <div class="product-form__input{% if product.has_only_default_variant %} hidden{% endif %}">
+    <label class="form__label" for="Variants-{{ section.id }}">
+      {{- 'products.product.product_variants' | t -}}
+    </label>
+    <div class="select">
+      <select
+              name="id"
+              id="Variants-{{ section.id }}"
+              class="select__select"
+              form="{{ product_form_id }}"
+      >
+        {%- for variant in product.variants -%}
+          <option
+                  {% if variant == product.selected_or_first_available_variant %}
+                    selected="selected"
+                  {% endif %}
+                  {% if variant.available == false %}
+                    disabled
+                  {% endif %}
+                  value="{{ variant.id }}"
+          >
+            {%- liquid
+              echo variant.title
+              echo variant.price | money | strip_html | prepend: ' - '
+              if variant.available == false
+                echo 'products.product.sold_out' | t | prepend: ' - '
+              endif
+              if variant.quantity_rule.increment > 1
+                echo 'products.product.quantity.multiples_of' | t: quantity: variant.quantity_rule.increment | prepend: ' - '
+              endif
+              if variant.quantity_rule.min > 1
+                echo 'products.product.quantity.minimum_of' | t: quantity: variant.quantity_rule.min | prepend: ' - '
+              endif
+              if variant.quantity_rule.max != null
+                echo 'products.product.quantity.maximum_of' | t: quantity: variant.quantity_rule.max | prepend: ' - '
+              endif
+              # TODO: enable theme-check once `item_count_for_variant` is accepted as valid filter
+              # theme-check-disable
+              assign cart_quantity = cart | item_count_for_variant: variant.id
+              # theme-check-enable
+              if cart_quantity > 0
+                echo 'products.product.quantity.in_cart_html' | t: quantity: cart_quantity | prepend: ' - '
+              endif
+            -%}
+          </option>
+        {%- endfor -%}
+      </select>
+      {% render 'icon-caret' %}
+    </div>
+  </div>
+</noscript>
+
+<script src="{{ 'product-variant-tooltip.js' | asset_url }}" defer="defer"></script>

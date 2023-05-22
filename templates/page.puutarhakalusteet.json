@@ -8,128 +8,192 @@
         "padding_bottom": 28
       }
     },
-    "092bc77a-53e0-4c0c-b41c-753d7ab2a78a": {
-      "type": "about-image-text",
+    "4e26546f-498d-4af6-9727-b0027b450550": {
+      "type": "image-banner",
+      "blocks": {
+        "template--15666921275492__4e26546f-498d-4af6-9727-b0027b450550-1684252064d794e204-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Puutarhakalusteet",
+            "heading_size": "h1"
+          }
+        },
+        "template--15666921275492__4e26546f-498d-4af6-9727-b0027b450550-1684252064d794e204-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--15666921275492__4e26546f-498d-4af6-9727-b0027b450550-1684252064d794e204-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15666921275492__4e26546f-498d-4af6-9727-b0027b450550-1684252064d794e204-0",
+        "template--15666921275492__4e26546f-498d-4af6-9727-b0027b450550-1684252064d794e204-1",
+        "template--15666921275492__4e26546f-498d-4af6-9727-b0027b450550-1684252064d794e204-2"
+      ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/image_34.png",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "reverse": false,
-        "text_centered": true,
-        "title": "Puutarhakalusteet",
-        "text": "",
-        "btn_text": "Puutarhakalusteet",
-        "btn_url": "shopify:\/\/collections\/puutarhakalusteet"
+        "image": "shopify:\/\/shop_images\/77183_Sandkorn_lounge_group_Varm_Amarante_Kotte_Como_screen_77183.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "top-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     },
-    "1afc44d0-4e44-4623-b9c2-3c450e53a3b1": {
-      "type": "about-image-text",
+    "c0f6ae04-b0d1-4a9c-8cdd-6f0cf50f0671": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15666921275492__c0f6ae04-b0d1-4a9c-8cdd-6f0cf50f0671-1684252192b4e19411-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Kalusteita useammaksi kesäksi<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--15666921275492__c0f6ae04-b0d1-4a9c-8cdd-6f0cf50f0671-1684252192b4e19411-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Kaikki kalusteet puutarhaan, terassille tai parvekkeelle. Löydä laajasta puutarhakalusteiden valikoimastamme juuri sinulle sopivat kalusteet.<\/p>"
+          }
+        },
+        "template--15666921275492__c0f6ae04-b0d1-4a9c-8cdd-6f0cf50f0671-1684252192b4e19411-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Kaikki puutarhakalusteet",
+            "button_link": "shopify:\/\/collections\/puutarhakalusteet",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15666921275492__c0f6ae04-b0d1-4a9c-8cdd-6f0cf50f0671-1684252192b4e19411-0",
+        "template--15666921275492__c0f6ae04-b0d1-4a9c-8cdd-6f0cf50f0671-1684252192b4e19411-1",
+        "template--15666921275492__c0f6ae04-b0d1-4a9c-8cdd-6f0cf50f0671-1684252192b4e19411-2"
+      ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/image_34.png",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "reverse": true,
-        "text_centered": true,
-        "title": "Terassikalusteet",
-        "text": "",
-        "btn_text": "Terassikalusteet",
-        "btn_url": "shopify:\/\/collections\/terassikalusteet"
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
-    "1e743da6-64fb-43d2-bfc6-f01758b8be08": {
-      "type": "about-image-text",
+    "808b0aee-d633-47f9-8895-992f659e098f": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--15666921275492__808b0aee-d633-47f9-8895-992f659e098f-1684252586156a85ac-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Anna_Costa_screenshot_landscape_1.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Ulkosohvat",
+            "link": "shopify:\/\/collections\/ulkosohvat"
+          }
+        },
+        "template--15666921275492__808b0aee-d633-47f9-8895-992f659e098f-1684252586156a85ac-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brafab-lyra-ruokapoyta.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Puutarhapöydät ja tuolit",
+            "link": "shopify:\/\/collections\/puutarhapoydat-ja-tuolit"
+          }
+        },
+        "template--15666921275492__808b0aee-d633-47f9-8895-992f659e098f-1684252586156a85ac-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/isabella-nojatuoli-rottinki-1.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Rottinkikalusteet",
+            "link": "shopify:\/\/collections\/rottinkikalusteet"
+          }
+        },
+        "d3de6cfb-a59d-4656-a67a-c0964bcc279d": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brafab-varallo-varjo-beige.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Aurinkovarjot ja -jalat",
+            "link": "shopify:\/\/collections\/aurinkovarjot-ja-jalat"
+          }
+        },
+        "97ad1037-3b4c-4ee7-a72d-5590b55e569c": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brafab-aspen-aurinkotuoli-harmaa-musta-1.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Aurinkotuolit",
+            "link": "shopify:\/\/collections\/aurinkotuolit"
+          }
+        },
+        "892d7ebe-8370-4ec9-9e31-39ba218c307d": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/vanilla-riipputuoli.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Puutarhakeinut",
+            "link": "https:\/\/isku-stage.myshopify.com\/collections\/puutarhakeinut"
+          }
+        }
+      },
+      "block_order": [
+        "template--15666921275492__808b0aee-d633-47f9-8895-992f659e098f-1684252586156a85ac-0",
+        "template--15666921275492__808b0aee-d633-47f9-8895-992f659e098f-1684252586156a85ac-1",
+        "template--15666921275492__808b0aee-d633-47f9-8895-992f659e098f-1684252586156a85ac-2",
+        "d3de6cfb-a59d-4656-a67a-c0964bcc279d",
+        "97ad1037-3b4c-4ee7-a72d-5590b55e569c",
+        "892d7ebe-8370-4ec9-9e31-39ba218c307d"
+      ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/image_34.png",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "reverse": false,
-        "text_centered": true,
-        "title": "Rottinkikalusteet",
-        "text": "",
-        "btn_text": "Rottinkikalusteet",
-        "btn_url": "shopify:\/\/collections\/rottinkikalusteet"
-      }
-    },
-    "af3ee8e8-a716-49c9-9033-2117c7c9cc81": {
-      "type": "about-image-text",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/image_34.png",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "reverse": true,
-        "text_centered": true,
-        "title": "Aurinkovarjot ja jalat",
-        "text": "",
-        "btn_text": "Aurinkovarjot ja jalat",
-        "btn_url": "shopify:\/\/collections\/aurinkovarjot-ja-jalat"
-      }
-    },
-    "f97548d4-2ee6-4019-a0b6-1b1e3c026409": {
-      "type": "about-image-text",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/image_34.png",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "reverse": false,
-        "text_centered": true,
-        "title": "Puutarhapöydät ja tuolit",
-        "text": "",
-        "btn_text": "Puutarhapöydät ja tuolit",
-        "btn_url": "shopify:\/\/collections\/puutarhapoydat-ja-tuolit"
-      }
-    },
-    "f41be11c-20f0-4fce-a1ac-96439b175fea": {
-      "type": "about-image-text",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/image_34.png",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "reverse": true,
-        "text_centered": true,
-        "title": "Aurinkotuolit",
-        "text": "",
-        "btn_text": "Aurinkotuolit",
-        "btn_url": "shopify:\/\/collections\/aurinkotuolit"
-      }
-    },
-    "88365c8b-c982-460a-aea6-6ed7c70cace1": {
-      "type": "about-image-text",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/image_34.png",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "reverse": false,
-        "text_centered": true,
-        "title": "Polyrottinkikalusteet",
-        "text": "",
-        "btn_text": "Polyrottinkikalusteet",
-        "btn_url": "shopify:\/\/collections\/polyrottinkikalusteet"
-      }
-    },
-    "d66b3fdf-4a0d-4cc3-93ac-e303a68b2a03": {
-      "type": "about-image-text",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/image_34.png",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "reverse": true,
-        "text_centered": true,
-        "title": "Ulkosohvat",
-        "text": "",
-        "btn_text": "Ulkosohvat",
-        "btn_url": "shopify:\/\/collections\/ulkosohvat"
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
   "order": [
     "main",
-    "092bc77a-53e0-4c0c-b41c-753d7ab2a78a",
-    "1afc44d0-4e44-4623-b9c2-3c450e53a3b1",
-    "1e743da6-64fb-43d2-bfc6-f01758b8be08",
-    "af3ee8e8-a716-49c9-9033-2117c7c9cc81",
-    "f97548d4-2ee6-4019-a0b6-1b1e3c026409",
-    "f41be11c-20f0-4fce-a1ac-96439b175fea",
-    "88365c8b-c982-460a-aea6-6ed7c70cace1",
-    "d66b3fdf-4a0d-4cc3-93ac-e303a68b2a03"
+    "4e26546f-498d-4af6-9727-b0027b450550",
+    "c0f6ae04-b0d1-4a9c-8cdd-6f0cf50f0671",
+    "808b0aee-d633-47f9-8895-992f659e098f"
   ]
 }
