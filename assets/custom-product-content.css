@@ -53,7 +53,7 @@
     font-weight: 500;
     font-size: 22px;
     line-height: 150%;
-    text-transform: capitalize;
+
     color: var(--color-text-primary);
     letter-spacing: 0;
 }
@@ -110,7 +110,7 @@
     font-weight: 500;
     font-size: 18px;
     line-height: 150%;
-    text-transform: capitalize;
+
     letter-spacing: 0;
     color: var(--color-text-primary);
     flex: 1 1 100%;
@@ -161,7 +161,7 @@
     font-size: 20px;
     line-height: 20px;
     letter-spacing: 0;
-    text-transform: capitalize;
+
     color: var(--color-text-primary);
     flex: 1;
     max-width: 50px;
@@ -223,7 +223,7 @@
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0;
-    text-transform: capitalize;
+
     color: var(--color-text-primary);
     position: relative;
 }
