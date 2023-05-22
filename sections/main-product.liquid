@@ -325,6 +325,12 @@
                          alt="{{ section.settings.manufacture_finland.alt }}">
                   </div>
                 {% endif %}
+                {% if product.metafields.custom.manufacture_flagfield == true %}
+                  <div class="wishlist-manufacturer">
+                    <img class="wishlist-manufacturer-img" src="{{ section.settings.manufacture_finland_3 | img_url: "master" }}"
+                         alt="{{ section.settings.manufacture_finland_3.alt }}">
+                  </div>
+                {% endif %}
               </div>
             {%- when 'delivery-info' -%}
               {% render 'delivery-info-block', block: block, product: product %}
@@ -1818,6 +1824,11 @@
       "type": "image_picker",
       "id": "manufacture_finland",
       "label": "Manufacture (finland)"
+    },
+    {
+      "type": "image_picker",
+      "id": "manufacture_finland_3",
+      "label": "Manufacture (flagfield)"
     },
     {
       "type": "header",
