@@ -468,14 +468,14 @@
   "shopify": {
     "checkout": {
       "delivery_options": {
-        "pick_up_in_one_hour": " ",
-        "pick_up_in_two_hours": " ",
-        "pick_up_in_four_hours": " ",
-        "pick_up_in_twenty_four_hours": " ",
-        "pick_up_in_two_to_four_days": " ",
-        "pick_up_in_five_or_more_days": " ",
-        "pick_up_in_zero_to_two_hours": " ",
-        "pick_up_in_two_to_four_hours": " "
+        "pick_up_in_one_hour": "1",
+        "pick_up_in_two_hours": " 1",
+        "pick_up_in_four_hours": " 1",
+        "pick_up_in_twenty_four_hours": " 1",
+        "pick_up_in_two_to_four_days": " 1",
+        "pick_up_in_five_or_more_days": "1 ",
+        "pick_up_in_zero_to_two_hours": "1 ",
+        "pick_up_in_two_to_four_hours": " 1"
       }
     }
   }
