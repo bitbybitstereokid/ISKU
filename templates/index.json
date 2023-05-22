@@ -395,6 +395,7 @@
     },
     "3abcb0f4-2f21-4c2c-8a03-e4c026e3c75c": {
       "type": "hero-banner-half",
+      "disabled": true,
       "settings": {
         "text_align": "left",
         "image_position": "left",
