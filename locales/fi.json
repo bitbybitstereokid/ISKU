@@ -55,6 +55,16 @@
       "next_slide": "Liu'uta oikealle",
       "previous_slide": "Liu'uta vasemmalle",
       "name": "Liukusäädin"
+    },
+    "contact_form": {
+      "first_name": "Nimi*",
+      "company_email": "Email*",
+      "phone": "Puhelin*",
+      "tell": "Viesti*",
+      "submit": "Lähetä",
+      "how": "Aihe*",
+      "chose": "Valitse*",
+      "success": "Email lähetetty"
     }
   },
   "newsletter": {
