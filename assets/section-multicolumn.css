@@ -199,7 +199,16 @@
   position: relative;
   box-sizing: border-box;
 }
-
+.multicolumn-card__image-wrapper .media{
+  overflow: hidden;
+}
+.multicolumn-card__image-wrapper .media > img{
+  transition: all .2s linear ;
+}
+.multicolumn-card__image-wrapper .media:hover > img{
+  transition: all .2s linear ;
+  transform: scale(1.1);
+}
 .multicolumn-card > .multicolumn-card__image-wrapper--full-width:not(.multicolumn-card-spacing) {
   border-top-left-radius: calc(var(--text-boxes-radius) - var(--text-boxes-border-width));
   border-top-right-radius: calc(var(--text-boxes-radius) - var(--text-boxes-border-width));

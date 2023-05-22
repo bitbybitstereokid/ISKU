@@ -843,7 +843,8 @@ class VariantSelects extends HTMLElement {
     this.updatePickupAvailability();
     this.removeErrorMessage();
     this.updateVariantStatuses();
-
+    let variantPrice = this.currentVariant.price / 100
+    document.dispatchEvent(new CustomEvent("svea-partpayment-calculator-update-price", { "detail": { "price": `${variantPrice}` } }));
     if (!this.currentVariant) {
       this.toggleAddButton(true, '', true);
       this.setUnavailable();
