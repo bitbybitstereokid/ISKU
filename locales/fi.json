@@ -464,5 +464,13 @@
       "copy_code_success": "Koodin kopioiminen onnistui",
       "print_gift_card": "Tulosta"
     }
+  },
+  "shopify": {
+    "checkout": {
+      "delivery_options": {
+        "ship": "Toimitus",
+        "pick_up": "Nouto"
+      }
+    }
   }
 }
