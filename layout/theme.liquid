@@ -340,6 +340,13 @@
 {% if content_for_header contains 'fastbundle.co' %}
     {% render 'fast_bundle_service' %}
 {% endif %}
+<style>
+/* Hide Pickup Availability */
+.template-index .pickup-availability,
+.template-product .pickup-availability {
+  display: none !important;
+}
+</style>
 
 </head>
 
