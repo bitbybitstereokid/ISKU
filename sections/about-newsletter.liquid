@@ -54,7 +54,7 @@
             {%- if form.errors -%}
                 <small class="about-newsletter-form__message">
                 {%- render 'icon-error' -%}
-                {{- form.errors.translated_fields.email | capitalize }}
+                {{- form.errors.translated_fields.email }}
                 {{ form.errors.messages.email -}}
                 </small>
             {%- endif -%}

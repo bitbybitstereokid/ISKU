@@ -41,7 +41,7 @@
               {{ form.errors.messages[field] }}
             {%- else -%}
               <a href="#RegisterForm-{{ field }}">
-                {{ form.errors.translated_fields[field] | capitalize }}
+                {{ form.errors.translated_fields[field]  }}
                 {{ form.errors.messages[field] }}
               </a>
             {%- endif -%}
@@ -106,7 +106,7 @@
         <svg aria-hidden="true" focusable="false">
           <use href="#icon-error" />
         </svg>
-        {{ form.errors.translated_fields.email | capitalize }}
+        {{ form.errors.translated_fields.email }}
         {{ form.errors.messages.email }}.
       </span>
     {%- endif -%}
@@ -131,7 +131,7 @@
         <svg aria-hidden="true" focusable="false">
           <use href="#icon-error" />
         </svg>
-        {{ form.errors.translated_fields.password | capitalize }}
+        {{ form.errors.translated_fields.password }}
         {{ form.errors.messages.password }}.
       </span>
     {%- endif -%}

@@ -39,7 +39,7 @@
         <ul class="form-status-list caption-large" role="list">
           <li>
             <a href="#ContactForm-email" class="link">
-              {{ form.errors.translated_fields.email | capitalize }}
+              {{ form.errors.translated_fields.email  }}
               {{ form.errors.messages.email }}
             </a>
           </li>
@@ -84,7 +84,7 @@
               <span class="visually-hidden">{{ 'accessibility.error' | t }}</span>
               <span class="form__message">
                 {%- render 'icon-error' -%}
-                {{- form.errors.translated_fields.email | capitalize }}
+                {{- form.errors.translated_fields.email  }}
                 {{ form.errors.messages.email -}}
               </span>
             </small>
