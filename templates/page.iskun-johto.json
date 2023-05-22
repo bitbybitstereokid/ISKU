@@ -206,7 +206,7 @@
             "image": "shopify:\/\/shop_images\/JPG_Pieni_Satu_Miettinen_200121_grey.jpg",
             "title": "Satu Miettinen",
             "text": "<p>Aluejohtaja, Eteläinen Suomi<\/p><p>040 710 8699<\/p>",
-            "link_label": "satu.miettinen@isku.com",
+            "link_label": "Email",
             "link": "mailto:satu.miettinen@isku.com"
           }
         },
@@ -216,7 +216,7 @@
             "image": "shopify:\/\/shop_images\/JPG_Pieni_Ilkka_Ylilauri_09072020_grey.jpg",
             "title": "Ilkka Ylilauri",
             "text": "<p>Aluejohtaja, Pohjoinen Suomi<\/p><p>040 59 62 688<\/p>",
-            "link_label": "ilkka.ylilauri@isku.com",
+            "link_label": "Email",
             "link": "mailto:ilkka.ylilauri@isku.com"
           }
         },
@@ -226,7 +226,7 @@
             "image": "shopify:\/\/shop_images\/Teemu_Heikura.jpg",
             "title": "Teemu Heikura",
             "text": "<p>Asiakkuusjohtaja (valtio- ja kuntasektori)<\/p><p>044 386 3002<\/p>",
-            "link_label": "teemu.heikura@isku.com",
+            "link_label": "Email",
             "link": "mailto:teemu.heikura@isku.com"
           }
         },
@@ -236,7 +236,7 @@
             "image": "shopify:\/\/shop_images\/Marko_Kattilakoski_261015_ID.jpg",
             "title": "Marko Kattilakoski",
             "text": "<p>Valikoimajohtaja<\/p><p>040 7217 319<\/p>",
-            "link_label": "marko.kattilakoski@isku.com",
+            "link_label": "Email",
             "link": "mailto:marko.kattilakoski@isku.com"
           }
         },
@@ -246,7 +246,7 @@
             "image": "shopify:\/\/shop_images\/Mona_Auervuolle_090119_E-mail__800x800_9d89686f-f1f9-406d-8009-1d4c1381bd26.jpg",
             "title": "Mona Auervuolle",
             "text": "<p>Viestintä- ja markkinointipäällikkö<\/p><p>050 563 2130<\/p>",
-            "link_label": "mona.auervuolle@isku.com",
+            "link_label": "Email",
             "link": "mailto:mona.auervuolle@isku.com"
           }
         }
@@ -263,7 +263,7 @@
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 3,
+        "columns_desktop": 4,
         "column_alignment": "left",
         "background_style": "primary",
         "button_label": "",
