@@ -113,6 +113,25 @@
     top: 0;
 }
 
+.cart-drawer__footer .totals__subtotal-value{
+    margin: 0;
+    width: 100%;
+}
+
+.cart-drawer__footer .totals{
+    position: relative;
+}
+
+.cart-drawer .totals__subtotal{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.csapp_aiod_coupan{
+    width: 100%;
+}
+
 .csapp_aiod_coupan{
     width: 100%;
 }
