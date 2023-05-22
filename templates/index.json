@@ -345,6 +345,7 @@
     },
     "c8acecc1-e53e-43a2-9708-51112c7d2ff1": {
       "type": "home-page-subscribe",
+      "disabled": true,
       "settings": {
         "padding_top": 50,
         "padding_bottom": 0,
