@@ -6,10 +6,10 @@
         "c2d11906-9a42-4ce1-b13b-37495790ff47": {
           "type": "slider",
           "settings": {
-            "title": "Terassikauden avajaiset",
-            "content": "Toivota kesä tervetulleeksi ISKUn Terassikauden avajaisissa. |Laaja valikoima upeita kesäkalusteita sekä muita suosikkituotteita huippuhintaan!",
-            "button": "Puutarhakalusteet",
-            "button_url": "shopify:\/\/collections\/puutarhakalusteet",
+            "title": "Kaikki tuotteet -20% | Löytöjä jopa -40%",
+            "content": "",
+            "button": "Kaikki tuotteet",
+            "button_url": "shopify:\/\/collections\/all",
             "button_style": "primary-btn",
             "image": "shopify:\/\/shop_images\/Puutarhakalusteet_030621_098-1-min-scaled-min_1.jpg",
             "image_mobile": "shopify:\/\/shop_images\/Brafab_miljoo_Sandkorn_Varm_Amarante_Kotte_Como.jpg"
