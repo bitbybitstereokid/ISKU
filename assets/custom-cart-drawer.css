@@ -269,7 +269,7 @@ cart-remove-button .button {
     font-weight: 500;
     font-size: 18px;
     line-height: 150%;
-    text-transform: capitalize;
+
     color: var(--color-text-primary);
     letter-spacing: 0;
 }
