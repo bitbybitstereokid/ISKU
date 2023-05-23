@@ -128,7 +128,7 @@
           "type": "heading",
           "settings": {
             "heading": "ISKUn kotimaiset sohvat",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         },
         "template--15630143488100__5f0c8d33-18ad-47af-bba3-33f73d6a9f92-1684828000416c087a-2": {
@@ -162,6 +162,7 @@
     },
     "de0f6296-9452-488f-a982-a31b8b396fff": {
       "type": "hero-banner-secondary",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/homepage1.jpg",
         "title": "ISKUn Kotimaiset Sohvat",
