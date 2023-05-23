@@ -121,48 +121,8 @@
         "text_color": "#ffffff"
       }
     },
-    "5f0c8d33-18ad-47af-bba3-33f73d6a9f92": {
-      "type": "image-banner",
-      "blocks": {
-        "template--15630143488100__5f0c8d33-18ad-47af-bba3-33f73d6a9f92-1684828000416c087a-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "ISKUn kotimaiset sohvat",
-            "heading_size": "h2"
-          }
-        },
-        "template--15630143488100__5f0c8d33-18ad-47af-bba3-33f73d6a9f92-1684828000416c087a-2": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Lue lisää tästä",
-            "button_link_1": "shopify:\/\/pages\/iskun-kotimaiset-sohvat",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--15630143488100__5f0c8d33-18ad-47af-bba3-33f73d6a9f92-1684828000416c087a-0",
-        "template--15630143488100__5f0c8d33-18ad-47af-bba3-33f73d6a9f92-1684828000416c087a-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/homepage1.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "desktop_content_position": "top-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
     "de0f6296-9452-488f-a982-a31b8b396fff": {
       "type": "hero-banner-secondary",
-      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/homepage1.jpg",
         "title": "ISKUn Kotimaiset Sohvat",
@@ -460,7 +420,6 @@
     "468448b2-8437-4b13-89c7-cf60342c62ae",
     "165ada33-7568-45ff-a3ed-4d70620bfee3",
     "5ffa3993-f36e-4b26-a08a-60dd72c4d9be",
-    "5f0c8d33-18ad-47af-bba3-33f73d6a9f92",
     "de0f6296-9452-488f-a982-a31b8b396fff",
     "24f39b0f-ddeb-4fe4-b950-1ff47944f981",
     "a62c2669-6545-452b-8c54-de617831aae4",
