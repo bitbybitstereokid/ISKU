@@ -28,8 +28,7 @@
 
 .hero-banner-half__title {
     width: 100%;
-    /*font-family: var(--font-body-family);*/
-    font-family: 'itcmedium', sans-serif;
+    font-family: var(--font-body-family);
     font-style: normal;
     font-weight: 500;
     font-size: 30px;
