@@ -13,6 +13,7 @@
       "blocks": {
         "template--15666921111652__9ad368f3-97bb-4c42-b959-36f26be299c1-1684252064d794e204-0": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "Kaikki kalusteet olohuoneeseen",
             "heading_size": "h1"
@@ -47,7 +48,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/Nimeton_malli_9.png",
         "image_overlay_opacity": 0,
-        "image_height": "medium",
+        "image_height": "adapt",
         "desktop_content_position": "top-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
