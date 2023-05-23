@@ -8,22 +8,72 @@
         "padding_bottom": 50,
         "reverse": false,
         "text_centered": false,
-        "title": "Vastuullisuus ISKUssa",
-        "text": "<p>ISKUlla vastuullisuustyössä on vahvat perusrakenteet, johon jokapäiväinen työmme nojaa, ja jonka avulla toimintaa kehitetään pitkäjänteisesti. Vastuullisuuden perusrakenne muodostuu konsernin johtamisperiaatteista (arvot, missio, visio ja strategia), sertifioiduista johtamisjärjestelmistä <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0555\/2809\/5844\/files\/Isku-Yhtym___Oy_ISO_9001_FIN.pdf?v=1684169097\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0555\/2809\/5844\/files\/Isku-Yhtym___Oy_ISO_9001_FIN.pdf?v=1684169097\">ISO 9001<\/a> -standardin mukainen laadun johtamisjärjestelmä, <a href=\"https:\/\/downloads.contentful.com\/ggux5mnyo7k1\/gqAVTzPVPVdcrT82K9gq8\/e75d2a6a704323537bd9bfe0b3eeab0d\/Isku-Yhtym___Oy_ISO_14001_FIN.pdf\" target=\"_blank\">ISO 14 001<\/a>, <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0555\/2809\/5844\/files\/Isku-Yhtym___Oy_ISO_45001_FIN.pdf?v=1684169207\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0555\/2809\/5844\/files\/Isku-Yhtym___Oy_ISO_45001_FIN.pdf?v=1684169207\">ISO 45001<\/a>-standardin mukainen työterveys- ja turvallisuusjärjestelmä sekä <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0555\/2809\/5844\/files\/Isku_Interior_Oy_pefc_fin_2018.pdf?v=1684169261\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0555\/2809\/5844\/files\/Isku_Interior_Oy_pefc_fin_2018.pdf?v=1684169261\">PEFC<\/a>-standardin mukainen puun alkuperän seurantajärjestelmä), <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0555\/2809\/5844\/files\/Isku_yhtioiden_vastuullisen_liiketoiminnan_toimintaohje_code_of_conduct.pdf?v=1684169311\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0555\/2809\/5844\/files\/Isku_yhtioiden_vastuullisen_liiketoiminnan_toimintaohje_code_of_conduct.pdf?v=1684169311\">ISKU Code of Conduct<\/a>:sta (Code of conductissa sitoudumme noudattamaa kaikkia toimintaan liittyviä lakeja ja säädöksiä kaikissa maissa, joissa toimimme), <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0555\/2809\/5844\/files\/ISKUn_toimittajien_eettiset_toimintaohjeet.pdf?v=1684169355\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0555\/2809\/5844\/files\/ISKUn_toimittajien_eettiset_toimintaohjeet.pdf?v=1684169355\">ISKUn toimittajien eettisistä toimintaohjeista<\/a> sekä YK:n jäsenmaiden sopimista kestävän kehityksen tavoitteista.<\/p><p>ISKUlla on myös <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0555\/2809\/5844\/files\/Laatupolitiikka-ISKU.pdf?v=1684169408\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0555\/2809\/5844\/files\/Laatupolitiikka-ISKU.pdf?v=1684169408\">laatu-<\/a>, <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0555\/2809\/5844\/files\/Ymp__rist__politiikka-ISKU.pdf?v=1684169456\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0555\/2809\/5844\/files\/Ymp__rist__politiikka-ISKU.pdf?v=1684169456\">ympäristö-<\/a> sekä <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0555\/2809\/5844\/files\/Ty__terveys-ja-turvallisuuspolitiikka-ISKU.pdf?v=1684169507\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0555\/2809\/5844\/files\/Ty__terveys-ja-turvallisuuspolitiikka-ISKU.pdf?v=1684169507\">työterveys- ja turvallisuuspolitiikka.<\/a><\/p>",
+        "title": "Hiilijalanjälkilaskelmat kolmannen osapuolen laskemana",
+        "text": "<p>ISKU on vastuullisuuden edelläkävijä ja suunnannäyttäjä. Panostimme hiilijalanjäljen laskentaan ja halusimme tehdä sen avoimesti kolmannen osapuolen laskemana. Valitsimme kumppaniksemme Green Carbon:n. Haluamme tarjota asiakkaillemme luotettavia kolmannen osapuolen laskemia hiilijalanjälkilaskelmia, jotka pohjautuvat luotettaviin standardeihin. Laskimme koko toimintamme hiilijalanjäljen sekä tuotekohtaisia hiilijalanjälkilaskelmia.<\/p>",
         "btn_text": "",
         "btn_url": ""
+      }
+    },
+    "b8f162b3-6e06-43f0-a83b-0c12af38e336": {
+      "type": "image-banner",
+      "blocks": {
+        "template--18999356457304__b8f162b3-6e06-43f0-a83b-0c12af38e336-16848124396dd569cf-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "template--18999356457304__b8f162b3-6e06-43f0-a83b-0c12af38e336-16848124396dd569cf-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--18999356457304__b8f162b3-6e06-43f0-a83b-0c12af38e336-16848124396dd569cf-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--18999356457304__b8f162b3-6e06-43f0-a83b-0c12af38e336-16848124396dd569cf-0",
+        "template--18999356457304__b8f162b3-6e06-43f0-a83b-0c12af38e336-16848124396dd569cf-1",
+        "template--18999356457304__b8f162b3-6e06-43f0-a83b-0c12af38e336-16848124396dd569cf-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/OG-ISKUn-toiminnan-hiilijalanjalki.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     },
     "cf9a212e-69c0-4fb6-badc-e31720078c6e": {
       "type": "about-image-text",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Rectangle_44.jpg",
+        "image": "shopify:\/\/shop_images\/C-aurinkovoima_1c0a254e-3c06-46e9-b953-146cf76ddb5e.jpg",
         "padding_top": 50,
         "padding_bottom": 100,
         "reverse": true,
         "text_centered": false,
-        "title": "Kestävän kehityksen tavoiteohjelma",
-        "text": "<p>YK:n jäsenmaiden sopima kestävän kehityksen tavoiteohjelma tähtää äärimmäisen köyhyyden poistamiseen sekä kestävään kehitykseen, jossa otetaan ympäristö, talous ja ihminen tasavertaisesti huomioon. Kestävän kehityksen tavoitteita on yhteensä 17. Kaikki kestävän kehityksen tavoitteet ovat tärkeitä ja linkittyvät tiiviisti toisiinsa: yhtäkään tavoitetta ei voi tavoitella toisen kustannuksella. ISKU valitsi neljä tärkeintä tavoitetta, johon toiminnallamme panostimme vuonna 2020:<\/p><p>3: Terveyttä ja hyvinvointia<br\/>9: Kestävää teollisuutta, innovaatioita ja infrastuktuureja<br\/>12: Vastuullista kuluttamista<br\/>17: Yhteistyö ja kumppanuus<\/p>",
+        "title": "Toiminnan hiilijalanjälki antaa suunnan matkalle kohti hiilineutraaliutta",
+        "text": "<p>ISKUn vastuullisuustavoitteena oli selvittää vuoden 2021 koko toiminnan hiilijalanjälki ulkopuolisen puolueettoman laskenta-asiantuntijan toimesta ja luotettavan standardin mukaisesti.<\/p><p>Yrityksen päästölähteet luokitellaan kolmeen eri kategoriaan (scope 1, 2 ja 3). ISKUn hiilijalanjälki oli vuonna 2021 yhteensä 11471,2 t CO2e.<\/p>",
         "btn_text": "",
         "btn_url": ""
       }
@@ -31,13 +81,13 @@
     "3307a6af-c522-423b-8c9e-4a877abcc3de": {
       "type": "about-image-text",
       "settings": {
-        "image": "shopify:\/\/shop_images\/IT-Kaisa-Vuori.jpg",
+        "image": "shopify:\/\/shop_images\/IT-ompelijat.jpg",
         "padding_top": 100,
         "padding_bottom": 50,
         "reverse": false,
         "text_centered": false,
-        "title": "Vastuullisuus on tekoja",
-        "text": "<p>\"Vastuullinen ajattelu ei kanna kauas, vastuulliset teot kantavat. Meille ISKUssa vastuullisuus on aina ollut tekoja. Listasimme vastuullisuustekojamme, joita olemme viime vuosien aikana tehneet\", vastuullisuusjohtajamme Kaisa Vuori sanoo.<\/p>",
+        "title": "Huomioita laskennan tuloksista",
+        "text": "<p>ISKUn ympäristövastuun perustana ovat asiakkaiden ja sidosryhmien odotuksiin vastaaminen sekä ympäristö-määräyksien ja -lainsäädännön antamien vaatimuksien selkeä ylittäminen.<\/p><p>Käymme vuoden 2022 aikana kategoriakohtaisesti läpi jäljellä olevat hiilijalanjäljen päästövähennysmahdollisuudet. Ilmastotiekartan avulla rakennetaan ISKUn polku kohti hiilineutraaliutta ja asetetaan sille konkreettiset tieteeseen pohjautuvat tavoitteet.<\/p>",
         "btn_text": "",
         "btn_url": ""
       }
@@ -53,68 +103,154 @@
         "btn_text": "Subscribe"
       }
     },
-    "fa90c777-109f-4ada-89d3-c4e7ba4acf3c": {
-      "type": "multicolumn",
+    "ff9a8385-37d5-46fe-9ca7-b12d91603625": {
+      "type": "image-banner",
       "blocks": {
-        "template--18960408117592__fa90c777-109f-4ada-89d3-c4e7ba4acf3c-1684169800ae4304ac-0": {
-          "type": "column",
+        "template--18999356457304__ff9a8385-37d5-46fe-9ca7-b12d91603625-16848124396dd569cf-0": {
+          "type": "heading",
+          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/C-aurinkovoima.jpg",
-            "title": "Ympäristövastuu",
-            "text": "<p>Vastuullinen toiminta ei vaadi ympäristölupaa. Meillä ympäristöasioiden huomioiminen on osa jokaisen työntekijän rutiineja.<\/p>",
-            "link_label": "",
-            "link": ""
+            "heading": "Image banner",
+            "heading_size": "h1"
           }
         },
-        "template--18960408117592__fa90c777-109f-4ada-89d3-c4e7ba4acf3c-1684169800ae4304ac-1": {
-          "type": "column",
+        "template--18999356457304__ff9a8385-37d5-46fe-9ca7-b12d91603625-16848124396dd569cf-1": {
+          "type": "text",
+          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/C-tyonantajamielikuva.jpg",
-            "title": "Sosiaalinen vastuu",
-            "text": "<p>Kannamme vastuun työntekijöidemme hyvinvoinnista. Innostuneet ja motivoituneet työntekijät ovat menestyksemme perusta.<\/p>",
-            "link_label": "",
-            "link": ""
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
           }
         },
-        "template--18960408117592__fa90c777-109f-4ada-89d3-c4e7ba4acf3c-1684169800ae4304ac-2": {
-          "type": "column",
+        "template--18999356457304__ff9a8385-37d5-46fe-9ca7-b12d91603625-16848124396dd569cf-2": {
+          "type": "buttons",
+          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/C-kyselyt.jpg",
-            "title": "Hyvä hallintotapa",
-            "text": "<p>Haluamme investoida kotimaahan ja kasvaa sekä kehittyä kannattavasti. Pysymme kotimaisena yrityksenä, joka kansainvälistyy vastuullisesti.<\/p>",
-            "link_label": "",
-            "link": ""
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "template--18960408117592__fa90c777-109f-4ada-89d3-c4e7ba4acf3c-1684169800ae4304ac-0",
-        "template--18960408117592__fa90c777-109f-4ada-89d3-c4e7ba4acf3c-1684169800ae4304ac-1",
-        "template--18960408117592__fa90c777-109f-4ada-89d3-c4e7ba4acf3c-1684169800ae4304ac-2"
+        "template--18999356457304__ff9a8385-37d5-46fe-9ca7-b12d91603625-16848124396dd569cf-0",
+        "template--18999356457304__ff9a8385-37d5-46fe-9ca7-b12d91603625-16848124396dd569cf-1",
+        "template--18999356457304__ff9a8385-37d5-46fe-9ca7-b12d91603625-16848124396dd569cf-2"
       ],
       "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
+        "image": "shopify:\/\/shop_images\/IT-tuotekohtainen.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
         "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "1eba46b9-f5bb-4209-ab98-19863015e4c0": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18999356457304__1eba46b9-f5bb-4209-ab98-19863015e4c0-1684811923343459ca-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<h3>Tuotekohtainen hiilijalanjälkilaskenta haastaa pohtimaan materiaalivalintoja<\/h3>",
+            "heading_size": "h1"
+          }
+        },
+        "template--18999356457304__1eba46b9-f5bb-4209-ab98-19863015e4c0-1684811923343459ca-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>ISKUn vuoden 2021 tavoitteena oli tehdä tuotekohtaisia hiilijalanjälkilaskelmia auttamaan asiakkaita ilmastoystävällisempiin valintoihin. Tuotteen hiilijalanjäljen laskennan tulee kattaa tuotteen koko elinkaaren aikana aiheutuvat päästöt.<\/p><p>ISKUn kalusteiden hiilijalanjälkeen vaikuttaa merkittävimmin käytetyt materiaalit: määrä ja niiden hiilijalanjälkikerroin.<\/p>"
+          }
+        },
+        "template--18999356457304__1eba46b9-f5bb-4209-ab98-19863015e4c0-1684811923343459ca-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--18999356457304__1eba46b9-f5bb-4209-ab98-19863015e4c0-1684811923343459ca-0",
+        "template--18999356457304__1eba46b9-f5bb-4209-ab98-19863015e4c0-1684811923343459ca-1",
+        "template--18999356457304__1eba46b9-f5bb-4209-ab98-19863015e4c0-1684811923343459ca-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "0801cba5-4f25-469e-a833-1e0e1c6e6f98": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/IT-tuotekortit.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "55c48255-08f3-4e6b-9c35-e584e0d96a9e": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18999356457304__55c48255-08f3-4e6b-9c35-e584e0d96a9e-1684811923343459ca-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<h2>Tuotekohtaisen hiilijalanjälkilaskennan tuotekortit<\/h2>",
+            "heading_size": "h1"
+          }
+        },
+        "template--18999356457304__55c48255-08f3-4e6b-9c35-e584e0d96a9e-1684811923343459ca-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>ISKUn tuotekohtainen laskenta on suoritettu SFS-EN ISO 14067:2018 Greenhouse gases – Carbon footprint of products – Requirements and guidelines for quantification -standardin mukaan.<\/p><p>Kaikista ISKUn tuotekohtaisessa laskennassa mukana olleista tuotteista on tehty tuotekortit, jotka sisältävät tuotteen perustiedot (nimi, tyyppi, tuotenumero), päästöt rajauksilla Cradle-to-Gate ja Cradle-to-Grave, käytetyt materiaalit ja niiden määrät, tuotteen paino, päästöjen jakautuminen, kangasmateriaalivaihtoehdot ja niiden päästövaikutukset, sekä kierrätysohjeet.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18999356457304__55c48255-08f3-4e6b-9c35-e584e0d96a9e-1684811923343459ca-0",
+        "template--18999356457304__55c48255-08f3-4e6b-9c35-e584e0d96a9e-1684811923343459ca-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     }
   },
   "order": [
     "main",
+    "b8f162b3-6e06-43f0-a83b-0c12af38e336",
     "cf9a212e-69c0-4fb6-badc-e31720078c6e",
     "3307a6af-c522-423b-8c9e-4a877abcc3de",
     "c3648cfd-de5e-45c2-91c9-198e9c48f2f1",
-    "fa90c777-109f-4ada-89d3-c4e7ba4acf3c"
+    "ff9a8385-37d5-46fe-9ca7-b12d91603625",
+    "1eba46b9-f5bb-4209-ab98-19863015e4c0",
+    "0801cba5-4f25-469e-a833-1e0e1c6e6f98",
+    "55c48255-08f3-4e6b-9c35-e584e0d96a9e"
   ]
 }
