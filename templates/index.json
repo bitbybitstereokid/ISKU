@@ -39,6 +39,17 @@
         "content_color": "#ffffff"
       }
     },
+    "7a771396-aaf4-400c-999c-cf4eb217859d": {
+      "type": "about-product-slider",
+      "settings": {
+        "title": "Suosikit puutarhaan ja terassille",
+        "collection": "viikon-suosikit",
+        "padding_top": 5,
+        "padding_bottom": 5,
+        "padding_top_mobile": 5,
+        "padding_bottom_mobile": 80
+      }
+    },
     "165ada33-7568-45ff-a3ed-4d70620bfee3": {
       "type": "collections-grid",
       "blocks": {
@@ -414,21 +425,11 @@
         "bg_color": "#0f4880",
         "text_color": "#ffffff"
       }
-    },
-    "7a771396-aaf4-400c-999c-cf4eb217859d": {
-      "type": "about-product-slider",
-      "settings": {
-        "title": "Suosikit puutarhaan ja terassille",
-        "collection": "viikon-suosikit",
-        "padding_top": 5,
-        "padding_bottom": 5,
-        "padding_top_mobile": 5,
-        "padding_bottom_mobile": 80
-      }
     }
   },
   "order": [
     "468448b2-8437-4b13-89c7-cf60342c62ae",
+    "7a771396-aaf4-400c-999c-cf4eb217859d",
     "165ada33-7568-45ff-a3ed-4d70620bfee3",
     "5ffa3993-f36e-4b26-a08a-60dd72c4d9be",
     "de0f6296-9452-488f-a982-a31b8b396fff",
@@ -444,7 +445,6 @@
     "feb9c2fd-6386-484f-903f-7acd018a6e98",
     "c8acecc1-e53e-43a2-9708-51112c7d2ff1",
     "72599099-35e9-4513-bd8c-5323b6f189e2",
-    "3abcb0f4-2f21-4c2c-8a03-e4c026e3c75c",
-    "7a771396-aaf4-400c-999c-cf4eb217859d"
+    "3abcb0f4-2f21-4c2c-8a03-e4c026e3c75c"
   ]
 }
