@@ -475,6 +475,9 @@
         "back_to_contact_information": "Palaa yhteystietoihin",
         "back_to_shipping_method": "Palaa toimitustavan valintaan",
         "back_to_payment_method": "Palaa maksutavan valintaan"
+      },
+      "order_summary": {
+        "sale_price": "Ale"
       }
     }
   }
