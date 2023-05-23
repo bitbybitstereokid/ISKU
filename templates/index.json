@@ -39,15 +39,31 @@
         "content_color": "#ffffff"
       }
     },
-    "7a771396-aaf4-400c-999c-cf4eb217859d": {
-      "type": "about-product-slider",
+    "7afba2d3-d985-4d50-9730-69ffe8de69b8": {
+      "type": "featured-collection",
       "settings": {
-        "title": "Suosikit puutarhaan ja terassille",
+        "title": "Suosikit pihaan ja terassille",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
         "collection": "viikon-suosikit",
-        "padding_top": 5,
-        "padding_bottom": 5,
-        "padding_top_mobile": 5,
-        "padding_bottom_mobile": 80
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "165ada33-7568-45ff-a3ed-4d70620bfee3": {
@@ -429,7 +445,7 @@
   },
   "order": [
     "468448b2-8437-4b13-89c7-cf60342c62ae",
-    "7a771396-aaf4-400c-999c-cf4eb217859d",
+    "7afba2d3-d985-4d50-9730-69ffe8de69b8",
     "165ada33-7568-45ff-a3ed-4d70620bfee3",
     "5ffa3993-f36e-4b26-a08a-60dd72c4d9be",
     "de0f6296-9452-488f-a982-a31b8b396fff",
