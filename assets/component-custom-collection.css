@@ -204,6 +204,8 @@
     text-decoration: none;
     color: var(--color-text-accent);
     transition: 500ms ease-in-out;
+
+    border-radius: 5px;
 }
 
 .card--hover__href a:hover{

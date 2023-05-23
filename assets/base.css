@@ -1381,6 +1381,7 @@ button.shopify-payment-button__button--unbranded {
   -webkit-appearance: none;
   appearance: none;
   background-color: rgba(var(--color-button), var(--alpha-button-background));
+  border-radius: 5px;
 }
 
 .button:before,
@@ -1396,7 +1397,7 @@ button.shopify-payment-button__button--unbranded {
   bottom: 0;
   left: 0;
   z-index: -1;
-  border-radius: var(--buttons-radius-outset);
+  border-radius: 5px;
   box-shadow: var(--shadow-horizontal-offset) var(--shadow-vertical-offset) var(--shadow-blur-radius) rgba(var(--color-shadow), var(--shadow-opacity));
 }
 
@@ -1411,7 +1412,7 @@ button.shopify-payment-button__button--unbranded {
   bottom: var(--buttons-border-width);
   left: var(--buttons-border-width);
   z-index: 1;
-  border-radius: var(--buttons-radius);
+  border-radius: 5px;
   box-shadow: 0 0 0 calc(var(--buttons-border-width) + var(--border-offset)) rgba(var(--color-button-text), var(--border-opacity)),
     0 0 0 var(--buttons-border-width) rgba(var(--color-button), var(--alpha-button-background));
   transition: box-shadow var(--duration-short) ease;
@@ -3114,6 +3115,8 @@ details-disclosure > details {
   text-transform: uppercase;
   color: var(--color-text-accent);
   transition: .2s ease-in-out;
+
+  border-radius: 5px;
 }
 
 .primary-btn:hover,
@@ -3139,6 +3142,8 @@ details-disclosure > details {
   text-transform: uppercase;
   color: var(--color-accent-2);
   transition: .2s ease-in-out;
+
+  border-radius: 5px;
 }
 
 #preview-bar-iframe {
