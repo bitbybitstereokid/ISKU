@@ -196,6 +196,7 @@
         "1882f264-a609-4991-995b-058b9ace01cc": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Rosswood-lipasto_2.png",
             "title": "",
             "text": "",
             "link_label": "Hyllyt",
@@ -225,6 +226,7 @@
         "363cbfc5-c7d1-429d-b2af-85ebb2bff417": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Tyopoyta_2_1.png",
             "title": "",
             "text": "",
             "link_label": "Tv-tasot",
