@@ -56,7 +56,6 @@
 }
 .blog_preview_articles_item_title{
     color: var(--color-text-primary);
-    font-family: itcmedium, sans-serif;
     font-size: 16px;
     line-height: 19px;
     margin: 0 0 15px 0;
