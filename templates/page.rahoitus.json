@@ -8,8 +8,8 @@
         "padding_bottom": 50,
         "reverse": false,
         "text_centered": false,
-        "title": "Vastuullisuus ISKUssa",
-        "text": "<p>ISKUlla vastuullisuustyössä on vahvat perusrakenteet, johon jokapäiväinen työmme nojaa, ja jonka avulla toimintaa kehitetään pitkäjänteisesti. Vastuullisuuden perusrakenne muodostuu konsernin johtamisperiaatteista (arvot, missio, visio ja strategia), sertifioiduista johtamisjärjestelmistä <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0555\/2809\/5844\/files\/Isku-Yhtym___Oy_ISO_9001_FIN.pdf?v=1684169097\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0555\/2809\/5844\/files\/Isku-Yhtym___Oy_ISO_9001_FIN.pdf?v=1684169097\">ISO 9001<\/a> -standardin mukainen laadun johtamisjärjestelmä, <a href=\"https:\/\/downloads.contentful.com\/ggux5mnyo7k1\/gqAVTzPVPVdcrT82K9gq8\/e75d2a6a704323537bd9bfe0b3eeab0d\/Isku-Yhtym___Oy_ISO_14001_FIN.pdf\" target=\"_blank\">ISO 14 001<\/a>, <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0555\/2809\/5844\/files\/Isku-Yhtym___Oy_ISO_45001_FIN.pdf?v=1684169207\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0555\/2809\/5844\/files\/Isku-Yhtym___Oy_ISO_45001_FIN.pdf?v=1684169207\">ISO 45001<\/a>-standardin mukainen työterveys- ja turvallisuusjärjestelmä sekä <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0555\/2809\/5844\/files\/Isku_Interior_Oy_pefc_fin_2018.pdf?v=1684169261\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0555\/2809\/5844\/files\/Isku_Interior_Oy_pefc_fin_2018.pdf?v=1684169261\">PEFC<\/a>-standardin mukainen puun alkuperän seurantajärjestelmä), <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0555\/2809\/5844\/files\/Isku_yhtioiden_vastuullisen_liiketoiminnan_toimintaohje_code_of_conduct.pdf?v=1684169311\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0555\/2809\/5844\/files\/Isku_yhtioiden_vastuullisen_liiketoiminnan_toimintaohje_code_of_conduct.pdf?v=1684169311\">ISKU Code of Conduct<\/a>:sta (Code of conductissa sitoudumme noudattamaa kaikkia toimintaan liittyviä lakeja ja säädöksiä kaikissa maissa, joissa toimimme), <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0555\/2809\/5844\/files\/ISKUn_toimittajien_eettiset_toimintaohjeet.pdf?v=1684169355\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0555\/2809\/5844\/files\/ISKUn_toimittajien_eettiset_toimintaohjeet.pdf?v=1684169355\">ISKUn toimittajien eettisistä toimintaohjeista<\/a> sekä YK:n jäsenmaiden sopimista kestävän kehityksen tavoitteista.<\/p><p>ISKUlla on myös <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0555\/2809\/5844\/files\/Laatupolitiikka-ISKU.pdf?v=1684169408\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0555\/2809\/5844\/files\/Laatupolitiikka-ISKU.pdf?v=1684169408\">laatu-<\/a>, <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0555\/2809\/5844\/files\/Ymp__rist__politiikka-ISKU.pdf?v=1684169456\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0555\/2809\/5844\/files\/Ymp__rist__politiikka-ISKU.pdf?v=1684169456\">ympäristö-<\/a> sekä <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0555\/2809\/5844\/files\/Ty__terveys-ja-turvallisuuspolitiikka-ISKU.pdf?v=1684169507\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0555\/2809\/5844\/files\/Ty__terveys-ja-turvallisuuspolitiikka-ISKU.pdf?v=1684169507\">työterveys- ja turvallisuuspolitiikka.<\/a><\/p>",
+        "title": "Osta nyt, maksa takaisin jopa 20 tasaerässä!",
+        "text": "<h3>Isku Rahoituksella voit ostaa tuotteet myymälästämme tai verkosta ja maksaa myöhemmin!<\/h3><p>Tarvitseko uutta sohvaa, sänkyä tai pitäisikö koko kodin sisustus uusia?<br\/>Toteuta sisustushaaveesi kerralla ja maksa ostokset sinulle sopivissa kuukausierissä. Olipa kysymyksessä yksittäinen huonekalu tai suurempi kokonaisuus, Isku Rahoituksella voit ostaa tuotteet myymälästämme tai verkosta ja maksaa myöhemmin!<\/p>",
         "btn_text": "",
         "btn_url": ""
       }
@@ -17,13 +17,13 @@
     "cf9a212e-69c0-4fb6-badc-e31720078c6e": {
       "type": "about-image-text",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Rectangle_44.jpg",
+        "image": "shopify:\/\/shop_images\/Free_Diva_020915_03.jpg",
         "padding_top": 50,
         "padding_bottom": 100,
         "reverse": true,
         "text_centered": false,
-        "title": "Kestävän kehityksen tavoiteohjelma",
-        "text": "<p>YK:n jäsenmaiden sopima kestävän kehityksen tavoiteohjelma tähtää äärimmäisen köyhyyden poistamiseen sekä kestävään kehitykseen, jossa otetaan ympäristö, talous ja ihminen tasavertaisesti huomioon. Kestävän kehityksen tavoitteita on yhteensä 17. Kaikki kestävän kehityksen tavoitteet ovat tärkeitä ja linkittyvät tiiviisti toisiinsa: yhtäkään tavoitetta ei voi tavoitella toisen kustannuksella. ISKU valitsi neljä tärkeintä tavoitetta, johon toiminnallamme panostimme vuonna 2020:<\/p><p>3: Terveyttä ja hyvinvointia<br\/>9: Kestävää teollisuutta, innovaatioita ja infrastuktuureja<br\/>12: Vastuullista kuluttamista<br\/>17: Yhteistyö ja kumppanuus<\/p>",
+        "title": "Osta laskulla verkkokaupasta",
+        "text": "<h2>Svea Bank - Lasku<\/h2><p>Svea tarjoaa sinulle helpon ja turvallisen tavan maksaa ostoksesi laskulla. Valitessasi maksutavaksi Svea Bankn laskun saat aina vähintään 14 päivää maksuaikaa. Viivästyskorko on korkolain mukainen laillinen viivästyskorko eli 7 % + korkolain mukainen viitekorko. Maksuhuomautuksesta veloitamme 5 euroa. Huomioithan myös, että ostajan tulee olla vähintään 21-vuotias.<\/p><p>Avoimet laskusi näet <a href=\"https:\/\/www.svea.com\/fi\/fi\/kuluttajat\/kirjaudu-sisaan\/\" target=\"_blank\">Omat sivut -palvelusta.<\/a><\/p><p>Svean laskun käyttö edellyttää hyväksyttyä luottopäätöstä. Hakija antaa luottoa hakiessaan suostumuksen sille, että muilta luotonantajilta saatavia tietoja kysytään Suomen Asiakastieto Oy:n kuluttajaluottotietojen kyselyjärjestelmästä. Tarkistamme lisäksi hakijan luottotiedot. Kielteisen luottopäätöksen saaneella asiakkaalla on oikeus hakea uutta luottopäätöstä toimittamiaan lisätietoja vastaan ottamalla yhteyttä Svea Bankin asiakaspalveluun.<\/p><p><\/p>",
         "btn_text": "",
         "btn_url": ""
       }
@@ -31,14 +31,14 @@
     "3307a6af-c522-423b-8c9e-4a877abcc3de": {
       "type": "about-image-text",
       "settings": {
-        "image": "shopify:\/\/shop_images\/IT-Kaisa-Vuori.jpg",
+        "image": "shopify:\/\/shop_images\/jalo_miljoo.jpg",
         "padding_top": 100,
         "padding_bottom": 50,
         "reverse": false,
         "text_centered": false,
-        "title": "Vastuullisuus on tekoja",
-        "text": "<p>\"Vastuullinen ajattelu ei kanna kauas, vastuulliset teot kantavat. Meille ISKUssa vastuullisuus on aina ollut tekoja. Listasimme vastuullisuustekojamme, joita olemme viime vuosien aikana tehneet\", vastuullisuusjohtajamme Kaisa Vuori sanoo.<\/p>",
-        "btn_text": "LUE VASTUULLISUUSTEOISTA",
+        "title": "Laskun maksaminen pienemmissä erissä",
+        "text": "<p>Ostoluotto on kertaluotto, jolla voit jakaa laskusi sinulle sopiviin kuukausieriin. Mikäli haluat maksaa laskusi pienemmissä erissä, sinun tulee tutustua laskun yhteydessä saamiisi ostoluoton ehtoihin ja hyväksyä ne allekirjoituksellasi. Tämän jälkeen voit maksaa vähintään laskulla ilmoitetun minimierän. Voit maksaa ostoluoton milloin tahansa kokonaan pois ilman lisäkuluja käyttämättömältä luottoajalta.<\/p><p>Voit tutustua luoton ehtoihin täältä: <a href=\"https:\/\/www.svea.com\/fi\/fi\/tietoa-meista\/sopimusehdot\/115\/ostoluoton-yleiset-ehdot\/\" target=\"_blank\">Ostoluoton yleiset ehdot <\/a>ja <a href=\"https:\/\/www.svea.com\/fi\/fi\/tietoa-meista\/sopimusehdot\/115\/vakiomuotoiset-eurooppalaiset-kuluttajaluottotiedot\/\" target=\"_blank\">Vakiomuotoiset eurooppalaiset kuluttajaluottotiedot.<\/a><\/p><h2>Svea Bank - Erämaksu<\/h2><p>Svea erämaksu on kertaluotto, jolla voit valita haluamasi maksuajan kaupassa tarjotuista vaihtoehdoista. Huomioithan, että ostajan tulee olla vähintään 21-vuotias.<\/p><p>Avoimet luottosi näet <a href=\"https:\/\/www.svea.com\/fi\/fi\/kuluttajat\/kirjaudu-sisaan\/\" target=\"_blank\">Omat sivut -palvelusta.<\/a><\/p><p>Voit tutustua luoton ehtoihin täältä:<a href=\"https:\/\/www.svea.com\/fi\/fi\/tietoa-meista\/sopimusehdot\/115\/yleiset-ehdot-eramaksu\/\" target=\"_blank\"> Erämaksuluoton yleiset ehdot <\/a>ja <a href=\"https:\/\/www.svea.com\/fi\/fi\/tietoa-meista\/sopimusehdot\/115\/vakiomuotoiset-eurooppalaiset-kuluttajaluottotiedot\/\" target=\"_blank\">Vakiomuotoiset eurooppalaiset kuluttajaluottotiedot.<\/a><\/p><p>Svea Erämaksun käyttö edellyttää hyväksyttyä luottopäätöstä. Hakija antaa luottoa hakiessaan suostumuksen sille, että muilta luotonantajilta saatavia tietoja kysytään Suomen Asiakastieto Oy:n kuluttajaluottotietojen kyselyjärjestelmästä. Tarkistamme lisäksi hakijan luottotiedot. Kielteisen luottopäätöksen saaneella asiakkaalla on oikeus hakea uutta luottopäätöstä toimittamiaan lisätietoja vastaan ottamalla yhteyttä Svean asiakaspalveluun.<\/p>",
+        "btn_text": "",
         "btn_url": ""
       }
     },
@@ -53,60 +53,34 @@
         "btn_text": "Subscribe"
       }
     },
-    "fa90c777-109f-4ada-89d3-c4e7ba4acf3c": {
-      "type": "multicolumn",
+    "bc698fdc-46d3-4db5-b242-0f0dd7c02cdd": {
+      "type": "rich-text",
       "blocks": {
-        "template--18960408117592__fa90c777-109f-4ada-89d3-c4e7ba4acf3c-1684169800ae4304ac-0": {
-          "type": "column",
+        "template--18993806016856__bc698fdc-46d3-4db5-b242-0f0dd7c02cdd-1684811923343459ca-0": {
+          "type": "heading",
           "settings": {
-            "image": "shopify:\/\/shop_images\/C-aurinkovoima.jpg",
-            "title": "Ympäristövastuu",
-            "text": "<p>Vastuullinen toiminta ei vaadi ympäristölupaa. Meillä ympäristöasioiden huomioiminen on osa jokaisen työntekijän rutiineja.<\/p>",
-            "link_label": "",
-            "link": ""
+            "heading": "<h3>TUOHI Mastercard –luotolla maksat ostosi jopa 20 tasaerässä<\/h3>",
+            "heading_size": "h1"
           }
         },
-        "template--18960408117592__fa90c777-109f-4ada-89d3-c4e7ba4acf3c-1684169800ae4304ac-1": {
-          "type": "column",
+        "template--18993806016856__bc698fdc-46d3-4db5-b242-0f0dd7c02cdd-1684811923343459ca-1": {
+          "type": "text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/C-tyonantajamielikuva.jpg",
-            "title": "Sosiaalinen vastuu",
-            "text": "<p>Kannamme vastuun työntekijöidemme hyvinvoinnista. Innostuneet ja motivoituneet työntekijät ovat menestyksemme perusta.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--18960408117592__fa90c777-109f-4ada-89d3-c4e7ba4acf3c-1684169800ae4304ac-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/C-kyselyt.jpg",
-            "title": "Hyvä hallintotapa",
-            "text": "<p>Haluamme investoida kotimaahan ja kasvaa sekä kehittyä kannattavasti. Pysymme kotimaisena yrityksenä, joka kansainvälistyy vastuullisesti.<\/p>",
-            "link_label": "",
-            "link": ""
+            "text": "<p>TUOHI Mastercard –luotolla maksaessasi saat ostollesi jopa 20 kk korotonta maksuaikaa tasaerissä. Korottomalta maksuajalta maksat vain tilinhoitopalkkion 5 €\/kk. Kampanja on voimassa toistaiseksi. TUOHEN muusta käytöstä maksat korot ja kulut sopimusehtojen mukaisesti.<\/p><p><strong>Rahoitus myymälässä ostoksen teon yhteydessä<\/strong><br\/>TUOHI Mastercard –luottoa voit hakea myymälässä ostoksen teon yhteydessä. Voit ottaa yhteyttä myymäläämme myös puhelmitse tai sähköpostilla. Myyjä tekee kanssasi luottohakemuksen ja myönteisen päätöksen saatuasi voit tehdä kaupat saman tien. Rahoitusta voidaan myöntää enintään 10 000 eurolle ja saat luottopäätöksen saman tien. TUOHI Mastercard –luotto on jatkuva maksuaika- ja luottokortti. Luottopäätöstä hakiessasi sinun on hyvä hakea tarvittavan suurta luottorajaa, jotta rahoitus kattaa koko hankintahinnan. Lopullinen rahoitettava summa on myyjän kaupanteon yhteydessä vahvistama kauppasumma. Luottoraja kannattaa hakea riittävän suureksi, jotta luottotilille jää käyttövaraa myös tulevia tarpeitasi varten. Saat ostoksillesi maksuaikaa halutessasi jopa 20 kuukautta. Muut maksuaikavaihtoehdot ovat 6 kk ja 10 kk tasaerät sekä kertamaksu, jossa 2-3 kk eräpäivän siirto.<\/p><p><strong>Monipuolinen luottokortti myös jatko-ostoksille<\/strong><br\/>Muutaman viikon kuluttua luottopäätöksestä saat kotiisi TUOHI Mastercard –kortin, jolla voit tehdä ostoksia kaikkialla Mastercard –kortin maksuvälineenä hyväksyvissä ostopaikoissa, kotimaassa, ulkomailla ja verkossa. Käyttämääsi luottoa voit maksaa takaisin sinulle sopivissa erissä. TUOHI Mastercard on kansainvälinen maksuaika- ja luottokortti. Todellinen vuosikorko 1 500 euron käytössä olevalle luotolle on 27,9 % ja luottohinta 1 710 euroa, kun nimelliskorko on 3 kuukauden euribor (07\/2019) + 14 % ja laskennassa on huomioitu kuukausittainen 5 euron tilinhoitomaksu ja 3 euron veloitus paperilaskusta. TUOHI on toistaiseksi voimassa oleva jatkuva luotto, luottoraja 2 000 – 10 000 euroa. Luoton myöntää Nordea Rahoitus Suomi Oy, Aleksis Kiven katu 9, Helsinki.<\/p><p><strong>Nämä edut saatavillasi<\/strong><\/p><ul><li>Maksuaika- ja luottokortti Suomessa ja ulkomailla<\/li><li>Ei vuosimaksua<\/li><li>Korttiluoton asioita voi hoitaa mm. ePalvelussa 24\/7<\/li><li>Osto- ja käteisnostopaikat tunnistaa Mastercard-tunnuksesta<\/li><li>Hintaturvavakuutus varmistaa TUOHELLA Suomessa tehtyjen ostojen edullisuuden<\/li><li>Korotonta maksuaikaa keskimäärin 30 päivää<\/li><li>Turvallisia verkko-ostoksia<\/li><li>Luottoa jopa 10 000 €<\/li><li>Käteistä rahaa automaateista Suomessa ja ulkomailla<\/li><li>Luotto-ominaisuudella maksaa ostokset kuukausierissä<\/li><\/ul><p>Lisätietoja rahoitusvaihtoehdoista saat lähimmästä myymälästä tai asiakaspalvelustamme.<\/p>"
           }
         }
       },
       "block_order": [
-        "template--18960408117592__fa90c777-109f-4ada-89d3-c4e7ba4acf3c-1684169800ae4304ac-0",
-        "template--18960408117592__fa90c777-109f-4ada-89d3-c4e7ba4acf3c-1684169800ae4304ac-1",
-        "template--18960408117592__fa90c777-109f-4ada-89d3-c4e7ba4acf3c-1684169800ae4304ac-2"
+        "template--18993806016856__bc698fdc-46d3-4db5-b242-0f0dd7c02cdd-1684811923343459ca-0",
+        "template--18993806016856__bc698fdc-46d3-4db5-b242-0f0dd7c02cdd-1684811923343459ca-1"
       ],
       "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     }
   },
@@ -115,6 +89,6 @@
     "cf9a212e-69c0-4fb6-badc-e31720078c6e",
     "3307a6af-c522-423b-8c9e-4a877abcc3de",
     "c3648cfd-de5e-45c2-91c9-198e9c48f2f1",
-    "fa90c777-109f-4ada-89d3-c4e7ba4acf3c"
+    "bc698fdc-46d3-4db5-b242-0f0dd7c02cdd"
   ]
 }
