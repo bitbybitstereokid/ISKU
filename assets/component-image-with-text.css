@@ -367,3 +367,8 @@
     row-gap: var(--grid-desktop-vertical-spacing);
   }
 }
+<style>
+.btn {
+  border-radius: 5% !important;
+}
+</style>
