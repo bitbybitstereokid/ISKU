@@ -362,7 +362,6 @@
 .wishlist-manufacturer_wrapper{
     display: flex;
     align-items: center;
-    /*justify-content: space-between;*/
 }
 
 .wishlist-manufacturer_wrapper > div{
