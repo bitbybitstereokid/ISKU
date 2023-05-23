@@ -64,6 +64,8 @@
     text-transform: uppercase;
     color: var(--color-text-accent);
     transition: .2s ease-in-out;
+
+    border-radius: 5px;
 }
 
 .about-newsletter-form__field .about-newsletter-form__button:hover {
