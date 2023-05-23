@@ -11,7 +11,7 @@
             "button": "Kaikki tuotteet",
             "button_url": "shopify:\/\/collections\/all",
             "button_style": "primary-btn",
-            "image": "shopify:\/\/shop_images\/Puutarhakalusteet_030621_098-1-min-scaled-min_1.jpg",
+            "image": "shopify:\/\/shop_images\/Nimeton_malli_14.png",
             "image_mobile": "shopify:\/\/shop_images\/Brafab_miljoo_Sandkorn_Varm_Amarante_Kotte_Como.jpg"
           }
         },
@@ -124,11 +124,11 @@
     "de0f6296-9452-488f-a982-a31b8b396fff": {
       "type": "hero-banner-secondary",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Nimeton_malli_12.png",
-        "title": "ISKUn Kotimaiset Sohvat",
+        "image": "shopify:\/\/shop_images\/Nimeton_malli_16.png",
+        "title": "ISKUn kotimaiset Sohvat",
         "btn_text": "LUE LISÄÄ TÄSTÄ",
         "btn_url": "shopify:\/\/pages\/iskun-kotimaiset-sohvat",
-        "padding_top": 50,
+        "padding_top": 45,
         "padding_bottom": 50,
         "content_position": "center-left",
         "full_width": false,
