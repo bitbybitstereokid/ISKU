@@ -64,9 +64,9 @@
         "padding_bottom": 50,
         "reverse": false,
         "text_centered": true,
-        "title": "Tyotuolit",
+        "title": "Työtuolit",
         "text": "",
-        "btn_text": "Tyotuolit",
+        "btn_text": "Työtuolit",
         "btn_url": "shopify:\/\/collections\/tyotuolit"
       }
     },
