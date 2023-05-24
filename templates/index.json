@@ -39,6 +39,32 @@
         "content_color": "#ffffff"
       }
     },
+    "6ea8728a-b377-4af1-8cca-5cddc452334b": {
+      "type": "hero-banner-slider",
+      "disabled": true,
+      "blocks": {
+        "722baa0f-3485-4be8-b411-7dd9425ef73d": {
+          "type": "slider",
+          "settings": {
+            "title": "",
+            "content": "",
+            "button": "",
+            "button_url": "",
+            "button_style": "primary-btn",
+            "image": "shopify:\/\/shop_images\/Header_desktop.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/Header_mobile.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "722baa0f-3485-4be8-b411-7dd9425ef73d"
+      ],
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 50,
+        "content_color": "#fff"
+      }
+    },
     "7afba2d3-d985-4d50-9730-69ffe8de69b8": {
       "type": "featured-collection",
       "settings": {
@@ -441,35 +467,11 @@
         "bg_color": "#0f4880",
         "text_color": "#ffffff"
       }
-    },
-    "6ea8728a-b377-4af1-8cca-5cddc452334b": {
-      "type": "hero-banner-slider",
-      "blocks": {
-        "722baa0f-3485-4be8-b411-7dd9425ef73d": {
-          "type": "slider",
-          "settings": {
-            "title": "",
-            "content": "",
-            "button": "",
-            "button_url": "",
-            "button_style": "primary-btn",
-            "image": "shopify:\/\/shop_images\/Header_desktop.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/Header_mobile.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "722baa0f-3485-4be8-b411-7dd9425ef73d"
-      ],
-      "settings": {
-        "padding_top": 0,
-        "padding_bottom": 50,
-        "content_color": "#fff"
-      }
     }
   },
   "order": [
     "468448b2-8437-4b13-89c7-cf60342c62ae",
+    "6ea8728a-b377-4af1-8cca-5cddc452334b",
     "7afba2d3-d985-4d50-9730-69ffe8de69b8",
     "165ada33-7568-45ff-a3ed-4d70620bfee3",
     "5ffa3993-f36e-4b26-a08a-60dd72c4d9be",
@@ -486,7 +488,6 @@
     "feb9c2fd-6386-484f-903f-7acd018a6e98",
     "c8acecc1-e53e-43a2-9708-51112c7d2ff1",
     "72599099-35e9-4513-bd8c-5323b6f189e2",
-    "3abcb0f4-2f21-4c2c-8a03-e4c026e3c75c",
-    "6ea8728a-b377-4af1-8cca-5cddc452334b"
+    "3abcb0f4-2f21-4c2c-8a03-e4c026e3c75c"
   ]
 }
