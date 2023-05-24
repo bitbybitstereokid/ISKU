@@ -190,6 +190,7 @@ cart-remove-button .button {
     align-items: center;
     justify-content: center;
     text-decoration: none;
+    border-radius: 5px;
 }
 
 .cart__cart-href:hover{
@@ -269,7 +270,7 @@ cart-remove-button .button {
     font-weight: 500;
     font-size: 18px;
     line-height: 150%;
-    text-transform: capitalize;
+
     color: var(--color-text-primary);
     letter-spacing: 0;
 }

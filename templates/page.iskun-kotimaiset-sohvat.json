@@ -13,8 +13,9 @@
       "blocks": {
         "template--18960223469912__8c083155-d924-483f-846d-0faf7e7a79e5-16841671798de6ff74-0": {
           "type": "heading",
+          "disabled": true,
           "settings": {
-            "heading": "ISKUn kotimaiset sohvat",
+            "heading": "",
             "heading_size": "h1"
           }
         },
@@ -45,9 +46,9 @@
         "template--18960223469912__8c083155-d924-483f-846d-0faf7e7a79e5-16841671798de6ff74-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/1000x658_Monkey.jpg",
+        "image": "shopify:\/\/shop_images\/Nimeton_malli_3_1_6dd49d77-5e5b-44e1-9515-69fc014f4818.png",
         "image_overlay_opacity": 0,
-        "image_height": "medium",
+        "image_height": "adapt",
         "desktop_content_position": "top-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
@@ -116,7 +117,7 @@
         "view_all_style": "solid",
         "enable_desktop_slider": false,
         "color_scheme": "background-1",
-        "image_ratio": "adapt",
+        "image_ratio": "square",
         "show_secondary_image": false,
         "show_vendor": false,
         "show_rating": false,
@@ -268,9 +269,9 @@
         "template--18960223469912__eba7bc1f-4b56-477a-9f1a-66febe236e70-1684591104b1519fad-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Tyota_Suomeen.jpg",
+        "image": "shopify:\/\/shop_images\/Untitled_1200_x_200_px.png",
         "image_overlay_opacity": 0,
-        "image_height": "medium",
+        "image_height": "adapt",
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",

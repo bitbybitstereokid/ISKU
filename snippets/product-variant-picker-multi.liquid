@@ -169,7 +169,7 @@
                 {%- if colorHexFromSettings contains '#' -%}
                   {%- assign colorHex = 'background-color: ' | append: colorHexFromSettings -%}
                 {%- elsif images[colorHexFromSettings] != blank -%}
-                  {%- assign color_swatch_image = images[colorHexFromSettings] | img_url: '72x72' -%}
+                  {%- assign color_swatch_image = images[colorHexFromSettings] | img_url: 'master' -%}
                   {%- assign colorHex = 'background-image: url(' | append: color_swatch_image | append: ')' -%}
                 {%- else -%}
                   {% assign colorHex = 'background-color: #000000' %}
@@ -239,7 +239,7 @@
                         {%- if colorHexFromSettings contains '#' -%}
                           {%- assign colorHex = 'background-color: ' | append: colorHexFromSettings -%}
                         {%- elsif images[colorHexFromSettings] != blank -%}
-                          {%- assign color_swatch_image = images[colorHexFromSettings] | img_url: '72x72' -%}
+                          {%- assign color_swatch_image = images[colorHexFromSettings] | img_url: 'master' -%}
                           {%- assign colorHex = 'background-image: url(' | append: color_swatch_image | append: ')' -%}
                         {%- else -%}
                           {% assign colorHex = 'background-color: #000000' %}

@@ -13,6 +13,7 @@
       "blocks": {
         "template--15666920915044__2de4b604-a275-45c5-919a-0668ac0b2cdb-1684252064d794e204-0": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "Makuuhuone",
             "heading_size": "h1"
@@ -45,9 +46,9 @@
         "template--15666920915044__2de4b604-a275-45c5-919a-0668ac0b2cdb-1684252064d794e204-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/7_0-produkt_boxspringbett_j5-continental_jensen.jpg",
+        "image": "shopify:\/\/shop_images\/Nimeton_malli_7.png",
         "image_overlay_opacity": 0,
-        "image_height": "medium",
+        "image_height": "adapt",
         "desktop_content_position": "top-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",

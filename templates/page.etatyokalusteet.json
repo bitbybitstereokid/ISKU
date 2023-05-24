@@ -24,8 +24,8 @@
         "padding_top": 50,
         "padding_bottom": 50,
         "full_width": true,
-        "bg_color": "#0F4880",
-        "text_color": "#FFFFFF"
+        "bg_color": "#f3f3f3",
+        "text_color": "#373737"
       }
     },
     "eb4f5fd2-4877-4d98-be2d-cfba6f795f90": {
@@ -50,9 +50,9 @@
         "padding_bottom": 50,
         "reverse": true,
         "text_centered": true,
-        "title": "Tyopoydat",
+        "title": "Työpöydät",
         "text": "",
-        "btn_text": "Tyopoydat",
+        "btn_text": "Työpöydät",
         "btn_url": "shopify:\/\/collections\/tyopoydat"
       }
     },
@@ -64,9 +64,9 @@
         "padding_bottom": 50,
         "reverse": false,
         "text_centered": true,
-        "title": "Tyotuolit",
+        "title": "Työtuolit",
         "text": "",
-        "btn_text": "Tyotuolit",
+        "btn_text": "Työtuolit",
         "btn_url": "shopify:\/\/collections\/tyotuolit"
       }
     },
@@ -93,9 +93,9 @@
         "padding_bottom": 50,
         "reverse": false,
         "text_centered": true,
-        "title": "Sahkopoydat",
+        "title": "Sähköpöydät",
         "text": "",
-        "btn_text": "Sahkopoydat",
+        "btn_text": "Sähköpöydät",
         "btn_url": "shopify:\/\/collections\/sahkopoydat"
       }
     },

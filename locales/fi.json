@@ -55,6 +55,16 @@
       "next_slide": "Liu'uta oikealle",
       "previous_slide": "Liu'uta vasemmalle",
       "name": "Liukusäädin"
+    },
+    "contact_form": {
+      "first_name": "Nimi*",
+      "company_email": "Email*",
+      "phone": "Puhelin*",
+      "tell": "Viestisi",
+      "submit": "Lähetä",
+      "how": "Aihe*",
+      "chose": "Valitse*",
+      "success": "Email lähetetty"
     }
   },
   "newsletter": {
@@ -108,7 +118,7 @@
     "product": {
       "add_to_cart": "Lisää ostoskoriin",
       "description": "Kuvaus",
-      "on_sale": "Alennusmyynti",
+      "on_sale": "Ale",
       "product_variants": "Tuoteversiot",
       "quantity": {
         "label": "Määrä",
@@ -453,6 +463,22 @@
       "expired": "Vanhentunut",
       "copy_code_success": "Koodin kopioiminen onnistui",
       "print_gift_card": "Tulosta"
+    }
+  },
+  "shopify": {
+    "checkout": {
+      "delivery_options": {
+        "ship": "Toimitus",
+        "pick_up": "Nouto"
+      },
+      "general": {
+        "back_to_contact_information": "Palaa yhteystietoihin",
+        "back_to_shipping_method": "Palaa toimitustavan valintaan",
+        "back_to_payment_method": "Palaa maksutavan valintaan"
+      },
+      "order_summary": {
+        "sale_price": "Ale"
+      }
     }
   }
 }
