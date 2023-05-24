@@ -216,7 +216,7 @@
                                         {%- elsif product.compare_at_price > product.price and product.available -%}
                                             <span
                                                     id="Badge-{{ section_id }}-{{ product.id }}"
-                                                    class="badge__sales badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}">
+                                                    class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}">
                                               {{- 'products.product.on_sale' | t -}}
                                             </span>
                                         {%- endif -%}
