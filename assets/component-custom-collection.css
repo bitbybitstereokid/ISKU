@@ -189,6 +189,15 @@
     position: relative;
 }
 
+.hc-sale-tag{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'ITC Avant Garde Gothic', sans-serif;
+    font-weight: 400;
+}
+
 .cart--hover__image {
     width: 100%;
     position: relative;
