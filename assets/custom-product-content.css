@@ -351,6 +351,10 @@
     border-radius: 0;
 }
 
+.product-card__inner .card__badge span.badge__sales{
+    display: none;
+}
+
 .product-media-container .product__modal-opener {
     height: 100%;
 }
