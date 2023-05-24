@@ -1,7 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="{{ request.locale.iso_code }}">
-<head><!--   {% render "load-metafields" %} -->
-
+<head>
+    <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="cb4caa9c-f369-4fcf-b089-4b86322f7d87" data-blockingmode="auto" type="text/javascript"></script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -310,9 +310,9 @@
 
 (function(w, t, f) {
 
-  var s='script',o='_giosg',h='https://service.giosg.com',e,n;e=t.createElement(s);e.async=1;e.src=h+'/live/';
+ var s='script',o='_giosg',h='https://service.giosg.com',e,n;e=t.createElement(s);e.async=1;e.src=h+'/live/';
 
-  w[o]=w[o]||function(){(w[o]._e=w[o]._e||[]).push(arguments)};w[o]._c=f;w[o]._h=h;n=t.getElementsByTagName(s)[0];n.parentNode.insertBefore(e,n);
+ w[o]=w[o]||function(){(w[o]._e=w[o]._e||[]).push(arguments)};w[o]._c=f;w[o]._h=h;n=t.getElementsByTagName(s)[0];n.parentNode.insertBefore(e,n);
 
 })(window,document,5283);
 
@@ -380,5 +380,6 @@
     <script src="{{ 'collection-page-custom.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'product-variant-tooltip.js' | asset_url }}" defer="defer"></script>
     <link rel="stylesheet" href="{{ 'custom-stockist.css' | asset_url }}">
-<!-- {% render "bc_banner" %}--></body>
+    <script id="CookieDeclaration" src="https://consent.cookiebot.com/cb4caa9c-f369-4fcf-b089-4b86322f7d87/cd.js" type="text/javascript" async></script>
+  </body>
 </html>
