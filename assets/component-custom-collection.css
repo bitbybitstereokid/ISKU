@@ -36,19 +36,6 @@
     line-height: 17px;
 }
 
-.collection .card__content .card__badge .badge.badge__sales{
-    display: none;
-}
-
-.hc-sale-tag{
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'ITC Avant Garde Gothic', sans-serif;
-    font-weight: 400;
-}
-
 .collection.collection-horizontal .grid .grid__item {
     /*width: calc(25% - 20px * 3 / 4);*/
     /*max-width: calc(50% - 20px / 2);*/
