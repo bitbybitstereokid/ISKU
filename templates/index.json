@@ -11,7 +11,7 @@
             "button": "Kaikki tuotteet",
             "button_url": "shopify:\/\/collections\/all",
             "button_style": "primary-btn",
-            "image": "shopify:\/\/shop_images\/Nimeton_malli_14.png",
+            "image": "shopify:\/\/shop_images\/Brafab_miljoo_Sandkorn_Varm_Amarante_Kotte_Como.jpg",
             "image_mobile": "shopify:\/\/shop_images\/Brafab_miljoo_Sandkorn_Varm_Amarante_Kotte_Como.jpg"
           }
         },
@@ -62,7 +62,7 @@
       "settings": {
         "padding_top": 0,
         "padding_bottom": 50,
-        "content_color": "#fff"
+        "content_color": "#ffffff"
       }
     },
     "7afba2d3-d985-4d50-9730-69ffe8de69b8": {
