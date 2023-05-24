@@ -447,7 +447,6 @@
       "blocks": {
         "722baa0f-3485-4be8-b411-7dd9425ef73d": {
           "type": "slider",
-          "disabled": true,
           "settings": {
             "title": "",
             "content": "",
