@@ -1,6 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="{{ request.locale.iso_code }}">
-  <head>{% render "load-metafields" %}
+  <head>
+<!--   {% render "load-metafields" %} -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -363,5 +364,6 @@
     <script src="{{ 'collection-page-custom.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'product-variant-tooltip.js' | asset_url }}" defer="defer"></script>
     <link rel="stylesheet" href="{{ 'custom-stockist.css' | asset_url }}">
-  {% render "bc_banner" %}</body>
+<!--   {% render "bc_banner" %} -->
+  </body>
 </html>
