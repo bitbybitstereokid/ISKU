@@ -1049,6 +1049,10 @@ a.product__text {
   /*display: none;*/
 }
 
+.thumbnail-slider .hc-sale-tag{
+  display: none;
+}
+
 @media screen and (min-width: 990px) {
   .thumbnail-list {
     grid-template-columns: repeat(4, 1fr);
