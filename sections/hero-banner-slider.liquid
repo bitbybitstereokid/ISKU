@@ -1,55 +1,58 @@
-{{'hero-banner-slider.css' | asset_url | stylesheet_tag }}
+{{ 'hero-banner-slider.css' | asset_url | stylesheet_tag }}
 
 {% style %}
     .hero_banner_slider--{{ section.id }}{
-        padding-top: {{section.settings.padding_top}}px;
-        padding-bottom: {{section.settings.padding_bottom}}px;
+    padding-top: {{ section.settings.padding_top }}px;
+    padding-bottom: {{ section.settings.padding_bottom }}px;
     }
-    .content_color-{{section.id}}{
-        color: {{section.settings.content_color}};
+    .content_color-{{ section.id }}{
+    color: {{ section.settings.content_color }};
     }
-    .hero_banner_slider_item_text-button.content_color-{{section.id}}.secondary-btn{
-        border: 1px solid {{section.settings.content_color}};
+    .hero_banner_slider_item_text-button.content_color-{{ section.id }}.secondary-btn{
+    border: 1px solid {{ section.settings.content_color }};
     }
     .hero_banner_slider_item_text-button.secondary-btn{
-        background-color: transparent;
+    background-color: transparent;
     }
     .hero_banner_slider_blocks-pagination > .swiper-pagination-bullet{
-        border: 0.7px solid {{section.settings.content_color}};
+    border: 0.7px solid {{ section.settings.content_color }};
     }
     .hero_banner_slider_blocks-pagination > .swiper-pagination-bullet.swiper-pagination-bullet-active{
-        background-color: {{section.settings.content_color}};
+    background-color: {{ section.settings.content_color }};
     }
 {% endstyle %}
 
 <div class="hero_banner_slider hero_banner_slider--{{ section.id }}">
     <div class="hero_banner_slider_wrapper">
-        <div class="hero_banner_slider_blocks swiper">
+        <div class="hero_banner_slider_blocks hero_banner_slider_blocks--{{ section.id }} swiper">
             <div class="hero_banner_slider_blocks_wrapper swiper-wrapper">
                 {% for block in section.blocks %}
                     <div class="hero_banner_slider_item swiper-slide">
                         <div class="hero_banner_slider_item_image">
-                            {{ block.settings.image | image_url: width: 1440 | image_tag: widths: '550, 760, 1440, 2200', alt: block.settings.image.alt, loading: 'lazy', class:"hero_banner_slider_item_image-desktop" }}
-                            {{ block.settings.image_mobile | image_url: width: 1440 | image_tag: widths: '550, 760, 1440, 2200', alt: block.settings.image_mobile.alt, loading: 'lazy', class:"hero_banner_slider_item_image-mobile" }}
+                            {{ block.settings.image | image_url: width: 1440 | image_tag: widths: '550, 760, 1440, 2200', alt: block.settings.image.alt, loading: 'lazy', class: "hero_banner_slider_item_image-desktop" }}
+                            {{ block.settings.image_mobile | image_url: width: 1440 | image_tag: widths: '550, 760, 1440, 2200', alt: block.settings.image_mobile.alt, loading: 'lazy', class: "hero_banner_slider_item_image-mobile" }}
                         </div>
                         <div class="hero_banner_slider_item_text page-width">
-                            <h2 class="hero_banner_slider_item_text-title content_color-{{section.id}}">
-                                {{block.settings.title | split: '|' | first }}
+                            <h2 class="hero_banner_slider_item_text-title content_color-{{ section.id }}">
+                                {{ block.settings.title | split: '|' | first }}
                                 {% if block.settings.title contains '|' %}
                                     <br>
-                                    {{block.settings.title | split: '|' | last }}
+                                    {{ block.settings.title | split: '|' | last }}
                                 {% endif %}
                             </h2>
-                            <p class="hero_banner_slider_item_text-content content_color-{{section.id}}">
-                                {{block.settings.content | split: '|' | first }}
+                            <p class="hero_banner_slider_item_text-content content_color-{{ section.id }}">
+                                {{ block.settings.content | split: '|' | first }}
                                 {% if block.settings.content contains '|' %}
                                     <br>
-                                    {{block.settings.content | split: '|' | last }}
+                                    {{ block.settings.content | split: '|' | last }}
                                 {% endif %}
                             </p>
-                            <a href="{{block.settings.button_url}}" class="hero_banner_slider_item_text-button content_color-{{section.id}} {{block.settings.button_style}}">
-                                {{block.settings.button}}
-                            </a>
+                            {% if block.settings.button_url != blank %}
+                                <a href="{{ block.settings.button_url }}"
+                                   class="hero_banner_slider_item_text-button content_color-{{ section.id }} {{ block.settings.button_style }}">
+                                    {{ block.settings.button }}
+                                </a>
+                            {% endif %}
                         </div>
                     </div>
                 {% endfor %}
@@ -61,8 +64,8 @@
 
 
 <script>
-    document.addEventListener('DOMContentLoaded', ()=> {
-        const bannerSlider = new Swiper('.hero_banner_slider_blocks', {
+    document.addEventListener('DOMContentLoaded', () => {
+        const bannerSlider = new Swiper('.hero_banner_slider_blocks--{{ section.id }}', {
             slidesPerView: 1,
             spaceBetween: 10,
             autoplay: {
@@ -80,97 +83,97 @@
 
 {% schema %}
 {
-    "name": "Hero banner slider",
-    "settings": [
+  "name": "Hero banner slider",
+  "settings": [
+    {
+      "type": "range",
+      "id": "padding_top",
+      "label": "Padding top",
+      "unit": "px",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "label": "Padding bottom",
+      "unit": "px",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "default": 50
+    },
+    {
+      "type": "color",
+      "id": "content_color",
+      "label": "Content color",
+      "default": "#fff"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "slider",
+      "name": "Slider item",
+      "settings": [
         {
-            "type": "range",
-            "id": "padding_top",
-            "label": "Padding top",
-            "unit": "px",
-            "min": 0,
-            "max": 100,
-            "step": 1,
-            "default": 0
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "Comfort and Style |That Will Wransform Your Home",
+          "info": "Use | for break to new line"
         },
         {
-            "type": "range",
-            "id": "padding_bottom",
-            "label": "Padding bottom",
-            "unit": "px",
-            "min": 0,
-            "max": 100,
-            "step": 1,
-            "default": 50
+          "type": "textarea",
+          "id": "content",
+          "label": "Content",
+          "default": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+          "info": "Use | for beak to new line"
         },
         {
-            "type": "color",
-            "id": "content_color",
-            "label": "Content color",
-            "default": "#fff"
-        }
-    ],
-    "blocks": [
+          "type": "text",
+          "id": "button",
+          "label": "Button",
+          "default": "LEARN MORE"
+        },
         {
-            "type": "slider",
-            "name": "Slider item",
-            "settings": [
-                {
-                    "type": "text",
-                    "id": "title",
-                    "label": "Title",
-                    "default": "Comfort and Style |That Will Wransform Your Home",
-                    "info": "Use | for break to new line"
-                },
-                {
-                    "type": "textarea",
-                    "id": "content",
-                    "label": "Content",
-                    "default": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
-                    "info": "Use | for beak to new line"
-                },
-                {
-                    "type": "text",
-                    "id": "button",
-                    "label": "Button",
-                    "default": "LEARN MORE"
-                },
-                {
-                    "type": "url",
-                    "id": "button_url",
-                    "label": "Button URL"
-                },
-                {
-                    "type": "select",
-                    "id": "button_style",
-                    "label": "Button style",
-                    "options": [
-                        {
-                            "value": "primary-btn",
-                            "label": "Primary"
-                        },
-                        {
-                            "value": "secondary-btn",
-                            "label": "Secondary"
-                        }
-                    ]
-                },
-                {
-                    "type": "image_picker",
-                    "id": "image",
-                    "label": "Background image"
-                },
-                {
-                    "type": "image_picker",
-                    "id": "image_mobile",
-                    "label": "Background image (mobile)"
-                }
-            ]
-        }
-    ],
-    "presets": [
+          "type": "url",
+          "id": "button_url",
+          "label": "Button URL"
+        },
         {
-            "name":"Hero banner slider"
+          "type": "select",
+          "id": "button_style",
+          "label": "Button style",
+          "options": [
+            {
+              "value": "primary-btn",
+              "label": "Primary"
+            },
+            {
+              "value": "secondary-btn",
+              "label": "Secondary"
+            }
+          ]
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Background image"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_mobile",
+          "label": "Background image (mobile)"
         }
-    ]
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Hero banner slider"
+    }
+  ]
 }
 {% endschema %}
