@@ -104,8 +104,8 @@
 }
 .csapp_discount_total_wrapper .csapp_aiod_coupan{
     width: 100%;
+    display: none !important;
 }
-
 
 .csapp_aiod_coupan .csapp_aiod_coupan_code{
     max-width: 180px !important;
