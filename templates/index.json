@@ -50,7 +50,7 @@
             "content": "",
             "button": "",
             "button_url": "",
-            "button_style": "primary-btn",
+            "button_style": "secondary-btn",
             "image": "shopify:\/\/shop_images\/Header_desktop.jpg",
             "image_mobile": "shopify:\/\/shop_images\/Header_mobile.jpg"
           }
