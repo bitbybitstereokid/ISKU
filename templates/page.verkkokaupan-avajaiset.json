@@ -205,6 +205,50 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "b14e554e-df94-4cf0-98a9-6c8a70913e28": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19012719935832__b14e554e-df94-4cf0-98a9-6c8a70913e28-16850155752447d086-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<p>Talk about your brand<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--19012719935832__b14e554e-df94-4cf0-98a9-6c8a70913e28-16850155752447d086-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><a><span style=\"text-decoration:underline\">10 kk koroton – 1000 €<\/span><\/a><\/p><p><em>Kampanjaluoton tyypillistä käyttöä kuvaava luotto 1000 €, maksuaika 10 kk. Luottokustannukset yhteensä 30 € (avausmaksu 0 €, korko 0 % ja kuukausikulu 3 €), todellinen vuosikorko 6,69 %. Kuluttajasuojalain mukainen luottohinta 1030 €. Kertalyhennyksen suuruus esimerkkilaskelmalla 103 €. Luotonmyöntäjä on Svea Bank AB (publ), Filial i Finland, Mechelininkatu 1a, 00180 Helsinki. Svea voi sopia myyjäliikkeen kanssa poikkeavista hinnoista.<\/em><\/p>"
+          }
+        },
+        "template--19012719935832__b14e554e-df94-4cf0-98a9-6c8a70913e28-16850155752447d086-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19012719935832__b14e554e-df94-4cf0-98a9-6c8a70913e28-16850155752447d086-0",
+        "template--19012719935832__b14e554e-df94-4cf0-98a9-6c8a70913e28-16850155752447d086-1",
+        "template--19012719935832__b14e554e-df94-4cf0-98a9-6c8a70913e28-16850155752447d086-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -212,6 +256,7 @@
     "b9b7e8f8-a6a7-45d4-82e8-c760c600bdb2",
     "b9e500c8-adb3-4132-94a2-9a22956ef3df",
     "ba5dd96a-5426-4905-bb63-861a099a84e0",
-    "122de173-2110-4bf4-938c-22703fe009b8"
+    "122de173-2110-4bf4-938c-22703fe009b8",
+    "b14e554e-df94-4cf0-98a9-6c8a70913e28"
   ]
 }
