@@ -1,11 +1,30 @@
+{% assign selectedProduct = product.selected_or_first_available_variant %}
+{% assign omnibusprice = selectedProduct.metafields.omnibus.price %}
+{% assign omnibusdate = selectedProduct.metafields.omnibus.date %}
+{% assign label = block.settings.text %}
+{% assign start = block.settings.text_start %}
+{% assign date_format = '%B %d, %Y' %}
+
 {% assign showClass = false %}
 {% if product.selected_or_first_available_variant.compare_at_price > product.selected_or_first_available_variant.price %}
     {% assign showClass = true %}
 {% endif %}
 
 <div class="lowest-price__wrapper {% if showClass %}lowest-price__wrapper--show{% endif %}">
-{% if block.settings.text %}
-    <span class="lowest-price__text">{{ block.settings.text }}</span>
-{% endif %}
-    <span class="lowest-price__price" id="lowest-price-{{ section.id }}">{{ product.selected_or_first_available_variant.price | money }}</span>
+    <div id="sniffie-omnibus-price">
+        {% if omnibusprice %}
+            {% if product.compare_at_price > product.price %}
+                <span class="lowest-price__text">{{ label }}</span>
+                <span class="lowest-price__price">
+                    {{ omnibusprice | metafield_tag }}
+                </span>
+                {% if omnibusdate != null %}
+                    {% assign date = omnibusdate | date: '%s' %}
+                    {% assign seconds = 2592000 %}
+                    <span class="lowest-price__text">{{ start }}</span>
+                    <span class="lowest-price__price">{{ date | plus: seconds | date: date_format }}</span>
+                {% endif %}
+            {% endif %}
+        {% endif %}
+    </div>
 </div>
