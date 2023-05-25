@@ -71,7 +71,8 @@
         "0dd2c139-d779-473f-9d18-33a54573ef44": {
           "type": "lowest_price",
           "settings": {
-            "text": "30 day lowest price:"
+            "text": "30 day lowest price:",
+            "text_start": ""
           }
         },
         "a98d107f-9e81-4331-b1ef-0b9029d00918": {
