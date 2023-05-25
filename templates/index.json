@@ -112,12 +112,12 @@
     "7afba2d3-d985-4d50-9730-69ffe8de69b8": {
       "type": "featured-collection",
       "settings": {
-        "title": "Suosikit pihaan ja terassille",
+        "title": "Verkkokaupan avajaisten parhaat tarjoukset",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "viikon-suosikit",
+        "collection": "verkkokaupan-avajaiset",
         "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
