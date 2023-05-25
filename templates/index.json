@@ -65,6 +65,50 @@
         "content_color": "#ffffff"
       }
     },
+    "db923bb8-e8dd-415a-8492-bf56e062c572": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "template--15630143488100__db923bb8-e8dd-415a-8492-bf56e062c572-16850155752447d086-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Verkkokaupan avajaiset<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--15630143488100__db923bb8-e8dd-415a-8492-bf56e062c572-16850155752447d086-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Tervetuloa uuden verkkokaupan avajaisiin, joita juhlimme sunnuntaihin 4.6. saakka sekä verkossa että kaikissa myymälöissä.<\/p><p>Nyt saat <strong>kaikki tuotteet vähintään 20% alennuksella<\/strong>. Kaikki kalusteet puutarhaan ja terassille löydät huimalla <strong>30% alennuksella<\/strong>. Lisäksi iso joukko löytöjä aivan hulluun hintaan - <strong>alennukset jopa -57%<\/strong>!<\/p><p>Avajaisviikonlopun kruunaa <strong>10 kk koroton maksuaika<\/strong>* -tarjous, joka on voimassa vain maanantaihin 29.5. klo 10:00 saakka.<\/p><p>Tervetuloa! Näissä tupareissa ei alennuksista pihistellä! <\/p>"
+          }
+        },
+        "template--15630143488100__db923bb8-e8dd-415a-8492-bf56e062c572-16850155752447d086-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15630143488100__db923bb8-e8dd-415a-8492-bf56e062c572-16850155752447d086-0",
+        "template--15630143488100__db923bb8-e8dd-415a-8492-bf56e062c572-16850155752447d086-1",
+        "template--15630143488100__db923bb8-e8dd-415a-8492-bf56e062c572-16850155752447d086-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "7afba2d3-d985-4d50-9730-69ffe8de69b8": {
       "type": "featured-collection",
       "settings": {
@@ -131,9 +175,8 @@
         "a778f8ef-e09b-4440-805d-cf2009c6cad5": {
           "type": "collection",
           "settings": {
-            "collection": "etatyokalusteet",
-            "title": "Etätyökalusteet",
-            "image": "shopify:\/\/shop_images\/kotitoimisto-bw-rise.webp",
+            "collection": "sailytys",
+            "title": "Säilytys",
             "url": "shopify:\/\/collections\/etatyokalusteet"
           }
         }
@@ -512,54 +555,12 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
-    },
-    "db923bb8-e8dd-415a-8492-bf56e062c572": {
-      "type": "rich-text",
-      "blocks": {
-        "template--15630143488100__db923bb8-e8dd-415a-8492-bf56e062c572-16850155752447d086-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>Verkkokaupan avajaiset<\/p>",
-            "heading_size": "h1"
-          }
-        },
-        "template--15630143488100__db923bb8-e8dd-415a-8492-bf56e062c572-16850155752447d086-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Tervetuloa uuden verkkokaupan avajaisiin, joita juhlimme sunnuntaihin 4.6. saakka sekä verkossa että kaikissa myymälöissä.<\/p><p>Nyt saat <strong>kaikki tuotteet vähintään 20% alennuksella<\/strong>. Kaikki kalusteet puutarhaan ja terassille löydät huimalla <strong>30% alennuksella<\/strong>. Lisäksi iso joukko löytöjä aivan hulluun hintaan - <strong>alennukset jopa -57%<\/strong>!<\/p><p>Avajaisviikonlopun kruunaa <strong>10 kk koroton maksuaika<\/strong>* -tarjous, joka on voimassa vain maanantaihin 29.5. klo 10:00 saakka.<\/p><p>Tervetuloa! Näissä tupareissa ei alennuksista pihistellä! <\/p>"
-          }
-        },
-        "template--15630143488100__db923bb8-e8dd-415a-8492-bf56e062c572-16850155752447d086-2": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--15630143488100__db923bb8-e8dd-415a-8492-bf56e062c572-16850155752447d086-0",
-        "template--15630143488100__db923bb8-e8dd-415a-8492-bf56e062c572-16850155752447d086-1",
-        "template--15630143488100__db923bb8-e8dd-415a-8492-bf56e062c572-16850155752447d086-2"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
     }
   },
   "order": [
     "468448b2-8437-4b13-89c7-cf60342c62ae",
     "6ea8728a-b377-4af1-8cca-5cddc452334b",
+    "db923bb8-e8dd-415a-8492-bf56e062c572",
     "7afba2d3-d985-4d50-9730-69ffe8de69b8",
     "165ada33-7568-45ff-a3ed-4d70620bfee3",
     "5ffa3993-f36e-4b26-a08a-60dd72c4d9be",
@@ -577,7 +578,6 @@
     "c8acecc1-e53e-43a2-9708-51112c7d2ff1",
     "72599099-35e9-4513-bd8c-5323b6f189e2",
     "3abcb0f4-2f21-4c2c-8a03-e4c026e3c75c",
-    "fa957aa8-0e2d-4c98-80b4-5b68c8428d49",
-    "db923bb8-e8dd-415a-8492-bf56e062c572"
+    "fa957aa8-0e2d-4c98-80b4-5b68c8428d49"
   ]
 }
