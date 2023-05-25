@@ -2,6 +2,7 @@
   "sections": {
     "468448b2-8437-4b13-89c7-cf60342c62ae": {
       "type": "hero-banner-slider",
+      "disabled": true,
       "blocks": {
         "c2d11906-9a42-4ce1-b13b-37495790ff47": {
           "type": "slider",
@@ -41,7 +42,6 @@
     },
     "6ea8728a-b377-4af1-8cca-5cddc452334b": {
       "type": "hero-banner-slider",
-      "disabled": true,
       "blocks": {
         "722baa0f-3485-4be8-b411-7dd9425ef73d": {
           "type": "slider",
@@ -524,7 +524,6 @@
         },
         "template--15630143488100__fa957aa8-0e2d-4c98-80b4-5b68c8428d49-1684992414076d080d-1": {
           "type": "text",
-          "disabled": true,
           "settings": {
             "text": "<p><a><span style=\"text-decoration:underline\">10 kk koroton – 1000 €<\/span><\/a><\/p><p><em>Kampanjaluoton tyypillistä käyttöä kuvaava luotto 1000 €, maksuaika 10 kk. Luottokustannukset yhteensä 30 € (avausmaksu 0 €, korko 0 % ja kuukausikulu 3 €), todellinen vuosikorko 6,69 %. Kuluttajasuojalain mukainen luottohinta 1030 €. Kertalyhennyksen suuruus esimerkkilaskelmalla 103 €. Luotonmyöntäjä on Svea Bank AB (publ), Filial i Finland, Mechelininkatu 1a, 00180 Helsinki. Svea voi sopia myyjäliikkeen kanssa poikkeavista hinnoista.<\/em><\/p>"
           }
