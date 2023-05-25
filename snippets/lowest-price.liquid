@@ -22,7 +22,7 @@
                     {% assign date = omnibusdate | date: '%s' %}
                     {% assign seconds = 2592000 %}
                     <span class="lowest-price__text">{{ start }}</span>
-                    <span class="lowest-price__price">{{ date | plus: seconds | date: date_format }}</span>
+                    <span class="lowest-price__price">{{ omnibusdate | date: date_format}} - {{ date | plus: seconds | date: date_format }}</span>
                 {% endif %}
             {% endif %}
         {% endif %}
