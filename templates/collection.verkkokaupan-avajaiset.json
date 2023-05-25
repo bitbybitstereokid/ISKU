@@ -1,0 +1,114 @@
+{
+  "sections": {
+    "681cc2a2-0268-4186-b413-0bffd6085c5e": {
+      "type": "about-breadcrumbs",
+      "settings": {
+      }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "button_text": "lue lisää",
+        "color_scheme": "background-1"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 12,
+        "columns_desktop": 4,
+        "image_ratio": "square",
+        "show_secondary_image": false,
+        "show_vendor": true,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "enable_filtering": true,
+        "filter_type": "horizontal",
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 0,
+        "padding_bottom": 36,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 52,
+        "change__pagination": "loadmore",
+        "load_more_text": "Load More products",
+        "shown_products": "products shown"
+      }
+    },
+    "seo-block": {
+      "type": "seo-block",
+      "settings": {
+        "padding_top": 100,
+        "padding_bottom": 0,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 0
+      }
+    },
+    "ea5628a9-88fc-414e-ba74-51323f42d771": {
+      "type": "about-newsletter",
+      "disabled": true,
+      "settings": {
+        "padding_top": 50,
+        "padding_bottom": 100,
+        "title": "Subscribe to our mailing list for newsletter exclusives",
+        "input_placeholder": "Enter your email",
+        "btn_text": "Subscribe"
+      }
+    },
+    "114941d9-aed9-45f3-b22c-b374981555c6": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15630143160420__114941d9-aed9-45f3-b22c-b374981555c6-1684992414076d080d-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<p>Talk about your brand<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--15630143160420__114941d9-aed9-45f3-b22c-b374981555c6-1684992414076d080d-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p><a><span style=\"text-decoration:underline\">10 kk koroton – 1000 €<\/span><\/a><\/p><p><em>Kampanjaluoton tyypillistä käyttöä kuvaava luotto 1000 €, maksuaika 10 kk. Luottokustannukset yhteensä 30 € (avausmaksu 0 €, korko 0 % ja kuukausikulu 3 €), todellinen vuosikorko 6,69 %. Kuluttajasuojalain mukainen luottohinta 1030 €. Kertalyhennyksen suuruus esimerkkilaskelmalla 103 €. Luotonmyöntäjä on Svea Bank AB (publ), Filial i Finland, Mechelininkatu 1a, 00180 Helsinki. Svea voi sopia myyjäliikkeen kanssa poikkeavista hinnoista.<\/em><\/p>"
+          }
+        },
+        "template--15630143160420__114941d9-aed9-45f3-b22c-b374981555c6-1684992414076d080d-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15630143160420__114941d9-aed9-45f3-b22c-b374981555c6-1684992414076d080d-0",
+        "template--15630143160420__114941d9-aed9-45f3-b22c-b374981555c6-1684992414076d080d-1",
+        "template--15630143160420__114941d9-aed9-45f3-b22c-b374981555c6-1684992414076d080d-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "681cc2a2-0268-4186-b413-0bffd6085c5e",
+    "banner",
+    "product-grid",
+    "seo-block",
+    "ea5628a9-88fc-414e-ba74-51323f42d771",
+    "114941d9-aed9-45f3-b22c-b374981555c6"
+  ]
+}
