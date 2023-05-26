@@ -313,7 +313,7 @@
 
 .custom-color-swatches input[type=radio] + label {
     padding: 10px;
-    border: 3px solid #ffffff;
+    border: 3px solid #c8c8c8;
 }
 
 .custom-color-swatches input[type=radio]:checked + label {
