@@ -2,15 +2,14 @@
   "sections": {
     "468448b2-8437-4b13-89c7-cf60342c62ae": {
       "type": "hero-banner-slider",
-      "disabled": true,
       "blocks": {
         "c2d11906-9a42-4ce1-b13b-37495790ff47": {
           "type": "slider",
           "settings": {
-            "title": "Kaikki tuotteet -20% | Löytöjä jopa -40%",
+            "title": "Kaikki tuotteet -20% Puutarhakalusteet -30% | Löytöjä jopa -57%",
             "content": "",
             "button": "Kaikki tuotteet",
-            "button_url": "",
+            "button_url": "shopify:\/\/collections\/all",
             "button_style": "primary-btn",
             "image": "shopify:\/\/shop_images\/Brafab_miljoo_Sandkorn_Varm_Amarante_Kotte_Como.jpg",
             "image_mobile": "shopify:\/\/shop_images\/Brafab_miljoo_Sandkorn_Varm_Amarante_Kotte_Como.jpg"
@@ -42,6 +41,7 @@
     },
     "6ea8728a-b377-4af1-8cca-5cddc452334b": {
       "type": "hero-banner-slider",
+      "disabled": true,
       "blocks": {
         "722baa0f-3485-4be8-b411-7dd9425ef73d": {
           "type": "slider",
@@ -71,12 +71,13 @@
         "template--15630143488100__db923bb8-e8dd-415a-8492-bf56e062c572-16850155752447d086-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>10 kk koroton maksuaika<\/p>",
+            "heading": "<p>10 kk koroton maksuaika* -kampanja vain 29.5. klo 10 saakka!<\/p>",
             "heading_size": "h1"
           }
         },
         "template--15630143488100__db923bb8-e8dd-415a-8492-bf56e062c572-16850155752447d086-1": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>Verkkokaupan avajaisviikonlopun kruunaa <strong>10 kk koroton maksuaika<\/strong>* -tarjous, joka on voimassa vain maanantaihin 29.5. klo 10:00 saakka.<\/p><p>Tervetuloa! Näissä tupareissa ei alennuksista pihistellä! <\/p>"
           }
