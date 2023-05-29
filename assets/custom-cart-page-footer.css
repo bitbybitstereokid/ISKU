@@ -104,7 +104,10 @@
 }
 .csapp_discount_total_wrapper .csapp_aiod_coupan{
     width: 100%;
-    display: none !important;
+}
+
+.csapps-cart-original-total{
+    margin: 0 !important;
 }
 
 .csapp_aiod_coupan .csapp_aiod_coupan_code{
