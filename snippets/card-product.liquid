@@ -34,10 +34,15 @@
     -%}
     <div class="card-wrapper product-card-wrapper underline-links-hover">
   {%- comment -%}Added by Heartcoding from Sale & Discount Manager{%- endcomment -%}
-  {%- if card_product.available and card_product.compare_at_price_min > card_product.price_min -%}
-  {%- assign discount = card_product.compare_at_price_min | minus:card_product.price_min | times:100.0 | divided_by:card_product.compare_at_price_min | round -%}
-  <div class="hc-sale-tag"><span>{{ discount }}%</span></div>
-  {%- endif -%}
+{%- if card_product.available and card_product.compare_at_price_min > card_product.price_min -%}
+{%- for variant in card_product.variants -%}
+{%- if variant.compare_at_price > variant.price -%}
+{%- assign discount = variant.compare_at_price | minus:variant.price | times:100.0 | divided_by:variant.compare_at_price | round %}
+<div class="hc-sale-tag"><span>{{ discount }}%</span></div>
+{%- break -%}
+{%- endif -%}
+{%- endfor -%}
+{%- endif -%}
         <div class="card card--{{ settings.card_style }}
         {% if card_product.featured_media %} card--media{% else %} card--text{% endif %}
         {% if settings.card_style == 'card' %} color-{{ settings.card_color_scheme }} gradient{% endif %}
