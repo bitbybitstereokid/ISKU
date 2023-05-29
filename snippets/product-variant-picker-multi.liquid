@@ -221,10 +221,12 @@
                   {% unless color_default_values contains multivalue %}
                     <input
                     type="radio"
+                    class="multivalue_input"
                     id="{{ section.id }}-{{ option.position }}-{{ global_index | plus: forloop.index0 }}"
                     name="{{ option.name }}"
                     value="{{ multivalue | escape }}"
                     form="{{ product_form_id }}"
+                    data-multi-url="{{item.url}}"
                     {% if multicoloroption_disabled %}
                       class="disabled"
                     {% endif %}
