@@ -62,6 +62,25 @@ if (!customElements.get('media-gallery')) {
       thumbnail.querySelector('button').setAttribute('aria-current', true);
       if (this.elements.thumbnails.isSlideVisible(thumbnail, 10)) return;
 
+      let sliderM = this.elements.thumbnails.slider.querySelectorAll('li');
+
+      let rightButton = document.querySelector('.button-thumbnail-slide-right');
+      let leftButton = document.querySelector('.button-thumbnail-slide-left');
+
+      let dataPosition = parseInt(thumbnail.dataset.mediaPosition);
+      let dataLength = sliderM.length - 1;
+
+      if(dataPosition === 1){
+        leftButton.classList.add('none');
+        rightButton.classList.remove('none');
+      }else if(dataPosition === dataLength){
+        leftButton.classList.remove('none');
+        rightButton.classList.add('none');
+      }else{
+        leftButton.classList.remove('none');
+        rightButton.classList.remove('none');
+      }
+
       this.elements.thumbnails.slider.scrollTo({ left: thumbnail.offsetLeft });
     }
 

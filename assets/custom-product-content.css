@@ -93,7 +93,7 @@
 .custom-product .custom-quantity-container {
     width: 100%;
     display: flex;
-    align-items: baseline;
+    align-items: center;
     gap: 10px;
 }
 
@@ -114,7 +114,7 @@
     letter-spacing: 0;
     color: var(--color-text-primary);
     flex: 1 1 100%;
-    text-align: center;
+    text-align: left;
     display: grid;
 }
 
@@ -175,7 +175,7 @@
 }
 
 .custom-product .custom-quantity-wrapper .product-form__submit {
-    padding: 15px 30px;
+    padding: 0 30px;
 }
 
 .custom-product .custom-quantity-wrapper .product-form__submit:after,
@@ -369,13 +369,12 @@
 }
 
 .wishlist-manufacturer_wrapper > div{
-    max-height: 33px;
     display: flex;
 }
 .wishlist-manufacturer_wrapper > div > img{
-    width: 100%;
+    width: auto;
     height: 100%;
-    object-fit: cover;
+    max-width: 50px;
     max-height: 33px;
 }
 .wishlist-manufacturer_wrapper > div{
@@ -527,5 +526,11 @@
 
     .custom-product .slider-buttons {
         display: none;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .custom-product .custom-quantity-wrapper .product-form__submit{
+        padding: 0 10px;
     }
 }
