@@ -24,13 +24,6 @@
           "settings": {
           }
         },
-        "d8d71b0d-81b5-4852-9f55-2cc7dd66d9fd": {
-          "type": "text",
-          "settings": {
-            "text": "10 kk koroton maksuaika* -kampanja 29.5. klo 10 asti!",
-            "text_style": "body"
-          }
-        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -119,7 +112,6 @@
         "2afe51da-b9b0-4327-b31c-e2facff45b8a",
         "title",
         "price",
-        "d8d71b0d-81b5-4852-9f55-2cc7dd66d9fd",
         "variant_picker",
         "quantity_selector",
         "08c3b544-25e0-4fb7-ad19-7cdd7c00f8ae",
