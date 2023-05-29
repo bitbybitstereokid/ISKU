@@ -949,8 +949,18 @@ class VariantSelects extends HTMLElement {
   renderProductInfo() {
     const requestedVariantId = this.currentVariant.id;
     const sectionId = this.dataset.originalSection ? this.dataset.originalSection : this.dataset.section;
+    let multiValueInputs = document.querySelectorAll('.multivalue_input')
+    let multiValueURL = ''
+    if (multiValueInputs.length != 0) {
+      multiValueInputs.forEach(input => {
+        if (input.checked) {
+          multiValueURL = input.dataset.multiUrl
+        }
+      })
+    }
 
-    fetch(`${this.dataset.url}?variant=${requestedVariantId}&section_id=${this.dataset.originalSection ? this.dataset.originalSection : this.dataset.section}`)
+    let productURL = multiValueURL != '' ? multiValueURL : this.dataset.url
+    fetch(`${productURL}?variant=${requestedVariantId}&section_id=${this.dataset.originalSection ? this.dataset.originalSection : this.dataset.section}`)
       .then((response) => response.text())
       .then((responseText) => {
         // prevent unnecessary ui changes from abandoned selections
