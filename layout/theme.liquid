@@ -328,7 +328,8 @@
 
 <!-- giosg tag -->
 
-
+  {%- comment -%}Added by Heartcoding from Sale & Discount Manager{%- endcomment -%}
+  {%- if product -%}<script>const hcVariants = {{ product.variants | json }};</script>{%- endif -%}{{ shop.metafields.saletag.hc_tag_css }}
 </head>
   <body class="gradient">
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
