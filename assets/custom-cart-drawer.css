@@ -23,6 +23,7 @@
 
 .cart-drawer__footer .totals{
     align-items: flex-start;
+    position: relative;
 }
 
 .cart-drawer__footer .totals{
