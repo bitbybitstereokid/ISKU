@@ -14,14 +14,14 @@
         "template--19035766784344__ce84ed92-7933-426a-9793-e6a959ab28f6-1685440255840c5411-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>ISKU Hämeenlinna<\/p>",
+            "heading": "<p>ISKU Mikkeli<\/p>",
             "heading_size": "h1"
           }
         },
         "template--19035766784344__ce84ed92-7933-426a-9793-e6a959ab28f6-1685440255840c5411-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Isku Shop Hämeenlinna  <br\/>Tiiriönsuontie 2  <br\/>13130 HÄMEENLINNA  <br\/>puh. 029 086 4560  <br\/>koti.hameenlinna@isku.fi  <br\/><br\/>Aukioloajat:  <br\/>Ma-pe: 10 - 18          <br\/>La: 10 - 16    <br\/>Su: Suljettu            <br\/><br\/>Noutovaraston aukioloajat  <br\/>Ma-pe: 11 - 18  <br\/><br\/>Katso myymälämme mallipoistot tästä. <\/p>"
+            "text": "<p>Isku Shop Mikkeli  <br\/>Graanintie 4  <br\/>50190 MIKKELI  <br\/>Puh. 029 086 4370  <br\/>koti.mikkeli@isku.fi  <br\/><br\/>Aukioloajat:  <br\/>Ma-pe: 10 - 18  <br\/>La: 10 - 15  <br\/>Su: Suljettu           <br\/><br\/>Noutovaraston aukioloajat  <br\/>Ma-pe: 10 - 17.30  <br\/>La: 10 - 14.30  <br\/>Su: Suljettu <br\/><br\/>Tervetuloa Mikkelin Iskuun Graanille. Liikkeemme sijaitsee Prisman, Citymarketin ja McDonaldsin vieressä. Ilmaisia parkkipaikkoja on hyvin saatavilla Iskun edessä.<br\/><br\/>Tule tutustumaan Mikkelin laajimpaan sänkyvalikoimaan. Iloinen henkilökuntamme auttaa sinua valitsemaan juuri oikean sängyn.<br\/><br\/>Tutustu samalla myös sohviin ja muihin sisustustuotteisiin. Meiltä saat myös sisustussuunnittelupalvelun.<\/p>"
           }
         },
         "template--19035766784344__ce84ed92-7933-426a-9793-e6a959ab28f6-1685440255840c5411-2": {
@@ -56,41 +56,41 @@
         "template--18960932667736__7c9fcfef-ad60-49e2-a86e-820afb5c3fb9-1684169800ae4304ac-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Mari_Lehto.jpg",
-            "title": "Mari Lehto",
-            "text": "<p>Myyntipäällikkö<\/p><p>029 086 4568<\/p>",
+            "image": "shopify:\/\/shop_images\/JPG_Pieni_Ville_Turunen__Grey.jpg",
+            "title": "Ville Turunen",
+            "text": "<p>Myyntipäällikkö<\/p><p>044 792 4379<\/p>",
             "link_label": "Email",
-            "link": "mailto:ilkka.viitanen@isku.fi"
+            "link": "mailto:ville.turunen@isku.fi"
           }
         },
         "template--18960932667736__7c9fcfef-ad60-49e2-a86e-820afb5c3fb9-1684169800ae4304ac-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Eija_Aaltonen.jpg",
-            "title": "Eija Aaltonen",
-            "text": "<p>Sisustusmyyjä<br\/>029 086 4564<\/p>",
+            "image": "shopify:\/\/shop_images\/Sari_Paavilainen_130619_ID_E-mail__800x800_f1020502-87a6-4368-b962-908e3a4ba4a3.jpg",
+            "title": "Sari Paavilainen",
+            "text": "<p>Sisustusmyyjä<br\/>050 462 1231<\/p>",
             "link_label": "Email",
-            "link": "mailto:eija.aaltonen@isku.fi"
+            "link": "mailto:sari.paavilainen@isku.fi"
           }
         },
         "template--18960932667736__7c9fcfef-ad60-49e2-a86e-820afb5c3fb9-1684169800ae4304ac-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Minna_Teerenmaa.jpg",
-            "title": "Minna Teerenmaa",
-            "text": "<p>Sisustusmyyjä<\/p><p>029 086 4566<\/p>",
+            "image": "shopify:\/\/shop_images\/Mirella_Virtanen.jpg",
+            "title": "Mirella Virtanen",
+            "text": "<p>Sisustusmyyjä, sisustusarkkitehti<\/p><p>050 400 1724<\/p>",
             "link_label": "Email",
-            "link": "mailto:minna.teerenmaa@isku.fi"
+            "link": "mailto:mirella.virtanen@isku.fi"
           }
         },
         "11443aed-07f7-4174-9bb7-d290d20d1cef": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Ville_Levaniemi_f7f236e8-2baa-4144-bfc8-b96b4280105c.jpg",
-            "title": "Ville Leväniemi",
-            "text": "<p>Aluejohtaja<\/p><p>050 436 9946<\/p>",
+            "image": "shopify:\/\/shop_images\/Taija_Purhonen_e109f33e-781f-4ea7-a222-05184c256fef.jpg",
+            "title": "Taija Purhonen",
+            "text": "<p>Aluejohtaja<\/p><p>029 086 3376<\/p>",
             "link_label": "Email",
-            "link": "mailto:matti.riikonen@isku.fiville.levaniemi@isku.fi"
+            "link": "mailto:taija.purhonen@isku.fi"
           }
         },
         "7b5052af-ca4f-47c3-a88a-cdcd75cb537d": {
