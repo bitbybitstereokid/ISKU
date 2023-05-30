@@ -14,14 +14,14 @@
         "template--19035766784344__ce84ed92-7933-426a-9793-e6a959ab28f6-1685440255840c5411-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>ISKU Jyväskylä<\/p>",
+            "heading": "<p>ISKU Hämeenlinna<\/p>",
             "heading_size": "h1"
           }
         },
         "template--19035766784344__ce84ed92-7933-426a-9793-e6a959ab28f6-1685440255840c5411-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Isku Shop Jyväskylä  <br\/>Tourulantie 13  <br\/>40100 JYVÄSKYLÄ  <br\/>puh. 029 086 4900  <br\/>koti.jkl@isku.fi  <br\/><br\/>Aukioloajat:  <br\/>Ma-pe: 10 - 19  <br\/>La: 10 - 16  <br\/>Su: 12 - 16   <br\/><br\/>Noutovarasto avoinna  <br\/>Ma-pe: 10 - 18  <br\/><br\/>Tervetuloa Jyväskylän Iskuun Tourulaan! Ammattitaitoiset sisustusmyyjämme palvelevat teitä kalustevalinnoissa. Meillä on laaja sänkymallisto, ja sängyn valinnassa teitä opastaa koulutetut nukkumisergonomian asiantuntijat.<br\/><br\/>Iskun löydät osoitteesta Tourulantie 13. Pihassamme on ilmainen pysäköinti parkkikiekolla (2 tuntia). <\/p>"
+            "text": "<p>Isku Shop Hämeenlinna  <br\/>Tiiriönsuontie 2  <br\/>13130 HÄMEENLINNA  <br\/>puh. 029 086 4560  <br\/>koti.hameenlinna@isku.fi  <br\/><br\/>Aukioloajat:  <br\/>Ma-pe: 10 - 18          <br\/>La: 10 - 16    <br\/>Su: Suljettu            <br\/><br\/>Noutovaraston aukioloajat  <br\/>Ma-pe: 11 - 18  <br\/><br\/>Katso myymälämme mallipoistot tästä. <\/p>"
           }
         },
         "template--19035766784344__ce84ed92-7933-426a-9793-e6a959ab28f6-1685440255840c5411-2": {
@@ -56,9 +56,9 @@
         "template--18960932667736__7c9fcfef-ad60-49e2-a86e-820afb5c3fb9-1684169800ae4304ac-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/JPG_Keskisuuri_Ilkka_Viitanen_111115.jpg",
-            "title": "Ilkka Viitanen",
-            "text": "<p>Aluepäällikkö<\/p><p>029 086 3366<\/p>",
+            "image": "shopify:\/\/shop_images\/Mari_Lehto.jpg",
+            "title": "Mari Lehto",
+            "text": "<p>Myyntipäällikkö<\/p><p>029 086 4568<\/p>",
             "link_label": "Email",
             "link": "mailto:ilkka.viitanen@isku.fi"
           }
@@ -66,11 +66,11 @@
         "template--18960932667736__7c9fcfef-ad60-49e2-a86e-820afb5c3fb9-1684169800ae4304ac-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Teija_Friman.jpg",
-            "title": "Teija Friman",
-            "text": "<p>Sisustusmyyjä<br\/>029 086 4907<\/p>",
+            "image": "shopify:\/\/shop_images\/Eija_Aaltonen.jpg",
+            "title": "Eija Aaltonen",
+            "text": "<p>Sisustusmyyjä<br\/>029 086 4564<\/p>",
             "link_label": "Email",
-            "link": "mailto:tommi.hagman@isku.fi"
+            "link": "mailto:eija.aaltonen@isku.fi"
           }
         },
         "template--18960932667736__7c9fcfef-ad60-49e2-a86e-820afb5c3fb9-1684169800ae4304ac-1": {
