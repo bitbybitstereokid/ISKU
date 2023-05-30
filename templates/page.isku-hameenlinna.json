@@ -76,21 +76,21 @@
         "template--18960932667736__7c9fcfef-ad60-49e2-a86e-820afb5c3fb9-1684169800ae4304ac-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Markus_Pekkarinen.jpg",
-            "title": "Markus Pekkarinen",
-            "text": "<p>Sisustusmyyjä<\/p><p>029 086 4908<\/p>",
+            "image": "shopify:\/\/shop_images\/Minna_Teerenmaa.jpg",
+            "title": "Minna Teerenmaa",
+            "text": "<p>Sisustusmyyjä<\/p><p>029 086 4566<\/p>",
             "link_label": "Email",
-            "link": "mailto:ville.levaniemi@isku.fi"
+            "link": "mailto:minna.teerenmaa@isku.fi"
           }
         },
         "11443aed-07f7-4174-9bb7-d290d20d1cef": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Vesa_Pienmaki_61498350-0735-44c6-87a9-cfe25c468dad.jpg",
-            "title": "Vesa Pienmäki",
-            "text": "<p>Sisustusmyyjä<\/p><p>029 086 4906<\/p>",
+            "image": "shopify:\/\/shop_images\/Matti_Riikonen_mustavalko_2.jpg",
+            "title": "Matti Riikonen",
+            "text": "<p>Sisustusmyyjä<\/p><p>029 086 4565<\/p>",
             "link_label": "Email",
-            "link": "mailto:ilari.jaaskelainen@isku.com"
+            "link": "mailto:matti.riikonen@isku.fi"
           }
         },
         "7b5052af-ca4f-47c3-a88a-cdcd75cb537d": {
