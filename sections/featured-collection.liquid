@@ -47,6 +47,9 @@
   endif
 -%}
 
+{% assign namesForColorSwotcher = settings.colors_swatcher_title | escape | strip | downcase %}
+{% assign colorsNamesAndHex = settings.colors_swatcher_colors | strip | downcase | split: ';' %}
+
 <div class="color-{{ section.settings.color_scheme }} isolate gradient">
   <div class="collection section-{{ section.id }}-padding{% if section.settings.full_width %} collection--full-width{% endif %}">
     <div class="collection__title title-wrapper title-wrapper--no-top-margin page-width{% if show_mobile_slider %} title-wrapper--self-padded-tablet-down{% endif %}{% if show_desktop_slider %} collection__title--desktop-slider{% endif %}">
@@ -86,7 +89,9 @@
                     show_vendor: section.settings.show_vendor,
                     show_rating: section.settings.show_rating,
                     show_quick_add: section.settings.enable_quick_add,
-                    section_id: section.id
+                    section_id: section.id,
+                    nameSwatch: namesForColorSwotcher,
+                    colorSwatch: colorsNamesAndHex
             %}
           </li>
         {%- else -%}
