@@ -86,15 +86,16 @@
         "11443aed-07f7-4174-9bb7-d290d20d1cef": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Matti_Riikonen_mustavalko_2.jpg",
-            "title": "Matti Riikonen",
-            "text": "<p>Sisustusmyyjä<\/p><p>029 086 4565<\/p>",
+            "image": "shopify:\/\/shop_images\/Ville_Levaniemi_f7f236e8-2baa-4144-bfc8-b96b4280105c.jpg",
+            "title": "Ville Leväniemi",
+            "text": "<p>Aluejohtaja<\/p><p>050 436 9946<\/p>",
             "link_label": "Email",
-            "link": "mailto:matti.riikonen@isku.fi"
+            "link": "mailto:matti.riikonen@isku.fiville.levaniemi@isku.fi"
           }
         },
         "7b5052af-ca4f-47c3-a88a-cdcd75cb537d": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Tero_Raatikainen.jpg",
             "title": "Tero Raatikainen",
@@ -105,6 +106,7 @@
         },
         "3f68feeb-5902-4903-bbe2-2caa01ea25da": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Mirella_Virtanen.jpg",
             "title": "Mirella Virtanen",
@@ -115,6 +117,7 @@
         },
         "9c17c02f-cb9c-4870-88be-2523eee52914": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Taija_Purhonen.jpg",
             "title": "Taija Purhonen",
