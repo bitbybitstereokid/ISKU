@@ -14,14 +14,14 @@
         "template--19035766784344__ce84ed92-7933-426a-9793-e6a959ab28f6-1685440255840c5411-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>ISKU Tampere Kaleva<\/p>",
+            "heading": "<p>ISKU Pirkkala Veska<\/p>",
             "heading_size": "h1"
           }
         },
         "template--19035766784344__ce84ed92-7933-426a-9793-e6a959ab28f6-1685440255840c5411-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Isku Shop Tampere Kaleva  <br\/>Kauppakeskus Kale  <br\/>Jäähallinkaari 3  <br\/>33540 TAMPERE  <br\/>puh. 029 086 4500<br\/><br\/>Aukioloajat:  <br\/>Ma-pe: 10 - 19  <br\/>La: 10 - 17  <br\/>Su 12 - 17   <br\/><br\/>Click & Collect palvelee osoitteessa Ilmailunkatu 3, 33900 TAMPERE.  <br\/>Avoinna ma-pe 10-18.  <\/p>"
+            "text": "<p>Isku Shop Pirkkala Veska  <br\/>Saapastie 2  <br\/>33950 PIRKKALA  <br\/>puh. 029 086 4500  <br\/><br\/>Aukioloajat  <br\/>Ma-pe: 10 - 19  <br\/>La: 10 - 16  <br\/>Su: 12 - 16      <br\/><br\/>Click & Collect palvelee osoitteessa Ilmailunkatu 3, 33900 TAMPERE.  <br\/>Avoinna ma-pe 10 - 18.  <br\/><br\/>Tervetuloa Iskuun Pirkkalan Veskaan!<br\/><br\/>Meillä on esillä maan paras ja laajin nukkumisen mallisto. Koulutetut myyjämme auttavat sinua valitsemaan juuri oikean sängyn.<br\/><br\/>Iloinen ja ammattitaitoinen henkilöstömme palvelee myös kaikissa muissa sisustusasioissa! Tutustu Iskun laajaan ja laadukkaaseen sohvamallistoon.<\/p>"
           }
         },
         "template--19035766784344__ce84ed92-7933-426a-9793-e6a959ab28f6-1685440255840c5411-2": {
@@ -63,14 +63,14 @@
             "link": "mailto:teemu.koreila@isku.fi"
           }
         },
-        "template--18960932667736__7c9fcfef-ad60-49e2-a86e-820afb5c3fb9-1684169800ae4304ac-0": {
+        "0101f0cd-9a2b-48a8-8fd6-4c8bb308deaa": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Heli_Mannila.jpg",
-            "title": "Heli Mannila",
-            "text": "<p>Sisustusmyyjä<br\/>050 465 6195<\/p>",
+            "image": "shopify:\/\/shop_images\/Mikko_Keinanen.jpg",
+            "title": "Mikko Keinänen",
+            "text": "<p>Sisustusmyyjä<br\/>050 302 0792<\/p>",
             "link_label": "Email",
-            "link": "mailto:heli.mannila@isku.fi"
+            "link": "mailto:mikko.keinanen@isku.fi"
           }
         },
         "template--18960932667736__7c9fcfef-ad60-49e2-a86e-820afb5c3fb9-1684169800ae4304ac-1": {
@@ -81,6 +81,76 @@
             "text": "<p>Sisustusmyyjä<\/p><p>050 465 6317<\/p>",
             "link_label": "Email",
             "link": "mailto:lauri.hurme@isku.fi"
+          }
+        },
+        "bf1e62fe-852b-48be-97c3-efeedee1cc26": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Unto_Hirvela.jpg",
+            "title": "Unto Hirvelä",
+            "text": "<p>Sisustusmyyjä<br\/>044 792 4513<\/p>",
+            "link_label": "Email",
+            "link": "mailto:unto.hirvela@isku.fi"
+          }
+        },
+        "57b511f7-c22b-44a1-8f4b-ee06b206e72b": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hahmo_1.jpg",
+            "title": "Leo Karikytö",
+            "text": "<p>Sisustusmyyjä<br\/>044 792 4504<\/p>",
+            "link_label": "Email",
+            "link": "mailto:leo.autio@isku.fi"
+          }
+        },
+        "cf457486-4975-4389-ae1c-c98c31edc74a": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hahmo_1cddfe4e-2673-4333-8ba6-e76e352414ac.jpg",
+            "title": "Olli Ojanen",
+            "text": "<p>Sisustusmyyjä<br\/>044 792 4508<\/p>",
+            "link_label": "Email",
+            "link": "mailto:olli.ojanen@isku.fi"
+          }
+        },
+        "template--18960932667736__7c9fcfef-ad60-49e2-a86e-820afb5c3fb9-1684169800ae4304ac-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Heli_Mannila.jpg",
+            "title": "Heli Mannila",
+            "text": "<p>Sisustusmyyjä<br\/>050 465 6195<\/p>",
+            "link_label": "Email",
+            "link": "mailto:heli.mannila@isku.fi"
+          }
+        },
+        "c969fd41-bbb4-4699-9eea-470f0a351d28": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Sari_Marttila.jpg",
+            "title": "Sari Liemola",
+            "text": "<p>Sisustusmyyjä<br\/>044 792 4507<\/p>",
+            "link_label": "Email",
+            "link": "mailto:sari.liemola@isku.fi"
+          }
+        },
+        "261b61e0-2c4c-4eb6-89d9-591951f7e152": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/JPG_Pieni_Micke_Vuoristo_grey.jpg",
+            "title": "Micke Vuoristo",
+            "text": "<p>Sisustusmyyjä<br\/>050 322 5606<\/p>",
+            "link_label": "Email",
+            "link": "mailto:micke.vuoristo@isku.fi"
+          }
+        },
+        "0bb65195-c26c-47e0-8af8-5759a3639447": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/JPG_Pieni_Jenni_Hantula_mv.jpg",
+            "title": "Jenni Hantula",
+            "text": "<p>Sisustussuunnittelija<br\/><\/p>",
+            "link_label": "Email",
+            "link": "mailto:jenni.hantula@isku.fi"
           }
         },
         "7b5052af-ca4f-47c3-a88a-cdcd75cb537d": {
@@ -116,76 +186,6 @@
             "link": ""
           }
         },
-        "0101f0cd-9a2b-48a8-8fd6-4c8bb308deaa": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Mikko_Keinanen.jpg",
-            "title": "Mikko Keinänen",
-            "text": "<p>Sisustusmyyjä<br\/>050 302 0792<\/p>",
-            "link_label": "Email",
-            "link": "mailto:mikko.keinanen@isku.fi"
-          }
-        },
-        "cf457486-4975-4389-ae1c-c98c31edc74a": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/hahmo_1cddfe4e-2673-4333-8ba6-e76e352414ac.jpg",
-            "title": "Olli Ojanen",
-            "text": "<p>Sisustusmyyjä<br\/>044 792 4508<\/p>",
-            "link_label": "Email",
-            "link": "mailto:olli.ojanen@isku.fi"
-          }
-        },
-        "bf1e62fe-852b-48be-97c3-efeedee1cc26": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Unto_Hirvela.jpg",
-            "title": "Unto Hirvelä",
-            "text": "<p>Sisustusmyyjä<br\/>044 792 4513<\/p>",
-            "link_label": "Email",
-            "link": "mailto:unto.hirvela@isku.fi"
-          }
-        },
-        "c969fd41-bbb4-4699-9eea-470f0a351d28": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Sari_Marttila.jpg",
-            "title": "Sari Liemola",
-            "text": "<p>Sisustusmyyjä<br\/>044 792 4507<\/p>",
-            "link_label": "Email",
-            "link": "mailto:sari.liemola@isku.fi"
-          }
-        },
-        "57b511f7-c22b-44a1-8f4b-ee06b206e72b": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/hahmo_1.jpg",
-            "title": "Leo Karikytö",
-            "text": "<p>Sisustusmyyjä<br\/>044 792 4504<\/p>",
-            "link_label": "Email",
-            "link": "mailto:leo.autio@isku.fi"
-          }
-        },
-        "261b61e0-2c4c-4eb6-89d9-591951f7e152": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/JPG_Pieni_Micke_Vuoristo_grey.jpg",
-            "title": "Micke Vuoristo",
-            "text": "<p>Sisustusmyyjä<br\/>050 322 5606<\/p>",
-            "link_label": "Email",
-            "link": "mailto:micke.vuoristo@isku.fi"
-          }
-        },
-        "0bb65195-c26c-47e0-8af8-5759a3639447": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/JPG_Pieni_Jenni_Hantula_mv.jpg",
-            "title": "Jenni Hantula",
-            "text": "<p>Sisustussuunnittelija<br\/><\/p>",
-            "link_label": "Email",
-            "link": "mailto:jenni.hantula@isku.fi"
-          }
-        },
         "11443aed-07f7-4174-9bb7-d290d20d1cef": {
           "type": "column",
           "settings": {
@@ -199,18 +199,18 @@
       },
       "block_order": [
         "template--18960932667736__7c9fcfef-ad60-49e2-a86e-820afb5c3fb9-1684169800ae4304ac-2",
-        "template--18960932667736__7c9fcfef-ad60-49e2-a86e-820afb5c3fb9-1684169800ae4304ac-0",
+        "0101f0cd-9a2b-48a8-8fd6-4c8bb308deaa",
         "template--18960932667736__7c9fcfef-ad60-49e2-a86e-820afb5c3fb9-1684169800ae4304ac-1",
+        "bf1e62fe-852b-48be-97c3-efeedee1cc26",
+        "57b511f7-c22b-44a1-8f4b-ee06b206e72b",
+        "cf457486-4975-4389-ae1c-c98c31edc74a",
+        "template--18960932667736__7c9fcfef-ad60-49e2-a86e-820afb5c3fb9-1684169800ae4304ac-0",
+        "c969fd41-bbb4-4699-9eea-470f0a351d28",
+        "261b61e0-2c4c-4eb6-89d9-591951f7e152",
+        "0bb65195-c26c-47e0-8af8-5759a3639447",
         "7b5052af-ca4f-47c3-a88a-cdcd75cb537d",
         "3f68feeb-5902-4903-bbe2-2caa01ea25da",
         "9c17c02f-cb9c-4870-88be-2523eee52914",
-        "0101f0cd-9a2b-48a8-8fd6-4c8bb308deaa",
-        "cf457486-4975-4389-ae1c-c98c31edc74a",
-        "bf1e62fe-852b-48be-97c3-efeedee1cc26",
-        "c969fd41-bbb4-4699-9eea-470f0a351d28",
-        "57b511f7-c22b-44a1-8f4b-ee06b206e72b",
-        "261b61e0-2c4c-4eb6-89d9-591951f7e152",
-        "0bb65195-c26c-47e0-8af8-5759a3639447",
         "11443aed-07f7-4174-9bb7-d290d20d1cef"
       ],
       "settings": {
