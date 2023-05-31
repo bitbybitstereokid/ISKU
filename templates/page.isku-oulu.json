@@ -14,14 +14,14 @@
         "template--19035766784344__ce84ed92-7933-426a-9793-e6a959ab28f6-1685440255840c5411-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>ISKU Kokkola<\/p>",
+            "heading": "<p>ISKU Oulu<\/p>",
             "heading_size": "h1"
           }
         },
         "template--19035766784344__ce84ed92-7933-426a-9793-e6a959ab28f6-1685440255840c5411-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Isku Shop Kokkola  <br\/>Pitkänsillankatu 17  <br\/>67100 KOKKOLA  <br\/>puh. 029 086 3900   <br\/>koti.kokkola@isku.fi  <br\/><br\/>Aukioloajat:  <br\/>Ma-pe: 10 - 18  <br\/>La: 10 - 16    <br\/>Su: 12 - 16   <br\/><br\/>Tervetuloa Kokkolan Iskuun! Löydät meidät Kallentoria vastapäätä. Myymälän edessä on runsaasti ilmaista pysäköintitilaa.<br\/><br\/>Iloinen ja asiantunteva henkilöstömme palvelee asiakkaitaan suomeksi, ruotsiksi ja englanniksi.  <br\/><br\/>Meiltä saat myös sisustussuunnittelupalvelun!<\/p>"
+            "text": "<p>Isku Shop Oulu  <br\/>Taka-Lyötyn aukio 4  <br\/>90150 OULU  <br\/>Puh. 029 086 4800  <br\/>koti.oulu@isku.fi  <br\/><br\/>Aukioloajat:  <br\/>Ma-pe: 10 - 19  <br\/>La: 10 - 16  <br\/>Su: 12 - 16  <br\/><br\/>Noutovarasto palvelee osoitteessa Äimäkuja 6, 90400 Oulu.  <br\/>Avoinna ma – pe 12-18. <br\/><br\/>Tervetuloa Oulun Iskuun, iloisen palvelun sisustusliikkeeseen!<br\/><br\/>Meillä on kaupungin kattavin sänkyvalikoima. Asiantunteva henkilöstömme auttaa sinua valitsemaan juuri oikean sängyn.  <\/p>"
           }
         },
         "template--19035766784344__ce84ed92-7933-426a-9793-e6a959ab28f6-1685440255840c5411-2": {
@@ -56,41 +56,41 @@
         "template--18960932667736__7c9fcfef-ad60-49e2-a86e-820afb5c3fb9-1684169800ae4304ac-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Kari_Vaisanen.jpg",
+            "image": "shopify:\/\/shop_images\/Miikka_Rautiola.jpg",
             "title": "Kari Väisänen",
-            "text": "<p>Myyntipäällikkö<\/p><p>029 086 3406<\/p>",
+            "text": "<p>Myyntipäällikkö<\/p><p>029 086 4808<\/p>",
             "link_label": "Email",
-            "link": "mailto:kari.vaisanen@isku.fi"
+            "link": "mailto:miikka.rautiola@isku.fi"
           }
         },
         "template--18960932667736__7c9fcfef-ad60-49e2-a86e-820afb5c3fb9-1684169800ae4304ac-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Miia_Nissila.jpg",
-            "title": "Miia Nissilä",
-            "text": "<p>Sisustusmyyjä<br\/>029 086 3908<\/p>",
+            "image": "shopify:\/\/shop_images\/Aulikki_Kahtava.jpg",
+            "title": "Aulikki Kähtävä",
+            "text": "<p>Sisustusmyyjä<br\/>029 086 4810<\/p>",
             "link_label": "Email",
-            "link": "mailto:miia.nissila@isku.fi"
+            "link": "mailto:aulikki.kahtava@isku.fi"
           }
         },
         "template--18960932667736__7c9fcfef-ad60-49e2-a86e-820afb5c3fb9-1684169800ae4304ac-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Nina_Norrkniivila.jpg",
-            "title": "Nina Fagerholm",
-            "text": "<p>Sisustusmyyjä<\/p><p>029 086 3905<\/p>",
+            "image": "shopify:\/\/shop_images\/Paivi_Merilehto.jpg",
+            "title": "Päivi Merilehto",
+            "text": "<p>Sisustusmyyjä<\/p><p>029 086 4998<\/p>",
             "link_label": "Email",
-            "link": "mailto:nina.norrkniivila@isku.fi"
+            "link": "mailto:paivi.merilehto@isku.fi"
           }
         },
         "11443aed-07f7-4174-9bb7-d290d20d1cef": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Minna_Riska.jpg",
-            "title": "Minna Riska",
+            "image": "shopify:\/\/shop_images\/Hanna_Ylikerala_grey.jpg",
+            "title": "Hanna Saari",
             "text": "<p>Sisustusmyyjä<\/p><p>029 086 3909<\/p>",
             "link_label": "Email",
-            "link": "mailto:minna.riska@isku.fi"
+            "link": "mailto:hanna.saari@isku.fi"
           }
         },
         "7b5052af-ca4f-47c3-a88a-cdcd75cb537d": {
@@ -130,10 +130,30 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/hahmo_2.jpg",
-            "title": "Johanna Rautiola",
+            "title": "Sari Laitinen",
             "text": "<p>Sisustusmyyjä<\/p>",
             "link_label": "Email",
-            "link": "mailto:johanna.rautiola@isku.fi"
+            "link": "mailto:sari.laitinen@isku.fi"
+          }
+        },
+        "8c838526-3865-4be4-96f1-6361bbb9ad73": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hahmo_1cddfe4e-2673-4333-8ba6-e76e352414ac.jpg",
+            "title": "Roosa Pokka",
+            "text": "<p>Sisustusmyyjä<br\/>044 792 4817 <\/p>",
+            "link_label": "Email",
+            "link": "mailto:roosa.pokka@isku.fi"
+          }
+        },
+        "bc7f227b-202f-43d2-a727-b04cdd847112": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hahmo_1.jpg",
+            "title": "Juho Ylisaukko-Oja",
+            "text": "<p>Sisustusmyyjä<\/p>",
+            "link_label": "Email",
+            "link": "mailto:juho.ylisaukko-oja@isku.fi"
           }
         },
         "434d3829-81c9-46e5-8acf-d19892b94cd4": {
@@ -156,6 +176,8 @@
         "3f68feeb-5902-4903-bbe2-2caa01ea25da",
         "9c17c02f-cb9c-4870-88be-2523eee52914",
         "d7c29fa8-6fca-4dc0-a442-38196d96d8a9",
+        "8c838526-3865-4be4-96f1-6361bbb9ad73",
+        "bc7f227b-202f-43d2-a727-b04cdd847112",
         "434d3829-81c9-46e5-8acf-d19892b94cd4"
       ],
       "settings": {
