@@ -478,7 +478,8 @@
         "pick_up_in_two_to_four_days": " ",
         "pick_up_in_five_or_more_days": " ",
         "pick_up_in_zero_to_two_hours": " ",
-        "pick_up_in_two_to_four_hours": " "
+        "pick_up_in_two_to_four_hours": " ",
+        "pick_up_immediately": " "
       },
       "general": {
         "back_to_contact_information": "Palaa yhteystietoihin",
