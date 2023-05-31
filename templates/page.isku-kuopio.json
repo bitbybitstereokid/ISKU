@@ -21,7 +21,7 @@
         "template--19035766784344__ce84ed92-7933-426a-9793-e6a959ab28f6-1685440255840c5411-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Isku Shop Kuopio  <br\/>Kauppakeskus Cantti  <br\/>Kartanonkatu 4a  <br\/>70700 KUOPIO  <br\/>puh. 029 086 4700  <br\/>koti.kuopio@isku.fi<br\/><br\/>Aukioloajat:  <br\/>Ma-Pe: 10 - 19  <br\/>La: 10 - 16  <br\/>Su: 12 - 16   <br\/><br\/>Kevään poikkeusaukioloajat:       <br\/>Su 14.5 Suljettu    <br\/>To 18.5 Avoinna normaalisti    <br\/>Su 28. Avoinna normaalisti      <br\/><br\/>Varasto avoinna arkisin 8 - 18  <\/p>"
+            "text": "<p>Isku Shop Kuopio  <br\/>Kauppakeskus Cantti  <br\/>Kartanonkatu 4a  <br\/>70700 KUOPIO  <br\/>puh. 029 086 4700  <br\/>koti.kuopio@isku.fi<br\/><br\/>Aukioloajat:  <br\/>Ma-Pe: 10 - 19  <br\/>La: 10 - 16  <br\/>Su: 12 - 16   <br\/><br\/>Kevään poikkeusaukioloajat:       <br\/>Su 14.5 Suljettu    <br\/>To 18.5 Avoinna normaalisti    <br\/>Su 28. Avoinna normaalisti      <br\/><br\/>Varasto avoinna arkisin 8 - 18    <\/p>"
           }
         },
         "template--19035766784344__ce84ed92-7933-426a-9793-e6a959ab28f6-1685440255840c5411-2": {
@@ -56,9 +56,9 @@
         "template--18960932667736__7c9fcfef-ad60-49e2-a86e-820afb5c3fb9-1684169800ae4304ac-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Petri_Koivusilta_8eb858b0-7c53-40a9-8e85-507e0c13d8ca.jpg",
+            "image": "shopify:\/\/shop_images\/Petri_Koivusilta.jpg",
             "title": "Petri Koivusilta",
-            "text": "<p>Sisustusmyyjä<\/p><p>050 466 5304<\/p>",
+            "text": "<p>Sisustusmyyjä<br\/>050 466 5304<\/p>",
             "link_label": "Email",
             "link": "mailto:petri.koivusilta@isku.fi"
           }
@@ -66,31 +66,31 @@
         "template--18960932667736__7c9fcfef-ad60-49e2-a86e-820afb5c3fb9-1684169800ae4304ac-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Niina_Kaakinen.jpg",
-            "title": "Niina Kaakinen",
-            "text": "<p>Sisustusmyyjä<br\/>050 409 1210<\/p>",
+            "image": "shopify:\/\/shop_images\/JPG_Pieni_Marja-Liisa_Juurikka_grey.jpg",
+            "title": "Marja-Liisa Juurikka",
+            "text": "<p>Sisustusmyyjä<br\/>029 086 4607<\/p>",
             "link_label": "Email",
-            "link": "mailto:niina.kaakinen@isku.fi"
+            "link": "mailto:marja-liisa.juurikka@isku.fi"
           }
         },
         "template--18960932667736__7c9fcfef-ad60-49e2-a86e-820afb5c3fb9-1684169800ae4304ac-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Juuso_Fomkin.jpg",
-            "title": "Juuso Fomkin",
-            "text": "<p>Sisustusmyyjä<\/p><p>029 086 4707<\/p>",
+            "image": "shopify:\/\/shop_images\/JPG_Pieni_Tatu_Husu_301220_grey.jpg",
+            "title": "Tatu Husu",
+            "text": "<p>Sisustusmyyjä<\/p><p>029 086 4606<\/p>",
             "link_label": "Email",
-            "link": "mailto:juuso.fomkin@isku.fi"
+            "link": "mailto:tatu.husu@isku.fi"
           }
         },
         "11443aed-07f7-4174-9bb7-d290d20d1cef": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Henna_Kurki_Pietarinen_1.jpg",
-            "title": "Henna Kurki-Pietarinen",
-            "text": "<p>Sisustusmyyjä, sisustussuunnittelija<\/p><p>Vanhempainvapaalla<\/p>",
+            "image": "shopify:\/\/shop_images\/hahmo_2.jpg",
+            "title": "Vilma Raatikainen",
+            "text": "<p>Sisustusmyyjä<\/p><p>029 086 4600<\/p>",
             "link_label": "Email",
-            "link": "mailto:henna.kurki-pietarinen@isku.fi"
+            "link": "mailto:vilma.raatikainen@isku.fi"
           }
         },
         "7b5052af-ca4f-47c3-a88a-cdcd75cb537d": {
