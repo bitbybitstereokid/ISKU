@@ -1,0 +1,162 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "ce84ed92-7933-426a-9793-e6a959ab28f6": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19035766784344__ce84ed92-7933-426a-9793-e6a959ab28f6-1685440255840c5411-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>ISKU Mikkeli<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--19035766784344__ce84ed92-7933-426a-9793-e6a959ab28f6-1685440255840c5411-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Isku Shop Mikkeli  <br\/>Graanintie 4  <br\/>50190 MIKKELI  <br\/>Puh. 029 086 4370  <br\/>koti.mikkeli@isku.fi  <br\/><br\/>Aukioloajat:  <br\/>Ma-pe: 10 - 18  <br\/>La: 10 - 15  <br\/>Su: Suljettu           <br\/><br\/>Noutovaraston aukioloajat  <br\/>Ma-pe: 10 - 17.30  <br\/>La: 10 - 14.30  <br\/>Su: Suljettu <br\/><br\/>Tervetuloa Mikkelin Iskuun Graanille. Liikkeemme sijaitsee Prisman, Citymarketin ja McDonaldsin vieressä. Ilmaisia parkkipaikkoja on hyvin saatavilla Iskun edessä.<br\/><br\/>Tule tutustumaan Mikkelin laajimpaan sänkyvalikoimaan. Iloinen henkilökuntamme auttaa sinua valitsemaan juuri oikean sängyn.<br\/><br\/>Tutustu samalla myös sohviin ja muihin sisustustuotteisiin. Meiltä saat myös sisustussuunnittelupalvelun.<\/p>"
+          }
+        },
+        "template--19035766784344__ce84ed92-7933-426a-9793-e6a959ab28f6-1685440255840c5411-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19035766784344__ce84ed92-7933-426a-9793-e6a959ab28f6-1685440255840c5411-0",
+        "template--19035766784344__ce84ed92-7933-426a-9793-e6a959ab28f6-1685440255840c5411-1",
+        "template--19035766784344__ce84ed92-7933-426a-9793-e6a959ab28f6-1685440255840c5411-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "7c9fcfef-ad60-49e2-a86e-820afb5c3fb9": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--18960932667736__7c9fcfef-ad60-49e2-a86e-820afb5c3fb9-1684169800ae4304ac-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/JPG_Pieni_Ville_Turunen__Grey.jpg",
+            "title": "Ville Turunen",
+            "text": "<p>Myyntipäällikkö<\/p><p>044 792 4379<\/p>",
+            "link_label": "Email",
+            "link": "mailto:ville.turunen@isku.fi"
+          }
+        },
+        "template--18960932667736__7c9fcfef-ad60-49e2-a86e-820afb5c3fb9-1684169800ae4304ac-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Sari_Paavilainen_130619_ID_E-mail__800x800_f1020502-87a6-4368-b962-908e3a4ba4a3.jpg",
+            "title": "Sari Paavilainen",
+            "text": "<p>Sisustusmyyjä<br\/>050 462 1231<\/p>",
+            "link_label": "Email",
+            "link": "mailto:sari.paavilainen@isku.fi"
+          }
+        },
+        "template--18960932667736__7c9fcfef-ad60-49e2-a86e-820afb5c3fb9-1684169800ae4304ac-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mirella_Virtanen.jpg",
+            "title": "Mirella Virtanen",
+            "text": "<p>Sisustusmyyjä, sisustusarkkitehti<\/p><p>050 400 1724<\/p>",
+            "link_label": "Email",
+            "link": "mailto:mirella.virtanen@isku.fi"
+          }
+        },
+        "11443aed-07f7-4174-9bb7-d290d20d1cef": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Taija_Purhonen_e109f33e-781f-4ea7-a222-05184c256fef.jpg",
+            "title": "Taija Purhonen",
+            "text": "<p>Aluejohtaja<\/p><p>029 086 3376<\/p>",
+            "link_label": "Email",
+            "link": "mailto:taija.purhonen@isku.fi"
+          }
+        },
+        "7b5052af-ca4f-47c3-a88a-cdcd75cb537d": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Tero_Raatikainen.jpg",
+            "title": "Tero Raatikainen",
+            "text": "<p>Sisustusmyyjä<br\/>029 086 4909<\/p>",
+            "link_label": "Email",
+            "link": ""
+          }
+        },
+        "3f68feeb-5902-4903-bbe2-2caa01ea25da": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mirella_Virtanen.jpg",
+            "title": "Mirella Virtanen",
+            "text": "<p>Sisustusmyyjä, sisustusarkkitehti<br\/>050 400 1724<\/p>",
+            "link_label": "Email",
+            "link": ""
+          }
+        },
+        "9c17c02f-cb9c-4870-88be-2523eee52914": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Taija_Purhonen.jpg",
+            "title": "Taija Purhonen",
+            "text": "<p>Aluejohtaja<br\/>029 086 3376<\/p>",
+            "link_label": "Email",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18960932667736__7c9fcfef-ad60-49e2-a86e-820afb5c3fb9-1684169800ae4304ac-2",
+        "template--18960932667736__7c9fcfef-ad60-49e2-a86e-820afb5c3fb9-1684169800ae4304ac-0",
+        "template--18960932667736__7c9fcfef-ad60-49e2-a86e-820afb5c3fb9-1684169800ae4304ac-1",
+        "11443aed-07f7-4174-9bb7-d290d20d1cef",
+        "7b5052af-ca4f-47c3-a88a-cdcd75cb537d",
+        "3f68feeb-5902-4903-bbe2-2caa01ea25da",
+        "9c17c02f-cb9c-4870-88be-2523eee52914"
+      ],
+      "settings": {
+        "title": "Palveluksessasi",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "ce84ed92-7933-426a-9793-e6a959ab28f6",
+    "7c9fcfef-ad60-49e2-a86e-820afb5c3fb9"
+  ]
+}
