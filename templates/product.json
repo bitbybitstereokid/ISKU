@@ -24,6 +24,13 @@
           "settings": {
           }
         },
+        "9faeb37a-df02-49fa-bd63-b45f28ae421f": {
+          "type": "text",
+          "settings": {
+            "text": "Verkkokaupan avajaistarjoukset vain 4.6. keskiyöhön saakka!",
+            "text_style": "body"
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -105,19 +112,13 @@
 
             ]
           }
-        },
-        "9faeb37a-df02-49fa-bd63-b45f28ae421f": {
-          "type": "text",
-          "settings": {
-            "text": "Verkkokaupan avajaistarjoukset vain 4.6. keskiyöhön saakka!",
-            "text_style": "body"
-          }
         }
       },
       "block_order": [
         "2afe51da-b9b0-4327-b31c-e2facff45b8a",
         "title",
         "price",
+        "9faeb37a-df02-49fa-bd63-b45f28ae421f",
         "variant_picker",
         "quantity_selector",
         "d5d76b23-c270-46e6-ab01-a2acac1f9252",
@@ -128,8 +129,7 @@
         "52369498-8776-41fd-b7d9-b0a2dc043439",
         "a87d3c0c-321b-47f8-a93a-efe2e4913ee1",
         "dd9726de-2ac5-4429-8217-767b72f783b0",
-        "0345ac45-a8d3-4374-8f71-5b94983a326c",
-        "9faeb37a-df02-49fa-bd63-b45f28ae421f"
+        "0345ac45-a8d3-4374-8f71-5b94983a326c"
       ],
       "settings": {
         "enable_sticky_info": true,
