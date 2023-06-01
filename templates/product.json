@@ -112,6 +112,13 @@
 
             ]
           }
+        },
+        "bf457eaa-0904-4922-9914-48817f3ad606": {
+          "type": "text",
+          "settings": {
+            "text": "* Alennus lasketaan tuotteen normaalihinnasta ja koskee ainoastaan uusia kauppoja\/tilauksia. Verkkokaupan avajaiset kampanja 4.6. saakka.",
+            "text_style": "body"
+          }
         }
       },
       "block_order": [
@@ -129,7 +136,8 @@
         "52369498-8776-41fd-b7d9-b0a2dc043439",
         "a87d3c0c-321b-47f8-a93a-efe2e4913ee1",
         "dd9726de-2ac5-4429-8217-767b72f783b0",
-        "0345ac45-a8d3-4374-8f71-5b94983a326c"
+        "0345ac45-a8d3-4374-8f71-5b94983a326c",
+        "bf457eaa-0904-4922-9914-48817f3ad606"
       ],
       "settings": {
         "enable_sticky_info": true,
