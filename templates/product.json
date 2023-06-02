@@ -27,8 +27,14 @@
         "9faeb37a-df02-49fa-bd63-b45f28ae421f": {
           "type": "text",
           "settings": {
-            "text": "Verkkokaupan avajaistarjoukset vain 4.6. keskiyöhön saakka!",
+            "text": "Verkkokaupan avajaistarjoukset voimassa vielä:",
             "text_style": "body"
+          }
+        },
+        "25a6500c-027e-4f6d-9199-451bc2e6d7b4": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<table align=\"center\"><tbody><tr><td><img src=\"https:\/\/gen.sendtric.com\/countdown\/brri2daztm\" style=\"display: block;max-width:100%\" \/><\/td><\/tr><\/tbody><\/table>"
           }
         },
         "variant_picker": {
@@ -126,6 +132,7 @@
         "title",
         "price",
         "9faeb37a-df02-49fa-bd63-b45f28ae421f",
+        "25a6500c-027e-4f6d-9199-451bc2e6d7b4",
         "variant_picker",
         "quantity_selector",
         "d5d76b23-c270-46e6-ab01-a2acac1f9252",
