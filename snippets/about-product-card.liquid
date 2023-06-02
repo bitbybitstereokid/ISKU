@@ -1,3 +1,7 @@
+{% assign namesForColorSwotcher = settings.colors_swatcher_title | escape | strip | downcase %}
+{% assign colorsNamesAndHex = settings.colors_swatcher_colors | strip | downcase | split: ';' %}
+{{ 'custom-component-card.css' | asset_url | stylesheet_tag }}
+
 <div class="product-card">
     <div class="product-card__wishlist-btn">
         {% comment %}<span class="smartwishlist" data-product="{{ card_product.id }}" data-variant="{{ card_product.selected_or_first_available_variant.id }}"></span>{% endcomment %}
@@ -20,6 +24,7 @@
                 <div class="product-card__image image-wrapper">
                     {{ product.featured_image | image_url: width: 610 | image_tag: widths: '610', alt: product.title, loading: 'lazy' }}
                 </div>
+                {% render 'card-product-swatches', card_product: product, nameSwatch: namesForColorSwotcher, colorSwatch: colorsNamesAndHex %}
                 <h4 class="product-card__title">{{ product.title }}</h4>
             </div>
         {% else %}
