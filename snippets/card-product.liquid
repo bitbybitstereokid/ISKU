@@ -139,44 +139,7 @@
             <div class="card__content">
 
                 <div class="card__information">
-                    {% comment %}<div class="card-variants">
-                        {%- for option in card_product.options_with_values -%}
-                            {% assign formatedOptionName = option.name | strip | downcase %}
-                            {% if nameSwatch contains formatedOptionName %}
-                                <div class="card-color-options">
-                                    {% assign optionSize = option.values | size %}
-                                    {%- for value in option.values -%}
-                                        {% assign colorHex = 'background-color: #000000' %}
-                                        {% for color in colorSwatch %}
-                                            {% assign colorHexFromSettings = color | split: ':' | last | strip %}
-                                            {% assign colorNameFromSettings = color | split: ':' | first | strip | downcase %}
-                                            {% assign formatedColorNameFromOption = value | strip | downcase %}
-                                            {% if colorNameFromSettings == formatedColorNameFromOption  %}
-                                                {%- if colorHexFromSettings contains '#' -%}
-                                                    {%- assign colorHex = 'background-color: ' | append: colorHexFromSettings  -%}
-                                                    {%- break -%}
-                                                {%- elsif images[colorHexFromSettings] != blank -%}
-                                                    {%- assign color_swatch_image = images[colorHexFromSettings] | img_url: '72x72' -%}
-                                                    {%- assign colorHex = 'background-image: url(' | append: color_swatch_image | append: ')' -%}
-                                                    {%- break -%}
-                                                {%- else -%}
-                                                    {% assign colorHex = 'background-color: #000000' %}
-                                                    {%- break -%}
-                                                {%- endif -%}
-                                            {% endif %}
-                                        {% endfor %}
-
-                                        {% if forloop.index == 7 %}
-                                            <span class="lastColor">+{{ optionSize | minus: 7 }}</span>
-                                            {% break %}
-                                        {% else %}
-                                            <span style="{{ colorHex }};"></span>
-                                        {% endif %}
-                                    {%- endfor -%}
-                                </div>
-                            {% endif %}
-                        {%- endfor -%}
-                    </div>{% endcomment %}
+                    {% render 'card-product-swatches', card_product: card_product, nameSwatch: nameSwatch, colorSwatch: colorSwatch %}
                     {%- if show_vendor -%}
                         <span class="visually-hidden">{{ 'accessibility.vendor' | t }}</span>
                         <div {% if settings.not_show_vendor contains card_product.vendor %}style="opacity: 0;"{% endif %} class="card-vendor caption-with-letter-spacing light">{{ card_product.vendor }}</div>

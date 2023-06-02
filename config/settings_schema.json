@@ -1626,6 +1626,12 @@
         "label": "Colors for color swatches",
         "default": "black: #1F1F21; white: #FFFFFF; dark-grey: #424348;",
         "info": "Use ':' separetor between the color name and color hex code and ';' separetor between the different items. Example: black: #1F1F21; white: #FFFFFF; dark-grey: #424348;"
+      },
+      {
+        "type": "text",
+        "id": "colors_collection",
+        "label": "Kangasta",
+        "default": "kangasta"
       }
     ]
   },

@@ -98,7 +98,7 @@
 .custom-select-list ul li button {
     width: 100%;
     border: none;
-    padding: 16px;
+    padding: 10px 16px;
     background-color: transparent;
 
     font-family: var(--font-body-family);
@@ -577,7 +577,7 @@ input[type=number].rangeMaxRight_input--value {
     }
 }
 
-@media screen and (max-width: 374px) {
+@media screen and (max-width: 375px) {
     .custom-select-list {
         min-width: 180px;
     }
