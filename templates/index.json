@@ -6,8 +6,8 @@
         "c2d11906-9a42-4ce1-b13b-37495790ff47": {
           "type": "slider",
           "settings": {
-            "title": "Kaikki tuotteet -20%, Puutarhakalusteet -30% | Löytöjä jopa -57%",
-            "content": "Tarjoukset voimassa 4.6. keskiyöhön saakka! Alennus lasketaan normaalihinnoista.",
+            "title": "Puutarhakalusteet -30% | Löytöjä jopa -50%",
+            "content": "",
             "button": "Kaikki tuotteet",
             "button_url": "shopify:\/\/collections\/all",
             "button_style": "primary-btn",
