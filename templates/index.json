@@ -6,8 +6,8 @@
         "c2d11906-9a42-4ce1-b13b-37495790ff47": {
           "type": "slider",
           "settings": {
-            "title": "Tervetuloa uuteen verkkokauppaan!",
-            "content": "",
+            "title": "KESÄJUHLAT! | Kaikkea kesään jopa -50%!",
+            "content": "Voimassa 19.6. saakka.",
             "button": "Kaikki tuotteet",
             "button_url": "shopify:\/\/collections\/all",
             "button_style": "primary-btn",
