@@ -128,6 +128,7 @@
 .cart-drawer__footer .totals__subtotal-value{
     margin: 0;
     width: 100%;
+    text-align: end;
 }
 
 .cart-drawer__footer .totals{

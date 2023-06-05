@@ -595,6 +595,20 @@ a.product__text {
     opacity var(--duration-short) ease;
 }
 
+.product__media-icon {
+  right: 1rem;
+  top: 0.5rem;
+  left: auto;
+  opacity: 1 !important;
+}
+
+@media screen and (max-width: 990px) {
+  .product__media-icon {
+    right: 0;
+    top: 0;
+  }
+}
+
 .product__media-video .product__media-icon {
   opacity: 1;
 }
