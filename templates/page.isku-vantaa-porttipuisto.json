@@ -14,14 +14,14 @@
         "template--19035766784344__ce84ed92-7933-426a-9793-e6a959ab28f6-1685440255840c5411-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>ISKU Helsinki Lanterna<\/p>",
+            "heading": "<p>ISKU Vantaa Porttipuisto<\/p>",
             "heading_size": "h1"
           }
         },
         "template--19035766784344__ce84ed92-7933-426a-9793-e6a959ab28f6-1685440255840c5411-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Isku Shop Helsinki Lanterna  <br\/>Varikkotie 2  <br\/>00880 HELSINKI  <br\/>puh. 029 086 4260  <br\/>koti.lanterna@isku.fi  <br\/><br\/>Aukioloajat:  <br\/>Ma-pe: 10 - 20  <br\/>La: 10 - 18  <br\/>Su: 12 - 18    <br\/><\/p>"
+            "text": "<p>Isku Shop Vantaa Porttipuisto  <br\/>Porttipuistontie 1   <br\/>01200 VANTAA  <br\/>Puh. 029 086 4170  <br\/>koti.porttipuisto@isku.fi  <br\/><br\/>Aukioloajat:  <br\/>Ma-pe: 10 - 20          <br\/>La: 10 - 18  <br\/>Su: 12 - 18    <br\/><br\/>Vantaan Porttipuistossa sijaitseva myymälämme tarjoaa lähes kaikkea kodin sisustukseen. Laaja valikoima laadukkaita sohvia, sänkyjä ja muita kalusteita.  <br\/><br\/>Iloinen ja ammattitaitoinen henkilökuntamme palvelee niin kalusteiden valinnassa kuin sopivien sisustusratkaisujen löytymisessä. Meillä voit poiketa kysymässä vinkkejä tai varata ajan esimerkiksi ilmaiseen nukkumisergonomiatestiin. Koulutetut nukkumisergonomian ammattilaiset opastavat mm. sopivan patjan valinnassa.  <br\/><br\/>Tervetuloa Isku Porttipuiston myymälään!  <br\/><\/p>"
           }
         },
         "template--19035766784344__ce84ed92-7933-426a-9793-e6a959ab28f6-1685440255840c5411-2": {
@@ -56,55 +56,56 @@
         "template--18960932667736__7c9fcfef-ad60-49e2-a86e-820afb5c3fb9-1684169800ae4304ac-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Marjo_Iivonen.jpg",
-            "title": "Marjo Iivonen",
-            "text": "<p>Sisustusmyyjä<\/p><p>029 086 4177<\/p>",
+            "image": "shopify:\/\/shop_images\/Joni_Mantynen_grey.jpg",
+            "title": "Joni Mäntynen",
+            "text": "<p>Sisustusmyyjä<\/p><p>029 086 4757<\/p>",
             "link_label": "Email",
-            "link": "mailto:marjo.iivonen@isku.fi"
+            "link": "mailto:irina.vaananen@isku.fi"
           }
         },
         "template--18960932667736__7c9fcfef-ad60-49e2-a86e-820afb5c3fb9-1684169800ae4304ac-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/P_ivi_Palotie_150218_E-mail__800x800_669d43f9-70ad-4a9e-9657-4620be9ef0c6.jpg",
-            "title": "Päivi Palotie",
-            "text": "<p>Sisustusmyyjä<br\/>029 086 4270<\/p>",
+            "image": "shopify:\/\/shop_images\/Irina_Vaananen_1.jpg",
+            "title": "Irina Väänänen",
+            "text": "<p>Sisustusmyyjä<br\/>029 086 4757<\/p>",
             "link_label": "Email",
-            "link": "mailto:paivi.palotie@isku.fi"
+            "link": "mailto:irina.vaananen@isku.fi"
           }
         },
         "template--18960932667736__7c9fcfef-ad60-49e2-a86e-820afb5c3fb9-1684169800ae4304ac-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Saara-Maria_Salo.jpg",
-            "title": "Saara-Maria Salo",
-            "text": "<p>Sisustusmyyjä<\/p><p>050 353 3025<\/p>",
+            "image": "shopify:\/\/shop_images\/JPG_Keskisuuri_Jere_Puranen_grey.jpg",
+            "title": "Jere Puranen",
+            "text": "<p>Sisustusmyyjä<\/p><p>050 322 3854<\/p>",
             "link_label": "Email",
-            "link": "mailto:saara-maria.salo@isku.fi"
+            "link": "mailto:jere.puranen@isku.fi"
           }
         },
         "78e7c89e-2e5e-48ac-a171-0b8640ab99a1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Jussi_Oksa.jpg",
-            "title": "Jussi Oksa",
-            "text": "<p>Sisustusmyyjä<br\/>029 086 4023<\/p>",
+            "image": "shopify:\/\/shop_images\/Markku_Korpi.jpg",
+            "title": "Markku Korpi",
+            "text": "<p>Sisustusmyyjä<br\/>029 086 4277<\/p>",
             "link_label": "Email",
-            "link": "mailto:jussi.oksa@isku.fi"
+            "link": "mailto:markku.korpi@isku.fi"
           }
         },
         "4d577166-5300-4705-a004-b857f8fa182b": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/hahmo_2.jpg",
-            "title": "Joel Pallonen",
-            "text": "<p>Sisustusmyyjä<br\/>050 473 1994<\/p>",
+            "image": "shopify:\/\/shop_images\/Nicole_Holmsten.jpg",
+            "title": "Nicole Holmsten",
+            "text": "<p>Sisustusmyyjä<br\/>050 528 7950<\/p>",
             "link_label": "Email",
-            "link": "mailto:joel.pallonen@isku.fi"
+            "link": "mailto:nicole.holmsten@isku.fi"
           }
         },
         "5f2fd8b3-581d-40a5-967c-4cc44981145f": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/hahmo_2.jpg",
             "title": "Santeri Kivimäki",
