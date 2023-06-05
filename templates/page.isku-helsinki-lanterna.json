@@ -14,14 +14,14 @@
         "template--19035766784344__ce84ed92-7933-426a-9793-e6a959ab28f6-1685440255840c5411-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>ISKU Espoo<\/p>",
+            "heading": "<p>ISKU Helsinki Lanterna<\/p>",
             "heading_size": "h1"
           }
         },
         "template--19035766784344__ce84ed92-7933-426a-9793-e6a959ab28f6-1685440255840c5411-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Isku Shop Espoo  <br\/>Kuitinmäentie 26  <br\/>02240 ESPOO  <br\/>puh. 029 086 4100  <br\/>koti.espoo@isku.fi  <br\/><br\/>Aukioloajat:  <br\/>Ma-pe: 11 - 19  <br\/>La: 10 - 18  <br\/>Su: 12 - 18    <br\/><\/p>"
+            "text": "<p>Isku Shop Helsinki Lanterna  <br\/>Varikkotie 2  <br\/>00880 HELSINKI  <br\/>puh. 029 086 4260  <br\/>koti.lanterna@isku.fi  <br\/><br\/>Aukioloajat:  <br\/>Ma-pe: 10 - 20  <br\/>La: 10 - 18  <br\/>Su: 12 - 18    <br\/><\/p>"
           }
         },
         "template--19035766784344__ce84ed92-7933-426a-9793-e6a959ab28f6-1685440255840c5411-2": {
@@ -56,31 +56,61 @@
         "template--18960932667736__7c9fcfef-ad60-49e2-a86e-820afb5c3fb9-1684169800ae4304ac-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Tomi_Ailus.jpg",
-            "title": "Tomi Ailus",
-            "text": "<p>Sisustusmyyjä<\/p><p>029 086 4116<\/p>",
+            "image": "shopify:\/\/shop_images\/Marjo_Iivonen.jpg",
+            "title": "Marjo Iivonen",
+            "text": "<p>Sisustusmyyjä<\/p><p>029 086 4177<\/p>",
             "link_label": "Email",
-            "link": "mailto:tomi.ailus@isku.fi"
+            "link": "mailto:marjo.iivonen@isku.fi"
           }
         },
         "template--18960932667736__7c9fcfef-ad60-49e2-a86e-820afb5c3fb9-1684169800ae4304ac-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Riku_Hellstrom.jpg",
-            "title": "Riku Hellström",
-            "text": "<p>Sisustusmyyjä<br\/>050 574 4304<\/p>",
+            "image": "shopify:\/\/shop_images\/P_ivi_Palotie_150218_E-mail__800x800_669d43f9-70ad-4a9e-9657-4620be9ef0c6.jpg",
+            "title": "Päivi Palotie",
+            "text": "<p>Sisustusmyyjä<br\/>029 086 4270<\/p>",
             "link_label": "Email",
-            "link": "mailto:riku.hellstrom@isku.fi"
+            "link": "mailto:paivi.palotie@isku.fi"
           }
         },
         "template--18960932667736__7c9fcfef-ad60-49e2-a86e-820afb5c3fb9-1684169800ae4304ac-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/hahmo_2.jpg",
-            "title": "Kasper Sohkanen",
-            "text": "<p>Sisustusmyyjä<\/p><p>050 455 2816<\/p>",
+            "image": "shopify:\/\/shop_images\/Saara-Maria_Salo.jpg",
+            "title": "Saara-Maria Salo",
+            "text": "<p>Sisustusmyyjä<\/p><p>050 353 3025<\/p>",
             "link_label": "Email",
-            "link": "mailto:kasper.sohkanen@isku.fi"
+            "link": "mailto:saara-maria.salo@isku.fi"
+          }
+        },
+        "78e7c89e-2e5e-48ac-a171-0b8640ab99a1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Jussi_Oksa.jpg",
+            "title": "Jussi Oksa",
+            "text": "<p>Sisustusmyyjä<br\/>029 086 4023<\/p>",
+            "link_label": "Email",
+            "link": "mailto:jussi.oksa@isku.fi"
+          }
+        },
+        "4d577166-5300-4705-a004-b857f8fa182b": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hahmo_2.jpg",
+            "title": "Joel Pallonen",
+            "text": "<p>Sisustusmyyjä<br\/>050 473 1994<\/p>",
+            "link_label": "Email",
+            "link": "mailto:joel.pallonen@isku.fi"
+          }
+        },
+        "5f2fd8b3-581d-40a5-967c-4cc44981145f": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hahmo_2.jpg",
+            "title": "Santeri Kivimäki",
+            "text": "<p>Sisustusmyyjä<br\/>050 520 7180<\/p>",
+            "link_label": "Email",
+            "link": "mailto:santeri.kivimaki@isku.fi"
           }
         },
         "9c17c02f-cb9c-4870-88be-2523eee52914": {
@@ -150,6 +180,9 @@
         "template--18960932667736__7c9fcfef-ad60-49e2-a86e-820afb5c3fb9-1684169800ae4304ac-2",
         "template--18960932667736__7c9fcfef-ad60-49e2-a86e-820afb5c3fb9-1684169800ae4304ac-0",
         "template--18960932667736__7c9fcfef-ad60-49e2-a86e-820afb5c3fb9-1684169800ae4304ac-1",
+        "78e7c89e-2e5e-48ac-a171-0b8640ab99a1",
+        "4d577166-5300-4705-a004-b857f8fa182b",
+        "5f2fd8b3-581d-40a5-967c-4cc44981145f",
         "9c17c02f-cb9c-4870-88be-2523eee52914",
         "3f68feeb-5902-4903-bbe2-2caa01ea25da",
         "2e684361-5f9f-49a5-8d26-112c510d9d7a",
