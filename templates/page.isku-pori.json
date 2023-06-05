@@ -14,14 +14,14 @@
         "template--19035766784344__ce84ed92-7933-426a-9793-e6a959ab28f6-1685440255840c5411-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>ISKU Hämeenlinna<\/p>",
+            "heading": "<p>ISKU Pori<\/p>",
             "heading_size": "h1"
           }
         },
         "template--19035766784344__ce84ed92-7933-426a-9793-e6a959ab28f6-1685440255840c5411-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Isku Shop Hämeenlinna  <br\/>Tiiriönsuontie 2  <br\/>13130 HÄMEENLINNA  <br\/>puh. 029 086 4560  <br\/>koti.hameenlinna@isku.fi  <br\/><br\/>Aukioloajat:  <br\/>Ma-pe: 10 - 18          <br\/>La: 10 - 16    <br\/>Su: Suljettu            <br\/><br\/>Noutovaraston aukioloajat  <br\/>Ma-pe: 11 - 18  <br\/><br\/>Katso myymälämme mallipoistot tästä. <\/p>"
+            "text": "<p>Isku Shop Pori  <br\/>Itsenäisyydenkatu 1-5  <br\/>28100 PORI  <br\/>Puh. 029 086 4660  <br\/>koti.pori@isku.fi  <br\/><br\/>Aukioloajat:  <br\/>Ma-pe: 10 - 18  <br\/>La: 10 - 15  <br\/>Su: Suljettu   <br\/><\/p>"
           }
         },
         "template--19035766784344__ce84ed92-7933-426a-9793-e6a959ab28f6-1685440255840c5411-2": {
@@ -56,25 +56,26 @@
         "template--18960932667736__7c9fcfef-ad60-49e2-a86e-820afb5c3fb9-1684169800ae4304ac-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Mari_Lehto.jpg",
-            "title": "Mari Lehto",
-            "text": "<p>Myyntipäällikkö<\/p><p>029 086 4568<\/p>",
+            "image": "shopify:\/\/shop_images\/Jyrki_Maajarvi_grey.jpg",
+            "title": "Jyrki Maajärvi",
+            "text": "<p>Myyntipäällikkö<\/p><p>044 792 4468<\/p>",
             "link_label": "Email",
-            "link": "mailto:ilkka.viitanen@isku.fi"
+            "link": "mailto:jyrki.maajarvi@isku.fi"
           }
         },
         "template--18960932667736__7c9fcfef-ad60-49e2-a86e-820afb5c3fb9-1684169800ae4304ac-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Eija_Aaltonen.jpg",
-            "title": "Eija Aaltonen",
-            "text": "<p>Sisustusmyyjä<br\/>029 086 4564<\/p>",
+            "image": "shopify:\/\/shop_images\/Satu_Sillanpaa_grey2.jpg",
+            "title": "Satu Sillanpää",
+            "text": "<p>Sisustusmyyjä<br\/>050 517 0372<\/p>",
             "link_label": "Email",
-            "link": "mailto:eija.aaltonen@isku.fi"
+            "link": "mailto:satu.sillanpaa@isku.fi"
           }
         },
         "template--18960932667736__7c9fcfef-ad60-49e2-a86e-820afb5c3fb9-1684169800ae4304ac-1": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Minna_Teerenmaa.jpg",
             "title": "Minna Teerenmaa",
