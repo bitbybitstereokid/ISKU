@@ -1067,6 +1067,12 @@ a.product__text {
   display: none;
 }
 
+.hc-sale-tag span{
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
 @media screen and (min-width: 990px) {
   .thumbnail-list {
     grid-template-columns: repeat(4, 1fr);
