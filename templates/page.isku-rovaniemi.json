@@ -14,14 +14,14 @@
         "template--19035766784344__ce84ed92-7933-426a-9793-e6a959ab28f6-1685440255840c5411-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>ISKU Pori<\/p>",
+            "heading": "<p>ISKU Rovaniemi<\/p>",
             "heading_size": "h1"
           }
         },
         "template--19035766784344__ce84ed92-7933-426a-9793-e6a959ab28f6-1685440255840c5411-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Isku Shop Pori  <br\/>Itsenäisyydenkatu 1-5  <br\/>28100 PORI  <br\/>Puh. 029 086 4660  <br\/>koti.pori@isku.fi  <br\/><br\/>Aukioloajat:  <br\/>Ma-pe: 10 - 18  <br\/>La: 10 - 15  <br\/>Su: Suljettu   <br\/><\/p>"
+            "text": "<p>Isku Shop Rovaniemi  <br\/>Vierustie 5  <br\/>96320 ROVANIEMI  <br\/>Puh. 029 086 4960  <br\/>kotimyynti.rovaniemi@isku.fi  <br\/><br\/>Aukioloajat  <br\/>Ma-pe: 10 - 18  <br\/>La: 10 - 15  <br\/>Su: Suljettu       <br\/><br\/>Noutovaraston aukioloajat  <br\/>Ma-pe: 10 - 18  <br\/><br\/>Tervetuloa palvelevaan Rovaniemen Iskuun! Myymälämme sijaitsee Rovaniemen eteläpuolella, aivan Nelostien varrella.<br\/><br\/>Meiltä löydät ratkaisuja niin isompiin kuin pienempiinkin sisustustarpeisiin. Toimitamme kalusteet tarpeen vaatiessa kaikkialle Lappiin.<br\/><\/p>"
           }
         },
         "template--19035766784344__ce84ed92-7933-426a-9793-e6a959ab28f6-1685440255840c5411-2": {
@@ -56,21 +56,21 @@
         "template--18960932667736__7c9fcfef-ad60-49e2-a86e-820afb5c3fb9-1684169800ae4304ac-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Jyrki_Maajarvi_grey.jpg",
-            "title": "Jyrki Maajärvi",
-            "text": "<p>Myyntipäällikkö<\/p><p>044 792 4468<\/p>",
+            "image": "shopify:\/\/shop_images\/Leni_Korvenpaa.jpg",
+            "title": "Leni Korvenpää",
+            "text": "<p>Myyntipäällikkö<\/p><p>029 086 4966<\/p>",
             "link_label": "Email",
-            "link": "mailto:jyrki.maajarvi@isku.fi"
+            "link": "mailto:leni.korvenpaa@isku.fi"
           }
         },
         "template--18960932667736__7c9fcfef-ad60-49e2-a86e-820afb5c3fb9-1684169800ae4304ac-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Satu_Sillanpaa_grey2.jpg",
-            "title": "Satu Sillanpää",
-            "text": "<p>Sisustusmyyjä<br\/>050 517 0372<\/p>",
+            "image": "shopify:\/\/shop_images\/Reetta_Jarvensivu.jpg",
+            "title": "Reetta Järvensivu",
+            "text": "<p>Sisustusmyyjä<br\/>029 086 4995<\/p>",
             "link_label": "Email",
-            "link": "mailto:satu.sillanpaa@isku.fi"
+            "link": "mailto:reetta.jarvensivu@isku.fi"
           }
         },
         "template--18960932667736__7c9fcfef-ad60-49e2-a86e-820afb5c3fb9-1684169800ae4304ac-1": {
