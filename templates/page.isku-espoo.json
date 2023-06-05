@@ -14,14 +14,14 @@
         "template--19035766784344__ce84ed92-7933-426a-9793-e6a959ab28f6-1685440255840c5411-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>ISKU Turku<\/p>",
+            "heading": "<p>ISKU Espoo<\/p>",
             "heading_size": "h1"
           }
         },
         "template--19035766784344__ce84ed92-7933-426a-9793-e6a959ab28f6-1685440255840c5411-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Isku Shop Turku  <br\/>Satakunnantie 162  <br\/>20320 TURKU  <br\/>Puh. 029 086 4400  <br\/>myynti.turku@isku.fi  <br\/><br\/>Aukioloajat:  <br\/>Ma-pe: 10 - 18   <br\/>La: 10 - 18    <br\/>Su: 11 - 17      <br\/><br\/>Noutovarasto palvelee osoitteessa Verstaskatu 18, 20360 Turku.  <br\/>Avoinna ma – pe 12-18.  <\/p>"
+            "text": "<p>Isku Shop Espoo  <br\/>Kuitinmäentie 26  <br\/>02240 ESPOO  <br\/>puh. 029 086 4100  <br\/>koti.espoo@isku.fi  <br\/><br\/>Aukioloajat:  <br\/>Ma-pe: 11 - 19  <br\/>La: 10 - 18  <br\/>Su: 12 - 18    <br\/><\/p>"
           }
         },
         "template--19035766784344__ce84ed92-7933-426a-9793-e6a959ab28f6-1685440255840c5411-2": {
@@ -56,61 +56,31 @@
         "template--18960932667736__7c9fcfef-ad60-49e2-a86e-820afb5c3fb9-1684169800ae4304ac-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Masa_Helevaara_grey.jpg",
-            "title": "Masa Helevaara",
-            "text": "<p>Sisustusmyyjä<\/p><p>050 410 6392<\/p>",
+            "image": "shopify:\/\/shop_images\/Tomi_Ailus.jpg",
+            "title": "Tomi Ailus",
+            "text": "<p>Sisustusmyyjä<\/p><p>029 086 4116<\/p>",
             "link_label": "Email",
-            "link": "mailto:masa.helevaara@isku.fi"
+            "link": "mailto:tomi.ailus@isku.fi"
           }
         },
         "template--18960932667736__7c9fcfef-ad60-49e2-a86e-820afb5c3fb9-1684169800ae4304ac-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Juha_Sukari.jpg",
-            "title": "Juha Sukari",
-            "text": "<p>Sisustusmyyjä<br\/>029 086 4406<\/p>",
+            "image": "shopify:\/\/shop_images\/Riku_Hellstrom.jpg",
+            "title": "Riku Hellström",
+            "text": "<p>Sisustusmyyjä<br\/>050 574 4304<\/p>",
             "link_label": "Email",
-            "link": "mailto:juha.sukari@isku.fi"
+            "link": "mailto:riku.hellstrom@isku.fi"
           }
         },
         "template--18960932667736__7c9fcfef-ad60-49e2-a86e-820afb5c3fb9-1684169800ae4304ac-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Iisa_Sirkia_grey.jpg",
-            "title": "Iisa Sirkiä",
-            "text": "<p>Sisustusmyyjä<\/p><p>050 476 2381<\/p>",
+            "image": "shopify:\/\/shop_images\/hahmo_2.jpg",
+            "title": "Kasper Sohkanen",
+            "text": "<p>Sisustusmyyjä<\/p><p>050 455 2816<\/p>",
             "link_label": "Email",
-            "link": "mailto:iisa.sirkia@isku.fi"
-          }
-        },
-        "11443aed-07f7-4174-9bb7-d290d20d1cef": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Julia_Isku_Turku_grey.jpg",
-            "title": "Julia Salin",
-            "text": "<p>Sisustusmyyjä<\/p><p>050 435 4572<\/p>",
-            "link_label": "Email",
-            "link": "mailto:julia.salin@isku.fi"
-          }
-        },
-        "7b5052af-ca4f-47c3-a88a-cdcd75cb537d": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/hahmo.jpg",
-            "title": "Heidi Suomento-Kivi",
-            "text": "<p>Sisustusmyyjä<br\/>044 792 4410<\/p>",
-            "link_label": "Email",
-            "link": "mailto:heidi.suomento-kivi@isku.fi"
-          }
-        },
-        "3f68feeb-5902-4903-bbe2-2caa01ea25da": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/thumbnail_Anna_Segerstrale_grey.jpg",
-            "title": "Anna Segerstråle",
-            "text": "<p>Sisustusarkkitehti<br\/>050 479 0704<\/p>",
-            "link_label": "Email",
-            "link": "mailto:anna.segerstrale@isku.fi"
+            "link": "mailto:kasper.sohkanen@isku.fi"
           }
         },
         "9c17c02f-cb9c-4870-88be-2523eee52914": {
@@ -123,6 +93,16 @@
             "link": "mailto:ida.grondahl@isku.fi"
           }
         },
+        "3f68feeb-5902-4903-bbe2-2caa01ea25da": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/thumbnail_Anna_Segerstrale_grey.jpg",
+            "title": "Anna Segerstråle",
+            "text": "<p>Sisustusarkkitehti<br\/>050 479 0704<\/p>",
+            "link_label": "Email",
+            "link": "mailto:anna.segerstrale@isku.fi"
+          }
+        },
         "2e684361-5f9f-49a5-8d26-112c510d9d7a": {
           "type": "column",
           "settings": {
@@ -131,6 +111,28 @@
             "text": "<p>Sisustussuunnittelija<br\/>050 473 5631<\/p>",
             "link_label": "Email",
             "link": "mailto:annika.hyvarinen@isku.fi"
+          }
+        },
+        "11443aed-07f7-4174-9bb7-d290d20d1cef": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Julia_Isku_Turku_grey.jpg",
+            "title": "Julia Salin",
+            "text": "<p>Sisustusmyyjä<\/p><p>050 435 4572<\/p>",
+            "link_label": "Email",
+            "link": "mailto:julia.salin@isku.fi"
+          }
+        },
+        "7b5052af-ca4f-47c3-a88a-cdcd75cb537d": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hahmo.jpg",
+            "title": "Heidi Suomento-Kivi",
+            "text": "<p>Sisustusmyyjä<br\/>044 792 4410<\/p>",
+            "link_label": "Email",
+            "link": "mailto:heidi.suomento-kivi@isku.fi"
           }
         },
         "5cf93dcf-e081-48fa-9a68-50c60d23db13": {
@@ -148,11 +150,11 @@
         "template--18960932667736__7c9fcfef-ad60-49e2-a86e-820afb5c3fb9-1684169800ae4304ac-2",
         "template--18960932667736__7c9fcfef-ad60-49e2-a86e-820afb5c3fb9-1684169800ae4304ac-0",
         "template--18960932667736__7c9fcfef-ad60-49e2-a86e-820afb5c3fb9-1684169800ae4304ac-1",
+        "9c17c02f-cb9c-4870-88be-2523eee52914",
+        "3f68feeb-5902-4903-bbe2-2caa01ea25da",
+        "2e684361-5f9f-49a5-8d26-112c510d9d7a",
         "11443aed-07f7-4174-9bb7-d290d20d1cef",
         "7b5052af-ca4f-47c3-a88a-cdcd75cb537d",
-        "3f68feeb-5902-4903-bbe2-2caa01ea25da",
-        "9c17c02f-cb9c-4870-88be-2523eee52914",
-        "2e684361-5f9f-49a5-8d26-112c510d9d7a",
         "5cf93dcf-e081-48fa-9a68-50c60d23db13"
       ],
       "settings": {
