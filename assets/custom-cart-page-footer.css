@@ -21,6 +21,7 @@
 #main-cart-footer .totals{
     flex-direction: column;
     position: relative;
+    text-align: right;
 }
 
 #main-cart-footer .totals__subtotal-value{
