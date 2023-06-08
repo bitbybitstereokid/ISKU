@@ -1,5 +1,29 @@
 {
   "sections": {
+    "49a51ddc-a3d8-48c1-b185-25e2a7de5640": {
+      "type": "hero-banner-slider",
+      "disabled": true,
+      "blocks": {
+        "890e3f6c-8cf9-4ac5-9963-2446222cc2ee": {
+          "type": "slider",
+          "settings": {
+            "title": "Comfort and Style |That Will Wransform Your Home",
+            "content": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+            "button": "LEARN MORE",
+            "button_url": "",
+            "button_style": "primary-btn"
+          }
+        }
+      },
+      "block_order": [
+        "890e3f6c-8cf9-4ac5-9963-2446222cc2ee"
+      ],
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 50,
+        "content_color": "#fff"
+      }
+    },
     "71166da5-47da-400a-a0fb-f707654ff6bc": {
       "type": "image-banner",
       "blocks": {
@@ -38,7 +62,7 @@
         "template--19083720425816__71166da5-47da-400a-a0fb-f707654ff6bc-1686211041ddb99989-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/rowico-banner.jpg",
+        "image": "shopify:\/\/shop_images\/rowico-banner1.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
@@ -152,15 +176,52 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "b304f486-f4ea-48ef-b2eb-5b35c6b5c8a6": {
+      "type": "hero-banner-half",
+      "disabled": true,
+      "settings": {
+        "text_align": "left",
+        "image_position": "left",
+        "image_position_mobile": "top",
+        "title": "ISKUn brändiviikko!",
+        "small": false,
+        "text": "Saat 5.3. saakka ISKUn Lahden omalla tehtaalla valmistetuista tuotteista suosikkisi -30% koodilla ISKU-30!",
+        "button_style": "primary",
+        "btn_text": "ISKUN TUOTTEISIIN TÄSTÄ",
+        "btn_url": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "full_width": true,
+        "bg_color": "#0F4880",
+        "text_color": "#FFFFFF"
+      }
+    },
+    "33c1458a-6f2c-4fbe-b6e8-d6384d49a15d": {
+      "type": "hero-banner-secondary",
+      "disabled": true,
+      "settings": {
+        "title": "ISKUn brändiviikko!",
+        "btn_text": "ETUIHIN TÄSTÄ",
+        "btn_url": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "content_position": "top-left",
+        "full_width": false,
+        "overlay": false
+      }
     }
   },
   "order": [
+    "49a51ddc-a3d8-48c1-b185-25e2a7de5640",
     "71166da5-47da-400a-a0fb-f707654ff6bc",
     "681cc2a2-0268-4186-b413-0bffd6085c5e",
     "banner",
     "product-grid",
     "seo-block",
     "ea5628a9-88fc-414e-ba74-51323f42d771",
-    "114941d9-aed9-45f3-b22c-b374981555c6"
+    "114941d9-aed9-45f3-b22c-b374981555c6",
+    "b304f486-f4ea-48ef-b2eb-5b35c6b5c8a6",
+    "33c1458a-6f2c-4fbe-b6e8-d6384d49a15d"
   ]
 }
