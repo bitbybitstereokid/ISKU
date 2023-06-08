@@ -7,6 +7,7 @@
     },
     "7c2551b1-64c5-417d-9721-67d0dbba5840": {
       "type": "slideshow",
+      "disabled": true,
       "blocks": {
         "template--19083720425816__7c2551b1-64c5-417d-9721-67d0dbba5840-1686213852fd592ff6-0": {
           "type": "slide",
