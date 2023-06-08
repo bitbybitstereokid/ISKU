@@ -16,6 +16,7 @@
     },
     "product-grid": {
       "type": "main-collection-product-grid",
+      "disabled": true,
       "settings": {
         "products_per_page": 12,
         "columns_desktop": 4,
@@ -55,6 +56,75 @@
         "title": "Subscribe to our mailing list for newsletter exclusives",
         "input_placeholder": "Enter your email",
         "btn_text": "Subscribe"
+      }
+    },
+    "31462831-57f3-4254-a53f-88ae797fbf6e": {
+      "type": "featured-product",
+      "blocks": {
+        "template--19083534696792__31462831-57f3-4254-a53f-88ae797fbf6e-1686208268c8eff65b-0": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "template--19083534696792__31462831-57f3-4254-a53f-88ae797fbf6e-1686208268c8eff65b-1": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "template--19083534696792__31462831-57f3-4254-a53f-88ae797fbf6e-1686208268c8eff65b-2": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "template--19083534696792__31462831-57f3-4254-a53f-88ae797fbf6e-1686208268c8eff65b-3": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "template--19083534696792__31462831-57f3-4254-a53f-88ae797fbf6e-1686208268c8eff65b-4": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "template--19083534696792__31462831-57f3-4254-a53f-88ae797fbf6e-1686208268c8eff65b-5": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "template--19083534696792__31462831-57f3-4254-a53f-88ae797fbf6e-1686208268c8eff65b-6": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "template--19083534696792__31462831-57f3-4254-a53f-88ae797fbf6e-1686208268c8eff65b-0",
+        "template--19083534696792__31462831-57f3-4254-a53f-88ae797fbf6e-1686208268c8eff65b-1",
+        "template--19083534696792__31462831-57f3-4254-a53f-88ae797fbf6e-1686208268c8eff65b-2",
+        "template--19083534696792__31462831-57f3-4254-a53f-88ae797fbf6e-1686208268c8eff65b-3",
+        "template--19083534696792__31462831-57f3-4254-a53f-88ae797fbf6e-1686208268c8eff65b-4",
+        "template--19083534696792__31462831-57f3-4254-a53f-88ae797fbf6e-1686208268c8eff65b-5",
+        "template--19083534696792__31462831-57f3-4254-a53f-88ae797fbf6e-1686208268c8eff65b-6"
+      ],
+      "settings": {
+        "product": "pohjanmaan-aino-pinnatuoli-kkv",
+        "color_scheme": "background-1",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "114941d9-aed9-45f3-b22c-b374981555c6": {
@@ -101,6 +171,46 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "dcb7c3e8-7630-4c81-9358-8bd9444f7543": {
+      "type": "collection-list",
+      "blocks": {
+        "template--19083534696792__dcb7c3e8-7630-4c81-9358-8bd9444f7543-1686208142ba10c74b-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "baaripoydat"
+          }
+        },
+        "template--19083534696792__dcb7c3e8-7630-4c81-9358-8bd9444f7543-1686208142ba10c74b-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "template--19083534696792__dcb7c3e8-7630-4c81-9358-8bd9444f7543-1686208142ba10c74b-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "jenkkisangyt"
+          }
+        }
+      },
+      "block_order": [
+        "template--19083534696792__dcb7c3e8-7630-4c81-9358-8bd9444f7543-1686208142ba10c74b-0",
+        "template--19083534696792__dcb7c3e8-7630-4c81-9358-8bd9444f7543-1686208142ba10c74b-1",
+        "template--19083534696792__dcb7c3e8-7630-4c81-9358-8bd9444f7543-1686208142ba10c74b-2"
+      ],
+      "settings": {
+        "title": "Collections",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -109,6 +219,8 @@
     "product-grid",
     "seo-block",
     "ea5628a9-88fc-414e-ba74-51323f42d771",
-    "114941d9-aed9-45f3-b22c-b374981555c6"
+    "31462831-57f3-4254-a53f-88ae797fbf6e",
+    "114941d9-aed9-45f3-b22c-b374981555c6",
+    "dcb7c3e8-7630-4c81-9358-8bd9444f7543"
   ]
 }
