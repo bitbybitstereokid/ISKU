@@ -111,7 +111,7 @@
           "type": "heading",
           "settings": {
             "heading": "<p>Kesäjuhlien kampanjaedut<\/p>",
-            "heading_size": "h2"
+            "heading_size": "h1"
           }
         },
         "template--15630143160420__025783c2-84f1-4921-a7a9-7f4dd238bcc3-1686232806be2be802-1": {
@@ -140,8 +140,8 @@
         "template--15630143160420__025783c2-84f1-4921-a7a9-7f4dd238bcc3-1686232806be2be802-2"
       ],
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
+        "desktop_content_position": "left",
+        "content_alignment": "left",
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 40,
