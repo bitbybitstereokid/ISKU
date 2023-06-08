@@ -53,6 +53,7 @@
     },
     "2a5a17fd-fc82-4f18-8edb-7f7359af79e9": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "template--15630143160420__2a5a17fd-fc82-4f18-8edb-7f7359af79e9-1686232806be2be802-0": {
           "type": "heading",
@@ -147,6 +148,7 @@
     },
     "aa14a068-d66f-4bab-943b-d90f7fc0c897": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "template--15630143160420__aa14a068-d66f-4bab-943b-d90f7fc0c897-1686232806be2be802-0": {
           "type": "heading",
