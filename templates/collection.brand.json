@@ -1,5 +1,55 @@
 {
   "sections": {
+    "71166da5-47da-400a-a0fb-f707654ff6bc": {
+      "type": "image-banner",
+      "blocks": {
+        "template--19083720425816__71166da5-47da-400a-a0fb-f707654ff6bc-1686211041ddb99989-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "template--19083720425816__71166da5-47da-400a-a0fb-f707654ff6bc-1686211041ddb99989-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--19083720425816__71166da5-47da-400a-a0fb-f707654ff6bc-1686211041ddb99989-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19083720425816__71166da5-47da-400a-a0fb-f707654ff6bc-1686211041ddb99989-0",
+        "template--19083720425816__71166da5-47da-400a-a0fb-f707654ff6bc-1686211041ddb99989-1",
+        "template--19083720425816__71166da5-47da-400a-a0fb-f707654ff6bc-1686211041ddb99989-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/rowico-banner.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "681cc2a2-0268-4186-b413-0bffd6085c5e": {
       "type": "about-breadcrumbs",
       "settings": {
@@ -33,7 +83,7 @@
         "padding_top_mobile": 0,
         "padding_bottom_mobile": 52,
         "change__pagination": "loadmore",
-        "load_more_text": "Load More products",
+        "load_more_text": "Näytä lisää tuotteita",
         "shown_products": "products shown"
       }
     },
@@ -59,6 +109,7 @@
     },
     "114941d9-aed9-45f3-b22c-b374981555c6": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "template--15630143160420__114941d9-aed9-45f3-b22c-b374981555c6-1684992414076d080d-0": {
           "type": "heading",
@@ -104,6 +155,7 @@
     }
   },
   "order": [
+    "71166da5-47da-400a-a0fb-f707654ff6bc",
     "681cc2a2-0268-4186-b413-0bffd6085c5e",
     "banner",
     "product-grid",
