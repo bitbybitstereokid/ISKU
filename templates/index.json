@@ -47,7 +47,7 @@
           "type": "slider",
           "settings": {
             "title": "Kaikki Rowicon tuotteet -20%",
-            "content": "Kampanja voimassa 31.7.2023 asti",
+            "content": "Kampanja voimassa 31.7. asti",
             "button": "Tutustu valikoimaan",
             "button_url": "shopify:\/\/collections\/rowico",
             "button_style": "primary-btn",
