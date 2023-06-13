@@ -19,6 +19,13 @@
           "settings": {
           }
         },
+        "53ed3f72-94d3-420d-baf2-69154d976b21": {
+          "type": "text",
+          "settings": {
+            "text": "Juhannusfestarit: Tempur -20%. Saat alennuksen automaattisesti kassalla koodilla TEMPUR-20",
+            "text_style": "subtitle"
+          }
+        },
         "price": {
           "type": "price",
           "settings": {
@@ -33,6 +40,19 @@
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {
+          }
+        },
+        "fba36353-130f-4347-9596-a85023d7b93a": {
+          "type": "text",
+          "settings": {
+            "text": "Festarihinnat voimassa vielä:",
+            "text_style": "subtitle"
+          }
+        },
+        "fa3e8d00-0d19-4d03-954a-5354eab3d3c4": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<tbody><tr><td><img src=\"https:\/\/gen.sendtric.com\/countdown\/y866nz8ycr\" style=\"display: block;max-width:100%\" \/><\/td><\/tr><\/tbody>"
           }
         },
         "d5d76b23-c270-46e6-ab01-a2acac1f9252": {
@@ -108,9 +128,8 @@
         },
         "bf457eaa-0904-4922-9914-48817f3ad606": {
           "type": "text",
-          "disabled": true,
           "settings": {
-            "text": "* Alennus lasketaan tuotteen normaalihinnasta ja koskee ainoastaan uusia kauppoja\/tilauksia. Verkkokaupan avajaiset kampanja 4.6. saakka.",
+            "text": "* Alennus lasketaan tuotteen normaalihinnasta ja koskee ainoastaan uusia kauppoja\/tilauksia. Juhannusfestivaalit 26.6. klo 10 saakka.",
             "text_style": "body"
           }
         }
@@ -118,9 +137,12 @@
       "block_order": [
         "2afe51da-b9b0-4327-b31c-e2facff45b8a",
         "title",
+        "53ed3f72-94d3-420d-baf2-69154d976b21",
         "price",
         "variant_picker",
         "quantity_selector",
+        "fba36353-130f-4347-9596-a85023d7b93a",
+        "fa3e8d00-0d19-4d03-954a-5354eab3d3c4",
         "d5d76b23-c270-46e6-ab01-a2acac1f9252",
         "08c3b544-25e0-4fb7-ad19-7cdd7c00f8ae",
         "0dd2c139-d779-473f-9d18-33a54573ef44",
