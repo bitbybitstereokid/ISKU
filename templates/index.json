@@ -62,7 +62,7 @@
       "settings": {
         "padding_top": 0,
         "padding_bottom": 50,
-        "content_color": "#fff"
+        "content_color": "#ffffff"
       }
     },
     "6ea8728a-b377-4af1-8cca-5cddc452334b": {
@@ -122,8 +122,8 @@
       "type": "featured-collection",
       "disabled": true,
       "settings": {
-        "title": "Rowicon huippuetuja",
-        "heading_size": "h1",
+        "title": "Kaikki Rowicon tuotteet -20%",
+        "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",
