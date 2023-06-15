@@ -488,6 +488,9 @@
       },
       "order_summary": {
         "sale_price": "Ale"
+      },
+      "contact": {
+        "optional_phone_label": "Puhelin (saat SMS ilmoituksen toimituksesta)"
       }
     }
   }
