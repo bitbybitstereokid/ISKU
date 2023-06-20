@@ -1,45 +1,5 @@
 {
   "sections": {
-    "468448b2-8437-4b13-89c7-cf60342c62ae": {
-      "type": "hero-banner-slider",
-      "blocks": {
-        "c2d11906-9a42-4ce1-b13b-37495790ff47": {
-          "type": "slider",
-          "disabled": true,
-          "settings": {
-            "title": "KESÄJUHLAT! | Sisusta kesä kotiisi jopa -50%!",
-            "content": "Voimassa 19.6. saakka.",
-            "button": "Kaikki tuotteet",
-            "button_url": "shopify:\/\/collections\/kesakuun-aletuotteet",
-            "button_style": "primary-btn",
-            "image": "shopify:\/\/shop_images\/Kesajuhlat_1200x600_36a5bfec-0d90-4e89-aa6e-d63f0bb789fd.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/Brafab_miljoo_Sandkorn_Varm_Amarante_Kotte_Como.jpg"
-          }
-        },
-        "d2162bde-2b0e-4d0e-b3c0-f7a519aeeee0": {
-          "type": "slider",
-          "disabled": true,
-          "settings": {
-            "title": "Comfort and Style |That Will Transform Your Home",
-            "content": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat |duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
-            "button": "LEARN MORE",
-            "button_url": "shopify:\/\/pages\/a-lifetime-with-isku",
-            "button_style": "primary-btn",
-            "image": "shopify:\/\/shop_images\/Rectangle_4_3.png",
-            "image_mobile": "shopify:\/\/shop_images\/Rectangle_4_4.png"
-          }
-        }
-      },
-      "block_order": [
-        "c2d11906-9a42-4ce1-b13b-37495790ff47",
-        "d2162bde-2b0e-4d0e-b3c0-f7a519aeeee0"
-      ],
-      "settings": {
-        "padding_top": 0,
-        "padding_bottom": 50,
-        "content_color": "#ffffff"
-      }
-    },
     "0e85d77f-389f-4f3b-b5d1-6c14109510c8": {
       "type": "hero-banner-slider",
       "blocks": {
@@ -89,9 +49,9 @@
             "content": "",
             "button": "",
             "button_url": "",
-            "button_style": "secondary-btn",
-            "image": "shopify:\/\/shop_images\/Header_desktop.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/Header_mobile.jpg"
+            "button_style": "primary-btn",
+            "image": "shopify:\/\/shop_images\/Header_desktop_fin.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/Header_mobile_fin.jpg"
           }
         }
       },
@@ -100,19 +60,75 @@
       ],
       "settings": {
         "padding_top": 0,
-        "padding_bottom": 50,
+        "padding_bottom": 44,
         "content_color": "#ffffff"
       }
     },
-    "7afba2d3-d985-4d50-9730-69ffe8de69b8": {
-      "type": "featured-collection",
+    "f844d7a5-f355-4937-b33b-12bb29a354b0": {
+      "type": "collection-list",
+      "disabled": true,
+      "blocks": {
+        "template--15630143488100__f844d7a5-f355-4937-b33b-12bb29a354b0-168726782037f30ade-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "tempur"
+          }
+        },
+        "template--15630143488100__f844d7a5-f355-4937-b33b-12bb29a354b0-168726782037f30ade-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "lundia"
+          }
+        },
+        "template--15630143488100__f844d7a5-f355-4937-b33b-12bb29a354b0-168726782037f30ade-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "rowico"
+          }
+        },
+        "bd7951aa-4ecd-486e-8094-d12333b7f031": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "juhannus-ruokailutila"
+          }
+        },
+        "b634e87f-4d13-4b88-9530-4c175d03ccf6": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "juhannus-sailytys"
+          }
+        }
+      },
+      "block_order": [
+        "template--15630143488100__f844d7a5-f355-4937-b33b-12bb29a354b0-168726782037f30ade-0",
+        "template--15630143488100__f844d7a5-f355-4937-b33b-12bb29a354b0-168726782037f30ade-1",
+        "template--15630143488100__f844d7a5-f355-4937-b33b-12bb29a354b0-168726782037f30ade-2",
+        "bd7951aa-4ecd-486e-8094-d12333b7f031",
+        "b634e87f-4d13-4b88-9530-4c175d03ccf6"
+      ],
       "settings": {
-        "title": "Kotimaisia suosikkeja",
-        "heading_size": "h2",
+        "title": "Nämä kaikki -20% (alennus lasketaan automaattisesti kassalla)",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "e4d52ef1-778f-4424-a4ac-cea126c8080e": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "Jensen -25%",
+        "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "kesakuun-aletuotteet",
+        "collection": "jensen",
         "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
@@ -141,6 +157,89 @@
         "show_description": false,
         "description_style": "body",
         "collection": "rowico",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "d03a9731-b120-4dc1-bad6-96848eb9bc08": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "Etätyö -25%",
+        "heading_size": "h1",
+        "description": "<p>Alennus lasketaan automaattisesti kassalla<\/p>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "etatyo",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "0961df4d-7bf5-4dee-a475-d345c73159a6": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "Puutarhakalsuteet -30%",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "puutarhakalusteet",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "7afba2d3-d985-4d50-9730-69ffe8de69b8": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Kotimaisia suosikkeja",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "kesakuun-aletuotteet",
         "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
@@ -420,21 +519,6 @@
         "btn_url": "shopify:\/\/collections\/interface"
       }
     },
-    "b9432f4d-03b8-46a9-af6c-e2e8cbe547e1": {
-      "type": "hero-banner-secondary",
-      "disabled": true,
-      "settings": {
-        "image": "shopify:\/\/shop_images\/homepage3.jpg",
-        "title": "Trendikäs Uutuus Tuoli 53 On Täällä!",
-        "btn_text": "TUTUSTU TÄSTÄ",
-        "btn_url": "shopify:\/\/collections\/chairs",
-        "padding_top": 50,
-        "padding_bottom": 0,
-        "content_position": "center",
-        "full_width": true,
-        "overlay": true
-      }
-    },
     "99b95b1a-5e12-46bc-8d88-c0a756a10df4": {
       "type": "hero-banner-half",
       "settings": {
@@ -468,18 +552,6 @@
         "text": "<p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.  Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Velit officia consequat duis enim velit mollit. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.<\/p><p>Exercitation veniam consequat sunt nostrud amet. Exercitatio n veniam consequat sunt nostrud amet.Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.<\/p>",
         "btn_text": "Lue lisää",
         "btn_url": ""
-      }
-    },
-    "feb9c2fd-6386-484f-903f-7acd018a6e98": {
-      "type": "blog-preview",
-      "disabled": true,
-      "settings": {
-        "blog": "kampanjat",
-        "title": "Blog",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "padding_top_mobile": 40,
-        "padding_bottom_mobile": 40
       }
     },
     "c8acecc1-e53e-43a2-9708-51112c7d2ff1": {
@@ -533,153 +605,17 @@
         "bg_color": "#0f4880",
         "text_color": "#ffffff"
       }
-    },
-    "f844d7a5-f355-4937-b33b-12bb29a354b0": {
-      "type": "collection-list",
-      "disabled": true,
-      "blocks": {
-        "template--15630143488100__f844d7a5-f355-4937-b33b-12bb29a354b0-168726782037f30ade-0": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "tempur"
-          }
-        },
-        "template--15630143488100__f844d7a5-f355-4937-b33b-12bb29a354b0-168726782037f30ade-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "lundia"
-          }
-        },
-        "template--15630143488100__f844d7a5-f355-4937-b33b-12bb29a354b0-168726782037f30ade-2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "rowico"
-          }
-        },
-        "bd7951aa-4ecd-486e-8094-d12333b7f031": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "juhannus-ruokailutila"
-          }
-        },
-        "b634e87f-4d13-4b88-9530-4c175d03ccf6": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "juhannus-sailytys"
-          }
-        }
-      },
-      "block_order": [
-        "template--15630143488100__f844d7a5-f355-4937-b33b-12bb29a354b0-168726782037f30ade-0",
-        "template--15630143488100__f844d7a5-f355-4937-b33b-12bb29a354b0-168726782037f30ade-1",
-        "template--15630143488100__f844d7a5-f355-4937-b33b-12bb29a354b0-168726782037f30ade-2",
-        "bd7951aa-4ecd-486e-8094-d12333b7f031",
-        "b634e87f-4d13-4b88-9530-4c175d03ccf6"
-      ],
-      "settings": {
-        "title": "Nämä kaikki -20% (alennus lasketaan automaattisesti kassalla)",
-        "heading_size": "h1",
-        "image_ratio": "square",
-        "columns_desktop": 3,
-        "color_scheme": "background-1",
-        "show_view_all": false,
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "e4d52ef1-778f-4424-a4ac-cea126c8080e": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "title": "Jensen -25%",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "jensen",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "d03a9731-b120-4dc1-bad6-96848eb9bc08": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "title": "Etätyö -25%",
-        "heading_size": "h1",
-        "description": "<p>Alennus lasketaan automaattisesti kassalla<\/p>",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "etatyo",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "0961df4d-7bf5-4dee-a475-d345c73159a6": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "title": "Puutarhakalsuteet -30%",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "puutarhakalusteet",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
-    "468448b2-8437-4b13-89c7-cf60342c62ae",
     "0e85d77f-389f-4f3b-b5d1-6c14109510c8",
     "6ea8728a-b377-4af1-8cca-5cddc452334b",
-    "7afba2d3-d985-4d50-9730-69ffe8de69b8",
+    "f844d7a5-f355-4937-b33b-12bb29a354b0",
+    "e4d52ef1-778f-4424-a4ac-cea126c8080e",
     "17f24b99-fc36-4e71-a533-0ca58776b4cc",
+    "d03a9731-b120-4dc1-bad6-96848eb9bc08",
+    "0961df4d-7bf5-4dee-a475-d345c73159a6",
+    "7afba2d3-d985-4d50-9730-69ffe8de69b8",
     "165ada33-7568-45ff-a3ed-4d70620bfee3",
     "5ffa3993-f36e-4b26-a08a-60dd72c4d9be",
     "de0f6296-9452-488f-a982-a31b8b396fff",
@@ -689,16 +625,10 @@
     "03254933-067d-4aaf-8f4a-611de34d2b27",
     "71faa244-acd3-4776-9fcf-94afd49f27c6",
     "3d45458a-fc10-48c0-80b4-70414810b48e",
-    "b9432f4d-03b8-46a9-af6c-e2e8cbe547e1",
     "99b95b1a-5e12-46bc-8d88-c0a756a10df4",
     "273fe876-ab7b-4aad-8dec-4cf8c8f92d7c",
-    "feb9c2fd-6386-484f-903f-7acd018a6e98",
     "c8acecc1-e53e-43a2-9708-51112c7d2ff1",
     "72599099-35e9-4513-bd8c-5323b6f189e2",
-    "3abcb0f4-2f21-4c2c-8a03-e4c026e3c75c",
-    "f844d7a5-f355-4937-b33b-12bb29a354b0",
-    "e4d52ef1-778f-4424-a4ac-cea126c8080e",
-    "d03a9731-b120-4dc1-bad6-96848eb9bc08",
-    "0961df4d-7bf5-4dee-a475-d345c73159a6"
+    "3abcb0f4-2f21-4c2c-8a03-e4c026e3c75c"
   ]
 }
