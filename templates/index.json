@@ -54,10 +54,23 @@
             "image": "shopify:\/\/shop_images\/rowico-banner1.jpg",
             "image_mobile": "shopify:\/\/shop_images\/Skye-ruokapoyta-h.120-cm-rowico-1686586511.jpg"
           }
+        },
+        "d086ed09-5381-4ef5-9dea-af3ec1fe16a8": {
+          "type": "slider",
+          "settings": {
+            "title": "Mallisto uudistuu! | JENSEN-SÄNGYT NYT -25%",
+            "content": "Voimassa 31.7. asti.",
+            "button": "KATSO LISÄÄ",
+            "button_url": "https:\/\/isku.fi\/collections\/jensen",
+            "button_style": "primary-btn",
+            "image": "shopify:\/\/shop_images\/Jensen_1200x600_d5eda73b-4d6e-470d-bd21-4a2d042d9757.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/Jensen_1200x600_e65273b6-b5c7-4d97-9886-5e113ff942ab.jpg"
+          }
         }
       },
       "block_order": [
-        "f569850d-67e3-4cc1-9d6a-a33d3a26e7fd"
+        "f569850d-67e3-4cc1-9d6a-a33d3a26e7fd",
+        "d086ed09-5381-4ef5-9dea-af3ec1fe16a8"
       ],
       "settings": {
         "padding_top": 0,
