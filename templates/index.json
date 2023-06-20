@@ -5,6 +5,7 @@
       "blocks": {
         "c2d11906-9a42-4ce1-b13b-37495790ff47": {
           "type": "slider",
+          "disabled": true,
           "settings": {
             "title": "KESÄJUHLAT! | Sisusta kesä kotiisi jopa -50%!",
             "content": "Voimassa 19.6. saakka.",
