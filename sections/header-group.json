@@ -27,7 +27,7 @@
           "type": "announcement",
           "disabled": true,
           "settings": {
-            "text": "",
+            "text": "Kampanja vain 26.6. klo 10 asti",
             "text_alignment": "center",
             "color_scheme": "accent-2",
             "link": ""
