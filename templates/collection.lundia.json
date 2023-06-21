@@ -6,62 +6,6 @@
       "settings": {
       }
     },
-    "41fe4617-3fc4-49bd-afde-9f0b195b530f": {
-      "type": "image-with-text",
-      "disabled": true,
-      "blocks": {
-        "template--15630143160420__41fe4617-3fc4-49bd-afde-9f0b195b530f-168623101449d0342c-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Kaikki puutarhakalusteet -30%",
-            "heading_size": "h1"
-          }
-        },
-        "template--15630143160420__41fe4617-3fc4-49bd-afde-9f0b195b530f-168623101449d0342c-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Tarjoamme kesäjuhlien ajan kaikki puutarhakalusteet -30%. Edut voimassa 19.6.2023 asti.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "template--15630143160420__41fe4617-3fc4-49bd-afde-9f0b195b530f-168623101449d0342c-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Tutustu valikoimaan",
-            "button_link": "shopify:\/\/collections\/puutarhakalusteet"
-          }
-        }
-      },
-      "block_order": [
-        "template--15630143160420__41fe4617-3fc4-49bd-afde-9f0b195b530f-168623101449d0342c-0",
-        "template--15630143160420__41fe4617-3fc4-49bd-afde-9f0b195b530f-168623101449d0342c-1",
-        "template--15630143160420__41fe4617-3fc4-49bd-afde-9f0b195b530f-168623101449d0342c-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/brafab-sandkorn-miljoo.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-2",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "aa14a068-d66f-4bab-943b-d90f7fc0c897": {
-      "type": "rich-text",
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "banner": {
       "type": "main-collection-banner",
       "settings": {
@@ -69,6 +13,28 @@
         "show_collection_image": false,
         "button_text": "lue lisää",
         "color_scheme": "background-1"
+      }
+    },
+    "aa14a068-d66f-4bab-943b-d90f7fc0c897": {
+      "type": "rich-text",
+      "blocks": {
+        "583b0af0-bdf9-4755-865a-cc5de9618e90": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Juhannusfestarit: Saat 20% alennuksen automaattisesti kassalla koodilla LUNDIA-20 tuotteen normaalihinnasta. Tarjous voimassa vain ma 26.6. klo 10 saakka.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "583b0af0-bdf9-4755-865a-cc5de9618e90"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "025783c2-84f1-4921-a7a9-7f4dd238bcc3": {
@@ -236,9 +202,8 @@
   },
   "order": [
     "681cc2a2-0268-4186-b413-0bffd6085c5e",
-    "41fe4617-3fc4-49bd-afde-9f0b195b530f",
-    "aa14a068-d66f-4bab-943b-d90f7fc0c897",
     "banner",
+    "aa14a068-d66f-4bab-943b-d90f7fc0c897",
     "025783c2-84f1-4921-a7a9-7f4dd238bcc3",
     "product-grid",
     "seo-block",
