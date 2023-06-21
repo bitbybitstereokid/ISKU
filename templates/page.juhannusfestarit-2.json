@@ -29,7 +29,7 @@
       ],
       "settings": {
         "padding_top": 0,
-        "padding_bottom": 50,
+        "padding_bottom": 10,
         "content_color": "#fff"
       }
     },
@@ -89,8 +89,8 @@
       "settings": {
         "custom_liquid": "<center><tbody><tr><td><img src=\"https:\/\/gen.sendtric.com\/countdown\/kmyij1erh0\" style=\"display: block;max-width:100%\" \/><\/td><\/tr><\/tbody><\/center>",
         "color_scheme": "background-1",
-        "padding_top": 44,
-        "padding_bottom": 52
+        "padding_top": 20,
+        "padding_bottom": 20
       }
     },
     "181fa48f-ac7b-4ae0-ad7b-df2ba68979c5": {
@@ -143,8 +143,8 @@
         "show_view_all": false,
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 12,
+        "padding_bottom": 12
       }
     },
     "82dcc02e-efc6-4f7a-8424-7bc20ec75a18": {
@@ -170,8 +170,8 @@
         "enable_quick_add": false,
         "columns_mobile": "2",
         "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 12,
+        "padding_bottom": 12
       }
     },
     "ed238017-a2b0-4f84-b498-59a37fdd1d4a": {
@@ -197,8 +197,8 @@
         "enable_quick_add": false,
         "columns_mobile": "2",
         "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 12,
+        "padding_bottom": 12
       }
     },
     "9e7b9561-f607-4730-9032-1207d24735b9": {
@@ -224,8 +224,8 @@
         "enable_quick_add": false,
         "columns_mobile": "2",
         "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 12,
+        "padding_bottom": 12
       }
     },
     "4b964b73-421c-408b-a5ab-a67df5a237a1": {
