@@ -7,7 +7,6 @@
       "blocks": {
         "839d4ef2-afc4-43a6-8c4a-bde088d6f515": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
             "text": "Juhannusfestarit - katso tarjoukset",
             "text_alignment": "center",
