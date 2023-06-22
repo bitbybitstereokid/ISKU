@@ -218,14 +218,6 @@
                         </dd>
                       </dl>
                     {%- else -%}
-                        {% if item.variant.compare_at_price %}
-                            <s class="price-compare">
-                                {% assign q = item.quantity %}
-                                {% assign c = item.variant.compare_at_price %}
-                                {% assign m = c | times: q %}
-                                {{ m | money }}
-                            </s>
-                        {% endif %}
                       <span  data-hulkapps-line-price data-key='{{item.key}}' class="price price--end">
                           {{ item.original_line_price | money }}
                         </span>
@@ -342,6 +334,14 @@
                         </dd>
                       </dl>
                     {%- else -%}
+                        {% if item.variant.compare_at_price %}
+                            <s class="price-compare">
+                                {% assign q = item.quantity %}
+                                {% assign c = item.variant.compare_at_price %}
+                                {% assign m = c | times: q %}
+                                {{ m | money }}
+                            </s>
+                        {% endif %}
                       <span  data-hulkapps-line-price data-key='{{item.key}}' class="price price--end">
                                               {{ item.original_line_price | money }}
                                             </span>

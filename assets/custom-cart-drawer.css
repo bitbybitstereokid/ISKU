@@ -122,7 +122,6 @@
 .cart-drawer .totals__subtotal{
     position: absolute;
     left: 0;
-    top: 0;
 }
 
 .cart-drawer__footer .totals__subtotal-value{
@@ -174,7 +173,7 @@ cart-remove-button .button {
     border-bottom: 0;
 }
 
-.cart-drawer__footer .cart-item__price-wrapper .price-compare{
+.cart-item__price-wrapper .price-compare{
     color: var(--color-accent-1);
     line-height: 18px;
     text-align: left;
