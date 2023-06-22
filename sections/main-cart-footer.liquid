@@ -28,7 +28,23 @@
               <div class="js-contents" {{ block.shopify_attributes }}>
                 <div class="totals">
                   <h2 class="totals__subtotal">{{ 'sections.cart.subtotal' | t }}</h2>
-                  <p  data-hulkapps-cart-total class="totals__subtotal-value"><span class="csapps-cart-original-total">{{ cart.total_price | money_with_currency }}</span></p>
+                  {% assign compareTotalPrice = 0 %}
+
+                  {% for item in cart.items %}
+                    {% if item.variant.compare_at_price %}
+                      {% assign price = item.variant.compare_at_price | times: item.quantity %}
+                    {% else %}
+                      {% assign price = item.original_line_price | times: item.quantity %}
+                    {% endif %}
+                    {% assign compareTotalPrice = compareTotalPrice | plus: price %}
+                  {% endfor %}
+
+                  <p  data-hulkapps-cart-total class="totals__subtotal-value">
+                    {% if cart.total_price != compareTotalPrice %}
+                      <s>{{ compareTotalPrice | money_with_currency }}</s>
+                    {% endif %}
+                    <span class="csapps-cart-original-total">{{ cart.total_price | money_with_currency }}</span>
+                  </p>
                 </div>
 
                 <div>

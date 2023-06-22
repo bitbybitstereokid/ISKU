@@ -15,7 +15,10 @@
 #main-cart-footer .totals__subtotal{
     position: absolute;
     left: 0;
-    top: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    line-height: normal;
 }
 
 #main-cart-footer .totals{
@@ -27,6 +30,13 @@
 #main-cart-footer .totals__subtotal-value{
     margin: 0;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#main-cart-footer .totals__subtotal-value s{
+    font-size: 18px;
+    color: var(--color-accent-1);
 }
 
 #main-cart-footer .tax-note{

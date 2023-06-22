@@ -1646,5 +1646,15 @@
         "info": "Use '|' separetor between the vendor name and icon name and ';' separetor between the different items. Example: Anttiina|anttiina-logo.png;Brafab|brafab-logo.png;"
       }
     ]
+  },
+  {
+    "name": "Sitemap",
+    "settings": [
+      {
+        "type": "page",
+        "id": "hide_page",
+        "label": "Page for hide"
+      }
+    ]
   }
 ]

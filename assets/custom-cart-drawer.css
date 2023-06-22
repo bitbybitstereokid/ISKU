@@ -166,6 +166,13 @@ cart-remove-button .button {
     border-bottom: 0;
 }
 
+.cart-drawer .cart-item__price-wrapper .price-compare{
+    color: var(--color-accent-1);
+    line-height: 18px;
+    text-align: left;
+    font-size: 14px;
+}
+
 .drawer__header{
     padding: 15px 0 40px 0;
 }
