@@ -64,6 +64,33 @@
         "content_color": "#ffffff"
       }
     },
+    "167c3ec6-a065-4ef8-83ee-d06072ae05fb": {
+      "type": "hero-banner-slider",
+      "disabled": true,
+      "blocks": {
+        "6683040b-410a-4a0c-bb71-11182bbb2e2d": {
+          "type": "slider",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "content": "",
+            "button": "LEARN MORE",
+            "button_url": "",
+            "button_style": "primary-btn",
+            "image": "shopify:\/\/shop_images\/1200x600_ALE_2.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/1200x600_ALE_2_7491ef19-d96e-4b81-9ac0-105021729b01.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "6683040b-410a-4a0c-bb71-11182bbb2e2d"
+      ],
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 50,
+        "content_color": "#fff"
+      }
+    },
     "4d739c24-d846-4089-809a-4c79e20285a5": {
       "type": "custom-liquid",
       "settings": {
@@ -685,6 +712,7 @@
   "order": [
     "0e85d77f-389f-4f3b-b5d1-6c14109510c8",
     "6ea8728a-b377-4af1-8cca-5cddc452334b",
+    "167c3ec6-a065-4ef8-83ee-d06072ae05fb",
     "4d739c24-d846-4089-809a-4c79e20285a5",
     "f844d7a5-f355-4937-b33b-12bb29a354b0",
     "e4d52ef1-778f-4424-a4ac-cea126c8080e",
