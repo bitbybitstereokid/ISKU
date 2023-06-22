@@ -129,6 +129,8 @@
     margin: 0;
     width: 100%;
     text-align: end;
+    display: flex;
+    flex-direction: column;
 }
 
 .cart-drawer__footer .totals{
@@ -138,7 +140,13 @@
 .cart-drawer .totals__subtotal{
     position: absolute;
     left: 0;
-    top: 0;
+    bottom: 0;
+}
+
+.cart-drawer__footer .totals__subtotal-value s{
+    color: var(--color-accent-1);
+    line-height: 18px;
+    font-size: 14px;
 }
 
 .csapp_aiod_coupan{
@@ -166,7 +174,7 @@ cart-remove-button .button {
     border-bottom: 0;
 }
 
-.cart-drawer .cart-item__price-wrapper .price-compare{
+.cart-drawer__footer .cart-item__price-wrapper .price-compare{
     color: var(--color-accent-1);
     line-height: 18px;
     text-align: left;
