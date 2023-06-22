@@ -36,14 +36,14 @@
                       {% assign price = item.variant.compare_at_price | times: item.quantity %}
                       {% assign comapreTrue = true %}
                     {% else %}
-                      {% assign price = item.original_line_price | times: item.quantity %}
+                      {% assign price = item.original_price | times: item.quantity %}
                     {% endif %}
                     {% assign compareTotalPrice = compareTotalPrice | plus: price %}
                   {% endfor %}
 
                   <p  data-hulkapps-cart-total class="totals__subtotal-value">
                     {% if comapreTrue %}
-                      {% comment %}<s>{{ compareTotalPrice | money_with_currency }}</s>{% endcomment %}
+                      <s>{{ compareTotalPrice | money_with_currency }}</s>
                     {% endif %}
                     <span class="csapps-cart-original-total">{{ cart.total_price | money_with_currency }}</span>
                   </p>
