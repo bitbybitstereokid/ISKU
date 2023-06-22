@@ -122,7 +122,6 @@
 .cart-drawer .totals__subtotal{
     position: absolute;
     left: 0;
-    top: 0;
 }
 
 .cart-drawer__footer .totals__subtotal-value{
