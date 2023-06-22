@@ -29,6 +29,13 @@
     font-size: 14px;
 }
 
+.custom-cart .cart-item__price-wrapper .price-compare{
+    color: var(--color-accent-1);
+    line-height: 18px;
+    text-align: center;
+    font-size: 12px;
+}
+
 .custom-cart .cart-items td {
     padding: 30px 0;
 }

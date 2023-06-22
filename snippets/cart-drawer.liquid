@@ -258,9 +258,27 @@
                                 </span>
                             </div>
                           {%- else -%}
+                              {%- if item.original_price == item.variant.compare_at_price -%}
+                                  <span  data-hulkapps-line-price data-key='{{item.key}}' class="price price--end">
+                                    {{ item.original_price | money }}
+                                 </span>
+                              {%- else -%}
+                                  {% if item.variant.compare_at_price %}
+                                      <s class="price-compare">
+                                          {% assign q = item.quantity %}
+                                          {% assign c = item.variant.compare_at_price %}
+                                          {% assign m = c | times: q %}
+                                          {{ m | money }}
+                                      </s>
+                                  {% endif %}
+                                  <span  data-hulkapps-line-price data-key='{{item.key}}' class="price price--end">
+                                    {{ item.original_line_price | money }}
+                                  </span>
+                              {%- endif -%}
+                              {% comment %}
                             <span  data-hulkapps-line-price data-key='{{item.key}}' class="price price--end">
                                 {{ item.original_line_price | money }}
-                              </span>
+                              </span>{% endcomment %}
                           {%- endif -%}
 
                           {%- if item.variant.available and item.unit_price_measurement -%}
@@ -396,7 +414,22 @@
         <div class="cart-drawer__footer" {{ block.shopify_attributes }}>
           <div class="totals" role="status">
             <h2 class="totals__subtotal">{{ 'sections.cart.subtotal' | t }}</h2>
-            <p  data-hulkapps-cart-total class="totals__subtotal-value"><span class="csapps-cart-original-total">{{ cart.total_price | money_with_currency }}</span></p>
+              {% assign compareTotalPrice = 0 %}
+
+              {% for item in cart.items %}
+                  {% if item.variant.compare_at_price %}
+                      {% assign price = item.variant.compare_at_price | times: item.quantity %}
+                  {% else %}
+                      {% assign price = item.original_line_price | times: item.quantity %}
+                  {% endif %}
+                  {% assign compareTotalPrice = compareTotalPrice | plus: price %}
+              {% endfor %}
+              <p  data-hulkapps-cart-total class="totals__subtotal-value">
+                  {% if cart.total_price != compareTotalPrice %}
+                      <s>{{ compareTotalPrice | money_with_currency }}</s>
+                  {% endif %}
+                  <span class="csapps-cart-original-total">{{ cart.total_price | money_with_currency }}</span>
+              </p>
           </div>
 
           <div>

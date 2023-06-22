@@ -146,6 +146,8 @@
               endfor
             -%}
             {%- assign global_index = global_index | plus: forloop.index0 -%}
+
+           {% unless product.metafields.custom.show_hide_options.value contains value %}
             <input
                     type="radio"
                     id="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}"
@@ -157,8 +159,7 @@
                     {% endif %}
                     {% if option_disabled %}
                       class="disabled"
-                    {% endif %}
-            >
+                    {% endif %}>
             {% assign colorHex = 'background-color: #000000' %}
             {% for color in colorsNamesAndHex %}
               {% assign colorHexFromSettings = color | split: ':' | last | strip %}
@@ -183,6 +184,7 @@
               <span class="visually-hidden">{{ 'products.product.variant_sold_out_or_unavailable' | t }}</span>
 
             </label>
+            {% endunless %}
           {%- endfor -%}
 
 
@@ -219,6 +221,7 @@
                     endfor
                   -%}
                   {% unless color_default_values contains multivalue %}
+                   {% unless product.metafields.custom.show_hide_options.value contains value %}
                     <input
                     type="radio"
                     id="{{ section.id }}-{{ option.position }}-{{ global_index | plus: forloop.index0 }}"
@@ -253,6 +256,7 @@
                       <span class="visually-hidden">{{ 'products.product.variant_sold_out_or_unavailable' | t }}</span>
 
                     </label>
+                       {% endunless %}
                   {% endunless %}
                 {% endfor %}
               {% endif %}

@@ -121,6 +121,7 @@
                                 endcase
                             endfor
                         -%}
+                         {% unless product.metafields.custom.show_hide_options.value contains value %}
                         <input
                                 type="radio"
                                 id="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}"
@@ -159,6 +160,7 @@
                             <span class="visually-hidden">{{ 'products.product.variant_sold_out_or_unavailable' | t }}</span>
 
                         </label>
+                        {% endunless %}
                     {%- endfor -%}
                 </div>
             </div>
