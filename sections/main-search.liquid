@@ -291,7 +291,7 @@
                                 lazy_load: lazy_load
                         %}
                       {%- when 'page' -%}
-                      {% if item.handle != 'html-sitemap-products' %}
+                      {% if item.handle != settings.hide_page.handle %}
                           <div class="article-card-wrapper card-wrapper underline-links-hover">
                             <div class="card card--card card--text ratio color-{{ settings.blog_card_color_scheme }}" style="--ratio-percent: 100%;">
                               <div class="card__content">
