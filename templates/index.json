@@ -88,7 +88,7 @@
       "settings": {
         "padding_top": 0,
         "padding_bottom": 50,
-        "content_color": "#fff"
+        "content_color": "#ffffff"
       }
     },
     "4d739c24-d846-4089-809a-4c79e20285a5": {
@@ -142,7 +142,7 @@
         "b634e87f-4d13-4b88-9530-4c175d03ccf6"
       ],
       "settings": {
-        "title": "Nämä kaikki -20% (alennus lasketaan automaattisesti kassalla)",
+        "title": "Nämä kaikki -20%",
         "heading_size": "h1",
         "image_ratio": "square",
         "columns_desktop": 3,
