@@ -40,6 +40,7 @@
     },
     "52e766a9-464b-4a13-b04c-da1f670692bd": {
       "type": "featured-product",
+      "disabled": true,
       "blocks": {
         "template--19157961703768__52e766a9-464b-4a13-b04c-da1f670692bd-1687383314d3853740-0": {
           "type": "text",
