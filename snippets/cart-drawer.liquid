@@ -428,7 +428,7 @@
               {% endfor %}
               <p  data-hulkapps-cart-total class="totals__subtotal-value">
                   {% if comapreTrue %}
-                      <s>{{ compareTotalPrice | money_with_currency }}</s>
+                      {% comment %}<s>{{ compareTotalPrice | money_with_currency }}</s>{% endcomment %}
                   {% endif %}
                   <span class="csapps-cart-original-total">{{ cart.total_price | money_with_currency }}</span>
               </p>
