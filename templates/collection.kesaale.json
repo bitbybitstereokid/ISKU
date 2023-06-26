@@ -2,11 +2,40 @@
   "sections": {
     "681cc2a2-0268-4186-b413-0bffd6085c5e": {
       "type": "about-breadcrumbs",
+      "disabled": true,
       "settings": {
+      }
+    },
+    "c618eb82-4f5d-4665-b38e-8fc9a1ad2a8b": {
+      "type": "hero-banner-slider",
+      "disabled": true,
+      "blocks": {
+        "9f7eacfe-df3e-40aa-80a2-3dbd467dd77a": {
+          "type": "slider",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "content": "",
+            "button": "LEARN MORE",
+            "button_url": "",
+            "button_style": "primary-btn",
+            "image": "shopify:\/\/shop_images\/1920x1080_ALE1.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/1080x1616_ALE1.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "9f7eacfe-df3e-40aa-80a2-3dbd467dd77a"
+      ],
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 50,
+        "content_color": "#fff"
       }
     },
     "banner": {
       "type": "main-collection-banner",
+      "disabled": true,
       "settings": {
         "show_collection_description": true,
         "show_collection_image": false,
@@ -60,6 +89,7 @@
     },
     "31462831-57f3-4254-a53f-88ae797fbf6e": {
       "type": "featured-product",
+      "disabled": true,
       "blocks": {
         "template--19083534696792__31462831-57f3-4254-a53f-88ae797fbf6e-1686208268c8eff65b-0": {
           "type": "text",
@@ -129,6 +159,7 @@
     },
     "114941d9-aed9-45f3-b22c-b374981555c6": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "template--15630143160420__114941d9-aed9-45f3-b22c-b374981555c6-1684992414076d080d-0": {
           "type": "heading",
@@ -174,6 +205,7 @@
     },
     "dcb7c3e8-7630-4c81-9358-8bd9444f7543": {
       "type": "collection-list",
+      "disabled": true,
       "blocks": {
         "template--19083534696792__dcb7c3e8-7630-4c81-9358-8bd9444f7543-1686208142ba10c74b-0": {
           "type": "featured_collection",
@@ -215,6 +247,7 @@
   },
   "order": [
     "681cc2a2-0268-4186-b413-0bffd6085c5e",
+    "c618eb82-4f5d-4665-b38e-8fc9a1ad2a8b",
     "banner",
     "product-grid",
     "seo-block",
