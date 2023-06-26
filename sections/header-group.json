@@ -5,6 +5,15 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "839d4ef2-afc4-43a6-8c4a-bde088d6f515": {
+          "type": "announcement",
+          "settings": {
+            "text": "",
+            "text_alignment": "center",
+            "color_scheme": "accent-2",
+            "link": "https:\/\/isku.fi\/pages\/juhannusfestarit"
+          }
+        },
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
@@ -14,28 +23,19 @@
             "link": ""
           }
         },
-        "839d4ef2-afc4-43a6-8c4a-bde088d6f515": {
-          "type": "announcement",
-          "settings": {
-            "text": "Juhannusfestarit - katso tarjoukset",
-            "text_alignment": "center",
-            "color_scheme": "accent-2",
-            "link": "https:\/\/isku.fi\/pages\/juhannusfestarit"
-          }
-        },
         "4eb82a86-7678-452f-962f-c6e5a65cc5d4": {
           "type": "announcement",
           "settings": {
-            "text": "Kampanja vain 26.6. klo 10 asti",
+            "text": "",
             "text_alignment": "center",
             "color_scheme": "accent-2",
-            "link": "shopify:\/\/pages\/juhannusfestarit"
+            "link": ""
           }
         }
       },
       "block_order": [
-        "announcement-bar-0",
         "839d4ef2-afc4-43a6-8c4a-bde088d6f515",
+        "announcement-bar-0",
         "4eb82a86-7678-452f-962f-c6e5a65cc5d4"
       ],
       "settings": {
