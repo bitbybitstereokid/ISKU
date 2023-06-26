@@ -8,9 +8,11 @@
     },
     "c618eb82-4f5d-4665-b38e-8fc9a1ad2a8b": {
       "type": "hero-banner-slider",
+      "disabled": true,
       "blocks": {
         "9f7eacfe-df3e-40aa-80a2-3dbd467dd77a": {
           "type": "slider",
+          "disabled": true,
           "settings": {
             "title": "",
             "content": "",
