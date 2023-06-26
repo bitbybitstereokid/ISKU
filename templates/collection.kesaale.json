@@ -36,9 +36,9 @@
       "type": "featured-collection",
       "disabled": true,
       "settings": {
-        "title": "ALE – Kaikki tuotteet",
-        "heading_size": "h2",
-        "description": "",
+        "title": "ISKUn suuri kesäale!",
+        "heading_size": "h1",
+        "description": "<p>Kesäale on vihdoin täällä ja sehän tarkoittaa satoja huimia tarjouksia niin myymälöissä kuin verkkokaupassakin. Tarjoukset nousevat jopa 55% saakka ja osaa tuotteista on vain rajoitettu erä, joten toimithan nopeasti! Kesäale on voimassa 30.7. saakka.<\/p>",
         "show_description": false,
         "description_style": "body",
         "collection": "ale-kaikki-tuotteet",
