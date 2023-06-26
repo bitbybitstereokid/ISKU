@@ -168,15 +168,15 @@
         "padding_bottom": 36
       }
     },
-    "563efd05-65b6-47eb-b1f9-258cc656fe88": {
+    "1cfc268c-9d8f-47e1-ae64-bff777bcba5e": {
       "type": "featured-collection",
       "settings": {
-        "title": "ALE – Matot ja sisustus",
+        "title": "ALE – Sängyt",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "ale-matot-ja-sisustus-1",
+        "collection": "ale-nukkuminen",
         "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
@@ -195,15 +195,15 @@
         "padding_bottom": 36
       }
     },
-    "1cfc268c-9d8f-47e1-ae64-bff777bcba5e": {
+    "563efd05-65b6-47eb-b1f9-258cc656fe88": {
       "type": "featured-collection",
       "settings": {
-        "title": "ALE – Sängyt",
+        "title": "ALE – Matot ja sisustus",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "ale-nukkuminen",
+        "collection": "ale-matot-ja-sisustus-1",
         "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
@@ -469,8 +469,8 @@
     "146b1d89-c48b-4f77-b4d1-8c3c6f1a5437",
     "3ebcd76f-5270-4ccc-b8d1-2ac425174f1f",
     "8596ee0e-1a9e-4bf5-b40a-6fd5c3f66e38",
-    "563efd05-65b6-47eb-b1f9-258cc656fe88",
     "1cfc268c-9d8f-47e1-ae64-bff777bcba5e",
+    "563efd05-65b6-47eb-b1f9-258cc656fe88",
     "9291b852-0fc7-4218-a3c0-cd2354fcecfe",
     "banner",
     "product-grid",
