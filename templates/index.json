@@ -72,13 +72,13 @@
           "type": "slider",
           "disabled": true,
           "settings": {
-            "title": "",
-            "content": "",
-            "button": "",
+            "title": "ISKUn suuri kesäale on nyt!",
+            "content": "Kesäale on vihdoin täällä ja sehän tarkoittaa satoja huimia tarjouksia niin myymälöissä kuin verkkokaupassakin. Tarjoukset nousevat jopa 55% saakka ja osaa tuotteista on vain rajoitettu erä, joten toimithan nopeasti!",
+            "button": "Kesäaleen",
             "button_url": "shopify:\/\/collections\/kesaale",
             "button_style": "primary-btn",
-            "image": "shopify:\/\/shop_images\/ale-banner.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/1080x1616_ALE1.jpg"
+            "image": "shopify:\/\/shop_images\/1920x1080_ALE1.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/kesaale-mobiilibanner2.jpg"
           }
         }
       },
