@@ -8,7 +8,6 @@
     },
     "c618eb82-4f5d-4665-b38e-8fc9a1ad2a8b": {
       "type": "hero-banner-slider",
-      "disabled": true,
       "blocks": {
         "9f7eacfe-df3e-40aa-80a2-3dbd467dd77a": {
           "type": "slider",
@@ -28,7 +27,7 @@
       ],
       "settings": {
         "padding_top": 0,
-        "padding_bottom": 50,
+        "padding_bottom": 43,
         "content_color": "#ffffff"
       }
     },
@@ -116,7 +115,7 @@
     "3ebcd76f-5270-4ccc-b8d1-2ac425174f1f": {
       "type": "featured-collection",
       "settings": {
-        "title": "Kaikki Jensen-sängyt -25%",
+        "title": "ALE – Kaikki Jensen-sängyt -25%",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
