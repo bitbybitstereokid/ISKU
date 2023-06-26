@@ -66,9 +66,11 @@
     },
     "167c3ec6-a065-4ef8-83ee-d06072ae05fb": {
       "type": "hero-banner-slider",
+      "disabled": true,
       "blocks": {
         "6683040b-410a-4a0c-bb71-11182bbb2e2d": {
           "type": "slider",
+          "disabled": true,
           "settings": {
             "title": "ISKUn suuri kesäale on nyt!",
             "content": "Kesäale on vihdoin täällä ja sehän tarkoittaa satoja huimia tarjouksia niin myymälöissä kuin verkkokaupassakin. Tarjoukset nousevat jopa 55% saakka ja osaa tuotteista on vain rajoitettu erä, joten toimithan nopeasti!",
