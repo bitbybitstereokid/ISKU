@@ -2,6 +2,7 @@
   "sections": {
     "0e85d77f-389f-4f3b-b5d1-6c14109510c8": {
       "type": "hero-banner-slider",
+      "disabled": true,
       "blocks": {
         "d086ed09-5381-4ef5-9dea-af3ec1fe16a8": {
           "type": "slider",
@@ -66,11 +67,9 @@
     },
     "167c3ec6-a065-4ef8-83ee-d06072ae05fb": {
       "type": "hero-banner-slider",
-      "disabled": true,
       "blocks": {
         "6683040b-410a-4a0c-bb71-11182bbb2e2d": {
           "type": "slider",
-          "disabled": true,
           "settings": {
             "title": "ISKUn suuri kesäale on nyt!",
             "content": "Kesäale on vihdoin täällä ja sehän tarkoittaa satoja huimia tarjouksia niin myymälöissä kuin verkkokaupassakin. Tarjoukset nousevat jopa 55% saakka ja osaa tuotteista on vain rajoitettu erä, joten toimithan nopeasti!",
@@ -176,7 +175,7 @@
     "0961df4d-7bf5-4dee-a475-d345c73159a6": {
       "type": "featured-collection",
       "settings": {
-        "title": "Puutarhakalusteet -30%",
+        "title": "ALE – Puutarhakalusteet",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
