@@ -116,6 +116,34 @@
         "padding_bottom": 36
       }
     },
+    "3ebcd76f-5270-4ccc-b8d1-2ac425174f1f": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "Kaikki Jensen-sängyt -25%",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "jensen",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
       "disabled": true,
@@ -334,6 +362,7 @@
     "987ca2e3-c6e0-4b8a-beb0-690dc0de3e09",
     "146b1d89-c48b-4f77-b4d1-8c3c6f1a5437",
     "9291b852-0fc7-4218-a3c0-cd2354fcecfe",
+    "3ebcd76f-5270-4ccc-b8d1-2ac425174f1f",
     "banner",
     "product-grid",
     "seo-block",
