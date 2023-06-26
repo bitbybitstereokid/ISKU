@@ -31,6 +31,34 @@
         "content_color": "#ffffff"
       }
     },
+    "987ca2e3-c6e0-4b8a-beb0-690dc0de3e09": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "Kaikki kesäalen tuotteet",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "ale-kaikki-tuotteet",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
       "disabled": true,
@@ -242,16 +270,16 @@
         "padding_bottom": 36
       }
     },
-    "987ca2e3-c6e0-4b8a-beb0-690dc0de3e09": {
+    "146b1d89-c48b-4f77-b4d1-8c3c6f1a5437": {
       "type": "featured-collection",
       "disabled": true,
       "settings": {
-        "title": "Kaikki kesäalen tuotteet",
+        "title": "ALE – Kaikki puutarhakalusteet",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "ale-kaikki-tuotteet",
+        "collection": "puutarhakalusteet",
         "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
@@ -274,6 +302,7 @@
   "order": [
     "681cc2a2-0268-4186-b413-0bffd6085c5e",
     "c618eb82-4f5d-4665-b38e-8fc9a1ad2a8b",
+    "987ca2e3-c6e0-4b8a-beb0-690dc0de3e09",
     "banner",
     "product-grid",
     "seo-block",
@@ -281,6 +310,6 @@
     "31462831-57f3-4254-a53f-88ae797fbf6e",
     "114941d9-aed9-45f3-b22c-b374981555c6",
     "dcb7c3e8-7630-4c81-9358-8bd9444f7543",
-    "987ca2e3-c6e0-4b8a-beb0-690dc0de3e09"
+    "146b1d89-c48b-4f77-b4d1-8c3c6f1a5437"
   ]
 }
