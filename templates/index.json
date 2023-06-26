@@ -72,12 +72,12 @@
           "type": "slider",
           "disabled": true,
           "settings": {
-            "title": "ISKUN SUURI KESÄALE ON NYT!",
-            "content": "Satoja huimia tarjouksia niin myymälöissä kuin verkkokaupassakin.",
-            "button": "Tutustu valikoimaan",
-            "button_url": "",
+            "title": "",
+            "content": "",
+            "button": "",
+            "button_url": "shopify:\/\/collections\/kesaale",
             "button_style": "primary-btn",
-            "image": "shopify:\/\/shop_images\/1920x1080_ALE1.jpg",
+            "image": "shopify:\/\/shop_images\/ale-banner.jpg",
             "image_mobile": "shopify:\/\/shop_images\/1080x1616_ALE1.jpg"
           }
         }
