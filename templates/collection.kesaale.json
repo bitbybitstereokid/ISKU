@@ -114,6 +114,33 @@
         "padding_bottom": 36
       }
     },
+    "39b59852-0e85-43ff-b7ff-add258e7e0a4": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "ALE – Ruokapöydät",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "ale-ruokapoydat",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "3ebcd76f-5270-4ccc-b8d1-2ac425174f1f": {
       "type": "featured-collection",
       "settings": {
@@ -467,6 +494,7 @@
     "987ca2e3-c6e0-4b8a-beb0-690dc0de3e09",
     "70342be4-c348-4fc1-88c1-39ba0db95416",
     "146b1d89-c48b-4f77-b4d1-8c3c6f1a5437",
+    "39b59852-0e85-43ff-b7ff-add258e7e0a4",
     "3ebcd76f-5270-4ccc-b8d1-2ac425174f1f",
     "8596ee0e-1a9e-4bf5-b40a-6fd5c3f66e38",
     "1cfc268c-9d8f-47e1-ae64-bff777bcba5e",
