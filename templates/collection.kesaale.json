@@ -249,6 +249,33 @@
         "padding_bottom": 36
       }
     },
+    "ee1f2949-663f-4ae2-9f14-923d6e4bd1b7": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "ALE – Lundian Fuuga ja Classic -20%",
+        "heading_size": "h1",
+        "description": "<p>Voimassa 23.7. asti.<\/p>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "lundia",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "9291b852-0fc7-4218-a3c0-cd2354fcecfe": {
       "type": "featured-collection",
       "settings": {
@@ -499,6 +526,7 @@
     "8596ee0e-1a9e-4bf5-b40a-6fd5c3f66e38",
     "1cfc268c-9d8f-47e1-ae64-bff777bcba5e",
     "563efd05-65b6-47eb-b1f9-258cc656fe88",
+    "ee1f2949-663f-4ae2-9f14-923d6e4bd1b7",
     "9291b852-0fc7-4218-a3c0-cd2354fcecfe",
     "banner",
     "product-grid",
