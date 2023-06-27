@@ -1,0 +1,13 @@
+{
+  "parent": "cart.json",
+  "context": {
+    "market": "5e81a1e9-627b-4367-aa39-8cc621b30c11"
+  },
+  "sections": {
+    "5d9cb773-12d3-4d48-b75a-e268104ec7e2": {
+      "settings": {
+        "title": "Ostetaan usein yhdessä"
+      }
+    }
+  }
+}
