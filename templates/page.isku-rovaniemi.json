@@ -78,7 +78,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/elina_luosujarvi.jpg",
             "title": "Elina Luosujärvi",
-            "text": "<p>Sisustusmyyjä<br\/><br\/>050 355 0761<\/p>",
+            "text": "<p>Sisustusmyyjä<br\/>050 355 0761<\/p>",
             "link_label": "Email",
             "link": "mailto:elina.luosujarvi@isku.fi"
           }
