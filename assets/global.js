@@ -981,6 +981,18 @@ class VariantSelects extends HTMLElement {
         const deliveryInfoDestination = document.getElementById(`delivery-info-${this.dataset.section}`);
         const colorSwatcherSource = html.querySelectorAll(`custom-color-swatches`);
         const colorSwatcherDestination = document.querySelectorAll(`custom-color-swatches`);
+        const colorName= document.querySelector(`.color--clicked`);
+        const colorNameFetch = html.querySelector(`.color--clicked`);
+        const colorMobileName = document.querySelector(`.color--mobile`);
+        const colorMobileNameFetch = html.querySelector(`.color--mobile`);
+
+        if(colorName){
+          colorName.innerHTML = colorNameFetch.innerHTML;
+        }
+
+        if(colorMobileName){
+          colorMobileName.innerHTML = colorMobileNameFetch.innerHTML
+        }
 
         if (source && destination) destination.innerHTML = source.innerHTML;
         if (quantityPriceSource)  {

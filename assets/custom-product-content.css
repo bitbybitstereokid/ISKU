@@ -56,6 +56,37 @@
 
     color: var(--color-text-primary);
     letter-spacing: 0;
+
+    display: flex;
+    align-items: center;
+}
+
+.color--clicked {
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+.color--mobile {
+    display: none;
+    width: 100%;
+    align-items: center;
+}
+
+.color--mobile > div {
+    display: block;
+    background-size: 100px 100px;
+    width: 100px;
+    height: 100px;
+    min-width: 100px;
+    min-height: 100px;
+    max-width: 100px;
+    max-height: 100px;
+    border: 3px solid var(--color-accent-1);
+    border-radius: 50%;
+}
+
+.color--mobile p{
+    margin: 0 0 0 15px;
 }
 
 .custom-product .product-form__input .select {
@@ -502,6 +533,12 @@
 
     .custom-product .product.grid {
         gap: 30px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .color--mobile {
+        display: flex;
     }
 }
 
