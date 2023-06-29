@@ -89,7 +89,13 @@
 
         {% if namesForColorSwotcher contains formatedOptionName %}
         <div class="js product-form__input custom-color-swatches" data-option-position="{{option.position}}">
-                <h4 class="form__label">{{ option.name }}</h4>
+                <h4 class="form__label">{{ option.name }}
+                    {% if option.name == "Kangas" %}
+                        <div class="color--clicked" data-selected-fabric="">
+                            {{ option.selected_value }}
+                        </div>
+                    {% endif %}
+                </h4>
                 {% comment %} {% render 'product-variant-options', product: product, option: option, block: block %} {% endcomment %}
                 {%- liquid
                     assign variants_available_arr = product.variants | map: 'available'
@@ -99,6 +105,7 @@
 
                     assign product_form_id = 'product-form-' | append: section.id
                 -%}
+                {%- assign colorValue = '' -%}
                 <div class="color-options-grid">
                     {%- for value in option.values -%}
                         {%- liquid
@@ -145,11 +152,26 @@
                             {% if colorNameFromSettings == formatedColorNameFromOption %}
                                 {%- if colorHexFromSettings contains '#' -%}
                                     {%- assign colorHex = 'background-color: ' | append: colorHexFromSettings -%}
+                                    {% if option.name == "Kangas" %}
+                                        {% if option.selected_value == value %}
+                                            {%- assign colorValue = 'background-color: ' | append: colorHexFromSettings -%}
+                                        {% endif %}
+                                    {% endif %}
                                 {%- elsif images[colorHexFromSettings] != blank -%}
                                     {%- assign color_swatch_image = images[colorHexFromSettings] | img_url: 'master' -%}
                                     {%- assign colorHex = 'background-image: url(' | append: color_swatch_image | append: ')' -%}
+                                    {% if option.name == "Kangas" %}
+                                        {% if option.selected_value == value %}
+                                            {%- assign colorValue = 'background-image: url(' | append: color_swatch_image | append: ')' -%}
+                                        {% endif %}
+                                    {% endif %}
                                 {%- else -%}
                                     {% assign colorHex = 'background-color: #000000' %}
+                                    {% if option.name == "Kangas" %}
+                                        {% if option.selected_value == value %}
+                                            {%- assign colorValue = 'background-color: #000000' -%}
+                                        {% endif %}
+                                    {% endif %}
                                 {%- endif -%}
                             {% endif %}
                         {% endfor %}
@@ -166,6 +188,14 @@
             </div>
         {% endif %}
     {%- endfor -%}
+
+
+    {% if option.name == "Kangas" %}
+        <div class="color--mobile">
+            <div style="{{ colorValue }}"></div>
+            <p>{{ option.selected_value }}</p>
+        </div>
+    {% endif %}
 
 
 {%- endunless -%}
