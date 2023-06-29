@@ -184,19 +184,17 @@
                         </label>
                         {% endunless %}
                     {%- endfor -%}
+
+                    {% if option.name == "Kangas" %}
+                        <div class="color--mobile">
+                            <div style="{{ colorValue }}"></div>
+                            <p>{{ option.selected_value }}</p>
+                        </div>
+                    {% endif %}
                 </div>
             </div>
         {% endif %}
     {%- endfor -%}
-
-
-    {% if option.name == "Kangas" %}
-        <div class="color--mobile">
-            <div style="{{ colorValue }}"></div>
-            <p>{{ option.selected_value }}</p>
-        </div>
-    {% endif %}
-
 
 {%- endunless -%}
 
