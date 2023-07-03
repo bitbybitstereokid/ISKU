@@ -116,6 +116,7 @@
         },
         "9c17c02f-cb9c-4870-88be-2523eee52914": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Gr__ndahl_Ida.jpg",
             "title": "Ida Gröndahl",
