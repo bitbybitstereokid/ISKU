@@ -39,14 +39,14 @@
         "template--15666921111652__b9e500c8-adb3-4132-94a2-9a22956ef3df-1684252192b4e19411-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Verkkokaupan tupaantulijaiset<\/p>",
+            "heading": "<p>Sisustussuunnittelupalvelu<\/p>",
             "heading_size": "h1"
           }
         },
         "template--15666921111652__b9e500c8-adb3-4132-94a2-9a22956ef3df-1684252192b4e19411-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Tervetuloa uuden verkkokaupan avajaisiin, joita juhlimme sunnuntaihin 4.6. saakka sekä verkossa että kaikissa myymälöissä.<\/p><p>Nyt saat <strong>kaikki tuotteet vähintään 20% alennuksella<\/strong>. Kaikki kalusteet puutarhaan ja terassille löydät huimalla <strong>30% alennuksella<\/strong>. Lisäksi iso joukko löytöjä aivan hulluun hintaan - <strong>alennukset jopa -57%<\/strong>!<\/p><p>Avajaisviikonlopun kruunaa <strong>10 kk koroton maksuaika<\/strong>* -tarjous, joka on voimassa vain maanantaihin 29.5. klo 10:00 saakka.<\/p><p>Tervetuloa! Näissä tupareissa ei alennuksista pihistellä! Alta löydät parhaat avajaislöydöt.<\/p>"
+            "text": "<p>ISKUn koulutetut sisustusarkkitehdit ja -suunnittelijat ovat apunasi, kun haluat tehdä omasta kodistasi täydellisen. Olipa kysymyksessä pienempi hankinta tai vaikkapa koko asunnon suunnittelu sisustuksen ammatilaisesta on aina todellista hyötyä.<\/p><p>Varaa nyt aika tunnin mittaiseen ilmaiseen sisustussuunnittelun kartoitustapaamiseen.<\/p>"
           }
         },
         "template--15666921111652__b9e500c8-adb3-4132-94a2-9a22956ef3df-1684252192b4e19411-2": {
@@ -75,11 +75,21 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "fa8c1518-0f2c-44cb-bac4-a59570bd723d": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<iframe src=\"https:\/\/isku.trafft.com\/booking-embedded?t=s&uuid=d1925cb1-29c1-4314-aaef-edf242a8162c\" style=\"border: none; width: 100%; max-width:1200px; min-height: 655px; margin: 0 auto; display: block;\"><\/iframe>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
     "b9b7e8f8-a6a7-45d4-82e8-c760c600bdb2",
-    "b9e500c8-adb3-4132-94a2-9a22956ef3df"
+    "b9e500c8-adb3-4132-94a2-9a22956ef3df",
+    "fa8c1518-0f2c-44cb-bac4-a59570bd723d"
   ]
 }
