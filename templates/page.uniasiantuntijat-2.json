@@ -19,8 +19,8 @@
             "button": "",
             "button_url": "",
             "button_style": "primary-btn",
-            "image": "shopify:\/\/shop_images\/comfortable-living-room-cat.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/living-room-design-with-couch_1.png"
+            "image": "shopify:\/\/shop_images\/Tempur_Comfort_Medium_and_Soft.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/Tempur_Curve_pillow_1_1.jpg"
           }
         }
       },
@@ -39,14 +39,14 @@
         "template--15666921111652__b9e500c8-adb3-4132-94a2-9a22956ef3df-1684252192b4e19411-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Sisustussuunnittelupalvelu<\/p>",
+            "heading": "<p>Nukkumisergonomian asiantuntijat<\/p>",
             "heading_size": "h1"
           }
         },
         "template--15666921111652__b9e500c8-adb3-4132-94a2-9a22956ef3df-1684252192b4e19411-1": {
           "type": "text",
           "settings": {
-            "text": "<p>ISKUn koulutetut sisustusarkkitehdit ja -suunnittelijat ovat apunasi, kun haluat tehdä omasta kodistasi täydellisen. Olipa kysymyksessä pienempi hankinta tai vaikkapa koko asunnon suunnittelu sisustuksen ammatilaisesta on aina todellista hyötyä.<\/p><p>Varaa nyt aika tunnin mittaiseen ilmaiseen sisustussuunnittelun kartoitustapaamiseen.<\/p>"
+            "text": "<p>ISKUn koulutetut nukkumisergonomian asiantuntijat palvelevat sinua kaikissa myymälöissämme. Oletko aikeissa vaihtaa sängyn, patjan tai haluat vinkkejä miten parannat unesi laatua? Varaa nyt aika ilmaisen nukkumisergonomian kartoitukseen ja konsultaatioon.<\/p>"
           }
         },
         "template--15666921111652__b9e500c8-adb3-4132-94a2-9a22956ef3df-1684252192b4e19411-2": {
@@ -79,37 +79,10 @@
     "fa8c1518-0f2c-44cb-bac4-a59570bd723d": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<iframe src=\"https:\/\/isku.trafft.com\/booking-embedded?t=s&uuid=d1925cb1-29c1-4314-aaef-edf242a8162c\" style=\"border: none; width: 100%; max-width:1200px; min-height: 655px; margin: 0 auto; display: block;\"><\/iframe>",
+        "custom_liquid": "<iframe src=\"https:\/\/isku.trafft.com\/booking-embedded?t=s&uuid=969f6c5e-08e5-41c7-b71e-46868c71d59d\" style=\"border: none; width: 100%; max-width:1200px; min-height: 655px; margin: 0 auto; display: block;\"><\/iframe>",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
-      }
-    },
-    "34962620-4a24-4590-ba72-3a16b2277ae8": {
-      "type": "about-image-text",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Anna_sisustusarkkitehti_03.jpg",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "reverse": false,
-        "text_centered": false,
-        "title": "Anna Segerstråle, sisustusarkkitehti",
-        "text": "<p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.  Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Velit officia consequat duis enim velit mollit. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.<\/p><p>Exercitation veniam consequat sunt nostrud amet. Exercitatio n veniam consequat sunt nostrud amet.Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.<\/p>",
-        "btn_text": "Varaa aika annalle",
-        "btn_url": "https:\/\/isku.trafft.com\/booking\/sisustussuunnittelija-anna-segerstrale?t=s&uuid=c74a6ff3-05bc-45a3-b1eb-384069958445"
-      }
-    },
-    "3290650f-c397-4c42-af7f-63f81fcfd92f": {
-      "type": "about-image-text",
-      "settings": {
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "reverse": true,
-        "text_centered": false,
-        "title": "Satu Sillanpää, sisustussuunnittelija",
-        "text": "<p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.  Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Velit officia consequat duis enim velit mollit. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.<\/p><p>Exercitation veniam consequat sunt nostrud amet. Exercitatio n veniam consequat sunt nostrud amet.Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.<\/p>",
-        "btn_text": "Varaa aika sadulle",
-        "btn_url": "https:\/\/isku.trafft.com\/booking\/satu-sillanpaa?t=s&uuid=d5b08b41-e645-4002-84c8-1e8a55c1956e"
       }
     }
   },
@@ -117,8 +90,6 @@
     "main",
     "b9b7e8f8-a6a7-45d4-82e8-c760c600bdb2",
     "b9e500c8-adb3-4132-94a2-9a22956ef3df",
-    "fa8c1518-0f2c-44cb-bac4-a59570bd723d",
-    "34962620-4a24-4590-ba72-3a16b2277ae8",
-    "3290650f-c397-4c42-af7f-63f81fcfd92f"
+    "fa8c1518-0f2c-44cb-bac4-a59570bd723d"
   ]
 }
