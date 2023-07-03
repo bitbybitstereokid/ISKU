@@ -1,0 +1,262 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "b9b7e8f8-a6a7-45d4-82e8-c760c600bdb2": {
+      "type": "hero-banner-slider",
+      "blocks": {
+        "eabf45fd-8d7d-40d5-90c1-fa71d3454666": {
+          "type": "slider",
+          "settings": {
+            "title": "",
+            "content": "",
+            "button": "",
+            "button_url": "",
+            "button_style": "primary-btn",
+            "image": "shopify:\/\/shop_images\/Header_desktop.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/Header_mobile.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "eabf45fd-8d7d-40d5-90c1-fa71d3454666"
+      ],
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 50,
+        "content_color": "#fff"
+      }
+    },
+    "b9e500c8-adb3-4132-94a2-9a22956ef3df": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15666921111652__b9e500c8-adb3-4132-94a2-9a22956ef3df-1684252192b4e19411-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Verkkokaupan tupaantulijaiset<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--15666921111652__b9e500c8-adb3-4132-94a2-9a22956ef3df-1684252192b4e19411-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Tervetuloa uuden verkkokaupan avajaisiin, joita juhlimme sunnuntaihin 4.6. saakka sekä verkossa että kaikissa myymälöissä.<\/p><p>Nyt saat <strong>kaikki tuotteet vähintään 20% alennuksella<\/strong>. Kaikki kalusteet puutarhaan ja terassille löydät huimalla <strong>30% alennuksella<\/strong>. Lisäksi iso joukko löytöjä aivan hulluun hintaan - <strong>alennukset jopa -57%<\/strong>!<\/p><p>Avajaisviikonlopun kruunaa <strong>10 kk koroton maksuaika<\/strong>* -tarjous, joka on voimassa vain maanantaihin 29.5. klo 10:00 saakka.<\/p><p>Tervetuloa! Näissä tupareissa ei alennuksista pihistellä! Alta löydät parhaat avajaislöydöt.<\/p>"
+          }
+        },
+        "template--15666921111652__b9e500c8-adb3-4132-94a2-9a22956ef3df-1684252192b4e19411-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15666921111652__b9e500c8-adb3-4132-94a2-9a22956ef3df-1684252192b4e19411-0",
+        "template--15666921111652__b9e500c8-adb3-4132-94a2-9a22956ef3df-1684252192b4e19411-1",
+        "template--15666921111652__b9e500c8-adb3-4132-94a2-9a22956ef3df-1684252192b4e19411-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "ba5dd96a-5426-4905-bb63-861a099a84e0": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "verkkokaupan-avajaiset",
+        "products_to_show": 25,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "122de173-2110-4bf4-938c-22703fe009b8": {
+      "type": "collection-list",
+      "blocks": {
+        "template--19012719935832__122de173-2110-4bf4-938c-22703fe009b8-1685014820488e713c-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "puutarhakalusteet"
+          }
+        },
+        "template--19012719935832__122de173-2110-4bf4-938c-22703fe009b8-1685014820488e713c-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "sohvat"
+          }
+        },
+        "template--19012719935832__122de173-2110-4bf4-938c-22703fe009b8-1685014820488e713c-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "kaikki-sangyt"
+          }
+        },
+        "99b43322-83df-46c1-9504-186811a7e455": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "iskun-kotimaiset-sohvat"
+          }
+        },
+        "ccfa3cf6-7510-4862-8a9a-b9edd3addc01": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "patjat"
+          }
+        },
+        "b4bbf967-b1c8-4dd0-9236-3217431f5dad": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "nojatuolit"
+          }
+        },
+        "76660e2b-3a3e-4658-bf4c-20d0af92c44c": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "ruokailupoydat"
+          }
+        },
+        "6cca5739-d0d0-49e1-a919-6f8157ed23de": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "ruokailupoydan-tuolit"
+          }
+        },
+        "d1b7a9a9-ccf0-4731-8249-b8db36771f13": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "sailytys"
+          }
+        },
+        "4f012e5a-5cf9-4855-a116-e2dbd88bc17a": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "matot"
+          }
+        },
+        "44f09e4c-096d-47a1-ba68-27db337bc8f9": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "valaisimet"
+          }
+        },
+        "4f70d25d-1ec8-41b5-b8cc-88f4524f237b": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "poydat"
+          }
+        }
+      },
+      "block_order": [
+        "template--19012719935832__122de173-2110-4bf4-938c-22703fe009b8-1685014820488e713c-0",
+        "template--19012719935832__122de173-2110-4bf4-938c-22703fe009b8-1685014820488e713c-1",
+        "template--19012719935832__122de173-2110-4bf4-938c-22703fe009b8-1685014820488e713c-2",
+        "99b43322-83df-46c1-9504-186811a7e455",
+        "ccfa3cf6-7510-4862-8a9a-b9edd3addc01",
+        "b4bbf967-b1c8-4dd0-9236-3217431f5dad",
+        "76660e2b-3a3e-4658-bf4c-20d0af92c44c",
+        "6cca5739-d0d0-49e1-a919-6f8157ed23de",
+        "d1b7a9a9-ccf0-4731-8249-b8db36771f13",
+        "4f012e5a-5cf9-4855-a116-e2dbd88bc17a",
+        "44f09e4c-096d-47a1-ba68-27db337bc8f9",
+        "4f70d25d-1ec8-41b5-b8cc-88f4524f237b"
+      ],
+      "settings": {
+        "title": "Löydä sinulle sopivimmat huonekalut kategrioittain",
+        "heading_size": "h2",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "b14e554e-df94-4cf0-98a9-6c8a70913e28": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19012719935832__b14e554e-df94-4cf0-98a9-6c8a70913e28-16850155752447d086-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<p>Talk about your brand<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--19012719935832__b14e554e-df94-4cf0-98a9-6c8a70913e28-16850155752447d086-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><a><span style=\"text-decoration:underline\">10 kk koroton – 1000 €<\/span><\/a><\/p><p><em>Kampanjaluoton tyypillistä käyttöä kuvaava luotto 1000 €, maksuaika 10 kk. Luottokustannukset yhteensä 30 € (avausmaksu 0 €, korko 0 % ja kuukausikulu 3 €), todellinen vuosikorko 6,69 %. Kuluttajasuojalain mukainen luottohinta 1030 €. Kertalyhennyksen suuruus esimerkkilaskelmalla 103 €. Luotonmyöntäjä on Svea Bank AB (publ), Filial i Finland, Mechelininkatu 1a, 00180 Helsinki. Svea voi sopia myyjäliikkeen kanssa poikkeavista hinnoista.<\/em><\/p>"
+          }
+        },
+        "template--19012719935832__b14e554e-df94-4cf0-98a9-6c8a70913e28-16850155752447d086-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19012719935832__b14e554e-df94-4cf0-98a9-6c8a70913e28-16850155752447d086-0",
+        "template--19012719935832__b14e554e-df94-4cf0-98a9-6c8a70913e28-16850155752447d086-1",
+        "template--19012719935832__b14e554e-df94-4cf0-98a9-6c8a70913e28-16850155752447d086-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "b9b7e8f8-a6a7-45d4-82e8-c760c600bdb2",
+    "b9e500c8-adb3-4132-94a2-9a22956ef3df",
+    "ba5dd96a-5426-4905-bb63-861a099a84e0",
+    "122de173-2110-4bf4-938c-22703fe009b8",
+    "b14e554e-df94-4cf0-98a9-6c8a70913e28"
+  ]
+}
