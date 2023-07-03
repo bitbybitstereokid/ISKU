@@ -17,7 +17,7 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "ILMAINEN KOTIINKULJETUS!",
+            "text": "VERKKOKAUPPATILAUKSILLE ILMAINEN KOTIINKULJETUS!",
             "text_alignment": "center",
             "color_scheme": "accent-2",
             "link": "https:\/\/isku.fi\/policies\/shipping-policy"
