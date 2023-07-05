@@ -93,8 +93,8 @@
         "padding_bottom": 50,
         "reverse": false,
         "text_centered": false,
-        "title": "Anna Segerstråle, sisustusarkkitehti",
-        "text": "<p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.  Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Velit officia consequat duis enim velit mollit. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.<\/p><p>Exercitation veniam consequat sunt nostrud amet. Exercitatio n veniam consequat sunt nostrud amet.Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.<\/p>",
+        "title": "Anna Segerstråle, sisustusarkkitehti, pääkaupunkiseutu",
+        "text": "<p>\"Minua inspiroivat erilaiset ihmiset ja persoonallisuudet sekä sisustuksen psykologia. Se miten tila koetaan vaikuttaa suuresti mieleen ja viihtyvyyteen. Olen hyvä luomaan viihtyisiä ja kutsuvia tiloja käytännöllisyyttä unohtamatta. Minulle on myös tärkeää, että tuotteet kestävät aikaa niin tyylillisesti kuin laatunsa puolesta. Kokonaisuuden kruunaa vielä kaunis ja käytännöllinen valaistus. Hyvin suunniteltu kodin sisustus sitoo huoneet kokonaisuudeksi, siten että lopputulos on aina tasapainoinen ja yhtenäinen. Olen aikaisemmin urallani suunnitellut kiintokalusteita, joten huomioin aina nämäkin osana suunniteltavaa tilaa.<br\/><br\/>Olen aina ollut luova ja visuaalinen, joten oli luontevaa lähteä kehittämään taitoja Lahden muotoiluinstituutissa, josta valmistuin sisustusarkkitehdiksi ja muotoilijaksi 2017. <br\/><br\/>Palvelen asiakkaita sujuvasti myös ruotsiksi ja englanniksi. Ota rohkeasti yhteyttä niin tehdään sisustusunelmistasi totta!”<\/p>",
         "btn_text": "Varaa aika annalle",
         "btn_url": "https:\/\/isku.trafft.com\/booking\/sisustussuunnittelija-anna-segerstrale?t=s&uuid=c74a6ff3-05bc-45a3-b1eb-384069958445"
       }
@@ -111,6 +111,33 @@
         "btn_text": "Varaa aika sadulle",
         "btn_url": "https:\/\/isku.trafft.com\/booking\/satu-sillanpaa?t=s&uuid=d5b08b41-e645-4002-84c8-1e8a55c1956e"
       }
+    },
+    "e814a506-cea7-474f-a53e-42cd8567d177": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Mirella_Virtanen_1.jpg",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": false,
+        "text_centered": false,
+        "title": "Mirella Virtanen, Sisustusarkkitehti, Lahti, Jyväskylä, Mikkeli",
+        "text": "<p>”Arvostan suunnitelmissa käyttäjälähtöisyyttä ja toiminnallisuutta. Eniten tässä ammatissa nautin työn monipuolisuudesta; jokainen suunnittelukohde on uniikki ja suunniteltava sisustus käyttäjänsä näköinen”, Mirella kertoo.<br\/><br\/>Mirella on sisustusarkkitehti ja kalustesuunnittelija, joka valmistui Kymenlaakson amk:sta vuonna 2016 muotoilijaksi. Hän aloitti sisustusalan opinnot vuonna 2009 opiskellen sisustusalan artesaaniksi. Hän on työskennellyt sisustusmyyjänä ja -suunnittelijana 10 vuotta. <\/p>",
+        "btn_text": "",
+        "btn_url": ""
+      }
+    },
+    "edb292d3-1d3d-45f8-b998-cc48aee216a5": {
+      "type": "about-image-text",
+      "settings": {
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": true,
+        "text_centered": false,
+        "title": "Title",
+        "text": "<p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.  Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Velit officia consequat duis enim velit mollit. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.<\/p><p>Exercitation veniam consequat sunt nostrud amet. Exercitatio n veniam consequat sunt nostrud amet.Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.<\/p>",
+        "btn_text": "",
+        "btn_url": ""
+      }
     }
   },
   "order": [
@@ -119,6 +146,8 @@
     "b9e500c8-adb3-4132-94a2-9a22956ef3df",
     "fa8c1518-0f2c-44cb-bac4-a59570bd723d",
     "34962620-4a24-4590-ba72-3a16b2277ae8",
-    "3290650f-c397-4c42-af7f-63f81fcfd92f"
+    "3290650f-c397-4c42-af7f-63f81fcfd92f",
+    "e814a506-cea7-474f-a53e-42cd8567d177",
+    "edb292d3-1d3d-45f8-b998-cc48aee216a5"
   ]
 }
