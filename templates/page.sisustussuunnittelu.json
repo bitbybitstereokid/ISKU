@@ -228,6 +228,36 @@
         "btn_url": ""
       }
     },
+    "83834ae4-0f37-49c0-87b8-f2c51d7a7727": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19221459927384__83834ae4-0f37-49c0-87b8-f2c51d7a7727-16885527093589640d-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Inspiraatiota kukkarolle sopivaan hintaan<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--19221459927384__83834ae4-0f37-49c0-87b8-f2c51d7a7727-16885527093589640d-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><br\/>Hyödynnä sisustussuunnittelupalveluamme pieniin tai suuriin tarpeisiin - aina edullisesti!<br\/>  <br\/>Alkukartoitus Iskun myymälässä on ilmainen. Saat samalla tarkemmat ohjeet tarvittavien esitietojen keräämiseen. <br\/><br\/><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19221459927384__83834ae4-0f37-49c0-87b8-f2c51d7a7727-16885527093589640d-0",
+        "template--19221459927384__83834ae4-0f37-49c0-87b8-f2c51d7a7727-16885527093589640d-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "3daf0b8f-40b2-44ec-8561-2d653f0f1498": {
       "type": "image-banner",
       "blocks": {
@@ -254,6 +284,68 @@
         "stack_images_on_mobile": false,
         "show_text_below": false
       }
+    },
+    "cd1eea92-38ed-406b-83a1-ee12047a888c": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19221459927384__cd1eea92-38ed-406b-83a1-ee12047a888c-16885527093589640d-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h1"
+          }
+        },
+        "template--19221459927384__cd1eea92-38ed-406b-83a1-ee12047a888c-16885527093589640d-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Sisustussuunnittelun yhteydessä tehtyjen ostosten ylittäessä 3000€ saa hintahyvityksenä puolet suunnitelman hinnasta pois. Kauppasumman ylittäessä 5000€ sisustussuunnittelu täysin veloitukseton. (Aiemmin tehdyt tilaukset eivät oikeuta veloituksettomaan suunnitteluun). <br\/><br\/>Jos haluat, että sisustussuunnittelijamme käy kotonasi, hintaan lisätään kohteen sijainnista riippuen kotikäyntimaksu, alkaen 70 €\/h. Pyydä kotikäynneistä erillinen tarjous.<br\/><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19221459927384__cd1eea92-38ed-406b-83a1-ee12047a888c-16885527093589640d-0",
+        "template--19221459927384__cd1eea92-38ed-406b-83a1-ee12047a888c-16885527093589640d-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "807b10bf-0331-4b7a-a382-9bc23de61bc6": {
+      "type": "image-banner",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/sisustushinnat-2.jpg",
+        "image_2": "shopify:\/\/shop_images\/sisustushinnat-2_242920db-813c-445a-965c-2ff330a427a6.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "9bc451d6-0e83-409f-b5fc-5a70bc7326a3": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/sisustushinnat-2_62aa6131-c917-4215-a731-c2f73ab4fbcb.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
@@ -269,6 +361,10 @@
     "e64ca6fa-fd28-4210-b6a3-b9b0fdd175c0",
     "22d646b5-d0d5-46b2-9a33-243e9bc3f6ba",
     "c2f4b8b6-8676-4583-9bb0-c80a4a837609",
-    "3daf0b8f-40b2-44ec-8561-2d653f0f1498"
+    "83834ae4-0f37-49c0-87b8-f2c51d7a7727",
+    "3daf0b8f-40b2-44ec-8561-2d653f0f1498",
+    "cd1eea92-38ed-406b-83a1-ee12047a888c",
+    "807b10bf-0331-4b7a-a382-9bc23de61bc6",
+    "9bc451d6-0e83-409f-b5fc-5a70bc7326a3"
   ]
 }
