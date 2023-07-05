@@ -387,6 +387,33 @@
         "padding_bottom": 36
       }
     },
+    "71d615b7-22de-4e9f-8499-fe4c692764f4": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "ALE – Tempur",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "ale-tempur",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "563efd05-65b6-47eb-b1f9-258cc656fe88": {
       "type": "featured-collection",
       "settings": {
@@ -693,6 +720,7 @@
     "3ebcd76f-5270-4ccc-b8d1-2ac425174f1f",
     "1cfc268c-9d8f-47e1-ae64-bff777bcba5e",
     "7a4e33bd-29ce-4acf-89dd-836186a6df94",
+    "71d615b7-22de-4e9f-8499-fe4c692764f4",
     "563efd05-65b6-47eb-b1f9-258cc656fe88",
     "ee1f2949-663f-4ae2-9f14-923d6e4bd1b7",
     "9291b852-0fc7-4218-a3c0-cd2354fcecfe",
