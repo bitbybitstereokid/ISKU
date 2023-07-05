@@ -143,12 +143,13 @@
     "64636734-cc35-46e2-9e6f-90a1434c2673": {
       "type": "about-image-text",
       "settings": {
+        "image": "shopify:\/\/shop_images\/JPG_Pieni_Heidi_Raatikainen_301220_grey_1_d6d3b104-2b1c-42f7-81ad-5a0908a82fdf.jpg",
         "padding_top": 50,
         "padding_bottom": 50,
         "reverse": false,
         "text_centered": false,
         "title": "Heidi Raatikainen, Sisustussuunnittelija, Lappeenranta,Kouvola ja Joensuu",
-        "text": "<p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.  Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Velit officia consequat duis enim velit mollit. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.<\/p><p>Exercitation veniam consequat sunt nostrud amet. Exercitatio n veniam consequat sunt nostrud amet.Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.<\/p>",
+        "text": "<p>\"Suunnittelijana missioni on auttaa luomaan toimiva koti, joka kuvastaa asujansa persoonaa.  Minulla on kyky tulkita rivien välistä se, mitä asiakas ei välttämättä osaa pukea sanoiksi. Usein asiakas tietää, millaisen kokonaisuuden sisustuksesta haluaa, mutta ei miten se luodaan. Tässä kohtaa suunnittelijan apu säästää aikaa ja rahaa. Luodaan yhdessä koti isolla K:lla. Oli kyse sitten sohvan värin valinnasta tai rakenteilla olevan kodin sisustuskokonaisuuden rakentamisesta, olen apunasi\", Heidi sanoo.<br\/><br\/>Heidi on opiskellut sekä sisustusstailausta, että sisustussuunnittelua. Suunnittelijana hän on  työskennellyt aktiivisesti jo vuodesta 2011 asti ja hän omaa hyvin laaja-alaisen kokemuksen suunnittelusta monesta eri näkökulmasta.<br\/><\/p>",
         "btn_text": "",
         "btn_url": ""
       }
