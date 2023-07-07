@@ -46,7 +46,7 @@
         "template--15666921111652__b9e500c8-adb3-4132-94a2-9a22956ef3df-1684252192b4e19411-1": {
           "type": "text",
           "settings": {
-            "text": "<p>ISKUn koulutetut nukkumisergonomian asiantuntijat palvelevat sinua kaikissa myymälöissämme. Oletko aikeissa vaihtaa sängyn, patjan tai haluat vinkkejä miten parannat unesi laatua? Varaa nyt aika ilmaisen nukkumisergonomian kartoitukseen ja konsultaatioon alta.<\/p>"
+            "text": "<p>Nukut kolmasosan elämästäsi - mutta kuinka hyvin? Virkeän päivän salaisuus on laadukas uni. Hyvä nukkumisergonomia ennaltaehkäisee ja vähentää niska- ja selkäkipuja sekä parantaa unesi laatua.<br\/><br\/>ISKUn koulutetut nukkumisergonomian asiantuntijat auttavat sinua löytämään hyvän unen, parhaan nukkumisasennon ja juuri sinulle sopivan sängyn, patjan ja tyynyn. Varaa ilmainen konsultaatioaika nyt alta!<\/p>"
           }
         },
         "template--15666921111652__b9e500c8-adb3-4132-94a2-9a22956ef3df-1684252192b4e19411-2": {
@@ -84,12 +84,59 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "2d4704be-7387-4348-8f24-5d16429fffb4": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19221550530904__2d4704be-7387-4348-8f24-5d16429fffb4-16887152166cc262dd-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Arvosta untasi<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--19221550530904__2d4704be-7387-4348-8f24-5d16429fffb4-16887152166cc262dd-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Arvosta untasi! Oikeanlainen ja juuri sinulle sopiva sänky on paras perusta hyvälle unelle. Vääränkokoinen tyyny häiritsee untasi ja voi aiheuttaa niska ja hartiakipuja. Epäsopiva patja puolestaan saattaa pahentaa selkäoireita ja vaikeuttaa nukkumistasi.<br\/><br\/>ISKUn koulutetuilta nukkumisergonomian asiantuntijoilta saat parhaat vinkit laadukkaaseen nukkumiseen. Varaa aika tai piipahda myymälässämme kysymässä lisää!<br\/><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19221550530904__2d4704be-7387-4348-8f24-5d16429fffb4-16887152166cc262dd-0",
+        "template--19221550530904__2d4704be-7387-4348-8f24-5d16429fffb4-16887152166cc262dd-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "e2b3261f-de5f-4729-b854-54499393acca": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Uniasiantuntija_fdf8ac35-bfff-4c38-a4e4-053a38eeffe1.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
     "main",
     "b9b7e8f8-a6a7-45d4-82e8-c760c600bdb2",
     "b9e500c8-adb3-4132-94a2-9a22956ef3df",
-    "fa8c1518-0f2c-44cb-bac4-a59570bd723d"
+    "fa8c1518-0f2c-44cb-bac4-a59570bd723d",
+    "2d4704be-7387-4348-8f24-5d16429fffb4",
+    "e2b3261f-de5f-4729-b854-54499393acca"
   ]
 }
