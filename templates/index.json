@@ -281,6 +281,26 @@
         "padding_bottom": 36
       }
     },
+    "d3b8e05b-63a6-43cd-b997-1f9a13b897ef": {
+      "type": "hero-banner-half",
+      "settings": {
+        "text_align": "left",
+        "image_position": "left",
+        "image_position_mobile": "top",
+        "image": "shopify:\/\/shop_images\/Nimeton_malli_30_1.png",
+        "title": "ISKU on mukana asuntomessuilla!",
+        "small": true,
+        "text": "Asuntomessut 2023 järjestetään Loviisassa Kuningattarenrannan alueella noin kilometrin päässä Loviisan keskustasta. Alueelta ovat näkymät Loviisanlahden yli vastarannalle historialliseen alakaupunkiin. Messut ovat avoinna kävijöille 7.7. –6.8.2023.|\nISKU on tuttuun tapaan mukana Asuntomessuilla ja sisustussuunnittelijoidemme kalustamia kohteita ovat Talo Tallbacka, Huila sekä Queen’s Stone. \n\nISKUn loistava tiimi on myös messuteltassa tarjoamassa mitä parhaimpia messuetuja ja palvelemassa messukävijöitä, joten tule sinäkin käymään Asuntomessuilla moikkaamassa!",
+        "button_style": "primary",
+        "btn_text": "",
+        "btn_url": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "full_width": true,
+        "bg_color": "#f3f3f3",
+        "text_color": "#121212"
+      }
+    },
     "165ada33-7568-45ff-a3ed-4d70620bfee3": {
       "type": "collections-grid",
       "blocks": {
@@ -640,6 +660,7 @@
     "0961df4d-7bf5-4dee-a475-d345c73159a6",
     "17f24b99-fc36-4e71-a533-0ca58776b4cc",
     "7afba2d3-d985-4d50-9730-69ffe8de69b8",
+    "d3b8e05b-63a6-43cd-b997-1f9a13b897ef",
     "165ada33-7568-45ff-a3ed-4d70620bfee3",
     "5ffa3993-f36e-4b26-a08a-60dd72c4d9be",
     "de0f6296-9452-488f-a982-a31b8b396fff",
