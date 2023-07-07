@@ -87,6 +87,7 @@
     },
     "2d4704be-7387-4348-8f24-5d16429fffb4": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "template--19221550530904__2d4704be-7387-4348-8f24-5d16429fffb4-16887152166cc262dd-0": {
           "type": "heading",
@@ -117,6 +118,7 @@
     },
     "e2b3261f-de5f-4729-b854-54499393acca": {
       "type": "image-banner",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Nukkumisergonomia_2_1.png",
         "image_overlay_opacity": 0,
