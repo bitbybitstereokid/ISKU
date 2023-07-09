@@ -8,6 +8,49 @@
         "padding_bottom": 36
       }
     },
+    "bdbd376d-1a8d-49a6-953e-9f2d23f899db": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19067052654936__bdbd376d-1a8d-49a6-953e-9f2d23f899db-168890776797cfe2fd-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Kouvolan myymälän loppuunmyynti<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--19067052654936__bdbd376d-1a8d-49a6-953e-9f2d23f899db-168890776797cfe2fd-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Kaikki mallikappaleet vähintään -40%. Soita +358 29 086 4640 tai käy liikkessämme sillä suosituimmat mallit myydään nopeasti!<\/p>"
+          }
+        },
+        "template--19067052654936__bdbd376d-1a8d-49a6-953e-9f2d23f899db-168890776797cfe2fd-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19067052654936__bdbd376d-1a8d-49a6-953e-9f2d23f899db-168890776797cfe2fd-0",
+        "template--19067052654936__bdbd376d-1a8d-49a6-953e-9f2d23f899db-168890776797cfe2fd-1",
+        "template--19067052654936__bdbd376d-1a8d-49a6-953e-9f2d23f899db-168890776797cfe2fd-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "ce84ed92-7933-426a-9793-e6a959ab28f6": {
       "type": "rich-text",
       "blocks": {
@@ -155,6 +198,7 @@
   },
   "order": [
     "main",
+    "bdbd376d-1a8d-49a6-953e-9f2d23f899db",
     "ce84ed92-7933-426a-9793-e6a959ab28f6",
     "7c9fcfef-ad60-49e2-a86e-820afb5c3fb9"
   ]
