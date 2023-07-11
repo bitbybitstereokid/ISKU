@@ -198,7 +198,7 @@
     "7b3b8172-4b12-4191-b85f-38e976408d15": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<iframe\n  src=\"https:\/\/www.tori.fi\/isku-kouvola\" width=\"100%\" height=\"100%\"\n><\/iframe>",
+        "custom_liquid": "<iframe\n  src=\"https:\/\/www.tori.fi\/isku-kouvola\" width=\"100%\" height=\"1000px\"\n><\/iframe>",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
