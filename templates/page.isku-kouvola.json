@@ -51,6 +51,15 @@
         "padding_bottom": 52
       }
     },
+    "7b3b8172-4b12-4191-b85f-38e976408d15": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "ce84ed92-7933-426a-9793-e6a959ab28f6": {
       "type": "rich-text",
       "blocks": {
@@ -194,22 +203,13 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "7b3b8172-4b12-4191-b85f-38e976408d15": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<iframe\n  src=\"https:\/\/www.tori.fi\/isku-kouvola\" width=\"100%\" height=\"1000px\"\n><\/iframe>",
-        "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
     }
   },
   "order": [
     "main",
     "bdbd376d-1a8d-49a6-953e-9f2d23f899db",
+    "7b3b8172-4b12-4191-b85f-38e976408d15",
     "ce84ed92-7933-426a-9793-e6a959ab28f6",
-    "7c9fcfef-ad60-49e2-a86e-820afb5c3fb9",
-    "7b3b8172-4b12-4191-b85f-38e976408d15"
+    "7c9fcfef-ad60-49e2-a86e-820afb5c3fb9"
   ]
 }
