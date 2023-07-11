@@ -21,7 +21,7 @@
         "template--19067052654936__bdbd376d-1a8d-49a6-953e-9f2d23f899db-168890776797cfe2fd-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Kaikki mallikappaleet vähintään -40%. Soita +358 29 086 4640 tai käy liikkessämme sillä suosituimmat mallit myydään nopeasti!<\/p>"
+            "text": "<p>Kaikki mallikappaleet vähintään -40%, tutustu tuotteisiin Isku Kouvolan Tori.fi -sivuilla alla. <\/p><p>Koska tuotteet ovat yksittäiskappaleita ja myydään välimyyntivarauksin, sinun kannattaa soittaa liikeeseemme: +358 29 086 4640 tai käy liikkessämme sillä suosituimmat mallit myydään nopeasti!<\/p>"
           }
         },
         "template--19067052654936__bdbd376d-1a8d-49a6-953e-9f2d23f899db-168890776797cfe2fd-2": {
@@ -54,7 +54,7 @@
     "7b3b8172-4b12-4191-b85f-38e976408d15": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "",
+        "custom_liquid": "<iframe\n  src=\"https:\/\/www.tori.fi\/isku-kouvola\" width=\"100%\" height=\"1000px\"\n><\/iframe>",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
