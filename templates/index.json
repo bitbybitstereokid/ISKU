@@ -72,7 +72,7 @@
           "type": "slider",
           "settings": {
             "title": "ISKUn suuri kesäale on nyt!",
-            "content": "Kampanja voimassa 31.7. asti.",
+            "content": "Kampanja voimassa 30.7. asti.",
             "button": "Kesäaleen",
             "button_url": "shopify:\/\/collections\/kesaale",
             "button_style": "primary-btn",
