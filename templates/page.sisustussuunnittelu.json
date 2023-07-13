@@ -91,7 +91,7 @@
         "image": "shopify:\/\/shop_images\/Anna_Segerstrale_grey.jpg",
         "padding_top": 50,
         "padding_bottom": 50,
-        "reverse": false,
+        "reverse": true,
         "text_centered": false,
         "title": "Anna Segerstråle, sisustusarkkitehti, pääkaupunkiseutu",
         "text": "<p>\"Minua inspiroivat erilaiset ihmiset ja persoonallisuudet sekä sisustuksen psykologia. Se miten tila koetaan vaikuttaa suuresti mieleen ja viihtyvyyteen. Olen hyvä luomaan viihtyisiä ja kutsuvia tiloja käytännöllisyyttä unohtamatta. Minulle on myös tärkeää, että tuotteet kestävät aikaa niin tyylillisesti kuin laatunsa puolesta. Kokonaisuuden kruunaa vielä kaunis ja käytännöllinen valaistus. Hyvin suunniteltu kodin sisustus sitoo huoneet kokonaisuudeksi, siten että lopputulos on aina tasapainoinen ja yhtenäinen. Olen aikaisemmin urallani suunnitellut kiintokalusteita, joten huomioin aina nämäkin osana suunniteltavaa tilaa.<br\/><br\/>Olen aina ollut luova ja visuaalinen, joten oli luontevaa lähteä kehittämään taitoja Lahden muotoiluinstituutissa, josta valmistuin sisustusarkkitehdiksi ja muotoilijaksi 2017. <br\/><br\/>Palvelen asiakkaita sujuvasti myös ruotsiksi ja englanniksi. Ota rohkeasti yhteyttä niin tehdään sisustusunelmistasi totta!”<\/p>",
@@ -101,6 +101,7 @@
     },
     "3290650f-c397-4c42-af7f-63f81fcfd92f": {
       "type": "about-image-text",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Satu_Sillanpaa_grey2_7582d4a3-a2c2-4a97-9b05-53ca67dba92c.jpg",
         "padding_top": 50,
