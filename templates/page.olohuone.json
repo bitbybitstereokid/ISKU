@@ -107,7 +107,7 @@
         "template--15666921111652__feed3c0b-9956-4f00-b4e6-8581a11f296e-1684252586156a85ac-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Monkey-2h-1_8b59a668-e72a-4063-8202-2a241cd76fb9.jpg",
+            "image": "shopify:\/\/shop_images\/Casa-2h-sohva-isku-1689125710673.jpg",
             "title": "",
             "text": "",
             "link_label": "Kahden hengen sohvat",
@@ -177,21 +177,11 @@
         "06982b76-d1aa-4c4f-96bb-88234bbb2664": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/hetki-rahi-tammi-gwp.jpg",
+            "image": "shopify:\/\/shop_images\/Air-100-rahi-100x60-cm-ht-collection-1689128892422.jpg",
             "title": "",
             "text": "",
             "link_label": "Rahit",
             "link": "shopify:\/\/collections\/rahit"
-          }
-        },
-        "7650a5a1-3d1c-46bb-9944-c9dba9c9a0b9": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/finarte-origami-matto-sininen.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "Olohuoneen matot",
-            "link": "shopify:\/\/collections\/olohuoneen-matot"
           }
         },
         "1882f264-a609-4991-995b-058b9ace01cc": {
@@ -234,54 +224,14 @@
             "link": "shopify:\/\/collections\/tv-tasot"
           }
         },
-        "8c36c573-e5ba-47cf-8a6e-88699b5258dc": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/aarni_poyta.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "Pöydät",
-            "link": "shopify:\/\/collections\/olohuoneen-poydat"
-          }
-        },
-        "fc1e3818-46d7-42e4-b74c-f92c90c2279a": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/air-sivupoyta-hyllylla.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "Sivupöydät",
-            "link": "shopify:\/\/collections\/sivupoydat"
-          }
-        },
         "7dc92542-6fa0-4aa6-8c5a-1af1bcfa15db": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/latte-sohvapoyta-musta-etu.jpg",
+            "image": "shopify:\/\/shop_images\/Jugend-sohvapoyta-120x60-cm-Isku-Stage-1686592689.jpg",
             "title": "",
             "text": "",
             "link_label": "Sohvapöydät",
             "link": "shopify:\/\/collections\/sohvapoydat"
-          }
-        },
-        "d30cd9dd-0ffc-47ad-ac77-f00926422caa": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/riimu-koristetyyny-musta-hapsut-50x50.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "Sohvatyynyt",
-            "link": "shopify:\/\/collections\/sohvatyynyt"
-          }
-        },
-        "d7c6e665-3256-4862-a814-7ce0dcd2d7ac": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/finarte-vare-viltti2.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "Viltit",
-            "link": "shopify:\/\/collections\/viltit-ja-sohvapeitot"
           }
         }
       },
@@ -294,16 +244,11 @@
         "d00a6264-5588-4f3a-b9c4-460b3f2ef815",
         "e46c8c56-b08f-4edc-958b-fa4cf0cb95d2",
         "06982b76-d1aa-4c4f-96bb-88234bbb2664",
-        "7650a5a1-3d1c-46bb-9944-c9dba9c9a0b9",
         "1882f264-a609-4991-995b-058b9ace01cc",
         "39814cc9-3563-4215-b951-9a5d4daa2b88",
         "8bc1d853-dcbe-4b9e-8396-bd26f6651dd9",
         "363cbfc5-c7d1-429d-b2af-85ebb2bff417",
-        "8c36c573-e5ba-47cf-8a6e-88699b5258dc",
-        "fc1e3818-46d7-42e4-b74c-f92c90c2279a",
-        "7dc92542-6fa0-4aa6-8c5a-1af1bcfa15db",
-        "d30cd9dd-0ffc-47ad-ac77-f00926422caa",
-        "d7c6e665-3256-4862-a814-7ce0dcd2d7ac"
+        "7dc92542-6fa0-4aa6-8c5a-1af1bcfa15db"
       ],
       "settings": {
         "title": "Sohvakategoriat",
