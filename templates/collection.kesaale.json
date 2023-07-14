@@ -60,6 +60,33 @@
         "padding_bottom": 36
       }
     },
+    "146b1d89-c48b-4f77-b4d1-8c3c6f1a5437": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "ALE – Puutarhakalusteet",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "puutarhakalusteet",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "70342be4-c348-4fc1-88c1-39ba0db95416": {
       "type": "featured-collection",
       "settings": {
@@ -87,15 +114,15 @@
         "padding_bottom": 36
       }
     },
-    "146b1d89-c48b-4f77-b4d1-8c3c6f1a5437": {
+    "f7c73974-566d-4d28-bfe9-a8da295487eb": {
       "type": "featured-collection",
       "settings": {
-        "title": "ALE – Puutarhakalusteet",
+        "title": "Erä Rowicon tuotteita jopa -50%",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "puutarhakalusteet",
+        "collection": "era-rowicon-tuotteita-jopa-50",
         "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
@@ -711,8 +738,9 @@
     "681cc2a2-0268-4186-b413-0bffd6085c5e",
     "c618eb82-4f5d-4665-b38e-8fc9a1ad2a8b",
     "987ca2e3-c6e0-4b8a-beb0-690dc0de3e09",
-    "70342be4-c348-4fc1-88c1-39ba0db95416",
     "146b1d89-c48b-4f77-b4d1-8c3c6f1a5437",
+    "70342be4-c348-4fc1-88c1-39ba0db95416",
+    "f7c73974-566d-4d28-bfe9-a8da295487eb",
     "39b59852-0e85-43ff-b7ff-add258e7e0a4",
     "0c8eb791-445b-43f1-92d9-a8668bf1df1a",
     "cc87dcd7-9198-4b10-8d4b-68b78724e1aa",
