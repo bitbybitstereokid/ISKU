@@ -494,6 +494,11 @@
       },
       "stock": {
         "sold_out_label": "Vain myymälöissä"
+      },
+      "throttle": {
+        "merchandise": {
+          "sold_out": "Vain myymälöissä"
+        }
       }
     }
   }
