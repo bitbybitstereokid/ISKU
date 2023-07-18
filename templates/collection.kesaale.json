@@ -468,6 +468,33 @@
         "padding_bottom": 36
       }
     },
+    "ab27db9d-3939-4d55-baf5-c4f75931734b": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Conform -20%",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "conform-tuotteet",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "ee1f2949-663f-4ae2-9f14-923d6e4bd1b7": {
       "type": "featured-collection",
       "settings": {
@@ -739,33 +766,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "ab27db9d-3939-4d55-baf5-c4f75931734b": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Conform -20%",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "conform-tuotteet",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -784,6 +784,7 @@
     "7a4e33bd-29ce-4acf-89dd-836186a6df94",
     "71d615b7-22de-4e9f-8499-fe4c692764f4",
     "563efd05-65b6-47eb-b1f9-258cc656fe88",
+    "ab27db9d-3939-4d55-baf5-c4f75931734b",
     "ee1f2949-663f-4ae2-9f14-923d6e4bd1b7",
     "9291b852-0fc7-4218-a3c0-cd2354fcecfe",
     "banner",
@@ -792,7 +793,6 @@
     "ea5628a9-88fc-414e-ba74-51323f42d771",
     "31462831-57f3-4254-a53f-88ae797fbf6e",
     "114941d9-aed9-45f3-b22c-b374981555c6",
-    "dcb7c3e8-7630-4c81-9358-8bd9444f7543",
-    "ab27db9d-3939-4d55-baf5-c4f75931734b"
+    "dcb7c3e8-7630-4c81-9358-8bd9444f7543"
   ]
 }
