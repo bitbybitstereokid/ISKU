@@ -4,10 +4,10 @@
   "sections": {
     "announcement-bar": {
       "type": "announcement-bar",
-      "disabled": true,
       "blocks": {
         "839d4ef2-afc4-43a6-8c4a-bde088d6f515": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "",
             "text_alignment": "center",
@@ -18,7 +18,7 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "VERKKOKAUPPATILAUKSILLE ILMAINEN KOTIINKULJETUS!",
+            "text": "ILMAINEN KOTIINKULJETUS YLI 1499€ TILAUKSIIN VERKKOKAUPASSA!",
             "text_alignment": "center",
             "color_scheme": "accent-2",
             "link": "https:\/\/isku.fi\/policies\/shipping-policy"
@@ -26,6 +26,7 @@
         },
         "4eb82a86-7678-452f-962f-c6e5a65cc5d4": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "",
             "text_alignment": "center",
