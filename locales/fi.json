@@ -479,7 +479,8 @@
         "pick_up_in_five_or_more_days": " ",
         "pick_up_in_zero_to_two_hours": " ",
         "pick_up_in_two_to_four_hours": " ",
-        "pick_up_immediately": " "
+        "pick_up_immediately": " ",
+        "free_total_label": "Ilmainen toimitus"
       },
       "general": {
         "back_to_contact_information": "Palaa yhteystietoihin",
@@ -487,7 +488,8 @@
         "back_to_payment_method": "Palaa maksutavan valintaan"
       },
       "order_summary": {
-        "sale_price": "Ale"
+        "sale_price": "Ale",
+        "free_total_label": "Ilmainen toimitus"
       },
       "contact": {
         "optional_phone_label": "Puhelin (saat SMS ilmoituksen toimituksesta)"
@@ -499,6 +501,12 @@
         "merchandise": {
           "sold_out": "Vain myymälöissä"
         }
+      },
+      "shipping": {
+        "free_rate_label": "Ilmainen toimitus"
+      },
+      "payment_summary": {
+        "free_label": "Ilmainen toimitus"
       }
     }
   }
