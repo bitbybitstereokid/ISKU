@@ -129,6 +129,7 @@
         },
         "bf457eaa-0904-4922-9914-48817f3ad606": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "* Alennus lasketaan tuotteen normaalihinnasta ja koskee ainoastaan uusia kauppoja\/tilauksia. Juhannusfestivaalit 26.6. klo 10 saakka.",
             "text_style": "body"
