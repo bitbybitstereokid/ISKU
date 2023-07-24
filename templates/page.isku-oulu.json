@@ -89,7 +89,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Hanna_Ylikerala_grey.jpg",
             "title": "Hanna Saari",
-            "text": "<p>Sisustusmyyjä<\/p><p>029 086 3909<\/p>",
+            "text": "<p>Sisustusmyyjä<\/p><p>0504526260<\/p>",
             "link_label": "Email",
             "link": "mailto:hanna.saari@isku.fi"
           }
@@ -132,7 +132,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/hahmo_2.jpg",
             "title": "Sari Laitinen",
-            "text": "<p>Sisustusmyyjä<\/p>",
+            "text": "<p>Sisustusmyyjä<br\/>0504649059<\/p>",
             "link_label": "Email",
             "link": "mailto:sari.laitinen@isku.fi"
           }
@@ -152,7 +152,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/hahmo_1.jpg",
             "title": "Juho Ylisaukko-Oja",
-            "text": "<p>Sisustusmyyjä<\/p>",
+            "text": "<p>Sisustusmyyjä<br\/>0503506841<\/p>",
             "link_label": "Email",
             "link": "mailto:juho.ylisaukko-oja@isku.fi"
           }
