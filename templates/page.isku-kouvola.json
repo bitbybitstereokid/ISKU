@@ -107,6 +107,7 @@
       "blocks": {
         "template--18960932667736__7c9fcfef-ad60-49e2-a86e-820afb5c3fb9-1684169800ae4304ac-2": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/JPG_Keskisuuri_Minna_Haimi_120321_grey.jpg",
             "title": "Minna Haukkala",
