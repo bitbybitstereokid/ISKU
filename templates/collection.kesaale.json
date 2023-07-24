@@ -497,6 +497,7 @@
     },
     "ee1f2949-663f-4ae2-9f14-923d6e4bd1b7": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "ALE – Lundia",
         "heading_size": "h1",
