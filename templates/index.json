@@ -71,7 +71,7 @@
         "6683040b-410a-4a0c-bb71-11182bbb2e2d": {
           "type": "slider",
           "settings": {
-            "title": "ISKUn suuri kesäale on nyt!",
+            "title": "ISKUn suuri kesäale päättyy!",
             "content": "Kampanja voimassa 30.7. asti.",
             "button": "Kesäaleen",
             "button_url": "shopify:\/\/collections\/kesaale",
