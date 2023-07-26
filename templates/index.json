@@ -73,11 +73,11 @@
           "settings": {
             "title": "ISKUn suuri kesäale päättyy!",
             "content": "Kampanja voimassa 30.7. asti.",
-            "button": "Kesäaleen",
+            "button": "HAE OMASI PIAN",
             "button_url": "shopify:\/\/collections\/kesaale",
             "button_style": "primary-btn",
-            "image": "shopify:\/\/shop_images\/1920x1080_ALE1.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/kesaale-mobiilibanner2.jpg"
+            "image": "shopify:\/\/shop_images\/Kansikuva_1928x1080_1.png",
+            "image_mobile": "shopify:\/\/shop_images\/Kansikuva_mobiili_1080x1616_b6b8b2bf-7be8-41b9-b489-af9e09d92d47.png"
           }
         }
       },
