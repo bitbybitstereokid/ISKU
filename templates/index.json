@@ -79,10 +79,24 @@
             "image": "shopify:\/\/shop_images\/Kansikuva_1928x1080_1.png",
             "image_mobile": "shopify:\/\/shop_images\/Kansikuva_mobiili_1080x1616_1_1.png"
           }
+        },
+        "a4d43412-1b30-40cd-8b02-738044276873": {
+          "type": "slider",
+          "disabled": true,
+          "settings": {
+            "title": "Koko Suomi juhlii!",
+            "content": "Kaikki normaalihintaiset tuotteet -20% Kalevan myymälän synttäreiden kunniaksi!| Voimassa kaikissa myymälöissä ja verkkokaupassa 7.8.2023 saakka.",
+            "button": "KAIKKIIN TUOTTEISIIN",
+            "button_url": "https:\/\/isku.fi\/collections\/koko-valikoima",
+            "button_style": "primary-btn",
+            "image": "shopify:\/\/shop_images\/Kansikuva_1928x1080_2.png",
+            "image_mobile": "shopify:\/\/shop_images\/Kansikuva_mobiili_1080x1616_2.png"
+          }
         }
       },
       "block_order": [
-        "6683040b-410a-4a0c-bb71-11182bbb2e2d"
+        "6683040b-410a-4a0c-bb71-11182bbb2e2d",
+        "a4d43412-1b30-40cd-8b02-738044276873"
       ],
       "settings": {
         "padding_top": 0,
