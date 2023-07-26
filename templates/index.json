@@ -85,7 +85,7 @@
           "disabled": true,
           "settings": {
             "title": "Koko Suomi juhlii!",
-            "content": "Kaikki normaalihintaiset tuotteet -20% Kalevan myymälän synttäreiden kunniaksi!| Voimassa kaikissa myymälöissä ja verkkokaupassa 7.8.2023 saakka.",
+            "content": "Kaikki normaalihintaiset tuotteet vähintään -20% Kalevan myymälän synttäreiden kunniaksi!| Voimassa kaikissa myymälöissä ja verkkokaupassa 7.8.2023 saakka.",
             "button": "KAIKKIIN TUOTTEISIIN",
             "button_url": "https:\/\/isku.fi\/collections\/koko-valikoima",
             "button_style": "primary-btn",
