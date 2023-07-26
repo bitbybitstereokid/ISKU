@@ -126,16 +126,6 @@
             "link": ""
           }
         },
-        "d7c29fa8-6fca-4dc0-a442-38196d96d8a9": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/hahmo_2.jpg",
-            "title": "Johanna Rautiola",
-            "text": "<p>Sisustusmyyjä<\/p>",
-            "link_label": "Email",
-            "link": "mailto:johanna.rautiola@isku.fi"
-          }
-        },
         "434d3829-81c9-46e5-8acf-d19892b94cd4": {
           "type": "column",
           "settings": {
@@ -155,7 +145,6 @@
         "7b5052af-ca4f-47c3-a88a-cdcd75cb537d",
         "3f68feeb-5902-4903-bbe2-2caa01ea25da",
         "9c17c02f-cb9c-4870-88be-2523eee52914",
-        "d7c29fa8-6fca-4dc0-a442-38196d96d8a9",
         "434d3829-81c9-46e5-8acf-d19892b94cd4"
       ],
       "settings": {
