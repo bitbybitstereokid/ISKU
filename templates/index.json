@@ -6,11 +6,12 @@
       "blocks": {
         "d086ed09-5381-4ef5-9dea-af3ec1fe16a8": {
           "type": "slider",
+          "disabled": true,
           "settings": {
-            "title": "Mallisto uudistuu! | JENSEN-SÄNGYT NYT -25%",
-            "content": "Voimassa 31.7. asti.",
-            "button": "KATSO LISÄÄ",
-            "button_url": "https:\/\/isku.fi\/collections\/jensen",
+            "title": "Mallisto uudistuu! | JENSEN-MYYMÄLÄMALLIT -40%",
+            "content": "Mallit vaihtelevat myymälöittäin. Ei koske verkkokauppaa.",
+            "button": "ETSI LÄHIN MYYMÄLÄSI",
+            "button_url": "https:\/\/isku.fi\/pages\/myymalat",
             "button_style": "primary-btn",
             "image": "shopify:\/\/shop_images\/Jensen_1200x600_d5eda73b-4d6e-470d-bd21-4a2d042d9757.jpg",
             "image_mobile": "shopify:\/\/shop_images\/Jensen_1200x600_e65273b6-b5c7-4d97-9886-5e113ff942ab.jpg"
@@ -18,6 +19,7 @@
         },
         "f569850d-67e3-4cc1-9d6a-a33d3a26e7fd": {
           "type": "slider",
+          "disabled": true,
           "settings": {
             "title": "Kaikki Rowicon tuotteet -20%",
             "content": "Kampanja voimassa 31.7. asti",
