@@ -2,6 +2,7 @@
   "sections": {
     "0e85d77f-389f-4f3b-b5d1-6c14109510c8": {
       "type": "hero-banner-slider",
+      "disabled": true,
       "blocks": {
         "d086ed09-5381-4ef5-9dea-af3ec1fe16a8": {
           "type": "slider",
@@ -31,6 +32,7 @@
         },
         "65bcb181-e56b-447a-8834-5851aba02a01": {
           "type": "slider",
+          "disabled": true,
           "settings": {
             "title": "Ihana arki!",
             "content": "Kaikki tuotteet ihanan arjen aloittamiseksi löydät meiltä! Kampanja voimassa 13.8. saakka.",
