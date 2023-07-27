@@ -2,7 +2,6 @@
   "sections": {
     "0e85d77f-389f-4f3b-b5d1-6c14109510c8": {
       "type": "hero-banner-slider",
-      "disabled": true,
       "blocks": {
         "d086ed09-5381-4ef5-9dea-af3ec1fe16a8": {
           "type": "slider",
@@ -29,11 +28,24 @@
             "image": "shopify:\/\/shop_images\/rowico-banner1.jpg",
             "image_mobile": "shopify:\/\/shop_images\/Skye-ruokapoyta-h.120-cm-rowico-1686586511.jpg"
           }
+        },
+        "65bcb181-e56b-447a-8834-5851aba02a01": {
+          "type": "slider",
+          "settings": {
+            "title": "Ihana arki!",
+            "content": "Kaikki tuotteet ihanan arjen aloittamiseksi löydät meiltä! Kampanja voimassa 13.8. saakka.",
+            "button": "KAMPANJATUOTTEISIIN TÄSTÄ",
+            "button_url": "https:\/\/isku.fi\/collections\/kampanjatuotteet",
+            "button_style": "primary-btn",
+            "image": "shopify:\/\/shop_images\/Kansikuva_1928x1080_4_1.png",
+            "image_mobile": "shopify:\/\/shop_images\/Kansikuva_mobiili_1080x1616_3_1.png"
+          }
         }
       },
       "block_order": [
         "d086ed09-5381-4ef5-9dea-af3ec1fe16a8",
-        "f569850d-67e3-4cc1-9d6a-a33d3a26e7fd"
+        "f569850d-67e3-4cc1-9d6a-a33d3a26e7fd",
+        "65bcb181-e56b-447a-8834-5851aba02a01"
       ],
       "settings": {
         "padding_top": 0,
