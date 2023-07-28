@@ -5,22 +5,30 @@
   },
   "sections": {
     "main": {
+      "disabled": false,
+      "settings": {
+      },
       "blocks": {
         "0dd2c139-d779-473f-9d18-33a54573ef44": {
           "settings": {
-            "text": "30 päivän alin hinta"
           }
         }
       }
     },
     "related-products": {
+      "disabled": false,
       "settings": {
         "heading": "Voisit olla kiinnostunut myös näistä"
+      },
+      "blocks": {
       }
     },
     "93a16e45-03c8-4faa-afcc-7bc32dece52d": {
+      "disabled": false,
       "settings": {
         "text_btn_download": "Katso lisää"
+      },
+      "blocks": {
       }
     }
   }
