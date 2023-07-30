@@ -2,11 +2,9 @@
   "sections": {
     "0e85d77f-389f-4f3b-b5d1-6c14109510c8": {
       "type": "hero-banner-slider",
-      "disabled": true,
       "blocks": {
         "d086ed09-5381-4ef5-9dea-af3ec1fe16a8": {
           "type": "slider",
-          "disabled": true,
           "settings": {
             "title": "Mallisto uudistuu! | JENSEN-MYYMÄLÄMALLIT -40%",
             "content": "Mallit vaihtelevat myymälöittäin. Ei koske verkkokauppaa.",
@@ -19,7 +17,6 @@
         },
         "f569850d-67e3-4cc1-9d6a-a33d3a26e7fd": {
           "type": "slider",
-          "disabled": true,
           "settings": {
             "title": "Kaikki Rowicon tuotteet -20%",
             "content": "Kampanja voimassa 31.7. asti",
@@ -32,7 +29,6 @@
         },
         "65bcb181-e56b-447a-8834-5851aba02a01": {
           "type": "slider",
-          "disabled": true,
           "settings": {
             "title": "Ihana arki!",
             "content": "Kaikki tuotteet ihanan arjen aloittamiseksi löydät meiltä! Kampanja voimassa 13.8. saakka.",
@@ -61,6 +57,7 @@
       "blocks": {
         "722baa0f-3485-4be8-b411-7dd9425ef73d": {
           "type": "slider",
+          "disabled": true,
           "settings": {
             "title": "",
             "content": "",
@@ -83,6 +80,7 @@
     },
     "167c3ec6-a065-4ef8-83ee-d06072ae05fb": {
       "type": "hero-banner-slider",
+      "disabled": true,
       "blocks": {
         "6683040b-410a-4a0c-bb71-11182bbb2e2d": {
           "type": "slider",
@@ -204,6 +202,7 @@
     },
     "82070c0b-0994-4d9c-bbb9-719ddb83bb64": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "ALE – Sohvat ja nojatuolit",
         "heading_size": "h1",
