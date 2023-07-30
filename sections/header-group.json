@@ -17,7 +17,7 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "ALEN LOPPUHUIPENNUS - LOPUT PUUTARHAKALUSTEET -40%!",
+            "text": "PUUTARHAKALUSTEET NYT -40%!",
             "text_alignment": "center",
             "color_scheme": "accent-2",
             "link": "https:\/\/isku.fi\/collections\/puutarhakalusteet"
