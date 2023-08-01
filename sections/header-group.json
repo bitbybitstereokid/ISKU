@@ -5,15 +5,6 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
-        "839d4ef2-afc4-43a6-8c4a-bde088d6f515": {
-          "type": "announcement",
-          "settings": {
-            "text": "",
-            "text_alignment": "center",
-            "color_scheme": "accent-2",
-            "link": "https:\/\/isku.fi\/pages\/juhannusfestarit"
-          }
-        },
         "announcement-bar-0": {
           "type": "announcement",
           "disabled": true,
@@ -22,6 +13,15 @@
             "text_alignment": "center",
             "color_scheme": "accent-2",
             "link": "https:\/\/isku.fi\/collections\/puutarhakalusteet"
+          }
+        },
+        "839d4ef2-afc4-43a6-8c4a-bde088d6f515": {
+          "type": "announcement",
+          "settings": {
+            "text": "Tempurin patjat, sijauspatjat ja sängyt -20% koodilla: 20TEMPUR",
+            "text_alignment": "center",
+            "color_scheme": "accent-2",
+            "link": "https:\/\/isku.fi\/pages\/juhannusfestarit"
           }
         },
         "4eb82a86-7678-452f-962f-c6e5a65cc5d4": {
@@ -35,8 +35,8 @@
         }
       },
       "block_order": [
-        "839d4ef2-afc4-43a6-8c4a-bde088d6f515",
         "announcement-bar-0",
+        "839d4ef2-afc4-43a6-8c4a-bde088d6f515",
         "4eb82a86-7678-452f-962f-c6e5a65cc5d4"
       ],
       "settings": {
