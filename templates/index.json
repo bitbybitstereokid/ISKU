@@ -260,6 +260,7 @@
     },
     "17f24b99-fc36-4e71-a533-0ca58776b4cc": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Kaikki Rowicon tuotteet -20%",
         "heading_size": "h1",
