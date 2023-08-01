@@ -5,6 +5,7 @@
       "blocks": {
         "f569850d-67e3-4cc1-9d6a-a33d3a26e7fd": {
           "type": "slider",
+          "disabled": true,
           "settings": {
             "title": "Kaikki Rowicon tuotteet -20%",
             "content": "Kampanja voimassa 31.7. asti",
