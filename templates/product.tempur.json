@@ -22,7 +22,7 @@
         "53ed3f72-94d3-420d-baf2-69154d976b21": {
           "type": "text",
           "settings": {
-            "text": "Tempurin patjat, sijauspatjat ja sängyt nyt -20%. Saat alennuksen automaattisesti kassalla koodilla: 20TEMPUR",
+            "text": "Tempurin patjat, sijauspatjat ja sängyt nyt -20%. Saat alennuksen* automaattisesti kassalla koodilla: 20TEMPUR",
             "text_style": "subtitle"
           }
         },
@@ -132,7 +132,7 @@
         "bf457eaa-0904-4922-9914-48817f3ad606": {
           "type": "text",
           "settings": {
-            "text": "* Alennus lasketaan tuotteen normaalihinnasta ja koskee ainoastaan uusia kauppoja\/tilauksia.",
+            "text": "* Alennus lasketaan tuotteen normaalihinnasta ja koskee ainoastaan uusia kauppoja\/tilauksia. Ei koske alennustuotteita.",
             "text_style": "body"
           }
         }
