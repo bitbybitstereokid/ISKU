@@ -5,6 +5,16 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "becded74-bc20-4e28-a251-8e72a05c4cc6": {
+          "type": "announcement",
+          "disabled": true,
+          "settings": {
+            "text": "",
+            "text_alignment": "center",
+            "color_scheme": "accent-1",
+            "link": ""
+          }
+        },
         "839d4ef2-afc4-43a6-8c4a-bde088d6f515": {
           "type": "announcement",
           "settings": {
@@ -13,10 +23,22 @@
             "color_scheme": "accent-2",
             "link": "https:\/\/isku.fi\/collections\/tempur"
           }
+        },
+        "1fc02065-5aa8-439b-bef7-542c5273c79e": {
+          "type": "announcement",
+          "disabled": true,
+          "settings": {
+            "text": "",
+            "text_alignment": "center",
+            "color_scheme": "accent-1",
+            "link": ""
+          }
         }
       },
       "block_order": [
-        "839d4ef2-afc4-43a6-8c4a-bde088d6f515"
+        "becded74-bc20-4e28-a251-8e72a05c4cc6",
+        "839d4ef2-afc4-43a6-8c4a-bde088d6f515",
+        "1fc02065-5aa8-439b-bef7-542c5273c79e"
       ],
       "settings": {
       }
