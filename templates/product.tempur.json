@@ -45,17 +45,15 @@
         },
         "fba36353-130f-4347-9596-a85023d7b93a": {
           "type": "text",
-          "disabled": true,
           "settings": {
-            "text": "Festarihinnat voimassa vielä:",
+            "text": "Pitkän viikonlopun alennukset voimassa vielä:",
             "text_style": "subtitle"
           }
         },
         "fa3e8d00-0d19-4d03-954a-5354eab3d3c4": {
           "type": "custom_liquid",
-          "disabled": true,
           "settings": {
-            "custom_liquid": "<tbody><tr><td><img src=\"https:\/\/gen.sendtric.com\/countdown\/y866nz8ycr\" style=\"display: block;max-width:100%\" \/><\/td><\/tr><\/tbody>"
+            "custom_liquid": "<tbody>\n    <tr>\n      <td><img src=\"https:\/\/gen.sendtric.com\/countdown\/mqo7ese6wv\" style=\"display: block;max-width:100%;\" \/><\/td>\n    <\/tr>\n  <\/tbody>"
           }
         },
         "d5d76b23-c270-46e6-ab01-a2acac1f9252": {
