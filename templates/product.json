@@ -47,6 +47,19 @@
             "heading_3": ""
           }
         },
+        "921eeb85-6587-4f9e-b957-90f4b354acf8": {
+          "type": "text",
+          "settings": {
+            "text": "Pitkän viikonlopun ale voimassa vielä:",
+            "text_style": "subtitle"
+          }
+        },
+        "7d5b3aa7-d457-4c30-be5c-ee3cb761a2b9": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<tbody>\n    <tr>\n      <td><img src=\"https:\/\/gen.sendtric.com\/countdown\/mqo7ese6wv\" style=\"display: block;max-width:100%;\" \/><\/td>\n    <\/tr>\n  <\/tbody>"
+          }
+        },
         "08c3b544-25e0-4fb7-ad19-7cdd7c00f8ae": {
           "type": "wishlist-and-chat",
           "settings": {
@@ -123,6 +136,8 @@
         "variant_picker",
         "quantity_selector",
         "d5d76b23-c270-46e6-ab01-a2acac1f9252",
+        "921eeb85-6587-4f9e-b957-90f4b354acf8",
+        "7d5b3aa7-d457-4c30-be5c-ee3cb761a2b9",
         "08c3b544-25e0-4fb7-ad19-7cdd7c00f8ae",
         "0dd2c139-d779-473f-9d18-33a54573ef44",
         "10ad2495-f841-446a-990a-6d62483b318a",
