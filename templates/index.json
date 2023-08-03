@@ -86,6 +86,7 @@
       "blocks": {
         "6683040b-410a-4a0c-bb71-11182bbb2e2d": {
           "type": "slider",
+          "disabled": true,
           "settings": {
             "title": "Kesäale päättyy sunnuntaina!",
             "content": "Kampanja voimassa 30.7. asti.",
@@ -98,11 +99,10 @@
         },
         "a4d43412-1b30-40cd-8b02-738044276873": {
           "type": "slider",
-          "disabled": true,
           "settings": {
-            "title": "Koko Suomi juhlii!",
-            "content": "Kaikki normaalihintaiset tuotteet vähintään -20% Kalevan myymälän synttäreiden kunniaksi!| Voimassa kaikissa myymälöissä ja verkkokaupassa 7.8.2023 saakka.",
-            "button": "KAIKKIIN TUOTTEISIIN",
+            "title": "Satoi tai paistoi!  |Kaikki vähintään -20%",
+            "content": "Nyt juhlitaan Tampereen myymälän synttäreitä kaikissa myymälöissä verkossa koko pitkä viikonloppu maanantai 7.8. iltaan saakka!",
+            "button": "Katso kaikki tarjoukset",
             "button_url": "https:\/\/isku.fi\/collections\/koko-valikoima",
             "button_style": "primary-btn",
             "image": "shopify:\/\/shop_images\/Kansikuva_1928x1080_2.png",
