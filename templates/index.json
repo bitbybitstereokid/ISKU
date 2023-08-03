@@ -1,5 +1,44 @@
 {
   "sections": {
+    "167c3ec6-a065-4ef8-83ee-d06072ae05fb": {
+      "type": "hero-banner-slider",
+      "blocks": {
+        "6683040b-410a-4a0c-bb71-11182bbb2e2d": {
+          "type": "slider",
+          "disabled": true,
+          "settings": {
+            "title": "Kesäale päättyy sunnuntaina!",
+            "content": "Kampanja voimassa 30.7. asti.",
+            "button": "HAE OMASI PIAN",
+            "button_url": "shopify:\/\/collections\/kesaale",
+            "button_style": "primary-btn",
+            "image": "shopify:\/\/shop_images\/Kansikuva_1928x1080_1.png",
+            "image_mobile": "shopify:\/\/shop_images\/Kansikuva_mobiili_1080x1616_1_1.png"
+          }
+        },
+        "a4d43412-1b30-40cd-8b02-738044276873": {
+          "type": "slider",
+          "settings": {
+            "title": "Satoi tai paistoi!  |Kaikki vähintään -20%",
+            "content": "Nyt juhlitaan Tampereen myymälän synttäreitä kaikissa myymälöissä verkossa koko pitkä viikonloppu maanantai 7.8. iltaan saakka!",
+            "button": "Katso kaikki tarjoukset",
+            "button_url": "https:\/\/isku.fi\/collections\/koko-valikoima",
+            "button_style": "primary-btn",
+            "image": "shopify:\/\/shop_images\/Kansikuva_1928x1080_2.png",
+            "image_mobile": "shopify:\/\/shop_images\/Kansikuva_mobiili_1080x1616_2.png"
+          }
+        }
+      },
+      "block_order": [
+        "6683040b-410a-4a0c-bb71-11182bbb2e2d",
+        "a4d43412-1b30-40cd-8b02-738044276873"
+      ],
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 50,
+        "content_color": "#ffffff"
+      }
+    },
     "0e85d77f-389f-4f3b-b5d1-6c14109510c8": {
       "type": "hero-banner-slider",
       "blocks": {
@@ -77,46 +116,6 @@
       "settings": {
         "padding_top": 0,
         "padding_bottom": 14,
-        "content_color": "#ffffff"
-      }
-    },
-    "167c3ec6-a065-4ef8-83ee-d06072ae05fb": {
-      "type": "hero-banner-slider",
-      "disabled": true,
-      "blocks": {
-        "6683040b-410a-4a0c-bb71-11182bbb2e2d": {
-          "type": "slider",
-          "disabled": true,
-          "settings": {
-            "title": "Kesäale päättyy sunnuntaina!",
-            "content": "Kampanja voimassa 30.7. asti.",
-            "button": "HAE OMASI PIAN",
-            "button_url": "shopify:\/\/collections\/kesaale",
-            "button_style": "primary-btn",
-            "image": "shopify:\/\/shop_images\/Kansikuva_1928x1080_1.png",
-            "image_mobile": "shopify:\/\/shop_images\/Kansikuva_mobiili_1080x1616_1_1.png"
-          }
-        },
-        "a4d43412-1b30-40cd-8b02-738044276873": {
-          "type": "slider",
-          "settings": {
-            "title": "Satoi tai paistoi!  |Kaikki vähintään -20%",
-            "content": "Nyt juhlitaan Tampereen myymälän synttäreitä kaikissa myymälöissä verkossa koko pitkä viikonloppu maanantai 7.8. iltaan saakka!",
-            "button": "Katso kaikki tarjoukset",
-            "button_url": "https:\/\/isku.fi\/collections\/koko-valikoima",
-            "button_style": "primary-btn",
-            "image": "shopify:\/\/shop_images\/Kansikuva_1928x1080_2.png",
-            "image_mobile": "shopify:\/\/shop_images\/Kansikuva_mobiili_1080x1616_2.png"
-          }
-        }
-      },
-      "block_order": [
-        "6683040b-410a-4a0c-bb71-11182bbb2e2d",
-        "a4d43412-1b30-40cd-8b02-738044276873"
-      ],
-      "settings": {
-        "padding_top": 0,
-        "padding_bottom": 50,
         "content_color": "#ffffff"
       }
     },
@@ -316,6 +315,7 @@
     },
     "f2924892-e962-4009-ba1e-f52fc1b3d5ab": {
       "type": "hero-banner-half",
+      "disabled": true,
       "settings": {
         "text_align": "left",
         "image_position": "right",
@@ -710,9 +710,9 @@
     }
   },
   "order": [
+    "167c3ec6-a065-4ef8-83ee-d06072ae05fb",
     "0e85d77f-389f-4f3b-b5d1-6c14109510c8",
     "6ea8728a-b377-4af1-8cca-5cddc452334b",
-    "167c3ec6-a065-4ef8-83ee-d06072ae05fb",
     "f844d7a5-f355-4937-b33b-12bb29a354b0",
     "e4d52ef1-778f-4424-a4ac-cea126c8080e",
     "82070c0b-0994-4d9c-bbb9-719ddb83bb64",
