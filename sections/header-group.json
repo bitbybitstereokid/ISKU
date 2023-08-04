@@ -26,7 +26,6 @@
         },
         "1fc02065-5aa8-439b-bef7-542c5273c79e": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
             "text": "",
             "text_alignment": "center",
