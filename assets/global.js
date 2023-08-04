@@ -975,6 +975,8 @@ class VariantSelects extends HTMLElement {
         const colorNameFetch = html.querySelector(`.color--clicked`);
         const colorMobileName = document.querySelector(`.color--mobile`);
         const colorMobileNameFetch = html.querySelector(`.color--mobile`);
+        const lowestPrice = document.querySelector(`.lowest-price__wrapper`);
+        const lowestPriceHtml = html.querySelector(`.lowest-price__wrapper`);
 
         if(colorName){
           colorName.innerHTML = colorNameFetch.innerHTML;
@@ -982,6 +984,10 @@ class VariantSelects extends HTMLElement {
 
         if(colorMobileName){
           colorMobileName.innerHTML = colorMobileNameFetch.innerHTML
+        }
+
+        if(lowestPrice){
+          lowestPrice.innerHTML = lowestPriceHtml.innerHTML;
         }
 
         if (source && destination) destination.innerHTML = source.innerHTML;
