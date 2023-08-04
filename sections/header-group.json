@@ -7,7 +7,6 @@
       "blocks": {
         "becded74-bc20-4e28-a251-8e72a05c4cc6": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
             "text": "",
             "text_alignment": "center",
