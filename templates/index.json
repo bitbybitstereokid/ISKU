@@ -20,7 +20,7 @@
           "type": "slider",
           "settings": {
             "title": "Satoi tai paistoi!  |Kaikki vähintään -20%",
-            "content": "Nyt juhlitaan Tampereen myymälän synttäreitä kaikissa myymälöissä sekä verkossa koko pitkä viikonloppu maanantai 7.8. iltaan saakka!",
+            "content": "Nyt juhlitaan Tampereen myymälän synttäreitä| kaikissa myymälöissä sekä verkossa koko pitkä viikonloppu maanantai 7.8. iltaan saakka!",
             "button": "Katso kaikki tarjoukset",
             "button_url": "https:\/\/isku.fi\/collections\/koko-valikoima",
             "button_style": "primary-btn",
