@@ -119,31 +119,10 @@
         "template--18960932667736__7c9fcfef-ad60-49e2-a86e-820afb5c3fb9-1684169800ae4304ac-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/houni-atte-250x250px.jpg",
-            "title": "Atte Houni",
-            "text": "<p>Sisustusmyyjä<br\/>029 086 4644<\/p>",
-            "link_label": "Email",
+            "title": "",
+            "text": "",
+            "link_label": "",
             "link": "mailto:atte.houni@isku.fi"
-          }
-        },
-        "template--18960932667736__7c9fcfef-ad60-49e2-a86e-820afb5c3fb9-1684169800ae4304ac-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/pesonen-marja-250x250px.jpg",
-            "title": "Marja Pesonen",
-            "text": "<p>Sisustusmyyjä<\/p><p>029 086 4640<\/p>",
-            "link_label": "Email",
-            "link": "mailto:marja.pesonen@isku.fi"
-          }
-        },
-        "11443aed-07f7-4174-9bb7-d290d20d1cef": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/JPG_Pieni_Heidi_Raatikainen_301220_grey_1.jpg",
-            "title": "Heidi Raatikainen",
-            "text": "<p>Sisustussuunnittelija<\/p><p>044 792 4609<\/p>",
-            "link_label": "Email",
-            "link": "mailto:heidi.raatikainen@isku.fi"
           }
         },
         "7b5052af-ca4f-47c3-a88a-cdcd75cb537d": {
@@ -167,29 +146,16 @@
             "link_label": "Email",
             "link": ""
           }
-        },
-        "9c17c02f-cb9c-4870-88be-2523eee52914": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Taija_Purhonen.jpg",
-            "title": "Taija Purhonen",
-            "text": "<p>Aluejohtaja<br\/>029 086 3376<\/p>",
-            "link_label": "Email",
-            "link": "mailto:taija.purhonen@isku.fi"
-          }
         }
       },
       "block_order": [
         "template--18960932667736__7c9fcfef-ad60-49e2-a86e-820afb5c3fb9-1684169800ae4304ac-2",
         "template--18960932667736__7c9fcfef-ad60-49e2-a86e-820afb5c3fb9-1684169800ae4304ac-0",
-        "template--18960932667736__7c9fcfef-ad60-49e2-a86e-820afb5c3fb9-1684169800ae4304ac-1",
-        "11443aed-07f7-4174-9bb7-d290d20d1cef",
         "7b5052af-ca4f-47c3-a88a-cdcd75cb537d",
-        "3f68feeb-5902-4903-bbe2-2caa01ea25da",
-        "9c17c02f-cb9c-4870-88be-2523eee52914"
+        "3f68feeb-5902-4903-bbe2-2caa01ea25da"
       ],
       "settings": {
-        "title": "Palveluksessasi",
+        "title": "",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
