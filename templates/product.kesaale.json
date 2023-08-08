@@ -52,6 +52,7 @@
         },
         "fa3e8d00-0d19-4d03-954a-5354eab3d3c4": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "<tbody>\n    <tr>\n      <td><img src=\"https:\/\/gen.sendtric.com\/countdown\/mqo7ese6wv\" style=\"display: block;max-width:100%;\" \/><\/td>\n    <\/tr>\n  <\/tbody>"
           }
