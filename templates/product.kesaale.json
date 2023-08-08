@@ -45,6 +45,7 @@
         },
         "fba36353-130f-4347-9596-a85023d7b93a": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "Pitkän viikonlopun alennukset voimassa vielä:",
             "text_style": "subtitle"
