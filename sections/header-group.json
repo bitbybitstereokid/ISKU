@@ -17,6 +17,7 @@
         },
         "839d4ef2-afc4-43a6-8c4a-bde088d6f515": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "Ma 7.8. keskiyöhön asti kaikki vähintään -20%",
             "text_alignment": "center",
