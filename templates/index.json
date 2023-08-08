@@ -283,6 +283,26 @@
         "padding_bottom": 36
       }
     },
+    "5496ccaf-fb83-4451-9659-40ec4ab29060": {
+      "type": "hero-banner-half",
+      "settings": {
+        "text_align": "left",
+        "image_position": "left",
+        "image_position_mobile": "top",
+        "image": "shopify:\/\/shop_images\/ergo-plus.jpg",
+        "title": "Uudet ergonomiset KEBE-nojatuolit nyt ISKUsta!",
+        "small": true,
+        "text": "",
+        "button_style": "primary",
+        "btn_text": "Tutustu uutuuksiin",
+        "btn_url": "shopify:\/\/collections\/kebe-nojatuolit",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "full_width": true,
+        "bg_color": "#f3f3f3",
+        "text_color": "#121212"
+      }
+    },
     "17f24b99-fc36-4e71-a533-0ca58776b4cc": {
       "type": "featured-collection",
       "disabled": true,
@@ -362,6 +382,7 @@
     },
     "d3b8e05b-63a6-43cd-b997-1f9a13b897ef": {
       "type": "hero-banner-half",
+      "disabled": true,
       "settings": {
         "text_align": "left",
         "image_position": "left",
@@ -652,27 +673,6 @@
         "bg_color": "#0f4880",
         "text_color": "#ffffff"
       }
-    },
-    "5496ccaf-fb83-4451-9659-40ec4ab29060": {
-      "type": "hero-banner-half",
-      "disabled": true,
-      "settings": {
-        "text_align": "left",
-        "image_position": "left",
-        "image_position_mobile": "top",
-        "image": "shopify:\/\/shop_images\/ergo-plus.jpg",
-        "title": "KEBE",
-        "small": false,
-        "text": "Uudet ergonomiset nojatuolit nyt ISKUsta",
-        "button_style": "primary",
-        "btn_text": "Tutustu uutuuksiin",
-        "btn_url": "shopify:\/\/collections\/kebe-nojatuolit",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "full_width": true,
-        "bg_color": "#f3f3f3",
-        "text_color": "#121212"
-      }
     }
   },
   "order": [
@@ -684,6 +684,7 @@
     "0961df4d-7bf5-4dee-a475-d345c73159a6",
     "e4d52ef1-778f-4424-a4ac-cea126c8080e",
     "82070c0b-0994-4d9c-bbb9-719ddb83bb64",
+    "5496ccaf-fb83-4451-9659-40ec4ab29060",
     "17f24b99-fc36-4e71-a533-0ca58776b4cc",
     "7afba2d3-d985-4d50-9730-69ffe8de69b8",
     "f2924892-e962-4009-ba1e-f52fc1b3d5ab",
@@ -699,7 +700,6 @@
     "99b95b1a-5e12-46bc-8d88-c0a756a10df4",
     "c8acecc1-e53e-43a2-9708-51112c7d2ff1",
     "72599099-35e9-4513-bd8c-5323b6f189e2",
-    "3abcb0f4-2f21-4c2c-8a03-e4c026e3c75c",
-    "5496ccaf-fb83-4451-9659-40ec4ab29060"
+    "3abcb0f4-2f21-4c2c-8a03-e4c026e3c75c"
   ]
 }
