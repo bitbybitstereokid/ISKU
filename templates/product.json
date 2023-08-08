@@ -49,6 +49,7 @@
         },
         "921eeb85-6587-4f9e-b957-90f4b354acf8": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "Pitkän viikonlopun ale voimassa vielä:",
             "text_style": "subtitle"
@@ -56,6 +57,7 @@
         },
         "7d5b3aa7-d457-4c30-be5c-ee3cb761a2b9": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "<tbody>\n    <tr>\n      <td><img src=\"https:\/\/gen.sendtric.com\/countdown\/mqo7ese6wv\" style=\"display: block;max-width:100%;\" \/><\/td>\n    <\/tr>\n  <\/tbody>"
           }
