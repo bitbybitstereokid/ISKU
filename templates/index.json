@@ -43,6 +43,7 @@
     },
     "0e85d77f-389f-4f3b-b5d1-6c14109510c8": {
       "type": "hero-banner-slider",
+      "disabled": true,
       "blocks": {
         "f569850d-67e3-4cc1-9d6a-a33d3a26e7fd": {
           "type": "slider",
