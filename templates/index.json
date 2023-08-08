@@ -18,6 +18,7 @@
         },
         "a4d43412-1b30-40cd-8b02-738044276873": {
           "type": "slider",
+          "disabled": true,
           "settings": {
             "title": "Satoi tai paistoi!  |Kaikki vähintään -20%",
             "content": "Nyt juhlitaan Tampereen myymälän synttäreitä| kaikissa myymälöissä sekä verkossa koko pitkä viikonloppu maanantai 7.8. iltaan saakka!",
