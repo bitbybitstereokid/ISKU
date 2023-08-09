@@ -245,9 +245,16 @@
                       {% render 'icon-account' %}
                     </a>
                   {%- endif -%}
-                  <a href="{{ section.settings.location_link }}" class="menu-drawer__wishlist">
-                    {% render 'icon-locator' %}
-                  </a>
+                  {% if section.settings.location_link != blank %}
+                    <a href="{{ section.settings.location_link }}" class="menu-drawer__wishlist">
+                      {% render 'icon-locator' %}
+                    </a>
+                  {% endif %}
+                  {% if section.settings.contact_link != blank %}
+                    <a href="{{ section.settings.contact_link }}" class="menu-drawer__wishlist">
+                      {% render 'icon-contact' %}
+                    </a>
+                  {% endif %}
                 </div>
               </div>
             </div>
@@ -510,9 +517,17 @@
     {%- endif -%}
 
     <div class="header__icons">
-      <a href="{{ section.settings.location_link }}" class="header__icon header__icon--locator link focus-inset">
-        {% render 'icon-locator' %}
-      </a>
+      {% if section.settings.contact_link != blank %}
+        <a href="{{ section.settings.contact_link }}" class="header__icon header__icon--locator link focus-inset">
+          {% render 'icon-contact' %}
+        </a>
+      {% endif %}
+
+      {% if section.settings.location_link != blank %}
+        <a href="{{ section.settings.location_link }}" class="header__icon header__icon--locator link focus-inset">
+          {% render 'icon-locator' %}
+        </a>
+      {% endif %}
 
       {% comment %}<a href="{{ section.settings.wishlist_page }}" id="smartwishlist_desktop_link" class="header__icon header__icon--wishlist link focus-inset action-area__link wishlist__header">{% endcomment %}
         {% comment %}{% render 'icon-wishlist' %}{% endcomment %}
@@ -878,6 +893,11 @@
   "type": "url",
   "id": "wishlist_page",
   "label": "Wishlist page URL"
+  },
+  {
+  "type": "url",
+  "id": "contact_link",
+  "label": "Contact page URL"
   },
   {
   "type": "url",
