@@ -1119,8 +1119,14 @@ class ProductRecommendations extends HTMLElement {
           const html = document.createElement('div');
           html.innerHTML = text;
           const recommendations = html.querySelector('product-recommendations');
+          let recommendationsItem = recommendations.querySelectorAll('.grid__item')
+          recommendationsItem.forEach(el => {
+            if (el.querySelector('a').href.indexOf('duplicat-') != -1) {
+              el.remove()
+            }
+          })
 
-          if (recommendations && recommendations.innerHTML.trim().length) {
+          if (recommendations && recommendations.innerHTML.trim().length && recommendations.querySelectorAll('.grid__item').length != 0) {
             this.innerHTML = recommendations.innerHTML;
           }
 
