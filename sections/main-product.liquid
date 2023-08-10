@@ -455,7 +455,8 @@
                             <div id="Slide-{{ block.id }}-{{ forloop.index }}" class="complementary-slide complementary-slide--{{ settings.card_style }} grid__item slider__slide slideshow__slide" tabindex="-1" role="group"{% if number_of_slides > 1 %} aria-roledescription="{{ 'sections.slideshow.slide' | t }}" aria-label="{{ forloop.index }} {{ 'general.slider.of' | t }} {{ forloop.length }}"{% endif %}>
                               <ul class="list-unstyled" role="list">
                                 {%- for product in recommendations.products limit: block.settings.products_per_page offset: continue -%}
-                                  <li>
+                                  {% unless product.title contains 'Duplicat' %}
+                                    <li>
                                     {% render 'card-product',
                                       card_product: product,
                                       media_aspect_ratio: block.settings.image_ratio,
@@ -467,6 +468,7 @@
                                       horizontal_quick_add: true
                                     %}
                                   </li>
+                                  {% endunless %}
                                 {%- endfor -%}
                               </ul>
                             </div>
