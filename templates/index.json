@@ -2,7 +2,6 @@
   "sections": {
     "167c3ec6-a065-4ef8-83ee-d06072ae05fb": {
       "type": "hero-banner-slider",
-      "disabled": true,
       "blocks": {
         "6683040b-410a-4a0c-bb71-11182bbb2e2d": {
           "type": "slider",
@@ -35,6 +34,7 @@
         "6683040b-410a-4a0c-bb71-11182bbb2e2d",
         "a4d43412-1b30-40cd-8b02-738044276873"
       ],
+      "disabled": true,
       "settings": {
         "padding_top": 0,
         "padding_bottom": 50,
@@ -59,7 +59,6 @@
         },
         "d086ed09-5381-4ef5-9dea-af3ec1fe16a8": {
           "type": "slider",
-          "disabled": true,
           "settings": {
             "title": "Mallisto uudistuu! | LOPUT JENSEN-MYYMÄLÄMALLIT -50%",
             "content": "Mallit vaihtelevat myymälöittäin. Ei koske verkkokauppaa.",
@@ -72,6 +71,7 @@
         },
         "65bcb181-e56b-447a-8834-5851aba02a01": {
           "type": "slider",
+          "disabled": true,
           "settings": {
             "title": "Ihana arki!",
             "content": "Kaikki tuotteet ihanan arjen aloittamiseksi löydät meiltä! Kampanja voimassa 13.8. saakka.",
@@ -123,6 +123,7 @@
     },
     "204ff508-d664-4848-8eaa-b60faffdbad7": {
       "type": "hero-banner-half",
+      "disabled": true,
       "settings": {
         "text_align": "left",
         "image_position": "left",
@@ -203,7 +204,6 @@
     },
     "6ea8728a-b377-4af1-8cca-5cddc452334b": {
       "type": "hero-banner-slider",
-      "disabled": true,
       "blocks": {
         "722baa0f-3485-4be8-b411-7dd9425ef73d": {
           "type": "slider",
@@ -222,6 +222,7 @@
       "block_order": [
         "722baa0f-3485-4be8-b411-7dd9425ef73d"
       ],
+      "disabled": true,
       "settings": {
         "padding_top": 0,
         "padding_bottom": 14,
@@ -492,7 +493,6 @@
     },
     "03254933-067d-4aaf-8f4a-611de34d2b27": {
       "type": "grid-section",
-      "disabled": true,
       "blocks": {
         "template--18265806242090__03254933-067d-4aaf-8f4a-611de34d2b27-1678440586048b43de-0": {
           "type": "item",
@@ -533,6 +533,7 @@
         "template--18265806242090__03254933-067d-4aaf-8f4a-611de34d2b27-1678440586048b43de-2",
         "template--18265806242090__03254933-067d-4aaf-8f4a-611de34d2b27-1678440586048b43de-3"
       ],
+      "disabled": true,
       "settings": {
         "title": "Title",
         "padding_top": 50,
@@ -541,7 +542,6 @@
     },
     "71faa244-acd3-4776-9fcf-94afd49f27c6": {
       "type": "grid-section",
-      "disabled": true,
       "blocks": {
         "template--18265806242090__71faa244-acd3-4776-9fcf-94afd49f27c6-1678440586048b43de-0": {
           "type": "item",
@@ -582,6 +582,7 @@
         "template--18265806242090__71faa244-acd3-4776-9fcf-94afd49f27c6-1678440586048b43de-2",
         "template--18265806242090__71faa244-acd3-4776-9fcf-94afd49f27c6-1678440586048b43de-3"
       ],
+      "disabled": true,
       "settings": {
         "title": "Title",
         "padding_top": 50,
