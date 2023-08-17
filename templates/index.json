@@ -231,6 +231,7 @@
     },
     "e4d52ef1-778f-4424-a4ac-cea126c8080e": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "ALE – Kaikki Jensen-sängyt -25%",
         "heading_size": "h1",
