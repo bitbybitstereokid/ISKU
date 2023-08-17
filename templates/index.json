@@ -61,12 +61,13 @@
           "type": "slider",
           "disabled": true,
           "settings": {
-            "title": "KESÄKAUDEN PÄÄTÖSJUHLA!",
-            "content": "Kesäkauden päätösjuhlat ovat voimassa myymälöissä ja verkkokaupassa aina 27.8. saakka!",
+            "title": "Tervetuloa kesäkauden päätösjuhliin!",
+            "content": "Kesäkauden päätösjuhlilta löydät valtavasti tuotteita huimilla eduilla varustettuna! | Edut ovat voimassa myymälöissä ja verkkokaupassa 27.8. saakka.",
             "button": "KAMPANJATUOTTEISIIN TÄSTÄ",
             "button_url": "https:\/\/isku.fi\/collections\/kampanjaedut",
             "button_style": "primary-btn",
-            "image_mobile": "shopify:\/\/shop_images\/Kansikuva_mobiili_1080x1616_3_1.png"
+            "image": "shopify:\/\/shop_images\/kesakauden-paatosjuhla-banner.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/kesakauden-paatosjuhla-mobiili.jpg"
           }
         },
         "d086ed09-5381-4ef5-9dea-af3ec1fe16a8": {
