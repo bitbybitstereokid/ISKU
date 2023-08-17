@@ -57,6 +57,18 @@
             "image_mobile": "shopify:\/\/shop_images\/Skye-ruokapoyta-h.120-cm-rowico-1686586511.jpg"
           }
         },
+        "65bcb181-e56b-447a-8834-5851aba02a01": {
+          "type": "slider",
+          "disabled": true,
+          "settings": {
+            "title": "KESÄKAUDEN PÄÄTÖSJUHLA!",
+            "content": "Kesäkauden päätösjuhlat ovat voimassa myymälöissä ja verkkokaupassa aina 27.8. saakka!",
+            "button": "KAMPANJATUOTTEISIIN TÄSTÄ",
+            "button_url": "https:\/\/isku.fi\/collections\/kampanjaedut",
+            "button_style": "primary-btn",
+            "image_mobile": "shopify:\/\/shop_images\/Kansikuva_mobiili_1080x1616_3_1.png"
+          }
+        },
         "d086ed09-5381-4ef5-9dea-af3ec1fe16a8": {
           "type": "slider",
           "settings": {
@@ -68,25 +80,12 @@
             "image": "shopify:\/\/shop_images\/Jensen_1200x600_d5eda73b-4d6e-470d-bd21-4a2d042d9757.jpg",
             "image_mobile": "shopify:\/\/shop_images\/Jensen_1200x600_e65273b6-b5c7-4d97-9886-5e113ff942ab.jpg"
           }
-        },
-        "65bcb181-e56b-447a-8834-5851aba02a01": {
-          "type": "slider",
-          "disabled": true,
-          "settings": {
-            "title": "Ihana arki!",
-            "content": "Kaikki tuotteet ihanan arjen aloittamiseksi löydät meiltä! Kampanja voimassa 13.8. saakka.",
-            "button": "KAMPANJATUOTTEISIIN TÄSTÄ",
-            "button_url": "https:\/\/isku.fi\/collections\/kampanjatuotteet",
-            "button_style": "primary-btn",
-            "image": "shopify:\/\/shop_images\/Kansikuva_1928x1080_4_1.png",
-            "image_mobile": "shopify:\/\/shop_images\/Kansikuva_mobiili_1080x1616_3_1.png"
-          }
         }
       },
       "block_order": [
         "f569850d-67e3-4cc1-9d6a-a33d3a26e7fd",
-        "d086ed09-5381-4ef5-9dea-af3ec1fe16a8",
-        "65bcb181-e56b-447a-8834-5851aba02a01"
+        "65bcb181-e56b-447a-8834-5851aba02a01",
+        "d086ed09-5381-4ef5-9dea-af3ec1fe16a8"
       ],
       "settings": {
         "padding_top": 0,
