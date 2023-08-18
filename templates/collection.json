@@ -53,6 +53,7 @@
     },
     "aa14a068-d66f-4bab-943b-d90f7fc0c897": {
       "type": "rich-text",
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
