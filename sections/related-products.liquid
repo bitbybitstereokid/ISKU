@@ -35,6 +35,8 @@
         class="grid product-grid grid--{{ section.settings.columns_desktop }}-col-desktop grid--{{ section.settings.columns_mobile }}-col-tablet-down"
         role="list"
       >
+      {% assign namesForColorSwotcher = settings.colors_swatcher_title | escape | strip | downcase %}
+      {% assign colorsNamesAndHex = settings.colors_swatcher_colors | strip | downcase | split: ';' %}
         {% for recommendation in recommendations.products %}
           {% unless product.title contains 'Duplicat' %}
           <li class="grid__item">
@@ -43,7 +45,9 @@
                 media_aspect_ratio: section.settings.image_ratio,
                 show_secondary_image: section.settings.show_secondary_image,
                 show_vendor: section.settings.show_vendor,
-                show_rating: section.settings.show_rating
+                show_rating: section.settings.show_rating,
+                nameSwatch: namesForColorSwotcher,
+                colorSwatch: colorsNamesAndHex
               %}
           </li>
           {% endunless %}
