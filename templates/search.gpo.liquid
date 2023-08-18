@@ -17,6 +17,7 @@
       {%- if product.id != '' -%}
         {% for variant in product.variants %}
           { 
+            "available": {{ variant.available }},
             "id": {{ variant.id }},
             "title": {{ variant.title | json }},
             "price": {{ variant.price }}
