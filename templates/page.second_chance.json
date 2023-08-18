@@ -46,7 +46,7 @@
         "template--18960223469912__8c083155-d924-483f-846d-0faf7e7a79e5-16841671798de6ff74-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Nimeton_malli_3_1_6dd49d77-5e5b-44e1-9515-69fc014f4818.png",
+        "image": "shopify:\/\/shop_images\/Banneri-Second-Chace.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "top-center",
@@ -64,14 +64,14 @@
         "template--18960223469912__ec9c5898-30e0-4893-97b8-adda40bd870e-1684167344ffffc091-0": {
           "type": "heading",
           "settings": {
-            "heading": "<h1>Aidosti kotimaiset sohvat<\/h1>",
+            "heading": "<p><strong>Second Chance<\/strong> – Toinen mahdollisuus sinulle ja sohvallesi!<\/p>",
             "heading_size": "h1"
           }
         },
         "template--18960223469912__ec9c5898-30e0-4893-97b8-adda40bd870e-1684167344ffffc091-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Tiesitkö, että kaikki Iskun valmistamat sohvat tehdään alusta loppuun asti Lahdessa? Kotimaisuus ei jää ainoastaan sohvan kasaamiseen, vaan myös materiaalit sohvien valmistukseen hankitaan Suomesta:<\/p><p><strong>Koivuvaneri Savonlinnasta ja Järvelästä<\/strong><br\/><strong>Vanu Kankaanpäästä<\/strong><br\/><strong>Verhoiluliima Lempäälästä<\/strong><br\/><strong>Vaahtomuovit Kouvolasta<\/strong><br\/><strong>Selkätyynyt Jalasjärveltä<\/strong><\/p><p>Voit tilata sohvan juuri haluamillasi kankailla: kangasvalikoimamme on todella laaja, ja löydät meiltä ihania pastellisävyjä, rohkeita värejä sekä tutumpia harmaan ja ruskean sävyjä. Valmistamme kaikki tuotteemme asiakkaan toiveiden mukaan Lahdessa ja varustamme sohvan laatutarralla, josta voit kurkistaa oman sohvasi verhoilijan, rungon koostajan sekä ompelijan nimen. Uniikkia ja persoonallista juuri sinulle!<\/p>"
+            "text": "<p>Jokainen koti kantaa mukanaan paljon tarinoita ja muistoja, ja huonekalut ovat niiden todistajia. Ajan tai elämänmuutosten myötä tarpeet saattavat muuttua. Haluamme tarjota sekä sinulle että sohvallesi uuden mahdollisuuden!<\/p><p>ISKUn Second Chance -konseptin ytimessä on ajatus siitä, että jokaisella huonekalulla on mahdollisuus aloittaa uusi tarina. Konseptimme tarjoaa sinulle mahdollisuuden vaihtaa viiden vuoden aikana ostamasi ISKUn valmistama sohva uuteen. Hoidamme vanhalle ISKUn sohvallesi uuden kodin ja saat hankkia uuden ISKUn valmistaman sohvan erityisellä -40 % edulla, jota emme muuten koskaan tarjoa!<\/p><p>Konsepti ei ole vain huonekalujen vaihtamista, se on tarinoiden vaihtamista. Se on mahdollisuus luoda uusia muistoja, tehdä kestäviä valintoja ja samalla nauttia laadukkaasta designista. Kun annamme huonekaluille ja itsellemme toisen mahdollisuuden, luomme ympäristön, jossa kestävä kulutus ja yhteisöllisyys käyvät käsi kädessä.<\/p><p>Tervetuloa Second Chance -konseptin pariin, missä jokainen huonekalu saa uuden mahdollisuuden, ja jokainen koti saa uusia tarinoita kerrottavaksi.<\/p><p>ISKUn valmistamia sohvia ovat: Babe, Curve, Free, Inkoo, Lilly, Maestro, Monkey, Nella ja Time -sohvat ja niiden kaikki erilaiset versiot.<\/p>"
           }
         },
         "template--18960223469912__ec9c5898-30e0-4893-97b8-adda40bd870e-1684167344ffffc091-2": {
@@ -104,7 +104,7 @@
     "65593d06-a63d-4709-bd5f-1f1073717fcd": {
       "type": "featured-collection",
       "settings": {
-        "title": "Suosituimmat sohvamme",
+        "title": "Tutustu ISKUn sohviin",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
@@ -149,6 +149,7 @@
         "template--18960223469912__1982424f-0345-46e0-9d15-08d663f1d0de-1684167344ffffc091-0",
         "template--18960223469912__1982424f-0345-46e0-9d15-08d663f1d0de-1684167344ffffc091-1"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -216,6 +217,7 @@
         "template--18960223469912__04ecae4b-e98b-4d30-97f6-196b8c864c7a-1684168001c89462b6-5",
         "template--18960223469912__04ecae4b-e98b-4d30-97f6-196b8c864c7a-1684168001c89462b6-6"
       ],
+      "disabled": true,
       "settings": {
         "product": "isku-curve-3h-vm-233-kiintoverhoiltu",
         "color_scheme": "background-1",
