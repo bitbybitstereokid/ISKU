@@ -8,7 +8,6 @@
     },
     "41fe4617-3fc4-49bd-afde-9f0b195b530f": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "template--15630143160420__41fe4617-3fc4-49bd-afde-9f0b195b530f-168623101449d0342c-0": {
           "type": "heading",
@@ -37,6 +36,7 @@
         "template--15630143160420__41fe4617-3fc4-49bd-afde-9f0b195b530f-168623101449d0342c-1",
         "template--15630143160420__41fe4617-3fc4-49bd-afde-9f0b195b530f-168623101449d0342c-2"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/brafab-sandkorn-miljoo.jpg",
         "height": "adapt",
@@ -65,7 +65,7 @@
     "banner": {
       "type": "main-collection-banner",
       "settings": {
-        "show_collection_description": false,
+        "show_collection_description": true,
         "show_collection_image": false,
         "button_text": "lue lisää",
         "color_scheme": "background-1"
@@ -73,7 +73,6 @@
     },
     "025783c2-84f1-4921-a7a9-7f4dd238bcc3": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "template--15630143160420__025783c2-84f1-4921-a7a9-7f4dd238bcc3-1686232806be2be802-0": {
           "type": "heading",
@@ -107,6 +106,7 @@
         "template--15630143160420__025783c2-84f1-4921-a7a9-7f4dd238bcc3-1686232806be2be802-1",
         "template--15630143160420__025783c2-84f1-4921-a7a9-7f4dd238bcc3-1686232806be2be802-2"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "left",
         "content_alignment": "left",
@@ -189,7 +189,6 @@
     },
     "114941d9-aed9-45f3-b22c-b374981555c6": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "template--15630143160420__114941d9-aed9-45f3-b22c-b374981555c6-1684992414076d080d-0": {
           "type": "heading",
@@ -224,6 +223,7 @@
         "template--15630143160420__114941d9-aed9-45f3-b22c-b374981555c6-1684992414076d080d-1",
         "template--15630143160420__114941d9-aed9-45f3-b22c-b374981555c6-1684992414076d080d-2"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
