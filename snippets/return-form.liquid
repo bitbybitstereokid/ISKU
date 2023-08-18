@@ -53,20 +53,19 @@
     </div>
 
     <script>
-      const returnFormInput = document.querySelector("#return_form");
-      const fieldWithProperty = document.querySelector(".line-item-property__field-return");
-
+      let returnFormInput = document.querySelector("#return_form");
       returnFormInput.addEventListener("input",addReturnProperties)
       function addReturnProperties(event) {
-        const flag = event.target.checked;
+        let fieldWithProperty = document.querySelector(".line-item-property__field-return");
+        let flag = document.querySelector("#return_form").checked == true ? true : false;
         fieldWithProperty.innerHTML = "";
-        if (!flag) { return }
-        const createInput = document.createElement("input");
+        if (!flag) return ; 
+        let createInput = document.createElement("input");
         createInput.type = "hidden";
         createInput.name = "properties[Poiskuljetus]";
         createInput.value = "vanha sänky";
         fieldWithProperty.appendChild(createInput);
-      }  
+      }
     </script>
   {% endif %}
 {% endif %}
