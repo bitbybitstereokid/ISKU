@@ -1,0 +1,72 @@
+{% if section.settings.return_tag != blank %}
+  {%- liquid
+  assign show_form = false
+  for tag in product.tags
+    if tag == section.settings.return_tag
+      assign show_form = true
+      break
+    endif
+  endfor
+
+  -%}
+  {% if show_form == true%}
+    <style>
+      .return-form input {
+        height: 0;
+        width: 0;
+        opacity: 0;
+        margin: 0;
+        padding: 0;
+      }
+      .return-form input:checked + label .return-form__box  {
+        background-color: #ce386a;
+        border: 1px solid #ce386a !important;
+        cursor: pointer;
+      }
+      .return-form label .return-form__box  {
+        background-color: transparent;
+        border: 1px solid #000 !important;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 20px;
+        height: 20px;
+        border: none;
+        outline: none;
+            cursor: pointer;
+      }
+      .return-form__text {
+        cursor: pointer;
+      }
+    </style>
+    <div class="return-form">
+      <input type="checkbox" name="return_form" id="return_form">
+      <label for="return_form">
+        <span class="return-form__box">
+          <svg aria-hidden="true" class="icon icon-checkmark" xmlns="http://www.w3.org/2000/svg"
+            width="11" height="11" viewBox="0 0 11 11" fill="none">
+            <path d="M2 5L5 9L9 3" stroke="white" stroke-width="1.5"></path>
+          </svg>
+        </span>
+        <span class="return-form__text">{{section.settings.text}}</span>
+      </label>
+    </div>
+
+    <script>
+      const returnFormInput = document.querySelector("#return_form");
+      const fieldWithProperty = document.querySelector(".line-item-property__field-return");
+
+      returnFormInput.addEventListener("change",addReturnProperties)
+      function addReturnProperties(event) {
+        const flag = event.target.checked;
+        fieldWithProperty.innerHTML = "";
+        if (!flag) { return }
+        const createInput = document.createElement("input");
+        createInput.type = "hidden";
+        createInput.name = "properties[Poiskuljetus]";
+        createInput.value = "vanha sänky";
+        fieldWithProperty.appendChild(createInput);
+      }  
+    </script>
+  {% endif %}
+{% endif %}
