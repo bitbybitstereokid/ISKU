@@ -28,11 +28,22 @@
             "image": "shopify:\/\/shop_images\/Kansikuva_1928x1080_2.png",
             "image_mobile": "shopify:\/\/shop_images\/Kansikuva_mobiili_1080x1616_2.png"
           }
+        },
+        "9c393ca7-ad67-47ad-a4aa-b5344746580b": {
+          "type": "slider",
+          "settings": {
+            "title": "Comfort and Style |That Will Wransform Your Home",
+            "content": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+            "button": "LEARN MORE",
+            "button_url": "",
+            "button_style": "primary-btn"
+          }
         }
       },
       "block_order": [
         "6683040b-410a-4a0c-bb71-11182bbb2e2d",
-        "a4d43412-1b30-40cd-8b02-738044276873"
+        "a4d43412-1b30-40cd-8b02-738044276873",
+        "9c393ca7-ad67-47ad-a4aa-b5344746580b"
       ],
       "disabled": true,
       "settings": {
@@ -55,6 +66,18 @@
             "button_style": "primary-btn",
             "image": "shopify:\/\/shop_images\/rowico-banner1.jpg",
             "image_mobile": "shopify:\/\/shop_images\/Skye-ruokapoyta-h.120-cm-rowico-1686586511.jpg"
+          }
+        },
+        "5ca00699-dfa4-4c47-93b2-eecc141cf191": {
+          "type": "slider",
+          "settings": {
+            "title": "Kaikki Lundian tuotteet -20%",
+            "content": "Lundian brändiviikko voimassa 27.8. asti.",
+            "button": "Lundian tuotteisiin",
+            "button_url": "shopify:\/\/collections\/lundia",
+            "button_style": "primary-btn",
+            "image": "shopify:\/\/shop_images\/hetki-banner.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/hetki-mobiilibanner.jpg"
           }
         },
         "65bcb181-e56b-447a-8834-5851aba02a01": {
@@ -96,6 +119,7 @@
       },
       "block_order": [
         "f569850d-67e3-4cc1-9d6a-a33d3a26e7fd",
+        "5ca00699-dfa4-4c47-93b2-eecc141cf191",
         "65bcb181-e56b-447a-8834-5851aba02a01",
         "591e9494-2638-4160-a7db-4a970f474956",
         "d086ed09-5381-4ef5-9dea-af3ec1fe16a8"
