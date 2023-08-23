@@ -71,7 +71,7 @@
         "5ca00699-dfa4-4c47-93b2-eecc141cf191": {
           "type": "slider",
           "settings": {
-            "title": "Kaikki Lundian tuotteet -20%",
+            "title": "Kaikki Lundian tuotteet –20 %",
             "content": "Lundian brändiviikko voimassa 27.8. asti.",
             "button": "Lundian tuotteisiin",
             "button_url": "shopify:\/\/collections\/lundia",
