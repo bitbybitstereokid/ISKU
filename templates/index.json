@@ -184,6 +184,33 @@
         "padding_bottom": 16
       }
     },
+    "e4d52ef1-778f-4424-a4ac-cea126c8080e": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Erä TEMPUR-tuotteita –30 %",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "era-tempur-tuotteita-30",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
     "204ff508-d664-4848-8eaa-b60faffdbad7": {
       "type": "hero-banner-half",
       "disabled": true,
@@ -310,34 +337,6 @@
         "padding_top": 0,
         "padding_bottom": 14,
         "content_color": "#ffffff"
-      }
-    },
-    "e4d52ef1-778f-4424-a4ac-cea126c8080e": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "title": "ALE – Kaikki Jensen-sängyt -25%",
-        "heading_size": "h1",
-        "description": "<p>Kampanja voimassa 16.8. asti.<\/p>",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "jensen",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 16,
-        "padding_bottom": 16
       }
     },
     "82070c0b-0994-4d9c-bbb9-719ddb83bb64": {
@@ -709,11 +708,11 @@
     "0e85d77f-389f-4f3b-b5d1-6c14109510c8",
     "0961df4d-7bf5-4dee-a475-d345c73159a6",
     "17f24b99-fc36-4e71-a533-0ca58776b4cc",
+    "e4d52ef1-778f-4424-a4ac-cea126c8080e",
     "204ff508-d664-4848-8eaa-b60faffdbad7",
     "165ada33-7568-45ff-a3ed-4d70620bfee3",
     "5993348a-c4dd-4187-99c2-235278567e84",
     "6ea8728a-b377-4af1-8cca-5cddc452334b",
-    "e4d52ef1-778f-4424-a4ac-cea126c8080e",
     "82070c0b-0994-4d9c-bbb9-719ddb83bb64",
     "5496ccaf-fb83-4451-9659-40ec4ab29060",
     "f2924892-e962-4009-ba1e-f52fc1b3d5ab",
