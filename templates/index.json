@@ -70,6 +70,7 @@
         },
         "5ca00699-dfa4-4c47-93b2-eecc141cf191": {
           "type": "slider",
+          "disabled": true,
           "settings": {
             "title": "Kaikki Lundian tuotteet –20 %",
             "content": "Lundian brändiviikko voimassa 27.8. asti.",
@@ -82,6 +83,7 @@
         },
         "65bcb181-e56b-447a-8834-5851aba02a01": {
           "type": "slider",
+          "disabled": true,
           "settings": {
             "title": "Tervetuloa kesäkauden päätösjuhliin!",
             "content": "Kesäkauden päätösjuhlilta löydät valtavasti tuotteita huimilla eduilla varustettuna! | Edut ovat voimassa myymälöissä ja verkkokaupassa 27.8. saakka.",
@@ -94,6 +96,7 @@
         },
         "591e9494-2638-4160-a7db-4a970f474956": {
           "type": "slider",
+          "disabled": true,
           "settings": {
             "title": "Kaikki UNIGOLD-sängyt –30 %",
             "content": "Sängyn ostajalle kotiinkuljetus ja vanhan sängyn poisvienti kaupan päälle! | Kampanja voimassa 27.8. asti.",
