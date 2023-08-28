@@ -117,6 +117,18 @@
             "image": "shopify:\/\/shop_images\/Jensen_1200x600_d5eda73b-4d6e-470d-bd21-4a2d042d9757.jpg",
             "image_mobile": "shopify:\/\/shop_images\/Jensen_1200x600_e65273b6-b5c7-4d97-9886-5e113ff942ab.jpg"
           }
+        },
+        "bd527401-257e-4638-a653-f4a5a7e7dd60": {
+          "type": "slider",
+          "settings": {
+            "title": "Kaikki ISKUn kotimaiset sohvat –20 %",
+            "content": "Kampanja voimassa 3.9. asti.",
+            "button": "Tutustu valikoimaan",
+            "button_url": "shopify:\/\/collections\/iskun-kotimaiset-sohvat",
+            "button_style": "primary-btn",
+            "image": "shopify:\/\/shop_images\/monkey-banner.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/monkey-mobiilibanner.jpg"
+          }
         }
       },
       "block_order": [
@@ -124,7 +136,8 @@
         "5ca00699-dfa4-4c47-93b2-eecc141cf191",
         "65bcb181-e56b-447a-8834-5851aba02a01",
         "591e9494-2638-4160-a7db-4a970f474956",
-        "d086ed09-5381-4ef5-9dea-af3ec1fe16a8"
+        "d086ed09-5381-4ef5-9dea-af3ec1fe16a8",
+        "bd527401-257e-4638-a653-f4a5a7e7dd60"
       ],
       "settings": {
         "padding_top": 0,
