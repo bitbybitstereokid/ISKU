@@ -96,14 +96,13 @@
         },
         "591e9494-2638-4160-a7db-4a970f474956": {
           "type": "slider",
-          "disabled": true,
           "settings": {
-            "title": "Kaikki UNIGOLD-sängyt –30 %",
-            "content": "Sängyn ostajalle kotiinkuljetus ja vanhan sängyn poisvienti kaupan päälle! | Kampanja voimassa 27.8. asti.",
-            "button": "Tutustu valikoimaan",
-            "button_url": "shopify:\/\/collections\/unigold",
+            "title": "SUPERETU MOOTTORISÄNGYISTÄ!",
+            "content": "Kotimaiset UNIGOLD Ilo-, Onni- & Haave-moottorisängyt runkosängyn hinnalla! | Kampanja voimassa 3.9. asti.",
+            "button": "Kampanjasängyt",
+            "button_url": "shopify:\/\/collections\/kotimaiset-unigold-moottorisangyt-runkosangyn-hinnalla",
             "button_style": "primary-btn",
-            "image": "shopify:\/\/shop_images\/unigold-banner.jpg",
+            "image": "shopify:\/\/shop_images\/unigold-motari-banner.jpg",
             "image_mobile": "shopify:\/\/shop_images\/unigold-banner-mobiili.jpg"
           }
         },
