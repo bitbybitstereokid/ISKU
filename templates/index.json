@@ -120,6 +120,7 @@
         },
         "d086ed09-5381-4ef5-9dea-af3ec1fe16a8": {
           "type": "slider",
+          "disabled": true,
           "settings": {
             "title": "Mallisto uudistuu! | LOPUT JENSEN-MYYMÄLÄMALLIT –50 %",
             "content": "Mallit vaihtelevat myymälöittäin. Ei koske verkkokauppaa.",
