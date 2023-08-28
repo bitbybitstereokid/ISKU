@@ -144,6 +144,7 @@
     },
     "64636734-cc35-46e2-9e6f-90a1434c2673": {
       "type": "about-image-text",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/JPG_Keskisuuri_Heidi_Raatikainen_301220_grey_1.jpg",
         "padding_top": 50,
@@ -162,7 +163,7 @@
         "image": "shopify:\/\/shop_images\/aulikki_kahtava_2.jpg",
         "padding_top": 50,
         "padding_bottom": 50,
-        "reverse": true,
+        "reverse": false,
         "text_centered": false,
         "title": "Aulikki Kähtävä, Sisustussuunnittelija, Oulu, Rovaniemi",
         "text": "<p>”Asiakaspalvelu on vahvaa yhteistyötä asiakkaan kanssa. Etsimme yhdessä toimivat ratkaisut jokaiseen kotiin. Pidän tärkeänä asiakkaan toiveiden täyttämistä, kuitenkaan kaunista lopputulosta unohtamatta”, Aulikki kertoo<br\/><br\/>Aulikki on kerännyt näkökulmaa alalta yli 20 vuoden ajalta. Hän on käynyt useampia sisustussuunnittelun kursseja sekä sisustajan opintoja Kajaanissa sekä toteuttanut myös myyntistailauksia. <\/p>",
@@ -172,7 +173,6 @@
     },
     "22d646b5-d0d5-46b2-9a33-243e9bc3f6ba": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "template--19221459927384__22d646b5-d0d5-46b2-9a33-243e9bc3f6ba-16885524268067bcce-0": {
           "type": "heading",
@@ -201,6 +201,7 @@
         "template--19221459927384__22d646b5-d0d5-46b2-9a33-243e9bc3f6ba-16885524268067bcce-1",
         "template--19221459927384__22d646b5-d0d5-46b2-9a33-243e9bc3f6ba-16885524268067bcce-2"
       ],
+      "disabled": true,
       "settings": {
         "height": "adapt",
         "desktop_image_width": "medium",
