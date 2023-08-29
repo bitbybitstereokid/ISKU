@@ -257,7 +257,6 @@
     },
     "98ad94fe-8e64-42b5-bdfb-4488ca9c10da": {
       "type": "product-recomendations-slider",
-      "disabled": true,
       "settings": {
         "title": "Voit olla myös kiinnostunut näistä",
         "padding_top": 50,
