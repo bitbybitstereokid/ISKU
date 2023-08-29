@@ -110,13 +110,11 @@
         },
         "dd9726de-2ac5-4429-8217-767b72f783b0": {
           "type": "shopify:\/\/apps\/fast-bundle-product-bundles\/blocks\/product_bundles\/9e87fbe2-9041-4c23-acf5-322413994cef",
-          "disabled": true,
           "settings": {
           }
         },
         "0345ac45-a8d3-4374-8f71-5b94983a326c": {
           "type": "shopify:\/\/apps\/fast-bundle-product-bundles\/blocks\/product_bundle_with_ids\/9e87fbe2-9041-4c23-acf5-322413994cef",
-          "disabled": true,
           "settings": {
             "bundle_ids": "",
             "products": [
