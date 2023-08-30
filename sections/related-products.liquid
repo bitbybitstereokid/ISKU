@@ -22,6 +22,7 @@
   }
 {%- endstyle -%}
 
+{% if hide_fetched_section == false %}
 <div class="color-{{ section.settings.color_scheme }} gradient no-js-hidden">
   <product-recommendations
     class="related-products page-width section-{{ section.id }}-padding isolate"
@@ -52,6 +53,7 @@
     {% endif %}
   </product-recommendations>
 </div>
+{% endif %}
 
 {% schema %}
 {
