@@ -2,7 +2,10 @@
 <html class="no-js" lang="{{ request.locale.iso_code }}">
 <head>
     <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="cb4caa9c-f369-4fcf-b089-4b86322f7d87" data-blockingmode="auto" type="text/javascript"></script>
-    <meta charset="utf-8">
+    <script type="text/javascript" charset="utf-8" src="//d2wzl9lnvjz3bh.cloudfront.net/frosmo.easy.js" async></script>
+<script type="text/javascript" charset="utf-8" src="//d2wzl9lnvjz3bh.cloudfront.net/sites/isku_fi.js" async></script>
+  <meta name="google-site-verification" content="GQgt5uZRXgrgP2XKmEwDiTiQ1h9cTwpTQfNeIuVxYVc" /> 
+  <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="theme-color" content="">
@@ -259,6 +262,10 @@
         font-style: normal;
         font-display: swap;
       }
+
+      .CookieDeclaration{
+        display: none !important;
+      }
     </style>
     {%- unless settings.type_body_font.system? -%}
       <link
@@ -303,6 +310,10 @@
   display: none !important;
 }
 </style>
+<meta property="og:title" content="ISKU Koti on nyt www.isku.fi" />
+<meta property="og:description" content="Kaikki kodin sisustukseen" />
+<meta property="og:url" content="https://isku.fi" />
+<meta property="og:image" content="https://cdn.shopify.com/s/files/1/0555/2809/5844/files/Brafab_miljoo_Sandkorn_Varm_Amarante_Kotte_Como.jpg?v=1684165217" />
 
   <!-- giosg tag -->
 
@@ -319,6 +330,9 @@
 </script>
 
 <!-- giosg tag -->
+
+  {%- comment -%}Added by Heartcoding from Sale & Discount Manager{%- endcomment -%}
+  {%- if product -%}<script>const hcVariants = {{ product.variants | json }};</script>{%- endif -%}{{ shop.metafields.saletag.hc_tag_css }}
 </head>
   <body class="gradient">
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
@@ -381,5 +395,6 @@
     <script src="{{ 'product-variant-tooltip.js' | asset_url }}" defer="defer"></script>
     <link rel="stylesheet" href="{{ 'custom-stockist.css' | asset_url }}">
     <script id="CookieDeclaration" src="https://consent.cookiebot.com/cb4caa9c-f369-4fcf-b089-4b86322f7d87/cd.js" type="text/javascript" async></script>
+     <script src="https://www.salesmanago.pl/dynamic/310343a8ff01022f/popups.js"></script>
   </body>
 </html>

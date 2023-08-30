@@ -1,0 +1,371 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "b9b7e8f8-a6a7-45d4-82e8-c760c600bdb2": {
+      "type": "hero-banner-slider",
+      "blocks": {
+        "eabf45fd-8d7d-40d5-90c1-fa71d3454666": {
+          "type": "slider",
+          "settings": {
+            "title": "",
+            "content": "",
+            "button": "",
+            "button_url": "",
+            "button_style": "primary-btn",
+            "image": "shopify:\/\/shop_images\/20220413_103907.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/20220413_103907.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "eabf45fd-8d7d-40d5-90c1-fa71d3454666"
+      ],
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 50,
+        "content_color": "#ffffff"
+      }
+    },
+    "b9e500c8-adb3-4132-94a2-9a22956ef3df": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15666921111652__b9e500c8-adb3-4132-94a2-9a22956ef3df-1684252192b4e19411-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Sisustussuunnittelupalvelu<\/p>",
+            "heading_size": "h2"
+          }
+        },
+        "template--15666921111652__b9e500c8-adb3-4132-94a2-9a22956ef3df-1684252192b4e19411-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Sisustussuunnittelijamme ovat käytettävissäsi, oli hankkeesi city-yksiö tai herraskartano. Tehdään yhdessä kodistasi sinun näköisesi, kaipaatpa sitten romanttista lämpöä tai virtaviivaista modernismia.  <br\/><br\/>Sisustussuunnittelijamme luovat yhdessä kanssasi toimivan ja käytännöllisen kodin, joka mukautuu muuttuviin elämäntilanteisiin ja arjen käänteisiin. Autamme sinua valitsemaan kalusteet, tekstiilit ja yhteensopivan värimaailman. Annamme myös vinkkejä valaisinvalintoihin, jotta haluttu tunnelma saavutetaan.  <br\/><br\/>Ideoi ja inspiroidu sisustussuunnittelijan kanssa ISKUn myymälässä jo pian!<\/p><p>Varaa nyt aika tunnin mittaiseen ilmaiseen sisustussuunnittelun kartoitustapaamiseen alta, jossa käydään läpi sinun tarpeesi.<\/p>"
+          }
+        },
+        "template--15666921111652__b9e500c8-adb3-4132-94a2-9a22956ef3df-1684252192b4e19411-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15666921111652__b9e500c8-adb3-4132-94a2-9a22956ef3df-1684252192b4e19411-0",
+        "template--15666921111652__b9e500c8-adb3-4132-94a2-9a22956ef3df-1684252192b4e19411-1",
+        "template--15666921111652__b9e500c8-adb3-4132-94a2-9a22956ef3df-1684252192b4e19411-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "fa8c1518-0f2c-44cb-bac4-a59570bd723d": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<iframe src=\"https:\/\/isku.trafft.com\/booking-embedded?t=s&uuid=d1925cb1-29c1-4314-aaef-edf242a8162c\" style=\"border: none; width: 100%; max-width:1200px; min-height: 655px; margin: 0 auto; display: block;\"><\/iframe>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "34962620-4a24-4590-ba72-3a16b2277ae8": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Anna_Segerstrale_grey.jpg",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": true,
+        "text_centered": false,
+        "title": "Anna Segerstråle, sisustusarkkitehti, pääkaupunkiseutu",
+        "text": "<p>\"Minua inspiroivat erilaiset ihmiset ja persoonallisuudet sekä sisustuksen psykologia. Se miten tila koetaan vaikuttaa suuresti mieleen ja viihtyvyyteen. Olen hyvä luomaan viihtyisiä ja kutsuvia tiloja käytännöllisyyttä unohtamatta. Minulle on myös tärkeää, että tuotteet kestävät aikaa niin tyylillisesti kuin laatunsa puolesta. Kokonaisuuden kruunaa vielä kaunis ja käytännöllinen valaistus. Hyvin suunniteltu kodin sisustus sitoo huoneet kokonaisuudeksi, siten että lopputulos on aina tasapainoinen ja yhtenäinen. Olen aikaisemmin urallani suunnitellut kiintokalusteita, joten huomioin aina nämäkin osana suunniteltavaa tilaa.<br\/><br\/>Olen aina ollut luova ja visuaalinen, joten oli luontevaa lähteä kehittämään taitoja Lahden muotoiluinstituutissa, josta valmistuin sisustusarkkitehdiksi ja muotoilijaksi 2017. <br\/><br\/>Palvelen asiakkaita sujuvasti myös ruotsiksi ja englanniksi. Ota rohkeasti yhteyttä niin tehdään sisustusunelmistasi totta!”<\/p>",
+        "btn_text": "Varaa aika annalle",
+        "btn_url": "https:\/\/isku.trafft.com\/booking\/sisustussuunnittelija-anna-segerstrale?t=s&uuid=c74a6ff3-05bc-45a3-b1eb-384069958445"
+      }
+    },
+    "3290650f-c397-4c42-af7f-63f81fcfd92f": {
+      "type": "about-image-text",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Satu_Sillanpaa_grey2_7582d4a3-a2c2-4a97-9b05-53ca67dba92c.jpg",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": true,
+        "text_centered": false,
+        "title": "Satu Sillanpää, sisustussuunnittelija, Pori, Seinäjoki",
+        "text": "<p>”Sisustusala tuntuu kotoisalta. Parasta työssäni on asiakkaat ja heidän erilaiset sisustusmaut, joiden kautta voi kehittää myös itseään ja työyhteisöä”, Satu kertoo. <br\/>Satu on valmistunut vuonna 2019 sisustusartesaaniksi. Hän pääsi työssäoppimisjaksolla töihin Porin Iskuun ja jäi sitä kautta harjoitteluun, kesätöihin ja sitä kautta vakituiseksi suunnittelijaksi. <\/p>",
+        "btn_text": "Varaa aika sadulle",
+        "btn_url": "https:\/\/isku.trafft.com\/booking\/satu-sillanpaa?t=s&uuid=d5b08b41-e645-4002-84c8-1e8a55c1956e"
+      }
+    },
+    "e814a506-cea7-474f-a53e-42cd8567d177": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/JPG_Keskisuuri_Mirella_Virtanen_051018_1.jpg",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": false,
+        "text_centered": false,
+        "title": "Mirella Virtanen, Sisustusarkkitehti, Lahti, Jyväskylä, Mikkeli",
+        "text": "<p>”Arvostan suunnitelmissa käyttäjälähtöisyyttä ja toiminnallisuutta. Eniten tässä ammatissa nautin työn monipuolisuudesta; jokainen suunnittelukohde on uniikki ja suunniteltava sisustus käyttäjänsä näköinen”, Mirella kertoo.<br\/><br\/>Mirella on sisustusarkkitehti ja kalustesuunnittelija, joka valmistui Kymenlaakson amk:sta vuonna 2016 muotoilijaksi. Hän aloitti sisustusalan opinnot vuonna 2009 opiskellen sisustusalan artesaaniksi. Hän on työskennellyt sisustusmyyjänä ja -suunnittelijana 10 vuotta. <\/p>",
+        "btn_text": "VARAA AIKA MIRELLALLE",
+        "btn_url": "https:\/\/isku.trafft.com\/booking\/mirella-virtanen?t=s&uuid=9f378dbf-1659-43ac-9c08-ba4f2128c2e5"
+      }
+    },
+    "edb292d3-1d3d-45f8-b998-cc48aee216a5": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/JPG_Keskisuuri_Jenni_Hantula_mv_1.jpg",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": true,
+        "text_centered": false,
+        "title": "Jenni Hantula, Sisustussuunnittelija, Tampere",
+        "text": "<p>”Harmoniset kokonaisuudet ja skandinaavinen muotoilu ovat lähellä sydäntäni, mutta väitän, että rohkenen leikitellä myös väreillä ja erilaisilla materiaalien kontrasteilla. Visuaalisuus, kodikkuus ja käytännöllisyys ovat asioita, joita painotan suunnittelutöissäni. Tärkeintä kuitenkin on, että koti on juuri asukkaidensa näköinen ja olemme yhdessä tyytyväisiä lopputulokseen”, Jenni kertoo.<br\/><br\/>Jenni halusi tehdä omista haaveista totta oman taloprojektin innoittamana ja haki Helsinki Design Schooliin opiskelemaan sisustussuunnittelijaksi, jonka jälkeen sisustuksen maailma vei hänet täysin mukanaan. <\/p>",
+        "btn_text": "VARAA AIKA JENNILLE",
+        "btn_url": "https:\/\/isku.trafft.com\/booking\/jenni-hantula?t=s&uuid=26d10f21-0b7c-49d6-88cb-3dec0f12def9"
+      }
+    },
+    "64636734-cc35-46e2-9e6f-90a1434c2673": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/JPG_Keskisuuri_Heidi_Raatikainen_301220_grey_1.jpg",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": false,
+        "text_centered": false,
+        "title": "Heidi Raatikainen, Sisustussuunnittelija, Lappeenranta ja Joensuu",
+        "text": "<p>\"Suunnittelijana missioni on auttaa luomaan toimiva koti, joka kuvastaa asujansa persoonaa.  Minulla on kyky tulkita rivien välistä se, mitä asiakas ei välttämättä osaa pukea sanoiksi. Usein asiakas tietää, millaisen kokonaisuuden sisustuksesta haluaa, mutta ei miten se luodaan. Tässä kohtaa suunnittelijan apu säästää aikaa ja rahaa. Luodaan yhdessä koti isolla K:lla. Oli kyse sitten sohvan värin valinnasta tai rakenteilla olevan kodin sisustuskokonaisuuden rakentamisesta, olen apunasi\", Heidi sanoo.<br\/><br\/>Heidi on opiskellut sekä sisustusstailausta, että sisustussuunnittelua. Suunnittelijana hän on  työskennellyt aktiivisesti jo vuodesta 2011 asti ja hän omaa hyvin laaja-alaisen kokemuksen suunnittelusta monesta eri näkökulmasta.<br\/><\/p>",
+        "btn_text": "VARAA AIKA HEIDILLE",
+        "btn_url": "https:\/\/isku.trafft.com\/booking\/heidi-raatikainen?t=s&uuid=c1f09d5e-2ab6-41d7-8ca5-4cfcf5be1c47"
+      }
+    },
+    "e64ca6fa-fd28-4210-b6a3-b9b0fdd175c0": {
+      "type": "about-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/aulikki_kahtava_2.jpg",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": true,
+        "text_centered": false,
+        "title": "Aulikki Kähtävä, Sisustussuunnittelija, Oulu, Rovaniemi",
+        "text": "<p>”Asiakaspalvelu on vahvaa yhteistyötä asiakkaan kanssa. Etsimme yhdessä toimivat ratkaisut jokaiseen kotiin. Pidän tärkeänä asiakkaan toiveiden täyttämistä, kuitenkaan kaunista lopputulosta unohtamatta”, Aulikki kertoo<br\/><br\/>Aulikki on kerännyt näkökulmaa alalta yli 20 vuoden ajalta. Hän on käynyt useampia sisustussuunnittelun kursseja sekä sisustajan opintoja Kajaanissa sekä toteuttanut myös myyntistailauksia. <\/p>",
+        "btn_text": "VARAA AIKA AULIKILLE",
+        "btn_url": "https:\/\/isku.trafft.com\/booking\/aulikki-kahtava?t=s&uuid=4b2f5a6c-9a48-4df8-9d46-b66f5dcbf805"
+      }
+    },
+    "22d646b5-d0d5-46b2-9a33-243e9bc3f6ba": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--19221459927384__22d646b5-d0d5-46b2-9a33-243e9bc3f6ba-16885524268067bcce-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "template--19221459927384__22d646b5-d0d5-46b2-9a33-243e9bc3f6ba-16885524268067bcce-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--19221459927384__22d646b5-d0d5-46b2-9a33-243e9bc3f6ba-16885524268067bcce-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19221459927384__22d646b5-d0d5-46b2-9a33-243e9bc3f6ba-16885524268067bcce-0",
+        "template--19221459927384__22d646b5-d0d5-46b2-9a33-243e9bc3f6ba-16885524268067bcce-1",
+        "template--19221459927384__22d646b5-d0d5-46b2-9a33-243e9bc3f6ba-16885524268067bcce-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "c2f4b8b6-8676-4583-9bb0-c80a4a837609": {
+      "type": "about-image-text",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Sisustussuunnittelu_kotiin.jpg",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "reverse": false,
+        "text_centered": false,
+        "title": "Title",
+        "text": "<p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.  Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Velit officia consequat duis enim velit mollit. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.<\/p><p>Exercitation veniam consequat sunt nostrud amet. Exercitatio n veniam consequat sunt nostrud amet.Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.<\/p>",
+        "btn_text": "",
+        "btn_url": ""
+      }
+    },
+    "83834ae4-0f37-49c0-87b8-f2c51d7a7727": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19221459927384__83834ae4-0f37-49c0-87b8-f2c51d7a7727-16885527093589640d-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Inspiraatiota kukkarolle sopivaan hintaan<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--19221459927384__83834ae4-0f37-49c0-87b8-f2c51d7a7727-16885527093589640d-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><br\/>Hyödynnä sisustussuunnittelupalveluamme pieniin tai suuriin tarpeisiin - aina edullisesti!<br\/>  <br\/>Alkukartoitus Iskun myymälässä on ilmainen. Saat samalla tarkemmat ohjeet tarvittavien esitietojen keräämiseen. <br\/><br\/><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19221459927384__83834ae4-0f37-49c0-87b8-f2c51d7a7727-16885527093589640d-0",
+        "template--19221459927384__83834ae4-0f37-49c0-87b8-f2c51d7a7727-16885527093589640d-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "3daf0b8f-40b2-44ec-8561-2d653f0f1498": {
+      "type": "image-banner",
+      "blocks": {
+        "template--19221459927384__3daf0b8f-40b2-44ec-8561-2d653f0f1498-168855246605ce9a47-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--19221459927384__3daf0b8f-40b2-44ec-8561-2d653f0f1498-168855246605ce9a47-0"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Sisustussuunnittelu_kotiin_4961f85a-dc0b-48f1-b28b-e484a1de0c72.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "cd1eea92-38ed-406b-83a1-ee12047a888c": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19221459927384__cd1eea92-38ed-406b-83a1-ee12047a888c-16885527093589640d-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h1"
+          }
+        },
+        "template--19221459927384__cd1eea92-38ed-406b-83a1-ee12047a888c-16885527093589640d-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Sisustussuunnittelun yhteydessä tehtyjen ostosten ylittäessä 3000€ saa hintahyvityksenä puolet suunnitelman hinnasta pois. Kauppasumman ylittäessä 5000€ sisustussuunnittelu täysin veloitukseton. (Aiemmin tehdyt tilaukset eivät oikeuta veloituksettomaan suunnitteluun). <br\/><br\/>Jos haluat, että sisustussuunnittelijamme käy kotonasi, hintaan lisätään kohteen sijainnista riippuen kotikäyntimaksu, alkaen 70 €\/h. Pyydä kotikäynneistä erillinen tarjous.<br\/><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19221459927384__cd1eea92-38ed-406b-83a1-ee12047a888c-16885527093589640d-0",
+        "template--19221459927384__cd1eea92-38ed-406b-83a1-ee12047a888c-16885527093589640d-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "807b10bf-0331-4b7a-a382-9bc23de61bc6": {
+      "type": "image-banner",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/sisustushinnat-2.jpg",
+        "image_2": "shopify:\/\/shop_images\/sisustushinnat-2_242920db-813c-445a-965c-2ff330a427a6.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "9bc451d6-0e83-409f-b5fc-5a70bc7326a3": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Uutiskirje_600x300_2.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "b9b7e8f8-a6a7-45d4-82e8-c760c600bdb2",
+    "b9e500c8-adb3-4132-94a2-9a22956ef3df",
+    "fa8c1518-0f2c-44cb-bac4-a59570bd723d",
+    "34962620-4a24-4590-ba72-3a16b2277ae8",
+    "3290650f-c397-4c42-af7f-63f81fcfd92f",
+    "e814a506-cea7-474f-a53e-42cd8567d177",
+    "edb292d3-1d3d-45f8-b998-cc48aee216a5",
+    "64636734-cc35-46e2-9e6f-90a1434c2673",
+    "e64ca6fa-fd28-4210-b6a3-b9b0fdd175c0",
+    "22d646b5-d0d5-46b2-9a33-243e9bc3f6ba",
+    "c2f4b8b6-8676-4583-9bb0-c80a4a837609",
+    "83834ae4-0f37-49c0-87b8-f2c51d7a7727",
+    "3daf0b8f-40b2-44ec-8561-2d653f0f1498",
+    "cd1eea92-38ed-406b-83a1-ee12047a888c",
+    "807b10bf-0331-4b7a-a382-9bc23de61bc6",
+    "9bc451d6-0e83-409f-b5fc-5a70bc7326a3"
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "ce84ed92-7933-426a-9793-e6a959ab28f6": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19035766784344__ce84ed92-7933-426a-9793-e6a959ab28f6-1685440255840c5411-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>ISKU Lahti Tehtaanmyymälä<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--19035766784344__ce84ed92-7933-426a-9793-e6a959ab28f6-1685440255840c5411-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Isku Shop Lahti Tehtaanmyymälä  <br\/>Kauppakatu 23  <br\/>15140 LAHTI  <br\/>puh. 029 086 3223  <br\/>tehtaanmyymala@isku.fi  <br\/><br\/>Aukioloajat:  <br\/>Ma-pe: 10 - 18  <br\/>La: 10 - 16  <br\/>Su: suljettu    <br\/><br\/>Noutovarasto on avoinna arkisin klo 11 - 17.  <br\/><br\/>Iskun tehtaanmyymälässä teet löytöjä! Tartu unelmiesi kalustekauppaan huokeaan hintaan, testaa ensimmäisenä uutta istuinmateriaalia tai inspiroidu rakentamaan omat kalusteesi tehtaamme poisto-osista. <br\/><br\/>Käytössäsi on ammattitaitoinen henkilökuntamme, koko Iskun valikoima ja tehtaanmyymälän löytökappaleet.<br\/><br\/>Tervetuloa kotimaisen kalustevalmistuksen mekkaan, mukavaan tunnelmaan ja huikelle ostoksille! Palvelemme sinua osoitteessa Kauppakatu 23. <\/p>"
+          }
+        },
+        "template--19035766784344__ce84ed92-7933-426a-9793-e6a959ab28f6-1685440255840c5411-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19035766784344__ce84ed92-7933-426a-9793-e6a959ab28f6-1685440255840c5411-0",
+        "template--19035766784344__ce84ed92-7933-426a-9793-e6a959ab28f6-1685440255840c5411-1",
+        "template--19035766784344__ce84ed92-7933-426a-9793-e6a959ab28f6-1685440255840c5411-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "7c9fcfef-ad60-49e2-a86e-820afb5c3fb9": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--18960932667736__7c9fcfef-ad60-49e2-a86e-820afb5c3fb9-1684169800ae4304ac-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Suvi_Malinen_grey.jpg",
+            "title": "Suvi Malinen",
+            "text": "<p>Myyntipäällikkö<\/p><p>050 406 5351<\/p>",
+            "link_label": "Email",
+            "link": "mailto:suvi.malinen@isku.fi"
+          }
+        },
+        "3f68feeb-5902-4903-bbe2-2caa01ea25da": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Eetu_Heikkila.jpg",
+            "title": "Eetu Heikkilä",
+            "text": "<p>Sisustusmyyjä<br\/>046 921 7660<\/p>",
+            "link_label": "Email",
+            "link": "mailto:eetu.heikkila@isku.fi"
+          }
+        },
+        "06567cd8-25dc-4212-85e2-a7d11cc053f7": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Toni_Putto.jpg",
+            "title": "Toni Putto",
+            "text": "<p>Sisustusmyyjä<br\/>044 792 3233<\/p>",
+            "link_label": "Email",
+            "link": "mailto:toni.putto@isku.fi"
+          }
+        },
+        "9c17c02f-cb9c-4870-88be-2523eee52914": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Taija_Purhonen.jpg",
+            "title": "Taija Purhonen",
+            "text": "<p>Aluejohtaja<br\/>029 086 3376<\/p>",
+            "link_label": "Email",
+            "link": "mailto:taija.purhonen@isku.fi"
+          }
+        },
+        "template--18960932667736__7c9fcfef-ad60-49e2-a86e-820afb5c3fb9-1684169800ae4304ac-0": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Teija_Friman.jpg",
+            "title": "Teija Friman",
+            "text": "<p>Sisustusmyyjä<br\/>029 086 4907<\/p>",
+            "link_label": "Email",
+            "link": "mailto:tommi.hagman@isku.fi"
+          }
+        },
+        "template--18960932667736__7c9fcfef-ad60-49e2-a86e-820afb5c3fb9-1684169800ae4304ac-1": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Markus_Pekkarinen.jpg",
+            "title": "Markus Pekkarinen",
+            "text": "<p>Sisustusmyyjä<\/p><p>029 086 4908<\/p>",
+            "link_label": "Email",
+            "link": "mailto:ville.levaniemi@isku.fi"
+          }
+        },
+        "11443aed-07f7-4174-9bb7-d290d20d1cef": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Vesa_Pienmaki_61498350-0735-44c6-87a9-cfe25c468dad.jpg",
+            "title": "Vesa Pienmäki",
+            "text": "<p>Sisustusmyyjä<\/p><p>029 086 4906<\/p>",
+            "link_label": "Email",
+            "link": "mailto:ilari.jaaskelainen@isku.com"
+          }
+        },
+        "7b5052af-ca4f-47c3-a88a-cdcd75cb537d": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Tero_Raatikainen.jpg",
+            "title": "Tero Raatikainen",
+            "text": "<p>Sisustusmyyjä<br\/>029 086 4909<\/p>",
+            "link_label": "Email",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18960932667736__7c9fcfef-ad60-49e2-a86e-820afb5c3fb9-1684169800ae4304ac-2",
+        "3f68feeb-5902-4903-bbe2-2caa01ea25da",
+        "06567cd8-25dc-4212-85e2-a7d11cc053f7",
+        "9c17c02f-cb9c-4870-88be-2523eee52914",
+        "template--18960932667736__7c9fcfef-ad60-49e2-a86e-820afb5c3fb9-1684169800ae4304ac-0",
+        "template--18960932667736__7c9fcfef-ad60-49e2-a86e-820afb5c3fb9-1684169800ae4304ac-1",
+        "11443aed-07f7-4174-9bb7-d290d20d1cef",
+        "7b5052af-ca4f-47c3-a88a-cdcd75cb537d"
+      ],
+      "settings": {
+        "title": "Palveluksessasi",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "ce84ed92-7933-426a-9793-e6a959ab28f6",
+    "7c9fcfef-ad60-49e2-a86e-820afb5c3fb9"
+  ]
+}

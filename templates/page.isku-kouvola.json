@@ -1,0 +1,182 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "bdbd376d-1a8d-49a6-953e-9f2d23f899db": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19067052654936__bdbd376d-1a8d-49a6-953e-9f2d23f899db-168890776797cfe2fd-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Kouvolan myymälän loppuunmyynti<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--19067052654936__bdbd376d-1a8d-49a6-953e-9f2d23f899db-168890776797cfe2fd-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Kaikki mallikappaleet vähintään -60%, tutustu tuotteisiin Isku Kouvolan Tori.fi -sivuilla alla. <\/p><p>Koska tuotteet ovat yksittäiskappaleita ja myydään osittain varauksin, niin sinun kannattaa soittaa myymäläämme: 029 086 4640 tai tulla käymään, sillä suosituimmat mallit myydään nopeasti!<\/p>"
+          }
+        },
+        "template--19067052654936__bdbd376d-1a8d-49a6-953e-9f2d23f899db-168890776797cfe2fd-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19067052654936__bdbd376d-1a8d-49a6-953e-9f2d23f899db-168890776797cfe2fd-0",
+        "template--19067052654936__bdbd376d-1a8d-49a6-953e-9f2d23f899db-168890776797cfe2fd-1",
+        "template--19067052654936__bdbd376d-1a8d-49a6-953e-9f2d23f899db-168890776797cfe2fd-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "7b3b8172-4b12-4191-b85f-38e976408d15": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<iframe\n  src=\"https:\/\/www.tori.fi\/isku-kouvola\" width=\"100%\" height=\"1000px\"\n><\/iframe>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "ce84ed92-7933-426a-9793-e6a959ab28f6": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19035766784344__ce84ed92-7933-426a-9793-e6a959ab28f6-1685440255840c5411-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>ISKU Kouvola<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--19035766784344__ce84ed92-7933-426a-9793-e6a959ab28f6-1685440255840c5411-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Isku Shop Kouvola  <br\/>Tommolankatu 7  <br\/>45130 KOUVOLA  <br\/>puh. 029 086 4640  <br\/>koti.kouvola@isku.fi  <br\/><br\/>Aukioloajat:  <br\/>Myymälä suljettu  <br\/><br\/>Tervetuloa Kouvolan Iskuun!  <br\/>Löydät meidät tutulta paikalta, vanhan Citymarketin rakennuksesta Tommolankadulta. Myymälän edessä on runsaasti ilmaista pysäköintitilaa. <\/p>"
+          }
+        },
+        "template--19035766784344__ce84ed92-7933-426a-9793-e6a959ab28f6-1685440255840c5411-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19035766784344__ce84ed92-7933-426a-9793-e6a959ab28f6-1685440255840c5411-0",
+        "template--19035766784344__ce84ed92-7933-426a-9793-e6a959ab28f6-1685440255840c5411-1",
+        "template--19035766784344__ce84ed92-7933-426a-9793-e6a959ab28f6-1685440255840c5411-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "7c9fcfef-ad60-49e2-a86e-820afb5c3fb9": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--18960932667736__7c9fcfef-ad60-49e2-a86e-820afb5c3fb9-1684169800ae4304ac-2": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/JPG_Keskisuuri_Minna_Haimi_120321_grey.jpg",
+            "title": "Minna Haukkala",
+            "text": "<p>Myyntipäällikkö<\/p><p>050 454 8635<\/p>",
+            "link_label": "Email",
+            "link": "mailto:minna.haukkala@isku.fi"
+          }
+        },
+        "template--18960932667736__7c9fcfef-ad60-49e2-a86e-820afb5c3fb9-1684169800ae4304ac-0": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "mailto:atte.houni@isku.fi"
+          }
+        },
+        "7b5052af-ca4f-47c3-a88a-cdcd75cb537d": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Tero_Raatikainen.jpg",
+            "title": "Tero Raatikainen",
+            "text": "<p>Sisustusmyyjä<br\/>029 086 4909<\/p>",
+            "link_label": "Email",
+            "link": ""
+          }
+        },
+        "3f68feeb-5902-4903-bbe2-2caa01ea25da": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mirella_Virtanen.jpg",
+            "title": "Mirella Virtanen",
+            "text": "<p>Sisustusmyyjä, sisustusarkkitehti<br\/>050 400 1724<\/p>",
+            "link_label": "Email",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18960932667736__7c9fcfef-ad60-49e2-a86e-820afb5c3fb9-1684169800ae4304ac-2",
+        "template--18960932667736__7c9fcfef-ad60-49e2-a86e-820afb5c3fb9-1684169800ae4304ac-0",
+        "7b5052af-ca4f-47c3-a88a-cdcd75cb537d",
+        "3f68feeb-5902-4903-bbe2-2caa01ea25da"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "bdbd376d-1a8d-49a6-953e-9f2d23f899db",
+    "7b3b8172-4b12-4191-b85f-38e976408d15",
+    "ce84ed92-7933-426a-9793-e6a959ab28f6",
+    "7c9fcfef-ad60-49e2-a86e-820afb5c3fb9"
+  ]
+}

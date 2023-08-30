@@ -1,0 +1,181 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "ce84ed92-7933-426a-9793-e6a959ab28f6": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19035766784344__ce84ed92-7933-426a-9793-e6a959ab28f6-1685440255840c5411-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>ISKU Turku<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--19035766784344__ce84ed92-7933-426a-9793-e6a959ab28f6-1685440255840c5411-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Isku Shop Turku  <br\/>Satakunnantie 162  <br\/>20320 TURKU  <br\/>Puh. 029 086 4400  <br\/>myynti.turku@isku.fi  <br\/><br\/>Aukioloajat:  <br\/>Ma-pe: 10 - 18   <br\/>La: 10 - 18    <br\/>Su: 11 - 17      <br\/><br\/>Noutovarasto palvelee osoitteessa Verstaskatu 18, 20360 Turku.  <br\/>Avoinna ma – pe 12-18.  <\/p>"
+          }
+        },
+        "template--19035766784344__ce84ed92-7933-426a-9793-e6a959ab28f6-1685440255840c5411-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19035766784344__ce84ed92-7933-426a-9793-e6a959ab28f6-1685440255840c5411-0",
+        "template--19035766784344__ce84ed92-7933-426a-9793-e6a959ab28f6-1685440255840c5411-1",
+        "template--19035766784344__ce84ed92-7933-426a-9793-e6a959ab28f6-1685440255840c5411-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "7c9fcfef-ad60-49e2-a86e-820afb5c3fb9": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--18960932667736__7c9fcfef-ad60-49e2-a86e-820afb5c3fb9-1684169800ae4304ac-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Masa_Helevaara_grey.jpg",
+            "title": "Masa Helevaara",
+            "text": "<p>Sisustusmyyjä<\/p><p>050 410 6392<\/p>",
+            "link_label": "Email",
+            "link": "mailto:masa.helevaara@isku.fi"
+          }
+        },
+        "template--18960932667736__7c9fcfef-ad60-49e2-a86e-820afb5c3fb9-1684169800ae4304ac-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Juha_Sukari.jpg",
+            "title": "Juha Sukari",
+            "text": "<p>Sisustusmyyjä<br\/>029 086 4406<\/p>",
+            "link_label": "Email",
+            "link": "mailto:juha.sukari@isku.fi"
+          }
+        },
+        "template--18960932667736__7c9fcfef-ad60-49e2-a86e-820afb5c3fb9-1684169800ae4304ac-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Iisa_Sirkia_grey.jpg",
+            "title": "Iisa Sirkiä",
+            "text": "<p>Sisustusmyyjä<\/p><p>050 476 2381<\/p>",
+            "link_label": "Email",
+            "link": "mailto:iisa.sirkia@isku.fi"
+          }
+        },
+        "11443aed-07f7-4174-9bb7-d290d20d1cef": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Julia_Isku_Turku_grey.jpg",
+            "title": "Julia Salin",
+            "text": "<p>Sisustusmyyjä<\/p><p>050 435 4572<\/p>",
+            "link_label": "Email",
+            "link": "mailto:julia.salin@isku.fi"
+          }
+        },
+        "7b5052af-ca4f-47c3-a88a-cdcd75cb537d": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hahmo.jpg",
+            "title": "Heidi Suomento-Kivi",
+            "text": "<p>Sisustusmyyjä<br\/>044 792 4410<\/p>",
+            "link_label": "Email",
+            "link": "mailto:heidi.suomento-kivi@isku.fi"
+          }
+        },
+        "3f68feeb-5902-4903-bbe2-2caa01ea25da": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/thumbnail_Anna_Segerstrale_grey.jpg",
+            "title": "Anna Segerstråle",
+            "text": "<p>Sisustusarkkitehti<br\/>050 479 0704<\/p>",
+            "link_label": "Email",
+            "link": "mailto:anna.segerstrale@isku.fi"
+          }
+        },
+        "9c17c02f-cb9c-4870-88be-2523eee52914": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Gr__ndahl_Ida.jpg",
+            "title": "Ida Gröndahl",
+            "text": "<p>Sisustusarkkitehti<br\/>050 479 0641<\/p>",
+            "link_label": "Email",
+            "link": "mailto:ida.grondahl@isku.fi"
+          }
+        },
+        "2e684361-5f9f-49a5-8d26-112c510d9d7a": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Annika-Hyvarinen.jpg",
+            "title": "Annika Hyvärinen",
+            "text": "<p>Sisustussuunnittelija<br\/>050 473 5631<\/p>",
+            "link_label": "Email",
+            "link": "mailto:annika.hyvarinen@isku.fi"
+          }
+        },
+        "5cf93dcf-e081-48fa-9a68-50c60d23db13": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Sami_Salom_ki_250619_ID_E-mail__800x800_09f5ffb7-b058-4b42-ba4a-bf30d4d5907e.jpg",
+            "title": "Sami Salomäki",
+            "text": "<p>Aluepäällikkö<br\/>029 086 4111<\/p>",
+            "link_label": "Email",
+            "link": "mailto:sami.salomaki@isku.fi"
+          }
+        }
+      },
+      "block_order": [
+        "template--18960932667736__7c9fcfef-ad60-49e2-a86e-820afb5c3fb9-1684169800ae4304ac-2",
+        "template--18960932667736__7c9fcfef-ad60-49e2-a86e-820afb5c3fb9-1684169800ae4304ac-0",
+        "template--18960932667736__7c9fcfef-ad60-49e2-a86e-820afb5c3fb9-1684169800ae4304ac-1",
+        "11443aed-07f7-4174-9bb7-d290d20d1cef",
+        "7b5052af-ca4f-47c3-a88a-cdcd75cb537d",
+        "3f68feeb-5902-4903-bbe2-2caa01ea25da",
+        "9c17c02f-cb9c-4870-88be-2523eee52914",
+        "2e684361-5f9f-49a5-8d26-112c510d9d7a",
+        "5cf93dcf-e081-48fa-9a68-50c60d23db13"
+      ],
+      "settings": {
+        "title": "Palveluksessasi",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "ce84ed92-7933-426a-9793-e6a959ab28f6",
+    "7c9fcfef-ad60-49e2-a86e-820afb5c3fb9"
+  ]
+}

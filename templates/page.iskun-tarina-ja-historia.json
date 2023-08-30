@@ -317,8 +317,22 @@
         "padding_bottom": 50,
         "reverse": false,
         "text_centered": false,
-        "title": "Täyskäännös",
-        "text": "<p>Arto Tiitinen aloitti ISKUn toimitusjohtajana vuonna 2011. ISKU sai puun alkuperän seurantajärjestelmälle (Chain of Custody) annettavan PEFC-sertifioinnin ja koko ISKUn tuotanto on PEFC-sertifioitua. ISKU laajensi liiketoimintaansa työterveyshuoltoon ja myös sertifioi työterveys- ja turvallisuusjärjestelmänsä. <\/p><p>Vuonna 2016 ISKUn brändi-identiteetti uusittiin. Myös osa ISKUn tehdasrakennuksesta muutetiin moderniksi oppimisympäristöksi 5000 LAB-ammattikorkeakoulun opiskelijalle. Vuosien 2014-2021 aikana ISKU on investoinut yli 100 miljoonaa euroa Lahteen.<\/p>",
+        "title": "Katse vastuullisuuteen ja kotimaisuuteen",
+        "text": "<p>Arto Tiitinen aloitti ISKUn toimitusjohtajana vuonna 2011. Vuosien aikana ISKU on panostanut merkittävästi vastuullisuuteen sekä kotimaiseen valmistukseen. ISKU sai puun alkuperän seurantajärjestelmälle (Chain of Custody) annettavan PEFC-sertifioinnin ja koko ISKUn tuotanto on PEFC-sertifioitua. ISKU myös sertifioi työterveys- ja turvallisuusjärjestelmänsä. Vuosien 2014-2021 aikana ISKU on investoinut yli 100 miljoonaa euroa Lahteen. Tuotanto modernisoitiin Pohjois-Euroopan nykyaikaisimmaksi huonekalutehtaaksi ja osa ISKUn tehdasrakennuksesta muutetiin moderniksi oppimisympäristöksi viidelle tuhannelle LAB-ammattikorkeakoulun opiskelijalle.<\/p>",
+        "btn_text": "",
+        "btn_url": ""
+      }
+    },
+    "a87199e8-ff7e-4de0-b1b3-53f407e2b0d7": {
+      "type": "about-image-text",
+      "disabled": true,
+      "settings": {
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "reverse": false,
+        "text_centered": false,
+        "title": "Katse vastuullisuuteen ja kotimaisuuteen",
+        "text": "<p>Arto Tiitinen aloitti ISKUn toimitusjohtajana vuonna 2011. Vuosien aikana ISKU on panostanut merkittävästi vastuullisuuteen sekä kotimaiseen valmistukseen. ISKU sai puun alkuperän seurantajärjestelmälle (Chain of Custody) annettavan PEFC-sertifioinnin ja koko ISKUn tuotanto on PEFC-sertifioitua. ISKU myös sertifioi työterveys- ja turvallisuusjärjestelmänsä. Vuosien 2014-2021 aikana ISKU on investoinut yli 100 miljoonaa euroa Lahteen. Tuotanto modernisoitiin Pohjois-Euroopan nykyaikaisimmaksi huonekalutehtaaksi ja osa ISKUn tehdasrakennuksesta muutetiin moderniksi oppimisympäristöksi viidelle tuhannelle LAB-ammattikorkeakoulun opiskelijalle.<\/p>",
         "btn_text": "",
         "btn_url": ""
       }
@@ -338,6 +352,7 @@
     "70f8f710-3ab3-4492-b88d-3f405602e106",
     "0b69aa3b-2b8b-4c37-9edc-98f092ec3eac",
     "12783725-0187-4282-8ea1-a004b07ba5a3",
-    "fbceeca6-daa9-45d1-9e92-4163858c95c4"
+    "fbceeca6-daa9-45d1-9e92-4163858c95c4",
+    "a87199e8-ff7e-4de0-b1b3-53f407e2b0d7"
   ]
 }

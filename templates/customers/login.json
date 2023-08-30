@@ -1,5 +1,35 @@
 {
   "sections": {
+    "78de24f9-64ca-417c-806b-8919484d9d35": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15630143258724__78de24f9-64ca-417c-806b-8919484d9d35-168595902346d46587-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Tervetuloa uuteen verkkokauppaan<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--15630143258724__78de24f9-64ca-417c-806b-8919484d9d35-168595902346d46587-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Olemme siirtyneet uuteen Shopify -verkkokauppaan ja toivomme, että asiakaskokemuksesi on paljon parempi verrattuna entiseen. Mikäli olet vanha asiakkaamme, niin valitettavasti vanhojen tilien siirto uuteen verkkokauppaan ei ole mahdollista. Joten sinun tulee luoda uusi tili halutessasi. Ostokset onnistuvat myös ilman tilin luomista.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15630143258724__78de24f9-64ca-417c-806b-8919484d9d35-168595902346d46587-0",
+        "template--15630143258724__78de24f9-64ca-417c-806b-8919484d9d35-168595902346d46587-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "main": {
       "type": "main-login",
       "settings": {
@@ -9,6 +39,7 @@
     }
   },
   "order": [
+    "78de24f9-64ca-417c-806b-8919484d9d35",
     "main"
   ]
 }

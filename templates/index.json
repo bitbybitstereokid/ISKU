@@ -1,37 +1,144 @@
 {
   "sections": {
-    "468448b2-8437-4b13-89c7-cf60342c62ae": {
+    "167c3ec6-a065-4ef8-83ee-d06072ae05fb": {
       "type": "hero-banner-slider",
       "blocks": {
-        "c2d11906-9a42-4ce1-b13b-37495790ff47": {
-          "type": "slider",
-          "settings": {
-            "title": "Kaikki tuotteet -20% | Löytöjä jopa -40%",
-            "content": "",
-            "button": "Kaikki tuotteet",
-            "button_url": "shopify:\/\/collections\/all",
-            "button_style": "primary-btn",
-            "image": "shopify:\/\/shop_images\/Nimeton_malli_14.png",
-            "image_mobile": "shopify:\/\/shop_images\/Brafab_miljoo_Sandkorn_Varm_Amarante_Kotte_Como.jpg"
-          }
-        },
-        "d2162bde-2b0e-4d0e-b3c0-f7a519aeeee0": {
+        "6683040b-410a-4a0c-bb71-11182bbb2e2d": {
           "type": "slider",
           "disabled": true,
           "settings": {
-            "title": "Comfort and Style |That Will Transform Your Home",
-            "content": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat |duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
-            "button": "LEARN MORE",
-            "button_url": "shopify:\/\/pages\/a-lifetime-with-isku",
+            "title": "Kesäale päättyy sunnuntaina!",
+            "content": "Kampanja voimassa 30.7. asti.",
+            "button": "HAE OMASI PIAN",
+            "button_url": "shopify:\/\/collections\/kesaale",
             "button_style": "primary-btn",
-            "image": "shopify:\/\/shop_images\/Rectangle_4_3.png",
-            "image_mobile": "shopify:\/\/shop_images\/Rectangle_4_4.png"
+            "image": "shopify:\/\/shop_images\/Kansikuva_1928x1080_1.png",
+            "image_mobile": "shopify:\/\/shop_images\/Kansikuva_mobiili_1080x1616_1_1.png"
+          }
+        },
+        "a4d43412-1b30-40cd-8b02-738044276873": {
+          "type": "slider",
+          "disabled": true,
+          "settings": {
+            "title": "Satoi tai paistoi!  |Kaikki vähintään -20%",
+            "content": "Nyt juhlitaan Tampereen myymälän synttäreitä| kaikissa myymälöissä sekä verkossa koko pitkä viikonloppu maanantai 7.8. iltaan saakka!",
+            "button": "Katso kaikki tarjoukset",
+            "button_url": "https:\/\/isku.fi\/collections\/koko-valikoima",
+            "button_style": "primary-btn",
+            "image": "shopify:\/\/shop_images\/Kansikuva_1928x1080_2.png",
+            "image_mobile": "shopify:\/\/shop_images\/Kansikuva_mobiili_1080x1616_2.png"
+          }
+        },
+        "9c393ca7-ad67-47ad-a4aa-b5344746580b": {
+          "type": "slider",
+          "settings": {
+            "title": "Comfort and Style |That Will Wransform Your Home",
+            "content": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+            "button": "LEARN MORE",
+            "button_url": "",
+            "button_style": "primary-btn"
           }
         }
       },
       "block_order": [
-        "c2d11906-9a42-4ce1-b13b-37495790ff47",
-        "d2162bde-2b0e-4d0e-b3c0-f7a519aeeee0"
+        "6683040b-410a-4a0c-bb71-11182bbb2e2d",
+        "a4d43412-1b30-40cd-8b02-738044276873",
+        "9c393ca7-ad67-47ad-a4aa-b5344746580b"
+      ],
+      "disabled": true,
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 50,
+        "content_color": "#ffffff"
+      }
+    },
+    "0e85d77f-389f-4f3b-b5d1-6c14109510c8": {
+      "type": "hero-banner-slider",
+      "blocks": {
+        "f569850d-67e3-4cc1-9d6a-a33d3a26e7fd": {
+          "type": "slider",
+          "disabled": true,
+          "settings": {
+            "title": "Kaikki Rowicon tuotteet -20%",
+            "content": "Kampanja voimassa 31.7. asti",
+            "button": "Tutustu valikoimaan",
+            "button_url": "shopify:\/\/collections\/rowico",
+            "button_style": "primary-btn",
+            "image": "shopify:\/\/shop_images\/rowico-banner1.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/Skye-ruokapoyta-h.120-cm-rowico-1686586511.jpg"
+          }
+        },
+        "5ca00699-dfa4-4c47-93b2-eecc141cf191": {
+          "type": "slider",
+          "disabled": true,
+          "settings": {
+            "title": "Kaikki Lundian tuotteet –20 %",
+            "content": "Lundian brändiviikko voimassa 27.8. asti.",
+            "button": "Lundian tuotteisiin",
+            "button_url": "shopify:\/\/collections\/lundia",
+            "button_style": "primary-btn",
+            "image": "shopify:\/\/shop_images\/hetki-banner.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/hetki-mobiilibanner.jpg"
+          }
+        },
+        "65bcb181-e56b-447a-8834-5851aba02a01": {
+          "type": "slider",
+          "disabled": true,
+          "settings": {
+            "title": "Tervetuloa kesäkauden päätösjuhliin!",
+            "content": "Kesäkauden päätösjuhlilta löydät valtavasti tuotteita huimilla eduilla varustettuna! | Edut ovat voimassa myymälöissä ja verkkokaupassa 27.8. saakka.",
+            "button": "KAMPANJATUOTTEISIIN TÄSTÄ",
+            "button_url": "https:\/\/isku.fi\/collections\/kampanjaedut",
+            "button_style": "primary-btn",
+            "image": "shopify:\/\/shop_images\/kesakauden-paatosjuhla-banner.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/kesakauden-paatosjuhla-mobiili.jpg"
+          }
+        },
+        "591e9494-2638-4160-a7db-4a970f474956": {
+          "type": "slider",
+          "settings": {
+            "title": "SUPERETU MOOTTORISÄNGYISTÄ!",
+            "content": "Kotimaiset UNIGOLD Ilo-, Onni- & Haave-moottorisängyt runkosängyn hinnalla! | Kampanja voimassa 3.9. asti.",
+            "button": "Kampanjasängyt",
+            "button_url": "shopify:\/\/collections\/kotimaiset-unigold-moottorisangyt-runkosangyn-hinnalla",
+            "button_style": "primary-btn",
+            "image": "shopify:\/\/shop_images\/unigold-motari-banner.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/unigold-banner-mobiili.jpg"
+          }
+        },
+        "bd527401-257e-4638-a653-f4a5a7e7dd60": {
+          "type": "slider",
+          "settings": {
+            "title": "Kaikki ISKUn kotimaiset sohvat –20 %",
+            "content": "Kampanja voimassa 10.9. asti.",
+            "button": "Tutustu valikoimaan",
+            "button_url": "shopify:\/\/collections\/iskun-kotimaiset-sohvat",
+            "button_style": "primary-btn",
+            "image": "shopify:\/\/shop_images\/monkey-banner.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/monkey-mobiilibanner.jpg"
+          }
+        },
+        "d086ed09-5381-4ef5-9dea-af3ec1fe16a8": {
+          "type": "slider",
+          "disabled": true,
+          "settings": {
+            "title": "Mallisto uudistuu! | LOPUT JENSEN-MYYMÄLÄMALLIT –50 %",
+            "content": "Mallit vaihtelevat myymälöittäin. Ei koske verkkokauppaa.",
+            "button": "ETSI LÄHIN MYYMÄLÄSI",
+            "button_url": "https:\/\/isku.fi\/pages\/myymalat",
+            "button_style": "primary-btn",
+            "image": "shopify:\/\/shop_images\/Jensen_1200x600_d5eda73b-4d6e-470d-bd21-4a2d042d9757.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/Jensen_1200x600_e65273b6-b5c7-4d97-9886-5e113ff942ab.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "f569850d-67e3-4cc1-9d6a-a33d3a26e7fd",
+        "5ca00699-dfa4-4c47-93b2-eecc141cf191",
+        "65bcb181-e56b-447a-8834-5851aba02a01",
+        "591e9494-2638-4160-a7db-4a970f474956",
+        "bd527401-257e-4638-a653-f4a5a7e7dd60",
+        "d086ed09-5381-4ef5-9dea-af3ec1fe16a8"
       ],
       "settings": {
         "padding_top": 0,
@@ -39,15 +146,15 @@
         "content_color": "#ffffff"
       }
     },
-    "7afba2d3-d985-4d50-9730-69ffe8de69b8": {
+    "82070c0b-0994-4d9c-bbb9-719ddb83bb64": {
       "type": "featured-collection",
       "settings": {
-        "title": "Suosikit pihaan ja terassille",
-        "heading_size": "h2",
-        "description": "",
+        "title": "Kaikki ISKUn Lahdessa valmistetut sohvat –20 %",
+        "heading_size": "h1",
+        "description": "<p>Kampanja voimassa 10.9. asti. <\/p>",
         "show_description": false,
         "description_style": "body",
-        "collection": "viikon-suosikit",
+        "collection": "iskun-kotimaiset-sohvat",
         "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
@@ -64,6 +171,162 @@
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "5b514ab5-b149-429f-acce-bd4525e17152": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Kaikki Pohjanmaan sohvat –25 %",
+        "heading_size": "h1",
+        "description": "<p>Kampanja voimassa 3.9. asti.<\/p>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "pohjanmaan-sohvat",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "17f24b99-fc36-4e71-a533-0ca58776b4cc": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Erä BW Active Table -pöytiä –40 %",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "bw-rise-sahkopoydat-tuoli-50-ja-tuoli-53-20",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "80ff69db-4dc7-49ab-aef0-a7023fea067a": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Valikoidut sohvat jopa –40 %",
+        "heading_size": "h1",
+        "description": "<p>Edut voimassa 3.9. asti.<\/p>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "valikoidut-sohvat-jopa-40",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "e4d52ef1-778f-4424-a4ac-cea126c8080e": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Erä TEMPUR -tuotteita –30 %",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "era-tempur-tuotteita-30",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "204ff508-d664-4848-8eaa-b60faffdbad7": {
+      "type": "hero-banner-half",
+      "disabled": true,
+      "settings": {
+        "text_align": "left",
+        "image_position": "left",
+        "image_position_mobile": "top",
+        "image": "shopify:\/\/shop_images\/jensen-makuuhuone-miljoo.jpg",
+        "title": "Mallisto uudistuu! LOPUT JENSEN-MYYMÄLÄMALLIT -50%",
+        "small": true,
+        "text": "Mallit vaihtelevat myymälöittäin. Kampanja ei koske verkkokauppaa.",
+        "button_style": "primary",
+        "btn_text": "ETSI LÄHIN MYYMÄLÄSI",
+        "btn_url": "shopify:\/\/pages\/myymalat",
+        "padding_top": 0,
+        "padding_bottom": 50,
+        "full_width": true,
+        "bg_color": "#f3f3f3",
+        "text_color": "#373737"
+      }
+    },
+    "0961df4d-7bf5-4dee-a475-d345c73159a6": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Viimeinen erä puutarhakalusteita nyt huippuhinnoin!",
+        "heading_size": "h1",
+        "description": "<p>Kampanja voimassa 31.8. asti tai niin kauan kuin tuotteita riittää<\/p>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "puutarhakalusteet",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 16,
+        "padding_bottom": 16
       }
     },
     "165ada33-7568-45ff-a3ed-4d70620bfee3": {
@@ -105,10 +368,9 @@
         "a778f8ef-e09b-4440-805d-cf2009c6cad5": {
           "type": "collection",
           "settings": {
-            "collection": "etatyokalusteet",
-            "title": "Etätyökalusteet",
-            "image": "shopify:\/\/shop_images\/kotitoimisto-bw-rise.webp",
-            "url": "shopify:\/\/collections\/etatyokalusteet"
+            "collection": "sailytys",
+            "title": "Säilytys",
+            "url": "shopify:\/\/collections\/sailytys"
           }
         }
       },
@@ -127,25 +389,113 @@
         "padding_bottom_mobile": 40
       }
     },
-    "5ffa3993-f36e-4b26-a08a-60dd72c4d9be": {
+    "5993348a-c4dd-4187-99c2-235278567e84": {
+      "type": "hero-banner-half",
+      "settings": {
+        "text_align": "left",
+        "image_position": "left",
+        "image_position_mobile": "top",
+        "image": "shopify:\/\/shop_images\/Second-Chance-1200x1200.jpg",
+        "title": "Second Chance – Toinen mahdollisuus sinulle ja sohvallesi!",
+        "small": true,
+        "text": "ISKUn Second Chance -palvelun ytimessä on ajatus siitä, että jokaisella huonekalulla on mahdollisuus aloittaa uusi tarina. Huolehdimme enintään viisi vuotta vanhalle ISKUn sohvallesi uuden kodin ja saat hankkia uuden ISKUn Lahdessa valmistaman sohvan viiden vuoden kuluessa ostopäivästä erityisellä -40 % edulla.",
+        "button_style": "primary",
+        "btn_text": "Tutustu palveluun",
+        "btn_url": "shopify:\/\/pages\/second-chance-kierratyspalvelu",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "full_width": true,
+        "bg_color": "#f3f3f3",
+        "text_color": "#373737"
+      }
+    },
+    "6ea8728a-b377-4af1-8cca-5cddc452334b": {
+      "type": "hero-banner-slider",
+      "blocks": {
+        "722baa0f-3485-4be8-b411-7dd9425ef73d": {
+          "type": "slider",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "content": "",
+            "button": "",
+            "button_url": "",
+            "button_style": "primary-btn",
+            "image": "shopify:\/\/shop_images\/Header_desktop_fin.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/Header_mobile_fin.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "722baa0f-3485-4be8-b411-7dd9425ef73d"
+      ],
+      "disabled": true,
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 14,
+        "content_color": "#ffffff"
+      }
+    },
+    "5496ccaf-fb83-4451-9659-40ec4ab29060": {
+      "type": "hero-banner-half",
+      "settings": {
+        "text_align": "left",
+        "image_position": "right",
+        "image_position_mobile": "top",
+        "image": "shopify:\/\/shop_images\/ergo-plus.jpg",
+        "title": "Uudet ergonomiset KEBE-nojatuolit nyt ISKUsta!",
+        "small": true,
+        "text": "",
+        "button_style": "primary",
+        "btn_text": "Tutustu uutuuksiin",
+        "btn_url": "shopify:\/\/collections\/kebe-nojatuolit",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "full_width": true,
+        "bg_color": "#f3f3f3",
+        "text_color": "#121212"
+      }
+    },
+    "f2924892-e962-4009-ba1e-f52fc1b3d5ab": {
+      "type": "hero-banner-half",
+      "disabled": true,
+      "settings": {
+        "text_align": "left",
+        "image_position": "right",
+        "image_position_mobile": "top",
+        "image": "shopify:\/\/shop_images\/Jensen-myymalamallit-40.jpg",
+        "title": "Jensenin myymälämallit -40%",
+        "small": true,
+        "text": "Uudistamme mallistoamme ja saat nyt kaikki myymälöissä olevat mallit -40%. Valikoima vaihtelee myymälöittäin.",
+        "button_style": "primary",
+        "btn_text": "OTA YHTEYS MYYMÄLÄÄSI",
+        "btn_url": "https:\/\/isku.fi\/pages\/myymalat",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "full_width": true,
+        "bg_color": "#f3f3f3",
+        "text_color": "#121212"
+      }
+    },
+    "d3b8e05b-63a6-43cd-b997-1f9a13b897ef": {
       "type": "hero-banner-half",
       "disabled": true,
       "settings": {
         "text_align": "left",
         "image_position": "left",
         "image_position_mobile": "top",
-        "image": "shopify:\/\/shop_images\/homepage.jpg",
-        "title": "ISKUn Brändiviikko!",
-        "small": false,
-        "text": "Saat 5.3. saakka ISKUn Lahden omalla tehtaalla valmistetuista tuotteista suosikkisi -30% koodilla ISKU-30!",
+        "image": "shopify:\/\/shop_images\/Nimeton_malli_30_1.png",
+        "title": "ISKU on mukana asuntomessuilla!",
+        "small": true,
+        "text": "Asuntomessut 2023 järjestetään Loviisassa Kuningattarenrannan alueella noin kilometrin päässä Loviisan keskustasta. Alueelta ovat näkymät Loviisanlahden yli vastarannalle historialliseen alakaupunkiin. Messut ovat avoinna kävijöille 7.7. –6.8.2023.|\nISKU on tuttuun tapaan mukana Asuntomessuilla ja sisustussuunnittelijoidemme kalustamia kohteita ovat Talo Tallbacka, Huila sekä Queen’s Stone. \n\nISKUn loistava tiimi on myös messuteltassa tarjoamassa mitä parhaimpia messuetuja ja palvelemassa messukävijöitä, joten tule sinäkin käymään Asuntomessuilla moikkaamassa!",
         "button_style": "primary",
-        "btn_text": "ISKUN TUOTTEISIIN TÄSTÄ",
+        "btn_text": "",
         "btn_url": "",
-        "padding_top": 0,
+        "padding_top": 50,
         "padding_bottom": 50,
         "full_width": true,
-        "bg_color": "#0f4880",
-        "text_color": "#ffffff"
+        "bg_color": "#f3f3f3",
+        "text_color": "#121212"
       }
     },
     "de0f6296-9452-488f-a982-a31b8b396fff": {
@@ -218,7 +568,6 @@
     },
     "03254933-067d-4aaf-8f4a-611de34d2b27": {
       "type": "grid-section",
-      "disabled": true,
       "blocks": {
         "template--18265806242090__03254933-067d-4aaf-8f4a-611de34d2b27-1678440586048b43de-0": {
           "type": "item",
@@ -259,55 +608,7 @@
         "template--18265806242090__03254933-067d-4aaf-8f4a-611de34d2b27-1678440586048b43de-2",
         "template--18265806242090__03254933-067d-4aaf-8f4a-611de34d2b27-1678440586048b43de-3"
       ],
-      "settings": {
-        "title": "Title",
-        "padding_top": 50,
-        "padding_bottom": 50
-      }
-    },
-    "71faa244-acd3-4776-9fcf-94afd49f27c6": {
-      "type": "grid-section",
       "disabled": true,
-      "blocks": {
-        "template--18265806242090__71faa244-acd3-4776-9fcf-94afd49f27c6-1678440586048b43de-0": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/minimal-picture-frame-with-scandinavian-design_1_01037e12-c50a-4bfe-99f8-6042f9f2f4a4.jpg",
-            "title": "Sohvat Ja Nojatuolit",
-            "url": ""
-          }
-        },
-        "template--18265806242090__71faa244-acd3-4776-9fcf-94afd49f27c6-1678440586048b43de-1": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/vintage-ceiling-light-lamp_1_c2a505e6-4d67-4a7f-89ef-e7caf88d4c53.jpg",
-            "title": "Tasot, Hyllyt Ja Säilytys",
-            "url": ""
-          }
-        },
-        "template--18265806242090__71faa244-acd3-4776-9fcf-94afd49f27c6-1678440586048b43de-2": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/minimalistic-still-life-with-candles-interior-room_1_20fa9c7f-1bb2-4839-8682-90b5e9957fd4.jpg",
-            "title": "Puutarhakalusteet",
-            "url": ""
-          }
-        },
-        "template--18265806242090__71faa244-acd3-4776-9fcf-94afd49f27c6-1678440586048b43de-3": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/interior-design-with-photoframes-shelves_1_8d9755cc-00d4-4e94-821d-133882ef98b3.jpg",
-            "title": "Valaisimet",
-            "url": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--18265806242090__71faa244-acd3-4776-9fcf-94afd49f27c6-1678440586048b43de-0",
-        "template--18265806242090__71faa244-acd3-4776-9fcf-94afd49f27c6-1678440586048b43de-1",
-        "template--18265806242090__71faa244-acd3-4776-9fcf-94afd49f27c6-1678440586048b43de-2",
-        "template--18265806242090__71faa244-acd3-4776-9fcf-94afd49f27c6-1678440586048b43de-3"
-      ],
       "settings": {
         "title": "Title",
         "padding_top": 50,
@@ -328,21 +629,6 @@
         "btn_url": "shopify:\/\/collections\/interface"
       }
     },
-    "b9432f4d-03b8-46a9-af6c-e2e8cbe547e1": {
-      "type": "hero-banner-secondary",
-      "disabled": true,
-      "settings": {
-        "image": "shopify:\/\/shop_images\/homepage3.jpg",
-        "title": "Trendikäs Uutuus Tuoli 53 On Täällä!",
-        "btn_text": "TUTUSTU TÄSTÄ",
-        "btn_url": "shopify:\/\/collections\/chairs",
-        "padding_top": 50,
-        "padding_bottom": 0,
-        "content_position": "center",
-        "full_width": true,
-        "overlay": true
-      }
-    },
     "99b95b1a-5e12-46bc-8d88-c0a756a10df4": {
       "type": "hero-banner-half",
       "settings": {
@@ -361,33 +647,6 @@
         "full_width": true,
         "bg_color": "#f3f3f3",
         "text_color": "#121212"
-      }
-    },
-    "273fe876-ab7b-4aad-8dec-4cf8c8f92d7c": {
-      "type": "about-image-text",
-      "disabled": true,
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Rectangle_42_84085027-b1f5-478b-b8a0-5497189359e4.jpg",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "reverse": true,
-        "text_centered": true,
-        "title": "Title",
-        "text": "<p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.  Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Velit officia consequat duis enim velit mollit. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.<\/p><p>Exercitation veniam consequat sunt nostrud amet. Exercitatio n veniam consequat sunt nostrud amet.Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.<\/p>",
-        "btn_text": "Lue lisää",
-        "btn_url": ""
-      }
-    },
-    "feb9c2fd-6386-484f-903f-7acd018a6e98": {
-      "type": "blog-preview",
-      "disabled": true,
-      "settings": {
-        "blog": "kampanjat",
-        "title": "Blog",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "padding_top_mobile": 40,
-        "padding_bottom_mobile": 40
       }
     },
     "c8acecc1-e53e-43a2-9708-51112c7d2ff1": {
@@ -444,21 +703,28 @@
     }
   },
   "order": [
-    "468448b2-8437-4b13-89c7-cf60342c62ae",
-    "7afba2d3-d985-4d50-9730-69ffe8de69b8",
+    "167c3ec6-a065-4ef8-83ee-d06072ae05fb",
+    "0e85d77f-389f-4f3b-b5d1-6c14109510c8",
+    "82070c0b-0994-4d9c-bbb9-719ddb83bb64",
+    "5b514ab5-b149-429f-acce-bd4525e17152",
+    "17f24b99-fc36-4e71-a533-0ca58776b4cc",
+    "80ff69db-4dc7-49ab-aef0-a7023fea067a",
+    "e4d52ef1-778f-4424-a4ac-cea126c8080e",
+    "204ff508-d664-4848-8eaa-b60faffdbad7",
+    "0961df4d-7bf5-4dee-a475-d345c73159a6",
     "165ada33-7568-45ff-a3ed-4d70620bfee3",
-    "5ffa3993-f36e-4b26-a08a-60dd72c4d9be",
+    "5993348a-c4dd-4187-99c2-235278567e84",
+    "6ea8728a-b377-4af1-8cca-5cddc452334b",
+    "5496ccaf-fb83-4451-9659-40ec4ab29060",
+    "f2924892-e962-4009-ba1e-f52fc1b3d5ab",
+    "d3b8e05b-63a6-43cd-b997-1f9a13b897ef",
     "de0f6296-9452-488f-a982-a31b8b396fff",
     "24f39b0f-ddeb-4fe4-b950-1ff47944f981",
     "a62c2669-6545-452b-8c54-de617831aae4",
     "8552a01e-70d9-4704-bd5c-ea9f9440e455",
     "03254933-067d-4aaf-8f4a-611de34d2b27",
-    "71faa244-acd3-4776-9fcf-94afd49f27c6",
     "3d45458a-fc10-48c0-80b4-70414810b48e",
-    "b9432f4d-03b8-46a9-af6c-e2e8cbe547e1",
     "99b95b1a-5e12-46bc-8d88-c0a756a10df4",
-    "273fe876-ab7b-4aad-8dec-4cf8c8f92d7c",
-    "feb9c2fd-6386-484f-903f-7acd018a6e98",
     "c8acecc1-e53e-43a2-9708-51112c7d2ff1",
     "72599099-35e9-4513-bd8c-5323b6f189e2",
     "3abcb0f4-2f21-4c2c-8a03-e4c026e3c75c"

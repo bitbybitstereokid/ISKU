@@ -1,0 +1,799 @@
+{
+  "sections": {
+    "681cc2a2-0268-4186-b413-0bffd6085c5e": {
+      "type": "about-breadcrumbs",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "c618eb82-4f5d-4665-b38e-8fc9a1ad2a8b": {
+      "type": "hero-banner-slider",
+      "disabled": true,
+      "blocks": {
+        "9f7eacfe-df3e-40aa-80a2-3dbd467dd77a": {
+          "type": "slider",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "content": "",
+            "button": "LEARN MORE",
+            "button_url": "",
+            "button_style": "primary-btn",
+            "image": "shopify:\/\/shop_images\/ale-banner.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/1080x1616_ALE1.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "9f7eacfe-df3e-40aa-80a2-3dbd467dd77a"
+      ],
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 43,
+        "content_color": "#ffffff"
+      }
+    },
+    "987ca2e3-c6e0-4b8a-beb0-690dc0de3e09": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "ISKUn suuri kesäale!",
+        "heading_size": "h0",
+        "description": "<p>Kesäale on vihdoin täällä ja sehän tarkoittaa satoja huimia tarjouksia niin myymälöissä kuin verkkokaupassakin. Tarjoukset nousevat jopa 55% saakka ja osaa tuotteista on vain rajoitettu erä, joten toimithan nopeasti! Kesäale on voimassa 30.7. saakka.<\/p>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "ale-kaikki-tuotteet",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "146b1d89-c48b-4f77-b4d1-8c3c6f1a5437": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "ALE – Loput puutarhakalusteet -40%",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "puutarhakalusteet",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "70342be4-c348-4fc1-88c1-39ba0db95416": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "ALE – Sohvat ja nojatuolit",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "ale-sohvat-ja-nojatuolit",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "f7c73974-566d-4d28-bfe9-a8da295487eb": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Erä Rowicon tuotteita jopa -50%",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "era-rowicon-tuotteita-jopa-50",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "39b59852-0e85-43ff-b7ff-add258e7e0a4": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "ALE – Ruokapöydät",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "ale-ruokapoydat",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "0c8eb791-445b-43f1-92d9-a8668bf1df1a": {
+      "type": "featured-product",
+      "blocks": {
+        "template--19083534696792__0c8eb791-445b-43f1-92d9-a8668bf1df1a-168794276994bb4893-0": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "template--19083534696792__0c8eb791-445b-43f1-92d9-a8668bf1df1a-168794276994bb4893-1": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "template--19083534696792__0c8eb791-445b-43f1-92d9-a8668bf1df1a-168794276994bb4893-2": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "template--19083534696792__0c8eb791-445b-43f1-92d9-a8668bf1df1a-168794276994bb4893-3": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "template--19083534696792__0c8eb791-445b-43f1-92d9-a8668bf1df1a-168794276994bb4893-4": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "template--19083534696792__0c8eb791-445b-43f1-92d9-a8668bf1df1a-168794276994bb4893-5": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "template--19083534696792__0c8eb791-445b-43f1-92d9-a8668bf1df1a-168794276994bb4893-6": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "template--19083534696792__0c8eb791-445b-43f1-92d9-a8668bf1df1a-168794276994bb4893-0",
+        "template--19083534696792__0c8eb791-445b-43f1-92d9-a8668bf1df1a-168794276994bb4893-1",
+        "template--19083534696792__0c8eb791-445b-43f1-92d9-a8668bf1df1a-168794276994bb4893-2",
+        "template--19083534696792__0c8eb791-445b-43f1-92d9-a8668bf1df1a-168794276994bb4893-3",
+        "template--19083534696792__0c8eb791-445b-43f1-92d9-a8668bf1df1a-168794276994bb4893-4",
+        "template--19083534696792__0c8eb791-445b-43f1-92d9-a8668bf1df1a-168794276994bb4893-5",
+        "template--19083534696792__0c8eb791-445b-43f1-92d9-a8668bf1df1a-168794276994bb4893-6"
+      ],
+      "settings": {
+        "product": "aino-pinnatuoli",
+        "color_scheme": "background-1",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "cc87dcd7-9198-4b10-8d4b-68b78724e1aa": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "ALE – Ruokapöydän tuolit",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "ale-ruokapoydan-tuolit",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "8596ee0e-1a9e-4bf5-b40a-6fd5c3f66e38": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "ALE  – Hyllyköt, tasot ja säilytys",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "ale-sailytys",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "3ebcd76f-5270-4ccc-b8d1-2ac425174f1f": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "ALE – Kaikki Jensen-sängyt -25%",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "jensen",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1cfc268c-9d8f-47e1-ae64-bff777bcba5e": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "ALE – Sängyt",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "ale-nukkuminen",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "7a4e33bd-29ce-4acf-89dd-836186a6df94": {
+      "type": "featured-product",
+      "blocks": {
+        "template--19083534696792__7a4e33bd-29ce-4acf-89dd-836186a6df94-16884677051048c66c-0": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "template--19083534696792__7a4e33bd-29ce-4acf-89dd-836186a6df94-16884677051048c66c-1": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "template--19083534696792__7a4e33bd-29ce-4acf-89dd-836186a6df94-16884677051048c66c-2": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "template--19083534696792__7a4e33bd-29ce-4acf-89dd-836186a6df94-16884677051048c66c-3": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "template--19083534696792__7a4e33bd-29ce-4acf-89dd-836186a6df94-16884677051048c66c-4": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "template--19083534696792__7a4e33bd-29ce-4acf-89dd-836186a6df94-16884677051048c66c-5": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "template--19083534696792__7a4e33bd-29ce-4acf-89dd-836186a6df94-16884677051048c66c-6": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "template--19083534696792__7a4e33bd-29ce-4acf-89dd-836186a6df94-16884677051048c66c-0",
+        "template--19083534696792__7a4e33bd-29ce-4acf-89dd-836186a6df94-16884677051048c66c-1",
+        "template--19083534696792__7a4e33bd-29ce-4acf-89dd-836186a6df94-16884677051048c66c-2",
+        "template--19083534696792__7a4e33bd-29ce-4acf-89dd-836186a6df94-16884677051048c66c-3",
+        "template--19083534696792__7a4e33bd-29ce-4acf-89dd-836186a6df94-16884677051048c66c-4",
+        "template--19083534696792__7a4e33bd-29ce-4acf-89dd-836186a6df94-16884677051048c66c-5",
+        "template--19083534696792__7a4e33bd-29ce-4acf-89dd-836186a6df94-16884677051048c66c-6"
+      ],
+      "settings": {
+        "product": "tempur-ombracio-tyyny",
+        "color_scheme": "background-1",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "71d615b7-22de-4e9f-8499-fe4c692764f4": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "ALE – Tempur",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "ale-tempur",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "563efd05-65b6-47eb-b1f9-258cc656fe88": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "ALE – Matot ja sisustus",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "ale-matot-ja-sisustus-1",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "ab27db9d-3939-4d55-baf5-c4f75931734b": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Conform -20%",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "conform-tuotteet",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "ee1f2949-663f-4ae2-9f14-923d6e4bd1b7": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "ALE – Lundia",
+        "heading_size": "h1",
+        "description": "<p>Voimassa 23.7. asti.<\/p>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "lundia",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "9291b852-0fc7-4218-a3c0-cd2354fcecfe": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "ALE – Kaikki Rowicon tuotteet -20%",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "rowico",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "button_text": "lue lisää",
+        "color_scheme": "background-1"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "disabled": true,
+      "settings": {
+        "products_per_page": 12,
+        "columns_desktop": 4,
+        "image_ratio": "square",
+        "show_secondary_image": false,
+        "show_vendor": true,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "enable_filtering": true,
+        "filter_type": "horizontal",
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 0,
+        "padding_bottom": 36,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 52,
+        "change__pagination": "loadmore",
+        "load_more_text": "Load More products",
+        "shown_products": "products shown"
+      }
+    },
+    "seo-block": {
+      "type": "seo-block",
+      "settings": {
+        "padding_top": 100,
+        "padding_bottom": 0,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 0
+      }
+    },
+    "ea5628a9-88fc-414e-ba74-51323f42d771": {
+      "type": "about-newsletter",
+      "disabled": true,
+      "settings": {
+        "padding_top": 50,
+        "padding_bottom": 100,
+        "title": "Subscribe to our mailing list for newsletter exclusives",
+        "input_placeholder": "Enter your email",
+        "btn_text": "Subscribe"
+      }
+    },
+    "31462831-57f3-4254-a53f-88ae797fbf6e": {
+      "type": "featured-product",
+      "disabled": true,
+      "blocks": {
+        "template--19083534696792__31462831-57f3-4254-a53f-88ae797fbf6e-1686208268c8eff65b-0": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "template--19083534696792__31462831-57f3-4254-a53f-88ae797fbf6e-1686208268c8eff65b-1": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "template--19083534696792__31462831-57f3-4254-a53f-88ae797fbf6e-1686208268c8eff65b-2": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "template--19083534696792__31462831-57f3-4254-a53f-88ae797fbf6e-1686208268c8eff65b-3": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "template--19083534696792__31462831-57f3-4254-a53f-88ae797fbf6e-1686208268c8eff65b-4": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "template--19083534696792__31462831-57f3-4254-a53f-88ae797fbf6e-1686208268c8eff65b-5": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "template--19083534696792__31462831-57f3-4254-a53f-88ae797fbf6e-1686208268c8eff65b-6": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "template--19083534696792__31462831-57f3-4254-a53f-88ae797fbf6e-1686208268c8eff65b-0",
+        "template--19083534696792__31462831-57f3-4254-a53f-88ae797fbf6e-1686208268c8eff65b-1",
+        "template--19083534696792__31462831-57f3-4254-a53f-88ae797fbf6e-1686208268c8eff65b-2",
+        "template--19083534696792__31462831-57f3-4254-a53f-88ae797fbf6e-1686208268c8eff65b-3",
+        "template--19083534696792__31462831-57f3-4254-a53f-88ae797fbf6e-1686208268c8eff65b-4",
+        "template--19083534696792__31462831-57f3-4254-a53f-88ae797fbf6e-1686208268c8eff65b-5",
+        "template--19083534696792__31462831-57f3-4254-a53f-88ae797fbf6e-1686208268c8eff65b-6"
+      ],
+      "settings": {
+        "product": "pohjanmaan-aino-pinnatuoli-kkv",
+        "color_scheme": "background-1",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "114941d9-aed9-45f3-b22c-b374981555c6": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "template--15630143160420__114941d9-aed9-45f3-b22c-b374981555c6-1684992414076d080d-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<p>Talk about your brand<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--15630143160420__114941d9-aed9-45f3-b22c-b374981555c6-1684992414076d080d-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p><a><span style=\"text-decoration:underline\">10 kk koroton – 1000 €<\/span><\/a><\/p><p><em>Kampanjaluoton tyypillistä käyttöä kuvaava luotto 1000 €, maksuaika 10 kk. Luottokustannukset yhteensä 30 € (avausmaksu 0 €, korko 0 % ja kuukausikulu 3 €), todellinen vuosikorko 6,69 %. Kuluttajasuojalain mukainen luottohinta 1030 €. Kertalyhennyksen suuruus esimerkkilaskelmalla 103 €. Luotonmyöntäjä on Svea Bank AB (publ), Filial i Finland, Mechelininkatu 1a, 00180 Helsinki. Svea voi sopia myyjäliikkeen kanssa poikkeavista hinnoista.<\/em><\/p>"
+          }
+        },
+        "template--15630143160420__114941d9-aed9-45f3-b22c-b374981555c6-1684992414076d080d-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15630143160420__114941d9-aed9-45f3-b22c-b374981555c6-1684992414076d080d-0",
+        "template--15630143160420__114941d9-aed9-45f3-b22c-b374981555c6-1684992414076d080d-1",
+        "template--15630143160420__114941d9-aed9-45f3-b22c-b374981555c6-1684992414076d080d-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "dcb7c3e8-7630-4c81-9358-8bd9444f7543": {
+      "type": "collection-list",
+      "disabled": true,
+      "blocks": {
+        "template--19083534696792__dcb7c3e8-7630-4c81-9358-8bd9444f7543-1686208142ba10c74b-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "baaripoydat"
+          }
+        },
+        "template--19083534696792__dcb7c3e8-7630-4c81-9358-8bd9444f7543-1686208142ba10c74b-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "template--19083534696792__dcb7c3e8-7630-4c81-9358-8bd9444f7543-1686208142ba10c74b-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "jenkkisangyt"
+          }
+        },
+        "2b8a7af0-8cab-4049-a433-ace550de1cb4": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19083534696792__dcb7c3e8-7630-4c81-9358-8bd9444f7543-1686208142ba10c74b-0",
+        "template--19083534696792__dcb7c3e8-7630-4c81-9358-8bd9444f7543-1686208142ba10c74b-1",
+        "template--19083534696792__dcb7c3e8-7630-4c81-9358-8bd9444f7543-1686208142ba10c74b-2",
+        "2b8a7af0-8cab-4049-a433-ace550de1cb4"
+      ],
+      "settings": {
+        "title": "Collections",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "681cc2a2-0268-4186-b413-0bffd6085c5e",
+    "c618eb82-4f5d-4665-b38e-8fc9a1ad2a8b",
+    "987ca2e3-c6e0-4b8a-beb0-690dc0de3e09",
+    "146b1d89-c48b-4f77-b4d1-8c3c6f1a5437",
+    "70342be4-c348-4fc1-88c1-39ba0db95416",
+    "f7c73974-566d-4d28-bfe9-a8da295487eb",
+    "39b59852-0e85-43ff-b7ff-add258e7e0a4",
+    "0c8eb791-445b-43f1-92d9-a8668bf1df1a",
+    "cc87dcd7-9198-4b10-8d4b-68b78724e1aa",
+    "8596ee0e-1a9e-4bf5-b40a-6fd5c3f66e38",
+    "3ebcd76f-5270-4ccc-b8d1-2ac425174f1f",
+    "1cfc268c-9d8f-47e1-ae64-bff777bcba5e",
+    "7a4e33bd-29ce-4acf-89dd-836186a6df94",
+    "71d615b7-22de-4e9f-8499-fe4c692764f4",
+    "563efd05-65b6-47eb-b1f9-258cc656fe88",
+    "ab27db9d-3939-4d55-baf5-c4f75931734b",
+    "ee1f2949-663f-4ae2-9f14-923d6e4bd1b7",
+    "9291b852-0fc7-4218-a3c0-cd2354fcecfe",
+    "banner",
+    "product-grid",
+    "seo-block",
+    "ea5628a9-88fc-414e-ba74-51323f42d771",
+    "31462831-57f3-4254-a53f-88ae797fbf6e",
+    "114941d9-aed9-45f3-b22c-b374981555c6",
+    "dcb7c3e8-7630-4c81-9358-8bd9444f7543"
+  ]
+}

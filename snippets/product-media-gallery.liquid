@@ -52,6 +52,13 @@
         aria-label="{{ 'products.product.media.gallery_viewer' | t }}"
         data-desktop-layout="{{ section.settings.gallery_layout }}"
 >
+  {%- comment -%}Added by Heartcoding from Sale & Discount Manager{%- endcomment -%}
+{%- assign discount = 0 -%}
+{% assign selected_variant = product.selected_or_first_available_variant %}
+{%- if product.available and selected_variant.compare_at_price > selected_variant.price -%}
+{%- assign discount = selected_variant.compare_at_price | minus:selected_variant.price | times:100.0 | divided_by:selected_variant.compare_at_price | round %}
+{%- endif -%}
+<div style="position:relative;"><div class="hc-sale-tag hc-product-page" {% if discount == 0 %}style="display:none"{% endif %}><span>{{ discount }}%</span></div></div>
   <div id="GalleryStatus-{{ section.id }}" class="visually-hidden" role="status"></div>
   <slider-component id="GalleryViewer-{{ section.id }}{{ id_append }}" class="slider-mobile-gutter">
     {%- unless is_duplicate -%}

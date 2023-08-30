@@ -167,7 +167,7 @@
       "shipping_policy_html": "<a href=\"{{ link }}\">Toimituskulut<\/a> lasketaan kassalla.",
       "choose_options": "Valitse vaihtoehdot",
       "choose_product_options": "Valitse vaihtoehtoja tuotteelle {{ product_name }}",
-      "value_unavailable": "{{ option_value }} – Ei ole käytettävissä",
+      "value_unavailable": "{{ option_value }} - Ei käytettävissä",
       "variant_sold_out_or_unavailable": "Versio on loppuunmyyty tai ei saatavilla",
       "inventory_in_stock": "Varastossa",
       "inventory_in_stock_show_count": "{{ quantity }} varastossa",
@@ -469,7 +469,18 @@
     "checkout": {
       "delivery_options": {
         "ship": "Toimitus",
-        "pick_up": "Nouto"
+        "pick_up": "Nouto",
+        "pick_up_in_two_hours": " ",
+        "pick_up_in_four_hours": " ",
+        "pick_up_next_day": " ",
+        "pick_up_in_one_hour": " ",
+        "pick_up_in_twenty_four_hours": " ",
+        "pick_up_in_two_to_four_days": " ",
+        "pick_up_in_five_or_more_days": " ",
+        "pick_up_in_zero_to_two_hours": " ",
+        "pick_up_in_two_to_four_hours": " ",
+        "pick_up_immediately": " ",
+        "free_total_label": "Ilmainen toimitus"
       },
       "general": {
         "back_to_contact_information": "Palaa yhteystietoihin",
@@ -477,7 +488,25 @@
         "back_to_payment_method": "Palaa maksutavan valintaan"
       },
       "order_summary": {
-        "sale_price": "Ale"
+        "sale_price": "Ale",
+        "free_total_label": "Ilmainen toimitus"
+      },
+      "contact": {
+        "optional_phone_label": "Puhelin (saat SMS ilmoituksen toimituksesta)"
+      },
+      "stock": {
+        "sold_out_label": "Loppuunmyyty"
+      },
+      "throttle": {
+        "merchandise": {
+          "sold_out": "Loppuunmyyty"
+        }
+      },
+      "shipping": {
+        "free_rate_label": "Ilmainen toimitus"
+      },
+      "payment_summary": {
+        "free_label": "Ilmainen toimitus"
       }
     }
   }

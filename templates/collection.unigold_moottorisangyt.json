@@ -1,0 +1,144 @@
+{
+  "sections": {
+    "681cc2a2-0268-4186-b413-0bffd6085c5e": {
+      "type": "about-breadcrumbs",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": false,
+        "show_collection_image": false,
+        "button_text": "",
+        "color_scheme": "background-1"
+      }
+    },
+    "114941d9-aed9-45f3-b22c-b374981555c6": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15630143160420__114941d9-aed9-45f3-b22c-b374981555c6-1684992414076d080d-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<p>Tempur -20%<\/p>",
+            "heading_size": "h2"
+          }
+        },
+        "template--15630143160420__114941d9-aed9-45f3-b22c-b374981555c6-1684992414076d080d-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Saat 20% alennuksen automaattisesti kassalla koodilla TEMPUR-20 tuotteiden normaalihinnasta. Tarjous voimassa vain ma 26.6. klo 10 saakka.<\/p>"
+          }
+        },
+        "template--15630143160420__114941d9-aed9-45f3-b22c-b374981555c6-1684992414076d080d-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15630143160420__114941d9-aed9-45f3-b22c-b374981555c6-1684992414076d080d-0",
+        "template--15630143160420__114941d9-aed9-45f3-b22c-b374981555c6-1684992414076d080d-1",
+        "template--15630143160420__114941d9-aed9-45f3-b22c-b374981555c6-1684992414076d080d-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 12,
+        "columns_desktop": 4,
+        "image_ratio": "square",
+        "show_secondary_image": false,
+        "show_vendor": true,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "enable_filtering": true,
+        "filter_type": "horizontal",
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 0,
+        "padding_bottom": 36,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 52,
+        "change__pagination": "loadmore",
+        "load_more_text": "Lataa lisää",
+        "shown_products": "tuotetta ladattu"
+      }
+    },
+    "seo-block": {
+      "type": "seo-block",
+      "disabled": true,
+      "settings": {
+        "padding_top": 100,
+        "padding_bottom": 0,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 0
+      }
+    },
+    "ea5628a9-88fc-414e-ba74-51323f42d771": {
+      "type": "about-newsletter",
+      "disabled": true,
+      "settings": {
+        "padding_top": 50,
+        "padding_bottom": 100,
+        "title": "Subscribe to our mailing list for newsletter exclusives",
+        "input_placeholder": "Enter your email",
+        "btn_text": "Subscribe"
+      }
+    },
+    "60b9ca1b-9989-4761-96f9-66edc45053ab": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "Kaikki puutarhakalusteet -30%",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "puutarhakalusteet",
+        "products_to_show": 5,
+        "columns_desktop": 5,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "681cc2a2-0268-4186-b413-0bffd6085c5e",
+    "banner",
+    "114941d9-aed9-45f3-b22c-b374981555c6",
+    "product-grid",
+    "seo-block",
+    "ea5628a9-88fc-414e-ba74-51323f42d771",
+    "60b9ca1b-9989-4761-96f9-66edc45053ab"
+  ]
+}

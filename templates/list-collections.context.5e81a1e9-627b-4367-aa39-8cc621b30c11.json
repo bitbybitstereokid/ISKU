@@ -1,0 +1,13 @@
+{
+  "parent": "list-collections.json",
+  "context": {
+    "market": "5e81a1e9-627b-4367-aa39-8cc621b30c11"
+  },
+  "sections": {
+    "c73b5c85-1256-42be-827b-02fbe5e7d84c": {
+      "settings": {
+        "title": "Huonekaluja jokaiseen tilaan"
+      }
+    }
+  }
+}

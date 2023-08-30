@@ -1,0 +1,13 @@
+{
+  "parent": "footer-group.json",
+  "context": {
+    "market": "5e81a1e9-627b-4367-aa39-8cc621b30c11"
+  },
+  "sections": {
+    "footer": {
+      "settings": {
+        "newsletter_heading": "Tilaa uutiskirje"
+      }
+    }
+  }
+}

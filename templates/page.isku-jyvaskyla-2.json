@@ -1,0 +1,159 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "ce84ed92-7933-426a-9793-e6a959ab28f6": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19035766784344__ce84ed92-7933-426a-9793-e6a959ab28f6-1685440255840c5411-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>ISKU Jyväskylä<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--19035766784344__ce84ed92-7933-426a-9793-e6a959ab28f6-1685440255840c5411-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Isku Shop Jyväskylä  <br\/>Tourulantie 13  <br\/>40100 JYVÄSKYLÄ  <br\/>puh. 029 086 4900  <br\/>koti.jkl@isku.fi  <br\/><br\/>Aukioloajat:  <br\/>Ma-pe: 10 - 19  <br\/>La: 10 - 16  <br\/>Su: 12 - 16  <br\/><br\/>Noutovarasto avoinna  <br\/>Ma-pe: 10 - 18  <br\/><br\/>Tervetuloa Jyväskylän Iskuun Tourulaan! Ammattitaitoiset sisustusmyyjämme palvelevat teitä kalustevalinnoissa. Meillä on laaja sänkymallisto, ja sängyn valinnassa teitä opastaa koulutetut nukkumisergonomian asiantuntijat.<br\/><br\/>Iskun löydät osoitteesta Tourulantie 13. Pihassamme on ilmainen pysäköinti parkkikiekolla (2 tuntia). <\/p>"
+          }
+        },
+        "template--19035766784344__ce84ed92-7933-426a-9793-e6a959ab28f6-1685440255840c5411-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19035766784344__ce84ed92-7933-426a-9793-e6a959ab28f6-1685440255840c5411-0",
+        "template--19035766784344__ce84ed92-7933-426a-9793-e6a959ab28f6-1685440255840c5411-1",
+        "template--19035766784344__ce84ed92-7933-426a-9793-e6a959ab28f6-1685440255840c5411-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "7c9fcfef-ad60-49e2-a86e-820afb5c3fb9": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--18960932667736__7c9fcfef-ad60-49e2-a86e-820afb5c3fb9-1684169800ae4304ac-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/JPG_Keskisuuri_Ilkka_Viitanen_111115.jpg",
+            "title": "Ilkka Viitanen",
+            "text": "<p>Aluepäällikkö<\/p><p>029 086 3366<\/p>",
+            "link_label": "Email",
+            "link": "mailto:ilkka.viitanen@isku.fi"
+          }
+        },
+        "template--18960932667736__7c9fcfef-ad60-49e2-a86e-820afb5c3fb9-1684169800ae4304ac-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Teija_Friman.jpg",
+            "title": "Teija Friman",
+            "text": "<p>Sisustusmyyjä<br\/>029 086 4907<\/p>",
+            "link_label": "Email",
+            "link": "mailto:tommi.hagman@isku.fi"
+          }
+        },
+        "template--18960932667736__7c9fcfef-ad60-49e2-a86e-820afb5c3fb9-1684169800ae4304ac-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Markus_Pekkarinen.jpg",
+            "title": "Markus Pekkarinen",
+            "text": "<p>Sisustusmyyjä<\/p><p>029 086 4908<\/p>",
+            "link_label": "Email",
+            "link": "mailto:ville.levaniemi@isku.fi"
+          }
+        },
+        "11443aed-07f7-4174-9bb7-d290d20d1cef": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Vesa_Pienmaki_61498350-0735-44c6-87a9-cfe25c468dad.jpg",
+            "title": "Vesa Pienmäki",
+            "text": "<p>Sisustusmyyjä<\/p><p>029 086 4906<\/p>",
+            "link_label": "Email",
+            "link": "mailto:ilari.jaaskelainen@isku.com"
+          }
+        },
+        "7b5052af-ca4f-47c3-a88a-cdcd75cb537d": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Tero_Raatikainen.jpg",
+            "title": "Tero Raatikainen",
+            "text": "<p>Sisustusmyyjä<br\/>029 086 4909<\/p>",
+            "link_label": "Email",
+            "link": ""
+          }
+        },
+        "3f68feeb-5902-4903-bbe2-2caa01ea25da": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mirella_Virtanen.jpg",
+            "title": "Mirella Virtanen",
+            "text": "<p>Sisustusmyyjä, sisustusarkkitehti<br\/>050 400 1724<\/p>",
+            "link_label": "Email",
+            "link": ""
+          }
+        },
+        "9c17c02f-cb9c-4870-88be-2523eee52914": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Taija_Purhonen.jpg",
+            "title": "Taija Purhonen",
+            "text": "<p>Aluejohtaja<br\/>029 086 3376<\/p>",
+            "link_label": "Email",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18960932667736__7c9fcfef-ad60-49e2-a86e-820afb5c3fb9-1684169800ae4304ac-2",
+        "template--18960932667736__7c9fcfef-ad60-49e2-a86e-820afb5c3fb9-1684169800ae4304ac-0",
+        "template--18960932667736__7c9fcfef-ad60-49e2-a86e-820afb5c3fb9-1684169800ae4304ac-1",
+        "11443aed-07f7-4174-9bb7-d290d20d1cef",
+        "7b5052af-ca4f-47c3-a88a-cdcd75cb537d",
+        "3f68feeb-5902-4903-bbe2-2caa01ea25da",
+        "9c17c02f-cb9c-4870-88be-2523eee52914"
+      ],
+      "settings": {
+        "title": "Palveluksessasi",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "ce84ed92-7933-426a-9793-e6a959ab28f6",
+    "7c9fcfef-ad60-49e2-a86e-820afb5c3fb9"
+  ]
+}

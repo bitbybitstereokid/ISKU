@@ -2,6 +2,15 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
+    "abfe9ee3-bc13-45fb-9a46-b9b25830021e": {
+      "type": "hero-banner-slider",
+      "disabled": true,
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 50,
+        "content_color": "#ffffff"
+      }
+    },
     "footer": {
       "type": "footer",
       "blocks": {
@@ -13,7 +22,7 @@
             "custom_newsletter_richtext": "",
             "custom_services": "ASIAKASPALVELU",
             "custom_phone": "+358 29 309 3000",
-            "custom_work": "ma - pe 9 - 17",
+            "custom_work": "ma–pe 9–16 (29.9. saakka)",
             "custom_email": "asiakaspalvelu@isku.com",
             "menu_first_title": "ISKU",
             "menu_first": "footer-menufirst-column",
@@ -52,6 +61,7 @@
     }
   },
   "order": [
+    "abfe9ee3-bc13-45fb-9a46-b9b25830021e",
     "footer"
   ]
 }

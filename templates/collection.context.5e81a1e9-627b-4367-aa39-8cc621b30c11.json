@@ -1,0 +1,21 @@
+{
+  "parent": "collection.json",
+  "context": {
+    "market": "5e81a1e9-627b-4367-aa39-8cc621b30c11"
+  },
+  "sections": {
+    "product-grid": {
+      "settings": {
+        "load_more_text": "Lataa lisää",
+        "shown_products": "Näytetään tuotteita"
+      }
+    },
+    "ea5628a9-88fc-414e-ba74-51323f42d771": {
+      "settings": {
+        "title": "Tilaa uutiskirjeemme",
+        "input_placeholder": "Sähköposti",
+        "btn_text": "Tilaa uutiskirje"
+      }
+    }
+  }
+}

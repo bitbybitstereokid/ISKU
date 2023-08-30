@@ -1,0 +1,344 @@
+{
+  "sections": {
+    "a6bceb62-6840-4bc3-bee3-326aa14d7e4c": {
+      "type": "about-breadcrumbs",
+      "settings": {
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "2afe51da-b9b0-4327-b31c-e2facff45b8a": {
+          "type": "vendor",
+          "settings": {
+            "not_show_vendor": "Isku Stage"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "53ed3f72-94d3-420d-baf2-69154d976b21": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Juhannusfestarit: Lundia -20%. Saat alennuksen automaattisesti kassalla koodilla LUNDIA-20",
+            "text_style": "subtitle"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "dropdown"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "fba36353-130f-4347-9596-a85023d7b93a": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Pitkän viikonlopun alennukset voimassa vielä:",
+            "text_style": "subtitle"
+          }
+        },
+        "fa3e8d00-0d19-4d03-954a-5354eab3d3c4": {
+          "type": "custom_liquid",
+          "disabled": true,
+          "settings": {
+            "custom_liquid": "<tbody>\n    <tr>\n      <td><img src=\"https:\/\/gen.sendtric.com\/countdown\/mqo7ese6wv\" style=\"display: block;max-width:100%;\" \/><\/td>\n    <\/tr>\n  <\/tbody>"
+          }
+        },
+        "d5d76b23-c270-46e6-ab01-a2acac1f9252": {
+          "type": "icon-with-text",
+          "disabled": true,
+          "settings": {
+            "icon_1": "<svg width=\"25\" height=\"25\" viewbox=\"0 0 25 25\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<g clip-path=\"url(#clip0_3931_2785)\">\n<path d=\"M21.4639 19.4208C21.0402 19.4211 20.626 19.2957 20.2736 19.0606C19.9212 18.8255 19.6465 18.4911 19.4841 18.0998C19.3218 17.7085 19.2791 17.2778 19.3616 16.8623C19.4441 16.4467 19.6479 16.065 19.9474 15.7653C20.2468 15.4656 20.6284 15.2615 21.0439 15.1787C21.4594 15.096 21.8901 15.1383 22.2815 15.3003C22.673 15.4624 23.0075 15.7369 23.2429 16.0891C23.4783 16.4413 23.604 16.8555 23.604 17.2791C23.6037 17.8468 23.3782 18.3911 22.9769 18.7926C22.5757 19.1942 22.0315 19.4201 21.4639 19.4208ZM21.4639 15.9187C21.1947 15.9184 20.9316 15.9979 20.7076 16.1472C20.4837 16.2965 20.3091 16.5089 20.2059 16.7574C20.1027 17.006 20.0755 17.2796 20.1278 17.5436C20.1802 17.8076 20.3096 18.0501 20.4998 18.2405C20.69 18.4309 20.9324 18.5607 21.1963 18.6133C21.4603 18.6659 21.7339 18.639 21.9826 18.5361C22.2312 18.4332 22.4438 18.2588 22.5933 18.0351C22.7429 17.8113 22.8227 17.5482 22.8227 17.2791C22.8226 16.9186 22.6794 16.5729 22.4247 16.3179C22.1699 16.0628 21.8244 15.9193 21.4639 15.9187ZM10.1779 19.4208C9.75426 19.4212 9.33999 19.2959 8.98752 19.0609C8.63505 18.8258 8.36022 18.4914 8.1978 18.1001C8.03539 17.7088 7.99268 17.2782 8.07508 16.8626C8.15748 16.447 8.36129 16.0652 8.66072 15.7655C8.96016 15.4657 9.34176 15.2616 9.75726 15.1788C10.1728 15.096 10.6035 15.1382 10.9949 15.3003C11.3864 15.4623 11.721 15.7368 11.9564 16.0891C12.1919 16.4413 12.3175 16.8554 12.3175 17.2791C12.3171 17.8466 12.0916 18.3908 11.6905 18.7923C11.2894 19.1938 10.7454 19.4198 10.1779 19.4208ZM10.1779 15.9187C9.90878 15.9183 9.64555 15.9977 9.42156 16.147C9.19756 16.2962 9.02287 16.5085 8.91959 16.7571C8.8163 17.0056 8.78906 17.2792 8.84132 17.5432C8.89357 17.8073 9.02298 18.0499 9.21315 18.2403C9.40333 18.4308 9.64572 18.5606 9.90968 18.6132C10.1736 18.6659 10.4473 18.6391 10.696 18.5362C10.9447 18.4333 11.1573 18.2589 11.3068 18.0351C11.4564 17.8114 11.5363 17.5483 11.5363 17.2791C11.536 16.9188 11.3929 16.5732 11.1382 16.3182C10.8836 16.0632 10.5383 15.9195 10.1779 15.9187Z\" fill=\"black\"><\/path>\n<path d=\"M24.2811 17.6698H23.2128C23.1092 17.6698 23.0099 17.6286 22.9366 17.5554C22.8634 17.4821 22.8222 17.3828 22.8222 17.2792C22.8222 17.1756 22.8634 17.0762 22.9366 17.0029C23.0099 16.9297 23.1092 16.8885 23.2128 16.8885H24.1706V14.8172C24.1704 14.5371 24.0987 14.2618 23.9623 14.0172L21.8477 10.226C21.8297 10.1937 21.8033 10.1667 21.7713 10.148C21.7394 10.1292 21.703 10.1193 21.6659 10.1193H18.7842V16.8901H19.7144C19.818 16.8901 19.9173 16.9313 19.9906 17.0045C20.0639 17.0778 20.105 17.1771 20.105 17.2807C20.105 17.3843 20.0639 17.4837 19.9906 17.5569C19.9173 17.6302 19.818 17.6713 19.7144 17.6713H18.3936C18.29 17.6713 18.1906 17.6302 18.1173 17.5569C18.0441 17.4837 18.0029 17.3843 18.0029 17.2807V9.72864C18.0029 9.62504 18.0441 9.52568 18.1173 9.45242C18.1906 9.37917 18.29 9.33801 18.3936 9.33801H21.6659C21.8422 9.33793 22.0152 9.3849 22.1672 9.47409C22.3192 9.56327 22.4446 9.69142 22.5305 9.8453L24.6446 13.637C24.8456 13.9979 24.9512 14.4041 24.9514 14.8172V16.9995C24.9511 17.1772 24.8804 17.3475 24.7547 17.4731C24.6291 17.5988 24.4587 17.6695 24.2811 17.6698ZM8.42793 17.6698H4.68262C4.57902 17.6698 4.47966 17.6286 4.4064 17.5554C4.33315 17.4821 4.29199 17.3828 4.29199 17.2792V14.275C4.29199 14.1714 4.33315 14.072 4.4064 13.9988C4.47966 13.9255 4.57902 13.8844 4.68262 13.8844C4.78622 13.8844 4.88557 13.9255 4.95883 13.9988C5.03209 14.072 5.07324 14.1714 5.07324 14.275V16.8885H8.42793C8.53153 16.8885 8.63089 16.9297 8.70414 17.0029C8.7774 17.0762 8.81856 17.1756 8.81856 17.2792C8.81856 17.3828 8.7774 17.4821 8.70414 17.5554C8.63089 17.6286 8.53153 17.6698 8.42793 17.6698ZM4.68262 12.8891C4.57902 12.8891 4.47966 12.8479 4.4064 12.7746C4.33315 12.7014 4.29199 12.602 4.29199 12.4984V9.87551C4.29199 9.77191 4.33315 9.67256 4.4064 9.5993C4.47966 9.52604 4.57902 9.48489 4.68262 9.48489C4.78622 9.48489 4.88557 9.52604 4.95883 9.5993C5.03209 9.67256 5.07324 9.77191 5.07324 9.87551V12.5C5.07283 12.6033 5.03149 12.7023 4.95828 12.7752C4.88507 12.8481 4.78595 12.8891 4.68262 12.8891Z\" fill=\"black\"><\/path>\n<path d=\"M18.394 17.6698H11.9268C11.8232 17.6698 11.7239 17.6286 11.6506 17.5554C11.5774 17.4821 11.5362 17.3827 11.5362 17.2791C11.5362 17.1755 11.5774 17.0762 11.6506 17.0029C11.7239 16.9297 11.8232 16.8885 11.9268 16.8885H18.0034V6.66925H5.0737V8.2781C5.0737 8.3817 5.03254 8.48106 4.95929 8.55432C4.88603 8.62757 4.78667 8.66873 4.68307 8.66873C4.57947 8.66873 4.48012 8.62757 4.40686 8.55432C4.3336 8.48106 4.29245 8.3817 4.29245 8.2781V6.59738C4.29272 6.40923 4.36762 6.22888 4.50071 6.09589C4.63379 5.9629 4.8142 5.88814 5.00234 5.888H18.0753C18.2633 5.88828 18.4436 5.9631 18.5766 6.09608C18.7095 6.22905 18.7844 6.40932 18.7846 6.59738V17.2791C18.7846 17.3827 18.7435 17.4821 18.6702 17.5554C18.597 17.6286 18.4976 17.6698 18.394 17.6698ZM6.22734 14.6656H1.26953C1.16593 14.6656 1.06657 14.6244 0.993318 14.5512C0.920061 14.4779 0.878906 14.3786 0.878906 14.275C0.878906 14.1714 0.920061 14.072 0.993318 13.9988C1.06657 13.9255 1.16593 13.8844 1.26953 13.8844H6.22734C6.33094 13.8844 6.4303 13.9255 6.50356 13.9988C6.57681 14.072 6.61797 14.1714 6.61797 14.275C6.61797 14.3786 6.57681 14.4779 6.50356 14.5512C6.4303 14.6244 6.33094 14.6656 6.22734 14.6656Z\" fill=\"black\"><\/path>\n<path d=\"M10.1777 12.889H3.25944C3.15584 12.889 3.05648 12.8479 2.98323 12.7746C2.90997 12.7013 2.86882 12.602 2.86882 12.4984C2.86882 12.3948 2.90997 12.2954 2.98323 12.2222C3.05648 12.1489 3.15584 12.1078 3.25944 12.1078H10.1777C10.2813 12.1078 10.3806 12.1489 10.4539 12.2222C10.5271 12.2954 10.5683 12.3948 10.5683 12.4984C10.5683 12.602 10.5271 12.7013 10.4539 12.7746C10.3806 12.8479 10.2813 12.889 10.1777 12.889ZM3.04434 10.8265H0.342773C0.239173 10.8265 0.139816 10.7854 0.0665599 10.7121C-0.00669655 10.6388 -0.0478516 10.5395 -0.0478516 10.4359C-0.0478516 10.3323 -0.00669655 10.2329 0.0665599 10.1597C0.139816 10.0864 0.239173 10.0453 0.342773 10.0453H3.04434C3.14794 10.0453 3.24729 10.0864 3.32055 10.1597C3.39381 10.2329 3.43496 10.3323 3.43496 10.4359C3.43496 10.5395 3.39381 10.6388 3.32055 10.7121C3.24729 10.7854 3.14794 10.8265 3.04434 10.8265ZM7.37611 8.6687H2.60736C2.50376 8.6687 2.4044 8.62755 2.33114 8.55429C2.25789 8.48103 2.21673 8.38168 2.21673 8.27808C2.21673 8.17448 2.25789 8.07512 2.33114 8.00186C2.4044 7.92861 2.50376 7.88745 2.60736 7.88745H7.37611C7.47971 7.88745 7.57906 7.92861 7.65232 8.00186C7.72558 8.07512 7.76673 8.17448 7.76673 8.27808C7.76673 8.38168 7.72558 8.48103 7.65232 8.55429C7.57906 8.62755 7.47971 8.6687 7.37611 8.6687Z\" fill=\"black\"><\/path>\n<\/g>\n<defs>\n<clippath id=\"clip0_3931_2785\">\n<rect width=\"25\" height=\"25\" fill=\"white\"><\/rect>\n<\/clippath>\n<\/defs>\n<\/svg>",
+            "heading_1": "ilmainen palautus 14pv",
+            "icon_2": "<svg width=\"25\" height=\"25\" viewbox=\"0 0 25 25\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<g clip-path=\"url(#clip0_3931_2782)\">\n<path d=\"M24.9753 17.8573C24.8331 16.3935 24.0835 15.0613 22.8649 14.1061C22.3949 13.7377 21.8611 13.4298 21.2725 13.1845V6.58465C21.2725 6.51608 21.2544 6.44871 21.2201 6.38933C21.1859 6.32995 21.1365 6.28064 21.0771 6.24636L10.8315 0.331081C10.7722 0.296797 10.7048 0.278748 10.6362 0.278748C10.5677 0.278748 10.5003 0.296797 10.4409 0.331081L0.195312 6.24636C0.135925 6.28064 0.0866086 6.32995 0.0523232 6.38933C0.0180378 6.44871 -8.15503e-06 6.51608 2.76461e-09 6.58465V18.4153C-8.15503e-06 18.4838 0.0180378 18.5512 0.0523232 18.6106C0.0866086 18.67 0.135925 18.7193 0.195312 18.7535L10.4409 24.6688C10.5003 24.7031 10.5677 24.7212 10.6362 24.7212C10.7048 24.7212 10.7722 24.7031 10.8315 24.6688L21.0771 18.7535C21.1561 18.7077 21.2164 18.6357 21.2477 18.55C21.5142 18.8939 21.6988 19.2793 21.7859 19.6856C22.1081 21.1865 21.1374 22.6457 19.2527 23.4938C19.1712 23.5305 19.1048 23.5939 19.0645 23.6737C19.0242 23.7534 19.0124 23.8445 19.0311 23.9318C19.0498 24.0192 19.0979 24.0974 19.1674 24.1536C19.2368 24.2098 19.3234 24.2405 19.4127 24.2407C19.4376 24.2407 19.4629 24.2383 19.4882 24.2333C21.2964 23.8784 22.7764 23.0372 23.7681 21.8006C24.6829 20.6599 25.1116 19.2595 24.9753 17.8573ZM10.6362 12.0489L7.78027 10.4L17.2446 4.93577L20.1006 6.58465L10.6362 12.0489ZM4.80903 8.6846L14.2734 3.22034L16.4634 4.48474L6.99902 9.949L4.80903 8.6846ZM6.60845 10.6256L6.6084 14.3821L4.41846 13.1178L4.41841 9.36116L6.60845 10.6256ZM10.6362 1.12044L13.4921 2.76931L4.02778 8.23352L1.17188 6.58465L10.6362 1.12044ZM0.78125 7.26126L3.63716 8.91013L3.63721 13.3433C3.6372 13.4119 3.65524 13.4792 3.68953 13.5386C3.72382 13.598 3.77313 13.6473 3.83252 13.6816L6.80371 15.397C6.86309 15.4312 6.93045 15.4493 6.99902 15.4493C7.06759 15.4493 7.13495 15.4312 7.19433 15.397C7.25371 15.3627 7.30303 15.3134 7.33731 15.254C7.3716 15.1946 7.38965 15.1272 7.38965 15.0587L7.3897 11.0766L10.2456 12.7255V23.654L0.78125 18.1898V7.26126ZM11.0269 23.654V12.7255L20.4912 7.26126V12.9056C19.6788 12.6606 18.782 12.5204 17.8187 12.4907V11.2274C17.8187 11.153 17.7975 11.0803 17.7576 11.0175C17.7177 10.9548 17.6608 10.9048 17.5934 10.8734C17.5261 10.8419 17.4511 10.8303 17.3774 10.84C17.3037 10.8496 17.2343 10.8801 17.1773 10.9278L12.6613 14.7076C12.6159 14.7456 12.5797 14.7935 12.5555 14.8475C12.5313 14.9016 12.5197 14.9604 12.5216 15.0196C12.5235 15.0788 12.5389 15.1368 12.5665 15.1892C12.5941 15.2416 12.6332 15.2871 12.681 15.3221L17.197 18.6353C17.2552 18.6781 17.3241 18.7038 17.3961 18.7098C17.4681 18.7157 17.5403 18.7016 17.6047 18.6689C17.6691 18.6363 17.7232 18.5864 17.761 18.5249C17.7988 18.4634 17.8188 18.3926 17.8187 18.3204V17.0071C18.8532 17.0627 19.7619 17.3409 20.465 17.8203C20.474 17.8264 20.4824 17.8328 20.4913 17.839V18.1898L11.0269 23.654ZM21.823 22.5058C21.9185 22.3813 22.0069 22.2516 22.0878 22.1173C22.5792 21.3005 22.739 20.403 22.5499 19.5217C22.3511 18.5957 21.767 17.7622 20.905 17.1747C19.9844 16.5471 18.782 16.2154 17.4281 16.2154C17.3245 16.2154 17.2251 16.2566 17.1519 16.3298C17.0786 16.4031 17.0375 16.5024 17.0375 16.606V17.5492L13.5448 14.9868L17.0375 12.0636V12.8753C17.0375 12.9789 17.0786 13.0782 17.1519 13.1515C17.2251 13.2247 17.3245 13.2659 17.4281 13.2659C22.0901 13.2659 23.9885 15.7799 24.1978 17.9327C24.3511 19.5104 23.6326 21.3484 21.823 22.5058Z\" fill=\"black\"><\/path>\n<\/g>\n<defs>\n<clippath id=\"clip0_3931_2782\">\n<rect width=\"25\" height=\"25\" fill=\"white\"><\/rect>\n<\/clippath>\n<\/defs>\n<\/svg>",
+            "heading_2": "Ilmainen toimitus",
+            "icon_3": "",
+            "heading_3": ""
+          }
+        },
+        "08c3b544-25e0-4fb7-ad19-7cdd7c00f8ae": {
+          "type": "wishlist-and-chat",
+          "settings": {
+            "wishlist_text": "Lisää suosikkeihin",
+            "chat_icon": "<svg width=\"30\" height=\"30\" viewbox=\"0 0 30 30\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\"><g clip-path=\"url(#clip0_484_3868)\"><path d=\"M26.667 5H3.33366C2.89163 5 2.46771 5.17559 2.15515 5.48816C1.84259 5.80072 1.66699 6.22464 1.66699 6.66667V23.3333C1.66699 23.7754 1.84259 24.1993 2.15515 24.5118C2.46771 24.8244 2.89163 25 3.33366 25H26.667C27.109 25 27.5329 24.8244 27.8455 24.5118C28.1581 24.1993 28.3337 23.7754 28.3337 23.3333V6.66667C28.3337 6.22464 28.1581 5.80072 27.8455 5.48816C27.5329 5.17559 27.109 5 26.667 5ZM25.3837 23.3333H4.71699L10.5503 17.3L9.35033 16.1417L3.33366 22.3667V7.93333L13.692 18.2417C14.0043 18.5521 14.4267 18.7263 14.867 18.7263C15.3073 18.7263 15.7297 18.5521 16.042 18.2417L26.667 7.675V22.2583L20.5337 16.125L19.3587 17.3L25.3837 23.3333ZM4.42533 6.66667H25.317L14.867 17.0583L4.42533 6.66667Z\" fill=\"#1A1919\"><\/path><\/g><defs><clippath id=\"clip0_484_3868\"><rect width=\"30\" height=\"30\" fill=\"white\"><\/rect><\/clippath><\/defs><\/svg>",
+            "chat_text": "Kysy lisää"
+          }
+        },
+        "0dd2c139-d779-473f-9d18-33a54573ef44": {
+          "type": "lowest_price",
+          "settings": {
+            "text": "30 päivän alin hinta:",
+            "text_start": ""
+          }
+        },
+        "10ad2495-f841-446a-990a-6d62483b318a": {
+          "type": "delivery-info",
+          "settings": {
+            "delivery_time_lable": "Toimitusaika:",
+            "delivery_time_text1": "6-8 viikkoa",
+            "delivery_time_text2": "6-8 viikkoa",
+            "delivery_price_lable": "",
+            "delivery_price_text": "5,99€",
+            "delivery_status_lable": "Saatavuus:",
+            "delivery_status_text1": "Varastossa",
+            "delivery_status_text2": "Loppu varastosta"
+          }
+        },
+        "a98d107f-9e81-4331-b1ef-0b9029d00918": {
+          "type": "brands",
+          "settings": {
+            "not_show_vendor": "Isku Stage"
+          }
+        },
+        "52369498-8776-41fd-b7d9-b0a2dc043439": {
+          "type": "shopify:\/\/apps\/fast-bundle-product-bundles\/blocks\/all_bundles\/9e87fbe2-9041-4c23-acf5-322413994cef",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "a87d3c0c-321b-47f8-a93a-efe2e4913ee1": {
+          "type": "shopify:\/\/apps\/fast-bundle-product-bundles\/blocks\/fbt_position\/9e87fbe2-9041-4c23-acf5-322413994cef",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "dd9726de-2ac5-4429-8217-767b72f783b0": {
+          "type": "shopify:\/\/apps\/fast-bundle-product-bundles\/blocks\/product_bundles\/9e87fbe2-9041-4c23-acf5-322413994cef",
+          "settings": {
+          }
+        },
+        "0345ac45-a8d3-4374-8f71-5b94983a326c": {
+          "type": "shopify:\/\/apps\/fast-bundle-product-bundles\/blocks\/product_bundle_with_ids\/9e87fbe2-9041-4c23-acf5-322413994cef",
+          "settings": {
+            "bundle_ids": "",
+            "products": [
+
+            ]
+          }
+        },
+        "bf457eaa-0904-4922-9914-48817f3ad606": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "* Alennus lasketaan tuotteen normaalihinnasta ja koskee ainoastaan uusia kauppoja\/tilauksia. Juhannusfestivaalit 26.6. klo 10 saakka.",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "2afe51da-b9b0-4327-b31c-e2facff45b8a",
+        "title",
+        "53ed3f72-94d3-420d-baf2-69154d976b21",
+        "price",
+        "variant_picker",
+        "quantity_selector",
+        "fba36353-130f-4347-9596-a85023d7b93a",
+        "fa3e8d00-0d19-4d03-954a-5354eab3d3c4",
+        "d5d76b23-c270-46e6-ab01-a2acac1f9252",
+        "08c3b544-25e0-4fb7-ad19-7cdd7c00f8ae",
+        "0dd2c139-d779-473f-9d18-33a54573ef44",
+        "10ad2495-f841-446a-990a-6d62483b318a",
+        "a98d107f-9e81-4331-b1ef-0b9029d00918",
+        "52369498-8776-41fd-b7d9-b0a2dc043439",
+        "a87d3c0c-321b-47f8-a93a-efe2e4913ee1",
+        "dd9726de-2ac5-4429-8217-767b72f783b0",
+        "0345ac45-a8d3-4374-8f71-5b94983a326c",
+        "bf457eaa-0904-4922-9914-48817f3ad606"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "thumbnail_slider",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "mobile_thumbnails": "show",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "manufacture_finland": "shopify:\/\/shop_images\/Desing_219560e5-3725-4467-a1fa-14d6b148e292.jpg",
+        "manufacture_finland_2": "shopify:\/\/shop_images\/avainlippu-sininen.png",
+        "manufacture_finland_3": "shopify:\/\/shop_images\/telegram-cloud-photo-size-2-5449441839762492738-m.jpg",
+        "padding_top": 36,
+        "padding_bottom": 12,
+        "popup_title": "Yhteydenottolomake",
+        "popup_cross": "",
+        "popup_name": "Nimi",
+        "popup_email": "Email",
+        "popup_phone": "Puhelin",
+        "popup_message": "Viestisi",
+        "popup_submit": "Lähetä",
+        "return_text": "Haluan ilmaisen vanhan sängyn poisviennin",
+        "return_tag": "UNIGOLDSANGYT"
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
+    "93a16e45-03c8-4faa-afcc-7bc32dece52d": {
+      "type": "product-highlights",
+      "blocks": {
+        "0308fb3d-3e71-48a7-a30d-c26f11385a9f": {
+          "type": "highlight",
+          "disabled": true,
+          "source": "{{ product.metafields.custom.product_highligts.value }}",
+          "settings": {
+            "label": "{{ product.metafields.custom.product_highligts.value.highlight_label_1.value }}",
+            "content": "{{ product.metafields.custom.product_highligts.value.highlight_text_1 | metafield_tag }}"
+          }
+        },
+        "62e43251-7c38-4791-af4e-5efc7c5079e2": {
+          "type": "highlight",
+          "disabled": true,
+          "source": "{{ product.metafields.custom.product_highligts.value }}",
+          "settings": {
+            "label": "{{ product.metafields.custom.product_highligts.value.highlight_label_1.value }}",
+            "content": "{{ product.metafields.custom.product_highligts.value.highlight_text_1 | metafield_tag }}"
+          }
+        },
+        "2876d941-77ce-4286-abef-34c5c05a79f9": {
+          "type": "highlight",
+          "disabled": true,
+          "source": "{{ product.metafields.custom.product_highligts.value }}",
+          "settings": {
+            "label": "{{ product.metafields.custom.product_highligts.value.highlight_label_1.value }}",
+            "content": "{{ product.metafields.custom.product_highligts.value.highlight_text_1 | metafield_tag }}"
+          }
+        }
+      },
+      "block_order": [
+        "0308fb3d-3e71-48a7-a30d-c26f11385a9f",
+        "62e43251-7c38-4791-af4e-5efc7c5079e2",
+        "2876d941-77ce-4286-abef-34c5c05a79f9"
+      ],
+      "settings": {
+        "padding_top": 100,
+        "padding_bottom": 100,
+        "image": "shopify:\/\/shop_images\/Rectangle_4_3.png",
+        "main_text": "",
+        "text_kuvas": "Kuvaus",
+        "text_mitatt": "Tuotteen mitat",
+        "text_lisatiedot": "Lisätiedot",
+        "text_mitat": "PAKKAUKSEN MITAT",
+        "text_paino": "PAKKAUKSEN PAINO",
+        "text_ladattavat": "Ladattavat tiedostot",
+        "text_btn_download": "See more"
+      }
+    },
+    "8db35396-c85e-486d-aaf2-8eb8623b292a": {
+      "type": "buy-too-pdp-section",
+      "disabled": true,
+      "settings": {
+        "title": "Osta myös",
+        "in_stock_text": "Varastossa",
+        "out_stock_text": "loppu varastosta",
+        "btn_text": "Osta",
+        "btn_out_stock_text": "Loppuunmyyty"
+      }
+    },
+    "98ad94fe-8e64-42b5-bdfb-4488ca9c10da": {
+      "type": "product-recomendations-slider",
+      "settings": {
+        "title": "Voit olla myös kiinnostunut näistä",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "product_list_limit": 10,
+        "intent": "related"
+      }
+    },
+    "507436a0-5691-43ad-baeb-505a62237dd4": {
+      "type": "about-newsletter",
+      "settings": {
+        "padding_top": 25,
+        "padding_bottom": 100,
+        "title": "Tilaa uutiskirjeemme - tiedät ensimmäisenä uutuuksistamme ja tarjouksistamme",
+        "input_placeholder": "Sähköpostiosoitteesi",
+        "btn_text": "TILAA UUTISKIRJE"
+      }
+    },
+    "c7bc1e7f-a34e-42b0-9e72-8b15ca1bdd6e": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15630143389796__c7bc1e7f-a34e-42b0-9e72-8b15ca1bdd6e-16854553912cf90aeb-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<p>Talk about your brand<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--15630143389796__c7bc1e7f-a34e-42b0-9e72-8b15ca1bdd6e-16854553912cf90aeb-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>* Alennus lasketaan tuotteen normaalihinnasta ja koskee ainoastaan uusia kauppoja\/tilauksia. Verkkokaupan avajaiset kampanja 4.6. saakka.<\/p>"
+          }
+        },
+        "template--15630143389796__c7bc1e7f-a34e-42b0-9e72-8b15ca1bdd6e-16854553912cf90aeb-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15630143389796__c7bc1e7f-a34e-42b0-9e72-8b15ca1bdd6e-16854553912cf90aeb-0",
+        "template--15630143389796__c7bc1e7f-a34e-42b0-9e72-8b15ca1bdd6e-16854553912cf90aeb-1",
+        "template--15630143389796__c7bc1e7f-a34e-42b0-9e72-8b15ca1bdd6e-16854553912cf90aeb-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "a6bceb62-6840-4bc3-bee3-326aa14d7e4c",
+    "main",
+    "related-products",
+    "93a16e45-03c8-4faa-afcc-7bc32dece52d",
+    "8db35396-c85e-486d-aaf2-8eb8623b292a",
+    "98ad94fe-8e64-42b5-bdfb-4488ca9c10da",
+    "507436a0-5691-43ad-baeb-505a62237dd4",
+    "c7bc1e7f-a34e-42b0-9e72-8b15ca1bdd6e"
+  ]
+}

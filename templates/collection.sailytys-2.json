@@ -1,0 +1,264 @@
+{
+  "sections": {
+    "681cc2a2-0268-4186-b413-0bffd6085c5e": {
+      "type": "about-breadcrumbs",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": false,
+        "show_collection_image": false,
+        "button_text": "lue lisää",
+        "color_scheme": "background-1"
+      }
+    },
+    "025783c2-84f1-4921-a7a9-7f4dd238bcc3": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15630143160420__025783c2-84f1-4921-a7a9-7f4dd238bcc3-1686232806be2be802-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Juhannusfestareiden suosikkituote<\/p>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--15630143160420__025783c2-84f1-4921-a7a9-7f4dd238bcc3-1686232806be2be802-0"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "52e766a9-464b-4a13-b04c-da1f670692bd": {
+      "type": "featured-product",
+      "disabled": true,
+      "blocks": {
+        "template--19157961703768__52e766a9-464b-4a13-b04c-da1f670692bd-1687383314d3853740-0": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "template--19157961703768__52e766a9-464b-4a13-b04c-da1f670692bd-1687383314d3853740-1": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "template--19157961703768__52e766a9-464b-4a13-b04c-da1f670692bd-1687383314d3853740-2": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "template--19157961703768__52e766a9-464b-4a13-b04c-da1f670692bd-1687383314d3853740-3": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "template--19157961703768__52e766a9-464b-4a13-b04c-da1f670692bd-1687383314d3853740-4": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "template--19157961703768__52e766a9-464b-4a13-b04c-da1f670692bd-1687383314d3853740-5": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "template--19157961703768__52e766a9-464b-4a13-b04c-da1f670692bd-1687383314d3853740-6": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "template--19157961703768__52e766a9-464b-4a13-b04c-da1f670692bd-1687383314d3853740-0",
+        "template--19157961703768__52e766a9-464b-4a13-b04c-da1f670692bd-1687383314d3853740-1",
+        "template--19157961703768__52e766a9-464b-4a13-b04c-da1f670692bd-1687383314d3853740-2",
+        "template--19157961703768__52e766a9-464b-4a13-b04c-da1f670692bd-1687383314d3853740-3",
+        "template--19157961703768__52e766a9-464b-4a13-b04c-da1f670692bd-1687383314d3853740-4",
+        "template--19157961703768__52e766a9-464b-4a13-b04c-da1f670692bd-1687383314d3853740-5",
+        "template--19157961703768__52e766a9-464b-4a13-b04c-da1f670692bd-1687383314d3853740-6"
+      ],
+      "settings": {
+        "product": "pohjanmaan-aino-pinnatuoli-kkv",
+        "color_scheme": "background-1",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
+    },
+    "aa14a068-d66f-4bab-943b-d90f7fc0c897": {
+      "type": "rich-text",
+      "blocks": {
+        "583b0af0-bdf9-4755-865a-cc5de9618e90": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Juhannusfestarit:<\/strong> Saat 20% alennuksen automaattisesti kassalla  normaalihintaisista tuotteista. Kampanja voimassa vain ma 26.6. klo 10 saakka. (Huom! Rowicon alennus on laskettu jo tuotekortilla)<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "583b0af0-bdf9-4755-865a-cc5de9618e90"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 12,
+        "columns_desktop": 4,
+        "image_ratio": "square",
+        "show_secondary_image": false,
+        "show_vendor": true,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "enable_filtering": true,
+        "filter_type": "horizontal",
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 0,
+        "padding_bottom": 36,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 52,
+        "change__pagination": "loadmore",
+        "load_more_text": "Lataa lisää",
+        "shown_products": "tuotetta ladattu"
+      }
+    },
+    "seo-block": {
+      "type": "seo-block",
+      "settings": {
+        "padding_top": 100,
+        "padding_bottom": 0,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 0
+      }
+    },
+    "ea5628a9-88fc-414e-ba74-51323f42d771": {
+      "type": "about-newsletter",
+      "disabled": true,
+      "settings": {
+        "padding_top": 50,
+        "padding_bottom": 100,
+        "title": "Subscribe to our mailing list for newsletter exclusives",
+        "input_placeholder": "Enter your email",
+        "btn_text": "Subscribe"
+      }
+    },
+    "60b9ca1b-9989-4761-96f9-66edc45053ab": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "Kaikki puutarhakalusteet -30%",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "puutarhakalusteet",
+        "products_to_show": 5,
+        "columns_desktop": 5,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "114941d9-aed9-45f3-b22c-b374981555c6": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "template--15630143160420__114941d9-aed9-45f3-b22c-b374981555c6-1684992414076d080d-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<p>Tervetuloa kesäjuhlille!<br\/>Suuret kesäjuhlat ovat startanneet ISKUissa kautta maan ja juuri sinut on kutsuttu mukaan! Kesäjuhlilta löydät huikeita tarjouksia aina terassille, puutarhaan tai mökin sisustamiseen. Miksipäs et nappaisi myös löytöjä kotisi freesaamiseen uusilla sisustuselementeillä?<br\/>Kesäjuhlien tarjoukset ovat voimassa 19.6.2023 saakka. Lämpimästi tervetuloa mukaan!<\/p>",
+            "heading_size": "h2"
+          }
+        },
+        "template--15630143160420__114941d9-aed9-45f3-b22c-b374981555c6-1684992414076d080d-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p><a><span style=\"text-decoration:underline\">10 kk koroton – 1000 €<\/span><\/a><\/p><p><em>Kampanjaluoton tyypillistä käyttöä kuvaava luotto 1000 €, maksuaika 10 kk. Luottokustannukset yhteensä 30 € (avausmaksu 0 €, korko 0 % ja kuukausikulu 3 €), todellinen vuosikorko 6,69 %. Kuluttajasuojalain mukainen luottohinta 1030 €. Kertalyhennyksen suuruus esimerkkilaskelmalla 103 €. Luotonmyöntäjä on Svea Bank AB (publ), Filial i Finland, Mechelininkatu 1a, 00180 Helsinki. Svea voi sopia myyjäliikkeen kanssa poikkeavista hinnoista.<\/em><\/p>"
+          }
+        },
+        "template--15630143160420__114941d9-aed9-45f3-b22c-b374981555c6-1684992414076d080d-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15630143160420__114941d9-aed9-45f3-b22c-b374981555c6-1684992414076d080d-0",
+        "template--15630143160420__114941d9-aed9-45f3-b22c-b374981555c6-1684992414076d080d-1",
+        "template--15630143160420__114941d9-aed9-45f3-b22c-b374981555c6-1684992414076d080d-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "681cc2a2-0268-4186-b413-0bffd6085c5e",
+    "banner",
+    "025783c2-84f1-4921-a7a9-7f4dd238bcc3",
+    "52e766a9-464b-4a13-b04c-da1f670692bd",
+    "aa14a068-d66f-4bab-943b-d90f7fc0c897",
+    "product-grid",
+    "seo-block",
+    "ea5628a9-88fc-414e-ba74-51323f42d771",
+    "60b9ca1b-9989-4761-96f9-66edc45053ab",
+    "114941d9-aed9-45f3-b22c-b374981555c6"
+  ]
+}
