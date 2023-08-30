@@ -179,9 +179,7 @@
         "popup_email": "Email",
         "popup_phone": "Puhelin",
         "popup_message": "Viestisi",
-        "popup_submit": "Lähetä",
-        "return_text": "Haluan ilmaisen vanhan sängyn poisviennin",
-        "return_tag": "UNIGOLDSANGYT"
+        "popup_submit": "Lähetä"
       }
     },
     "related-products": {
@@ -254,7 +252,6 @@
     },
     "8db35396-c85e-486d-aaf2-8eb8623b292a": {
       "type": "buy-too-pdp-section",
-      "disabled": true,
       "settings": {
         "title": "Osta myös",
         "in_stock_text": "Varastossa",
