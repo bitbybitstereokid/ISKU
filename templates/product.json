@@ -181,7 +181,7 @@
       "type": "related-products",
       "disabled": true,
       "settings": {
-        "hide_fetched_section": true,
+        "hide_fetched_section": false,
         "heading": "You may also like",
         "heading_size": "h2",
         "products_to_show": 4,
